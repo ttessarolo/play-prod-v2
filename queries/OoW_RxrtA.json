@@ -1,0 +1,252 @@
+{
+  "title": "Query Similar Intrattenimento Stesso Brand",
+  "description": "Stesso Brand\n",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "YMaH2tPZC"
+    },
+    {
+      "id": "KukwdwFDvb"
+    }
+  ],
+  "exclude": [
+    {
+      "id": "uB1vEod_9"
+    }
+  ],
+  "include": [
+    {
+      "id": "BIZvf_IY2c"
+    },
+    {
+      "id": "fAswzMIfc"
+    }
+  ],
+  "boost": [
+    {
+      "id": "d2xM8JomBl"
+    },
+    {
+      "id": "V0o_Ar6Kt",
+      "overides": {
+        "QP40QdmIJ": {
+          "boost": 10
+        }
+      }
+    },
+    {
+      "id": "SYrAp4NDd"
+    }
+  ],
+  "order": [],
+  "realm": "content",
+  "presets": {
+    "filter": [
+      {
+        "id": "TuAyi0elu"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "ZRorAbL96Q"
+      }
+    ]
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "YMaH2tPZC",
+          "KukwdwFDvb",
+          "uB1vEod_9",
+          "BIZvf_IY2c",
+          "fAswzMIfc",
+          "d2xM8JomBl",
+          "V0o_Ar6Kt",
+          "SYrAp4NDd"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "TuAyi0elu",
+          "ZRorAbL96Q"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "hr9EobplH",
+          "n8ux7oE5U",
+          "wMHusuT7W"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1,
+    "mustOperator": "or"
+  },
+  "id": "OoW_RxrtA",
+  "version": 13,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2023-01-09T10:10:14.265Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "hr9EobplH",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 10,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 8,
+          "items": [
+            {
+              "id": "YMaH2tPZC",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "KukwdwFDvb",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "uB1vEod_9",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "BIZvf_IY2c",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "fAswzMIfc",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "d2xM8JomBl",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "V0o_Ar6Kt",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "SYrAp4NDd",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 2,
+          "items": [
+            {
+              "id": "TuAyi0elu",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "zFmF5zQpRG",
+              "type": "rulesPresets",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "uselessMultiplier": false,
+  "metadataOverrides": {
+    "fAswzMIfc": {
+      "content_similar": {
+        "required": true,
+        "output": "video_similar_ids_same_clip",
+        "numResults": 50,
+        "metadata": {
+          "included": [
+            "id_series_se",
+            "editorial_type=(Clip) OR (Extra)",
+            "content_channels"
+          ]
+        },
+        "date": {
+          "range": 18,
+          "period": "M",
+          "field": "publication_date",
+          "absolute": true
+        },
+        "fingerprint": {
+          "matchFields": [
+            "fingerprint"
+          ]
+        }
+      }
+    },
+    "BIZvf_IY2c": {
+      "content_similar": {
+        "required": true,
+        "output": "video_similar_ids_same_fep",
+        "numResults": 50,
+        "metadata": {
+          "included": [
+            "editorial_type=Full Episode",
+            "id_series_se",
+            "content_channels"
+          ],
+          "excluded": [
+            "subbrand_id",
+            "codice_prodotto_padre"
+          ]
+        },
+        "date": {
+          "range": 18,
+          "period": "M",
+          "field": "publication_date",
+          "absolute": true
+        },
+        "fingerprint": {
+          "matchFields": [
+            "fingerprint"
+          ]
+        },
+        "groupby": {
+          "metadata": "subbrand_id",
+          "results": 1,
+          "sortMetadata": "",
+          "sortDirection": "asc"
+        }
+      }
+    }
+  }
+}

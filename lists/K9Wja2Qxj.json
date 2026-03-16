@@ -1,0 +1,43 @@
+{
+  "title": "List Subbrand ID per TG e SportMediaset",
+  "description": "9910595|9913781|9900597|9890596|9870324|16070630",
+  "type": "contentId",
+  "contentType": "video",
+  "realm": "content",
+  "elements": [
+    "9910595",
+    "9913781",
+    "9900597",
+    "9890596",
+    "9870324",
+    "16070630"
+  ],
+  "id": "K9Wja2Qxj",
+  "version": 2,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2022-12-14T15:30:14.240Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "rules",
+        "items": [
+          "tLcSMlWrR"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  }
+}

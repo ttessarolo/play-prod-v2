@@ -1,0 +1,51 @@
+{
+  "title": "List Tipologia Fiction Intrattenimento",
+  "description": "",
+  "contentType": "video",
+  "type": "text",
+  "elements": [
+    "Fiction",
+    "Intrattenimento"
+  ],
+  "id": "Edi3CO2MD",
+  "version": 8,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2023-05-09T16:55:28.120Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "rules",
+        "items": [
+          "yfsxbUFAS"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "rules",
+          "count": 1,
+          "items": [
+            {
+              "id": "yfsxbUFAS",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  },
+  "realm": "content"
+}

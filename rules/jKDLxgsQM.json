@@ -1,0 +1,95 @@
+{
+  "title": "Rule Smart Block Film Storie vere",
+  "description": "",
+  "contentType": "video",
+  "clauses": [
+    "filter"
+  ],
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "conditionRaw": {
+        "and": [
+          {
+            "id": "kuqamvnw_E",
+            "operator": "*",
+            "values": [
+              {
+                "type": "metadata",
+                "value": ""
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ]
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "Ricostruzione libera di fatti reali",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "messainscena_sub",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "BV4P03I69",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "field": "tecnicarealizzazione",
+  "metadata": {
+    "content": false
+  },
+  "scheduled": false,
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "NHBn8poSz"
+        ]
+      }
+    ]
+  },
+  "id": "jKDLxgsQM",
+  "version": 4,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-07-19T13:37:54.600Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 1,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "scheduling": [],
+  "schedulingMap": [],
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": [],
+  "realm": "content"
+}

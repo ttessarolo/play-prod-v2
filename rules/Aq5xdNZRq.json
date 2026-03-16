@@ -1,0 +1,87 @@
+{
+  "title": "Rule Boost Last 24h Videoviews over 400",
+  "description": "",
+  "contentType": "video",
+  "clauses": [
+    "boost"
+  ],
+  "rule": [
+    {
+      "greaterOperator": "gte",
+      "API": "V2",
+      "condition": "*",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "I2I",
+      "value": "400",
+      "valueType": "freeText",
+      "queryType": "greaterValue",
+      "field": "last24h_videoviews",
+      "fieldDBType": "long",
+      "_id": "KLZEQSo2L"
+    }
+  ],
+  "field": "last24h_videoviews",
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": []
+      }
+    ]
+  },
+  "id": "Aq5xdNZRq",
+  "version": 4,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-06-16T11:24:07.990Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 1,
+          "items": [
+            {
+              "id": "xmIlupiAS",
+              "type": "queries",
+              "title": "Query Default Search Stagioni"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 1,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": [],
+  "realm": "content"
+}

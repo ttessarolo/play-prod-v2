@@ -1,0 +1,31 @@
+{
+  "title": "PLAY-PROD-SUGGESTIONS",
+  "description": "",
+  "contentType": "search_suggestions",
+  "fields": [
+    "title",
+    "id",
+    "subType",
+    "count",
+    "type"
+  ],
+  "realm": "content",
+  "id": "DnMli8Kysf",
+  "version": 1,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2023-06-14T13:35:33.927Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "cm0HUZdFi",
+          "V5z2yG9rk",
+          "Ro_dys0WN"
+        ]
+      }
+    ]
+  }
+}

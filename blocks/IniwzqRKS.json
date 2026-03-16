@@ -1,0 +1,191 @@
+{
+  "refs": {
+    "require": [
+      {
+        "type": "queries",
+        "items": [
+          "z4MPOa9pk",
+          "PLoyvOPfa",
+          "GlYZ7gHyu"
+        ]
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "P0csRsOt7"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": [
+          "eOaXizx_"
+        ]
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 5,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 3,
+          "items": [
+            {
+              "id": "z4MPOa9pk",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "PLoyvOPfa",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "GlYZ7gHyu",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "P0csRsOt7",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 1,
+          "items": [
+            {
+              "id": "eOaXizx_",
+              "type": "responseFields",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "results": {
+    "flatAllBlocks": true,
+    "min": 0,
+    "fallbackBlockId": "P0csRsOt7",
+    "max": 50,
+    "deduplicateFlattedResults": true
+  },
+  "blocks": [
+    {
+      "_id": "FSHDn7a_nE",
+      "condition": "*",
+      "title": "Film e serie di genere primario",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 3,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "fallbackBlockId": "P0csRsOt7",
+        "skipOnEmpty": true
+      },
+      "queryId": "z4MPOa9pk"
+    },
+    {
+      "_id": "CcqaUYpRX",
+      "condition": "*",
+      "title": "Serie TV",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 3,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true,
+        "shuffleItems": false
+      },
+      "queryId": "PLoyvOPfa"
+    },
+    {
+      "_id": "jODaD1Yfb",
+      "condition": "*",
+      "title": "Film e serie di genere",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 50,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true
+      },
+      "queryId": "GlYZ7gHyu"
+    }
+  ],
+  "title": "INF Multiple block Film e serie di genere ",
+  "description": "Non personalizzato",
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "realm": "content",
+  "id": "IniwzqRKS",
+  "version": 12,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2022-11-09T15:35:33.324Z"
+  }
+}

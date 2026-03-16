@@ -1,0 +1,92 @@
+{
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "CGFfVq3sX",
+          "ZsxcVJ4cb",
+          "wwG2hSMIC",
+          "zzovQgZgg"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "title": "Rule Tipologia Cartoni Editorial type Serie",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "Cartoni",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "tipologia",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "iJx6ti7Wx3"
+    },
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "Serie",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "editorial_type",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "FmD5qr2dq"
+    }
+  ],
+  "clauses": [
+    "filter",
+    "exclude"
+  ],
+  "grouped": true,
+  "operator": "and",
+  "id": "YYr4yqieS",
+  "version": 1,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2024-01-25T11:23:56.954Z"
+  }
+}

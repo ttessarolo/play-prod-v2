@@ -1,0 +1,227 @@
+{
+  "id": "ZbrvJF5p3",
+  "propertyId": "zlqQNxLcGh",
+  "title": "Variante B",
+  "description": "Please Edit description for Page \"Default\"",
+  "enabledPagesId": [
+    "WLJ1q62zT"
+  ],
+  "isPage": true,
+  "blocks": [
+    {
+      "id": "mGnSscyz_a",
+      "condition": "*",
+      "title": "Film in evidenza",
+      "type": "nested",
+      "layout": {
+        "i": "mGnSscyz_a",
+        "x": 0,
+        "y": 1,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true,
+        "skipOnEmpty": true
+      },
+      "blockId": "WR4SfBv86",
+      "viewAll": {
+        "siteMapped": false,
+        "id": "q92sG36gh",
+        "reference": "viewAllCluster"
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        }
+      }
+    },
+    {
+      "id": "QutuVfm9sJ",
+      "condition": "*",
+      "title": "Film in evidenza",
+      "type": "nested",
+      "layout": {
+        "i": "QutuVfm9sJ",
+        "x": 0,
+        "y": 2,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true,
+        "skipOnEmpty": true
+      },
+      "blockId": "iKWRoYdsL",
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H",
+        "siteMapped": true
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        }
+      }
+    }
+  ],
+  "version": 11,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2023-09-21T15:57:58.225Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "endpoints",
+        "items": []
+      }
+    ],
+    "require": [
+      {
+        "type": "queries",
+        "items": []
+      },
+      {
+        "type": "endpoints",
+        "items": [
+          "q92sG36gh",
+          "WXsJUgBAp"
+        ]
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "HC5Rkj77s",
+          "WR4SfBv86",
+          "iKWRoYdsL"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "WLJ1q62zT",
+              "type": "endpoints",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 5,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "endpoints",
+          "count": 2,
+          "items": [
+            {
+              "id": "q92sG36gh",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "WXsJUgBAp",
+              "type": "endpoints",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "blocks",
+          "count": 3,
+          "items": [
+            {
+              "id": "HC5Rkj77s",
+              "type": "blocks"
+            },
+            {
+              "id": "WR4SfBv86",
+              "type": "blocks"
+            },
+            {
+              "id": "iKWRoYdsL",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "layout": [
+    {
+      "i": "mGnSscyz_a",
+      "x": 0,
+      "y": 1,
+      "w": 12,
+      "h": 30,
+      "blocks": []
+    },
+    {
+      "i": "QutuVfm9sJ",
+      "x": 0,
+      "y": 2,
+      "w": 12,
+      "h": 30,
+      "blocks": []
+    }
+  ],
+  "results": {
+    "fallbackBlockId": "HC5Rkj77s",
+    "fullSubstituteFallback": true,
+    "min": "1"
+  }
+}

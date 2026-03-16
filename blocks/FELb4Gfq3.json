@@ -1,0 +1,509 @@
+{
+  "id": "FELb4Gfq3",
+  "propertyId": "zlqQNxLcGh",
+  "title": "Multiple Block Fiction SerieTv",
+  "description": "Please Edit description for Page \"Default\"",
+  "enabledPagesId": [
+    "jj72aKvoC"
+  ],
+  "isPage": true,
+  "blocks": [
+    {
+      "id": "evHVQWWES",
+      "condition": "*",
+      "title": "Azione e Avventura",
+      "type": "nested",
+      "layout": {
+        "i": "evHVQWWES",
+        "x": 0,
+        "y": 1,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "mJLlAulE5U",
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H",
+        "siteMapped": true
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Azione,Avventura"
+        }
+      },
+      "pinned": true
+    },
+    {
+      "id": "a21KeIXqq",
+      "condition": "*",
+      "title": "Drammatico",
+      "type": "nested",
+      "layout": {
+        "i": "a21KeIXqq",
+        "x": 0,
+        "y": 3,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "mJLlAulE5U",
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H",
+        "siteMapped": true
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Drammatico"
+        }
+      },
+      "pinned": true
+    },
+    {
+      "id": "vMthw4NO5",
+      "condition": "*",
+      "title": "Sentimentale e Soap",
+      "type": "nested",
+      "layout": {
+        "i": "vMthw4NO5",
+        "w": 12,
+        "h": 30
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "mJLlAulE5U",
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H",
+        "siteMapped": true
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Soap opera,Sentimentale"
+        }
+      },
+      "pinned": true
+    },
+    {
+      "id": "Pp1VWE_Qe",
+      "condition": "*",
+      "title": "Medical Legal",
+      "type": "nested",
+      "layout": {
+        "i": "Pp1VWE_Qe",
+        "w": 12,
+        "h": 30
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "mJLlAulE5U",
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Medical,Legal"
+        }
+      },
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H",
+        "siteMapped": true
+      },
+      "pinned": true
+    },
+    {
+      "id": "Udpk51IXL",
+      "condition": "*",
+      "title": "Sit-Com",
+      "type": "nested",
+      "layout": {
+        "i": "Udpk51IXL",
+        "x": 0,
+        "y": 6,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "mJLlAulE5U",
+      "viewAll": {
+        "siteMapped": true,
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H"
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Sit Com"
+        }
+      },
+      "pinned": true
+    },
+    {
+      "id": "TusNMNlGP",
+      "condition": "*",
+      "title": "Biografico",
+      "type": "nested",
+      "layout": {
+        "i": "TusNMNlGP",
+        "x": 0,
+        "y": 7,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "mJLlAulE5U",
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H",
+        "siteMapped": true
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Biografico"
+        }
+      },
+      "pinned": true
+    },
+    {
+      "id": "QodSkQAmw",
+      "condition": "*",
+      "title": "Commedia",
+      "type": "nested",
+      "layout": {
+        "i": "QodSkQAmw",
+        "w": 12,
+        "h": 30
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "mJLlAulE5U",
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H",
+        "siteMapped": true
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Commedia,Comico"
+        }
+      },
+      "pinned": true
+    },
+    {
+      "id": "NMePxs3bCm",
+      "condition": "*",
+      "title": "Crime",
+      "type": "nested",
+      "layout": {
+        "i": "NMePxs3bCm",
+        "x": 0,
+        "y": 151,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "mJLlAulE5U",
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H",
+        "siteMapped": true
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Poliziesco,Crime"
+        }
+      },
+      "pinned": true
+    },
+    {
+      "id": "o5pgSwSYJ",
+      "condition": "*",
+      "title": "In costume",
+      "type": "nested",
+      "layout": {
+        "i": "o5pgSwSYJ",
+        "x": 0,
+        "y": 152,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "mJLlAulE5U",
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H",
+        "siteMapped": true
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "In Costume"
+        }
+      },
+      "pinned": true
+    }
+  ],
+  "version": 25,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-03-25T15:19:43.769Z"
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "queries",
+        "items": []
+      },
+      {
+        "type": "endpoints",
+        "items": [
+          "WXsJUgBAp"
+        ]
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "Rc1YEkVxO",
+          "mJLlAulE5U"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "endpoints",
+        "items": [
+          "jj72aKvoC"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "jj72aKvoC",
+              "type": "endpoints",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 3,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "WXsJUgBAp",
+              "type": "endpoints",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "blocks",
+          "count": 2,
+          "items": [
+            {
+              "id": "Rc1YEkVxO",
+              "type": "blocks"
+            },
+            {
+              "id": "mJLlAulE5U",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "layout": [
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 0,
+      "i": "evHVQWWES",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 31,
+      "i": "a21KeIXqq",
+      "moved": true,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 60,
+      "i": "vMthw4NO5",
+      "moved": true,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 90,
+      "i": "Pp1VWE_Qe",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 120,
+      "i": "Udpk51IXL",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 150,
+      "i": "TusNMNlGP",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 180,
+      "i": "QodSkQAmw",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 210,
+      "i": "NMePxs3bCm",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 240,
+      "i": "o5pgSwSYJ",
+      "moved": false,
+      "static": false
+    }
+  ],
+  "results": {
+    "smartOrderBlocks": false,
+    "contentType": "video",
+    "userContentType": "unified",
+    "event": "watched",
+    "perUserBasisType": "video_historical_fingerprint",
+    "fallbackBlockId": "Rc1YEkVxO",
+    "fullSubstituteFallback": true
+  },
+  "fullSubstituteFallback": true
+}

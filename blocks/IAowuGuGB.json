@@ -1,0 +1,162 @@
+{
+  "refs": {
+    "require": [
+      {
+        "type": "queries",
+        "items": [
+          "lsb9o6aj_v"
+        ]
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "P0csRsOt7"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": [
+          "eOaXizx_"
+        ]
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "JjaawRIpD"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "pages",
+          "count": 1,
+          "items": [
+            {
+              "variantId": "JjaawRIpD",
+              "propertyId": "rrjMTUmyqd",
+              "propertyTitle": "",
+              "endpointId": "Y_T1DSbZ9",
+              "endpointTitle": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 3,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 1,
+          "items": [
+            {
+              "id": "lsb9o6aj_v",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "P0csRsOt7",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 1,
+          "items": [
+            {
+              "id": "eOaXizx_",
+              "type": "responseFields",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "results": {
+    "flatAllBlocks": true,
+    "min": 1,
+    "fallbackBlockId": "P0csRsOt7",
+    "max": 50
+  },
+  "blocks": [
+    {
+      "_id": "La5GCtEo8M",
+      "condition": "*",
+      "title": "SRC Search Gratis per te Video",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 50,
+        "min": 1,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "fallbackBlockId": "P0csRsOt7"
+      },
+      "queryId": "lsb9o6aj_v"
+    }
+  ],
+  "title": "SRC Search Gratis per te Video",
+  "description": "",
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "realm": "content",
+  "id": "IAowuGuGB",
+  "version": 5,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2023-01-24T14:40:34.983Z"
+  }
+}

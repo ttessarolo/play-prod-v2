@@ -1,0 +1,143 @@
+{
+  "title": "Query Stagioni Fiction Infinity e MPlay",
+  "description": "Query Stagioni Fiction Infinity ordinati per Più visti",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "MrtMAYnbZ"
+    },
+    {
+      "id": "q4YApM928H"
+    },
+    {
+      "id": "KdgZfZ_wm"
+    }
+  ],
+  "exclude": [],
+  "include": [],
+  "boost": [],
+  "order": [
+    {
+      "id": "A5n475YeR"
+    }
+  ],
+  "realm": "content",
+  "presets": {
+    "filter": [
+      {
+        "id": "ur0WldwQk"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "KhQ3IziFJ"
+      }
+    ]
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "MrtMAYnbZ",
+          "q4YApM928H",
+          "KdgZfZ_wm",
+          "A5n475YeR"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "ur0WldwQk",
+          "KhQ3IziFJ"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": []
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "id": "Z5PVWp8fG",
+  "version": 11,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2022-12-13T14:48:15.179Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "dXArl1iGk",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 6,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 4,
+          "items": [
+            {
+              "id": "MrtMAYnbZ",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "q4YApM928H",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "KdgZfZ_wm",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "A5n475YeR",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 2,
+          "items": [
+            {
+              "id": "ur0WldwQk",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "KhQ3IziFJ",
+              "type": "rulesPresets",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "metadataOverrides": {},
+  "uselessMultiplier": false
+}

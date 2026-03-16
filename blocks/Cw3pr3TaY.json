@@ -1,0 +1,188 @@
+{
+  "refs": {
+    "require": [
+      {
+        "type": "queries",
+        "items": [
+          "vsTj9ViKs",
+          "CGFfVq3sX"
+        ]
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "P0csRsOt7"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": [
+          "LBxQrHpqX",
+          "eOaXizx_"
+        ]
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "l086tIljZ"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "pages",
+          "count": 1,
+          "items": [
+            {
+              "variantId": "l086tIljZ",
+              "propertyId": "rrjMTUmyqd",
+              "propertyTitle": "",
+              "endpointId": "Y_T1DSbZ9",
+              "endpointTitle": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 5,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 2,
+          "items": [
+            {
+              "id": "vsTj9ViKs",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "CGFfVq3sX",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "P0csRsOt7",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 2,
+          "items": [
+            {
+              "id": "LBxQrHpqX",
+              "type": "responseFields",
+              "title": ""
+            },
+            {
+              "id": "eOaXizx_",
+              "type": "responseFields",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "results": {
+    "flatAllBlocks": true,
+    "min": 1,
+    "fallbackBlockId": "P0csRsOt7",
+    "max": 50
+  },
+  "blocks": [
+    {
+      "_id": "jUGkSkMtk",
+      "condition": "*",
+      "title": "Search Item Link",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 30,
+        "min": 0,
+        "contentType": "link",
+        "responseFieldsId": "LBxQrHpqX"
+      },
+      "queryId": "vsTj9ViKs"
+    },
+    {
+      "_id": "HdI0m5bZkX",
+      "condition": "*",
+      "title": "SRC Search Serie e Movie",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 50,
+        "min": 1,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "fallbackBlockId": "P0csRsOt7"
+      },
+      "queryId": "CGFfVq3sX"
+    }
+  ],
+  "title": "SRC Search Serie e Movie",
+  "description": ".",
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "realm": "content",
+  "id": "Cw3pr3TaY",
+  "version": 7,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2023-03-29T15:57:38.680Z"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "title": "LINK:CONTENT",
+  "description": "Loader for link onboarding",
+  "tokens": [
+    "H4sIAAAAAAAAA6tWyslMUbJS8gn0rsxPKSgJClbSUSrJKwEKFeQkVuoWFOWn6JYZAQXzy%2FOAgh6uAR6uwSGhIGWpFQVAESMDY2NdA0NdI%2BMQIwMrEzMrA3M9YwvLKKCCxGSgOdFK5UBmChCXKsXWAgDLPFZNcAAAAA%3D%3D"
+  ],
+  "active": true,
+  "queue": "play-prod-v2:link:ingress",
+  "index": "play-prod-v2_link_v1",
+  "idField": "id",
+  "refs": {
+    "require": [
+      {
+        "type": "labels",
+        "items": [
+          "wvWb0c63u"
+        ]
+      }
+    ],
+    "belongs": []
+  },
+  "id": "LQKyodptRS",
+  "version": 5,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2025-03-21T11:27:35.187Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "labels",
+          "count": 1,
+          "items": [
+            {
+              "id": "wvWb0c63u",
+              "type": "labels",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "label": "ddQongIHWN",
+  "retry": {
+    "active": true,
+    "token": "H4sIAAAAAAAAA6tWyslMUbJS8gn0rsxPKSgJClbSUSrJKwEKFeQkVuoWFOWn6JYZAQXzy%2FOAgo5BriAVqRUFQI6xgYGBrqGRrrFBiJGxlYEBEOkBhaKAChKTgUZEK5UDmSlAXArERSAaJFChFFsLAL%2B%2Bh%2Fh4AAAA",
+    "checkFutureDate": true
+  }
+}

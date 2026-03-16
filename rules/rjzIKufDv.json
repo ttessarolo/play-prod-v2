@@ -1,0 +1,116 @@
+{
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "wro9hPaFUB"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 1,
+          "items": [
+            {
+              "id": "wro9hPaFUB",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "title": "Rule similar suggestions",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "keepOrder": true,
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "video_similar_ids_suggestions",
+      "valueType": "metadata",
+      "queryType": "ids",
+      "field": "video_content_id",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "NeyHPndiQ7"
+    }
+  ],
+  "clauses": [
+    "include"
+  ],
+  "metadata": {
+    "content_similar": {
+      "required": true,
+      "output": "video_similar_ids_suggestions",
+      "metadata": {
+        "included": [
+          "tipologia",
+          "editorial_type",
+          "content_channels"
+        ]
+      },
+      "fingerprint": {
+        "matchFields": [
+          "fingerprint",
+          "keyword"
+        ]
+      },
+      "groupby": {
+        "metadata": "id_series_se",
+        "results": 3,
+        "sortMetadata": "",
+        "sortDirection": "asc"
+      },
+      "date": {
+        "range": 5,
+        "period": "y",
+        "field": "annoproduzione"
+      }
+    }
+  },
+  "id": "rjzIKufDv",
+  "version": 3,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2023-06-14T15:49:58.186Z"
+  }
+}

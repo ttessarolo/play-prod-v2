@@ -1,0 +1,138 @@
+{
+  "id": "LmVH6swTlz",
+  "propertyId": "rrjMTUmyqd",
+  "title": "Default",
+  "description": "Please Edit description for Page \"Default\"",
+  "enabledPagesId": [
+    "Qe5vfjYTV"
+  ],
+  "isPage": true,
+  "blocks": [
+    {
+      "id": "BJnjWMt4C",
+      "condition": "*",
+      "title": "New Block [0]",
+      "type": "nested",
+      "layout": {
+        "i": "BJnjWMt4C",
+        "x": 0,
+        "y": 1,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "P0csRsOt7"
+    }
+  ],
+  "version": 2,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2022-11-24T17:07:25.045Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "endpoints",
+        "items": []
+      }
+    ],
+    "require": [
+      {
+        "type": "queries",
+        "items": []
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "P0csRsOt7"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 1,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "P0csRsOt7",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "layout": [
+    {
+      "i": "BJnjWMt4C",
+      "x": 0,
+      "y": 1,
+      "w": 12,
+      "h": 30,
+      "blocks": []
+    }
+  ]
+}

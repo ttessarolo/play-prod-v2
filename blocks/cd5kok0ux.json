@@ -1,0 +1,150 @@
+{
+  "title": "Block Person To Content Homepage",
+  "description": "Al momento non è raccomandata",
+  "results": {
+    "flatAllBlocks": true,
+    "min": 0,
+    "max": 30,
+    "fallbackBlockId": "P0csRsOt7"
+  },
+  "blocks": [
+    {
+      "condition": "*",
+      "title": "Person To Content Homepage",
+      "type": "query",
+      "_id": "hPT17JZNZ7",
+      "pinned": true,
+      "results": {
+        "max": 30,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "fallbackBlockId": "P0csRsOt7"
+      },
+      "queryId": "ZBDFPdp2L",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      }
+    }
+  ],
+  "canBeFallback": 0,
+  "refs": {
+    "require": [
+      {
+        "type": "queries",
+        "items": [
+          "ZBDFPdp2L"
+        ]
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "P0csRsOt7"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": [
+          "eOaXizx_"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "DpOQyZDgw"
+        ]
+      }
+    ]
+  },
+  "id": "cd5kok0ux",
+  "version": 7,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-03-29T11:30:43.558Z"
+  },
+  "enabledPagesId": [
+    "U0WrVkcN6",
+    "Rj1_1Ldtp",
+    "wa7CTFrKM",
+    "wSapSXMZL",
+    "v8HBDVt48",
+    "XBJpXgG8U"
+  ],
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 2,
+      "items": [
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "DpOQyZDgw",
+              "type": "blocks",
+              "title": "Default"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 2,
+      "types": 4,
+      "items": [
+        {
+          "type": "queries",
+          "count": 1,
+          "items": [
+            {
+              "id": "ZBDFPdp2L",
+              "type": "queries",
+              "title": "Query Person To Content Homepage"
+            }
+          ]
+        },
+        {
+          "type": "blocks",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 1,
+          "items": [
+            {
+              "id": "eOaXizx_",
+              "type": "responseFields",
+              "title": "PLAY-PROD-VIDEO-MINIMAL-SET"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

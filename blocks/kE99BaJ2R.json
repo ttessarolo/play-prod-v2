@@ -1,0 +1,171 @@
+{
+  "refs": {
+    "require": [
+      {
+        "type": "queries",
+        "items": [
+          "MvBEHiAgy",
+          "ahVkQ5zxC"
+        ]
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "P0csRsOt7"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": [
+          "eOaXizx_"
+        ]
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "uF8fwo1mt"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 4,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 2,
+          "items": [
+            {
+              "id": "MvBEHiAgy",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "ahVkQ5zxC",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "P0csRsOt7",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 1,
+          "items": [
+            {
+              "id": "eOaXizx_",
+              "type": "responseFields",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "results": {
+    "flatAllBlocks": true,
+    "min": 0,
+    "fallbackBlockId": "P0csRsOt7",
+    "max": 100,
+    "deduplicateFlattedResults": true
+  },
+  "blocks": [
+    {
+      "_id": "CNa23PVMK",
+      "condition": "*",
+      "title": "Serie TV Infinity MPlay",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 50,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "fallbackBlockId": "P0csRsOt7",
+        "skipOnEmpty": true
+      },
+      "queryId": "MvBEHiAgy"
+    },
+    {
+      "_id": "erfSVUplq",
+      "condition": "*",
+      "title": "Fiction Infinity MPlay",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 50,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true
+      },
+      "queryId": "ahVkQ5zxC"
+    }
+  ],
+  "title": "INF Multiple Block Serie TV Fiction Personalizzato",
+  "description": "",
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "realm": "content",
+  "id": "kE99BaJ2R",
+  "version": 10,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2022-11-25T15:49:52.455Z"
+  }
+}

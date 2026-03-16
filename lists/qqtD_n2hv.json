@@ -1,0 +1,39 @@
+{
+  "title": "Blacklist FocusSelection",
+  "description": "",
+  "type": "contentId",
+  "contentType": "video",
+  "realm": "content",
+  "metadataField": "title",
+  "elements": [
+    "ST000000004605"
+  ],
+  "id": "qqtD_n2hv",
+  "version": 2,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-05-26T13:56:46.215Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "rules",
+        "items": [
+          "mLY2P7Kd1"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  }
+}

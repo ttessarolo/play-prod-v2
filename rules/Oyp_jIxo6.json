@@ -1,0 +1,247 @@
+{
+  "title": "Rule Params orderBy listing page TvSeason Video",
+  "description": "se params_orderBy contiene \ntopViewedDesc - ordina per più visti 24h,\nyearDesc - ordina per anno di produzione, \ntitleAsc - ordina per title.keyword",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "sortOrder": "desc",
+      "sortMode": "avg",
+      "API": "V2",
+      "condition": "(equals(params_orderBy, \"topViewedDesc\"))",
+      "conditionRaw": {
+        "and": [
+          {
+            "id": "TIYq6hDv-0E",
+            "operator": "equals",
+            "values": [
+              {
+                "value": "params_orderBy",
+                "type": "metadata"
+              },
+              {
+                "value": "\"topViewedDesc\"",
+                "type": "string"
+              }
+            ]
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "",
+      "valueType": "",
+      "queryType": "sortOrder",
+      "field": "last24h_videoviews",
+      "fieldNested": 0,
+      "fieldDBType": "long",
+      "_id": "JgbpG2v99k",
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "sortOrder": "desc",
+      "sortMode": "avg",
+      "API": "V2",
+      "condition": "(equals(params_orderBy, \"yearDesc\"))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "equals",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "params_orderBy"
+              },
+              {
+                "value": "\"yearDesc\"",
+                "type": "string"
+              }
+            ],
+            "id": "I8qmeC5n5e"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "",
+      "valueType": "",
+      "queryType": "sortOrder",
+      "field": "annoproduzione",
+      "fieldNested": 0,
+      "fieldDBType": "date",
+      "_id": "GAA9rxCtx",
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "API": "V2",
+      "condition": "(equals(params_orderBy, \"titleAsc\"))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "equals",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "params_orderBy"
+              },
+              {
+                "value": "\"titleAsc\"",
+                "type": "string"
+              }
+            ],
+            "id": "wxxZADsz73"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "",
+      "valueType": "",
+      "queryType": "sortOrder",
+      "field": "ui_title.keyword",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "eMsg0cy1nv",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "clauses": [
+    "order"
+  ],
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "rAoCaKtAs",
+          "zWYdI9xZd",
+          "ARAIdR8pC",
+          "skE6ZZaHs",
+          "_s_m7kglK",
+          "gMMABcytBa",
+          "Qd7iEXoJo",
+          "ZqCof5t6v",
+          "QPwcsFJG6",
+          "BVC4GzQXU"
+        ]
+      }
+    ]
+  },
+  "id": "Oyp_jIxo6",
+  "version": 6,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2023-01-12T11:42:32.816Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 13,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 13,
+          "items": [
+            {
+              "id": "rAoCaKtAs",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "UdXc0tzt_R",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "SiAItfZgw",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "zWYdI9xZd",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "VNoVjEIDhS",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "ARAIdR8pC",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "skE6ZZaHs",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "BVC4GzQXU",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "_s_m7kglK",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "gMMABcytBa",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "Qd7iEXoJo",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "ZqCof5t6v",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "QPwcsFJG6",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  }
+}

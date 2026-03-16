@@ -1,0 +1,48 @@
+{
+  "title": "Query fallback vuota suggestions",
+  "description": "",
+  "contentType": "search_suggestions",
+  "filter": [],
+  "exclude": [
+    {
+      "id": "fWzoo4nPg6"
+    }
+  ],
+  "include": [],
+  "boost": [],
+  "order": [],
+  "realm": "content",
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "fWzoo4nPg6"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "Ro_dys0WN"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "id": "xT6N6p6g7K",
+  "version": 1,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2023-06-14T15:14:11.308Z"
+  }
+}

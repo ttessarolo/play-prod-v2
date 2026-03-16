@@ -1,0 +1,94 @@
+{
+  "title": "INF Multiple block Generi per Parametri Film e Serie ",
+  "description": "Non personalizzato",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "wfBy1paHlb"
+    },
+    {
+      "id": "kb0ZRiIVbE"
+    },
+    {
+      "id": "kiTG7_6td"
+    },
+    {
+      "id": "HDbLp8njo"
+    }
+  ],
+  "exclude": [],
+  "include": [],
+  "boost": [],
+  "order": [
+    {
+      "id": "SXyaET7iz2"
+    }
+  ],
+  "realm": "content",
+  "presets": {
+    "filter": [],
+    "exclude": [
+      {
+        "id": "KhQ3IziFJ"
+      },
+      {
+        "id": "ZRorAbL96Q"
+      }
+    ]
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "wfBy1paHlb",
+          "kb0ZRiIVbE",
+          "kiTG7_6td",
+          "HDbLp8njo",
+          "SXyaET7iz2"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "KhQ3IziFJ",
+          "ZRorAbL96Q"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "IniwzqRKS"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1,
+    "mustOperator": "or"
+  },
+  "id": "GlYZ7gHyu",
+  "version": 30,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2022-11-09T15:23:04.827Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  },
+  "metadataOverrides": {},
+  "uselessMultiplier": false
+}

@@ -1,0 +1,98 @@
+{
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "JWhRDBQRFY",
+          "wBqjRIpLT",
+          "yxFAZhBMq"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 3,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 3,
+          "items": [
+            {
+              "id": "JWhRDBQRFY",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "wBqjRIpLT",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "yxFAZhBMq",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "AVOD",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "content_rights",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "FMe7JObLN"
+    }
+  ],
+  "clauses": [
+    "filter",
+    "exclude"
+  ],
+  "title": "Rule Content Rights AVOD",
+  "description": "",
+  "id": "CwPiclFTw",
+  "version": 2,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2023-10-05T15:39:05.048Z"
+  }
+}

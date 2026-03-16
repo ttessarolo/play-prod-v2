@@ -1,0 +1,279 @@
+{
+  "title": "Block Stagioni Programmi TV del Momento",
+  "description": "In Home Page\nEsclude SportMediaset",
+  "results": {
+    "flatAllBlocks": true,
+    "min": 0,
+    "max": 50,
+    "shuffleItems": false,
+    "deduplicateFlattedResults": true,
+    "fallbackBlockId": "P0csRsOt7"
+  },
+  "blocks": [
+    {
+      "condition": "*",
+      "title": "Stagioni Programmi TV del Momento SUPERTOP",
+      "type": "query",
+      "_id": "i4puXxmDuo",
+      "pinned": true,
+      "results": {
+        "max": 3,
+        "min": 0,
+        "contentType": "video",
+        "skipOnEmpty": true,
+        "responseFieldsId": "eOaXizx_",
+        "fallbackBlockId": "P0csRsOt7"
+      },
+      "queryId": "T2R37bH_w",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      }
+    },
+    {
+      "condition": "*",
+      "title": "Stagioni Programmi TV del Momento TOP e PRIMA SERATA",
+      "type": "query",
+      "_id": "z0apkfqcza",
+      "pinned": true,
+      "results": {
+        "max": 10,
+        "min": 0,
+        "contentType": "video",
+        "skipOnEmpty": true,
+        "responseFieldsId": "eOaXizx_",
+        "fallbackBlockId": "P0csRsOt7"
+      },
+      "queryId": "hhqbCjmm_1",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      }
+    },
+    {
+      "condition": "*",
+      "title": "Stagioni Programmi TV del Momento TOP",
+      "type": "query",
+      "_id": "vX5gD_oVVX",
+      "pinned": true,
+      "results": {
+        "max": 10,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true,
+        "fallbackBlockId": "P0csRsOt7"
+      },
+      "queryId": "zqakv8vZvB",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      }
+    },
+    {
+      "condition": "*",
+      "title": "Stagioni Programmi TV del Momento PRIMA SERATA",
+      "type": "query",
+      "_id": "TPXg1wIyPF",
+      "pinned": true,
+      "results": {
+        "max": 15,
+        "min": 0,
+        "contentType": "video",
+        "skipOnEmpty": true,
+        "responseFieldsId": "eOaXizx_",
+        "fallbackBlockId": "P0csRsOt7"
+      },
+      "queryId": "i7977YQbm",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      }
+    },
+    {
+      "condition": "*",
+      "title": "Stagioni Programmi TV del Momento",
+      "type": "query",
+      "_id": "GF7hUsPDC",
+      "pinned": true,
+      "results": {
+        "max": 40,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "fallbackBlockId": "P0csRsOt7"
+      },
+      "queryId": "PzMzP5D6R",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      }
+    }
+  ],
+  "canBeFallback": 0,
+  "refs": {
+    "require": [
+      {
+        "type": "queries",
+        "items": [
+          "T2R37bH_w",
+          "hhqbCjmm_1",
+          "zqakv8vZvB",
+          "i7977YQbm",
+          "PzMzP5D6R"
+        ]
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "P0csRsOt7"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": [
+          "eOaXizx_"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "wflA9RRQu"
+        ]
+      }
+    ]
+  },
+  "id": "FTR93QFLi",
+  "version": 19,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-03-29T11:26:47.699Z"
+  },
+  "enabledPagesId": [
+    "U0WrVkcN6",
+    "Rj1_1Ldtp",
+    "wa7CTFrKM",
+    "wSapSXMZL",
+    "v8HBDVt48",
+    "XBJpXgG8U"
+  ],
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 2,
+      "items": [
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "wflA9RRQu",
+              "type": "blocks",
+              "title": "Default"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 7,
+      "types": 4,
+      "items": [
+        {
+          "type": "queries",
+          "count": 5,
+          "items": [
+            {
+              "id": "T2R37bH_w",
+              "type": "queries",
+              "title": "Query Stagioni Most Recent Programmi TV del momento SUPERTOP"
+            },
+            {
+              "id": "hhqbCjmm_1",
+              "type": "queries",
+              "title": "QUERY Stagioni Most Recent Programmi TV del momento TOP e PRIMA SERATA V1"
+            },
+            {
+              "id": "zqakv8vZvB",
+              "type": "queries",
+              "title": "QUERY Stagioni Most Recent Programmi TV del momento TOP"
+            },
+            {
+              "id": "i7977YQbm",
+              "type": "queries",
+              "title": "QUERY Stagioni Most Recent Programmi TV del momento PRIMA SERATA V1"
+            },
+            {
+              "id": "PzMzP5D6R",
+              "type": "queries",
+              "title": "Query Stagioni Most Recent Programmi TV del momento"
+            }
+          ]
+        },
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "P0csRsOt7",
+              "type": "blocks",
+              "title": "Block published flag not exists"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 1,
+          "items": [
+            {
+              "id": "eOaXizx_",
+              "type": "responseFields",
+              "title": "PLAY-PROD-VIDEO-MINIMAL-SET"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "realm": "content"
+}

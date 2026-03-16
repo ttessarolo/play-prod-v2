@@ -1,0 +1,58 @@
+{
+  "title": "Rule Subbrand Full",
+  "description": "",
+  "contentType": "video",
+  "clauses": [
+    "exclude"
+  ],
+  "rule": [
+    {
+      "condition": "*",
+      "boost": 1,
+      "type": "I2I",
+      "_id": "CYV55H7lN",
+      "match": "full",
+      "phrase": false,
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      },
+      "field": "subbrand_title",
+      "fieldDBType": "text",
+      "queryType": "match",
+      "value": "full",
+      "valueType": "string",
+      "API": "V2"
+    }
+  ],
+  "field": "subbrand_title",
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "bOnJl04URI",
+          "u8IIXQT9v",
+          "QniVzl_vg",
+          "LQNTpN5LdF"
+        ]
+      }
+    ]
+  },
+  "id": "UdhDpND04a",
+  "version": 1,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2020-07-17T12:37:58.400Z"
+  }
+}

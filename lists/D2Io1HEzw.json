@@ -1,0 +1,53 @@
+{
+  "title": "List squadre italiane Champions League genere mcm",
+  "description": "",
+  "type": "text",
+  "contentType": "video",
+  "realm": "content",
+  "elements": [
+    "Lazio",
+    "Milan",
+    "Inter",
+    "Napoli"
+  ],
+  "id": "D2Io1HEzw",
+  "version": 2,
+  "lastSaved": {
+    "username": "Massimiliano.Berardi",
+    "date": "2023-09-20T12:40:03.990Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "rules",
+        "items": [
+          "afDEhYokF"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "rules",
+          "count": 1,
+          "items": [
+            {
+              "id": "afDEhYokF",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  }
+}

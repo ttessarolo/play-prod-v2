@@ -1,0 +1,74 @@
+{
+  "title": "🧑‍🧑‍🧒‍🧒 PLAY:USERS:MASSIVE",
+  "description": "User Index for massive users onboarding",
+  "queue": "play-prod-v2:users:blue",
+  "index": "utenti_massive",
+  "idField": "user_id",
+  "label": "__eK0_jTf",
+  "tokens": [
+    "H4sIAAAAAAAAA6tWyslMUbJSKqpMLDTyzcv3UdJRKskrAYoU5CRW6hYU5afolhkBBfPL84CCQSGeIAVpRUpW0bE6SqkVqUCGkptZZkVpREpwOVAu3NIootwo1zTASAmsoACoy8jQyFTXwETXwCjEwMLK0NTK2EzPxMwyCqg8MbkEZAJIZwoQlwJxhVJsLQC9Ui8BlwAAAA%3D%3D"
+  ],
+  "refs": {
+    "require": [
+      {
+        "type": "labels",
+        "items": [
+          "wvWb0c63u"
+        ]
+      }
+    ],
+    "belongs": []
+  },
+  "id": "ryaq2MnoL",
+  "version": 33,
+  "lastSaved": {
+    "username": "ttessarolo",
+    "date": "2025-06-16T07:16:02.853Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "labels",
+          "count": 1,
+          "items": [
+            {
+              "id": "wvWb0c63u",
+              "type": "labels",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "active": true,
+  "retry": {
+    "active": true,
+    "token": "H4sIAAAAAAAAE6tWyslMUbJSKqpMLDTyzcv3UdJRKskrAYoU5CRW6hYU5afolhkBBfPL84CCjkGuwUBOakUBkGNsYGCga2ika2wQYmRsZWAARHpAoSiggsRkoBHRSuVAZgoQlwJxkVJsLQBuReb7bgAAAA%3D%3D"
+  },
+  "actions": [
+    {
+      "id": "F6ixuXdSw",
+      "title": "Start",
+      "type": "sync",
+      "fnc": "\"// Recieve OpenSearch --> $client\\n\\nconst getAliases = async () => {\\n    const aliases = {};\\n    for (const name of [\\\"utenti\\\",\\\"utenti_incremental\\\", \\\"utenti_massive\\\"]) {\\n        const response = await $client.indices.getAlias({ name }).catch(() => null);\\n        if (response) aliases[name] = Object.keys(response.body)[0];\\n    }\\n    return aliases;\\n}\\n\\n  const aliases = await getAliases();\\n  const massiveIndex = aliases.utenti === \\\"utenti_a\\\" ? \\\"utenti_b\\\" : \\\"utenti_a\\\";\\n\\n  // Delete the massive alias\\n  if (aliases.utenti_massive) {\\n    await $client.indices\\n      .deleteAlias({\\n        index: aliases.utenti_massive,\\n        name: \\\"utenti_massive\\\"\\n      })\\n      .catch(e => null);\\n  }\\n\\n  // Delete Massive Index\\n  await $client.indices.delete({ index: massiveIndex }).catch(e => null);\\n\\n  // Recreate the massive index\\n  await $client.indices.create({ index: massiveIndex });\\n\\n  // Create the massive alias\\n  await $client.indices.putAlias({\\n    index: massiveIndex,\\n    name: \\\"utenti_massive\\\"\\n  });\\n\\n  return \\\"Start Check and Rotation Successful\\\"\""
+    },
+    {
+      "id": "W92Xw2m5P2",
+      "title": "Stop",
+      "type": "async",
+      "fnc": "\"// Receive OpenSearch --> $client\\n\\nconst getAliases = async () => {\\n    const aliases = {};\\n    for (const name of [\\\"utenti\\\", \\\"utenti_incremental\\\", \\\"utenti_massive\\\"]) {\\n        const response = await $client.indices.getAlias({ name }).catch(() => null);\\n        if (response) aliases[name] = Object.keys(response.body)[0];\\n    }\\n    return aliases;\\n}\\n\\n  const aliases = await getAliases();\\n\\n  // Delete incremental alias\\n  if (aliases.utenti_incremental) {\\n    await $client.indices\\n      .deleteAlias({\\n        index: aliases.utenti_incremental,\\n        name: \\\"utenti_incremental\\\"\\n      })\\n      .catch(e => null);\\n  }\\n\\n  // Create Incremental alias pointing to the massive index\\n  await $client.indices.putAlias({\\n    index: aliases.utenti_massive,\\n    name: \\\"utenti_incremental\\\"\\n  });\\n\\n  // Delete utenti alias\\n  if (aliases.utenti) {\\n    await $client.indices\\n      .deleteAlias({\\n        index: aliases.utenti,\\n        name: \\\"utenti\\\"\\n      })\\n      .catch();\\n  }\\n\\n  // Create utenti alias pointing to the massive index\\n  await $client.indices.putAlias({\\n    index: aliases.utenti_massive,\\n    name: \\\"utenti\\\"\\n  });\""
+    }
+  ],
+  "schema": {
+    "input": "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"User Data Schema\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"user_id\": {\n      \"type\": \"string\"\n    },\n    \"cluster_id\": {\n      \"type\": \"string\"\n    },\n    \"is_outlier\":{\n      \"type\":\"boolean\"\n    },\n    \"video_watched_w_ts\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"object\",\n        \"properties\": {\n          \"id\": {\n            \"type\": \"string\"\n          },\n          \"ts\": {\n            \"type\": \"string\",\n            \"format\": \"date-time\"\n          }\n        },\n        \"required\": [\"id\", \"ts\"],\n        \"additionalProperties\": false\n      }\n    },\n    \"video_aborted_w_ts\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"object\",\n        \"properties\": {\n          \"id\": {\n            \"type\": \"string\"\n          },\n          \"ts\": {\n            \"type\": \"string\",\n            \"format\": \"date-time\"\n          }\n        },\n        \"required\": [\"id\", \"ts\"],\n        \"additionalProperties\": false\n      }\n    },\n    \"video_keep_watching_w_ts\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"object\",\n        \"properties\": {\n          \"id\": {\n            \"type\": \"string\"\n          },\n          \"ts\": {\n            \"type\": \"string\",\n            \"format\": \"date-time\"\n          }\n        },\n        \"required\": [\"id\", \"ts\"],\n        \"additionalProperties\": false\n      }\n    },\n    \"video_historical_fingerprint\": {\n      \"type\": \"string\"\n    },\n    \"video_series_engaged_w_ts\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"object\",\n        \"properties\": {\n          \"id\": {\n            \"type\": \"string\"\n          },\n          \"ts\": {\n            \"type\": \"string\",\n            \"format\": \"date-time\"\n          }\n        },\n        \"required\": [\"id\", \"ts\"],\n        \"additionalProperties\": false\n      }\n    },\n    \"video_seasons_engaged_w_ts\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"object\",\n        \"properties\": {\n          \"id\": {\n            \"type\": \"string\"\n          },\n          \"ts\": {\n            \"type\": \"string\",\n            \"format\": \"date-time\"\n          }\n        },\n        \"required\": [\"id\", \"ts\"],\n        \"additionalProperties\": false\n      }\n    },\n    \"lastARESLoaderModified\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\"\n    }\n  },\n  \"required\": [\"user_id\"],\n  \"additionalProperties\": false\n}"
+  }
+}

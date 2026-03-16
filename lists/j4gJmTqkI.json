@@ -1,0 +1,37 @@
+{
+  "title": "Lista NO Tv Serie e Season",
+  "description": "",
+  "type": "text",
+  "contentType": "video",
+  "realm": "content",
+  "elements": [
+    "Anticipazioni",
+    "Clip",
+    "Full Episode",
+    "Extra",
+    "Movie",
+    "Promo",
+    "Riassunti"
+  ],
+  "id": "j4gJmTqkI",
+  "version": 2,
+  "lastSaved": {
+    "username": "Massimiliano.Berardi",
+    "date": "2021-03-29T10:26:07.566Z"
+  },
+  "refs": {
+    "belongs": []
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "type": "text",
+  "contentType": "video",
+  "realm": "content",
+  "title": "List Editorial type Movie TVSeason Serie",
+  "description": "",
+  "elements": [
+    "Movie",
+    "Serie",
+    "TVSeason"
+  ],
+  "id": "iK_rDn8z0",
+  "version": 1,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2024-01-25T12:15:30.261Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "rules",
+        "items": [
+          "V63DB2EXT"
+        ]
+      }
+    ]
+  }
+}

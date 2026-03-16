@@ -1,0 +1,68 @@
+{
+  "results": {
+    "min": 0,
+    "flatAllBlocks": true
+  },
+  "blocks": [
+    {
+      "_id": "UAXmR4ruTZ",
+      "condition": "*",
+      "title": "Block smart",
+      "type": "smart",
+      "pinned": true,
+      "results": {
+        "max": 20,
+        "min": 0,
+        "contentType": "video"
+      },
+      "userContentType": "user",
+      "event": "watched",
+      "perUserBasisType": "video_historical_fingerprint",
+      "smartPageListId": "CAv3fwwoB"
+    }
+  ],
+  "title": "Block smart",
+  "description": "",
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "realm": "content",
+  "refs": {
+    "require": [
+      {
+        "type": "queries",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": []
+      },
+      {
+        "type": "lists",
+        "items": [
+          "CAv3fwwoB"
+        ]
+      },
+      {
+        "type": "responseFields",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "endpoints",
+        "items": []
+      }
+    ]
+  },
+  "id": "wLZbRma3P1",
+  "version": 1,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-09-14T13:41:50.940Z"
+  }
+}

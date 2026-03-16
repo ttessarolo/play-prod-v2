@@ -1,0 +1,48 @@
+{
+  "title": "List Blacklist Video Content ID",
+  "description": "",
+  "elements": [
+    "F308458301162C07",
+    "F308527101010C10",
+    "F309009401000101",
+    "FD00000000133601",
+    "F309488401000301",
+    "F309455701001C08",
+    "F308717201261C01",
+    "FD00000000303332",
+    "FD00000000303333",
+    "FD00000000291992"
+  ],
+  "id": "t1GDSZEtZh",
+  "version": 8,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2022-09-28T14:22:58.071Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "rules",
+        "items": [
+          "LHwpBTAJE"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  },
+  "type": "contentId",
+  "contentType": "video",
+  "realm": "content",
+  "metadataField": "title"
+}

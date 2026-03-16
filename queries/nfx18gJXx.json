@@ -1,0 +1,164 @@
+{
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "wfBy1paHlb"
+    },
+    {
+      "id": "M2X3Atski"
+    },
+    {
+      "id": "KdgZfZ_wm"
+    },
+    {
+      "id": "RJDOr3kNl"
+    }
+  ],
+  "exclude": [
+    {
+      "id": "ju06OqIgO"
+    }
+  ],
+  "include": [],
+  "boost": [],
+  "order": [
+    {
+      "id": "zmV_L7QRr"
+    }
+  ],
+  "realm": "content",
+  "title": "INF Stagioni Serie TV in Prima TV Pay",
+  "description": "Carrello: Serie TV in Prima visione Tv season Infinity con etichetta Prima TV Ex catchup",
+  "presets": {
+    "filter": [
+      {
+        "id": "ur0WldwQk"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "KhQ3IziFJ"
+      }
+    ]
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "wfBy1paHlb",
+          "M2X3Atski",
+          "KdgZfZ_wm",
+          "RJDOr3kNl",
+          "ju06OqIgO",
+          "zmV_L7QRr"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "ur0WldwQk",
+          "KhQ3IziFJ"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "Wmm8hYlFG"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "id": "nfx18gJXx",
+  "version": 16,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-07-23T10:19:38.571Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "Wmm8hYlFG",
+              "type": "blocks",
+              "title": "INF Stagioni Serie TV in Prima TV Pay"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 8,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 6,
+          "items": [
+            {
+              "id": "wfBy1paHlb",
+              "type": "rules",
+              "title": "Rule Channel Infinity"
+            },
+            {
+              "id": "KdgZfZ_wm",
+              "type": "rules",
+              "title": "Rule Editorial Type TV Season"
+            },
+            {
+              "id": "M2X3Atski",
+              "type": "rules",
+              "title": "Rule Tipologia Serie TV"
+            },
+            {
+              "id": "Tr8zY1Xzph",
+              "type": "rules",
+              "title": "Rule etichetta editoriale Prima TV Pay e In onda"
+            },
+            {
+              "id": "ju06OqIgO",
+              "type": "rules",
+              "title": "Rule Channel Mediaset Play"
+            },
+            {
+              "id": "zmV_L7QRr",
+              "type": "rules",
+              "title": "Rule Order By Publication date Fep Most Recent Infinity"
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 2,
+          "items": [
+            {
+              "id": "ur0WldwQk",
+              "type": "rulesPresets",
+              "title": "Preset Contenuti attivi"
+            },
+            {
+              "id": "KhQ3IziFJ",
+              "type": "rulesPresets",
+              "title": "Preset Video format exclude 4K"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "uselessMultiplier": false,
+  "metadataOverrides": {}
+}

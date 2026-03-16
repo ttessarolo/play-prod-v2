@@ -1,0 +1,77 @@
+{
+  "title": "Rule Boost Contenuti In Onda",
+  "description": "Boost sui contenuti che hanno Etichetta Editoriale: IN ONDA\n",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "(!isEmpty(etichetteEditoriali))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "!isEmpty",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "etichetteEditoriali"
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ],
+            "id": "DsPhc7WKsZ"
+          }
+        ]
+      },
+      "boost": 10,
+      "type": "I2I",
+      "value": "In Onda",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "etichetteEditoriali",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "T4FOIAzH8",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "clauses": [
+    "boost"
+  ],
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "metadata": {
+    "content": true
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "U1hz1tNQN",
+          "Jnfu6ZH0E",
+          "OoW_RxrtA",
+          "_WmSa4Xbk",
+          "tv97xe64g",
+          "wLOGym_XT"
+        ]
+      }
+    ]
+  },
+  "id": "SYrAp4NDd",
+  "version": 1,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-03-29T14:12:39.502Z"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "text",
+  "contentType": "video",
+  "realm": "content",
+  "title": "List Content Channel Infinity e Noleggio",
+  "description": "",
+  "elements": [
+    "Infinity",
+    "Noleggio"
+  ],
+  "id": "pTD7iJe5j",
+  "version": 1,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-04-09T16:04:50.682Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "rules",
+        "items": []
+      }
+    ]
+  }
+}

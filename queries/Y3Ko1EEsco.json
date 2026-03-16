@@ -1,0 +1,149 @@
+{
+  "title": "Query Serie TV più viste 24h Blocco 2",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "ju06OqIgO"
+    },
+    {
+      "id": "M2X3Atski"
+    },
+    {
+      "id": "KdgZfZ_wm"
+    },
+    {
+      "id": "gQuX7uK3vM"
+    }
+  ],
+  "exclude": [],
+  "include": [],
+  "boost": [],
+  "order": [
+    {
+      "id": "A5n475YeR"
+    }
+  ],
+  "realm": "content",
+  "presets": {
+    "filter": [
+      {
+        "id": "ztWfmA_PI"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "KhQ3IziFJ"
+      }
+    ]
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "ju06OqIgO",
+          "M2X3Atski",
+          "KdgZfZ_wm",
+          "gQuX7uK3vM",
+          "A5n475YeR"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "ztWfmA_PI",
+          "KhQ3IziFJ"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "Q3GKwt9w3"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "id": "Y3Ko1EEsco",
+  "version": 20,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2026-01-22T13:52:26.324Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "Q3GKwt9w3",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 6,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 4,
+          "items": [
+            {
+              "id": "ju06OqIgO",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "M2X3Atski",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "KdgZfZ_wm",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "A5n475YeR",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 2,
+          "items": [
+            {
+              "id": "ztWfmA_PI",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "KhQ3IziFJ",
+              "type": "rulesPresets",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "metadataOverrides": {},
+  "uselessMultiplier": false
+}

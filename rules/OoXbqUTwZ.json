@@ -1,0 +1,97 @@
+{
+  "contentType": "video",
+  "title": "Rule Params Channel Infinity Search Movie",
+  "description": "Keep Only Contenuti con contents_channels = Infinity o Noleggio se params_channel=Infinity per search Movie",
+  "clauses": [
+    "filter"
+  ],
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "(contains(params_channel, \"Infinity\"))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "params_channel"
+              },
+              {
+                "value": "\"Infinity\"",
+                "type": "freeText"
+              }
+            ],
+            "id": "QfhFTdm7g3"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "I2I",
+      "value": "pTD7iJe5j",
+      "valueType": "list",
+      "queryType": "listTermsId",
+      "field": "content_channels",
+      "fieldDBType": "text",
+      "_id": "SllVW2XnFL",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "field": "content_channels",
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": []
+      }
+    ]
+  },
+  "id": "OoXbqUTwZ",
+  "version": 25,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-04-09T17:35:41.421Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 1,
+          "items": [
+            {
+              "id": "JeWs0B6Ip",
+              "type": "queries",
+              "title": "Search Movie"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 1,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "realm": "content",
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": []
+}

@@ -1,0 +1,89 @@
+{
+  "title": "Rule anno produzione 1980-1999",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "greaterOperator": "gte",
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "1979-12-31T23:00:00.533Z",
+      "valueType": "date",
+      "queryType": "greaterValue",
+      "field": "annoproduzione",
+      "fieldNested": 0,
+      "fieldDBType": "date",
+      "_id": "g50kBsNJ_X"
+    },
+    {
+      "lessOperator": "lte",
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "1999-12-31T22:59:59.533Z",
+      "valueType": "date",
+      "queryType": "lessValue",
+      "field": "annoproduzione",
+      "fieldNested": 0,
+      "fieldDBType": "date",
+      "_id": "mn7fk_PET6"
+    }
+  ],
+  "clauses": [
+    "filter",
+    "include"
+  ],
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "A6FHuXLjp"
+        ]
+      }
+    ]
+  },
+  "id": "O7aVZ2Ke8",
+  "version": 2,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-06-03T10:35:33.172Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  }
+}

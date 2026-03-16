@@ -1,0 +1,62 @@
+{
+  "title": "Rule anno produzione 1990-1999",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "greaterOperator": "gte",
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "1989-12-31T23:00:00.533Z",
+      "valueType": "date",
+      "queryType": "greaterValue",
+      "field": "annoproduzione",
+      "fieldNested": 0,
+      "fieldDBType": "date",
+      "_id": "HOI704Saqw"
+    },
+    {
+      "lessOperator": "lte",
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "1999-12-31T22:59:59.533Z",
+      "valueType": "date",
+      "queryType": "lessValue",
+      "field": "annoproduzione",
+      "fieldNested": 0,
+      "fieldDBType": "date",
+      "_id": "hPEZhIAid"
+    }
+  ],
+  "clauses": [
+    "filter",
+    "include"
+  ],
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "WQk9TX6Gz"
+        ]
+      }
+    ]
+  },
+  "id": "PKxsVmH6d",
+  "version": 1,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-07-19T13:36:15.170Z"
+  }
+}

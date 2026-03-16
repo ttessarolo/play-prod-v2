@@ -1,0 +1,161 @@
+{
+  "title": "Query Similar Sport Highlights Serie A",
+  "description": "Query di Guarda anche dedicata agli Highlights  Serie A",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "bjWG4DCXS"
+    },
+    {
+      "id": "YKzvCj1y2"
+    },
+    {
+      "id": "KukwdwFDvb"
+    }
+  ],
+  "exclude": [
+    {
+      "id": "Gz2oDqW8B"
+    }
+  ],
+  "include": [],
+  "boost": [],
+  "order": [
+    {
+      "id": "XSTkCtrEz"
+    }
+  ],
+  "realm": "content",
+  "presets": {
+    "filter": [
+      {
+        "id": "TuAyi0elu"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "ZRorAbL96Q"
+      }
+    ]
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "bjWG4DCXS",
+          "YKzvCj1y2",
+          "KukwdwFDvb",
+          "Gz2oDqW8B",
+          "XSTkCtrEz"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "TuAyi0elu",
+          "ZRorAbL96Q"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "ER9ytvdX2t"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1,
+    "mustOperator": "or"
+  },
+  "id": "eKqq5qm5PJ",
+  "version": 20,
+  "lastSaved": {
+    "username": "Massimiliano.Berardi",
+    "date": "2022-09-02T10:15:14.173Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "ER9ytvdX2t",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 8,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 6,
+          "items": [
+            {
+              "id": "bjWG4DCXS",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "YKzvCj1y2",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "KukwdwFDvb",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "Gz2oDqW8B",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "FYHo6wf3b",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "XSTkCtrEz",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 2,
+          "items": [
+            {
+              "id": "TuAyi0elu",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "ZRorAbL96Q",
+              "type": "rulesPresets",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "uselessMultiplier": false,
+  "metadataOverrides": {}
+}

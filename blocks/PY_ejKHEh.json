@@ -1,0 +1,162 @@
+{
+  "results": {
+    "min": 1,
+    "flatAllBlocks": true,
+    "fallbackBlockId": "ZIadZYmk6",
+    "max": 24
+  },
+  "blocks": [
+    {
+      "_id": "A9fAyPiVN1",
+      "condition": "*",
+      "title": "Similar Documentari",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 24,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "fallbackBlockId": "ZIadZYmk6"
+      },
+      "queryId": "U1hz1tNQN"
+    }
+  ],
+  "title": "Block Similar Documentari",
+  "description": "",
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "realm": "content",
+  "refs": {
+    "require": [
+      {
+        "type": "queries",
+        "items": [
+          "U1hz1tNQN"
+        ]
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "ZIadZYmk6"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": [
+          "eOaXizx_"
+        ]
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "NXrzVs6qU"
+        ]
+      }
+    ]
+  },
+  "id": "PY_ejKHEh",
+  "version": 6,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-01-23T11:38:31.896Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "pages",
+          "count": 1,
+          "items": [
+            {
+              "variantId": "NXrzVs6qU",
+              "propertyId": "zlqQNxLcGh",
+              "propertyTitle": "",
+              "endpointId": "NjbgtR2lz",
+              "endpointTitle": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 3,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 1,
+          "items": [
+            {
+              "id": "U1hz1tNQN",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "ZIadZYmk6",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 1,
+          "items": [
+            {
+              "id": "eOaXizx_",
+              "type": "responseFields",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  }
+}

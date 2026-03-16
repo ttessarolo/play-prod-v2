@@ -1,0 +1,220 @@
+{
+  "id": "Fkuq3OMlav",
+  "propertyId": "rrjMTUmyqd",
+  "title": "Default Mediaset Italia",
+  "description": "Please Edit description for Page \"Variant 6\"",
+  "enabledPagesId": [
+    "Y_T1DSbZ9"
+  ],
+  "isPage": true,
+  "blocks": [
+    {
+      "id": "SJyM2ysnc",
+      "condition": "*",
+      "title": "I più cercati",
+      "type": "nested",
+      "layout": {
+        "i": "SJyM2ysnc",
+        "w": 12,
+        "h": 30
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "VRY5tsiDh",
+      "viewAll": {
+        "id": "TFmQYMIE8",
+        "reference": "viewAllFilteredSearchParams"
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER",
+          "layout": "GRID"
+        }
+      }
+    },
+    {
+      "id": "YHFA7kUmp",
+      "condition": "*",
+      "title": "Video",
+      "type": "nested",
+      "layout": {
+        "i": "YHFA7kUmp",
+        "x": 0,
+        "y": 2,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "PuYMgHyGR",
+      "viewAll": {
+        "id": "TFmQYMIE8",
+        "reference": "viewAllFilteredSearchParams"
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "KEYFRAME",
+          "layout": "GRID"
+        }
+      }
+    }
+  ],
+  "version": 12,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2023-03-29T09:34:09.860Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "endpoints",
+        "items": [
+          "Y_T1DSbZ9"
+        ]
+      }
+    ],
+    "require": [
+      {
+        "type": "queries",
+        "items": []
+      },
+      {
+        "type": "endpoints",
+        "items": [
+          "TFmQYMIE8"
+        ]
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "AwF1CRpxF",
+          "VRY5tsiDh",
+          "PuYMgHyGR"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "Y_T1DSbZ9",
+              "type": "endpoints",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 4,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "TFmQYMIE8",
+              "type": "endpoints",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "blocks",
+          "count": 3,
+          "items": [
+            {
+              "id": "AwF1CRpxF",
+              "type": "blocks"
+            },
+            {
+              "id": "VRY5tsiDh",
+              "type": "blocks"
+            },
+            {
+              "id": "PuYMgHyGR",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "layout": [
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 27,
+      "i": "SJyM2ysnc",
+      "moved": true,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 60,
+      "i": "YHFA7kUmp",
+      "moved": false,
+      "static": false
+    }
+  ],
+  "results": {
+    "fallbackBlockId": "AwF1CRpxF",
+    "fullSubstituteFallback": true
+  },
+  "fullSubstituteFallback": true
+}

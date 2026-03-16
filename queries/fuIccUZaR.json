@@ -1,0 +1,149 @@
+{
+  "title": "CHNLS Film In scadenza",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "83txjtJm"
+    },
+    {
+      "id": "Qs0Vux5WH_"
+    },
+    {
+      "id": "JfE3hcRkF"
+    },
+    {
+      "id": "aXiYjwLOE"
+    }
+  ],
+  "exclude": [],
+  "include": [],
+  "boost": [],
+  "order": [
+    {
+      "id": "RhDoGNX5U"
+    }
+  ],
+  "realm": "content",
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "83txjtJm",
+          "Qs0Vux5WH_",
+          "JfE3hcRkF",
+          "aXiYjwLOE",
+          "RhDoGNX5U"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "TuAyi0elu",
+          "KhQ3IziFJ"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "iRXRcwqjy"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "id": "fuIccUZaR",
+  "version": 13,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-07-14T08:07:40.473Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "iRXRcwqjy",
+              "type": "blocks",
+              "title": "CHNLS Film In scadenza"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 6,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 4,
+          "items": [
+            {
+              "id": "83txjtJm",
+              "type": "rules",
+              "title": "Rule Tipologia Film"
+            },
+            {
+              "id": "Qs0Vux5WH_",
+              "type": "rules",
+              "title": "Rule Editorial Type Movie"
+            },
+            {
+              "id": "JfE3hcRkF",
+              "type": "rules",
+              "title": "Rule Channel match ParamsChannel "
+            },
+            {
+              "id": "RhDoGNX5U",
+              "type": "rules",
+              "title": "Rule Window Last End Ascending"
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 2,
+          "items": [
+            {
+              "id": "TuAyi0elu",
+              "type": "rulesPresets",
+              "title": "Preset SearchVisible e FrontEnd Visible True"
+            },
+            {
+              "id": "KhQ3IziFJ",
+              "type": "rulesPresets",
+              "title": "Preset Video format exclude 4K"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "presets": {
+    "filter": [
+      {
+        "id": "TuAyi0elu"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "KhQ3IziFJ"
+      }
+    ]
+  },
+  "uselessMultiplier": false,
+  "metadataOverrides": {}
+}

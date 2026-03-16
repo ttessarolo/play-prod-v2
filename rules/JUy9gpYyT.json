@@ -1,0 +1,77 @@
+{
+  "title": "Rule  Anno Produzione over 1980",
+  "description": "",
+  "contentType": "video",
+  "clauses": [
+    "boost",
+    "filter"
+  ],
+  "rule": [
+    {
+      "greaterOperator": "gte",
+      "API": "V2",
+      "condition": "*",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": [],
+            "id": "577zQ1_nRL"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "I2I",
+      "value": "1980",
+      "valueType": "freeText",
+      "queryType": "greaterValue",
+      "field": "annoproduzione",
+      "fieldDBType": "date",
+      "_id": "RCKlmD34E"
+    }
+  ],
+  "field": "annoproduzione",
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "zWYdI9xZd",
+          "HmTQKuI0C",
+          "saXXHN9eH"
+        ]
+      }
+    ]
+  },
+  "id": "JUy9gpYyT",
+  "version": 6,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-03-12T16:32:43.254Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 1,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "realm": "content"
+}

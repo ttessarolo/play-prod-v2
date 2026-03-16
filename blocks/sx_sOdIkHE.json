@@ -1,0 +1,223 @@
+{
+  "refs": {
+    "require": [
+      {
+        "type": "queries",
+        "items": [
+          "sDmAYxCfr",
+          "vd0sQwe2q",
+          "HWJT1cPPY"
+        ]
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "wDqD28KJY",
+          "Hjb6HEJSv"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": [
+          "eOaXizx_"
+        ]
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "thJULhcXoc",
+          "hb1B41JYe",
+          "UzsmyaqtN"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 2,
+      "types": 1,
+      "items": [
+        {
+          "type": "pages",
+          "count": 2,
+          "items": [
+            {
+              "variantId": "thJULhcXoc",
+              "propertyId": "zlqQNxLcGh",
+              "propertyTitle": "",
+              "endpointId": "nyMd3k9ed",
+              "endpointTitle": ""
+            },
+            {
+              "variantId": "hb1B41JYe",
+              "propertyId": "zlqQNxLcGh",
+              "propertyTitle": "",
+              "endpointId": "nyMd3k9ed",
+              "endpointTitle": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 6,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 3,
+          "items": [
+            {
+              "id": "sDmAYxCfr",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "vd0sQwe2q",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "HWJT1cPPY",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 2,
+          "items": [
+            {
+              "id": "wDqD28KJY",
+              "type": "blocks"
+            },
+            {
+              "id": "Hjb6HEJSv",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 1,
+          "items": [
+            {
+              "id": "eOaXizx_",
+              "type": "responseFields",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "results": {
+    "flatAllBlocks": true,
+    "min": 0,
+    "fallbackBlockId": "wDqD28KJY",
+    "max": 20,
+    "deduplicateFlattedResults": true
+  },
+  "blocks": [
+    {
+      "_id": "Q030jz6F0k",
+      "condition": "*",
+      "title": "Film MPlay Top Blockbuster",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 5,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true
+      },
+      "queryId": "sDmAYxCfr",
+      "metadata": {
+        "content": true
+      }
+    },
+    {
+      "_id": "c3BCVmGKL",
+      "condition": "*",
+      "title": "Film similar to Cluster",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 20,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "fallbackBlockId": "Hjb6HEJSv",
+        "skipOnEmpty": true
+      },
+      "queryId": "vd0sQwe2q"
+    },
+    {
+      "_id": "SOFXow4kE",
+      "condition": "*",
+      "title": "Film più visti copertura",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 20,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true
+      },
+      "queryId": "HWJT1cPPY"
+    }
+  ],
+  "title": "Block Film similar to Cluster",
+  "description": "",
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "realm": "content",
+  "id": "sx_sOdIkHE",
+  "version": 6,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2024-11-19T16:20:54.582Z"
+  }
+}

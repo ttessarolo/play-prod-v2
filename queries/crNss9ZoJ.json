@@ -1,0 +1,172 @@
+{
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "ju06OqIgO"
+    },
+    {
+      "id": "CDMrhQW14"
+    },
+    {
+      "id": "KdgZfZ_wm"
+    },
+    {
+      "id": "gQuX7uK3vM"
+    },
+    {
+      "id": "HDbLp8njo"
+    }
+  ],
+  "exclude": [],
+  "include": [],
+  "boost": [],
+  "order": [
+    {
+      "id": "A5n475YeR"
+    }
+  ],
+  "realm": "content",
+  "title": "Query Multiple Block Fiction e Serie TV",
+  "description": "",
+  "presets": {
+    "filter": [
+      {
+        "id": "ztWfmA_PI"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "ZRorAbL96Q"
+      },
+      {
+        "id": "KhQ3IziFJ"
+      }
+    ]
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "ju06OqIgO",
+          "CDMrhQW14",
+          "KdgZfZ_wm",
+          "gQuX7uK3vM",
+          "HDbLp8njo",
+          "A5n475YeR"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "ztWfmA_PI",
+          "ZRorAbL96Q",
+          "KhQ3IziFJ"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "mJLlAulE5U"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "id": "crNss9ZoJ",
+  "version": 20,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-05-08T09:40:05.473Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "mJLlAulE5U",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 9,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 6,
+          "items": [
+            {
+              "id": "ju06OqIgO",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "CDMrhQW14",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "KdgZfZ_wm",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "gQuX7uK3vM",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "HDbLp8njo",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "tMgBtvtBy",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 3,
+          "items": [
+            {
+              "id": "ztWfmA_PI",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "ZRorAbL96Q",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "KhQ3IziFJ",
+              "type": "rulesPresets",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "metadataOverrides": {},
+  "uselessMultiplier": false
+}

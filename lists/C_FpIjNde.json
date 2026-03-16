@@ -1,0 +1,41 @@
+{
+  "title": "List ADV Yamaha",
+  "description": "",
+  "type": "contentId",
+  "contentType": "video",
+  "realm": "content",
+  "elements": [
+    "F311987901000101",
+    "F311987901000201",
+    "F311987901000301",
+    "F311987901000401",
+    "F311987901000501",
+    "F311987901000601"
+  ],
+  "id": "C_FpIjNde",
+  "version": 7,
+  "lastSaved": {
+    "username": "Massimiliano.Berardi",
+    "date": "2022-06-21T15:42:17.886Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "rules",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  }
+}

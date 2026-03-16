@@ -1,0 +1,52 @@
+{
+  "contentType": "video",
+  "title": "PLAY-PROD-VIDEO-SKY",
+  "description": "Response field per property Sky",
+  "fields": [
+    "video_content_id",
+    "programtype",
+    "title"
+  ],
+  "id": "xYEKooaCN",
+  "version": 19,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2022-09-22T07:54:44.631Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "n39zSPUjkZ",
+          "axHFoW0wP"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "n39zSPUjkZ",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  },
+  "realm": "content"
+}

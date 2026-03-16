@@ -1,0 +1,177 @@
+{
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "gxhHRBwU9"
+    },
+    {
+      "id": "83txjtJm"
+    },
+    {
+      "id": "Qs0Vux5WH_"
+    },
+    {
+      "id": "fknyNP0OE"
+    }
+  ],
+  "exclude": [
+    {
+      "id": "tPE0JUipb"
+    },
+    {
+      "id": "NfU7ovdXbm"
+    }
+  ],
+  "include": [
+    {
+      "id": "m59b34kOM"
+    }
+  ],
+  "boost": [],
+  "order": [],
+  "realm": "content",
+  "presets": {
+    "exclude": [
+      {
+        "id": "KhQ3IziFJ"
+      },
+      {
+        "id": "ZRorAbL96Q"
+      }
+    ],
+    "filter": [
+      {
+        "id": "TuAyi0elu"
+      }
+    ]
+  },
+  "general": {
+    "mustOperator": "or",
+    "tieBreaker": 0.9,
+    "minimumShouldMatch": "1%",
+    "resultsMultiplier": 1
+  },
+  "metadataOverrides": {},
+  "title": "Med Ita Multiple Block Film Genere primario",
+  "description": "",
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "gxhHRBwU9",
+          "83txjtJm",
+          "Qs0Vux5WH_",
+          "fknyNP0OE",
+          "tPE0JUipb",
+          "NfU7ovdXbm",
+          "m59b34kOM"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "TuAyi0elu",
+          "KhQ3IziFJ",
+          "ZRorAbL96Q"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "Wn1FBsvd2"
+        ]
+      }
+    ]
+  },
+  "id": "yjy2A9HNE",
+  "version": 8,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2023-04-11T09:35:48.585Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "Wn1FBsvd2",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 9,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 6,
+          "items": [
+            {
+              "id": "gxhHRBwU9",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "83txjtJm",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "Qs0Vux5WH_",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "fknyNP0OE",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "tPE0JUipb",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "m59b34kOM",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 3,
+          "items": [
+            {
+              "id": "TuAyi0elu",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "KhQ3IziFJ",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "ZRorAbL96Q",
+              "type": "rulesPresets",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

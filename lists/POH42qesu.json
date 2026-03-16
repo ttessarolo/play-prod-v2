@@ -1,0 +1,29 @@
+{
+  "contentType": "video",
+  "realm": "content",
+  "type": "text",
+  "elements": [
+    "giallo",
+    "rosso",
+    "rosso vm14",
+    "rosso vm18"
+  ],
+  "title": "List Parental Rating Rosso e Giallo",
+  "description": "",
+  "id": "POH42qesu",
+  "version": 1,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2023-08-24T15:00:05.660Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "rules",
+        "items": [
+          "Ey4u2apQQ1"
+        ]
+      }
+    ]
+  }
+}

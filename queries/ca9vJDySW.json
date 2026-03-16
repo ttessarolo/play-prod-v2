@@ -1,0 +1,169 @@
+{
+  "title": "TVOD Multiple block In offerta",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "IyDzyntfi"
+    },
+    {
+      "id": "Qs0Vux5WH_"
+    },
+    {
+      "id": "lYE1Kg6kk4"
+    },
+    {
+      "id": "fknyNP0OE"
+    }
+  ],
+  "exclude": [
+    {
+      "id": "Ey4u2apQQ1"
+    }
+  ],
+  "include": [],
+  "boost": [],
+  "order": [
+    {
+      "id": "SXyaET7iz2"
+    }
+  ],
+  "realm": "content",
+  "presets": {
+    "filter": [
+      {
+        "id": "TuAyi0elu"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "KhQ3IziFJ"
+      }
+    ]
+  },
+  "metadataOverrides": {},
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "IyDzyntfi",
+          "Qs0Vux5WH_",
+          "lYE1Kg6kk4",
+          "fknyNP0OE",
+          "Ey4u2apQQ1",
+          "SXyaET7iz2"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "TuAyi0elu",
+          "KhQ3IziFJ"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "_xKCjqOWX"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "id": "ca9vJDySW",
+  "version": 20,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2023-11-02T14:26:07.910Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "_xKCjqOWX",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 9,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 7,
+          "items": [
+            {
+              "id": "IyDzyntfi",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "Qs0Vux5WH_",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "lYE1Kg6kk4",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "fknyNP0OE",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "JP8BezUBBQ",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "Ey4u2apQQ1",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "SXyaET7iz2",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 2,
+          "items": [
+            {
+              "id": "TuAyi0elu",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "KhQ3IziFJ",
+              "type": "rulesPresets",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "uselessMultiplier": false
+}

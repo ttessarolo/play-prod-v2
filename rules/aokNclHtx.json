@@ -1,0 +1,73 @@
+{
+  "title": "Rule No Fantaghiro su Genere Mcm Azione",
+  "description": "applicata a similar cinema\n",
+  "contentType": "video",
+  "clauses": [
+    "exclude"
+  ],
+  "rule": [
+    {
+      "condition": "contains(genere_mcm, \"Azione\")",
+      "boost": 1,
+      "type": "I2I",
+      "_id": "g5wZe7R4r",
+      "listTermsId": "iH4_y_zrt",
+      "conditionRaw": {
+        "and": [
+          {
+            "id": "_is_-HgqOi",
+            "operator": "contains",
+            "values": [
+              {
+                "value": "genere_mcm",
+                "type": "metadata"
+              },
+              {
+                "value": "Azione",
+                "type": "metadata"
+              }
+            ]
+          }
+        ]
+      },
+      "field": "video_content_id",
+      "fieldDBType": "keyword",
+      "queryType": "listTermsId",
+      "value": "iH4_y_zrt",
+      "valueType": "list",
+      "API": "V2"
+    }
+  ],
+  "field": "video_content_id",
+  "metadata": {
+    "content": true
+  },
+  "scheduled": false,
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": [
+          "iH4_y_zrt"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "_UJtujmOS",
+          "hzT5G0sYG",
+          "rlrVLabqSl",
+          "PGHHPIFHQ"
+        ]
+      }
+    ]
+  },
+  "id": "aokNclHtx",
+  "version": 2,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-01-26T16:20:01.625Z"
+  }
+}

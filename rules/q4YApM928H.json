@@ -1,0 +1,179 @@
+{
+  "title": "Rule Tipologia Fiction",
+  "description": "Tipologia match with Fiction",
+  "contentType": "video",
+  "clauses": [
+    "filter",
+    "exclude",
+    "include"
+  ],
+  "rule": [
+    {
+      "phrase": true,
+      "API": "V2",
+      "condition": "*",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "I2I",
+      "value": "Fiction",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "tipologia",
+      "fieldDBType": "keyword",
+      "_id": "pkpDc0d5"
+    }
+  ],
+  "field": "tipologia",
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "rkiCo37Zx",
+          "_v4wfuHNr",
+          "Z5PVWp8fG",
+          "Bmmb_X6oxW",
+          "vloOlFQwh",
+          "us3vUNLgO",
+          "R4M6lw89s",
+          "M4d1BL7df",
+          "ZWp_WOb5a3",
+          "zHlSX9ygS",
+          "ahVkQ5zxC",
+          "dRtZeUJMlX",
+          "n34TQOZcMI",
+          "Fnu1as9qg",
+          "eYpjGfjVG",
+          "m_gnuihp0",
+          "cm6U6qlM9",
+          "OGVDkyHGae"
+        ]
+      }
+    ]
+  },
+  "id": "q4YApM928H",
+  "version": 3,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-03-22T17:43:04.776Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 16,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 16,
+          "items": [
+            {
+              "id": "HWJT1cPPY",
+              "type": "queries",
+              "title": "Query Film più visti 24h"
+            },
+            {
+              "id": "VNoVjEIDhS",
+              "type": "queries",
+              "title": "Query Person to Content Film over 2005"
+            },
+            {
+              "id": "b20L6V_Cz",
+              "type": "queries",
+              "title": "Query Person to Content Film"
+            },
+            {
+              "id": "bGHIfOpkw",
+              "type": "queries",
+              "title": "Query Most Recent Film Person to Content"
+            },
+            {
+              "id": "VPCz1frwh",
+              "type": "queries",
+              "title": "Query Film più visti 24h Person to Content"
+            },
+            {
+              "id": "M9xhdzkJvY",
+              "type": "queries",
+              "title": "Query Film over 2015"
+            },
+            {
+              "id": "XfBmXeGEp",
+              "type": "queries",
+              "title": "QUERY Film dal catalogo Cult e di Qualità"
+            },
+            {
+              "id": "JeWs0B6Ip",
+              "type": "queries",
+              "title": "Search Movie"
+            },
+            {
+              "id": "zWYdI9xZd",
+              "type": "queries",
+              "title": "Query Generi per Parametri Film"
+            },
+            {
+              "id": "xWQFP8e_a1",
+              "type": "queries",
+              "title": "INF Generi per Parametri Film Blocco 3"
+            },
+            {
+              "id": "_ehOPN5ih",
+              "type": "queries",
+              "title": "INF Generi per Parametri Film Blocco 1"
+            },
+            {
+              "id": "rAoCaKtAs",
+              "type": "queries",
+              "title": "INF Generi per Parametri Film Blocco 2"
+            },
+            {
+              "id": "js5eihPKLL",
+              "type": "queries",
+              "title": "INF Most recent Film Blocco 2"
+            },
+            {
+              "id": "Fey8TGWHzd",
+              "type": "queries",
+              "title": "INF Most recent Film"
+            },
+            {
+              "id": "Cz5mbdSpkG",
+              "type": "queries",
+              "title": "INF Film Più visti 7 giorni Blocco 2"
+            },
+            {
+              "id": "yNmdifMzM",
+              "type": "queries",
+              "title": "INF Film Più visti 7 giorni"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 1,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "realm": "content"
+}

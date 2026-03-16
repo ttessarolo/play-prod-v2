@@ -1,0 +1,159 @@
+{
+  "title": "Query Enabler stagioni Serie TV Super Top",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "MrtMAYnbZ"
+    },
+    {
+      "id": "KdgZfZ_wm"
+    },
+    {
+      "id": "M2X3Atski"
+    },
+    {
+      "id": "mfXQdqG3TO"
+    },
+    {
+      "id": "pFqKEF5H33"
+    }
+  ],
+  "exclude": [],
+  "include": [],
+  "boost": [],
+  "order": [
+    {
+      "id": "tMgBtvtBy"
+    }
+  ],
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "MrtMAYnbZ",
+          "KdgZfZ_wm",
+          "M2X3Atski",
+          "mfXQdqG3TO",
+          "pFqKEF5H33",
+          "tMgBtvtBy"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "ztWfmA_PI",
+          "KhQ3IziFJ"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "TUpmKh57H"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "id": "mvZ0e6XOY",
+  "version": 33,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-10-26T14:37:38.467Z"
+  },
+  "metadataInRules": [],
+  "presets": {
+    "exclude": [
+      {
+        "id": "KhQ3IziFJ"
+      }
+    ],
+    "filter": [
+      {
+        "id": "ztWfmA_PI"
+      }
+    ]
+  },
+  "metadataOverrides": {},
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "TUpmKh57H",
+              "type": "blocks",
+              "title": "Block Enabler Serie TV del Momento"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 7,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 5,
+          "items": [
+            {
+              "id": "MrtMAYnbZ",
+              "type": "rules",
+              "title": "Rule Channel Mediaset Play o Infinity"
+            },
+            {
+              "id": "KdgZfZ_wm",
+              "type": "rules",
+              "title": "Rule Editorial Type TV Season"
+            },
+            {
+              "id": "M2X3Atski",
+              "type": "rules",
+              "title": "Rule Tipologia Serie TV"
+            },
+            {
+              "id": "mfXQdqG3TO",
+              "type": "rules",
+              "title": "Rule etichetta editoriale Super Top"
+            },
+            {
+              "id": "tMgBtvtBy",
+              "type": "rules",
+              "title": "Rule Order By Publication date Fep Most Recent Play "
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 2,
+          "items": [
+            {
+              "id": "ztWfmA_PI",
+              "type": "rulesPresets",
+              "title": "Preset Fep attivi"
+            },
+            {
+              "id": "KhQ3IziFJ",
+              "type": "rulesPresets",
+              "title": "Preset Video format exclude 4K"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "realm": "content",
+  "uselessMultiplier": false
+}

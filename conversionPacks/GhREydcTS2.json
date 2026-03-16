@@ -1,0 +1,104 @@
+{
+  "refs": {
+    "require": [
+      {
+        "type": "conversionPacks",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "EuOtAwNy8"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "EuOtAwNy8",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 1,
+      "items": [
+        {
+          "type": "conversionPacks",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "cache": true,
+  "paramsId": "playDefault",
+  "contentType": "video",
+  "realm": "content",
+  "conversions": [
+    {
+      "label": "watched",
+      "value": "watched"
+    }
+  ],
+  "range": {
+    "period": "60",
+    "unit": "d",
+    "comparePrevious": 0
+  },
+  "title": "TVOD Visti da utente",
+  "description": "",
+  "order": "asc",
+  "outputMetadataField": "userWatchedTvod",
+  "numElements": "5",
+  "userBased": true,
+  "filter": {
+    "rules": [
+      {
+        "type": "metadata",
+        "name": "content_channels",
+        "values": [
+          "Noleggio"
+        ],
+        "operator": "or",
+        "fieldNested": 0,
+        "dbType": "keyword"
+      },
+      {
+        "type": "metadata",
+        "name": "editorial_type",
+        "values": [
+          "Movie"
+        ],
+        "operator": "or",
+        "fieldNested": 0,
+        "dbType": "keyword"
+      }
+    ],
+    "operator": "and",
+    "tieBreaker": "0.9"
+  },
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2025-04-10T08:39:51.010Z"
+  },
+  "id": "GhREydcTS2",
+  "version": 19,
+  "must_not": {
+    "rules": []
+  }
+}

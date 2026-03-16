@@ -1,0 +1,120 @@
+{
+  "title": "Rule Content Channel Mplay Infinity Noleggio",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": [
+              {
+                "type": "metadata",
+                "value": ""
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ],
+            "id": "0z92NLyRtr"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "Jin0HY0lwV",
+      "valueType": "list",
+      "queryType": "listTermsId",
+      "field": "content_channels",
+      "fieldNested": 0,
+      "fieldDBType": "text",
+      "_id": "DvBpuyudb",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "clauses": [
+    "filter"
+  ],
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": [
+          "Jin0HY0lwV"
+        ]
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "jO1QhHhsaX"
+        ]
+      }
+    ]
+  },
+  "id": "pdYDSoG5m0",
+  "version": 3,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2023-04-14T09:31:47.557Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 1,
+          "items": [
+            {
+              "id": "jO1QhHhsaX",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 1,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 1,
+          "items": [
+            {
+              "id": "Jin0HY0lwV",
+              "type": "lists",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": []
+}

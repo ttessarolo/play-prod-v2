@@ -1,0 +1,225 @@
+{
+  "metadataInRules": [],
+  "title": "Search Stagioni",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "f7rLiq5pk4"
+    },
+    {
+      "id": "N8v6Gb2Ty6"
+    }
+  ],
+  "exclude": [],
+  "include": [
+    {
+      "id": "U5DeUiXfO"
+    }
+  ],
+  "boost": [
+    {
+      "id": "RqBahOBRSz",
+      "overides": {
+        "gxbb6JYRxw": {
+          "boost": 4
+        }
+      }
+    },
+    {
+      "id": "S__HGJYN5V",
+      "overides": {
+        "od4gEfgVm": {
+          "boost": 4
+        }
+      }
+    },
+    {
+      "id": "XrQIQriQGR",
+      "overides": {
+        "D5Ommj0iv": {
+          "boost": 4
+        }
+      }
+    },
+    {
+      "id": "bxjJcRxw6j",
+      "overides": {
+        "g6iwlI3f5": {
+          "boost": 4
+        }
+      }
+    },
+    {
+      "id": "mfXQdqG3TO",
+      "overides": {
+        "roJIYcEjW": {
+          "boost": 4
+        }
+      }
+    },
+    {
+      "id": "Ch_S0en0f",
+      "overides": {
+        "SllVW2XnFL": {
+          "boost": 3
+        }
+      }
+    }
+  ],
+  "order": [],
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "f7rLiq5pk4",
+          "N8v6Gb2Ty6",
+          "U5DeUiXfO",
+          "RqBahOBRSz",
+          "S__HGJYN5V",
+          "XrQIQriQGR",
+          "bxjJcRxw6j",
+          "mfXQdqG3TO",
+          "Ch_S0en0f"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "IYHk9HTkJ"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1,
+    "mustOperator": "or"
+  },
+  "id": "ds8pLOaGO",
+  "version": 40,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-12-15T11:01:38.142Z"
+  },
+  "metadataOverrides": {
+    "f7rLiq5pk4": {
+      "content_similar": {
+        "required": true,
+        "output": "video_similar_ids_search_stagioni",
+        "numResults": 800,
+        "metadata": {
+          "included": [
+            "editorial_type=TVSeason"
+          ]
+        },
+        "groupby": {
+          "metadata": "id_series_se",
+          "results": 1,
+          "sortMetadata": "publication_date",
+          "sortDirection": "desc"
+        },
+        "scoreType": "origin"
+      }
+    }
+  },
+  "presets": {
+    "filter": []
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "IYHk9HTkJ",
+              "type": "blocks",
+              "title": "Search Stagioni"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 10,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 10,
+          "items": [
+            {
+              "id": "f7rLiq5pk4",
+              "type": "rules",
+              "title": "Rule Ultima Stagione per serie"
+            },
+            {
+              "id": "N8v6Gb2Ty6",
+              "type": "rules",
+              "title": "Rule Params Channel Infinity Serie "
+            },
+            {
+              "id": "VcYThCNZw",
+              "type": "rules",
+              "title": "Rule Exclude Channel MGM"
+            },
+            {
+              "id": "U5DeUiXfO",
+              "type": "rules",
+              "title": "Rule Search title e Search people Prefix"
+            },
+            {
+              "id": "RqBahOBRSz",
+              "type": "rules",
+              "title": "Rule etichetta editoriale Top"
+            },
+            {
+              "id": "S__HGJYN5V",
+              "type": "rules",
+              "title": "Rule etichetta editoriale Prima Serata"
+            },
+            {
+              "id": "XrQIQriQGR",
+              "type": "rules",
+              "title": "Rule etichetta editoriale In Onda"
+            },
+            {
+              "id": "bxjJcRxw6j",
+              "type": "rules",
+              "title": "Rule etichetta editoriale Prima TV"
+            },
+            {
+              "id": "mfXQdqG3TO",
+              "type": "rules",
+              "title": "Rule etichetta editoriale Super Top"
+            },
+            {
+              "id": "Ch_S0en0f",
+              "type": "rules",
+              "title": "Rule Boost Params Channel Mediaset Play"
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "uselessMultiplier": false,
+  "realm": "content"
+}

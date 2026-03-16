@@ -1,0 +1,49 @@
+{
+  "type": "output",
+  "language": "javascript",
+  "execute": "// **********************************************************\n// @description Enrich Response with UI Metadata from Cache\n//\n// @param   {object} data - computed result or input payload\n// @param   {object} $    - {tenant, paramsId, params}\n// @param   {object} ctx  - opentracing context\n// @param   {object} this - ARES\n//\n// @return  {object} data - data object enriched\n// **********************************************************\n\nconst { tenant, params } = $;\nconst MPXEndpoint =\n  \"https://feed.entertainment.tv.theplatform.eu/f/PR1GhC/mediaset-prod-public-url?fields=guid,title,description,programType,thumbnails,media.expirationDate,media.availableDate,media.publicUrl,longDescription,year,seriesId,tvSeasonEpisodeNumber,tvSeasonNumber,mediasetprogram$videoPageUrl,mediasetprogram$numberOfViews,mediasetprogram$genres,ratings,tags,mediasetprogram$duration,mediasetprogram$pageUrl,mediasetprogram$publishInfo,mediasetprogram$publishInfo_lastPublished,mediasetprogram$brandDescription,mediasetprogram$brandId,mediasetprogram$brandTitle,mediasetprogram$subBrandId,mediasetprogram$subBrandTitle,mediasetprogram$episodeId,seriesId,mediasetprogram$sourceAspectRatio,mediasetprogram$subBrandDescription&byGuid=\";\nconst tenantId = params.tenant;\nconst keys = [];\nconst ids = [];\nconst types = new Map();\nconst getKey = (contentType, id) => `{${tenantId}:${contentType}:ux}:${id}`;\n\n// **************************************\n// Get ids, contentType for every element\n// to process and generate Cache Key\n// **************************************\nfor (let k = 0, length = data.blocks.length; k < length; k++) {\n  const block = data.blocks[k];\n  const contentType = block._contentType;\n\n  const paramsTyped = params.content.types[contentType];\n\n  if (!paramsTyped) continue;\n\n  const contentIdField = paramsTyped.contentIdField;\n\n  for (let i = 0, length = block.items.length; i < length; i++) {\n    const item = block.items[i];\n    const id = item[contentIdField];\n\n    keys.push(getKey(contentType, id));\n    ids.push(id);\n    types.set(id, contentType);\n  }\n}\n\nif (!keys.length) return data;\n\n// **************************************\n// Get UIItems from Cache and check for\n// missing items\n// **************************************\nconst values = await this.cache.getKeys(keys);\nconst UIMap = new Map();\nconst missing = [];\n\nfor (let i = 0, length = values.length; i < length; i++) {\n  const id = ids[i];\n  const value = values[i];\n\n  if (!value) missing.push(id);\n  else UIMap.set(id, value);\n}\n\n// **************************************\n// If some UI Enrichment is missing then\n// grab it from MPX and put it in cache\n// **************************************\nif (missing.length > 0) {\n  const pipeline = this.cache.getPipeline();\n  const url = MPXEndpoint + missing.join(\"|\");\n  const UIRes = (await this.axios(url)).data;\n\n  for (let uiIndex = 0, length = UIRes.entryCount; uiIndex < length; uiIndex++) {\n    const uxItem = UIRes.entries[uiIndex];\n\n    if (!uxItem) continue;\n\n    const id = uxItem.guid;\n    const contentType = types.get(id);\n    const key = getKey(contentType, id);\n\n    UIMap.set(id, uxItem);\n    pipeline.set(key, JSON.stringify(uxItem), \"EX\", 86400); // 1 day\n  }\n\n  pipeline.exec();\n}\n\n// **************************************\n// Enrich Blocks with UIItems\n// **************************************\nfor (let blockIndex = 0, length = data.blocks.length; blockIndex < length; blockIndex++) {\n  const block = data.blocks[blockIndex];\n  const contentType = block._contentType;\n\n  const paramsTyped = params.content.types[contentType];\n  if (!paramsTyped) continue;\n\n  const contentIdField = paramsTyped.contentIdField;\n\n  for (let itemIndex = 0, length = block.items.length; itemIndex < length; itemIndex++) {\n    const item = block.items[itemIndex];\n    const id = item[contentIdField];\n    const uiEnrich = UIMap.get(id);\n\n    if (!uiEnrich) continue;\n\n    const enriched = typeof uiEnrich === \"object\" ? uiEnrich : JSON.parse(uiEnrich);\n\n    data.blocks[blockIndex].items[itemIndex] = { ...item, ...enriched };\n  }\n}\n\nreturn data;",
+  "title": "Enricher for Mediaset PLAY UI",
+  "description": "Enrich output data gathering metadata for UI presentation",
+  "id": "cOVbfLDX",
+  "version": 116,
+  "lastSaved": {
+    "username": "ttessarolo",
+    "date": "2020-09-01T09:00:02.166Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "endpoints",
+        "items": [
+          "singleItem",
+          "theSupremeEndpoint",
+          "pnJNcDQn",
+          "nMBJhPVU",
+          "Ig0gd1su",
+          "Rvuog5OA",
+          "ATHnaOFAg2",
+          "on82j7jFs",
+          "VjCz7WYXt",
+          "ZopG3r7aN",
+          "IK7CLJXRI",
+          "jYS4O9u4yH",
+          "otVym5wZF",
+          "DE85wVmhH",
+          "bjoj4Wl18",
+          "HL_Nivg4z",
+          "I9PnQ6qay",
+          "f_BOSG24p",
+          "OqXimJTZf",
+          "cMnSzhfbv",
+          "MMjEzg0FE",
+          "upPQjXQdE",
+          "MeC9HT3N7t",
+          "Zhj5Qu1_p"
+        ]
+      }
+    ]
+  },
+  "signature": "2c7f5126d025648a09a0741b158c830f9a65d5cd88525663b16b58448e34de63b678ee4ec90264b635dc5b37d78a0e9f232088b129dab6611e1bcdcac5661e8e6576684469fd857294fdd03f5aa0fb525dbd235d209d8f996636390e73ceaaf3d965e8f5ba99c782a038989bee98ea1da4feb879e142f07fc530e24531f4558135f18263a4b8ca2f8ba4f867dd88523a7c154cb8452fd8cbfbed87c01538e5d3a5d8aef5f5c58efa7a86b5ac3eac72035194f6dccea03336778bebee15c3115a5293c3468cd8796745d3498fc5982cafcbb93f7eaa5264d698c2f9c15d9341550abaf1e55458244f8c82f9fe898c24abb932c4d81a21ad446e96a5e3b5603c6d1c02172ce63f90149f86174f17b6f5dea0b370903983cfc2f8ba079f87e4f379731251f97a2a5efe358de86fd3ddf5dc4e8dceab246988b736612c1f6828cdb82540a2ad74e3fc712e247c34cc2a766affd2b4708a36f01daa8b0e8786935be4eb03bbd2a92938a6b264a83ba42c30ef7bf9e4a0af697a243b41865aa1cb27a2ebfdafdf1e93da0a7ee0375c78f9afbd9bfdbea89d17037d46e70b2a4c4bf34c6e611e615a3248052fbc344d2515d5af0a8575c7554feb102ec1691dd03b88a4622aec4cbae848717ca925afef12e66da0a1609eee7b2df76c44027ed0188aed27477be03874087e6d3c881fc3a46c9308827f3a1566ea5f8a364f8a753e0cf3",
+  "pubKey": "rti.pub.pem",
+  "algorithm": "SHA512withRSA"
+}

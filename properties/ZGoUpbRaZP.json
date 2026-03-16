@@ -1,0 +1,279 @@
+{
+  "input": {
+    "schema": {
+      "name": "Input Validation Schema",
+      "description": "ARES Request Params",
+      "type": "object",
+      "required": [
+        "query"
+      ],
+      "properties": {
+        "query": {
+          "type": "object",
+          "required": [
+            "tenant",
+            "uxReference"
+          ],
+          "properties": {
+            "tenant": {
+              "type": "string"
+            },
+            "uxReference": {
+              "type": "string"
+            },
+            "userId": {
+              "type": "string"
+            },
+            "userType": {
+              "type": "string"
+            },
+            "userGroup": {
+              "type": "string"
+            },
+            "deviceId": {
+              "type": "string"
+            },
+            "contentId": {
+              "type": "string"
+            },
+            "sessionId": {
+              "type": "string"
+            },
+            "context": {
+              "type": "string"
+            },
+            "query": {
+              "type": "string"
+            },
+            "params": {
+              "type": "string"
+            },
+            "startBlock": {
+              "type": "number"
+            },
+            "endBlock": {
+              "type": "number"
+            },
+            "page": {
+              "type": "number"
+            },
+            "hitsPerPage": {
+              "type": "number"
+            },
+            "freeClusterId": {
+              "type": "number"
+            },
+            "infinityClusterId": {
+              "type": "number"
+            },
+            "unifiedClusterId": {
+              "type": "number"
+            }
+          }
+        }
+      }
+    }
+  },
+  "params": {
+    "timeout": 1500,
+    "cacheConfig": {
+      "cache": false,
+      "cacheTTL": 300
+    }
+  },
+  "paramsId": "playDefault",
+  "output": {
+    "decorators": [
+      "mU5ep6Aze"
+    ]
+  },
+  "uiParams": {
+    "preview": {
+      "currentParams": {},
+      "uiParams": {
+        "current": "User Logged #2",
+        "currentIndex": 2,
+        "sets": [
+          {
+            "title": "Anonymous",
+            "params": {
+              "contentId": {
+                "value": "F010791601000102",
+                "active": true
+              },
+              "userId": {
+                "value": "1f51d5e9f09e4d349fa3af349e1cdac4",
+                "active": false
+              },
+              "deviceId": {
+                "value": "ARES-CC",
+                "active": true
+              }
+            }
+          },
+          {
+            "title": "User Logged #1",
+            "params": {
+              "contentId": {
+                "value": "F010791601000102",
+                "active": true
+              },
+              "userId": {
+                "value": "1f51d5e9f09e4d349fa3af349e1cdac4",
+                "active": true
+              },
+              "deviceId": {
+                "value": "ARES-CC",
+                "active": true
+              }
+            }
+          },
+          {
+            "title": "User Logged #2",
+            "params": {
+              "contentId": {
+                "value": "F010791601000102",
+                "active": true
+              },
+              "userId": {
+                "value": "36e9cfd5ec474972ba1a82d19696346c",
+                "active": true
+              },
+              "deviceId": {
+                "value": "ARES-CC",
+                "active": true
+              }
+            }
+          }
+        ]
+      },
+      "decorator": "(\n   {\n     \"layout\": layout,\n     \"blocks\": $map(blocks ? blocks : entries, function($block){(\n        $iterator :=  $exists($block.entries) ? $block.entries : $exists($block.items) ? $block.items : $block;\n\n        {\n            \"id\":$block._aresId,\n            \"title\":$block.title,\n            \"type\":$block._blockType,\n            \"score\":$block._smartOrderingScore,\n            \"results\":$count($iterator),\n            \"pinned\":$block.pinned,\n            \"layout\":$block.layout,\n            \"items\":$map($iterator, function($item) {(\n            {\n                \"contentId\": $item.video_content_id ? $item.video_content_id : $item.id ?  $item.id : $item.video_content_id,\n                \"title\": $item.title,  \n                \"imageURL\": $item.thumbnails ? $item.thumbnails.`image_keyframe_poster-292x165`.url : $item.horizontal_poster, \n                \"date\":$item.`mediasetprogram$publishInfo_lastPublished` ? $fromMillis($item.`mediasetprogram$publishInfo_lastPublished`) : $item.publication_date,\n                \"category\":$item.editorial_type\n            }      \n        )})\n        }\n    )})\n   }\n\n)"
+    },
+    "layout": {
+      "currentParams": {
+        "paramsId": "playDefault",
+        "contentId": "F301644701000103",
+        "userId": "1f51d5e9f09e4d349fa3af349e1cdac4",
+        "deviceId": "ARES-CC"
+      },
+      "uiParams": {
+        "current": "Default",
+        "currentIndex": 0,
+        "sets": [
+          {
+            "title": "Default",
+            "params": {
+              "paramsId": {
+                "value": "playDefault",
+                "active": true
+              },
+              "contentId": {
+                "value": "F301644701000103",
+                "active": true
+              },
+              "userId": {
+                "value": "1f51d5e9f09e4d349fa3af349e1cdac4",
+                "active": true
+              },
+              "deviceId": {
+                "value": "ARES-CC",
+                "active": true
+              }
+            }
+          }
+        ]
+      },
+      "decorator": "(\n    $iterator :=  $exists(blocks.entries) ? blocks.entries : entries ? entries : blocks.items;\n\n    $map($iterator, function($item) {(\n        {\n            \"contentId\": $item.id ?  $item.id : $item.video_content_id,\n            \"title\": $item.title,  \n            \"imageURL\": $item.thumbnails ? $item.thumbnails.`image_keyframe_poster-292x165`.url : $item.horizontal_poster, \n            \"date\":$item.`mediasetprogram$publishInfo_lastPublished` ? $fromMillis($item.`mediasetprogram$publishInfo_lastPublished`) : $item.publication_date,\n            \"category\":$item.editorial_type\n        }      \n    )})\n\n)"
+    },
+    "blockExplorer": {
+      "decorator": "(\n   $map(blocks, function($block){(\n        {\n            \"id\":$block._aresId,\n            \"title\":$block.title,\n            \"type\":$block._blockType,\n            \"results\":$count($block.items),\n            \"items\":$map($block.items, function($item) {(\n            {\n                \"contentId\": #{contentId},\n                \"title\": #{title},  \n                \"imageURL\": #{imageURL}, \n                \"date\": #{date},\n                \"category\": #{category},\n                \"description\": #{description}\n            }      \n        )})\n        }\n    )})\n)"
+    }
+  },
+  "blocksMetadata": [
+    {
+      "id": "r43Mh61Jhy",
+      "title": "attributes",
+      "metadata": [
+        {
+          "type": "select",
+          "id": "EbVTf0XFE",
+          "label": "Template",
+          "dataField": "template",
+          "selectValues": [
+            [
+              "Keyframe",
+              "KEYFRAME"
+            ],
+            [
+              "Poster",
+              "POSTER"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "LM7P7UKeQ",
+      "title": "playContentMeta",
+      "metadata": [
+        {
+          "type": "text",
+          "id": "CDtPvnY32",
+          "label": "Description",
+          "dataField": "description"
+        }
+      ]
+    }
+  ],
+  "title": "sky",
+  "description": "",
+  "id": "ZGoUpbRaZP",
+  "version": 12,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2024-02-26T10:55:31.462Z"
+  },
+  "refs": {
+    "belongs": []
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  },
+  "tree": [
+    {
+      "value": "umv6BeGPqZ",
+      "label": "sky",
+      "children": [
+        {
+          "value": "iueh1zUR4",
+          "label": "skyFeatured",
+          "children": [
+            {
+              "value": "bxpCbu3mW",
+              "label": "Sky Featured"
+            }
+          ]
+        },
+        {
+          "value": "KvGqRT67w",
+          "label": "skyMostRecent",
+          "children": [
+            {
+              "value": "KVevhdsXI",
+              "label": "Sky Most Recent"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

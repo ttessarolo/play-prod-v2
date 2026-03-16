@@ -1,0 +1,105 @@
+{
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 1,
+          "items": [
+            {
+              "id": "W_8SLCb67",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "title": "Rule Include Consistenza commerciale Stagione Mediaset Play",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "keepOrder": true,
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "video_similar_ids_season_mplay",
+      "valueType": "metadata",
+      "queryType": "ids",
+      "field": "video_content_id",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "PkYfumyTNS"
+    }
+  ],
+  "clauses": [
+    "include"
+  ],
+  "metadata": {
+    "content_similar": {
+      "required": true,
+      "output": "video_similar_ids_season_mplay",
+      "numResults": 12,
+      "metadata": {
+        "included": [
+          "tipologia=Serie TV",
+          "editorial_type=TVSeason",
+          "content_channels=MediasetPlay",
+          "current_season=true"
+        ]
+      },
+      "groupby": {
+        "metadata": "editorial_type",
+        "results": 2,
+        "sortMetadata": "last24h_videoviews",
+        "sortDirection": "desc"
+      }
+    }
+  },
+  "id": "J3p0i15H0",
+  "version": 6,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-02-05T11:45:18.732Z"
+  }
+}

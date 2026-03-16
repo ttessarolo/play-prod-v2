@@ -1,0 +1,173 @@
+{
+  "results": {
+    "min": 0,
+    "flatAllBlocks": true,
+    "fallbackBlockId": "P0csRsOt7",
+    "max": 30,
+    "deduplicateFlattedResults": true,
+    "shuffleItems": true
+  },
+  "blocks": [
+    {
+      "_id": "VGrYt4qpWb",
+      "condition": "*",
+      "title": "Blockbuster over 2015",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 30,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "fallbackBlockId": "P0csRsOt7"
+      },
+      "queryId": "wZl6yRICv"
+    },
+    {
+      "_id": "eHeycyueV",
+      "condition": "*",
+      "title": "Più visti 30 giorni",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 10,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_"
+      },
+      "queryId": "eYE4Fz7jp"
+    }
+  ],
+  "title": "Da non perdere",
+  "description": "Fallback Inf Smart Block Film",
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "realm": "content",
+  "refs": {
+    "require": [
+      {
+        "type": "queries",
+        "items": [
+          "wZl6yRICv",
+          "eYE4Fz7jp"
+        ]
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "P0csRsOt7"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": [
+          "eOaXizx_"
+        ]
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "qi0AgY214Q"
+        ]
+      }
+    ]
+  },
+  "id": "i79ZQj_n9",
+  "version": 9,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-09-14T16:16:46.958Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "pages",
+          "count": 1,
+          "items": [
+            {
+              "variantId": "iHhUjO02y",
+              "variantTitle": "Default",
+              "propertyId": "zlqQNxLcGh",
+              "propertyTitle": "play",
+              "endpointId": "RVtOTd3BL",
+              "endpointTitle": "infSmartBlockFilm"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 4,
+      "types": 5,
+      "items": [
+        {
+          "type": "queries",
+          "count": 2,
+          "items": [
+            {
+              "id": "zjpqKIUocS",
+              "type": "queries",
+              "title": "Fallback Smart block INF Film Blocco 1"
+            },
+            {
+              "id": "eYE4Fz7jp",
+              "type": "queries",
+              "title": "Fallback Smart block INF Film Blocco 2"
+            }
+          ]
+        },
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "P0csRsOt7",
+              "type": "blocks",
+              "title": "Block published flag not exists"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 1,
+          "items": [
+            {
+              "id": "eOaXizx_",
+              "type": "responseFields",
+              "title": "PLAY-PROD-VIDEO-MINIMAL-SET"
+            }
+          ]
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": [],
+  "canBeFallback": 1
+}

@@ -1,0 +1,159 @@
+{
+  "id": "rZtIe1Nzt_",
+  "propertyId": "zlqQNxLcGh",
+  "title": "Film AB Test",
+  "description": "Please Edit description for Page \"Default\"",
+  "enabledPagesId": [
+    "DPNzLDT41"
+  ],
+  "isPage": true,
+  "blocks": [
+    {
+      "id": "fSeup5JrwJ",
+      "condition": "*",
+      "title": "Film AB Test",
+      "type": "nested",
+      "layout": {
+        "i": "fSeup5JrwJ",
+        "x": 0,
+        "y": 1,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "sx_sOdIkHE"
+    }
+  ],
+  "version": 5,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2023-07-05T10:40:59.161Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "endpoints",
+        "items": []
+      }
+    ],
+    "require": [
+      {
+        "type": "queries",
+        "items": []
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "Rc1YEkVxO",
+          "sx_sOdIkHE"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "DPNzLDT41",
+              "type": "endpoints",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 2,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 2,
+          "items": [
+            {
+              "id": "Rc1YEkVxO",
+              "type": "blocks"
+            },
+            {
+              "id": "sx_sOdIkHE",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "layout": [
+    {
+      "i": "fSeup5JrwJ",
+      "x": 0,
+      "y": 1,
+      "w": 12,
+      "h": 30,
+      "blocks": []
+    }
+  ],
+  "results": {
+    "fallbackBlockId": "Rc1YEkVxO",
+    "fullSubstituteFallback": true
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "TNtOUf6kS",
+          "Hgvp3RuY2",
+          "eYpjGfjVG",
+          "m_gnuihp0",
+          "KAsq06N6F",
+          "OvIXofGN2E",
+          "sRlHZqMawB",
+          "mtx6Ew_wWR",
+          "aTlHoTaH0",
+          "sAkw5LwYq"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 3,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 3,
+          "items": [
+            {
+              "id": "TNtOUf6kS",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "Hgvp3RuY2",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "eYpjGfjVG",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "clauses": [
+    "filter",
+    "include"
+  ],
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "video_similar_ids_progrtv",
+      "valueType": "metadata",
+      "queryType": "ids",
+      "field": "video_content_id",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "hPXY2NdGQ"
+    }
+  ],
+  "grouped": false,
+  "operator": "and",
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "metadata": {
+    "content_similar": {
+      "required": true,
+      "metadata": {
+        "included": [
+          "content_channels=MediasetPlay",
+          "tipologia=(Fiction) OR (Informazione) OR (Intrattenimento) OR (Serie TV) OR (Documentari)",
+          "editorial_type=TVSeason",
+          "etichetteEditoriali=In Onda",
+          "current_season=true"
+        ],
+        "excluded": [
+          "genere_mcm=Soap opera"
+        ]
+      },
+      "output": "video_similar_ids_progrtv",
+      "groupby": {
+        "metadata": "",
+        "results": 0,
+        "sortMetadata": "",
+        "sortDirection": ""
+      },
+      "date": {
+        "range": 3,
+        "period": "d",
+        "field": "publication_date_fep_most_recent_play",
+        "absolute": true
+      }
+    }
+  },
+  "title": "Rule Content pack Programmi TV In Onda",
+  "description": "",
+  "id": "zv6EEbQBQ",
+  "version": 8,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2023-06-01T15:16:01.842Z"
+  }
+}

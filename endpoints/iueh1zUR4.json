@@ -1,0 +1,124 @@
+{
+  "id": "iueh1zUR4",
+  "active": true,
+  "title": "skyFeatured",
+  "description": "",
+  "reference": "skyFeatured",
+  "propertyId": "ZGoUpbRaZP",
+  "blockId": "bxpCbu3mW",
+  "variants": [],
+  "params": {
+    "timeout": 1500,
+    "cacheConfig": {
+      "cache": 1,
+      "cacheTTL": 3600,
+      "cachePrefix": {
+        "group": true,
+        "static": "endpoint",
+        "keys": []
+      },
+      "computeKeys": [
+        "startBlock",
+        "endBlock",
+        "contentId"
+      ]
+    },
+    "inveverseCacheConfig": {
+      "cacheTTL": 3600
+    }
+  },
+  "paramsId": "playDefault",
+  "input": {},
+  "output": {
+    "decorators": [
+      "mU5ep6Aze"
+    ]
+  },
+  "version": 6,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2024-03-05T11:56:11.299Z"
+  },
+  "refs": {
+    "belongs": [],
+    "require": [
+      {
+        "type": "blocks",
+        "items": [
+          "bxpCbu3mW"
+        ]
+      },
+      {
+        "type": "params",
+        "items": [
+          "playDefault"
+        ]
+      },
+      {
+        "type": "decorators",
+        "items": [
+          "mU5ep6Aze"
+        ]
+      },
+      {
+        "type": "conversionPacks",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 3,
+      "types": 4,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "bxpCbu3mW",
+              "type": "blocks",
+              "title": "Sky Featured"
+            }
+          ]
+        },
+        {
+          "type": "params",
+          "count": 1,
+          "items": [
+            {
+              "id": "playDefault",
+              "type": "params",
+              "title": "Play Default"
+            }
+          ]
+        },
+        {
+          "type": "decorators",
+          "count": 1,
+          "items": [
+            {
+              "id": "mU5ep6Aze",
+              "type": "decorators",
+              "title": "MPlay Universal Enricher "
+            }
+          ]
+        },
+        {
+          "type": "conversionPacks",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "haveScheduledVariants": 0,
+  "prevReference": "skyFeatured",
+  "paginateFromCache": true,
+  "enableAnalitica": true
+}

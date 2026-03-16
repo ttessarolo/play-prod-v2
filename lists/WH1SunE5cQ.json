@@ -1,0 +1,53 @@
+{
+  "title": "List Generi MCM Horror Thriller Drammatico",
+  "description": "",
+  "type": "text",
+  "contentType": "video",
+  "realm": "content",
+  "elements": [
+    "Horror",
+    "Thriller",
+    "Crime",
+    "Drammatico"
+  ],
+  "id": "WH1SunE5cQ",
+  "version": 3,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2023-01-24T13:54:11.807Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "rules",
+        "items": [
+          "u1S33CURt"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "rules",
+          "count": 1,
+          "items": [
+            {
+              "id": "u1S33CURt",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  }
+}

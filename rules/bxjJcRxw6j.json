@@ -1,0 +1,104 @@
+{
+  "contentType": "video",
+  "title": "Rule etichetta editoriale Prima TV",
+  "description": "",
+  "clauses": [
+    "filter",
+    "exclude",
+    "include",
+    "boost"
+  ],
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "I2I",
+      "value": "Prima TV",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "etichetteEditoriali",
+      "fieldDBType": "keyword",
+      "_id": "g6iwlI3f5"
+    }
+  ],
+  "field": "etichetteEditoriali",
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "xmIlupiAS",
+          "ds8pLOaGO",
+          "wwG2hSMIC",
+          "CGFfVq3sX",
+          "ZsxcVJ4cb",
+          "O43LrW3K3",
+          "DB7Fg4hfA",
+          "Z4Xzab9uO0",
+          "zzovQgZgg"
+        ]
+      }
+    ]
+  },
+  "id": "bxjJcRxw6j",
+  "version": 10,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-03-31T14:29:51.147Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 3,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 3,
+          "items": [
+            {
+              "id": "xmIlupiAS",
+              "type": "queries",
+              "title": "Query Default Search Stagioni"
+            },
+            {
+              "id": "ds8pLOaGO",
+              "type": "queries",
+              "title": "Search Stagioni"
+            },
+            {
+              "id": "qOqWHDpaC",
+              "type": "queries",
+              "title": "Query Fiction e Serie TV del momento Blocco 1"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 1,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  }
+}

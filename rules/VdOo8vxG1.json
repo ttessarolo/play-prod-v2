@@ -1,0 +1,89 @@
+{
+  "title": "Rule Etichetta editoriale Cartoonito",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "Cartoonito",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "etichetteEditoriali",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "dVCixH976"
+    }
+  ],
+  "clauses": [
+    "filter",
+    "include",
+    "boost",
+    "exclude"
+  ],
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "ZRGcMAnsL",
+          "ubigd5wChi",
+          "kc8b7byAm",
+          "fFfkZBP4s",
+          "xhXKgqHLs",
+          "Oo7bQ3Dg8Z"
+        ]
+      }
+    ]
+  },
+  "id": "VdOo8vxG1",
+  "version": 3,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-03-22T16:08:59.953Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 2,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 2,
+          "items": [
+            {
+              "id": "ZRGcMAnsL",
+              "type": "queries",
+              "title": "Query Kids Cartoonito Più visti 24H"
+            },
+            {
+              "id": "ubigd5wChi",
+              "type": "queries",
+              "title": "Query Kids Evergreen Più visti 24H"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 1,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  }
+}

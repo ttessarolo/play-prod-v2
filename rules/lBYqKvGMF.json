@@ -1,0 +1,103 @@
+{
+  "title": "Rule Most recent Publication date Start InfNero",
+  "description": "",
+  "contentType": "video",
+  "clauses": [
+    "order"
+  ],
+  "rule": [
+    {
+      "sortOrder": "desc",
+      "sortMode": "avg",
+      "API": "V2",
+      "condition": "(contains(params_channel, \"InfNero\"))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "params_channel"
+              },
+              {
+                "value": "\"InfNero\"",
+                "type": "string"
+              }
+            ],
+            "id": "ywhZt1VpQG"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "",
+      "valueType": "",
+      "queryType": "sortOrder",
+      "field": "publication_date_start_infnero",
+      "fieldNested": 0,
+      "fieldDBType": "date",
+      "_id": "T00snuVJli",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "field": "publication_date",
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "W5eXiix_7"
+        ]
+      }
+    ]
+  },
+  "id": "lBYqKvGMF",
+  "version": 16,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-04-04T14:18:07.384Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": [],
+  "realm": "content"
+}

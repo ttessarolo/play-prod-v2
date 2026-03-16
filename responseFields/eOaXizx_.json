@@ -1,0 +1,798 @@
+{
+  "contentType": "video",
+  "title": "PLAY-PROD-VIDEO-MINIMAL-SET",
+  "description": "Only contentId, Tipologia and id_season_st + programtype e  id_brand (per Universal Enricher)",
+  "fields": [
+    "video_content_id",
+    "tipologia",
+    "programtype",
+    "id_brand",
+    "id_season_st",
+    "id_series_se"
+  ],
+  "id": "eOaXizx_",
+  "version": 15,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-06-16T10:58:10.525Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "xo1OyaXTN",
+          "ivlIDKnOR",
+          "P0csRsOt7",
+          "TCx_rZ2AW",
+          "IYHk9HTkJ",
+          "FTR93QFLi",
+          "BGDVNJzqyk",
+          "AaanuawuWV",
+          "DalenVLWr",
+          "cd5kok0ux",
+          "V8fuaquogZ",
+          "Tiu8NSl7tn",
+          "UfjbdJWlQL",
+          "m0fY0CpslB",
+          "sghhp0Ebz",
+          "lkT2ONHOU3",
+          "NQi7zRZZmW",
+          "lAqDX_o_o",
+          "LBYFuK4s2",
+          "xV8PfZUir",
+          "oaQPBDaZA",
+          "WMiNKvnY4",
+          "W3OYUNkt68",
+          "EQJhlR0N7",
+          "VEb0Iobun",
+          "dHLUD0MQs",
+          "uZ882zsyi",
+          "LzHgDyGoq",
+          "ud6yGw8I8",
+          "EeUleJBhR",
+          "uH_EDty35",
+          "XwXMPRgej",
+          "kolFbgJ3bG",
+          "DmJXREbVAb",
+          "GAuIt9t2zZ",
+          "TUpmKh57H",
+          "PBt_AJFOd",
+          "gzQeE_w8dr",
+          "Kv6wN8Y2zI",
+          "TO8nRwwqH",
+          "AVWzVaG7c",
+          "dXArl1iGk",
+          "Q3GKwt9w3",
+          "QCB5Tbxp0",
+          "ctlLPxFcc",
+          "fl74EPpGR",
+          "K5d6hNCp4G",
+          "L5pzoSqb9z",
+          "PY_ejKHEh",
+          "ZIadZYmk6",
+          "xxGX6JO9q",
+          "ZKixtOJkR",
+          "s941nm7Vkw",
+          "hr9EobplH",
+          "wDqD28KJY",
+          "Bn52RsYBn",
+          "Q70BkzEGk",
+          "In8E6MBfb",
+          "MgPmWptZEh",
+          "efMPssH74G",
+          "PGCv7Qiev",
+          "ER9ytvdX2t",
+          "DuUg6LK5g3",
+          "c0qbs8cbou",
+          "DzhJ1E4qZ",
+          "KcmRq5V0PV",
+          "Wmm8hYlFG",
+          "hG4sWA1BTz",
+          "VBMWF7Qws",
+          "rh4ZBc63W",
+          "sS8FYCahyu",
+          "VLpBOAKQIo",
+          "WmeznWgAt",
+          "aKcHkXc1q",
+          "ITG091FID",
+          "NngPF1acE",
+          "cyiJzjsm7",
+          "t08RLfwcs",
+          "eArmnniA2",
+          "xRuss7PzAY",
+          "hr35tVjd2",
+          "lki92fO4Qo",
+          "ZyqTEHJfD",
+          "YEssPNB14",
+          "FpM4IdLRo",
+          "yVFxcfHJH",
+          "kqmkzdnLKO",
+          "INzmIFIsO",
+          "B9DRBHh9E",
+          "BHdy_nvgv",
+          "dEe555tGU",
+          "xtzjtgx36",
+          "MpWLMS2iV",
+          "GjwIS5XI0",
+          "fDgcsNSTO",
+          "E4SuHscN_",
+          "zPazbJ7uE",
+          "tNWzzZNCa",
+          "FH_5BMkPq",
+          "iRXRcwqjy",
+          "Ovp154Nlc",
+          "yRBqxw1Kp1",
+          "fbmzmrkdpf",
+          "_AaR3zxxXb",
+          "Vz1Qhk3cX",
+          "AI9L0hhJ4N",
+          "vnFIdTyWF",
+          "bI9wpLoHc",
+          "IZzO642H9",
+          "WUKILpoyhw",
+          "DHYsusvA1",
+          "VYBMa1Toh",
+          "ba65yI4NF6",
+          "Upv8s3E3X",
+          "Iv3uy6EwA",
+          "i79ZQj_n9",
+          "l99q0WPS2",
+          "NkPxz7IDV",
+          "Iqt4bsHte",
+          "uqtB1zQNf",
+          "Ux07kHZqz",
+          "PGevnnODY",
+          "QaoCUQxDs",
+          "VIUvkWuko",
+          "B3PITzclV",
+          "h5S7ijSV5",
+          "ZoAlvtSMC",
+          "MV7F6IcmV",
+          "EXWiZCvTJ",
+          "qjWhvle9J",
+          "ywdQ5O6c9",
+          "gJHy25qDp",
+          "fOtPO4RYt",
+          "pN1wVUCyk",
+          "U_BBmeM8s",
+          "ANKzIfGpf",
+          "VwthsCrnw",
+          "Hjb6HEJSv",
+          "IC6u7YX2f",
+          "bCHN1vRScA",
+          "Z3QZHU9QP",
+          "Y3I5bXe1U",
+          "RIcO6oitH",
+          "RgNarqlFkn",
+          "IniwzqRKS",
+          "FjKkdJxMN",
+          "GdWjErmD8",
+          "sZIlXj8Kl",
+          "v3OoRHvsX",
+          "QQj4LsBSH",
+          "GsUC309Bm",
+          "mJLlAulE5U",
+          "kE99BaJ2R",
+          "SkQgSkoMT",
+          "sow__H0R2",
+          "KYsLw1tGEV",
+          "bwz88ulRY",
+          "FeP05BOR4",
+          "yxmAjvKM5",
+          "Fxifzzkdw",
+          "QosfP6Gc0",
+          "jC1O6gKqK",
+          "IAowuGuGB",
+          "c8TUM90jc",
+          "Cw3pr3TaY",
+          "XUoIgT7jA",
+          "Wn1FBsvd2",
+          "CSA_Vvj8g",
+          "QppzCHY3rj",
+          "QugjvjOVA",
+          "Nrt8W8HSY",
+          "f7JBjq0zL",
+          "uvAPhjS3LJ",
+          "mHP49v6DC",
+          "p2KfQcnFS",
+          "pzGIgPjnu",
+          "tpyxHvtxy",
+          "PuYMgHyGR",
+          "VRY5tsiDh",
+          "DMX9cul1_",
+          "OBAKFbhO7C",
+          "UycmdxuUC",
+          "_xKCjqOWX",
+          "nyZIQBFS9",
+          "lj4Lgcx84",
+          "aidPOYBHr",
+          "wb8wNrGjk",
+          "PUm41pxFo",
+          "sx_sOdIkHE",
+          "qaSrcIWr9",
+          "KRHAb_ct0H",
+          "MVJOOYqCC",
+          "bxvjJEkwv",
+          "Vp79JaY51",
+          "ZX1HRyV_LQ",
+          "YMyR8CINcc",
+          "FjD3AdqNL",
+          "mBinmcCGxN",
+          "EmT520GqFi",
+          "WR4SfBv86",
+          "ALNZoG00_T",
+          "iKWRoYdsL",
+          "EbKnYGsuk",
+          "mIOpzGxnw",
+          "OUNPflQWd",
+          "U5vDEWpl7",
+          "_1eZd56d7",
+          "LgdzJZo0E",
+          "JxJGMMdOgn",
+          "cvgINawnn",
+          "JlhUmKmsUd",
+          "GvHRIa04E",
+          "X1yFY8MMUV",
+          "gMhxxXnF4",
+          "n8ux7oE5U",
+          "G6vJrSQGv",
+          "F_3wRHHXlj",
+          "sGG56chdvk",
+          "IssKb0nqW",
+          "wMHusuT7W",
+          "pRGe_f897n",
+          "Cw2vKdloB",
+          "jGWB9QTn4",
+          "CrWQqVNqf",
+          "Y81Rk2l0n",
+          "pU14Ecw2t",
+          "CxeeTTjcl",
+          "Yp_pllFyK",
+          "r5OMhn9D3",
+          "tm5hY7MyUv",
+          "eFQ1CgHUt",
+          "Dv8zk2M8f",
+          "gBXcue5x_",
+          "PovJt3Vzm",
+          "CTHfjcsw7",
+          "rZE_CjlgN",
+          "mTdlH_Xhu",
+          "_NC2xBwkMD",
+          "iMUW89z18U",
+          "grqchlDyhy",
+          "zfajhk8XFF",
+          "wQ6SGkMToO",
+          "nHKyYfjYjF",
+          "dkhl63Box",
+          "ebX9AXbLzH",
+          "ST0ilnp602",
+          "rXdCtzvs9",
+          "CLHTLgy5c",
+          "o_5QrKRyih",
+          "KEgMqTMTyD",
+          "B1_NjoCuto",
+          "LtLAtB0us",
+          "H0H7Y1Vqg",
+          "s2KqVDu5B",
+          "kxXRKHN92",
+          "Qqsrh8DA2",
+          "mmySQ2US8",
+          "VdlaRbE0I",
+          "K_W7CIBPjM",
+          "kPTOkbZp1",
+          "tPN_IvoBE",
+          "Wjlug4OW0G",
+          "qCA7jNpUll",
+          "H1pq_9kZj",
+          "TzQKW1L9m",
+          "QTRufiL7Rc",
+          "XvJyR4ekih",
+          "M1EXcaeqz",
+          "rxlzHtzFi",
+          "FeIJ0TZ8q",
+          "zUHKl3x8Z",
+          "q3MOsHimM",
+          "HMZg5h0Qx",
+          "dXqsWbVL5",
+          "i4ly1281j"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 95,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 95,
+          "items": [
+            {
+              "id": "xo1OyaXTN",
+              "type": "blocks",
+              "title": "Block Film più visti 24h"
+            },
+            {
+              "id": "fDgcsNSTO",
+              "type": "blocks",
+              "title": "Block Person to Content Film"
+            },
+            {
+              "id": "ivlIDKnOR",
+              "type": "blocks",
+              "title": "Block Fallback Person to content Film"
+            },
+            {
+              "id": "P0csRsOt7",
+              "type": "blocks",
+              "title": "Block published flag not exists"
+            },
+            {
+              "id": "TCx_rZ2AW",
+              "type": "blocks",
+              "title": "Search Movie"
+            },
+            {
+              "id": "IYHk9HTkJ",
+              "type": "blocks",
+              "title": "Search Stagioni"
+            },
+            {
+              "id": "FTR93QFLi",
+              "type": "blocks",
+              "title": "Block Stagioni Programmi TV del Momento"
+            },
+            {
+              "id": "BGDVNJzqyk",
+              "type": "blocks",
+              "title": "Block I più visti del giorno 24h"
+            },
+            {
+              "id": "AaanuawuWV",
+              "type": "blocks",
+              "title": "Block Stagioni Fiction e Serie Tv del momento Homepage"
+            },
+            {
+              "id": "DalenVLWr",
+              "type": "blocks",
+              "title": "Block Programmi TV Clip 24h"
+            },
+            {
+              "id": "cd5kok0ux",
+              "type": "blocks",
+              "title": "Block Person To Content Homepage"
+            },
+            {
+              "id": "V8fuaquogZ",
+              "type": "blocks",
+              "title": "Block Default Search Stagioni"
+            },
+            {
+              "id": "Tiu8NSl7tn",
+              "type": "blocks",
+              "title": "Search Clip"
+            },
+            {
+              "id": "UfjbdJWlQL",
+              "type": "blocks",
+              "title": "Search Episodi"
+            },
+            {
+              "id": "m0fY0CpslB",
+              "type": "blocks",
+              "title": "Block Default Search Video"
+            },
+            {
+              "id": "sghhp0Ebz",
+              "type": "blocks",
+              "title": "Block Similar Cinema"
+            },
+            {
+              "id": "lkT2ONHOU3",
+              "type": "blocks",
+              "title": "Block Generi per Parametri Fiction e Serie TV"
+            },
+            {
+              "id": "NQi7zRZZmW",
+              "type": "blocks",
+              "title": "Block Generi per Parametri Film"
+            },
+            {
+              "id": "lAqDX_o_o",
+              "type": "blocks",
+              "title": "Block Enabler Test Stagioni"
+            },
+            {
+              "id": "LBYFuK4s2",
+              "type": "blocks",
+              "title": "Block Enabler Test Serie"
+            },
+            {
+              "id": "xV8PfZUir",
+              "type": "blocks",
+              "title": "Block Enabler Test Episodi"
+            },
+            {
+              "id": "oaQPBDaZA",
+              "type": "blocks",
+              "title": "Block Enabler Test Film"
+            },
+            {
+              "id": "WMiNKvnY4",
+              "type": "blocks",
+              "title": "Block Generi per Parametri Programmi TV"
+            },
+            {
+              "id": "W3OYUNkt68",
+              "type": "blocks",
+              "title": "INF Generi per Parametri Film"
+            },
+            {
+              "id": "EQJhlR0N7",
+              "type": "blocks",
+              "title": "INF Film Most Recent "
+            },
+            {
+              "id": "VEb0Iobun",
+              "type": "blocks",
+              "title": "INF Film Più visti 7 giorni"
+            },
+            {
+              "id": "dHLUD0MQs",
+              "type": "blocks",
+              "title": "INF CodiceF presente"
+            },
+            {
+              "id": "uZ882zsyi",
+              "type": "blocks",
+              "title": "Block Generi per Parametri Documentari"
+            },
+            {
+              "id": "LzHgDyGoq",
+              "type": "blocks",
+              "title": "Block Documentari più visti 24H"
+            },
+            {
+              "id": "ud6yGw8I8",
+              "type": "blocks",
+              "title": "Block Film Documentari"
+            },
+            {
+              "id": "EeUleJBhR",
+              "type": "blocks",
+              "title": "Block Kids Boing Più visti 24H"
+            },
+            {
+              "id": "uH_EDty35",
+              "type": "blocks",
+              "title": "Block Kids Cartoonito Più visti 24H"
+            },
+            {
+              "id": "XwXMPRgej",
+              "type": "blocks",
+              "title": "Block Kids Evergreen Più visti 24H"
+            },
+            {
+              "id": "kolFbgJ3bG",
+              "type": "blocks",
+              "title": "Block Programmi TV Prima Serata"
+            },
+            {
+              "id": "DmJXREbVAb",
+              "type": "blocks",
+              "title": "Block Programmi TV In primo piano"
+            },
+            {
+              "id": "GAuIt9t2zZ",
+              "type": "blocks",
+              "title": "Block Fiction e Serie TV del momento Sezione"
+            },
+            {
+              "id": "TUpmKh57H",
+              "type": "blocks",
+              "title": "Block Enabler Serie TV del Momento"
+            },
+            {
+              "id": "PBt_AJFOd",
+              "type": "blocks",
+              "title": "INF Film in scadenza"
+            },
+            {
+              "id": "gzQeE_w8dr",
+              "type": "blocks",
+              "title": "Block Enabler Stagioni Fiction del momento"
+            },
+            {
+              "id": "Kv6wN8Y2zI",
+              "type": "blocks",
+              "title": "Block Enabler Stagioni Programmi TV del Momento"
+            },
+            {
+              "id": "TO8nRwwqH",
+              "type": "blocks",
+              "title": "Block Enabler Film"
+            },
+            {
+              "id": "tD88oE7bRW",
+              "type": "blocks",
+              "title": "INF Film Più visti 24h"
+            },
+            {
+              "id": "AVWzVaG7c",
+              "type": "blocks",
+              "title": "Block Stagioni Kids Più Visti 24h"
+            },
+            {
+              "id": "Wbd_QbaekG",
+              "type": "blocks",
+              "title": "Block Film Top viewed e Most recent"
+            },
+            {
+              "id": "dXArl1iGk",
+              "type": "blocks",
+              "title": "Block Fiction e Soap"
+            },
+            {
+              "id": "Q3GKwt9w3",
+              "type": "blocks",
+              "title": "Block Serie TV più viste 24h"
+            },
+            {
+              "id": "QCB5Tbxp0",
+              "type": "blocks",
+              "title": "TVOD I più noleggiati"
+            },
+            {
+              "id": "ctlLPxFcc",
+              "type": "blocks",
+              "title": "INF Film Blockbuster Cult"
+            },
+            {
+              "id": "fl74EPpGR",
+              "type": "blocks",
+              "title": "Block Enabler Documentari"
+            },
+            {
+              "id": "K5d6hNCp4G",
+              "type": "blocks",
+              "title": "Block Play Cult Più visti 24h"
+            },
+            {
+              "id": "L5pzoSqb9z",
+              "type": "blocks",
+              "title": "Block Most Recent Sport"
+            },
+            {
+              "id": "PY_ejKHEh",
+              "type": "blocks",
+              "title": "Block Similar Documentari"
+            },
+            {
+              "id": "ZIadZYmk6",
+              "type": "blocks",
+              "title": "Block Most Recent Documentari"
+            },
+            {
+              "id": "xxGX6JO9q",
+              "type": "blocks",
+              "title": "Block Similar Cartoni"
+            },
+            {
+              "id": "ZKixtOJkR",
+              "type": "blocks",
+              "title": "Block Most Recent Cartoni"
+            },
+            {
+              "id": "s941nm7Vkw",
+              "type": "blocks",
+              "title": "Block Most Recent Intrattenimento"
+            },
+            {
+              "id": "hr9EobplH",
+              "type": "blocks",
+              "title": "Block Similar Intrattenimento"
+            },
+            {
+              "id": "wDqD28KJY",
+              "type": "blocks",
+              "title": "Block Most Recent Film"
+            },
+            {
+              "id": "Bn52RsYBn",
+              "type": "blocks",
+              "title": "Block Most Recent Serie Tv e Fiction"
+            },
+            {
+              "id": "Q70BkzEGk",
+              "type": "blocks",
+              "title": "Block Most Recent Informazione"
+            },
+            {
+              "id": "In8E6MBfb",
+              "type": "blocks",
+              "title": "Block Similar Serie Tv e Fiction"
+            },
+            {
+              "id": "MgPmWptZEh",
+              "type": "blocks",
+              "title": "Block Similar Informazione"
+            },
+            {
+              "id": "efMPssH74G",
+              "type": "blocks",
+              "title": "Block Most Recent Tg"
+            },
+            {
+              "id": "PGCv7Qiev",
+              "type": "blocks",
+              "title": "Block Similar Tg"
+            },
+            {
+              "id": "ER9ytvdX2t",
+              "type": "blocks",
+              "title": "Block Similar Sport"
+            },
+            {
+              "id": "DuUg6LK5g3",
+              "type": "blocks",
+              "title": "Block Most Recent Sport per Similar"
+            },
+            {
+              "id": "_ODyyVDlxp",
+              "type": "blocks",
+              "title": "Block L'Isola dei famosi Più visti 24H"
+            },
+            {
+              "id": "c0qbs8cbou",
+              "type": "blocks",
+              "title": "INF Infinity Lab"
+            },
+            {
+              "id": "DzhJ1E4qZ",
+              "type": "blocks",
+              "title": "INF Serie Most Recent"
+            },
+            {
+              "id": "_FmdfEyxYO",
+              "type": "blocks",
+              "title": "TVOD Il cinema a casa tua"
+            },
+            {
+              "id": "KcmRq5V0PV",
+              "type": "blocks",
+              "title": "TVOD Novità Prima Finestra"
+            },
+            {
+              "id": "Wmm8hYlFG",
+              "type": "blocks",
+              "title": "INF Stagioni Serie TV in Prima TV Pay"
+            },
+            {
+              "id": "hG4sWA1BTz",
+              "type": "blocks",
+              "title": "INF Generi per Parametri Serie"
+            },
+            {
+              "id": "VBMWF7Qws",
+              "type": "blocks",
+              "title": "INF Serie Più viste 24H"
+            },
+            {
+              "id": "rh4ZBc63W",
+              "type": "blocks",
+              "title": "INF Serie Documentari Most recent"
+            },
+            {
+              "id": "dDuMkC4BGF",
+              "type": "blocks",
+              "title": "INF Stagioni GOT 4K"
+            },
+            {
+              "id": "sS8FYCahyu",
+              "type": "blocks",
+              "title": "INF Similar Serie tv e fiction"
+            },
+            {
+              "id": "VLpBOAKQIo",
+              "type": "blocks",
+              "title": "INF Similar Cinema"
+            },
+            {
+              "id": "WmeznWgAt",
+              "type": "blocks",
+              "title": "INF Film 4K HDR"
+            },
+            {
+              "id": "aKcHkXc1q",
+              "type": "blocks",
+              "title": "INF Film 4K SDR"
+            },
+            {
+              "id": "ITG091FID",
+              "type": "blocks",
+              "title": "INF Film di Animazione"
+            },
+            {
+              "id": "NngPF1acE",
+              "type": "blocks",
+              "title": "TVOD Film in scadenza"
+            },
+            {
+              "id": "cyiJzjsm7",
+              "type": "blocks",
+              "title": "INF Film Family"
+            },
+            {
+              "id": "t08RLfwcs",
+              "type": "blocks",
+              "title": "TVOD Film in offerta"
+            },
+            {
+              "id": "eArmnniA2",
+              "type": "blocks",
+              "title": "TVOD Film Campioni di incasso"
+            },
+            {
+              "id": "xRuss7PzAY",
+              "type": "blocks",
+              "title": "TVOD Generi per Parametri Film"
+            },
+            {
+              "id": "hr35tVjd2",
+              "type": "blocks",
+              "title": "Home Pay Generi per Parametri Film"
+            },
+            {
+              "id": "lki92fO4Qo",
+              "type": "blocks",
+              "title": "TVOD Similar Cinema"
+            },
+            {
+              "id": "ZyqTEHJfD",
+              "type": "blocks",
+              "title": "Search Serie"
+            },
+            {
+              "id": "YEssPNB14",
+              "type": "blocks",
+              "title": "Block Film del momento"
+            },
+            {
+              "id": "FpM4IdLRo",
+              "type": "blocks",
+              "title": "Block Film Ultimi arrivi Mediaset Play"
+            },
+            {
+              "id": "yVFxcfHJH",
+              "type": "blocks",
+              "title": "Block Highlights Smart Tv"
+            },
+            {
+              "id": "kqmkzdnLKO",
+              "type": "blocks",
+              "title": "STZ Params Genre Film"
+            },
+            {
+              "id": "INzmIFIsO",
+              "type": "blocks",
+              "title": "CHNL EXT Film Annoproduzione Desc"
+            },
+            {
+              "id": "B9DRBHh9E",
+              "type": "blocks",
+              "title": "CHNL EXT Serie Annoproduzione Desc"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  },
+  "realm": "content"
+}

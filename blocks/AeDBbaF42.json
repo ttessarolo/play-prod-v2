@@ -1,0 +1,255 @@
+{
+  "id": "AeDBbaF42",
+  "propertyId": "rrjMTUmyqd",
+  "title": "I programmi più cercati",
+  "description": "",
+  "enabledPagesId": [
+    "Tac2Yo4sw"
+  ],
+  "isPage": true,
+  "blocks": [
+    {
+      "id": "CbvziWJoZ",
+      "condition": "*",
+      "title": "I programmi più cercati",
+      "type": "nested",
+      "layout": {
+        "i": "CbvziWJoZ",
+        "w": 12,
+        "h": 25
+      },
+      "results": {
+        "flatAllBlocks": true,
+        "max": 20
+      },
+      "blockId": "V8fuaquogZ",
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "searchDetailParams": {
+          "uxReference": "detail",
+          "property": "search",
+          "variant": "searchedBrand",
+          "query": "title≈{title};variant≈{variant};channel≈{channel}",
+          "params": "variant≈{variant};channel≈{channel}"
+        }
+      },
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      }
+    }
+  ],
+  "version": 24,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2023-03-29T09:35:29.092Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "endpoints",
+        "items": [
+          "Tac2Yo4sw"
+        ]
+      }
+    ],
+    "require": [
+      {
+        "type": "queries",
+        "items": []
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "AwF1CRpxF",
+          "V8fuaquogZ"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ]
+  },
+  "layout": [
+    {
+      "w": 12,
+      "h": 25,
+      "x": 0,
+      "y": 0,
+      "i": "CbvziWJoZ",
+      "moved": false,
+      "static": false
+    }
+  ],
+  "uiParams": {
+    "preview": {
+      "uiParams": {
+        "current": "Default",
+        "currentIndex": 0,
+        "sets": [
+          {
+            "title": "Default",
+            "params": {
+              "paramsId": {
+                "value": "playDefault",
+                "active": true
+              },
+              "contentId": {
+                "value": "F301644701000103",
+                "active": false
+              },
+              "userId": {
+                "value": "1f51d5e9f09e4d349fa3af349e1cdac4",
+                "active": false
+              },
+              "deviceId": {
+                "value": "ARES-CC",
+                "active": false
+              },
+              "query": {
+                "value": "amici",
+                "active": true
+              },
+              "params_variant": {
+                "active": true,
+                "value": "fep"
+              },
+              "params": {
+                "active": true,
+                "value": "variant≈infSerie"
+              }
+            }
+          }
+        ]
+      },
+      "currentParams": {
+        "paramsId": "playDefault",
+        "query": "amici",
+        "params_variant": "fep",
+        "params": "variant≈infSerie"
+      }
+    },
+    "layout": {
+      "uiParams": {
+        "current": "Default",
+        "currentIndex": 0,
+        "sets": [
+          {
+            "title": "Default",
+            "params": {
+              "paramsId": {
+                "active": true,
+                "value": "playDefault"
+              }
+            }
+          }
+        ]
+      },
+      "currentParams": {
+        "paramsId": "playDefault"
+      }
+    }
+  },
+  "results": {
+    "fallbackBlockId": "AwF1CRpxF",
+    "fullSubstituteFallback": true
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "Tac2Yo4sw",
+              "type": "endpoints",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 2,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 2,
+          "items": [
+            {
+              "id": "AwF1CRpxF",
+              "type": "blocks"
+            },
+            {
+              "id": "V8fuaquogZ",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "realm": "content",
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": [],
+  "fullSubstituteFallback": true
+}

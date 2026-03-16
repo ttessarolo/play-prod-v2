@@ -1,0 +1,68 @@
+{
+  "title": "List ADV X Style",
+  "description": "",
+  "type": "contentId",
+  "contentType": "video",
+  "realm": "content",
+  "elements": [
+    "FD00000000499274",
+    "FD00000000500754",
+    "FD00000000500940",
+    "FD00000000500271",
+    "FD00000000500291",
+    "FD00000000497097",
+    "FD00000000498296",
+    "FD00000000500806",
+    "FD00000000499914",
+    "FD00000000499778",
+    "FD00000000501796",
+    "FD00000000501818"
+  ],
+  "id": "kWZ7EAU1K",
+  "version": 16,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-10-22T08:00:10.698Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "rules",
+        "items": [
+          "gDW4ddijS",
+          "plpDaK4SG"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 2,
+      "types": 1,
+      "items": [
+        {
+          "type": "rules",
+          "count": 2,
+          "items": [
+            {
+              "id": "gDW4ddijS",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "plpDaK4SG",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  },
+  "metadataField": "title"
+}

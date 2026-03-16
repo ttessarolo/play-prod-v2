@@ -1,0 +1,171 @@
+{
+  "title": "INF Film Blockbuster Cult",
+  "description": "Contiene film solo Infinity \nBlockbuster\nTop\nProducton value \nOver 2015\nCult \nD'autore ",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "wfBy1paHlb"
+    },
+    {
+      "id": "83txjtJm"
+    },
+    {
+      "id": "Qs0Vux5WH_"
+    }
+  ],
+  "exclude": [
+    {
+      "id": "ju06OqIgO"
+    }
+  ],
+  "include": [
+    {
+      "id": "pla7lufcP"
+    }
+  ],
+  "boost": [],
+  "order": [],
+  "realm": "content",
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "wfBy1paHlb",
+          "83txjtJm",
+          "Qs0Vux5WH_",
+          "ju06OqIgO",
+          "pla7lufcP"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "TuAyi0elu",
+          "KhQ3IziFJ"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "ctlLPxFcc"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1,
+    "mustOperator": "or"
+  },
+  "id": "s820x60ap",
+  "version": 10,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-04-19T15:14:06.230Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "ctlLPxFcc",
+              "type": "blocks",
+              "title": "INF Film Blockbuster Cult"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 10,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 8,
+          "items": [
+            {
+              "id": "wfBy1paHlb",
+              "type": "rules",
+              "title": "Rule Channel Infinity"
+            },
+            {
+              "id": "83txjtJm",
+              "type": "rules",
+              "title": "Rule Tipologia Film"
+            },
+            {
+              "id": "Qs0Vux5WH_",
+              "type": "rules",
+              "title": "Rule Editorial Type Movie"
+            },
+            {
+              "id": "vKGPyoliA",
+              "type": "rules",
+              "title": "Rule Params filterBy audio subtitle listing page"
+            },
+            {
+              "id": "ju06OqIgO",
+              "type": "rules",
+              "title": "Rule Channel Mediaset Play"
+            },
+            {
+              "id": "pla7lufcP",
+              "type": "rules",
+              "title": "Rule Top Blockbuster Cult Autore"
+            },
+            {
+              "id": "_8ZV5sLIn",
+              "type": "rules",
+              "title": "Rule Params orderBy relevanceDesc listing page"
+            },
+            {
+              "id": "Oyp_jIxo6",
+              "type": "rules",
+              "title": "Rule Params orderBy listing page TvSeason Video"
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 2,
+          "items": [
+            {
+              "id": "TuAyi0elu",
+              "type": "rulesPresets",
+              "title": "Preset SearchVisible e FrontEnd Visible True"
+            },
+            {
+              "id": "KhQ3IziFJ",
+              "type": "rulesPresets",
+              "title": "Preset Video format exclude 4K"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "presets": {
+    "filter": [
+      {
+        "id": "TuAyi0elu"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "KhQ3IziFJ"
+      }
+    ]
+  },
+  "metadataOverrides": {},
+  "uselessMultiplier": false
+}

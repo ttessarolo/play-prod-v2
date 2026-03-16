@@ -1,0 +1,52 @@
+{
+  "title": "List Intrattenimento Informazione e Sport",
+  "description": "",
+  "contentType": "video",
+  "type": "text",
+  "elements": [
+    "Intrattenimento",
+    "Sport",
+    "Informazione"
+  ],
+  "id": "sI8RQxedr",
+  "version": 4,
+  "lastSaved": {
+    "username": "ttessarolo",
+    "date": "2021-02-16T14:23:32.886Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "rules",
+        "items": [
+          "mwku2JtbU5"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "rules",
+          "count": 1,
+          "items": [
+            {
+              "id": "mwku2JtbU5",
+              "type": "rules",
+              "title": "Rule Tipologia Intrattenimento Informazione e Sport"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  },
+  "realm": "content"
+}

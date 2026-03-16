@@ -1,0 +1,133 @@
+{
+  "refs": {
+    "require": [
+      {
+        "type": "queries",
+        "items": []
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": []
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": [
+          "q_uMQtaBV"
+        ]
+      },
+      {
+        "type": "responseFields",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "UqexT0v_gf",
+          "jrijZuhZ9",
+          "rzRIgJqMA",
+          "y1HwrzQWaU",
+          "tCiVqNxMLB"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 1,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 1,
+          "items": [
+            {
+              "id": "q_uMQtaBV",
+              "type": "labels",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "responseFields",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "results": {
+    "flatAllBlocks": true,
+    "min": 0
+  },
+  "blocks": [
+    {
+      "_id": "n18s1xNcol",
+      "condition": "*",
+      "title": "SRC no results search",
+      "type": "placeholder",
+      "pinned": true,
+      "results": {
+        "max": 20,
+        "min": 0,
+        "contentType": "video"
+      },
+      "placeholderMain": "q_uMQtaBV"
+    }
+  ],
+  "title": "SRC no results search",
+  "description": "",
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "realm": "content",
+  "id": "YgxPUZIuxO",
+  "version": 1,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2022-11-24T12:29:59.296Z"
+  }
+}

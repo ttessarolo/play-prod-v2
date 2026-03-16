@@ -1,0 +1,191 @@
+{
+  "id": "Xlo49eXnL",
+  "propertyId": "pWNpUlfbNR",
+  "title": "ClusterId OK",
+  "description": "Please Edit description for Page \"Variant 1\"",
+  "enabledPagesId": [
+    "PvlSaIkyvm"
+  ],
+  "isPage": true,
+  "blocks": [
+    {
+      "id": "JVX6GdHxc",
+      "condition": "*",
+      "title": "ClusterId OK - Template Poster",
+      "type": "nested",
+      "layout": {
+        "i": "JVX6GdHxc",
+        "w": 12,
+        "h": 30
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "i4ly1281j",
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        }
+      }
+    },
+    {
+      "id": "s99lF99oo",
+      "condition": "*",
+      "title": "Template Keyframe",
+      "type": "nested",
+      "layout": {
+        "i": "s99lF99oo",
+        "x": 0,
+        "y": 1,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "DalenVLWr",
+      "metadataUI": {
+        "attributes": {
+          "template": "KEYFRAME"
+        }
+      }
+    }
+  ],
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2026-03-10T14:06:53.023Z"
+  },
+  "version": 11,
+  "refs": {
+    "belongs": [
+      {
+        "type": "endpoints",
+        "items": [
+          "PvlSaIkyvm"
+        ]
+      }
+    ],
+    "require": [
+      {
+        "type": "queries",
+        "items": []
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "i4ly1281j",
+          "DalenVLWr"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "PvlSaIkyvm",
+              "type": "endpoints",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 2,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 2,
+          "items": [
+            {
+              "id": "i4ly1281j",
+              "type": "blocks"
+            },
+            {
+              "id": "DalenVLWr",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "layout": [
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 0,
+      "i": "JVX6GdHxc",
+      "moved": false,
+      "static": false
+    },
+    {
+      "i": "s99lF99oo",
+      "x": 0,
+      "y": 1,
+      "w": 12,
+      "h": 30,
+      "blocks": []
+    }
+  ]
+}

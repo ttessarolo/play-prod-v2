@@ -1,0 +1,74 @@
+{
+  "title": "Rule Similar Soap e Telenovelas",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "I2I",
+      "value": "video_similar_ids_soap",
+      "valueType": "metadata",
+      "queryType": "ids",
+      "field": "video_content_id",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "IsIQNcV5O"
+    }
+  ],
+  "clauses": [
+    "include"
+  ],
+  "metadata": {
+    "content_similar": {
+      "required": true,
+      "output": "video_similar_ids_soap",
+      "numResults": 30,
+      "metadata": {
+        "included": [
+          "editorial_type=Full Episode",
+          "genere_mcm=Soap opera",
+          "content_channels=MediasetPlay"
+        ],
+        "excluded": [
+          "id_series_se"
+        ]
+      },
+      "fingerprint": {
+        "matchFields": [
+          "fingerprint"
+        ]
+      },
+      "groupby": {
+        "metadata": "id_series_se",
+        "results": 1,
+        "sortMetadata": "publication_date",
+        "sortDirection": "desc"
+      }
+    }
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "YhVp7CQNc"
+        ]
+      }
+    ]
+  },
+  "id": "Mk5BT6W2Q",
+  "version": 1,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-03-29T15:53:00.417Z"
+  }
+}

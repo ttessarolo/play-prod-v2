@@ -1,0 +1,92 @@
+{
+  "title": "Rule Boost Protagonista Sesso",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "conditionRaw": {
+        "and": [
+          {
+            "id": "f9u9LDSfR1e",
+            "operator": "*",
+            "values": [
+              {
+                "type": "metadata",
+                "value": ""
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ]
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "I2I",
+      "value": "protagonistaSesso",
+      "valueType": "metadata",
+      "queryType": "matchFromArray",
+      "field": "protagonistaSesso",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "pvNalVW3KG",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "clauses": [
+    "boost",
+    "filter",
+    "exclude"
+  ],
+  "metadata": {
+    "content": true
+  },
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "Jnfu6ZH0E"
+        ]
+      }
+    ]
+  },
+  "id": "WkXu_7jnp",
+  "version": 4,
+  "lastSaved": {
+    "username": "Massimiliano.Berardi",
+    "date": "2021-03-29T14:46:30.170Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 1,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  }
+}

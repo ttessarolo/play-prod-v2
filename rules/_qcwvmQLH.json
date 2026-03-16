@@ -1,0 +1,519 @@
+{
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "GU2OBQqML"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 1,
+          "items": [
+            {
+              "id": "GU2OBQqML",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "title": "Rule Content Channel per AB Test Collaborative",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "(contains(content_channels, \"Infinity\"))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "content_channels"
+              },
+              {
+                "value": "\"Infinity\"",
+                "type": "string"
+              }
+            ],
+            "id": "JmvKowBa1a"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "Infinity",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "content_channels",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "w15sF1Nk_6",
+      "scheduled": false,
+      "scheduling": [],
+      "break": false
+    },
+    {
+      "API": "V2",
+      "condition": "(contains(content_channels, \"MediasetPlay\"))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "content_channels"
+              },
+              {
+                "value": "\"MediasetPlay\"",
+                "type": "string"
+              }
+            ],
+            "id": "JmvKowBa1a"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "MediasetPlay",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "content_channels",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "MCaNnbqvf",
+      "scheduled": false,
+      "scheduling": [],
+      "break": false
+    },
+    {
+      "API": "V2",
+      "condition": "(contains(content_channels, \"Noleggio\"))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "content_channels"
+              },
+              {
+                "value": "\"Noleggio\"",
+                "type": "string"
+              }
+            ],
+            "id": "JmvKowBa1a"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "Noleggio",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "content_channels",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "TUzS0Ealpg",
+      "scheduled": false,
+      "scheduling": [],
+      "break": false
+    },
+    {
+      "API": "V2",
+      "condition": "(contains(content_channels, \"InfAutore\"))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "content_channels"
+              },
+              {
+                "value": "\"InfAutore\"",
+                "type": "string"
+              }
+            ],
+            "id": "JmvKowBa1a"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "InfAutore",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "content_channels",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "WtlUk3SG4",
+      "scheduled": false,
+      "scheduling": [],
+      "break": false
+    },
+    {
+      "API": "V2",
+      "condition": "(contains(content_channels, \"InfComico\"))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "content_channels"
+              },
+              {
+                "value": "\"InfComico\"",
+                "type": "string"
+              }
+            ],
+            "id": "JmvKowBa1a"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "InfComico",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "content_channels",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "RtDnFNwbe",
+      "scheduled": false,
+      "scheduling": [],
+      "break": false
+    },
+    {
+      "API": "V2",
+      "condition": "(contains(content_channels, \"InfLight\"))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "content_channels"
+              },
+              {
+                "value": "\"InfLight\"",
+                "type": "string"
+              }
+            ],
+            "id": "JmvKowBa1a"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "InfLight",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "content_channels",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "BrVAwll3Xs",
+      "scheduled": false,
+      "scheduling": [],
+      "break": false
+    },
+    {
+      "API": "V2",
+      "condition": "(contains(content_channels, \"InfNero\"))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "content_channels"
+              },
+              {
+                "value": "\"InfNero\"",
+                "type": "string"
+              }
+            ],
+            "id": "JmvKowBa1a"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "InfNero",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "content_channels",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "ZUq60vPUT",
+      "scheduled": false,
+      "scheduling": [],
+      "break": false
+    },
+    {
+      "API": "V2",
+      "condition": "(contains(content_channels, \"Juventus\"))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "content_channels"
+              },
+              {
+                "value": "\"Juventus\"",
+                "type": "string"
+              }
+            ],
+            "id": "JmvKowBa1a"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "Juventus",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "content_channels",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "kcu2YR2Mi",
+      "scheduled": false,
+      "scheduling": [],
+      "break": false
+    },
+    {
+      "API": "V2",
+      "condition": "(contains(content_channels, \"MGM\"))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "content_channels"
+              },
+              {
+                "value": "\"MGM\"",
+                "type": "string"
+              }
+            ],
+            "id": "JmvKowBa1a"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "MGM",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "content_channels",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "rgACzn5Uj",
+      "scheduled": false,
+      "scheduling": [],
+      "break": false
+    },
+    {
+      "API": "V2",
+      "condition": "(contains(content_channels, \"MidnightFactory\"))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "content_channels"
+              },
+              {
+                "value": "\"MidnightFactory\"",
+                "type": "string"
+              }
+            ],
+            "id": "JmvKowBa1a"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "MidnightFactory",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "content_channels",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "SJcoJ03NR1",
+      "scheduled": false,
+      "scheduling": [],
+      "break": false
+    },
+    {
+      "API": "V2",
+      "condition": "(contains(content_channels, \"TVCrime\"))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "content_channels"
+              },
+              {
+                "value": "\"TVCrime\"",
+                "type": "string"
+              }
+            ],
+            "id": "JmvKowBa1a"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "TVCrime",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "content_channels",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "ediAitdUP",
+      "scheduled": false,
+      "scheduling": [],
+      "break": false
+    },
+    {
+      "API": "V2",
+      "condition": "(contains(content_channels, \"TVLove\"))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "content_channels"
+              },
+              {
+                "value": "\"TVLove\"",
+                "type": "string"
+              }
+            ],
+            "id": "JmvKowBa1a"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "TVLove",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "content_channels",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "MLJ97uGtM",
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "API": "V2",
+      "condition": "(contains(context_features_subscription_channels, \"MediasetItalia\"))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "context_features_subscription_channels"
+              },
+              {
+                "value": "\"MediasetItalia\"",
+                "type": "string"
+              }
+            ],
+            "id": "2HpiehSGI7"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "MediasetItalia",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "content_channels",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "v1ysRsdTD",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "clauses": [
+    "filter",
+    "include"
+  ],
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "metadata": {
+    "content": true
+  },
+  "id": "_qcwvmQLH",
+  "version": 15,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2024-01-30T11:20:07.991Z"
+  }
+}

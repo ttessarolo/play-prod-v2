@@ -1,0 +1,110 @@
+{
+  "title": "Query search suggestions",
+  "description": "",
+  "contentType": "search_suggestions",
+  "filter": [],
+  "exclude": [],
+  "include": [
+    {
+      "id": "I0jBnWONFX"
+    }
+  ],
+  "boost": [],
+  "order": [
+    {
+      "id": "PUYlJfuHBH"
+    },
+    {
+      "id": "ptQjeer_Nx"
+    }
+  ],
+  "realm": "content",
+  "general": {
+    "mustOperator": "or",
+    "tieBreaker": 0.9,
+    "minimumShouldMatch": "1%",
+    "resultsMultiplier": 1
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "I0jBnWONFX",
+          "PUYlJfuHBH",
+          "ptQjeer_Nx"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "V5z2yG9rk"
+        ]
+      }
+    ]
+  },
+  "id": "TVgZyp6O9P",
+  "version": 8,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2023-07-03T14:09:46.919Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "V5z2yG9rk",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 3,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 3,
+          "items": [
+            {
+              "id": "I0jBnWONFX",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "ptQjeer_Nx",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "PUYlJfuHBH",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "metadataOverrides": {}
+}

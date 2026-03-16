@@ -1,0 +1,393 @@
+{
+  "refs": {
+    "require": [
+      {
+        "type": "queries",
+        "items": [
+          "JCKH0ADNmB",
+          "Twrr8UhdDy",
+          "Alu6uP5f6",
+          "Hpf2pfaEM",
+          "AqgW7pWFS",
+          "jTWiGJ8a3j"
+        ]
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "TO8nRwwqH"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": [
+          "eOaXizx_"
+        ]
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "Ri_NBG1UF",
+          "QNr9SnA5k"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 2,
+      "types": 1,
+      "items": [
+        {
+          "type": "pages",
+          "count": 2,
+          "items": [
+            {
+              "variantId": "Ri_NBG1UF",
+              "propertyId": "zlqQNxLcGh",
+              "propertyTitle": "",
+              "endpointId": "dnKsEIfIF",
+              "endpointTitle": ""
+            },
+            {
+              "variantId": "QNr9SnA5k",
+              "propertyId": "zlqQNxLcGh",
+              "propertyTitle": "",
+              "endpointId": "XY2qRtWub",
+              "endpointTitle": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 8,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 6,
+          "items": [
+            {
+              "id": "JCKH0ADNmB",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "Twrr8UhdDy",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "Alu6uP5f6",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "Hpf2pfaEM",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "AqgW7pWFS",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "jTWiGJ8a3j",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "TO8nRwwqH",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 1,
+          "items": [
+            {
+              "id": "eOaXizx_",
+              "type": "responseFields",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "results": {
+    "flatAllBlocks": true,
+    "min": 0,
+    "fallbackBlockId": "TO8nRwwqH",
+    "max": 24,
+    "deduplicateFlattedResults": true
+  },
+  "blocks": [
+    {
+      "_id": "r4qc4WJwT",
+      "condition": "(!equals(context_features_subscription_channels, \"MediasetItalia\") && !inList(context_platform, XaELDZsqL))",
+      "title": "ADV Block",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 1,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true,
+        "shuffleItems": true
+      },
+      "queryId": "JCKH0ADNmB",
+      "metadata": {
+        "content": true,
+        "time": true
+      },
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "!equals",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "context_features_subscription_channels"
+              },
+              {
+                "value": "\"MediasetItalia\"",
+                "type": "string"
+              }
+            ],
+            "id": "89gppgr57s"
+          },
+          {
+            "id": "rOK7RyrMM",
+            "operator": "!inList",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "context_platform"
+              },
+              {
+                "value": "XaELDZsqL",
+                "type": "list"
+              }
+            ]
+          }
+        ]
+      },
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "_id": "CCSqZTJTB",
+      "condition": "(!equals(context_features_subscription_channels, \"MediasetItalia\") && !between(when_current_hour_and_minute, \"0900÷2200\") && inList(context_platform, XaELDZsqL))",
+      "title": "ADV X-Style",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 1,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true,
+        "shuffleItems": true
+      },
+      "queryId": "Twrr8UhdDy",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "!equals",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "context_features_subscription_channels"
+              },
+              {
+                "value": "\"MediasetItalia\"",
+                "type": "string"
+              }
+            ],
+            "id": "89gppgr57s"
+          },
+          {
+            "id": "9eQw3spbk",
+            "operator": "!between",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "when_current_hour_and_minute"
+              },
+              {
+                "value": "\"0900÷2200\"",
+                "type": "between"
+              }
+            ]
+          },
+          {
+            "id": "7ia616_Qj",
+            "operator": "inList",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "context_platform"
+              },
+              {
+                "value": "XaELDZsqL",
+                "type": "list"
+              }
+            ]
+          }
+        ]
+      },
+      "scheduled": false,
+      "scheduling": [],
+      "metadata": {
+        "time": true,
+        "content": true
+      }
+    },
+    {
+      "_id": "YIq0S8Il41",
+      "condition": "*",
+      "title": "Più visti 24h stessa serie random",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 5,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "fallbackBlockId": "TO8nRwwqH",
+        "skipOnEmpty": true,
+        "shuffleItems": true
+      },
+      "queryId": "Alu6uP5f6"
+    },
+    {
+      "_id": "Cvw6FOkGV",
+      "condition": "*",
+      "title": "Più visti 7gg della stagione chiamante",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 10,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true
+      },
+      "queryId": "Hpf2pfaEM"
+    },
+    {
+      "_id": "v2CL9JHsU",
+      "condition": "(contains(mythematics_source, \"mythematics\"))",
+      "title": "Similar Mythematics",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 2,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true
+      },
+      "queryId": "AqgW7pWFS",
+      "metadata": {
+        "content": true
+      },
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "mythematics_source"
+              },
+              {
+                "value": "\"mythematics\"",
+                "type": "freeText"
+              }
+            ],
+            "id": "1SuPCXgSaD"
+          }
+        ]
+      },
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "_id": "RC9RSh4iM",
+      "condition": "*",
+      "title": "Similar altri brand",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 24,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true
+      },
+      "queryId": "jTWiGJ8a3j"
+    }
+  ],
+  "title": "NEW Similar Intrattenimento",
+  "description": "",
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "realm": "content",
+  "id": "PovJt3Vzm",
+  "version": 67,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2026-03-12T10:31:04.679Z"
+  }
+}

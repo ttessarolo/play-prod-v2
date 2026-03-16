@@ -1,0 +1,59 @@
+{
+  "title": "Query ADV Editoriale Similar Doc Film e Sport",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "JIri5LN3YP"
+    }
+  ],
+  "exclude": [],
+  "include": [],
+  "boost": [],
+  "order": [],
+  "realm": "content",
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "JIri5LN3YP"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": []
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "id": "XxbW1AxwU",
+  "version": 16,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2024-11-26T12:00:48.128Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  },
+  "metadataOverrides": {}
+}

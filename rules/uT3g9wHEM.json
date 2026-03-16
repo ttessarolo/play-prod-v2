@@ -1,0 +1,138 @@
+{
+  "title": "Rule series title NO STRISCIA LA NOTIZIA",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "(equals(series_title, \"Le Iene\"))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "equals",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "series_title"
+              },
+              {
+                "value": "\"Le Iene\"",
+                "type": "freeText"
+              }
+            ],
+            "id": "eSVKgtivGb"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "Striscia la notizia",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "series_title",
+      "fieldNested": 0,
+      "fieldDBType": "text",
+      "_id": "wE3zKXZpEn",
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "API": "V2",
+      "condition": "(equals(series_title, \"Ieneyeh\"))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "equals",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "series_title"
+              },
+              {
+                "value": "\"Ieneyeh\"",
+                "type": "string"
+              }
+            ],
+            "id": "nYTVw2fzMK"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "Striscia la notizia",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "series_title",
+      "fieldNested": 0,
+      "fieldDBType": "text",
+      "_id": "zIWsiREhD",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "clauses": [
+    "exclude"
+  ],
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "metadata": {
+    "content": true
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "DHl6a0GLT",
+          "TGWJP5C2lJ",
+          "jTWiGJ8a3j",
+          "AqgW7pWFS"
+        ]
+      }
+    ]
+  },
+  "id": "uT3g9wHEM",
+  "version": 4,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-03-29T15:38:21.946Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 1,
+          "items": [
+            {
+              "id": "DHl6a0GLT",
+              "type": "queries",
+              "title": "Query Similar Intrattenimento Diverso dal brand"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 1,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "title": "Rule Top Blockbuster TVOD",
+  "description": "Quattro statements in or \nBlockbuster \nproductionvalue \netichetta Top\nAnnoproduzione over 2015 \nAnnoproduzione over 2019",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": [
+              {
+                "type": "metadata",
+                "value": ""
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ],
+            "id": "oHKrUuXRX_"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "Blockbuster",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "categoriecritichestoriche",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "IybREig55",
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "greaterOperator": "gte",
+      "API": "V2",
+      "condition": "*",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": [
+              {
+                "type": "metadata",
+                "value": ""
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ],
+            "id": "oHKrUuXRX_"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "2015",
+      "valueType": "freeText",
+      "queryType": "greaterValue",
+      "field": "annoproduzione",
+      "fieldNested": 0,
+      "fieldDBType": "date",
+      "_id": "gZrrc9csu",
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "API": "V2",
+      "condition": "*",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": [
+              {
+                "type": "metadata",
+                "value": ""
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ],
+            "id": "oHKrUuXRX_"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "",
+      "valueType": "",
+      "queryType": "checkExists",
+      "field": "fattoriproductionvalue",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "MpdEm2_m3",
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "API": "V2",
+      "condition": "*",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": [
+              {
+                "type": "metadata",
+                "value": ""
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ],
+            "id": "oHKrUuXRX_"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "Top",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "etichetteEditoriali",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "CH_RDInwz",
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "greaterOperator": "gte",
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "2019",
+      "valueType": "freeText",
+      "queryType": "greaterValue",
+      "field": "annoproduzione",
+      "fieldNested": 0,
+      "fieldDBType": "date",
+      "_id": "vQ7O_NhBH"
+    }
+  ],
+  "clauses": [
+    "include",
+    "boost"
+  ],
+  "scheduled": 0,
+  "scheduling": [],
+  "schedulingMap": [],
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "j0Q299ZnJ",
+          "VXeQD5L8kq"
+        ]
+      }
+    ]
+  },
+  "id": "ePx7Wv0On",
+  "version": 12,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-05-24T12:18:06.021Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 2,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 2,
+          "items": [
+            {
+              "id": "s820x60ap",
+              "type": "queries",
+              "title": "INF Film Blockbuster Cult"
+            },
+            {
+              "id": "j0Q299ZnJ",
+              "type": "queries",
+              "title": "TVOD Film Campioni di incasso"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 1,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": []
+}

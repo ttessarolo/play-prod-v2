@@ -1,0 +1,27 @@
+{
+  "title": "List Id Series SE SportMediaset",
+  "description": "SportMediaset: SE000000000043\nSportMediaset Monday: NightSE000000001919",
+  "type": "contentId",
+  "contentType": "video",
+  "realm": "content",
+  "elements": [
+    "SE000000000043",
+    "SE000000001919"
+  ],
+  "id": "RSe3vLplW",
+  "version": 1,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2023-01-13T11:35:19.215Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "rules",
+        "items": [
+          "oUDwGrmkk"
+        ]
+      }
+    ]
+  }
+}

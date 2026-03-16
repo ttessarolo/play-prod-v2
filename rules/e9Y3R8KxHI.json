@@ -1,0 +1,151 @@
+{
+  "title": "Rule Esclude Animazione e Family per genere parametrico interno Azione o Thriller",
+  "description": "",
+  "contentType": "video",
+  "clauses": [
+    "exclude"
+  ],
+  "rule": [
+    {
+      "phrase": false,
+      "API": "V2",
+      "condition": "(contains(block_meta_playcontentmeta_genere_mcm, \"Azione,Thriller\"))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "block_meta_playcontentmeta_genere_mcm"
+              },
+              {
+                "value": "\"Azione,Thriller\"",
+                "type": "string"
+              }
+            ],
+            "id": "EvpaDYumx0"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "I2I",
+      "value": "Animazione",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "genere_mcm",
+      "fieldDBType": "keyword",
+      "_id": "UGAfWaeOA",
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "API": "V2",
+      "condition": "(contains(block_meta_playcontentmeta_genere_mcm, \"Azione,Thriller\"))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "block_meta_playcontentmeta_genere_mcm"
+              },
+              {
+                "value": "\"Azione,Thriller\"",
+                "type": "string"
+              }
+            ],
+            "id": "EvpaDYumx0"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "Family",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "genere_mcm",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "ZP1iud0hi",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "field": "genere_mcm",
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "kiw8qXocC",
+          "nI6X6r96d",
+          "aXM_s_5Uh"
+        ]
+      }
+    ]
+  },
+  "id": "e9Y3R8KxHI",
+  "version": 21,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2023-02-08T16:44:30.099Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 1,
+          "items": [
+            {
+              "id": "kiw8qXocC",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "realm": "content",
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "metadata": {
+    "content": false
+  },
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": []
+}

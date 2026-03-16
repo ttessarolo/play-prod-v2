@@ -1,0 +1,51 @@
+{
+  "type": "text",
+  "contentType": "video",
+  "realm": "content",
+  "title": "List Tipologia Film e Serie",
+  "description": "",
+  "elements": [
+    "Film",
+    "Serie TV"
+  ],
+  "id": "jSYIKDFn8",
+  "version": 4,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2022-11-04T16:36:00.999Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "rules",
+        "items": [
+          "kiTG7_6td"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "rules",
+          "count": 1,
+          "items": [
+            {
+              "id": "kiTG7_6td",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  }
+}

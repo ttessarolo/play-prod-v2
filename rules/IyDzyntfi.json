@@ -1,0 +1,152 @@
+{
+  "contentType": "video",
+  "title": "Rule Channel Noleggio",
+  "description": "Keep Only Contenuti con content_channels = Noleggio",
+  "clauses": [
+    "filter",
+    "exclude",
+    "boost",
+    "include"
+  ],
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "I2I",
+      "value": "Noleggio",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "content_channels",
+      "fieldDBType": "text",
+      "_id": "SllVW2XnFL"
+    }
+  ],
+  "field": "content_channels",
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "TUEwHugpG",
+          "wuJsw2gkz",
+          "gcHNGd2H_",
+          "_s_m7kglK",
+          "lKsGN9IPe9",
+          "j0Q299ZnJ",
+          "smEuLKmQtT",
+          "ARAIdR8pC",
+          "Bd_D1xwYT",
+          "BVC4GzQXU",
+          "NoYXXV_FK",
+          "QPwcsFJG6",
+          "ca9vJDySW",
+          "BWgEuhfRp",
+          "aXM_s_5Uh",
+          "kiw8qXocC",
+          "nI6X6r96d"
+        ]
+      }
+    ]
+  },
+  "id": "IyDzyntfi",
+  "version": 18,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-06-16T10:32:33.491Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 10,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 10,
+          "items": [
+            {
+              "id": "TUEwHugpG",
+              "type": "queries",
+              "title": "TVOD Più noleggiati"
+            },
+            {
+              "id": "wuJsw2gkz",
+              "type": "queries",
+              "title": "TVOD Il cinema a casa tua"
+            },
+            {
+              "id": "gcHNGd2H_",
+              "type": "queries",
+              "title": "TVOD Novità Prima Finestra"
+            },
+            {
+              "id": "_s_m7kglK",
+              "type": "queries",
+              "title": "TVOD Film in offerta"
+            },
+            {
+              "id": "lKsGN9IPe9",
+              "type": "queries",
+              "title": "TVOD Film In scadenza"
+            },
+            {
+              "id": "j0Q299ZnJ",
+              "type": "queries",
+              "title": "TVOD Film Campioni di incasso"
+            },
+            {
+              "id": "smEuLKmQtT",
+              "type": "queries",
+              "title": "TVOD Generi per Parametri Film Blocco 1"
+            },
+            {
+              "id": "ARAIdR8pC",
+              "type": "queries",
+              "title": "TVOD Generi per Parametri Film Blocco 3"
+            },
+            {
+              "id": "Bd_D1xwYT",
+              "type": "queries",
+              "title": "TVOD Più noleggiati Top Blockbuster"
+            },
+            {
+              "id": "BVC4GzQXU",
+              "type": "queries",
+              "title": "TVOD Generi per Parametri Film Blocco 2"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 1,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "realm": "content",
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": []
+}

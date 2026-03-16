@@ -1,0 +1,140 @@
+{
+  "results": {
+    "flatAllBlocks": true,
+    "min": 0,
+    "fallbackBlockId": "Kv6wN8Y2zI"
+  },
+  "blocks": [
+    {
+      "_id": "YdfUbhPYxT",
+      "condition": "*",
+      "title": "Similar Clip Le Iene",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 20,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "fallbackBlockId": "Kv6wN8Y2zI"
+      },
+      "queryId": "jSwEBgItVY"
+    }
+  ],
+  "refs": {
+    "require": [
+      {
+        "type": "queries",
+        "items": [
+          "jSwEBgItVY"
+        ]
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "Kv6wN8Y2zI"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": [
+          "eOaXizx_"
+        ]
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": []
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 3,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 1,
+          "items": [
+            {
+              "id": "jSwEBgItVY",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "Kv6wN8Y2zI",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 1,
+          "items": [
+            {
+              "id": "eOaXizx_",
+              "type": "responseFields",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "title": "Similar Clip Le Iene",
+  "description": "",
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "realm": "content",
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-11-19T14:11:33.474Z"
+  },
+  "id": "rxlzHtzFi",
+  "version": 1
+}

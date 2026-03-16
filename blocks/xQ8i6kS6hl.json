@@ -1,0 +1,154 @@
+{
+  "id": "xQ8i6kS6hl",
+  "propertyId": "rrjMTUmyqd",
+  "title": "Default Fallback Varianti",
+  "description": "Please Edit description for Page \"Default\"",
+  "enabledPagesId": [
+    "t2lTpliWX"
+  ],
+  "isPage": true,
+  "blocks": [
+    {
+      "id": "lMvxzNcSu",
+      "condition": "*",
+      "title": "Default Fallback Varianti layout",
+      "type": "nested",
+      "layout": {
+        "i": "lMvxzNcSu",
+        "x": 0,
+        "y": 1,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "P0csRsOt7"
+    }
+  ],
+  "version": 5,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2025-05-09T14:24:52.501Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "endpoints",
+        "items": [
+          "t2lTpliWX"
+        ]
+      }
+    ],
+    "require": [
+      {
+        "type": "queries",
+        "items": []
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "P0csRsOt7"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "t2lTpliWX",
+              "type": "endpoints",
+              "title": "fallbackVariantiFilteredSearch"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 1,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "P0csRsOt7",
+              "type": "blocks",
+              "title": "Block published flag not exists"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "layout": [
+    {
+      "i": "lMvxzNcSu",
+      "x": 0,
+      "y": 1,
+      "w": 12,
+      "h": 30,
+      "blocks": []
+    }
+  ],
+  "canBeFallback": true
+}

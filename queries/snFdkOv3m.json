@@ -1,0 +1,217 @@
+{
+  "title": "Query Similar Informazione",
+  "description": "Carrello finalizzato al GUARDA ANCHE di programmi con tipologia INFORMAZIONE",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "ml7OOL8Ka"
+    },
+    {
+      "id": "YMaH2tPZC"
+    },
+    {
+      "id": "KukwdwFDvb"
+    }
+  ],
+  "exclude": [],
+  "include": [
+    {
+      "id": "WkEGCAVTRP"
+    },
+    {
+      "id": "GbZsCDEJAx"
+    }
+  ],
+  "boost": [],
+  "order": [],
+  "realm": "content",
+  "presets": {
+    "filter": [
+      {
+        "id": "TuAyi0elu"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "ZRorAbL96Q"
+      }
+    ]
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "ml7OOL8Ka",
+          "YMaH2tPZC",
+          "KukwdwFDvb",
+          "WkEGCAVTRP",
+          "GbZsCDEJAx"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "TuAyi0elu",
+          "ZRorAbL96Q"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "MgPmWptZEh"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1,
+    "mustOperator": "or"
+  },
+  "id": "snFdkOv3m",
+  "version": 3,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2022-04-28T09:38:39.597Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "MgPmWptZEh",
+              "type": "blocks",
+              "title": "Block Similar Informazione"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 6,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 4,
+          "items": [
+            {
+              "id": "ml7OOL8Ka",
+              "type": "rules",
+              "title": "Rule Include solo IdSeriesSe popolato"
+            },
+            {
+              "id": "YMaH2tPZC",
+              "type": "rules",
+              "title": "Rule Content Channel Origin"
+            },
+            {
+              "id": "WkEGCAVTRP",
+              "type": "rules",
+              "title": "Rule Similar Tipologia Informazione Fep"
+            },
+            {
+              "id": "GbZsCDEJAx",
+              "type": "rules",
+              "title": "Rule Similar Tipologia Informazione Clip"
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 2,
+          "items": [
+            {
+              "id": "TuAyi0elu",
+              "type": "rulesPresets",
+              "title": "Preset SearchVisible e FrontEnd Visible True"
+            },
+            {
+              "id": "ZRorAbL96Q",
+              "type": "rulesPresets",
+              "title": "Preset Blacklist"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "uselessMultiplier": false,
+  "metadataOverrides": {
+    "WkEGCAVTRP": {
+      "content_similar": {
+        "required": true,
+        "output": "video_similar_ids_informazionefep",
+        "metadata": {
+          "included": [
+            "tipologia=Informazione",
+            "editorial_type=Full Episode",
+            "content_channels"
+          ],
+          "excluded": [
+            "id_series_se"
+          ]
+        },
+        "date": {
+          "range": 2,
+          "period": "w",
+          "field": "publication_date",
+          "absolute": true
+        },
+        "fingerprint": {
+          "matchFields": [
+            "fingerprint"
+          ]
+        },
+        "groupby": {
+          "metadata": "id_series_se",
+          "results": 1,
+          "sortMetadata": "",
+          "sortDirection": "asc"
+        }
+      }
+    },
+    "GbZsCDEJAx": {
+      "content_similar": {
+        "required": true,
+        "output": "video_similar_ids_informazioneclip",
+        "metadata": {
+          "included": [
+            "tipologia=Informazione",
+            "editorial_type=Clip",
+            "content_channels"
+          ],
+          "excluded": [
+            "id_series_se"
+          ]
+        },
+        "date": {
+          "period": "w",
+          "range": 2,
+          "field": "publication_date",
+          "absolute": true
+        },
+        "groupby": {
+          "metadata": "id_series_se",
+          "results": 4,
+          "sortMetadata": "",
+          "sortDirection": "asc"
+        },
+        "fingerprint": {
+          "matchFields": [
+            "fingerprint"
+          ]
+        }
+      }
+    }
+  }
+}

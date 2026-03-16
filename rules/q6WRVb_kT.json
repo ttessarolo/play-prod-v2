@@ -1,0 +1,140 @@
+{
+  "title": "Rule Esclude Animazione genere parametrico interno Azione Thriller Avventura",
+  "description": "",
+  "contentType": "video",
+  "clauses": [
+    "exclude"
+  ],
+  "rule": [
+    {
+      "phrase": false,
+      "API": "V2",
+      "condition": "(contains(block_meta_playcontentmeta_genere_mcm, \"Azione,Avventura,Thriller\"))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "block_meta_playcontentmeta_genere_mcm"
+              },
+              {
+                "value": "\"Azione,Avventura,Thriller\"",
+                "type": "string"
+              }
+            ],
+            "id": "EvpaDYumx0"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "I2I",
+      "value": "Animazione",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "genere_mcm",
+      "fieldDBType": "keyword",
+      "_id": "UGAfWaeOA",
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "API": "V2",
+      "condition": "(contains(block_meta_playcontentmeta_genere_mcm, \"Azione,Avventura,Thriller\"))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "block_meta_playcontentmeta_genere_mcm"
+              },
+              {
+                "value": "\"Azione,Avventura,Thriller\"",
+                "type": "string"
+              }
+            ],
+            "id": "EvpaDYumx0"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "Family",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "genere_mcm",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "ZP1iud0hi",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "field": "genere_mcm",
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "yNxWfYgpgd",
+          "saXXHN9eH",
+          "OrpWHvd2JE",
+          "jfiYB856s"
+        ]
+      }
+    ]
+  },
+  "id": "q6WRVb_kT",
+  "version": 18,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2022-11-16T10:18:06.713Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "realm": "content",
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "metadata": {
+    "content": false
+  },
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": []
+}

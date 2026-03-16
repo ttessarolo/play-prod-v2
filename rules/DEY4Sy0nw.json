@@ -1,0 +1,134 @@
+{
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "nEHdWgP7H",
+          "lUYqji6FvZ"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 1,
+          "items": [
+            {
+              "id": "nEHdWgP7H",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "title": "Rule Include Consistenza commerciale Film Infinity",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "keepOrder": true,
+      "API": "V2",
+      "condition": "(contains(context_features_subscription_channels, \"Infinity\"))",
+      "boost": 1,
+      "type": "",
+      "value": "video_similar_ids_film_inf",
+      "valueType": "metadata",
+      "queryType": "ids",
+      "field": "video_content_id",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "CLdfcOlYYh",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "context_features_subscription_channels"
+              },
+              {
+                "value": "\"Infinity\"",
+                "type": "string"
+              }
+            ],
+            "id": "7mDoXV413o"
+          }
+        ]
+      },
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "clauses": [
+    "include"
+  ],
+  "metadata": {
+    "content_similar": {
+      "required": true,
+      "output": "video_similar_ids_film_inf",
+      "numResults": 12,
+      "metadata": {
+        "included": [
+          "tipologia=Film",
+          "editorial_type=Movie",
+          "video_format=(HD) OR (SD)",
+          "content_channels=Infinity"
+        ],
+        "excluded": [
+          "content_channels=MediasetPlay"
+        ]
+      },
+      "groupby": {
+        "metadata": "editorial_type",
+        "results": 2,
+        "sortMetadata": "last24h_infinity_videoviews",
+        "sortDirection": "desc"
+      }
+    }
+  },
+  "id": "DEY4Sy0nw",
+  "version": 4,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2022-06-29T13:50:31.549Z"
+  },
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": []
+}

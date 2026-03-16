@@ -1,0 +1,132 @@
+{
+  "id": "dnKsEIfIF",
+  "active": true,
+  "title": "newSimilarIntrattenimento",
+  "description": "",
+  "reference": "newSimilarIntrattenimento",
+  "propertyId": "zlqQNxLcGh",
+  "blockId": "Ri_NBG1UF",
+  "variants": [],
+  "params": {
+    "timeout": 1500,
+    "cacheConfig": {
+      "cache": 1,
+      "cacheTTL": 300,
+      "cachePrefix": {
+        "group": true,
+        "static": "endpoint",
+        "keys": []
+      },
+      "computeKeys": [
+        "page",
+        "hitsPerPage",
+        "startBlock",
+        "endBlock",
+        "contentId",
+        "context"
+      ]
+    }
+  },
+  "paramsId": "playDefault",
+  "input": {
+    "decorators": [
+      "XIHg_DI92f"
+    ]
+  },
+  "output": {
+    "decorators": [
+      "mU5ep6Aze"
+    ]
+  },
+  "version": 5,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2026-02-12T14:26:50.737Z"
+  },
+  "refs": {
+    "belongs": [],
+    "require": [
+      {
+        "type": "blocks",
+        "items": [
+          "Ri_NBG1UF"
+        ]
+      },
+      {
+        "type": "params",
+        "items": [
+          "playDefault"
+        ]
+      },
+      {
+        "type": "decorators",
+        "items": [
+          "XIHg_DI92f",
+          "mU5ep6Aze"
+        ]
+      },
+      {
+        "type": "conversionPacks",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 4,
+      "types": 4,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "Ri_NBG1UF",
+              "type": "blocks",
+              "title": "Default"
+            }
+          ]
+        },
+        {
+          "type": "params",
+          "count": 1,
+          "items": [
+            {
+              "id": "playDefault",
+              "type": "params",
+              "title": "Play Default"
+            }
+          ]
+        },
+        {
+          "type": "decorators",
+          "count": 2,
+          "items": [
+            {
+              "id": "XIHg_DI92f",
+              "type": "decorators",
+              "title": "Play Persona Input Decorator"
+            },
+            {
+              "id": "mU5ep6Aze",
+              "type": "decorators",
+              "title": "MPlay Universal Enricher "
+            }
+          ]
+        },
+        {
+          "type": "conversionPacks",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "haveScheduledVariants": 0,
+  "prevReference": "newSimilarIntrattenimento"
+}

@@ -1,0 +1,189 @@
+{
+  "refs": {
+    "require": [
+      {
+        "type": "queries",
+        "items": [
+          "m088vbWc5Q"
+        ]
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "P0csRsOt7"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": [
+          "eOaXizx_"
+        ]
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "jbOpvqnFG"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "pages",
+          "count": 1,
+          "items": [
+            {
+              "variantId": "jbOpvqnFG",
+              "propertyId": "zlqQNxLcGh",
+              "propertyTitle": "",
+              "endpointId": "pKQHFdFrz",
+              "endpointTitle": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 3,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 1,
+          "items": [
+            {
+              "id": "m088vbWc5Q",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "P0csRsOt7",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 1,
+          "items": [
+            {
+              "id": "eOaXizx_",
+              "type": "responseFields",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "results": {
+    "flatAllBlocks": true,
+    "min": 1,
+    "fallbackBlockId": "P0csRsOt7",
+    "max": 30
+  },
+  "blocks": [
+    {
+      "_id": "p07qCcpcRv",
+      "condition": "(!isEmpty(video_historical_fingerprint))",
+      "title": "MPlay Film Random to Content",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 30,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "fallbackBlockId": "P0csRsOt7",
+        "skipOnEmpty": true
+      },
+      "queryId": "m088vbWc5Q",
+      "metadata": {
+        "user": {
+          "required": true,
+          "userContentType": "user"
+        }
+      },
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "!isEmpty",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "video_historical_fingerprint"
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ],
+            "id": "IbTcS2A6cr"
+          }
+        ]
+      },
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "title": "Block MPlay Film Random to Content AB Test Free",
+  "description": "",
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "realm": "content",
+  "id": "IssKb0nqW",
+  "version": 4,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2023-12-20T09:34:25.624Z"
+  }
+}

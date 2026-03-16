@@ -1,0 +1,111 @@
+{
+  "title": "Query Enabler Test Stagioni",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "KdgZfZ_wm"
+    }
+  ],
+  "exclude": [],
+  "include": [],
+  "boost": [],
+  "order": [
+    {
+      "id": "SXyaET7iz2"
+    }
+  ],
+  "realm": "content",
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "KdgZfZ_wm",
+          "SXyaET7iz2"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "ztWfmA_PI"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "lAqDX_o_o"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "id": "KM2HiheDL",
+  "version": 6,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-04-15T16:57:47.155Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "lAqDX_o_o",
+              "type": "blocks",
+              "title": "Block Enabler Test Stagioni"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 2,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 1,
+          "items": [
+            {
+              "id": "KdgZfZ_wm",
+              "type": "rules",
+              "title": "Rule Editorial Type TV Season"
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 1,
+          "items": [
+            {
+              "id": "ztWfmA_PI",
+              "type": "rulesPresets",
+              "title": "Preset Fep attivi"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "presets": {
+    "filter": [
+      {
+        "id": "ztWfmA_PI"
+      }
+    ]
+  },
+  "uselessMultiplier": false,
+  "metadataOverrides": {}
+}

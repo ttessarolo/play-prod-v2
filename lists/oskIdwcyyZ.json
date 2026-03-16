@@ -1,0 +1,73 @@
+{
+  "title": "List Contenuti X Style da blacklistare dalla Similar",
+  "description": "",
+  "type": "contentId",
+  "contentType": "video",
+  "realm": "content",
+  "elements": [
+    "FD00000000503102",
+    "FD00000000501648",
+    "FD00000000498022",
+    "FD00000000495460",
+    "FD00000000494695",
+    "FD00000000494531",
+    "FD00000000495103",
+    "FD00000000494800",
+    "FD00000000494531",
+    "FD00000000504046",
+    "FD00000000505071",
+    "FD00000000504403",
+    "FD00000000504450",
+    "FD00000000506585",
+    "FD00000000507379",
+    "FD00000000509269",
+    "FD00000000510014",
+    "FD00000000514282",
+    "FD00000000516460",
+    "FD00000000517724",
+    "FD00000000518502",
+    "F314203401007C02",
+    "FD00000000521405"
+  ],
+  "metadataField": "title",
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2026-03-16T15:38:49.514Z"
+  },
+  "id": "oskIdwcyyZ",
+  "version": 13,
+  "refs": {
+    "belongs": [
+      {
+        "type": "rules",
+        "items": [
+          "xymitMKK9"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "rules",
+          "count": 1,
+          "items": [
+            {
+              "id": "xymitMKK9",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  }
+}

@@ -1,0 +1,390 @@
+{
+  "id": "HV6YfKzh0",
+  "propertyId": "zlqQNxLcGh",
+  "title": "MedIta Multiple Block Programmi TV",
+  "description": "Please Edit description for Page \"Default\"",
+  "enabledPagesId": [
+    "tgXUEdcir"
+  ],
+  "isPage": true,
+  "blocks": [
+    {
+      "id": "ht0fMruuQ",
+      "condition": "*",
+      "title": "I più visti",
+      "type": "nested",
+      "layout": {
+        "i": "ht0fMruuQ",
+        "x": 0,
+        "y": 1,
+        "w": 12,
+        "h": 30,
+        "blocks": [],
+        "isDraggable": false
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "Nrt8W8HSY",
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        }
+      },
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H",
+        "siteMapped": true
+      },
+      "pinned": true
+    },
+    {
+      "id": "FWP_I8VnY",
+      "condition": "*",
+      "title": "Talent & reality",
+      "type": "nested",
+      "layout": {
+        "i": "FWP_I8VnY",
+        "x": 0,
+        "y": 2,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "QppzCHY3rj",
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Talent show,Reality show"
+        }
+      },
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H",
+        "siteMapped": true
+      }
+    },
+    {
+      "id": "lLZ81SXt8",
+      "condition": "*",
+      "title": "Varietà e comici",
+      "type": "nested",
+      "layout": {
+        "i": "lLZ81SXt8",
+        "w": 12,
+        "h": 30
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "QppzCHY3rj",
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Varietà,Comico"
+        }
+      },
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H",
+        "siteMapped": true
+      }
+    },
+    {
+      "id": "RlSmSCkEF",
+      "condition": "*",
+      "title": "Talk e approfondimento",
+      "type": "nested",
+      "layout": {
+        "i": "RlSmSCkEF",
+        "x": 0,
+        "y": 4,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "QppzCHY3rj",
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Talk Show"
+        }
+      },
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H",
+        "siteMapped": true
+      }
+    },
+    {
+      "id": "ufTkAkSLV",
+      "condition": "*",
+      "title": "Cucina e lifestyle",
+      "type": "nested",
+      "layout": {
+        "i": "ufTkAkSLV",
+        "x": 0,
+        "y": 91,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "QppzCHY3rj",
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Cucina,Lifestyle"
+        }
+      },
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H",
+        "siteMapped": true
+      }
+    },
+    {
+      "id": "smyUKfQ6y",
+      "condition": "*",
+      "title": "News e Sport",
+      "type": "nested",
+      "layout": {
+        "i": "smyUKfQ6y",
+        "x": 0,
+        "y": 92,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "uvAPhjS3LJ",
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H",
+        "siteMapped": true
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "KEYFRAME"
+        }
+      }
+    }
+  ],
+  "version": 18,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2023-03-29T09:28:19.623Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "endpoints",
+        "items": [
+          "tgXUEdcir"
+        ]
+      }
+    ],
+    "require": [
+      {
+        "type": "queries",
+        "items": []
+      },
+      {
+        "type": "endpoints",
+        "items": [
+          "WXsJUgBAp"
+        ]
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "Rc1YEkVxO",
+          "Nrt8W8HSY",
+          "QppzCHY3rj",
+          "uvAPhjS3LJ"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "tgXUEdcir",
+              "type": "endpoints",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 5,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "WXsJUgBAp",
+              "type": "endpoints",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "blocks",
+          "count": 4,
+          "items": [
+            {
+              "id": "Rc1YEkVxO",
+              "type": "blocks"
+            },
+            {
+              "id": "Nrt8W8HSY",
+              "type": "blocks"
+            },
+            {
+              "id": "QppzCHY3rj",
+              "type": "blocks"
+            },
+            {
+              "id": "uvAPhjS3LJ",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "layout": [
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 0,
+      "i": "ht0fMruuQ",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 30,
+      "i": "FWP_I8VnY",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 60,
+      "i": "lLZ81SXt8",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 90,
+      "i": "RlSmSCkEF",
+      "moved": false,
+      "static": false
+    },
+    {
+      "i": "ufTkAkSLV",
+      "x": 0,
+      "y": 91,
+      "w": 12,
+      "h": 30,
+      "blocks": []
+    },
+    {
+      "i": "smyUKfQ6y",
+      "x": 0,
+      "y": 92,
+      "w": 12,
+      "h": 30,
+      "blocks": []
+    }
+  ],
+  "results": {
+    "smartOrderBlocks": true,
+    "contentType": "video",
+    "userContentType": "user",
+    "event": "watched",
+    "perUserBasisType": "video_historical_fingerprint",
+    "fallbackBlockId": "Rc1YEkVxO",
+    "fullSubstituteFallback": true
+  },
+  "fullSubstituteFallback": true
+}

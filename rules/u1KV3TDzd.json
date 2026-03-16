@@ -1,0 +1,99 @@
+{
+  "contentType": "video",
+  "title": "Rule Etichetta editoriale In Onda o Esclusiva",
+  "description": "",
+  "clauses": [
+    "filter",
+    "exclude",
+    "include",
+    "boost"
+  ],
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "I2I",
+      "value": "In Onda",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "etichetteEditoriali",
+      "fieldDBType": "keyword",
+      "_id": "D5Ommj0iv"
+    },
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "Esclusiva",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "etichetteEditoriali",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "O7FNvRbFD"
+    }
+  ],
+  "field": "etichetteEditoriali",
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "IjuqSujtX",
+          "jTxxLascsn"
+        ]
+      }
+    ]
+  },
+  "id": "u1KV3TDzd",
+  "version": 3,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2023-08-29T13:33:44.035Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "grouped": true,
+  "operator": "or"
+}

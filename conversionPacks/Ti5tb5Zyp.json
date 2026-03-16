@@ -1,0 +1,67 @@
+{
+  "cache": false,
+  "title": "CP-TEST",
+  "description": "",
+  "paramsId": "playDefault",
+  "contentType": "video",
+  "realm": "content",
+  "outputMetadataField": "cp_test",
+  "numElements": "100",
+  "order": "desc",
+  "conversions": [
+    {
+      "label": "search",
+      "value": "search"
+    }
+  ],
+  "range": {
+    "period": "30",
+    "unit": "d"
+  },
+  "refs": {
+    "require": [],
+    "belongs": []
+  },
+  "id": "Ti5tb5Zyp",
+  "version": 8,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2022-03-28T11:22:47.638Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  },
+  "filter": {
+    "rules": [
+      {
+        "type": "metadata",
+        "name": "tipologia",
+        "values": [
+          "Film"
+        ],
+        "operator": "or",
+        "fieldNested": 0,
+        "dbType": "text"
+      }
+    ]
+  },
+  "groupBy": {
+    "rules": [],
+    "occurrences": 1
+  },
+  "filters": {
+    "params": {
+      "rules": []
+    }
+  },
+  "minOccurrences": "1"
+}

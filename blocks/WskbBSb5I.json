@@ -1,0 +1,180 @@
+{
+  "id": "WskbBSb5I",
+  "propertyId": "zlqQNxLcGh",
+  "title": "Programmi Tv Clip 24H",
+  "description": "Please Edit description for Page \"Default\"",
+  "enabledPagesId": [
+    "dSO8u7pRf"
+  ],
+  "isPage": true,
+  "blocks": [
+    {
+      "id": "O0U1knkoM",
+      "condition": "*",
+      "title": "Le clip più viste 1gg",
+      "type": "nested",
+      "layout": {
+        "i": "O0U1knkoM",
+        "w": 12,
+        "h": 25
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "DalenVLWr",
+      "metadataUI": {
+        "default": {
+          "template": "KEYFRAME"
+        },
+        "playDetailParams": {
+          "property": "play"
+        }
+      },
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      }
+    }
+  ],
+  "version": 8,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2023-03-29T09:18:17.792Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "endpoints",
+        "items": [
+          "dSO8u7pRf"
+        ]
+      }
+    ],
+    "require": [
+      {
+        "type": "queries",
+        "items": []
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "Rc1YEkVxO",
+          "DalenVLWr"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ]
+  },
+  "layout": [
+    {
+      "w": 12,
+      "h": 25,
+      "x": 0,
+      "y": 0,
+      "i": "O0U1knkoM",
+      "moved": false,
+      "static": false
+    }
+  ],
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "dSO8u7pRf",
+              "type": "endpoints",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 2,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 2,
+          "items": [
+            {
+              "id": "Rc1YEkVxO",
+              "type": "blocks"
+            },
+            {
+              "id": "DalenVLWr",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "results": {
+    "fallbackBlockId": "Rc1YEkVxO",
+    "fullSubstituteFallback": true
+  },
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": [],
+  "fullSubstituteFallback": true
+}

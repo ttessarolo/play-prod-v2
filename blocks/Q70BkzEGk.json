@@ -1,0 +1,128 @@
+{
+  "results": {
+    "min": 0,
+    "flatAllBlocks": true,
+    "max": 24
+  },
+  "blocks": [
+    {
+      "_id": "AYHJHru_24",
+      "condition": "*",
+      "title": "Block Most Recent Informazione",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 24,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_"
+      },
+      "queryId": "e3n773U9U"
+    }
+  ],
+  "title": "Block Most Recent Informazione",
+  "description": "",
+  "scheduled": 0,
+  "scheduling": [],
+  "schedulingMap": [],
+  "realm": "content",
+  "canBeFallback": 1,
+  "refs": {
+    "require": [
+      {
+        "type": "queries",
+        "items": [
+          "e3n773U9U"
+        ]
+      },
+      {
+        "type": "blocks",
+        "items": []
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": [
+          "eOaXizx_"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "MgPmWptZEh",
+          "PGCv7Qiev",
+          "SCbCTF69h",
+          "PUm41pxFo"
+        ]
+      }
+    ]
+  },
+  "id": "Q70BkzEGk",
+  "version": 3,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-03-29T16:15:30.310Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "hr9EobplH",
+              "type": "blocks",
+              "title": "Block Similar Intrattenimento"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 2,
+      "types": 4,
+      "items": [
+        {
+          "type": "queries",
+          "count": 1,
+          "items": [
+            {
+              "id": "UNYXfbEQP",
+              "type": "queries",
+              "title": "Query Most Recent Intrattenimento"
+            }
+          ]
+        },
+        {
+          "type": "blocks",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 1,
+          "items": [
+            {
+              "id": "eOaXizx_",
+              "type": "responseFields",
+              "title": "PLAY-PROD-VIDEO-MINIMAL-SET"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "id": "HEPxgP8Pm",
+  "active": true,
+  "title": "xStyleSubbrandParams",
+  "description": "",
+  "reference": "xStyleSubbrandParams",
+  "propertyId": "zlqQNxLcGh",
+  "blockId": "If1yBj9d7",
+  "variants": [],
+  "params": {
+    "timeout": 1500,
+    "cacheConfig": {
+      "cache": 1,
+      "cacheTTL": 3600,
+      "cachePrefix": {
+        "group": true,
+        "static": "endpoint",
+        "keys": []
+      },
+      "computeKeys": [
+        "startBlock",
+        "endBlock",
+        "params"
+      ]
+    },
+    "inveverseCacheConfig": {
+      "cacheTTL": 3600
+    }
+  },
+  "paramsId": "playDefault",
+  "input": {},
+  "output": {
+    "decorators": [
+      "mU5ep6Aze"
+    ]
+  },
+  "version": 4,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-03-03T16:24:23.947Z"
+  },
+  "refs": {
+    "belongs": [],
+    "require": [
+      {
+        "type": "blocks",
+        "items": [
+          "If1yBj9d7"
+        ]
+      },
+      {
+        "type": "params",
+        "items": [
+          "playDefault"
+        ]
+      },
+      {
+        "type": "decorators",
+        "items": [
+          "mU5ep6Aze"
+        ]
+      },
+      {
+        "type": "conversionPacks",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 3,
+      "types": 4,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "If1yBj9d7",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "params",
+          "count": 1,
+          "items": [
+            {
+              "id": "playDefault",
+              "type": "params"
+            }
+          ]
+        },
+        {
+          "type": "decorators",
+          "count": 1,
+          "items": [
+            {
+              "id": "mU5ep6Aze",
+              "type": "decorators"
+            }
+          ]
+        },
+        {
+          "type": "conversionPacks",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "prevReference": "xStyleSubbrandParams",
+  "enableAnalitica": true,
+  "paginateFromCache": true,
+  "haveScheduledVariants": 0
+}

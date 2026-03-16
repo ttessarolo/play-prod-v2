@@ -1,0 +1,164 @@
+{
+  "title": "Query Mediaset Play Serie TV del momento Più visti",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "ju06OqIgO"
+    },
+    {
+      "id": "M2X3Atski"
+    },
+    {
+      "id": "KdgZfZ_wm"
+    }
+  ],
+  "exclude": [],
+  "include": [],
+  "boost": [],
+  "order": [
+    {
+      "id": "A5n475YeR"
+    }
+  ],
+  "realm": "content",
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "ju06OqIgO",
+          "M2X3Atski",
+          "KdgZfZ_wm",
+          "A5n475YeR"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "ztWfmA_PI",
+          "ZRorAbL96Q",
+          "KhQ3IziFJ"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "H1pq_9kZj"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "id": "PpdrrVxDc",
+  "version": 27,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-09-29T14:14:06.675Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "H1pq_9kZj",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 9,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 6,
+          "items": [
+            {
+              "id": "ju06OqIgO",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "M2X3Atski",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "KdgZfZ_wm",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "XrQIQriQGR",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "RqBahOBRSz",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "A5n475YeR",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 3,
+          "items": [
+            {
+              "id": "ztWfmA_PI",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "ZRorAbL96Q",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "KhQ3IziFJ",
+              "type": "rulesPresets",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "presets": {
+    "filter": [
+      {
+        "id": "ztWfmA_PI"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "ZRorAbL96Q"
+      },
+      {
+        "id": "KhQ3IziFJ"
+      }
+    ]
+  },
+  "metadataOverrides": {},
+  "uselessMultiplier": false
+}

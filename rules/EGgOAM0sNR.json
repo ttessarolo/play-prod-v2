@@ -1,0 +1,131 @@
+{
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "(!contains(params_channel, \"MediasetItalia\"))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "!contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "params_channel"
+              },
+              {
+                "value": "\"MediasetItalia\"",
+                "type": "string"
+              }
+            ],
+            "id": "Qr4deFyxh_"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "RiZO3dw7G",
+      "valueType": "list",
+      "queryType": "listTermsId",
+      "field": "content_channels",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "xkTQr3kI7",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "title": "Rule Search Content channel NON MediasetItalia se params channel NON MediasetItalia",
+  "description": "",
+  "clauses": [
+    "filter",
+    "exclude"
+  ],
+  "metadata": {
+    "time": false
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": [
+          "RiZO3dw7G"
+        ]
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "ZsxcVJ4cb",
+          "B0YMoSONb",
+          "lxPfB9Gfj_",
+          "JeWs0B6Ip",
+          "CGFfVq3sX"
+        ]
+      }
+    ]
+  },
+  "id": "EGgOAM0sNR",
+  "version": 12,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2023-09-26T14:10:44.452Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 1,
+          "items": [
+            {
+              "id": "CGFfVq3sX",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 1,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 1,
+          "items": [
+            {
+              "id": "RiZO3dw7G",
+              "type": "lists",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "searchMetadata": [
+    "request",
+    "time"
+  ],
+  "includedMetadata": [
+    "time"
+  ],
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": []
+}

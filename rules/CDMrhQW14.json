@@ -1,0 +1,121 @@
+{
+  "title": "Rule Tipologia Serie Tv e Fiction",
+  "description": "",
+  "contentType": "video",
+  "clauses": [
+    "filter"
+  ],
+  "rule": [
+    {
+      "condition": "*",
+      "boost": 1,
+      "type": "I2I",
+      "_id": "LGYjhwy6h2",
+      "listTermsId": "la6SG9MH5",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      },
+      "field": "tipologia",
+      "fieldDBType": "keyword",
+      "queryType": "listTermsId",
+      "value": "la6SG9MH5",
+      "valueType": "list",
+      "API": "V2"
+    }
+  ],
+  "field": "tipologia",
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": [
+          "la6SG9MH5"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "VaFxBerr6",
+          "ajqPan1bS",
+          "yncTA7ween",
+          "arcIZfX7Q",
+          "NDMxn06hM",
+          "xpFUJN2NV",
+          "jghd_cW_3",
+          "SwEdO0Rot",
+          "sSJKqI_d5",
+          "s6Gij1X5i",
+          "b9MEPMrAY",
+          "sAkw5LwYq",
+          "pNmPWjxre",
+          "qOqWHDpaC",
+          "h0DYFqNjp",
+          "qPd0aP7wuv",
+          "S5KdN0aRZ",
+          "kwDHvPZHJ1",
+          "IjuqSujtX",
+          "dLoPEBrcJd",
+          "hHiEPD3VA",
+          "fPSsZdCBTk",
+          "crNss9ZoJ",
+          "W5sbCv_X34",
+          "R38KED28bt",
+          "V66dk1Z4w",
+          "r3UuPrHFa3",
+          "m8rpiaFciK",
+          "QBSCM27jL",
+          "P9Ls7vSds",
+          "sRlHZqMawB",
+          "mtx6Ew_wWR",
+          "A4Euag_hG",
+          "nGhPhWBeV",
+          "jTxxLascsn",
+          "cOZWtR5QFk",
+          "aTlHoTaH0",
+          "kNF9by9ui",
+          "VMjkKkljfF",
+          "yFHHJNULO",
+          "UpCkzkV_m",
+          "gE_eIFPElo",
+          "z4cKov4kQ",
+          "UxPXwvjeT",
+          "Hx2MoUuC4",
+          "VYVUiuCSM",
+          "hlVeeW3f2",
+          "CDsTVvCvs",
+          "Ly04WXzqgZ",
+          "Td9MT7WjJ",
+          "Gs2DZhmnXF",
+          "dOLvfVNVS",
+          "_4B6SzEZy",
+          "IuO6CmHVV",
+          "luXgVBWl6",
+          "_oPkRZjuW",
+          "YY_osrxFBI",
+          "gJthFqC_H",
+          "ub3yV4gS6",
+          "dozi3IMou",
+          "G2Pc_vyqd",
+          "R2gramigsK",
+          "hcoUNChdN",
+          "BVyzpjtqc",
+          "T6GgclYgM",
+          "A6FHuXLjp"
+        ]
+      }
+    ]
+  },
+  "id": "CDMrhQW14",
+  "version": 2,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2020-06-25T15:29:00.724Z"
+  }
+}

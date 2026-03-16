@@ -1,0 +1,50 @@
+{
+  "id": "migration",
+  "destinations": [
+    {
+      "id": "PlayProdV2",
+      "rootDestinationBucket": "prod-ares-root-config",
+      "notifyMigrationTo": [
+        "http://prodares-notifier.ares-mediaset.net:9016/reload-config",
+        "http://prodares-notifier.ares-mediaset.net:9016/reload-users"
+      ],
+      "destinationBucket": "play-prod-v2",
+      "destinationEnvironnementId": "prod",
+      "originEnvironnementId": "test",
+      "buckets": {
+        "configurations": [
+          "blocks",
+          "endpoints",
+          "externalSources",
+          "lists",
+          "labels",
+          "conversionPacks",
+          "conversions",
+          "metrics",
+          "properties",
+          "queries",
+          "responseFields",
+          "rules",
+          "rulesPresets",
+          "metaPacks",
+          "contentPacks",
+          "experiments"
+        ],
+        "plugins": [
+          "decorators",
+          "uiPlugins",
+          "enrichers"
+        ],
+        "technical": [
+          "analitica",
+          "keys",
+          "params",
+          "services",
+          "ui",
+          "loaders",
+          "pipelines"
+        ]
+      }
+    }
+  ]
+}

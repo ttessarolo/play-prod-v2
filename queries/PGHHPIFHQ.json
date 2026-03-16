@@ -1,0 +1,174 @@
+{
+  "metadataInRules": [
+    "content",
+    "content_similar"
+  ],
+  "title": "Query Because you Film Free",
+  "description": "Because you Film FREE",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "KukwdwFDvb"
+    },
+    {
+      "id": "eWJaE8Lwit"
+    }
+  ],
+  "exclude": [
+    {
+      "id": "guv9d2IRj"
+    },
+    {
+      "id": "Ehrm1Jwn6"
+    },
+    {
+      "id": "aokNclHtx"
+    },
+    {
+      "id": "IRLCpxM3B"
+    }
+  ],
+  "include": [
+    {
+      "id": "oHTnV7lfY"
+    }
+  ],
+  "boost": [
+    {
+      "id": "anWkfdU3R",
+      "overides": {
+        "BsvxJsE1dY": {
+          "boost": 10
+        }
+      }
+    },
+    {
+      "id": "SonpJllfx",
+      "overides": {
+        "KfMtb6ZTb": {
+          "boost": 50
+        }
+      }
+    },
+    {
+      "id": "u2np4nyh9"
+    },
+    {
+      "id": "nCRmJzUuG",
+      "overides": {
+        "tYeu208Fm": {
+          "boost": 25
+        }
+      }
+    },
+    {
+      "id": "fR5oAo8iS",
+      "overides": {
+        "ZYqXlcNpQ": {
+          "boost": 10
+        }
+      }
+    },
+    {
+      "id": "bpF1hcTCd"
+    }
+  ],
+  "order": [],
+  "presets": {
+    "filter": [
+      {
+        "id": "TuAyi0elu"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "ZRorAbL96Q"
+      }
+    ]
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "KukwdwFDvb",
+          "eWJaE8Lwit",
+          "guv9d2IRj",
+          "Ehrm1Jwn6",
+          "aokNclHtx",
+          "IRLCpxM3B",
+          "oHTnV7lfY",
+          "anWkfdU3R",
+          "SonpJllfx",
+          "u2np4nyh9",
+          "nCRmJzUuG",
+          "fR5oAo8iS",
+          "bpF1hcTCd"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "TuAyi0elu",
+          "ZRorAbL96Q"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": []
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1,
+    "mustOperator": "or"
+  },
+  "id": "PGHHPIFHQ",
+  "version": 26,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-09-29T13:53:15.280Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  },
+  "uselessMultiplier": false,
+  "metadataOverrides": {
+    "oHTnV7lfY": {
+      "content_similar": {
+        "required": true,
+        "metadata": {
+          "included": [
+            "tipologia=Film",
+            "editorial_type=Movie",
+            "content_channels=MediasetPlay"
+          ],
+          "excluded": [
+            "genere_mcm=Corti"
+          ]
+        },
+        "fingerprint": {
+          "matchFields": [
+            "fingerprint"
+          ]
+        },
+        "output": "video_similar_ids_cinema"
+      },
+      "content": false
+    }
+  },
+  "realm": "content"
+}

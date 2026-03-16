@@ -1,0 +1,82 @@
+{
+  "title": "Rule Window last end maggiore uguale OGGI",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "greaterOperator": "gte",
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "when_now",
+      "valueType": "metadata",
+      "queryType": "greaterValue",
+      "field": "window_last_end",
+      "fieldNested": 0,
+      "fieldDBType": "date",
+      "_id": "uPhjXnkH4"
+    }
+  ],
+  "clauses": [
+    "filter",
+    "exclude",
+    "include"
+  ],
+  "metadata": {
+    "time": true
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "rulesPresets",
+        "items": [
+          "ur0WldwQk"
+        ]
+      }
+    ]
+  },
+  "id": "fnGY5pC8q",
+  "version": 2,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-03-24T16:38:04.722Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "rulesPresets",
+          "count": 1,
+          "items": [
+            {
+              "id": "ur0WldwQk",
+              "type": "rulesPresets",
+              "title": "Preset Contenuti attivi"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 1,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  }
+}

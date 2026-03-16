@@ -1,0 +1,140 @@
+{
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "GrwUgwwMlH"
+    },
+    {
+      "id": "Qs0Vux5WH_"
+    },
+    {
+      "id": "JfE3hcRkF"
+    }
+  ],
+  "exclude": [],
+  "include": [],
+  "boost": [],
+  "order": [
+    {
+      "id": "kOlQwmT1A"
+    }
+  ],
+  "realm": "content",
+  "title": "CHNLS All Movies ParamsChannel",
+  "description": "",
+  "presets": {
+    "filter": [
+      {
+        "id": "ur0WldwQk"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "KhQ3IziFJ"
+      }
+    ]
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "GrwUgwwMlH",
+          "Qs0Vux5WH_",
+          "JfE3hcRkF",
+          "kOlQwmT1A"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "ur0WldwQk",
+          "KhQ3IziFJ"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "INzmIFIsO"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "id": "FXJ2KlZhgq",
+  "version": 10,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2022-03-21T19:20:52.730Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "INzmIFIsO",
+              "type": "blocks",
+              "title": "CHNLS All Movies ParamsChannel"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 5,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 4,
+          "items": [
+            {
+              "id": "GrwUgwwMlH",
+              "type": "rules",
+              "title": "Rule Tipologia Channel Movie"
+            },
+            {
+              "id": "Qs0Vux5WH_",
+              "type": "rules",
+              "title": "Rule Editorial Type Movie"
+            },
+            {
+              "id": "JfE3hcRkF",
+              "type": "rules",
+              "title": "Rule Channel match ParamsChannel "
+            },
+            {
+              "id": "kOlQwmT1A",
+              "type": "rules",
+              "title": "Rule Order by annoproduzione Desc"
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 1,
+          "items": [
+            {
+              "id": "ur0WldwQk",
+              "type": "rulesPresets",
+              "title": "Preset Contenuti attivi"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "uselessMultiplier": false,
+  "metadataOverrides": {}
+}

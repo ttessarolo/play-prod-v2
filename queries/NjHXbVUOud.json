@@ -1,0 +1,181 @@
+{
+  "title": "Query Consistenza commerciale Serie 2 posizioni",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "IA2rMeBZYW"
+    },
+    {
+      "id": "M2X3Atski"
+    }
+  ],
+  "exclude": [],
+  "include": [
+    {
+      "id": "PWcZQVLvEZ"
+    },
+    {
+      "id": "EGBeut_BSY"
+    }
+  ],
+  "boost": [],
+  "order": [],
+  "realm": "content",
+  "general": {
+    "mustOperator": "or",
+    "tieBreaker": 0.9,
+    "minimumShouldMatch": "1%",
+    "resultsMultiplier": 1
+  },
+  "presets": {
+    "exclude": [
+      {
+        "id": "ZRorAbL96Q"
+      }
+    ]
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "IA2rMeBZYW",
+          "M2X3Atski",
+          "PWcZQVLvEZ",
+          "EGBeut_BSY"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "ZRorAbL96Q"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "U_BBmeM8s"
+        ]
+      }
+    ]
+  },
+  "id": "NjHXbVUOud",
+  "version": 23,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2026-03-02T11:00:26.541Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "U_BBmeM8s",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 6,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 5,
+          "items": [
+            {
+              "id": "IA2rMeBZYW",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "M2X3Atski",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "PWcZQVLvEZ",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "EGBeut_BSY",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "X3s55Uzk4",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 1,
+          "items": [
+            {
+              "id": "ZRorAbL96Q",
+              "type": "rulesPresets",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "metadataOverrides": {
+    "EGBeut_BSY": {
+      "content_similar": {
+        "required": true,
+        "metadata": {
+          "included": [
+            "content_channels=Infinity",
+            "tipologia=Serie TV",
+            "editorial_type=Serie"
+          ],
+          "excluded": []
+        },
+        "numResults": 4,
+        "groupby": {
+          "metadata": "tipologia",
+          "results": 4,
+          "sortMetadata": "last24h_videoviews",
+          "sortDirection": "desc"
+        },
+        "output": "video_similar_ids_include_infinity_serie"
+      }
+    },
+    "PWcZQVLvEZ": {
+      "content_similar": {
+        "required": true,
+        "output": "video_similar_ids_serie_mplay",
+        "numResults": 2,
+        "metadata": {
+          "included": [
+            "tipologia=Serie TV",
+            "editorial_type=Serie",
+            "content_channels=MediasetPlay"
+          ]
+        },
+        "groupby": {
+          "metadata": "editorial_type",
+          "results": 2,
+          "sortMetadata": "last24h_videoviews",
+          "sortDirection": "desc"
+        }
+      }
+    }
+  }
+}

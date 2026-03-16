@@ -1,0 +1,190 @@
+{
+  "results": {
+    "min": 0,
+    "flatAllBlocks": true,
+    "fallbackBlockId": "P0csRsOt7",
+    "max": 36,
+    "deduplicateFlattedResults": true
+  },
+  "blocks": [
+    {
+      "_id": "NH4B_8Fn0X",
+      "condition": "*",
+      "title": "Top e Blockbuster di copertura",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 7,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true,
+        "inject": []
+      },
+      "queryId": "Bd_D1xwYT"
+    },
+    {
+      "_id": "f6a8Y52dX1",
+      "condition": "*",
+      "title": "TVOD I più noleggiati",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 30,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "fallbackBlockId": "P0csRsOt7"
+      },
+      "queryId": "TUEwHugpG"
+    }
+  ],
+  "title": "TVOD I più noleggiati",
+  "description": "",
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "realm": "content",
+  "canBeFallback": false,
+  "refs": {
+    "require": [
+      {
+        "type": "queries",
+        "items": [
+          "Bd_D1xwYT",
+          "TUEwHugpG"
+        ]
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "P0csRsOt7"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": [
+          "eOaXizx_"
+        ]
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "mMyozpKut"
+        ]
+      }
+    ]
+  },
+  "id": "QCB5Tbxp0",
+  "version": 15,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2023-07-04T08:28:59.786Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "pages",
+          "count": 1,
+          "items": [
+            {
+              "variantId": "mMyozpKut",
+              "propertyId": "zlqQNxLcGh",
+              "propertyTitle": "",
+              "endpointId": "ra0XD2trY",
+              "endpointTitle": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 4,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 2,
+          "items": [
+            {
+              "id": "Bd_D1xwYT",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "TUEwHugpG",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "P0csRsOt7",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 1,
+          "items": [
+            {
+              "id": "eOaXizx_",
+              "type": "responseFields",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": []
+}

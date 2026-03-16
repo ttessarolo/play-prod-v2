@@ -1,0 +1,60 @@
+{
+  "contentType": "video",
+  "clauses": [
+    "include",
+    "boost"
+  ],
+  "rule": [
+    {
+      "condition": "*",
+      "boost": 1,
+      "type": "I2I",
+      "_id": "t2xKfKNbL",
+      "match": "true",
+      "phrase": false,
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      },
+      "field": "filmdautore",
+      "fieldDBType": "boolean",
+      "queryType": "match",
+      "value": "true",
+      "valueType": "string",
+      "API": "V2"
+    }
+  ],
+  "field": "filmdautore",
+  "title": "Rule Film di Autore e Qualità",
+  "description": "Include i film di autore",
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "XfBmXeGEp",
+          "WQk9TX6Gz",
+          "NHBn8poSz",
+          "rOiEnU9mH",
+          "VSuWQgZ1N"
+        ]
+      }
+    ]
+  },
+  "id": "hEqJRKkwOV",
+  "version": 2,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2020-10-14T14:18:13.122Z"
+  }
+}

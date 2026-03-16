@@ -1,0 +1,367 @@
+{
+  "title": "Rule Order By Most Recent Params",
+  "description": "OrderBy data di pubblicazione più recente SE params_orderBy è vuoto",
+  "contentType": "video",
+  "clauses": [
+    "order"
+  ],
+  "rule": [
+    {
+      "condition": "(isEmpty(params_orderBy))",
+      "boost": 1,
+      "type": "I2I",
+      "_id": "iCoqdGV_",
+      "sortOrder": "desc",
+      "sortMode": "avg",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "isEmpty",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "params_orderBy"
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ],
+            "id": "ywhZt1VpQG"
+          }
+        ]
+      },
+      "field": "publication_date",
+      "fieldDBType": "date",
+      "queryType": "sortOrder",
+      "API": "V2",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "field": "publication_date",
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "ARAIdR8pC",
+          "Qd7iEXoJo",
+          "QPwcsFJG6",
+          "BVC4GzQXU",
+          "_s_m7kglK"
+        ]
+      }
+    ]
+  },
+  "id": "fnNa_WKV",
+  "version": 7,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-04-06T10:00:18.597Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 54,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 54,
+          "items": [
+            {
+              "id": "bGHIfOpkw",
+              "type": "queries",
+              "title": "Query Most Recent Film Person to Content"
+            },
+            {
+              "id": "PzMzP5D6R",
+              "type": "queries",
+              "title": "Query Stagioni Most Recent Programmi TV del momento"
+            },
+            {
+              "id": "T2R37bH_w",
+              "type": "queries",
+              "title": "Query Stagioni Most Recent Programmi TV del momento SUPERTOP"
+            },
+            {
+              "id": "i7977YQbm",
+              "type": "queries",
+              "title": "Query Stagioni Most Recent Programmi TV del momento PRIMA SERATA V1"
+            },
+            {
+              "id": "zqakv8vZvB",
+              "type": "queries",
+              "title": "Query Stagioni Most Recent Programmi TV del momento TOP"
+            },
+            {
+              "id": "hhqbCjmm_1",
+              "type": "queries",
+              "title": "Query Stagioni Most Recent Programmi TV del momento TOP e PRIMA SERATA V1"
+            },
+            {
+              "id": "VaFxBerr6",
+              "type": "queries",
+              "title": "Query Stagioni Most Recent Fiction Homepage"
+            },
+            {
+              "id": "ajqPan1bS",
+              "type": "queries",
+              "title": "Query Stagioni Most Recent Fiction PRIMA SERATA Homepage"
+            },
+            {
+              "id": "yncTA7ween",
+              "type": "queries",
+              "title": "Query Stagioni Most Recent Fiction e Serie Tv TOP e PRIMA SERATA Homepage"
+            },
+            {
+              "id": "arcIZfX7Q",
+              "type": "queries",
+              "title": "Query Stagioni Most Recent Fiction TOP Homepage"
+            },
+            {
+              "id": "NDMxn06hM",
+              "type": "queries",
+              "title": "Query Stagioni Most Recent Fiction e Serie Tv SUPERTOP Homepage"
+            },
+            {
+              "id": "rCpAPoEJQ",
+              "type": "queries",
+              "title": "Search Clip"
+            },
+            {
+              "id": "jmUEsXUsF",
+              "type": "queries",
+              "title": "Search Fep"
+            },
+            {
+              "id": "k3ik6QW0sZ",
+              "type": "queries",
+              "title": "Query Generi per Parametri Fiction e Serie TV"
+            },
+            {
+              "id": "KM2HiheDL",
+              "type": "queries",
+              "title": "Query Enabler Test Stagioni"
+            },
+            {
+              "id": "WQN13fmB69",
+              "type": "queries",
+              "title": "Query Enabler Test Serie"
+            },
+            {
+              "id": "fpx25YABj",
+              "type": "queries",
+              "title": "Query Enabler Test Episodi"
+            },
+            {
+              "id": "FG_3yg944",
+              "type": "queries",
+              "title": "Query Enabler Test Film"
+            },
+            {
+              "id": "IjuqSujtX",
+              "type": "queries",
+              "title": "Query Generi per Parametri Fiction e Serie TV In Onda"
+            },
+            {
+              "id": "rAoCaKtAs",
+              "type": "queries",
+              "title": "INF Generi per Parametri Film Blocco 2"
+            },
+            {
+              "id": "js5eihPKLL",
+              "type": "queries",
+              "title": "INF Most recent Film Blocco 2"
+            },
+            {
+              "id": "Fey8TGWHzd",
+              "type": "queries",
+              "title": "INF Most recent Film"
+            },
+            {
+              "id": "ViC5hXBGRC",
+              "type": "queries",
+              "title": "Query enabler most recent stagioni Serie TV IN ONDA"
+            },
+            {
+              "id": "mvZ0e6XOY",
+              "type": "queries",
+              "title": "Query enabler most recent stagioni Serie TV SUPERTOP"
+            },
+            {
+              "id": "PAFpFHSdQ",
+              "type": "queries",
+              "title": "Query enabler most recent stagioni Serie TV TOP"
+            },
+            {
+              "id": "xsEE1y49Y",
+              "type": "queries",
+              "title": "Query enabler most recent stagioni Fiction SUPERTOP"
+            },
+            {
+              "id": "mVXFnmu_wA",
+              "type": "queries",
+              "title": "Query enabler most recent stagioni Fiction TOP e PRIMA SERATA"
+            },
+            {
+              "id": "eK1uZx80Z",
+              "type": "queries",
+              "title": "Query enabler most recent stagioni Fiction TOP"
+            },
+            {
+              "id": "WoR5ePfrxN",
+              "type": "queries",
+              "title": "Query enabler most recent stagioni Fiction PRIMA SERATA"
+            },
+            {
+              "id": "BWNR5BwLc",
+              "type": "queries",
+              "title": "Query enabler most recent stagioni Fiction IN ONDA"
+            },
+            {
+              "id": "BS1LYQUhG",
+              "type": "queries",
+              "title": "Query enabler most recent stagioni Serie TV "
+            },
+            {
+              "id": "HiNerS5aO",
+              "type": "queries",
+              "title": "Query Most Recent Sport"
+            },
+            {
+              "id": "cbbhfkNy0",
+              "type": "queries",
+              "title": "Query Most Recent Documentari"
+            },
+            {
+              "id": "fWwljHj1tt",
+              "type": "queries",
+              "title": "Query Most Recent Cartoni"
+            },
+            {
+              "id": "UNYXfbEQP",
+              "type": "queries",
+              "title": "Query Most Recent Intrattenimento"
+            },
+            {
+              "id": "GuKk9Bo7iv",
+              "type": "queries",
+              "title": "Query Most Recent Film"
+            },
+            {
+              "id": "e3n773U9U",
+              "type": "queries",
+              "title": "Query Most Recent Informazione"
+            },
+            {
+              "id": "A4ofNYRa8",
+              "type": "queries",
+              "title": "Query Anticipazioni Soap Opera"
+            },
+            {
+              "id": "YhVp7CQNc",
+              "type": "queries",
+              "title": "Query Similar Soap e Telenovelas"
+            },
+            {
+              "id": "xpFUJN2NV",
+              "type": "queries",
+              "title": "Query Most Recent Serie Tv e Fiction"
+            },
+            {
+              "id": "rjWULeByhq",
+              "type": "queries",
+              "title": "Query Most Recent TG"
+            },
+            {
+              "id": "zLGBFxSxo",
+              "type": "queries",
+              "title": "Query Most Recent Tg per Similar"
+            },
+            {
+              "id": "rzhLrRK3bB",
+              "type": "queries",
+              "title": "Query Most Recent Sport per Similar"
+            },
+            {
+              "id": "DEt3Pa6Sz",
+              "type": "queries",
+              "title": "INF Infinity Lab"
+            },
+            {
+              "id": "jghd_cW_3",
+              "type": "queries",
+              "title": "INF Serie Most recent"
+            },
+            {
+              "id": "wuJsw2gkz",
+              "type": "queries",
+              "title": "TVOD Il cinema a casa tua"
+            },
+            {
+              "id": "gcHNGd2H_",
+              "type": "queries",
+              "title": "TVOD Novità Prima Finestra"
+            },
+            {
+              "id": "xe_zUdYnf",
+              "type": "queries",
+              "title": "INF Generi per Parametri Serie Blocco 1"
+            },
+            {
+              "id": "SwEdO0Rot",
+              "type": "queries",
+              "title": "INF Generi per Parametri Serie Blocco 2"
+            },
+            {
+              "id": "Ae2BOByZ_",
+              "type": "queries",
+              "title": "INF Serie Documentari Most recent"
+            },
+            {
+              "id": "qvElOyEJp",
+              "type": "queries",
+              "title": "INF Film 4K HDR"
+            },
+            {
+              "id": "kKhWTOyyV",
+              "type": "queries",
+              "title": "INF Film 4K SDR"
+            },
+            {
+              "id": "ARAIdR8pC",
+              "type": "queries",
+              "title": "TVOD Generi per Parametri Film Blocco 2"
+            },
+            {
+              "id": "skE6ZZaHs",
+              "type": "queries",
+              "title": "Home Pay Generi per Parametri Film Blocco 2"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 1,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "scheduled": 0,
+  "scheduling": [],
+  "schedulingMap": []
+}

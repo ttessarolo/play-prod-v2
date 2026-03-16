@@ -1,0 +1,152 @@
+{
+  "title": "Rule Boost Tipologia Serie TV Fiction",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "(equals(tipologia, \"Fiction\") && equals(tipologia, \"Serie TV\"))",
+      "conditionRaw": {
+        "and": [
+          {
+            "id": "l-fzHE0lIFD",
+            "operator": "equals",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "tipologia"
+              },
+              {
+                "value": "\"Fiction\"",
+                "type": "string"
+              }
+            ]
+          },
+          {
+            "id": "_chQWqpGf",
+            "operator": "equals",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "tipologia"
+              },
+              {
+                "value": "\"Serie TV\"",
+                "type": "string"
+              }
+            ]
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "I2I",
+      "value": "Fiction",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "tipologia",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "lJkMcgZTr",
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "API": "V2",
+      "condition": "(equals(tipologia, \"Serie TV\") && equals(tipologia, \"Fiction\"))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "equals",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "tipologia"
+              },
+              {
+                "value": "\"Serie TV\"",
+                "type": "string"
+              }
+            ],
+            "id": "ZvJUzALDuY"
+          },
+          {
+            "id": "XXG5fpFxU",
+            "operator": "equals",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "tipologia"
+              },
+              {
+                "value": "\"Fiction\"",
+                "type": "string"
+              }
+            ]
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "I2I",
+      "value": "Serie TV",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "tipologia",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "Njv619LQn5",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "clauses": [
+    "boost"
+  ],
+  "metadata": {
+    "content": true
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "ek22t7eOE",
+          "uPK9cU2MwQ"
+        ]
+      }
+    ]
+  },
+  "id": "Twl7CiRm17",
+  "version": 8,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-03-29T16:12:28.327Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 1,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": []
+}

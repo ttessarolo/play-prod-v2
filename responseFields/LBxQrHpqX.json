@@ -1,0 +1,41 @@
+{
+  "title": "PLAY-PROD-LINK",
+  "description": "",
+  "contentType": "link",
+  "fields": [
+    "cardImages",
+    "cardLink",
+    "cardText",
+    "cardTitle",
+    "catalogue",
+    "id",
+    "keywords",
+    "options",
+    "platforms",
+    "publishDate",
+    "status",
+    "type",
+    "recommendable"
+  ],
+  "realm": "content",
+  "id": "LBxQrHpqX",
+  "version": 1,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2023-02-17T14:05:56.169Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "tKAnOWY36H",
+          "OUCaweD3X",
+          "Cw3pr3TaY",
+          "r5OMhn9D3",
+          "tm5hY7MyUv"
+        ]
+      }
+    ]
+  }
+}

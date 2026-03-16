@@ -1,0 +1,152 @@
+{
+  "id": "O8HKmwHzc",
+  "propertyId": "zlqQNxLcGh",
+  "title": "Play Main",
+  "description": "Please Edit description for Page \"Default\"",
+  "enabledPagesId": [
+    "lVBDCkyj7"
+  ],
+  "isPage": true,
+  "blocks": [
+    {
+      "id": "aTVajCzWH9",
+      "condition": "*",
+      "title": "QUESTO ENDPOINT NON ESISTE",
+      "type": "nested",
+      "layout": {
+        "i": "aTVajCzWH9",
+        "x": 0,
+        "y": 1,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "P0csRsOt7"
+    }
+  ],
+  "version": 4,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2023-10-27T08:32:38.964Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "endpoints",
+        "items": [
+          "lVBDCkyj7"
+        ]
+      }
+    ],
+    "require": [
+      {
+        "type": "queries",
+        "items": []
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "P0csRsOt7"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "lVBDCkyj7",
+              "type": "endpoints"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 1,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "P0csRsOt7",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "layout": [
+    {
+      "i": "aTVajCzWH9",
+      "x": 0,
+      "y": 1,
+      "w": 12,
+      "h": 30,
+      "blocks": []
+    }
+  ],
+  "canBeFallback": true
+}

@@ -1,0 +1,192 @@
+{
+  "title": "Rule Similar Stessa Tipologia",
+  "description": "Similar solo della stessa tipologia\n",
+  "contentType": "video",
+  "clauses": [
+    "filter",
+    "include",
+    "exclude",
+    "boost"
+  ],
+  "rule": [
+    {
+      "condition": "*",
+      "boost": 1,
+      "type": "I2I",
+      "_id": "lb6KZRLsRX",
+      "idsFromMetadata": "video_similar_ids_cinema",
+      "keepOrder": true,
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": [
+              {
+                "type": "metadata",
+                "value": ""
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ],
+            "id": "BLCsTqEeo_"
+          }
+        ]
+      },
+      "field": "video_content_id",
+      "fieldDBType": "keyword",
+      "queryType": "ids",
+      "value": "video_similar_ids_cinema",
+      "valueType": "metadata",
+      "API": "V2",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "field": "video_content_id",
+  "metadata": {
+    "content_similar": {
+      "required": true,
+      "metadata": {
+        "included": [
+          "tipologia=Film",
+          "editorial_type=Movie",
+          "content_channels"
+        ],
+        "excluded": [
+          "genere_mcm=Corti"
+        ]
+      },
+      "fingerprint": {
+        "matchFields": [
+          "fingerprint"
+        ]
+      },
+      "output": "video_similar_ids_cinema"
+    },
+    "content": false
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "KrplYijM4",
+          "mkgdGBb51b",
+          "JPz9JXjnG",
+          "_UJtujmOS",
+          "hzT5G0sYG",
+          "rlrVLabqSl",
+          "l4aaD5uVWs",
+          "PGHHPIFHQ",
+          "RASMXpoN0"
+        ]
+      }
+    ]
+  },
+  "id": "oHTnV7lfY",
+  "version": 7,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-11-12T14:54:05.713Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 9,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 9,
+          "items": [
+            {
+              "id": "KrplYijM4",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "mkgdGBb51b",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "JPz9JXjnG",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "_UJtujmOS",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "hzT5G0sYG",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "rlrVLabqSl",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "l4aaD5uVWs",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "PGHHPIFHQ",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "RASMXpoN0",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "searchMetadata": [
+    "request",
+    "content_similar",
+    "content"
+  ],
+  "includedMetadata": [
+    "similarity",
+    "content"
+  ],
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "realm": "content"
+}

@@ -1,0 +1,87 @@
+{
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "Kids",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "brand_category",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "MtMBTuuW2c"
+    },
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "Anime",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "genere_mcm_primario",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "ZuLwfEWS9"
+    }
+  ],
+  "title": "Rule Brand Category Kids e Genere primario Anime",
+  "description": "",
+  "clauses": [
+    "filter",
+    "include"
+  ],
+  "id": "qTD3JoOwQ",
+  "version": 2,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2024-03-20T17:39:46.774Z"
+  },
+  "grouped": true,
+  "operator": "and"
+}

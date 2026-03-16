@@ -1,0 +1,154 @@
+{
+  "title": "Query Fiction Infinity o Mplay Super Top",
+  "description": "Fiction Infinity o Mplay Super Top ordinati per Fep Most Recent",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "ju06OqIgO"
+    },
+    {
+      "id": "q4YApM928H"
+    },
+    {
+      "id": "KdgZfZ_wm"
+    },
+    {
+      "id": "mfXQdqG3TO"
+    }
+  ],
+  "exclude": [],
+  "include": [],
+  "boost": [],
+  "order": [
+    {
+      "id": "tMgBtvtBy"
+    }
+  ],
+  "realm": "content",
+  "presets": {
+    "filter": [
+      {
+        "id": "ur0WldwQk"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "KhQ3IziFJ"
+      }
+    ]
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "ju06OqIgO",
+          "q4YApM928H",
+          "KdgZfZ_wm",
+          "mfXQdqG3TO",
+          "tMgBtvtBy"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "ur0WldwQk",
+          "KhQ3IziFJ"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "dXArl1iGk"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "id": "vloOlFQwh",
+  "version": 13,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2024-09-03T09:52:56.733Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "dXArl1iGk",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 7,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 5,
+          "items": [
+            {
+              "id": "MrtMAYnbZ",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "q4YApM928H",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "KdgZfZ_wm",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "mfXQdqG3TO",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "tMgBtvtBy",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 2,
+          "items": [
+            {
+              "id": "ur0WldwQk",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "KhQ3IziFJ",
+              "type": "rulesPresets",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "uselessMultiplier": false,
+  "metadataOverrides": {}
+}

@@ -1,0 +1,89 @@
+{
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "m9aTWqxml"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "HD",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "video_formats",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "FDLiCdnQNX"
+    },
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "SD",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "video_formats",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "T5JU_i4Hq"
+    }
+  ],
+  "clauses": [
+    "filter",
+    "exclude"
+  ],
+  "title": "Rule Video Formats match HD o SD",
+  "description": "",
+  "grouped": true,
+  "operator": "or",
+  "id": "Qzdm23ian1",
+  "version": 1,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-06-04T10:33:38.466Z"
+  }
+}

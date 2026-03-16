@@ -1,0 +1,158 @@
+{
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "JfE3hcRkF"
+    },
+    {
+      "id": "mwku2JtbU5"
+    },
+    {
+      "id": "KdgZfZ_wm"
+    },
+    {
+      "id": "MhwnTO2PIM"
+    },
+    {
+      "id": "gQuX7uK3vM"
+    }
+  ],
+  "exclude": [],
+  "include": [],
+  "boost": [],
+  "order": [
+    {
+      "id": "tMgBtvtBy"
+    }
+  ],
+  "realm": "content",
+  "title": "Query Generi per Parametri Programmi TV",
+  "description": "Per use case parametrici in Programmi TV",
+  "presets": {
+    "filter": [
+      {
+        "id": "ur0WldwQk"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "ZRorAbL96Q"
+      }
+    ]
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "JfE3hcRkF",
+          "mwku2JtbU5",
+          "KdgZfZ_wm",
+          "MhwnTO2PIM",
+          "gQuX7uK3vM",
+          "tMgBtvtBy"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "ur0WldwQk",
+          "ZRorAbL96Q"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "WMiNKvnY4"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "id": "AQ0EW0owXS",
+  "version": 13,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2022-12-15T10:39:53.346Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "WMiNKvnY4",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 7,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 5,
+          "items": [
+            {
+              "id": "JfE3hcRkF",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "mwku2JtbU5",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "KdgZfZ_wm",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "MhwnTO2PIM",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "tMgBtvtBy",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 2,
+          "items": [
+            {
+              "id": "ur0WldwQk",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "ZRorAbL96Q",
+              "type": "rulesPresets",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "metadataOverrides": {},
+  "uselessMultiplier": false
+}

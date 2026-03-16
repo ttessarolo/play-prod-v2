@@ -1,0 +1,86 @@
+{
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "*4K",
+      "valueType": "freeText",
+      "queryType": "contains",
+      "field": "ui_title",
+      "fieldNested": 0,
+      "fieldDBType": "text",
+      "_id": "PwJHSrJsD"
+    }
+  ],
+  "clauses": [
+    "filter",
+    "exclude"
+  ],
+  "title": "Rule Title contiene 4K",
+  "description": "",
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "Ae2BOByZ_"
+        ]
+      }
+    ]
+  },
+  "id": "e37TXuMvPt",
+  "version": 5,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2023-01-24T11:08:33.417Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 1,
+          "items": [
+            {
+              "id": "DViHOhZEw",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  }
+}

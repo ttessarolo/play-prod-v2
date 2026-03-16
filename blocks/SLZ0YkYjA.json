@@ -1,0 +1,277 @@
+{
+  "id": "SLZ0YkYjA",
+  "propertyId": "zlqQNxLcGh",
+  "title": "Person to Content Film",
+  "description": "Please Edit description for Page \"Default\"",
+  "enabledPagesId": [
+    "H1byI1Xx4"
+  ],
+  "isPage": true,
+  "blocks": [
+    {
+      "id": "GM6MRcTMJ",
+      "condition": "*",
+      "title": "Scelti per te",
+      "type": "nested",
+      "layout": {
+        "i": "GM6MRcTMJ",
+        "w": 12,
+        "h": 29
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "fDgcsNSTO",
+      "metadataUI": {
+        "default": {
+          "template": "POSTER"
+        },
+        "playDetailParams": {
+          "property": "play"
+        },
+        "attributes": {
+          "template": "POSTER"
+        }
+      },
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      },
+      "viewAll": {
+        "id": "ihiCAj9Qp",
+        "reference": "viewAllPerson"
+      }
+    }
+  ],
+  "version": 18,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2024-04-03T13:05:32.049Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "endpoints",
+        "items": [
+          "H1byI1Xx4"
+        ]
+      }
+    ],
+    "require": [
+      {
+        "type": "queries",
+        "items": []
+      },
+      {
+        "type": "endpoints",
+        "items": [
+          "ihiCAj9Qp"
+        ]
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "x0BmGLyVnR",
+          "fDgcsNSTO"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ]
+  },
+  "layout": [
+    {
+      "w": 12,
+      "h": 29,
+      "x": 0,
+      "y": 0,
+      "i": "GM6MRcTMJ",
+      "moved": false,
+      "static": false
+    }
+  ],
+  "uiParams": {
+    "preview": {
+      "uiParams": {
+        "current": "Default",
+        "currentIndex": 0,
+        "sets": [
+          {
+            "title": "Default",
+            "params": {
+              "paramsId": {
+                "value": "playDefault",
+                "active": true
+              },
+              "contentId": {
+                "value": "F301644701000103",
+                "active": true
+              },
+              "userId": {
+                "value": "1f51d5e9f09e4d349fa3af349e1cdac4",
+                "active": true
+              },
+              "deviceId": {
+                "value": "ARES-CC",
+                "active": true
+              },
+              "decoratorOutputEnvironment": {
+                "value": "production",
+                "active": true
+              },
+              "decoratorOutputVersion": {
+                "value": "v2",
+                "active": true
+              }
+            }
+          }
+        ]
+      },
+      "currentParams": {
+        "paramsId": "playDefault",
+        "contentId": "F301644701000103",
+        "userId": "1f51d5e9f09e4d349fa3af349e1cdac4",
+        "deviceId": "ARES-CC",
+        "decoratorOutputEnvironment": "production",
+        "decoratorOutputVersion": "v2"
+      }
+    },
+    "layout": {
+      "currentParams": {
+        "paramsId": "playDefault",
+        "contentId": "F301644701000103",
+        "userId": "1f51d5e9f09e4d349fa3af349e1cdac4",
+        "deviceId": "ARES-CC"
+      },
+      "uiParams": {
+        "current": "Default",
+        "currentIndex": 0,
+        "sets": [
+          {
+            "title": "Default",
+            "params": {
+              "paramsId": {
+                "value": "playDefault",
+                "active": true
+              },
+              "contentId": {
+                "value": "F301644701000103",
+                "active": true
+              },
+              "userId": {
+                "value": "1f51d5e9f09e4d349fa3af349e1cdac4",
+                "active": true
+              },
+              "deviceId": {
+                "value": "ARES-CC",
+                "active": true
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "results": {
+    "fullSubstituteFallback": true,
+    "fallbackBlockId": "x0BmGLyVnR"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "H1byI1Xx4",
+              "type": "endpoints",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 3,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "ihiCAj9Qp",
+              "type": "endpoints",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "blocks",
+          "count": 2,
+          "items": [
+            {
+              "id": "x0BmGLyVnR",
+              "type": "blocks"
+            },
+            {
+              "id": "fDgcsNSTO",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": [],
+  "fullSubstituteFallback": true
+}

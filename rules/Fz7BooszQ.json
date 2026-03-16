@@ -1,0 +1,92 @@
+{
+  "title": "Rule Similar Tipologia Cartoni",
+  "description": "Rule che isola la Tipologia Cartoni Animati dei risultati trovati\n",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "keepOrder": true,
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "I2I",
+      "value": "video_similar_ids_cartoni",
+      "valueType": "metadata",
+      "queryType": "ids",
+      "field": "video_content_id",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "QbzUdTTcv"
+    }
+  ],
+  "clauses": [
+    "include"
+  ],
+  "metadata": {
+    "content_similar": {
+      "required": true,
+      "output": "video_similar_ids_cartoni",
+      "metadata": {
+        "included": [
+          "tipologia=Cartoni",
+          "content_channels=MediasetPlay"
+        ],
+        "excluded": [
+          "editorial_type=(Clip) OR (TVSeason) OR (Serie)",
+          "id_series_se"
+        ]
+      },
+      "fingerprint": {
+        "matchFields": [
+          "fingerprint"
+        ]
+      },
+      "groupby": {
+        "metadata": "id_series_se",
+        "results": 1,
+        "sortMetadata": "",
+        "sortDirection": "asc"
+      }
+    }
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "Jnfu6ZH0E"
+        ]
+      }
+    ]
+  },
+  "id": "Fz7BooszQ",
+  "version": 2,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-03-29T15:05:29.257Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 1,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  }
+}

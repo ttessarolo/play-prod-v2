@@ -1,0 +1,178 @@
+{
+  "title": "SRC Search Video",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "_lqe9hGoC"
+    },
+    {
+      "id": "X4zSj8W9A"
+    },
+    {
+      "id": "EGgOAM0sNR"
+    },
+    {
+      "id": "YtgUucvsC"
+    }
+  ],
+  "exclude": [
+    {
+      "id": "PuCWwvfgM"
+    },
+    {
+      "id": "NfU7ovdXbm"
+    }
+  ],
+  "include": [
+    {
+      "id": "kVdJpW4Ky"
+    }
+  ],
+  "boost": [],
+  "order": [
+    {
+      "id": "SXyaET7iz2"
+    }
+  ],
+  "realm": "content",
+  "general": {
+    "mustOperator": "or",
+    "tieBreaker": 0.9,
+    "minimumShouldMatch": "1%",
+    "resultsMultiplier": 1
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "_lqe9hGoC",
+          "X4zSj8W9A",
+          "EGgOAM0sNR",
+          "YtgUucvsC",
+          "PuCWwvfgM",
+          "NfU7ovdXbm",
+          "kVdJpW4Ky",
+          "SXyaET7iz2"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "TuAyi0elu",
+          "ZRorAbL96Q"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "XUoIgT7jA"
+        ]
+      }
+    ]
+  },
+  "id": "lxPfB9Gfj_",
+  "version": 10,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2023-09-26T15:23:07.986Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "XUoIgT7jA",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 9,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 7,
+          "items": [
+            {
+              "id": "_lqe9hGoC",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "X4zSj8W9A",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "YtgUucvsC",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "PuCWwvfgM",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "NfU7ovdXbm",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "kVdJpW4Ky",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "SXyaET7iz2",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 2,
+          "items": [
+            {
+              "id": "TuAyi0elu",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "ZRorAbL96Q",
+              "type": "rulesPresets",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "metadataOverrides": {},
+  "presets": {
+    "exclude": [
+      {
+        "id": "ZRorAbL96Q"
+      }
+    ],
+    "filter": [
+      {
+        "id": "TuAyi0elu"
+      }
+    ]
+  }
+}

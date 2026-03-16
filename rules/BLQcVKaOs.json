@@ -1,0 +1,112 @@
+{
+  "title": "Rule Genere Patemico Sub match Chiamante",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "conditionRaw": {
+        "and": [
+          {
+            "id": "l-fzHE0lIFD",
+            "operator": "*",
+            "values": [
+              {
+                "type": "metadata",
+                "value": ""
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ]
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "generepatemico_sub",
+      "valueType": "metadata",
+      "queryType": "matchFromArray",
+      "field": "generepatemico_sub",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "ZIeK9vClDn",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "clauses": [
+    "boost"
+  ],
+  "metadata": {
+    "content": true
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "KrplYijM4",
+          "l4aaD5uVWs"
+        ]
+      }
+    ]
+  },
+  "id": "BLQcVKaOs",
+  "version": 5,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-06-12T13:26:19.344Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 1,
+          "items": [
+            {
+              "id": "KrplYijM4",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": []
+}

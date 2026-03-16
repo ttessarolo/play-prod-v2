@@ -1,0 +1,112 @@
+{
+  "cache": false,
+  "title": "Fiction Serie TV viste Utente",
+  "description": "",
+  "refs": {
+    "require": [
+      {
+        "type": "conversionPacks",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "x9JXExub6"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "x9JXExub6",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 1,
+      "items": [
+        {
+          "type": "conversionPacks",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "paramsId": "playDefault",
+  "contentType": "video",
+  "realm": "content",
+  "outputMetadataField": "userWatchedFictionSerie",
+  "numElements": "10",
+  "range": {
+    "comparePrevious": 0,
+    "period": "30",
+    "unit": "d"
+  },
+  "userBased": true,
+  "conversions": [
+    {
+      "label": "watched",
+      "value": "watched"
+    }
+  ],
+  "minOccurrences": "1",
+  "filter": {
+    "rules": [
+      {
+        "type": "metadata",
+        "name": "editorial_type",
+        "values": [
+          "Full Episode",
+          "Movie"
+        ],
+        "operator": "or",
+        "fieldNested": 0,
+        "dbType": "keyword"
+      },
+      {
+        "type": "metadata",
+        "name": "tipologia",
+        "values": [
+          "Fiction",
+          "Serie TV"
+        ],
+        "operator": "or",
+        "fieldNested": 0,
+        "dbType": "keyword"
+      },
+      {
+        "type": "metadata",
+        "name": "content_channels",
+        "values": [
+          "Infinity",
+          "MediasetPlay"
+        ],
+        "operator": "or",
+        "fieldNested": 0,
+        "dbType": "keyword"
+      }
+    ]
+  },
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2025-09-18T13:11:52.398Z"
+  },
+  "id": "RML6xzUVUi",
+  "version": 3
+}

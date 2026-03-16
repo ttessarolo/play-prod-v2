@@ -1,0 +1,151 @@
+{
+  "title": "Query Play Cult Più visti 24h",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "ju06OqIgO"
+    },
+    {
+      "id": "x5IYMem3Np"
+    }
+  ],
+  "exclude": [],
+  "include": [],
+  "boost": [],
+  "order": [
+    {
+      "id": "A5n475YeR"
+    }
+  ],
+  "realm": "content",
+  "presets": {
+    "filter": [
+      {
+        "id": "TuAyi0elu"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "ZRorAbL96Q"
+      }
+    ]
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "ju06OqIgO",
+          "x5IYMem3Np",
+          "A5n475YeR"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "TuAyi0elu",
+          "ZRorAbL96Q"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "K5d6hNCp4G"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "id": "smVITPQ7Q",
+  "version": 4,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-05-07T10:39:20.399Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "K5d6hNCp4G",
+              "type": "blocks",
+              "title": "Block Play Cult Più visti 24h"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 8,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 6,
+          "items": [
+            {
+              "id": "ju06OqIgO",
+              "type": "rules",
+              "title": "Rule Channel Mediaset Play"
+            },
+            {
+              "id": "x5IYMem3Np",
+              "type": "rules",
+              "title": "Rule IdSeason Play Cult"
+            },
+            {
+              "id": "vKGPyoliA",
+              "type": "rules",
+              "title": "Rule Params filterBy audio subtitle listing page"
+            },
+            {
+              "id": "_8ZV5sLIn",
+              "type": "rules",
+              "title": "Rule Params orderBy relevanceDesc listing page"
+            },
+            {
+              "id": "J0NNb391SF",
+              "type": "rules",
+              "title": "Rule Piu visti 24h Params"
+            },
+            {
+              "id": "Oyp_jIxo6",
+              "type": "rules",
+              "title": "Rule Params orderBy listing page TvSeason Video"
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 2,
+          "items": [
+            {
+              "id": "TuAyi0elu",
+              "type": "rulesPresets",
+              "title": "Preset SearchVisible e FrontEnd Visible True"
+            },
+            {
+              "id": "ZRorAbL96Q",
+              "type": "rulesPresets",
+              "title": "Preset Blacklist"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "uselessMultiplier": false,
+  "metadataOverrides": {}
+}

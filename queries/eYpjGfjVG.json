@@ -1,0 +1,240 @@
+{
+  "title": "Query Enabler Fiction Top e In Onda o Esclusiva",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "ju06OqIgO"
+    },
+    {
+      "id": "q4YApM928H"
+    },
+    {
+      "id": "KdgZfZ_wm"
+    },
+    {
+      "id": "gQuX7uK3vM"
+    },
+    {
+      "id": "RqBahOBRSz"
+    },
+    {
+      "id": "bEUsTDb8O"
+    }
+  ],
+  "exclude": [],
+  "include": [
+    {
+      "id": "zv6EEbQBQ"
+    },
+    {
+      "id": "c5CGHCXnx"
+    }
+  ],
+  "boost": [],
+  "order": [
+    {
+      "id": "tMgBtvtBy"
+    }
+  ],
+  "realm": "content",
+  "general": {
+    "mustOperator": "or",
+    "tieBreaker": 0.9,
+    "minimumShouldMatch": "1%",
+    "resultsMultiplier": 1
+  },
+  "presets": {
+    "exclude": [
+      {
+        "id": "ZRorAbL96Q"
+      },
+      {
+        "id": "KhQ3IziFJ"
+      }
+    ],
+    "filter": [
+      {
+        "id": "ztWfmA_PI"
+      }
+    ]
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "ju06OqIgO",
+          "q4YApM928H",
+          "KdgZfZ_wm",
+          "gQuX7uK3vM",
+          "RqBahOBRSz",
+          "bEUsTDb8O",
+          "zv6EEbQBQ",
+          "c5CGHCXnx",
+          "tMgBtvtBy"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "ztWfmA_PI",
+          "ZRorAbL96Q",
+          "KhQ3IziFJ"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "gzQeE_w8dr",
+          "dXArl1iGk"
+        ]
+      }
+    ]
+  },
+  "id": "eYpjGfjVG",
+  "version": 31,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2023-06-01T16:24:54.759Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "gzQeE_w8dr",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 11,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 8,
+          "items": [
+            {
+              "id": "ju06OqIgO",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "q4YApM928H",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "KdgZfZ_wm",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "gQuX7uK3vM",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "RqBahOBRSz",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "zv6EEbQBQ",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "c5CGHCXnx",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "tMgBtvtBy",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 3,
+          "items": [
+            {
+              "id": "ztWfmA_PI",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "ZRorAbL96Q",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "KhQ3IziFJ",
+              "type": "rulesPresets",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "metadataOverrides": {
+    "zv6EEbQBQ": {
+      "content_similar": {
+        "required": true,
+        "metadata": {
+          "included": [
+            "content_channels=MediasetPlay",
+            "tipologia=Fiction",
+            "editorial_type=TVSeason",
+            "etichetteEditoriali=In Onda",
+            "current_season=true"
+          ],
+          "excluded": []
+        },
+        "output": "video_similar_ids_progrtv",
+        "groupby": {
+          "metadata": "",
+          "results": 0,
+          "sortMetadata": "",
+          "sortDirection": ""
+        }
+      }
+    },
+    "c5CGHCXnx": {
+      "content_similar": {
+        "required": true,
+        "output": "video_similar_ids_fiction_esclusiva",
+        "metadata": {
+          "included": [
+            "content_channels=MediasetPlay",
+            "tipologia=Fiction",
+            "editorial_type=TVSeason",
+            "current_season=true",
+            "etichetteEditoriali=Esclusiva"
+          ]
+        },
+        "date": {
+          "range": 3,
+          "period": "d",
+          "field": "publication_date_start_play",
+          "absolute": true
+        }
+      }
+    }
+  }
+}

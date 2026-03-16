@@ -1,0 +1,33 @@
+{
+  "title": "List Channel Non MPlay",
+  "description": "",
+  "type": "text",
+  "contentType": "video",
+  "realm": "content",
+  "elements": [
+    "AVOD",
+    "Infinity",
+    "Noleggio"
+  ],
+  "id": "k4DH3UZnr",
+  "version": 3,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-04-27T10:17:25.214Z"
+  },
+  "refs": {
+    "belongs": []
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  }
+}

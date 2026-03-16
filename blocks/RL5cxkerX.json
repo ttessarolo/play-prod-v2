@@ -1,0 +1,351 @@
+{
+  "id": "RL5cxkerX",
+  "propertyId": "zlqQNxLcGh",
+  "title": "Inf Multiple Block 4K",
+  "description": "Please Edit description for Page \"Variant 1\"",
+  "enabledPagesId": [
+    "GlbpXo2RG"
+  ],
+  "isPage": true,
+  "blocks": [
+    {
+      "id": "mRa2w8xtcu",
+      "condition": "*",
+      "title": "Azione e Thriller",
+      "type": "nested",
+      "layout": {
+        "i": "mRa2w8xtcu",
+        "x": 0,
+        "y": 3,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true,
+        "skipOnEmpty": true
+      },
+      "blockId": "p2KfQcnFS",
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H",
+        "siteMapped": true
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Thriller,Azione,Horror,Crime"
+        }
+      }
+    },
+    {
+      "id": "TGLlJDuqH",
+      "condition": "*",
+      "title": "Comici e Commedie",
+      "type": "nested",
+      "layout": {
+        "i": "TGLlJDuqH",
+        "x": 0,
+        "y": 4,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true,
+        "skipOnEmpty": true
+      },
+      "blockId": "p2KfQcnFS",
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H",
+        "siteMapped": true
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Comico,Commedia,Commedia Romantica,Commedia Brillante,Commedia all'italiana,Commedia autore,Commedia erotica"
+        }
+      }
+    },
+    {
+      "id": "PPahPsnDhO",
+      "condition": "*",
+      "title": "Drammatico",
+      "type": "nested",
+      "layout": {
+        "i": "PPahPsnDhO",
+        "w": 12,
+        "h": 30
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "p2KfQcnFS",
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Drammatico"
+        }
+      },
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H",
+        "siteMapped": true
+      }
+    },
+    {
+      "id": "NQOn9Id9Y",
+      "condition": "*",
+      "title": "Serie TV e Documentari",
+      "type": "nested",
+      "layout": {
+        "i": "NQOn9Id9Y",
+        "x": 0,
+        "y": 8,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true,
+        "skipOnEmpty": true
+      },
+      "blockId": "ALNZoG00_T",
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H",
+        "siteMapped": true
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        }
+      }
+    },
+    {
+      "id": "weTEQQ3KU",
+      "condition": "*",
+      "title": "I grandi Classici",
+      "type": "nested",
+      "layout": {
+        "i": "weTEQQ3KU",
+        "w": 12,
+        "h": 30,
+        "isDraggable": false
+      },
+      "results": {
+        "flatAllBlocks": true,
+        "skipOnEmpty": true
+      },
+      "blockId": "p2KfQcnFS",
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H",
+        "siteMapped": true
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Classici"
+        }
+      },
+      "pinned": true
+    }
+  ],
+  "version": 25,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2024-06-19T08:36:49.228Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "endpoints",
+        "items": [
+          "GlbpXo2RG"
+        ]
+      }
+    ],
+    "require": [
+      {
+        "type": "queries",
+        "items": []
+      },
+      {
+        "type": "endpoints",
+        "items": [
+          "WXsJUgBAp"
+        ]
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "Rc1YEkVxO",
+          "p2KfQcnFS",
+          "ALNZoG00_T"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "GlbpXo2RG",
+              "type": "endpoints",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 4,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "WXsJUgBAp",
+              "type": "endpoints",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "blocks",
+          "count": 3,
+          "items": [
+            {
+              "id": "Rc1YEkVxO",
+              "type": "blocks"
+            },
+            {
+              "id": "p2KfQcnFS",
+              "type": "blocks"
+            },
+            {
+              "id": "ALNZoG00_T",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "layout": [
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 0,
+      "i": "mRa2w8xtcu",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 30,
+      "i": "TGLlJDuqH",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 60,
+      "i": "PPahPsnDhO",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 91,
+      "i": "NQOn9Id9Y",
+      "moved": true,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 120,
+      "i": "weTEQQ3KU",
+      "moved": true,
+      "static": false
+    }
+  ],
+  "results": {
+    "smartOrderBlocks": true,
+    "contentType": "video",
+    "userContentType": "user",
+    "event": "watched",
+    "perUserBasisType": "video_historical_fingerprint",
+    "fallbackBlockId": "Rc1YEkVxO",
+    "fullSubstituteFallback": true
+  },
+  "fullSubstituteFallback": true
+}

@@ -1,0 +1,177 @@
+{
+  "id": "K6MHXRZhh",
+  "propertyId": "zlqQNxLcGh",
+  "title": "Fallback Film Cluster",
+  "description": "Please Edit description for Page \"Variant 2\"",
+  "enabledPagesId": [
+    "d0HcvWEBF"
+  ],
+  "isPage": true,
+  "blocks": [
+    {
+      "id": "EgCnbupso",
+      "condition": "*",
+      "title": "Da non perdere",
+      "type": "nested",
+      "layout": {
+        "i": "EgCnbupso",
+        "x": 0,
+        "y": 1,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "Hjb6HEJSv",
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H",
+        "siteMapped": false
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        }
+      }
+    }
+  ],
+  "version": 5,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2022-10-20T15:55:09.294Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "endpoints",
+        "items": [
+          "d0HcvWEBF"
+        ]
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "R9DA4iBBnw",
+          "D0STFPk3S",
+          "C8LfLLdpg"
+        ]
+      }
+    ],
+    "require": [
+      {
+        "type": "queries",
+        "items": []
+      },
+      {
+        "type": "endpoints",
+        "items": [
+          "WXsJUgBAp"
+        ]
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "Hjb6HEJSv"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "d0HcvWEBF",
+              "type": "endpoints"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 2,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "WXsJUgBAp",
+              "type": "endpoints"
+            }
+          ]
+        },
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "Hjb6HEJSv",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "layout": [
+    {
+      "i": "EgCnbupso",
+      "x": 0,
+      "y": 1,
+      "w": 12,
+      "h": 30,
+      "blocks": []
+    }
+  ],
+  "canBeFallback": true
+}

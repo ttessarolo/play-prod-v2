@@ -1,0 +1,204 @@
+{
+  "results": {
+    "min": 0,
+    "flatAllBlocks": true,
+    "fallbackBlockId": "P0csRsOt7",
+    "max": 200,
+    "deduplicateFlattedResults": true
+  },
+  "blocks": [
+    {
+      "_id": "gErCCrzZj",
+      "condition": "(!isEmpty(params_channel))",
+      "title": "Serie Top params genre",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 20,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true
+      },
+      "queryId": "XCTJ5Ut99",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "!isEmpty",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "params_channel"
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ],
+            "id": "SaaZTeaR1Y"
+          }
+        ]
+      },
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "_id": "oqplkApkt5",
+      "condition": "(!isEmpty(params_channel))",
+      "title": "CHNLS Params Genre Serie",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 180,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "fallbackBlockId": "P0csRsOt7",
+        "skipOnEmpty": false
+      },
+      "queryId": "lqIeDJkxU",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "!isEmpty",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "params_channel"
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ],
+            "id": "SaaZTeaR1Y"
+          }
+        ]
+      },
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "title": "CHNLS Params Genre Serie",
+  "description": "",
+  "scheduled": 0,
+  "scheduling": [],
+  "schedulingMap": [],
+  "realm": "content",
+  "refs": {
+    "require": [
+      {
+        "type": "queries",
+        "items": [
+          "XCTJ5Ut99",
+          "lqIeDJkxU"
+        ]
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "P0csRsOt7"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": [
+          "eOaXizx_"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "gC1GfJxtli"
+        ]
+      }
+    ]
+  },
+  "id": "BHdy_nvgv",
+  "version": 12,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-06-25T11:51:52.751Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "pages",
+          "count": 1,
+          "items": [
+            {
+              "variantId": "gC1GfJxtli",
+              "variantTitle": "Default",
+              "propertyId": "zlqQNxLcGh",
+              "propertyTitle": "play",
+              "endpointId": "fVvrWMCVw",
+              "endpointTitle": "chnlsSerieParamsGenre"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 4,
+      "types": 4,
+      "items": [
+        {
+          "type": "queries",
+          "count": 2,
+          "items": [
+            {
+              "id": "XCTJ5Ut99",
+              "type": "queries",
+              "title": "CHNLS Params Genre Serie Top"
+            },
+            {
+              "id": "lqIeDJkxU",
+              "type": "queries",
+              "title": "CHNLS Params Genre Serie"
+            }
+          ]
+        },
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "P0csRsOt7",
+              "type": "blocks",
+              "title": "Block published flag not exists"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 1,
+          "items": [
+            {
+              "id": "eOaXizx_",
+              "type": "responseFields",
+              "title": "PLAY-PROD-VIDEO-MINIMAL-SET"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": []
+}

@@ -1,0 +1,214 @@
+{
+  "results": {
+    "min": 0,
+    "flatAllBlocks": true,
+    "max": 50,
+    "fallbackBlockId": "P0csRsOt7",
+    "deduplicateFlattedResults": true
+  },
+  "blocks": [
+    {
+      "_id": "tSqRQgKgXJ",
+      "condition": "*",
+      "title": "Daytime Super Top",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 3,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true,
+        "fallbackBlockId": "P0csRsOt7"
+      },
+      "queryId": "_YcmnLaH4"
+    },
+    {
+      "_id": "V6F3SVg1j",
+      "condition": "*",
+      "title": "Daytime In onda Top",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 30,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true,
+        "fallbackBlockId": "P0csRsOt7"
+      },
+      "queryId": "hbPc0tj9I"
+    },
+    {
+      "_id": "4wAACNKJLx",
+      "condition": "*",
+      "title": "Daytime In onda",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 50,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "fallbackBlockId": "P0csRsOt7",
+        "inject": [],
+        "skipOnEmpty": true
+      },
+      "queryId": "hn5iFhhbZ"
+    }
+  ],
+  "title": "Block Programmi TV Daytime",
+  "description": "",
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "realm": "content",
+  "canBeFallback": false,
+  "refs": {
+    "require": [
+      {
+        "type": "queries",
+        "items": [
+          "_YcmnLaH4",
+          "hbPc0tj9I",
+          "hn5iFhhbZ"
+        ]
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "P0csRsOt7"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": [
+          "eOaXizx_"
+        ]
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "rsqDOhhtgu"
+        ]
+      }
+    ]
+  },
+  "id": "DmJXREbVAb",
+  "version": 18,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2023-09-05T08:52:07.190Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "pages",
+          "count": 1,
+          "items": [
+            {
+              "variantId": "rsqDOhhtgu",
+              "propertyId": "zlqQNxLcGh",
+              "propertyTitle": "",
+              "endpointId": "GLph9x0zD",
+              "endpointTitle": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 5,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 3,
+          "items": [
+            {
+              "id": "_YcmnLaH4",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "hbPc0tj9I",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "hn5iFhhbZ",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "P0csRsOt7",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 1,
+          "items": [
+            {
+              "id": "eOaXizx_",
+              "type": "responseFields",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": []
+}

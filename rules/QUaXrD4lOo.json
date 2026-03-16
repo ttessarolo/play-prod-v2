@@ -1,0 +1,59 @@
+{
+  "title": "Rule Editorial Type Fep Clip Movie",
+  "description": "",
+  "contentType": "video",
+  "clauses": [
+    "filter",
+    "exclude",
+    "include"
+  ],
+  "rule": [
+    {
+      "condition": "*",
+      "boost": 1,
+      "type": "I2I",
+      "_id": "NMUnMZjoe",
+      "listTermsId": "GA88bUF7I",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      },
+      "field": "editorial_type",
+      "fieldDBType": "keyword",
+      "queryType": "listTermsId",
+      "value": "GA88bUF7I",
+      "valueType": "list",
+      "API": "V2"
+    }
+  ],
+  "field": "editorial_type",
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": [
+          "GA88bUF7I"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "bOnJl04URI",
+          "YO0JXEqrz"
+        ]
+      }
+    ]
+  },
+  "id": "QUaXrD4lOo",
+  "version": 4,
+  "lastSaved": {
+    "username": "Massimiliano.Berardi",
+    "date": "2020-12-17T18:13:22.461Z"
+  }
+}

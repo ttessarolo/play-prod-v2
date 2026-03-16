@@ -1,0 +1,67 @@
+{
+  "title": "Rule params Mplay Infinity Noleggio Search",
+  "description": "Se il parametro è vuoto",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "(isEmpty(params_channel))",
+      "boost": 1,
+      "type": "",
+      "value": "Jin0HY0lwV",
+      "valueType": "list",
+      "queryType": "listTermsId",
+      "field": "content_channels",
+      "fieldNested": 0,
+      "fieldDBType": "text",
+      "_id": "DvBpuyudb",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "isEmpty",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "params_channel"
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ],
+            "id": "0z92NLyRtr"
+          }
+        ]
+      },
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "clauses": [
+    "filter"
+  ],
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": []
+      }
+    ]
+  },
+  "id": "g74HzwFHb",
+  "version": 1,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-04-27T16:07:54.075Z"
+  }
+}

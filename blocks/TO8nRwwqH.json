@@ -1,0 +1,238 @@
+{
+  "title": "Block Enabler Film",
+  "description": "",
+  "results": {
+    "flatAllBlocks": true,
+    "min": 0,
+    "max": 45,
+    "deduplicateFlattedResults": true,
+    "fallbackBlockId": "P0csRsOt7"
+  },
+  "blocks": [
+    {
+      "condition": "*",
+      "title": "Film MPlay Più visti 24h",
+      "type": "query",
+      "_id": "ImA9lX07n",
+      "pinned": true,
+      "results": {
+        "max": 5,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true,
+        "fallbackBlockId": "P0csRsOt7"
+      },
+      "queryId": "WPl6VDGVC",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      }
+    },
+    {
+      "condition": "*",
+      "title": "MPlay push Blockbuster",
+      "type": "query",
+      "_id": "JEwSOpMsR1",
+      "pinned": true,
+      "results": {
+        "max": 10,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true,
+        "fallbackBlockId": "P0csRsOt7"
+      },
+      "queryId": "VXeQD5L8kq",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      }
+    },
+    {
+      "condition": "*",
+      "title": "Film MPlay Più visti 24h",
+      "type": "query",
+      "_id": "6mjWN3hAbf",
+      "pinned": true,
+      "results": {
+        "max": 50,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "fallbackBlockId": "P0csRsOt7"
+      },
+      "queryId": "WPl6VDGVC",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      }
+    }
+  ],
+  "canBeFallback": 1,
+  "refs": {
+    "require": [
+      {
+        "type": "queries",
+        "items": [
+          "WPl6VDGVC",
+          "VXeQD5L8kq"
+        ]
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "P0csRsOt7"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": [
+          "eOaXizx_"
+        ]
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "SmXWEUxKG",
+          "jGWB9QTn4",
+          "CrWQqVNqf",
+          "PovJt3Vzm",
+          "CTHfjcsw7",
+          "mTdlH_Xhu",
+          "QTRufiL7Rc",
+          "XvJyR4ekih",
+          "M1EXcaeqz",
+          "zUHKl3x8Z",
+          "dXqsWbVL5"
+        ]
+      }
+    ]
+  },
+  "id": "TO8nRwwqH",
+  "version": 27,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2022-01-18T15:50:23.197Z"
+  },
+  "enabledPagesId": [
+    "U0WrVkcN6",
+    "Rj1_1Ldtp",
+    "wa7CTFrKM",
+    "wSapSXMZL",
+    "v8HBDVt48",
+    "XBJpXgG8U"
+  ],
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "pages",
+          "count": 1,
+          "items": [
+            {
+              "variantId": "SmXWEUxKG",
+              "variantTitle": "Default",
+              "propertyId": "zlqQNxLcGh",
+              "propertyTitle": "play",
+              "endpointId": "RP4FjBkgG",
+              "endpointTitle": "enablerFilmDelMomento"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 4,
+      "types": 6,
+      "items": [
+        {
+          "type": "queries",
+          "count": 2,
+          "items": [
+            {
+              "id": "WPl6VDGVC",
+              "type": "queries",
+              "title": "Query Enabler Film MPlay Più visti 24h"
+            },
+            {
+              "id": "VXeQD5L8kq",
+              "type": "queries",
+              "title": "Query Enabler Film Mplay over 1995"
+            }
+          ]
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "P0csRsOt7",
+              "type": "blocks",
+              "title": "Block published flag not exists"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 1,
+          "items": [
+            {
+              "id": "eOaXizx_",
+              "type": "responseFields",
+              "title": "PLAY-PROD-VIDEO-MINIMAL-SET"
+            }
+          ]
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "realm": "content",
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": []
+}

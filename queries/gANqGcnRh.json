@@ -1,0 +1,52 @@
+{
+  "title": "Query ID Series SE Serie TV per Serie B",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "ARsQ4dtAq"
+    },
+    {
+      "id": "IA2rMeBZYW"
+    }
+  ],
+  "exclude": [],
+  "include": [],
+  "boost": [],
+  "order": [],
+  "realm": "content",
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "ARsQ4dtAq",
+          "IA2rMeBZYW"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "Dv8zk2M8f"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "id": "gANqGcnRh",
+  "version": 1,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2024-08-01T13:11:08.355Z"
+  }
+}

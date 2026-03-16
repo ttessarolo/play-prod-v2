@@ -1,0 +1,39 @@
+{
+  "title": "Lista Editorial Type Clip Extra",
+  "description": "",
+  "contentType": "video",
+  "type": "text",
+  "elements": [
+    "Clip",
+    "Extra"
+  ],
+  "id": "NfmUc20jK",
+  "version": 4,
+  "lastSaved": {
+    "username": "Massimiliano.Berardi",
+    "date": "2021-03-30T08:22:12.678Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "rules",
+        "items": [
+          "tfAzCHYts"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  },
+  "realm": "content"
+}

@@ -1,0 +1,179 @@
+{
+  "results": {
+    "min": 0,
+    "flatAllBlocks": true,
+    "max": 30,
+    "fallbackBlockId": "P0csRsOt7"
+  },
+  "blocks": [
+    {
+      "_id": "SQB8NSYYs7",
+      "condition": "*",
+      "title": "La TV dei piccoli 2",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 30,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true
+      },
+      "queryId": "DH6QDWCTHE"
+    }
+  ],
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "realm": "content",
+  "title": "Block Stagioni Kids Più Visti 24h",
+  "description": "",
+  "canBeFallback": false,
+  "refs": {
+    "require": [
+      {
+        "type": "queries",
+        "items": [
+          "DH6QDWCTHE"
+        ]
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "P0csRsOt7"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": [
+          "eOaXizx_"
+        ]
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "ZlNq8fAav",
+          "SLZ0YkYjA"
+        ]
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      }
+    ]
+  },
+  "id": "AVWzVaG7c",
+  "version": 19,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-08-29T10:10:57.284Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 2,
+      "types": 1,
+      "items": [
+        {
+          "type": "pages",
+          "count": 2,
+          "items": [
+            {
+              "variantId": "ZlNq8fAav",
+              "propertyId": "zlqQNxLcGh",
+              "propertyTitle": "",
+              "endpointId": "wa7CTFrKM",
+              "endpointTitle": ""
+            },
+            {
+              "variantId": "SLZ0YkYjA",
+              "propertyId": "zlqQNxLcGh",
+              "propertyTitle": "",
+              "endpointId": "H1byI1Xx4",
+              "endpointTitle": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 3,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 1,
+          "items": [
+            {
+              "id": "DH6QDWCTHE",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "P0csRsOt7",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 1,
+          "items": [
+            {
+              "id": "eOaXizx_",
+              "type": "responseFields",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": []
+}

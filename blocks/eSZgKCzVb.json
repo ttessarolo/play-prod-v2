@@ -1,0 +1,163 @@
+{
+  "id": "eSZgKCzVb",
+  "propertyId": "zlqQNxLcGh",
+  "title": "Similar TG",
+  "description": "Please Edit description for Page \"Default\"",
+  "enabledPagesId": [
+    "QkOcjo5u_o"
+  ],
+  "isPage": true,
+  "blocks": [
+    {
+      "id": "cAt9aM8Zy",
+      "condition": "*",
+      "title": "Similar TG",
+      "type": "nested",
+      "layout": {
+        "i": "cAt9aM8Zy",
+        "x": 0,
+        "y": 1,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "PGCv7Qiev"
+    }
+  ],
+  "version": 8,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-04-29T10:54:43.765Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "endpoints",
+        "items": [
+          "QkOcjo5u_o"
+        ]
+      }
+    ],
+    "require": [
+      {
+        "type": "queries",
+        "items": []
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "IpbAn73Uo",
+          "PGCv7Qiev"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "QkOcjo5u_o",
+              "type": "endpoints",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 2,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 2,
+          "items": [
+            {
+              "id": "IpbAn73Uo",
+              "type": "blocks"
+            },
+            {
+              "id": "PGCv7Qiev",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "layout": [
+    {
+      "i": "cAt9aM8Zy",
+      "x": 0,
+      "y": 1,
+      "w": 12,
+      "h": 30,
+      "blocks": []
+    }
+  ],
+  "results": {
+    "fallbackBlockId": "IpbAn73Uo",
+    "fullSubstituteFallback": true
+  },
+  "fullSubstituteFallback": true,
+  "realm": "content"
+}

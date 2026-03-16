@@ -1,0 +1,99 @@
+{
+  "metadataInRules": [],
+  "title": "Query Published Flag con parametri Context Params e User",
+  "description": "",
+  "contentType": "video",
+  "filter": [],
+  "exclude": [
+    {
+      "id": "ut6mxlalK"
+    },
+    {
+      "id": "mLyGYSGxW"
+    }
+  ],
+  "include": [],
+  "boost": [],
+  "order": [],
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "ut6mxlalK",
+          "mLyGYSGxW"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "ANKzIfGpf"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "id": "iUE9p_L5z",
+  "version": 6,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2023-01-24T16:07:06.528Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "ANKzIfGpf",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 2,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 2,
+          "items": [
+            {
+              "id": "ut6mxlalK",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "mLyGYSGxW",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "metadataOverrides": {}
+}

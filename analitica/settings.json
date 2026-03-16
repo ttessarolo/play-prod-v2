@@ -1,0 +1,183 @@
+{
+  "id": "settings",
+  "global": {
+    "index": "analitica_play_aggregate_ds"
+  },
+  "events": {
+    "indexPrefix": "analitica_play",
+    "indexSuffix": "ds",
+    "internal": {
+      "queue": "play-infinity:internal:events:pipe"
+    },
+    "ingress": {
+      "queues": {
+        "ingress": "play-infinity:ingress"
+      }
+    }
+  },
+  "search": {
+    "index": "analitica_play_searches_ds",
+    "queues": {
+      "execution": "play-infinity:search.work.now",
+      "deferred": "play-infinity:search.work.later",
+      "deferredPeriod": 600000
+    },
+    "userCompactor": {
+      "diceCoefficient": 0,
+      "locale": "ita",
+      "stemmer": "PorterStemmerIt",
+      "minimumQueryLength": 3
+    },
+    "globalCompactor": {
+      "diceCoefficient": 0.3,
+      "locale": "ita",
+      "stemmer": "PorterStemmerIt"
+    },
+    "analyser": {
+      "filters": {
+        "diacritics": {
+          "enabled": true
+        },
+        "duplicateChars": {
+          "enabled": false
+        },
+        "punctuation": {
+          "enabled": true,
+          "replaceChar": " "
+        },
+        "lowercase": {
+          "enabled": true
+        },
+        "trim": {
+          "enabled": true
+        }
+      }
+    }
+  },
+  "tracking": {
+    "conversions": []
+  },
+  "request": {
+    "context": {
+      "label": "Context",
+      "values": [
+        {
+          "label": "Platform",
+          "key": "platform",
+          "values": [
+            {
+              "label": "Web",
+              "value": "web"
+            },
+            {
+              "label": "iOS",
+              "value": "ios"
+            },
+            {
+              "label": "Android",
+              "value": "android"
+            }
+          ]
+        },
+        {
+          "label": "Device",
+          "key": "device",
+          "values": [
+            {
+              "label": "TV",
+              "value": "tv"
+            },
+            {
+              "label": "Mobile",
+              "value": "mobile"
+            }
+          ]
+        },
+        {
+          "label": "Connection",
+          "key": "connection",
+          "values": [
+            {
+              "label": "Broadband",
+              "value": "broadband"
+            },
+            {
+              "label": "Narrowdand",
+              "value": "narrowband"
+            }
+          ]
+        }
+      ]
+    },
+    "params": {
+      "label": "Params",
+      "values": [
+        {
+          "label": "Channel",
+          "key": "channel",
+          "values": [
+            {
+              "label": "Infinity",
+              "value": "Infinity"
+            },
+            {
+              "label": "Mediaset Play",
+              "value": "MediasetPlay"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "response": {
+    "ids": {
+      "blacklist": [
+        "fakedeviceid",
+        "00000000-0000-0000-0000-000000000000"
+      ]
+    }
+  },
+  "content": {
+    "catalogs": {
+      "video_content_nd": {
+        "fields": {
+          "title": "title",
+          "imageUrl": "horizontal_poster",
+          "data": "publication_date",
+          "category": "programtype",
+          "description": "tipologia"
+        }
+      },
+      "video_content": {
+        "fields": {
+          "title": "title",
+          "imageUrl": "horizontal_poster",
+          "data": "publication_date",
+          "category": "programtype",
+          "description": "tipologia"
+        }
+      }
+    }
+  },
+  "version": 120,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-10-02T16:44:49.275Z"
+  },
+  "refs": {
+    "belongs": []
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  },
+  "enabled": false
+}

@@ -1,0 +1,124 @@
+{
+  "title": "SKY Most Recent",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "opdWd3W4E"
+    },
+    {
+      "id": "VvVxavf8JI"
+    }
+  ],
+  "exclude": [],
+  "include": [],
+  "boost": [],
+  "order": [
+    {
+      "id": "SXyaET7iz2"
+    }
+  ],
+  "realm": "content",
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "opdWd3W4E",
+          "VvVxavf8JI",
+          "SXyaET7iz2"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "TuAyi0elu"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "n39zSPUjkZ"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "id": "JQGpSLgmmb",
+  "version": 4,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2022-12-12T10:52:07.502Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "n39zSPUjkZ",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 4,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 3,
+          "items": [
+            {
+              "id": "ssdeTHIxc",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "opdWd3W4E",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "SXyaET7iz2",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 1,
+          "items": [
+            {
+              "id": "TuAyi0elu",
+              "type": "rulesPresets",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "presets": {
+    "filter": [
+      {
+        "id": "TuAyi0elu"
+      }
+    ]
+  },
+  "metadataOverrides": {}
+}

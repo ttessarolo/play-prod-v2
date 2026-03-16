@@ -1,0 +1,264 @@
+{
+  "id": "wflA9RRQu",
+  "propertyId": "zlqQNxLcGh",
+  "title": "Stagioni Programmi Tv",
+  "description": "Please Edit description for Page \"Default\"",
+  "enabledPagesId": [
+    "Rj1_1Ldtp"
+  ],
+  "isPage": true,
+  "blocks": [
+    {
+      "id": "m8qka7aun",
+      "condition": "*",
+      "title": "Programmi TV del momento",
+      "type": "nested",
+      "layout": {
+        "i": "m8qka7aun",
+        "w": 12,
+        "h": 29
+      },
+      "results": {
+        "flatAllBlocks": true,
+        "max": 50
+      },
+      "blockId": "FTR93QFLi",
+      "metadataUI": {
+        "default": {
+          "template": "POSTER"
+        },
+        "playDetailParams": {
+          "property": "play"
+        }
+      },
+      "nestingType": "block",
+      "pinned": true,
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      }
+    }
+  ],
+  "version": 13,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2023-03-29T09:10:40.224Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "endpoints",
+        "items": [
+          "Rj1_1Ldtp"
+        ]
+      }
+    ],
+    "require": [
+      {
+        "type": "queries",
+        "items": []
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "Rc1YEkVxO",
+          "FTR93QFLi"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ]
+  },
+  "layout": [
+    {
+      "w": 12,
+      "h": 29,
+      "x": 0,
+      "y": 0,
+      "i": "m8qka7aun",
+      "moved": false,
+      "static": false
+    }
+  ],
+  "uiParams": {
+    "preview": {
+      "uiParams": {
+        "current": "Anonymous",
+        "currentIndex": 0,
+        "sets": [
+          {
+            "title": "Anonymous",
+            "params": {
+              "contentId": {
+                "value": "F010791601000102",
+                "active": true
+              },
+              "userId": {
+                "value": "1f51d5e9f09e4d349fa3af349e1cdac4",
+                "active": false
+              },
+              "deviceId": {
+                "value": "ARES-CC",
+                "active": true
+              },
+              "decoratorOutputEnvironment": {
+                "active": true
+              },
+              "decoratorOutputVersion": {
+                "active": true,
+                "value": "v2"
+              }
+            }
+          },
+          {
+            "title": "User Logged #1",
+            "params": {
+              "contentId": {
+                "value": "F010791601000102",
+                "active": true
+              },
+              "userId": {
+                "value": "1f51d5e9f09e4d349fa3af349e1cdac4",
+                "active": true
+              },
+              "deviceId": {
+                "value": "ARES-CC",
+                "active": true
+              }
+            }
+          },
+          {
+            "title": "User Logged #2",
+            "params": {
+              "contentId": {
+                "value": "F010791601000102",
+                "active": true
+              },
+              "userId": {
+                "value": "36e9cfd5ec474972ba1a82d19696346c",
+                "active": true
+              },
+              "deviceId": {
+                "value": "ARES-CC",
+                "active": true
+              }
+            }
+          }
+        ]
+      },
+      "currentParams": {
+        "contentId": "F010791601000102",
+        "deviceId": "ARES-CC",
+        "decoratorOutputVersion": "v2"
+      }
+    },
+    "layout": {
+      "currentParams": {
+        "paramsId": "playDefault",
+        "contentId": "F301644701000103",
+        "userId": "1f51d5e9f09e4d349fa3af349e1cdac4",
+        "deviceId": "ARES-CC"
+      }
+    }
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "Rj1_1Ldtp",
+              "type": "endpoints",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 2,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 2,
+          "items": [
+            {
+              "id": "Rc1YEkVxO",
+              "type": "blocks"
+            },
+            {
+              "id": "FTR93QFLi",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "results": {
+    "fallbackBlockId": "Rc1YEkVxO",
+    "fullSubstituteFallback": true
+  },
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": [],
+  "fullSubstituteFallback": true
+}

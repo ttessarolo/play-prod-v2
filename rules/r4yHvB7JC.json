@@ -1,0 +1,103 @@
+{
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "(equals(content_channels, \"MediasetPlay\"))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "equals",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "content_channels"
+              },
+              {
+                "value": "\"MediasetPlay\"",
+                "type": "string"
+              }
+            ],
+            "id": "ySEE9XR42t"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "Infinity",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "content_channels",
+      "fieldNested": 0,
+      "fieldDBType": "text",
+      "_id": "cjXOIG9gH",
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "API": "V2",
+      "condition": "(equals(content_channels, \"MediasetPlay\"))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "equals",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "content_channels"
+              },
+              {
+                "value": "\"MediasetPlay\"",
+                "type": "string"
+              }
+            ],
+            "id": "ySEE9XR42t"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "Noleggio",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "content_channels",
+      "fieldNested": 0,
+      "fieldDBType": "text",
+      "_id": "kpnr4kJpI",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "metadata": {
+    "content": true
+  },
+  "clauses": [
+    "exclude"
+  ],
+  "title": "Rule Channel MPlay esclude Infinity",
+  "description": "Se il chiamante è soltanto MPlay, esclude Infinity",
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": []
+      }
+    ]
+  },
+  "id": "r4yHvB7JC",
+  "version": 1,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-04-02T20:44:46.333Z"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "BIcv1VGPk"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "title": "Rule Made in Italy We are",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "ST000000004492",
+      "valueType": "freeText",
+      "queryType": "match",
+      "field": "id_season_st",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "fnnrYjhhpB"
+    }
+  ],
+  "clauses": [
+    "filter"
+  ],
+  "id": "rNkFGFAS6I",
+  "version": 1,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2024-12-03T14:57:48.862Z"
+  }
+}

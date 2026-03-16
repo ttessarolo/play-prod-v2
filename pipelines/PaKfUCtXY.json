@@ -1,0 +1,2440 @@
+{
+  "title": "Video Content Fingerprint",
+  "description": "",
+  "keysAndValues": {
+    "mode": "existing",
+    "catalog": "video"
+  },
+  "transformer": {
+    "rules": [
+      {
+        "key": "arteficecognome",
+        "operator": "equal",
+        "action": "filter",
+        "value": "NESSUN ARTISTA",
+        "subValue": "",
+        "active": true
+      },
+      {
+        "key": "generediegetico",
+        "operator": "equal",
+        "action": "filter",
+        "value": "Non rilevante",
+        "subValue": "",
+        "active": true
+      },
+      {
+        "key": "generetematico",
+        "operator": "equal",
+        "action": "filter",
+        "value": "Nessun tema/altro",
+        "subValue": "",
+        "active": true
+      },
+      {
+        "key": "geografia",
+        "operator": "equal",
+        "action": "filter",
+        "value": "Non rilevante",
+        "subValue": "",
+        "active": true
+      },
+      {
+        "key": "masterplot",
+        "operator": "equal",
+        "action": "filter",
+        "value": "Non rilevante",
+        "subValue": "",
+        "active": true
+      },
+      {
+        "key": "people_conduttore",
+        "operator": "equal",
+        "action": "filter",
+        "value": "NESSUN ARTISTA",
+        "subValue": "",
+        "active": true
+      },
+      {
+        "key": "people_attore",
+        "operator": "equal",
+        "action": "filter",
+        "value": "NESSUN ARTISTA",
+        "subValue": "",
+        "active": true
+      },
+      {
+        "key": "premi",
+        "operator": "equal",
+        "action": "filter",
+        "value": "NESSUN PREMIO",
+        "subValue": "",
+        "active": true
+      }
+    ]
+  },
+  "synthesizer": {
+    "rules": [
+      {
+        "key": "tematismi",
+        "threshold": 14,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "temi_ter",
+        "threshold": 1,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "temi_sub",
+        "threshold": 3,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "temi",
+        "threshold": 2,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "ambientisociali",
+        "threshold": 5,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "annoproduzione",
+        "threshold": 88,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "antagonistaAppealDiSuperficie",
+        "threshold": 3,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "antagonistaAspettoFisico",
+        "threshold": 7,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "antagonistaAttitudineSociale",
+        "threshold": 5,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "antagonistaElementiIdentitari_AttivitaDescrizione",
+        "threshold": 4,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "antagonistaElementiIdentitari_AttivitaDescrizione_sub",
+        "threshold": 48,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "antagonistaElementiIdentitari_FigureDelDestinoDescrizione",
+        "threshold": 2,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "antagonistaElementiIdentitari_TalentoDescrizione",
+        "threshold": 12,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "antagonistaElementiIdentitari_TipiDiRelazioneDescrizione",
+        "threshold": 17,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "antagonistaEta",
+        "threshold": 8,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "antagonistaEticaDelPersonaggio",
+        "threshold": 6,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "antagonistaEticaDelPersonaggio_sub",
+        "threshold": 11,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "antagonistaEtichettaDelPersonaggio",
+        "threshold": 4,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "antagonistaEvoluzioneInteriorePersonaggio",
+        "threshold": 2,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "antagonistaFiguraRicorrenteGenereDiegetico",
+        "threshold": 71,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "antagonistaFiguraRicorrenteGenerePatemico",
+        "threshold": 73,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "antagonistaFiguraRicorrenteGenereTematico",
+        "threshold": 143,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "antagonistaMotivazioneAzione",
+        "threshold": 30,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "antagonistaOrientamentoSessuale",
+        "threshold": 2,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "antagonistaPerformanceDelPersonaggio",
+        "threshold": 7,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "antagonistaPersonalitaPsicologica",
+        "threshold": 5,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "antagonistaPosizioneInSenoAllaComunita",
+        "threshold": 5,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "antagonistaRazza",
+        "threshold": 4,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "antagonistaSesso",
+        "threshold": 2,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "antagonistaSpecie",
+        "threshold": 8,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "antagonistaSpecie_sub",
+        "threshold": 8,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "antagonistaStimaDellaComunita",
+        "threshold": 5,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "arteficecognome",
+        "threshold": 505,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "arteficeonairid",
+        "threshold": 519,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "basicplot",
+        "threshold": 80,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "canalidiinterazione",
+        "threshold": 6,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "caratteristicheconduzione",
+        "threshold": 6,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "castattivitasdegliospiti",
+        "threshold": 3,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "castattivitasdeiconcorrenti",
+        "threshold": 6,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "castcaratteristichedellagiuria",
+        "threshold": 6,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "categoriasociodemo",
+        "threshold": 8,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "categoriecritichestoriche",
+        "threshold": 18,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "categorieiab",
+        "threshold": 23,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "categorieiab_sub",
+        "threshold": 172,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "committenteprevalentefilmmajor",
+        "threshold": 2,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "competenzagiurati",
+        "threshold": 3,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "cromatismo",
+        "threshold": 4,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "deuteragonistaAppealDiSuperficie",
+        "threshold": 3,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "deuteragonistaAspettoFisico",
+        "threshold": 7,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "deuteragonistaAttitudineSociale",
+        "threshold": 5,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "deuteragonistaElementiIdentitari_AttivitaDescrizione",
+        "threshold": 4,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "deuteragonistaElementiIdentitari_AttivitaDescrizione_sub",
+        "threshold": 52,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "deuteragonistaElementiIdentitari_FigureDelDestinoDescrizione",
+        "threshold": 2,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "deuteragonistaElementiIdentitari_TalentoDescrizione",
+        "threshold": 12,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "deuteragonistaElementiIdentitari_TipiDiRelazioneDescrizione",
+        "threshold": 17,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "deuteragonistaEvoluzioneInteriorePersonaggio",
+        "threshold": 2,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "deuteragonistaEta",
+        "threshold": 9,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "deuteragonistaEticaDelPersonaggio",
+        "threshold": 6,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "deuteragonistaEticaDelPersonaggio_sub",
+        "threshold": 10,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "deuteragonistaEtichettaDelPersonaggio",
+        "threshold": 3,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "deuteragonistaFiguraRicorrenteGenereDiegetico",
+        "threshold": 66,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "deuteragonistaFiguraRicorrenteGenerePatemico",
+        "threshold": 71,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "deuteragonistaFiguraRicorrenteGenereTematico",
+        "threshold": 149,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "deuteragonistaMotivazioneAzione",
+        "threshold": 30,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "deuteragonistaOrientamentoSessuale",
+        "threshold": 2,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "deuteragonistaPerformanceDelPersonaggio",
+        "threshold": 7,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "deuteragonistaPersonalitaPsicologica",
+        "threshold": 5,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "deuteragonistaPosizioneInSenoAllaComunita",
+        "threshold": 5,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "deuteragonistaRazza",
+        "threshold": 4,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "deuteragonistaSesso",
+        "threshold": 2,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "deuteragonistaSpecie",
+        "threshold": 8,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "deuteragonistaSpecie_sub",
+        "threshold": 13,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "deuteragonistaStimaDellaComunita",
+        "threshold": 5,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "dinamicagioco",
+        "threshold": 4,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "distinzionerealtafinzione",
+        "threshold": 2,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "editorial_type",
+        "threshold": 11,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "elementidelcast",
+        "threshold": 11,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "elementidelcast_sub",
+        "threshold": 4,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "elementidelformat",
+        "threshold": 3,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "elementiripresa",
+        "threshold": 3,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "epoca",
+        "threshold": 4,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "epoca_sub",
+        "threshold": 29,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "erotismo",
+        "threshold": 5,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "esitofinale",
+        "threshold": 7,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "esitofinale_sub",
+        "threshold": 8,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "fattoriproductionvalue",
+        "threshold": 4,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "filmcult",
+        "threshold": 2,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "filmdautore",
+        "threshold": 2,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "formatcentralitaperformance",
+        "threshold": 2,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "formateccezionalitaevento",
+        "threshold": 2,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "formatelementoemotivo",
+        "threshold": 2,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "formatliturgia",
+        "threshold": 2,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "formatmeccanismoeliminazione",
+        "threshold": 2,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "formatmontepremi",
+        "threshold": 2,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "formatregolerigide",
+        "threshold": 2,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "formatstrutturarigida",
+        "threshold": 2,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "genere_mcm",
+        "threshold": 187,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "generediegetico",
+        "threshold": 12,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "generediegetico_sub",
+        "threshold": 30,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "genereintrattenimentoeinformazione",
+        "threshold": 10,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "genereintrattenimentoeinformazione_sub",
+        "threshold": 42,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "genereintrattenimentoeinformazione_ter",
+        "threshold": 11,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "generepatemico",
+        "threshold": 4,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "generepatemico_sub",
+        "threshold": 19,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "generetematico",
+        "threshold": 26,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "generetematico_sub",
+        "threshold": 88,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "generetematico_ter",
+        "threshold": 5,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "generiinformazionesportiva",
+        "threshold": 4,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "generiinformazionesportiva_sub",
+        "threshold": 5,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "geografia",
+        "threshold": 4,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "geografia_sub",
+        "threshold": 35,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "geografia_ter",
+        "threshold": 44,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "giuriaprotagonista",
+        "threshold": 2,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "ideologia",
+        "threshold": 6,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "interazioneconglispettatori",
+        "threshold": 2,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "keyword",
+        "threshold": 0,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "linguaggioverbalevolgare",
+        "threshold": 5,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "magnificenzavisiva",
+        "threshold": 2,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "masterplot",
+        "threshold": 13,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "messainscena",
+        "threshold": 5,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "messainscena_sub",
+        "threshold": 12,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "metodidiinchiesta",
+        "threshold": 3,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "mood",
+        "threshold": 20,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "morali",
+        "threshold": 3,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "morali_sub",
+        "threshold": 28,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "paesiorigine",
+        "threshold": 154,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "people_attore",
+        "threshold": 50316,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "people_autore",
+        "threshold": 1753,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "people_autore_soggetto",
+        "threshold": 939,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "people_conduttore",
+        "threshold": 467,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "people_costumista",
+        "threshold": 2232,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "people_fotografo",
+        "threshold": 3063,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "people_montatore",
+        "threshold": 3715,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "people_musicista",
+        "threshold": 2923,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "people_regista",
+        "threshold": 5903,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "people_sceneggiatore",
+        "threshold": 9259,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "people_scenografo",
+        "threshold": 2865,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "postaingioco",
+        "threshold": 8,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "premi",
+        "threshold": 67,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "premi_motivazioni",
+        "threshold": 97,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "presenzaimmaginiforti",
+        "threshold": 5,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "pressionedeltempo",
+        "threshold": 2,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "produttoredistributorecaratterizzante",
+        "threshold": 19,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "protagonistaAppealDiSuperficie",
+        "threshold": 3,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "protagonistaAspettoFisico",
+        "threshold": 7,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "protagonistaAttitudineSociale",
+        "threshold": 5,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "protagonistaElementiIdentitari_AttivitaDescrizione",
+        "threshold": 4,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "protagonistaElementiIdentitari_AttivitaDescrizione_sub",
+        "threshold": 53,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "protagonistaElementiIdentitari_FigureDelDestinoDescrizione",
+        "threshold": 2,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "protagonistaElementiIdentitari_TalentoDescrizione",
+        "threshold": 12,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "protagonistaElementiIdentitari_TipiDiRelazioneDescrizione",
+        "threshold": 17,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "protagonistaEta",
+        "threshold": 8,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "protagonistaEticaDelPersonaggio",
+        "threshold": 6,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "protagonistaEticaDelPersonaggio_sub",
+        "threshold": 11,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "protagonistaEtichettaDelPersonaggio",
+        "threshold": 10,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "protagonistaEvoluzioneInteriorePersonaggio",
+        "threshold": 2,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "protagonistaFiguraRicorrenteGenereDiegetico",
+        "threshold": 82,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "protagonistaFiguraRicorrenteGenerePatemico",
+        "threshold": 74,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "protagonistaFiguraRicorrenteGenereTematico",
+        "threshold": 166,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "protagonistaMotivazioneAzione",
+        "threshold": 30,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "protagonistaOrientamentoSessuale",
+        "threshold": 2,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "protagonistaPerformanceDelPersonaggio",
+        "threshold": 7,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "protagonistaPersonalitaPsicologica",
+        "threshold": 5,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "protagonistaPosizioneInSenoAllaComunita",
+        "threshold": 5,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "protagonistaRazza",
+        "threshold": 4,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "protagonistaSesso",
+        "threshold": 2,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "protagonistaSpecie",
+        "threshold": 8,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "protagonistaSpecie_sub",
+        "threshold": 9,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "protagonistaStimaDellaComunita",
+        "threshold": 5,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "ratingparentalcontrol",
+        "threshold": 6,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "realismocontenuto",
+        "threshold": 5,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "realismorappresentazione",
+        "threshold": 3,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "relazioneconfilmid",
+        "threshold": 671,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "relazionetrapersonaggi",
+        "threshold": 2,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "relazionetrapersonaggi_sub",
+        "threshold": 12,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "riferimentimetacinema",
+        "threshold": 21,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "rilevanzacolonnasonora",
+        "threshold": 2,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "rilevanzaconduzione",
+        "threshold": 2,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "rilevanzaregista",
+        "threshold": 2,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "rilevanzasigla",
+        "threshold": 2,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "rilevanzavideografica",
+        "threshold": 2,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "ritmodelracconto",
+        "threshold": 5,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "seriedesc",
+        "threshold": 1261,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "settingambientazione",
+        "threshold": 219,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "nazionalimondiali",
+        "threshold": 20,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "squadrecalcioitaliane",
+        "threshold": 14,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "stagionalitadiegetica",
+        "threshold": 7,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "stilediregia",
+        "threshold": 2,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "strutturadelplot",
+        "threshold": 4,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "strutturedellostudio",
+        "threshold": 5,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "tecnicarealizzazione",
+        "threshold": 2,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "tema_mcm",
+        "threshold": 675,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "tematismigenerediegetico",
+        "threshold": 60,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "tematismigeneretematico",
+        "threshold": 318,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "tematismimacrogeneripatemici",
+        "threshold": 28,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "tipidiinterazione",
+        "threshold": 4,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "tipirelazioneconaltrifilm",
+        "threshold": 7,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "tipocommentomusicale",
+        "threshold": 3,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "tipologiagiurati",
+        "threshold": 3,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "tipologiaspaziointimosociale",
+        "threshold": 2,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "tipologiaspazionaturaleantropico",
+        "threshold": 2,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "tipologiaspazioordinario",
+        "threshold": 2,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "tipologiaspaziopubblicoprivato",
+        "threshold": 2,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "tiponarrazione",
+        "threshold": 3,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "toniinchiesta",
+        "threshold": 2,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "trattodafilmid",
+        "threshold": 61,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "umorismo",
+        "threshold": 5,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "video_content_id",
+        "threshold": 0,
+        "mode": "all",
+        "active": true
+      },
+      {
+        "key": "violenza",
+        "threshold": 5,
+        "mode": "all",
+        "active": true
+      }
+    ]
+  },
+  "fingerprinting": {
+    "active": true,
+    "rules": [
+      {
+        "key": "tematismi",
+        "boost": 1,
+        "values": [],
+        "active": true
+      },
+      {
+        "key": "temi_ter",
+        "boost": 1,
+        "values": [],
+        "active": true
+      },
+      {
+        "key": "temi_sub",
+        "boost": 1,
+        "values": [],
+        "active": true
+      },
+      {
+        "key": "temi",
+        "boost": 1,
+        "values": [],
+        "active": true
+      },
+      {
+        "key": "ambientisociali",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "annoproduzione",
+        "boost": 1,
+        "active": false
+      },
+      {
+        "key": "antagonistaAppealDiSuperficie",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "antagonistaAspettoFisico",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "antagonistaAttitudineSociale",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "antagonistaElementiIdentitari_AttivitaDescrizione",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "antagonistaElementiIdentitari_AttivitaDescrizione_sub",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "antagonistaElementiIdentitari_FigureDelDestinoDescrizione",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "antagonistaElementiIdentitari_TalentoDescrizione",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "antagonistaElementiIdentitari_TipiDiRelazioneDescrizione",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "antagonistaEta",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "antagonistaEticaDelPersonaggio",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "antagonistaEticaDelPersonaggio_sub",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "antagonistaEtichettaDelPersonaggio",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "antagonistaEvoluzioneInteriorePersonaggio",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "antagonistaFiguraRicorrenteGenereDiegetico",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "antagonistaFiguraRicorrenteGenerePatemico",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "antagonistaFiguraRicorrenteGenereTematico",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "antagonistaMotivazioneAzione",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "antagonistaOrientamentoSessuale",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "antagonistaPerformanceDelPersonaggio",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "antagonistaPersonalitaPsicologica",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "antagonistaPosizioneInSenoAllaComunita",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "antagonistaRazza",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "antagonistaSesso",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "antagonistaSpecie",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "antagonistaSpecie_sub",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "antagonistaStimaDellaComunita",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "arteficecognome",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "arteficeonairid",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "basicplot",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "canalidiinterazione",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "caratteristicheconduzione",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "castattivitasdegliospiti",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "castattivitasdeiconcorrenti",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "castcaratteristichedellagiuria",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "categoriasociodemo",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "categoriecritichestoriche",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "categorieiab",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "categorieiab_sub",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "committenteprevalentefilmmajor",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "competenzagiurati",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "cromatismo",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "deuteragonistaAppealDiSuperficie",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "deuteragonistaAspettoFisico",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "deuteragonistaAttitudineSociale",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "deuteragonistaElementiIdentitari_AttivitaDescrizione",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "deuteragonistaElementiIdentitari_AttivitaDescrizione_sub",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "deuteragonistaElementiIdentitari_FigureDelDestinoDescrizione",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "deuteragonistaElementiIdentitari_TalentoDescrizione",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "deuteragonistaElementiIdentitari_TipiDiRelazioneDescrizione",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "deuteragonistaEvoluzioneInteriorePersonaggio",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "deuteragonistaEta",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "deuteragonistaEticaDelPersonaggio",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "deuteragonistaEticaDelPersonaggio_sub",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "deuteragonistaEtichettaDelPersonaggio",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "deuteragonistaFiguraRicorrenteGenereDiegetico",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "deuteragonistaFiguraRicorrenteGenerePatemico",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "deuteragonistaFiguraRicorrenteGenereTematico",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "deuteragonistaMotivazioneAzione",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "deuteragonistaOrientamentoSessuale",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "deuteragonistaPerformanceDelPersonaggio",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "deuteragonistaPersonalitaPsicologica",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "deuteragonistaPosizioneInSenoAllaComunita",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "deuteragonistaRazza",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "deuteragonistaSesso",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "deuteragonistaSpecie",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "deuteragonistaSpecie_sub",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "deuteragonistaStimaDellaComunita",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "dinamicagioco",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "distinzionerealtafinzione",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "editorial_type",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "elementidelcast",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "elementidelcast_sub",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "elementidelformat",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "elementiripresa",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "epoca",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "epoca_sub",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "erotismo",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "esitofinale",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "esitofinale_sub",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "fattoriproductionvalue",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "filmcult",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "filmdautore",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "formatcentralitaperformance",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "formateccezionalitaevento",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "formatelementoemotivo",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "formatliturgia",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "formatmeccanismoeliminazione",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "formatmontepremi",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "formatregolerigide",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "formatstrutturarigida",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "genere_mcm",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "generediegetico",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "generediegetico_sub",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "genereintrattenimentoeinformazione",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "genereintrattenimentoeinformazione_sub",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "genereintrattenimentoeinformazione_ter",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "generepatemico",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "generepatemico_sub",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "generetematico",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "generetematico_sub",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "generetematico_ter",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "generiinformazionesportiva",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "generiinformazionesportiva_sub",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "geografia",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "geografia_sub",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "geografia_ter",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "giuriaprotagonista",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "ideologia",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "interazioneconglispettatori",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "keyword",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "linguaggioverbalevolgare",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "magnificenzavisiva",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "masterplot",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "messainscena",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "messainscena_sub",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "metodidiinchiesta",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "mood",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "morali",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "morali_sub",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "paesiorigine",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "people_attore",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "people_autore",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "people_autore_soggetto",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "people_conduttore",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "people_costumista",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "people_fotografo",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "people_montatore",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "people_musicista",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "people_regista",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "people_sceneggiatore",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "people_scenografo",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "postaingioco",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "premi",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "premi_motivazioni",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "presenzaimmaginiforti",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "pressionedeltempo",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "produttoredistributorecaratterizzante",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "protagonistaAppealDiSuperficie",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "protagonistaAspettoFisico",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "protagonistaAttitudineSociale",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "protagonistaElementiIdentitari_AttivitaDescrizione",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "protagonistaElementiIdentitari_AttivitaDescrizione_sub",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "protagonistaElementiIdentitari_FigureDelDestinoDescrizione",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "protagonistaElementiIdentitari_TalentoDescrizione",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "protagonistaElementiIdentitari_TipiDiRelazioneDescrizione",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "protagonistaEta",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "protagonistaEticaDelPersonaggio",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "protagonistaEticaDelPersonaggio_sub",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "protagonistaEtichettaDelPersonaggio",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "protagonistaEvoluzioneInteriorePersonaggio",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "protagonistaFiguraRicorrenteGenereDiegetico",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "protagonistaFiguraRicorrenteGenerePatemico",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "protagonistaFiguraRicorrenteGenereTematico",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "protagonistaMotivazioneAzione",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "protagonistaOrientamentoSessuale",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "protagonistaPerformanceDelPersonaggio",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "protagonistaPersonalitaPsicologica",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "protagonistaPosizioneInSenoAllaComunita",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "protagonistaRazza",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "protagonistaSesso",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "protagonistaSpecie",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "protagonistaSpecie_sub",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "protagonistaStimaDellaComunita",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "ratingparentalcontrol",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "realismocontenuto",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "realismorappresentazione",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "relazioneconfilmid",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "relazionetrapersonaggi",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "relazionetrapersonaggi_sub",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "riferimentimetacinema",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "rilevanzacolonnasonora",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "rilevanzaconduzione",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "rilevanzaregista",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "rilevanzasigla",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "rilevanzavideografica",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "ritmodelracconto",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "seriedesc",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "settingambientazione",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "nazionalimondiali",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "squadrecalcioitaliane",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "stagionalitadiegetica",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "stilediregia",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "strutturadelplot",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "strutturedellostudio",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "tecnicarealizzazione",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "tema_mcm",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "tematismigenerediegetico",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "tematismigeneretematico",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "tematismimacrogeneripatemici",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "tipidiinterazione",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "tipirelazioneconaltrifilm",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "tipocommentomusicale",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "tipologiagiurati",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "tipologiaspaziointimosociale",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "tipologiaspazionaturaleantropico",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "tipologiaspazioordinario",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "tipologiaspaziopubblicoprivato",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "tiponarrazione",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "toniinchiesta",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "trattodafilmid",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "umorismo",
+        "boost": 1,
+        "active": true
+      },
+      {
+        "key": "video_content_id",
+        "boost": 1,
+        "active": false
+      },
+      {
+        "key": "violenza",
+        "boost": 1,
+        "active": true
+      }
+    ]
+  },
+  "egress": {
+    "active": true,
+    "transformValues": true,
+    "keepOnlySynthesizerKeys": false
+  },
+  "id": "PaKfUCtXY",
+  "version": 8,
+  "lastSaved": {
+    "username": "fabio.mancini",
+    "date": "2024-05-02T09:36:42.198Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "loaders",
+        "items": [
+          "lSF6y7v9Oa",
+          "b7CL9DQSbK",
+          "pfgIHNjY2"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 2,
+      "types": 1,
+      "items": [
+        {
+          "type": "loaders",
+          "count": 2,
+          "items": [
+            {
+              "id": "lSF6y7v9Oa",
+              "type": "loaders",
+              "title": ""
+            },
+            {
+              "id": "T6ulyiqRq",
+              "type": "loaders",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  }
+}

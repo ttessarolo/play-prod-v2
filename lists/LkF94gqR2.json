@@ -1,0 +1,62 @@
+{
+  "title": "List ADV -  X-Style Hugo Boss 2",
+  "description": "",
+  "type": "contentId",
+  "contentType": "video",
+  "realm": "content",
+  "metadataField": "title",
+  "elements": [
+    "FD00000000504046",
+    "FD00000000504403",
+    "FD00000000504450",
+    "FD00000000507379",
+    "FD00000000509269",
+    "FD00000000510014",
+    "FD00000000516460"
+  ],
+  "id": "LkF94gqR2",
+  "version": 18,
+  "lastSaved": {
+    "username": "Massimiliano.Berardi",
+    "date": "2026-02-03T16:25:41.340Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "rules",
+        "items": [
+          "XhBXHe_tWU"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 2,
+      "types": 1,
+      "items": [
+        {
+          "type": "rules",
+          "count": 2,
+          "items": [
+            {
+              "id": "xvYVAxCdJ",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "XhBXHe_tWU",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  }
+}

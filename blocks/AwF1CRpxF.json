@@ -1,0 +1,337 @@
+{
+  "id": "AwF1CRpxF",
+  "propertyId": "rrjMTUmyqd",
+  "title": "Search Fallback vuota",
+  "description": "Please Edit description for Page \"Default\"",
+  "enabledPagesId": [
+    "VqbKPchOM"
+  ],
+  "isPage": true,
+  "blocks": [
+    {
+      "id": "ZzXgnYCygU",
+      "condition": "*",
+      "title": "No results",
+      "type": "nested",
+      "layout": {
+        "i": "ZzXgnYCygU",
+        "x": 0,
+        "y": 1,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "P0csRsOt7"
+    }
+  ],
+  "version": 7,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2025-05-07T09:32:32.579Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "endpoints",
+        "items": [
+          "VqbKPchOM"
+        ]
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "AeDBbaF42",
+          "h15hXW9RF",
+          "Fwy9pCD4dq",
+          "lbNPSiB5Z9",
+          "bsPgWyrvWu",
+          "FK3qnwLcv",
+          "VSpgqeifh",
+          "O77hBIpio",
+          "z70Kc2ebp",
+          "Ds5x4fEbu",
+          "q68HoEaN5k",
+          "hkkMHxGOH",
+          "ETMOjkvtg",
+          "WhMMkSUAmX",
+          "L76fYrB3A",
+          "AfQ9VWSP6",
+          "zzEZhb_1r",
+          "sQaMMdmZyt",
+          "zjMBeoafa8",
+          "UqexT0v_gf",
+          "rzRIgJqMA",
+          "tCiVqNxMLB",
+          "jrijZuhZ9",
+          "y1HwrzQWaU",
+          "Fkuq3OMlav",
+          "v8eWLZuOCm",
+          "i13gkGCQlp",
+          "lbTpE9Ugz",
+          "hVIMC2xa9f"
+        ]
+      }
+    ],
+    "require": [
+      {
+        "type": "queries",
+        "items": []
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "P0csRsOt7"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 30,
+      "types": 2,
+      "items": [
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "VqbKPchOM",
+              "type": "endpoints"
+            }
+          ]
+        },
+        {
+          "type": "pages",
+          "count": 29,
+          "items": [
+            {
+              "variantId": "AeDBbaF42",
+              "propertyId": "rrjMTUmyqd",
+              "endpointId": "Tac2Yo4sw"
+            },
+            {
+              "variantId": "h15hXW9RF",
+              "propertyId": "rrjMTUmyqd",
+              "endpointId": "Tac2Yo4sw"
+            },
+            {
+              "variantId": "Fwy9pCD4dq",
+              "propertyId": "rrjMTUmyqd",
+              "endpointId": "Tac2Yo4sw"
+            },
+            {
+              "variantId": "lbNPSiB5Z9",
+              "propertyId": "rrjMTUmyqd",
+              "endpointId": "Tac2Yo4sw"
+            },
+            {
+              "variantId": "bsPgWyrvWu",
+              "propertyId": "rrjMTUmyqd",
+              "endpointId": "Tac2Yo4sw"
+            },
+            {
+              "variantId": "FK3qnwLcv",
+              "propertyId": "rrjMTUmyqd",
+              "endpointId": "Tac2Yo4sw"
+            },
+            {
+              "variantId": "VSpgqeifh",
+              "propertyId": "rrjMTUmyqd",
+              "endpointId": "Tac2Yo4sw"
+            },
+            {
+              "variantId": "O77hBIpio",
+              "propertyId": "rrjMTUmyqd",
+              "endpointId": "Tac2Yo4sw"
+            },
+            {
+              "variantId": "z70Kc2ebp",
+              "propertyId": "rrjMTUmyqd",
+              "endpointId": "Tac2Yo4sw"
+            },
+            {
+              "variantId": "Ds5x4fEbu",
+              "propertyId": "rrjMTUmyqd",
+              "endpointId": "Gw6akjKa4a"
+            },
+            {
+              "variantId": "q68HoEaN5k",
+              "propertyId": "rrjMTUmyqd",
+              "endpointId": "Gw6akjKa4a"
+            },
+            {
+              "variantId": "hkkMHxGOH",
+              "propertyId": "rrjMTUmyqd",
+              "endpointId": "Gw6akjKa4a"
+            },
+            {
+              "variantId": "ETMOjkvtg",
+              "propertyId": "rrjMTUmyqd",
+              "endpointId": "Gw6akjKa4a"
+            },
+            {
+              "variantId": "WhMMkSUAmX",
+              "propertyId": "rrjMTUmyqd",
+              "endpointId": "Gw6akjKa4a"
+            },
+            {
+              "variantId": "L76fYrB3A",
+              "propertyId": "rrjMTUmyqd",
+              "endpointId": "Gw6akjKa4a"
+            },
+            {
+              "variantId": "AfQ9VWSP6",
+              "propertyId": "rrjMTUmyqd",
+              "endpointId": "Gw6akjKa4a"
+            },
+            {
+              "variantId": "zzEZhb_1r",
+              "propertyId": "rrjMTUmyqd",
+              "endpointId": "Tac2Yo4sw"
+            },
+            {
+              "variantId": "sQaMMdmZyt",
+              "propertyId": "rrjMTUmyqd",
+              "endpointId": "Tac2Yo4sw"
+            },
+            {
+              "variantId": "zjMBeoafa8",
+              "propertyId": "rrjMTUmyqd",
+              "endpointId": "Y_T1DSbZ9"
+            },
+            {
+              "variantId": "UqexT0v_gf",
+              "propertyId": "rrjMTUmyqd",
+              "endpointId": "t2lTpliWX"
+            },
+            {
+              "variantId": "rzRIgJqMA",
+              "propertyId": "rrjMTUmyqd",
+              "endpointId": "t2lTpliWX"
+            },
+            {
+              "variantId": "tCiVqNxMLB",
+              "propertyId": "rrjMTUmyqd",
+              "endpointId": "t2lTpliWX"
+            },
+            {
+              "variantId": "jrijZuhZ9",
+              "propertyId": "rrjMTUmyqd",
+              "endpointId": "t2lTpliWX"
+            },
+            {
+              "variantId": "y1HwrzQWaU",
+              "propertyId": "rrjMTUmyqd",
+              "endpointId": "t2lTpliWX"
+            },
+            {
+              "variantId": "Fkuq3OMlav",
+              "propertyId": "rrjMTUmyqd",
+              "endpointId": "Y_T1DSbZ9"
+            },
+            {
+              "variantId": "v8eWLZuOCm",
+              "propertyId": "rrjMTUmyqd",
+              "endpointId": "_Bjgs5JE9"
+            },
+            {
+              "variantId": "i13gkGCQlp",
+              "propertyId": "rrjMTUmyqd",
+              "endpointId": "RBrjmHSmj"
+            },
+            {
+              "variantId": "lbTpE9Ugz",
+              "propertyId": "rrjMTUmyqd",
+              "endpointId": "Sbmoj6vuY"
+            },
+            {
+              "variantId": "hVIMC2xa9f",
+              "propertyId": "rrjMTUmyqd",
+              "endpointId": "KVpe9LShZ"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 1,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "P0csRsOt7",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "layout": [
+    {
+      "i": "ZzXgnYCygU",
+      "x": 0,
+      "y": 1,
+      "w": 12,
+      "h": 30,
+      "blocks": []
+    }
+  ],
+  "canBeFallback": true
+}

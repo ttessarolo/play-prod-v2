@@ -1,0 +1,210 @@
+{
+  "title": "CHNLS Similar Serie TV",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "reuwYeTqu"
+    },
+    {
+      "id": "KukwdwFDvb"
+    }
+  ],
+  "exclude": [
+    {
+      "id": "guv9d2IRj"
+    },
+    {
+      "id": "Ehrm1Jwn6"
+    },
+    {
+      "id": "k53RiiqC7K"
+    },
+    {
+      "id": "n1PFC8Cdd"
+    }
+  ],
+  "include": [],
+  "boost": [
+    {
+      "id": "uXBAHIG51I"
+    }
+  ],
+  "order": [],
+  "realm": "content",
+  "presets": {
+    "filter": [
+      {
+        "id": "TuAyi0elu"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "ZRorAbL96Q"
+      },
+      {
+        "id": "KhQ3IziFJ"
+      }
+    ]
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "reuwYeTqu",
+          "KukwdwFDvb",
+          "guv9d2IRj",
+          "Ehrm1Jwn6",
+          "k53RiiqC7K",
+          "n1PFC8Cdd",
+          "uXBAHIG51I"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "TuAyi0elu",
+          "ZRorAbL96Q",
+          "KhQ3IziFJ"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "zPazbJ7uE"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "id": "UhRmAOyNS",
+  "version": 11,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2022-04-28T09:41:56.662Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "zPazbJ7uE",
+              "type": "blocks",
+              "title": "CHNLS Similar Serie TV"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 10,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 7,
+          "items": [
+            {
+              "id": "YMaH2tPZC",
+              "type": "rules",
+              "title": "Rule Content Channel Origin"
+            },
+            {
+              "id": "reuwYeTqu",
+              "type": "rules",
+              "title": "Rule Similar Channel Origin "
+            },
+            {
+              "id": "guv9d2IRj",
+              "type": "rules",
+              "title": "Rule Filtro Animazione da Live Action"
+            },
+            {
+              "id": "Ehrm1Jwn6",
+              "type": "rules",
+              "title": "Rule Filtro Documentario da Finzione"
+            },
+            {
+              "id": "k53RiiqC7K",
+              "type": "rules",
+              "title": "Rule Exclude Brand Category Kids"
+            },
+            {
+              "id": "n1PFC8Cdd",
+              "type": "rules",
+              "title": "Rule Escludi Content channel non Mediaset Play"
+            },
+            {
+              "id": "uXBAHIG51I",
+              "type": "rules",
+              "title": "Rule Boost Always Genere Mcm"
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 3,
+          "items": [
+            {
+              "id": "TuAyi0elu",
+              "type": "rulesPresets",
+              "title": "Preset SearchVisible e FrontEnd Visible True"
+            },
+            {
+              "id": "ZRorAbL96Q",
+              "type": "rulesPresets",
+              "title": "Preset Blacklist"
+            },
+            {
+              "id": "KhQ3IziFJ",
+              "type": "rulesPresets",
+              "title": "Preset Video format exclude 4K"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "uselessMultiplier": false,
+  "metadataOverrides": {
+    "reuwYeTqu": {
+      "content_similar": {
+        "required": true,
+        "output": "video_similar_ids_similar_channel_origin",
+        "metadata": {
+          "included": [
+            "tipologia",
+            "editorial_type",
+            "content_channels"
+          ],
+          "excluded": [
+            "id_series_se"
+          ]
+        },
+        "fingerprint": {
+          "matchFields": [
+            "fingerprint"
+          ]
+        },
+        "groupby": {
+          "metadata": "id_series_se",
+          "results": 1,
+          "sortMetadata": "season,episode",
+          "sortDirection": "asc,asc"
+        }
+      }
+    }
+  }
+}

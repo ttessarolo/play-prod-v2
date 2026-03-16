@@ -1,0 +1,82 @@
+{
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": [
+          "NlCpQgGnJ"
+        ]
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "Dn18Iwv7To",
+          "rU9JESwD9"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 1,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 1,
+          "items": [
+            {
+              "id": "NlCpQgGnJ",
+              "type": "lists",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "title": "Rule Content Channel TimVision",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "NlCpQgGnJ",
+      "valueType": "list",
+      "queryType": "listTermsId",
+      "field": "content_channels",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "tWpElD_O8a"
+    }
+  ],
+  "clauses": [
+    "filter"
+  ],
+  "id": "KOrhM3aP8e",
+  "version": 1,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2022-06-21T13:11:00.493Z"
+  }
+}

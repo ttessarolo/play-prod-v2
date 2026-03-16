@@ -1,0 +1,33 @@
+{
+  "title": "Lista ADV MCS crociere",
+  "description": "Lista Sub Brand ids di MCS Crociere",
+  "type": "contentId",
+  "contentType": "video",
+  "realm": "content",
+  "elements": [
+    "100016848",
+    "100017077"
+  ],
+  "id": "LC0OTBBiw",
+  "version": 10,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2022-04-04T08:53:05.783Z"
+  },
+  "refs": {
+    "belongs": []
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  },
+  "metadataField": "subbrand_title"
+}

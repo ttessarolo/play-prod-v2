@@ -1,0 +1,116 @@
+{
+  "title": "Rule Include Highlights Serie A se chiamante Highlights Serie A",
+  "description": "Se il chiamante è Highlights Serie A chiama Highlights Serie A\n",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "(equals(brand_title, \"Highlights Serie A\"))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "equals",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "brand_title"
+              },
+              {
+                "value": "\"Highlights Serie A\"",
+                "type": "freeText"
+              }
+            ],
+            "id": "jZE2-eyXAX"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "Highlights Serie A",
+      "valueType": "freeText",
+      "queryType": "match",
+      "field": "brand_title",
+      "fieldNested": 0,
+      "fieldDBType": "text",
+      "_id": "TpYv81_F8Q",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "clauses": [
+    "include"
+  ],
+  "metadata": {
+    "content": true
+  },
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": []
+      }
+    ]
+  },
+  "id": "FYHo6wf3b",
+  "version": 9,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-09-15T10:11:50.086Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 1,
+          "items": [
+            {
+              "id": "eKqq5qm5PJ",
+              "type": "queries",
+              "title": "Query Similar Sport Highlights Serie A"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "searchMetadata": [
+    "request",
+    "content"
+  ],
+  "includedMetadata": [
+    "content"
+  ]
+}

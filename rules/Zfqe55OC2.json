@@ -1,0 +1,118 @@
+{
+  "title": "Rule Similar Tipologia Documentari",
+  "description": "Tipologia = Documentari, Esclude = Clip or DigitalFirst\n",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "keepOrder": true,
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "I2I",
+      "value": "video_similar_ids_documentari",
+      "valueType": "metadata",
+      "queryType": "ids",
+      "field": "video_content_id",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "mcuR66NFiX"
+    }
+  ],
+  "clauses": [
+    "include",
+    "filter"
+  ],
+  "metadata": {
+    "content_similar": {
+      "required": true,
+      "output": "video_similar_ids_documentari",
+      "metadata": {
+        "included": [
+          "tipologia=Documentari",
+          "content_channels=MediasetPlay"
+        ],
+        "excluded": [
+          "editorial_type=(Clip) OR (TVSeason) OR (Serie)",
+          "id_series_se"
+        ]
+      },
+      "fingerprint": {
+        "matchFields": [
+          "fingerprint"
+        ]
+      },
+      "groupby": {
+        "metadata": "id_series_se",
+        "results": 1,
+        "sortMetadata": "",
+        "sortDirection": "asc"
+      }
+    }
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "U1hz1tNQN",
+          "tv97xe64g"
+        ]
+      }
+    ]
+  },
+  "id": "Zfqe55OC2",
+  "version": 2,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-07-15T16:00:25.260Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 2,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 2,
+          "items": [
+            {
+              "id": "U1hz1tNQN",
+              "type": "queries",
+              "title": "Query Similar Documentari"
+            },
+            {
+              "id": "tv97xe64g",
+              "type": "queries",
+              "title": "CHNLS Similar Documentari"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 1,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "searchMetadata": [
+    "request",
+    "content_similar"
+  ],
+  "includedMetadata": [
+    "similarity"
+  ]
+}

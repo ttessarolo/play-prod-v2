@@ -1,0 +1,92 @@
+{
+  "contentType": "video",
+  "title": "PLAY-PROD-VIDEO-EXPANDED-SET",
+  "description": "Response Field con title per blocchi con titolo dinamico (es. Because you watched)",
+  "fields": [
+    "video_content_id",
+    "tipologia",
+    "programtype",
+    "id_brand",
+    "id_season_st",
+    "id_series_se",
+    "title",
+    "series_title"
+  ],
+  "id": "ococ5qsUC",
+  "version": 21,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-09-18T14:38:49.040Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "HQY25kST23",
+          "sZIlXj8Kl",
+          "Hw3NkiLuf7",
+          "EuOtAwNy8",
+          "Li5pJmw2Nc",
+          "x9JXExub6",
+          "aJ0YEzJIJ"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 7,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 7,
+          "items": [
+            {
+              "id": "HQY25kST23",
+              "type": "blocks",
+              "title": ""
+            },
+            {
+              "id": "fhxbKko1c",
+              "type": "blocks",
+              "title": ""
+            },
+            {
+              "id": "sZIlXj8Kl",
+              "type": "blocks",
+              "title": ""
+            },
+            {
+              "id": "Hw3NkiLuf7",
+              "type": "blocks",
+              "title": ""
+            },
+            {
+              "id": "EuOtAwNy8",
+              "type": "blocks",
+              "title": ""
+            },
+            {
+              "id": "Li5pJmw2Nc",
+              "type": "blocks",
+              "title": ""
+            },
+            {
+              "id": "x9JXExub6",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  },
+  "realm": "content"
+}

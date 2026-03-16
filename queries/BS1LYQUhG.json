@@ -1,0 +1,132 @@
+{
+  "title": "Query Enabler stagioni Serie TV Library ",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "MrtMAYnbZ"
+    },
+    {
+      "id": "M2X3Atski"
+    },
+    {
+      "id": "IA2rMeBZYW"
+    }
+  ],
+  "exclude": [],
+  "include": [],
+  "boost": [],
+  "order": [
+    {
+      "id": "A5n475YeR"
+    }
+  ],
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "MrtMAYnbZ",
+          "M2X3Atski",
+          "IA2rMeBZYW",
+          "A5n475YeR"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "ztWfmA_PI",
+          "KhQ3IziFJ"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": []
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "id": "BS1LYQUhG",
+  "version": 33,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2022-06-14T16:28:50.109Z"
+  },
+  "metadataInRules": [],
+  "presets": {
+    "exclude": [
+      {
+        "id": "KhQ3IziFJ"
+      }
+    ],
+    "filter": [
+      {
+        "id": "ztWfmA_PI"
+      }
+    ]
+  },
+  "metadataOverrides": {},
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 6,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 4,
+          "items": [
+            {
+              "id": "MrtMAYnbZ",
+              "type": "rules",
+              "title": "Rule Channel Mediaset Play o Infinity"
+            },
+            {
+              "id": "M2X3Atski",
+              "type": "rules",
+              "title": "Rule Tipologia Serie TV"
+            },
+            {
+              "id": "IA2rMeBZYW",
+              "type": "rules",
+              "title": "Rule Editorial Type Serie"
+            },
+            {
+              "id": "A5n475YeR",
+              "type": "rules",
+              "title": "Rule Piu visti 24h Always"
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 2,
+          "items": [
+            {
+              "id": "ztWfmA_PI",
+              "type": "rulesPresets",
+              "title": "Preset Fep attivi"
+            },
+            {
+              "id": "KhQ3IziFJ",
+              "type": "rulesPresets",
+              "title": "Preset Video format exclude 4K"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "realm": "content",
+  "uselessMultiplier": true
+}

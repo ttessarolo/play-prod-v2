@@ -1,0 +1,90 @@
+{
+  "contentType": "link",
+  "filter": [
+    {
+      "id": "oR4utTF4P"
+    }
+  ],
+  "exclude": [],
+  "include": [],
+  "boost": [],
+  "order": [],
+  "realm": "content",
+  "title": "Query Card Title match Channel MGM",
+  "description": "",
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "oR4utTF4P"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "tm5hY7MyUv"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "id": "KACX7v2uD",
+  "version": 9,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2024-05-09T09:42:52.549Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "tm5hY7MyUv",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 1,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 1,
+          "items": [
+            {
+              "id": "fzOBSnL0e",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "metadataOverrides": {}
+}

@@ -1,0 +1,145 @@
+{
+  "title": "Rule Esclude Animazione per Params Genre",
+  "description": "Se il parametro chiama Azione o Thriller non mostra i film con genere mcm Animazione",
+  "contentType": "video",
+  "clauses": [
+    "exclude"
+  ],
+  "rule": [
+    {
+      "phrase": false,
+      "API": "V2",
+      "condition": "(equals(params_genre, \"Thriller\") || equals(params_genre, \"Azione\"))",
+      "conditionRaw": {
+        "or": [
+          {
+            "operator": "equals",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "params_genre"
+              },
+              {
+                "value": "\"Thriller\"",
+                "type": "string"
+              }
+            ],
+            "id": "EvpaDYumx0"
+          },
+          {
+            "id": "H1-yN7P5WZ",
+            "operator": "equals",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "params_genre"
+              },
+              {
+                "value": "\"Azione\"",
+                "type": "string"
+              }
+            ]
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "I2I",
+      "value": "Animazione",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "genere_mcm",
+      "fieldDBType": "keyword",
+      "_id": "UGAfWaeOA",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "field": "genere_mcm",
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "ARAIdR8pC",
+          "rAoCaKtAs",
+          "smEuLKmQtT",
+          "BVC4GzQXU",
+          "ZqCof5t6v",
+          "QPwcsFJG6",
+          "BWgEuhfRp"
+        ]
+      }
+    ]
+  },
+  "id": "hzun5eW6d",
+  "version": 14,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-04-26T14:39:03.659Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 4,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 4,
+          "items": [
+            {
+              "id": "ARAIdR8pC",
+              "type": "queries",
+              "title": "TVOD Generi per Parametri Film Blocco 2"
+            },
+            {
+              "id": "_ehOPN5ih",
+              "type": "queries",
+              "title": "INF Generi per Parametri Film Blocco 1"
+            },
+            {
+              "id": "rAoCaKtAs",
+              "type": "queries",
+              "title": "INF Generi per Parametri Film Blocco 2"
+            },
+            {
+              "id": "smEuLKmQtT",
+              "type": "queries",
+              "title": "TVOD Generi per Parametri Film Blocco 1"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 1,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "realm": "content",
+  "scheduled": 0,
+  "scheduling": [],
+  "schedulingMap": [],
+  "metadata": {
+    "content": false
+  },
+  "searchMetadata": [
+    "request",
+    "content"
+  ],
+  "includedMetadata": [
+    "content"
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "title": "Query Programmi Fiction Serie TV Super Top",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "ju06OqIgO"
+    },
+    {
+      "id": "mfXQdqG3TO"
+    },
+    {
+      "id": "KdgZfZ_wm"
+    },
+    {
+      "id": "dZvH2240Sl"
+    }
+  ],
+  "exclude": [
+    {
+      "id": "TiO1vNFSd"
+    }
+  ],
+  "include": [],
+  "boost": [],
+  "order": [
+    {
+      "id": "tMgBtvtBy"
+    }
+  ],
+  "realm": "content",
+  "general": {
+    "mustOperator": "or",
+    "tieBreaker": 0.9,
+    "minimumShouldMatch": "1%",
+    "resultsMultiplier": 1
+  },
+  "presets": {
+    "exclude": [
+      {
+        "id": "ZRorAbL96Q"
+      },
+      {
+        "id": "KhQ3IziFJ"
+      }
+    ],
+    "filter": [
+      {
+        "id": "ztWfmA_PI"
+      }
+    ]
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "ju06OqIgO",
+          "mfXQdqG3TO",
+          "KdgZfZ_wm",
+          "dZvH2240Sl",
+          "TiO1vNFSd",
+          "tMgBtvtBy"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "ztWfmA_PI",
+          "ZRorAbL96Q",
+          "KhQ3IziFJ"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "KRHAb_ct0H"
+        ]
+      }
+    ]
+  },
+  "id": "o3oATF3Xw",
+  "version": 12,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2023-06-16T15:59:26.771Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "KRHAb_ct0H",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 8,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 5,
+          "items": [
+            {
+              "id": "ju06OqIgO",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "mfXQdqG3TO",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "KdgZfZ_wm",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "dZvH2240Sl",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "tMgBtvtBy",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 3,
+          "items": [
+            {
+              "id": "ztWfmA_PI",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "ZRorAbL96Q",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "KhQ3IziFJ",
+              "type": "rulesPresets",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "metadataOverrides": {}
+}

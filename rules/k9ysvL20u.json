@@ -1,0 +1,47 @@
+{
+  "title": "Rule Tipologia Serie TV Fiction e Film",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "ds3HzOfs4",
+      "valueType": "list",
+      "queryType": "listTermsId",
+      "field": "tipologia",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "JYADqzrEUM"
+    }
+  ],
+  "clauses": [
+    "filter"
+  ],
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "vIQCxKrUj",
+          "XWcT55fKOl"
+        ]
+      }
+    ]
+  },
+  "id": "k9ysvL20u",
+  "version": 1,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-05-20T15:49:45.183Z"
+  }
+}

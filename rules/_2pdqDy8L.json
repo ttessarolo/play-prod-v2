@@ -1,0 +1,137 @@
+{
+  "contentType": "video",
+  "title": "Rule Params Channel Infinity Search Clip",
+  "description": "Keep Only Contenuti con contents_channels = Infinity se params_channel=Infinity per search Clip",
+  "clauses": [
+    "filter"
+  ],
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "(contains(params_channel, \"Infinity\"))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "params_channel"
+              },
+              {
+                "value": "\"Infinity\"",
+                "type": "freeText"
+              }
+            ],
+            "id": "QfhFTdm7g3"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "I2I",
+      "value": "pTD7iJe5j",
+      "valueType": "list",
+      "queryType": "listTermsId",
+      "field": "content_channels",
+      "fieldDBType": "text",
+      "_id": "SllVW2XnFL",
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "API": "V2",
+      "condition": "(contains(params_channel, \"Infinity\"))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "params_channel"
+              },
+              {
+                "value": "\"Infinity\"",
+                "type": "freeText"
+              }
+            ],
+            "id": "QfhFTdm7g3"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "JzmoG4qU6",
+      "valueType": "list",
+      "queryType": "listTermsId",
+      "field": "editorial_type",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "UFOVlilXvu",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "field": "content_channels",
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "rCpAPoEJQ"
+        ]
+      }
+    ]
+  },
+  "id": "_2pdqDy8L",
+  "version": 22,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-04-09T17:34:25.584Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 2,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 2,
+          "items": [
+            {
+              "id": "JeWs0B6Ip",
+              "type": "queries",
+              "title": "Search Movie"
+            },
+            {
+              "id": "rCpAPoEJQ",
+              "type": "queries",
+              "title": "Search Clip"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 1,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "realm": "content",
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": []
+}

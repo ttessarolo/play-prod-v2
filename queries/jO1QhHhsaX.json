@@ -1,0 +1,207 @@
+{
+  "title": "Query Film del momento Mplay Infinity Noleggio",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "pdYDSoG5m0"
+    },
+    {
+      "id": "83txjtJm"
+    },
+    {
+      "id": "Qs0Vux5WH_"
+    },
+    {
+      "id": "BWeiHNstQ"
+    },
+    {
+      "id": "RqBahOBRSz"
+    }
+  ],
+  "exclude": [
+    {
+      "id": "tBRJIJKy3"
+    },
+    {
+      "id": "LKRG4VUSN"
+    }
+  ],
+  "include": [],
+  "boost": [],
+  "order": [
+    {
+      "id": "SXyaET7iz2"
+    }
+  ],
+  "realm": "content",
+  "presets": {
+    "filter": [
+      {
+        "id": "TuAyi0elu"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "KhQ3IziFJ"
+      },
+      {
+        "id": "ZRorAbL96Q"
+      }
+    ]
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "pdYDSoG5m0",
+          "83txjtJm",
+          "Qs0Vux5WH_",
+          "BWeiHNstQ",
+          "RqBahOBRSz",
+          "tBRJIJKy3",
+          "LKRG4VUSN",
+          "SXyaET7iz2"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "TuAyi0elu",
+          "KhQ3IziFJ",
+          "ZRorAbL96Q"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "YEssPNB14"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": "0.9",
+    "resultsMultiplier": 1,
+    "mustOperator": "or"
+  },
+  "id": "jO1QhHhsaX",
+  "version": 102,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-11-05T11:41:50.068Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "YEssPNB14",
+              "type": "blocks",
+              "title": "Block Film del momento"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 14,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 11,
+          "items": [
+            {
+              "id": "pdYDSoG5m0",
+              "type": "rules",
+              "title": "Rule Content Channel Mplay Infinity Noleggio"
+            },
+            {
+              "id": "83txjtJm",
+              "type": "rules",
+              "title": "Rule Tipologia Film"
+            },
+            {
+              "id": "Qs0Vux5WH_",
+              "type": "rules",
+              "title": "Rule Editorial Type Movie"
+            },
+            {
+              "id": "BWeiHNstQ",
+              "type": "rules",
+              "title": "Rule  Anno Produzione over 2020"
+            },
+            {
+              "id": "RqBahOBRSz",
+              "type": "rules",
+              "title": "Rule etichetta editoriale Top"
+            },
+            {
+              "id": "tBRJIJKy3",
+              "type": "rules",
+              "title": "Rule Etichetta editoriale Infinity Lab"
+            },
+            {
+              "id": "LKRG4VUSN",
+              "type": "rules",
+              "title": "Blacklist La casa tra le montagne"
+            },
+            {
+              "id": "tKzTMaP6Q",
+              "type": "rules",
+              "title": "Rule Film Blockbuster"
+            },
+            {
+              "id": "wfBy1paHlb",
+              "type": "rules",
+              "title": "Rule Channel Infinity"
+            },
+            {
+              "id": "IyDzyntfi",
+              "type": "rules",
+              "title": "Rule Channel Noleggio"
+            },
+            {
+              "id": "SXyaET7iz2",
+              "type": "rules",
+              "title": "Rule Order By Most Recent Always"
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 3,
+          "items": [
+            {
+              "id": "TuAyi0elu",
+              "type": "rulesPresets",
+              "title": "Preset SearchVisible e FrontEnd Visible True"
+            },
+            {
+              "id": "KhQ3IziFJ",
+              "type": "rulesPresets",
+              "title": "Preset Video format exclude 4K"
+            },
+            {
+              "id": "ZRorAbL96Q",
+              "type": "rulesPresets",
+              "title": "Preset Blacklist"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "uselessMultiplier": false,
+  "metadataOverrides": {}
+}

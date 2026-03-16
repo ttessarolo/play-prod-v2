@@ -1,0 +1,59 @@
+{
+  "title": "Rule Genere mcm Talent show e Reality show",
+  "description": "",
+  "contentType": "video",
+  "clauses": [
+    "filter",
+    "boost"
+  ],
+  "rule": [
+    {
+      "condition": "*",
+      "boost": 1,
+      "type": "I2I",
+      "_id": "_C6USIfHUi",
+      "listTermsId": "WDfjG5DhF",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      },
+      "field": "genere_mcm",
+      "fieldDBType": "keyword",
+      "queryType": "listTermsId",
+      "value": "WDfjG5DhF",
+      "valueType": "list",
+      "API": "V2"
+    }
+  ],
+  "field": "genere_mcm",
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": [
+          "WDfjG5DhF"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "xmIlupiAS",
+          "NTAbYMbvb",
+          "gZLBaGLkr"
+        ]
+      }
+    ]
+  },
+  "id": "AlCYTEPhW",
+  "version": 2,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2020-12-17T19:13:24.354Z"
+  }
+}

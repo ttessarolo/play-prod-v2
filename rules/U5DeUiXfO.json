@@ -1,0 +1,281 @@
+{
+  "title": "Rule Search title e Search people Prefix",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "multiType": "bool_prefix",
+      "fuzziness": "1",
+      "operator": "AND",
+      "tie_breaker": "1",
+      "minimum_should_match": "0",
+      "fuzzy_transpositions": true,
+      "API": "V2",
+      "condition": "(!isEmpty(query_all))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "!isEmpty",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "query_all"
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ],
+            "id": "m4aHC_IetO"
+          }
+        ]
+      },
+      "boost": 5,
+      "type": "",
+      "value": "query_all",
+      "valueType": "metadata",
+      "queryType": "matchMulti",
+      "field": [
+        {
+          "value": "title",
+          "boost": "10"
+        },
+        {
+          "value": "search_title",
+          "boost": 1
+        },
+        {
+          "value": "search_title._2gram",
+          "boost": 1
+        },
+        {
+          "value": "search_title._3gram",
+          "boost": 1
+        },
+        {
+          "value": "search_title._4gram",
+          "boost": 1
+        }
+      ],
+      "fieldNested": 0,
+      "fieldDBType": "search_as_you_type",
+      "_id": "iFJKtgUxj",
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "multiType": "bool_prefix",
+      "fuzziness": "1",
+      "operator": "AND",
+      "minimum_should_match": "0",
+      "API": "V2",
+      "condition": "(!isEmpty(query_all))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "!isEmpty",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "query_all"
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ],
+            "id": "FWdiPR08cA"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "query_all",
+      "valueType": "metadata",
+      "queryType": "matchMulti",
+      "field": [
+        {
+          "value": "search_people",
+          "boost": 1
+        },
+        {
+          "value": "search_people._2gram",
+          "boost": 1
+        },
+        {
+          "value": "search_people._3gram",
+          "boost": 1
+        },
+        {
+          "value": "search_people._4gram",
+          "boost": 1
+        }
+      ],
+      "fieldNested": 0,
+      "fieldDBType": "search_as_you_type",
+      "_id": "CcVL1FnUV",
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "fuzziness": "AUTO",
+      "API": "V2",
+      "condition": "(!isEmpty(query_all))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "!isEmpty",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "query_all"
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ],
+            "id": "FWdiPR08cA"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "query_all",
+      "valueType": "metadata",
+      "queryType": "similarTo",
+      "field": "genere_mcm",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "WJTNh0PtyN",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "clauses": [
+    "include"
+  ],
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "ds8pLOaGO",
+          "wwG2hSMIC",
+          "Dn18Iwv7To",
+          "B0YMoSONb",
+          "O43LrW3K3",
+          "ZsxcVJ4cb",
+          "CGFfVq3sX",
+          "DB7Fg4hfA",
+          "Z4Xzab9uO0",
+          "zzovQgZgg"
+        ]
+      }
+    ]
+  },
+  "id": "U5DeUiXfO",
+  "version": 14,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-07-03T09:33:20.030Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 10,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 10,
+          "items": [
+            {
+              "id": "ds8pLOaGO",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "wwG2hSMIC",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "Dn18Iwv7To",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "B0YMoSONb",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "O43LrW3K3",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "ZsxcVJ4cb",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "CGFfVq3sX",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "DB7Fg4hfA",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "Z4Xzab9uO0",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "zzovQgZgg",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": []
+}

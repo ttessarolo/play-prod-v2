@@ -1,0 +1,27 @@
+{
+  "title": "Lista subbrand ID dei TG",
+  "description": "Comprende i subbrand di TG 4, TG 5, Studio Aperto e TgCom24",
+  "type": "contentId",
+  "contentType": "video",
+  "realm": "content",
+  "elements": [
+    "9910595",
+    "9900597",
+    "9890596",
+    "9870324"
+  ],
+  "id": "nU83J6Hqs",
+  "version": 1,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-03-29T16:52:25.022Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "rules",
+        "items": []
+      }
+    ]
+  }
+}

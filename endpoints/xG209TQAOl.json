@@ -1,0 +1,261 @@
+{
+  "id": "xG209TQAOl",
+  "active": true,
+  "title": "filmClustering",
+  "description": "",
+  "reference": "filmClustering",
+  "propertyId": "zlqQNxLcGh",
+  "blockId": "R9DA4iBBnw",
+  "variants": [
+    {
+      "blockId": "D0STFPk3S",
+      "condition": "(!isEmpty(unifiedClusterId) && is(isOutlier, false))",
+      "priority": 1,
+      "active": true,
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "!isEmpty",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "unifiedClusterId"
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ],
+            "id": "d1jUCNDpBf"
+          },
+          {
+            "id": "-XgYk9pDI",
+            "operator": "is",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "isOutlier"
+              },
+              {
+                "value": "false",
+                "type": "boolean"
+              }
+            ]
+          }
+        ]
+      },
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "blockId": "C8LfLLdpg",
+      "condition": "(!isEmpty(unifiedClusterId) && is(isOutlier, true))",
+      "priority": 1,
+      "active": true,
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "!isEmpty",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "unifiedClusterId"
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ],
+            "id": "gbpXlyShkI"
+          },
+          {
+            "id": "lB9Hc5m8u",
+            "operator": "is",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "isOutlier"
+              },
+              {
+                "value": "true",
+                "type": "boolean"
+              }
+            ]
+          }
+        ]
+      },
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "params": {
+    "timeout": 2500,
+    "cacheConfig": {
+      "cache": 1,
+      "cacheTTL": 43200,
+      "cachePrefix": {
+        "group": true,
+        "static": "endpoint",
+        "keys": []
+      },
+      "computeKeys": [
+        "startBlock",
+        "endBlock",
+        "unifiedClusterId"
+      ]
+    },
+    "inveverseCacheConfig": {
+      "cacheTTL": 43200
+    },
+    "userIdFields": {
+      "active": true,
+      "fields": [
+        "unifiedClusterId"
+      ]
+    }
+  },
+  "paramsId": "playDefault",
+  "input": {
+    "decorators": [
+      "GEifuOt9g"
+    ]
+  },
+  "output": {
+    "decorators": [
+      "mU5ep6Aze"
+    ],
+    "filters": {
+      "maxFilterPercentage": 100
+    }
+  },
+  "version": 40,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2025-07-23T10:53:08.910Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "experiments",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "UzsmyaqtN"
+        ]
+      }
+    ],
+    "require": [
+      {
+        "type": "blocks",
+        "items": [
+          "R9DA4iBBnw",
+          "D0STFPk3S",
+          "C8LfLLdpg"
+        ]
+      },
+      {
+        "type": "params",
+        "items": [
+          "playDefault"
+        ]
+      },
+      {
+        "type": "decorators",
+        "items": [
+          "GEifuOt9g",
+          "mU5ep6Aze"
+        ]
+      },
+      {
+        "type": "conversionPacks",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "pages",
+          "count": 1,
+          "items": [
+            {
+              "variantId": "UzsmyaqtN",
+              "variantTitle": "",
+              "propertyId": "zlqQNxLcGh",
+              "propertyTitle": "",
+              "endpointId": "vTODt8afF"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 6,
+      "types": 4,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 3,
+          "items": [
+            {
+              "id": "R9DA4iBBnw",
+              "type": "blocks",
+              "title": ""
+            },
+            {
+              "id": "D0STFPk3S",
+              "type": "blocks",
+              "title": ""
+            },
+            {
+              "id": "C8LfLLdpg",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "params",
+          "count": 1,
+          "items": [
+            {
+              "id": "playDefault",
+              "type": "params",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "decorators",
+          "count": 2,
+          "items": [
+            {
+              "id": "GEifuOt9g",
+              "type": "decorators",
+              "title": ""
+            },
+            {
+              "id": "mU5ep6Aze",
+              "type": "decorators",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "conversionPacks",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "prevReference": "filmClustering",
+  "haveScheduledVariants": false,
+  "paginateFromCache": true,
+  "enableAnalitica": true
+}

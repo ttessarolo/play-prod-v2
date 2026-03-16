@@ -1,0 +1,32 @@
+{
+  "contentType": "video",
+  "type": "text",
+  "elements": [
+    "Serie",
+    "TVSeason"
+  ],
+  "title": "List Editorlial Type Serie e Stagioni",
+  "description": "",
+  "id": "PBjMuSOz7m",
+  "version": 4,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-09-07T09:19:01.095Z"
+  },
+  "refs": {
+    "belongs": []
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  },
+  "realm": "content"
+}

@@ -1,0 +1,145 @@
+{
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "kTr99U6ZL"
+    },
+    {
+      "id": "tBRJIJKy3"
+    }
+  ],
+  "exclude": [],
+  "include": [],
+  "boost": [],
+  "order": [
+    {
+      "id": "kOlQwmT1A"
+    },
+    {
+      "id": "SXyaET7iz2"
+    }
+  ],
+  "realm": "content",
+  "title": "INF Infinity Lab",
+  "description": "",
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "kTr99U6ZL",
+          "tBRJIJKy3",
+          "kOlQwmT1A",
+          "SXyaET7iz2"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "ZRorAbL96Q",
+          "KhQ3IziFJ"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "c0qbs8cbou"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1,
+    "filterOperator": "and",
+    "tieBreakerFilter": 0.9
+  },
+  "id": "qxgXjcp0f",
+  "version": 16,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2024-04-16T08:39:25.365Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "c0qbs8cbou",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 6,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 4,
+          "items": [
+            {
+              "id": "kTr99U6ZL",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "tBRJIJKy3",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "o2DuTfJ4A",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "UBHhEpnBa",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 2,
+          "items": [
+            {
+              "id": "ZRorAbL96Q",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "KhQ3IziFJ",
+              "type": "rulesPresets",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "uselessMultiplier": false,
+  "metadataOverrides": {},
+  "presets": {
+    "exclude": [
+      {
+        "id": "ZRorAbL96Q"
+      },
+      {
+        "id": "KhQ3IziFJ"
+      }
+    ]
+  }
+}

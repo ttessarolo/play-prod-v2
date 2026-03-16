@@ -1,0 +1,74 @@
+{
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "hcoUNChdN"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "Religione",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "tematismigenerediegetico",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "LgCkVpkSI_"
+    }
+  ],
+  "clauses": [
+    "filter",
+    "exclude"
+  ],
+  "title": "Rule Tematismi Genere Diegetico match Religione",
+  "description": "",
+  "id": "F6T9P4GQ6",
+  "version": 1,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-06-03T11:04:08.978Z"
+  }
+}

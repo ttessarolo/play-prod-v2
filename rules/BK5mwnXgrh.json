@@ -1,0 +1,89 @@
+{
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "Gs2DZhmnXF"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "Fa morire dal ridere",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "mood",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "ond2zBVjjL"
+    },
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "Scacciapensieri evasivo",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "mood",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "lZ1bgig5JR"
+    }
+  ],
+  "clauses": [
+    "filter",
+    "exclude"
+  ],
+  "title": "Rule Mood match Fa morire del ridere o Scacciapensieri",
+  "description": "",
+  "id": "BK5mwnXgrh",
+  "version": 4,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-06-03T10:32:13.435Z"
+  },
+  "grouped": true,
+  "operator": "or"
+}

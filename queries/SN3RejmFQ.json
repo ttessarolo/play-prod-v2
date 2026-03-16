@@ -1,0 +1,168 @@
+{
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "ju06OqIgO"
+    },
+    {
+      "id": "CHueCEIvSV"
+    },
+    {
+      "id": "kTr99U6ZL"
+    },
+    {
+      "id": "fknyNP0OE"
+    }
+  ],
+  "exclude": [
+    {
+      "id": "n1PFC8Cdd"
+    }
+  ],
+  "include": [],
+  "boost": [],
+  "order": [
+    {
+      "id": "o2DuTfJ4A"
+    }
+  ],
+  "realm": "content",
+  "title": "Query Multiple Block Documentari genere Primario",
+  "description": "Multiple Block Documentari",
+  "presets": {
+    "filter": [
+      {
+        "id": "ur0WldwQk"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "ZRorAbL96Q"
+      },
+      {
+        "id": "KhQ3IziFJ"
+      }
+    ]
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "ju06OqIgO",
+          "CHueCEIvSV",
+          "kTr99U6ZL",
+          "fknyNP0OE",
+          "n1PFC8Cdd",
+          "o2DuTfJ4A"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "ur0WldwQk",
+          "ZRorAbL96Q",
+          "KhQ3IziFJ"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "ywdQ5O6c9"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "id": "SN3RejmFQ",
+  "version": 19,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2023-09-25T12:36:50.686Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "ywdQ5O6c9",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 8,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 5,
+          "items": [
+            {
+              "id": "ju06OqIgO",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "CHueCEIvSV",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "kTr99U6ZL",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "fknyNP0OE",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "n1PFC8Cdd",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 3,
+          "items": [
+            {
+              "id": "ur0WldwQk",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "ZRorAbL96Q",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "KhQ3IziFJ",
+              "type": "rulesPresets",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "metadataOverrides": {},
+  "uselessMultiplier": false
+}

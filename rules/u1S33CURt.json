@@ -1,0 +1,129 @@
+{
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "(contains(genere_mcm, \"Family\") || contains(genere_mcm, \"Animazione\"))",
+      "conditionRaw": {
+        "or": [
+          {
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "genere_mcm"
+              },
+              {
+                "value": "\"Family\"",
+                "type": "string"
+              }
+            ],
+            "id": "15V8AFxN3n"
+          },
+          {
+            "id": "VyAQDSkJ0H7",
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "genere_mcm"
+              },
+              {
+                "value": "\"Animazione\"",
+                "type": "string"
+              }
+            ]
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "WH1SunE5cQ",
+      "valueType": "list",
+      "queryType": "listTermsId",
+      "field": "genere_mcm",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "pYSomshvV",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "clauses": [
+    "exclude"
+  ],
+  "title": "Rule Exclude Horror e Thriller da Family e Animazione",
+  "description": "",
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": [
+          "WH1SunE5cQ"
+        ]
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "MH1tGzFfW",
+          "hpyoLcJCQ"
+        ]
+      }
+    ]
+  },
+  "id": "u1S33CURt",
+  "version": 21,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2023-01-24T13:52:16.314Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 1,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 1,
+          "items": [
+            {
+              "id": "WH1SunE5cQ",
+              "type": "lists",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "content": true
+  },
+  "searchMetadata": [
+    "request",
+    "content"
+  ],
+  "includedMetadata": [
+    "content"
+  ]
+}

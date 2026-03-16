@@ -1,0 +1,227 @@
+{
+  "title": "Block Default Search Stagioni",
+  "description": "",
+  "results": {
+    "flatAllBlocks": true,
+    "min": 0,
+    "fallbackBlockId": "P0csRsOt7",
+    "max": 20,
+    "deduplicateFlattedResults": true
+  },
+  "blocks": [
+    {
+      "_id": "GWHpcH8_A8",
+      "condition": "(contains(params_channel, \"Infinity\"))",
+      "title": "Serie tv pay di copertura",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 10,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true
+      },
+      "queryId": "uSnnVTcnV",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "params_channel"
+              },
+              {
+                "value": "\"Infinity\"",
+                "type": "string"
+              }
+            ],
+            "id": "FYeQL72fTN"
+          }
+        ]
+      },
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "condition": "*",
+      "title": "Default Search Stagioni",
+      "type": "query",
+      "_id": "vl3qCOLCl",
+      "pinned": true,
+      "results": {
+        "max": 30,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "fallbackBlockId": "P0csRsOt7"
+      },
+      "queryId": "xmIlupiAS",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      }
+    }
+  ],
+  "canBeFallback": false,
+  "refs": {
+    "require": [
+      {
+        "type": "queries",
+        "items": [
+          "uSnnVTcnV",
+          "xmIlupiAS"
+        ]
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "P0csRsOt7"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": [
+          "eOaXizx_"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "Ds5x4fEbu",
+          "hkkMHxGOH",
+          "z70Kc2ebp",
+          "L76fYrB3A",
+          "AeDBbaF42"
+        ]
+      }
+    ]
+  },
+  "id": "V8fuaquogZ",
+  "version": 9,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-04-08T14:05:57.836Z"
+  },
+  "enabledPagesId": [
+    "rrjMTUmyqd",
+    "xGMz3ReD9",
+    "ltODLqOFg",
+    "Gw6akjKa4a",
+    "Tac2Yo4sw",
+    "TxAPvbnJPh",
+    "yQ56vvGMJ",
+    "sLjPQCenp"
+  ],
+  "refsComputed": {
+    "belongs": {
+      "total": 3,
+      "types": 3,
+      "items": [
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "pages",
+          "count": 1,
+          "items": [
+            {
+              "variantId": "z70Kc2ebp",
+              "variantTitle": "infSearchedSerie",
+              "propertyId": "rrjMTUmyqd",
+              "propertyTitle": "search",
+              "endpointId": "Tac2Yo4sw",
+              "endpointTitle": "detail"
+            }
+          ]
+        },
+        {
+          "type": "blocks",
+          "count": 3,
+          "items": [
+            {
+              "id": "Ds5x4fEbu",
+              "type": "blocks",
+              "title": "Default"
+            },
+            {
+              "id": "hkkMHxGOH",
+              "type": "blocks",
+              "title": "infDefault"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 4,
+      "types": 4,
+      "items": [
+        {
+          "type": "queries",
+          "count": 2,
+          "items": [
+            {
+              "id": "uSnnVTcnV",
+              "type": "queries",
+              "title": "INF Serie TV in Prima TV Pay "
+            },
+            {
+              "id": "xmIlupiAS",
+              "type": "queries",
+              "title": "Query Default Search Stagioni"
+            }
+          ]
+        },
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "P0csRsOt7",
+              "type": "blocks",
+              "title": "Block published flag not exists"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 1,
+          "items": [
+            {
+              "id": "eOaXizx_",
+              "type": "responseFields",
+              "title": "PLAY-PROD-VIDEO-MINIMAL-SET"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "realm": "content"
+}

@@ -1,0 +1,299 @@
+{
+  "contentType": "video",
+  "title": "Rule Channel Infinity",
+  "description": "Keep Only Contenuti con contents_channels = Infinity",
+  "clauses": [
+    "filter",
+    "exclude",
+    "include",
+    "boost"
+  ],
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "I2I",
+      "value": "Infinity",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "content_channels",
+      "fieldDBType": "text",
+      "_id": "SllVW2XnFL"
+    }
+  ],
+  "field": "content_channels",
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "rAoCaKtAs",
+          "Fey8TGWHzd",
+          "qLHnIzGLeb",
+          "_v4wfuHNr",
+          "Bmmb_X6oxW",
+          "s820x60ap",
+          "nfx18gJXx",
+          "xe_zUdYnf",
+          "toSpu6fdu",
+          "Ae2BOByZ_",
+          "c_R2PteO7",
+          "IUd_q_ixKj",
+          "Ctw5PvR1Gw",
+          "uSnnVTcnV",
+          "h0DYFqNjp",
+          "kz55YrMHS",
+          "yNmdifMzM",
+          "qOqWHDpaC",
+          "M4d1BL7df",
+          "cOZWtR5QFk",
+          "wZl6yRICv",
+          "b20L6V_Cz",
+          "VPCz1frwh",
+          "bGHIfOpkw",
+          "M9xhdzkJvY",
+          "XfBmXeGEp",
+          "WQk9TX6Gz",
+          "xMecDK8KF",
+          "M6znVT4rI",
+          "NHBn8poSz",
+          "VSuWQgZ1N",
+          "rOiEnU9mH",
+          "HmTQKuI0C",
+          "e5VXFM3VPh",
+          "osVzkbq1f",
+          "eYE4Fz7jp",
+          "Jt4Mp8mym",
+          "ZqCof5t6v",
+          "S5KdN0aRZ",
+          "UxPXwvjeT",
+          "OgvJP6sKX",
+          "N8t6D3FZ4",
+          "UCdpGCh1t",
+          "OcoPuWrqc",
+          "hHiEPD3VA",
+          "qvElOyEJp",
+          "kKhWTOyyV",
+          "QjDChd7Me6",
+          "fMmnBcAQu",
+          "zfs8imRPC",
+          "z4MPOa9pk",
+          "PLoyvOPfa",
+          "GlYZ7gHyu",
+          "WsemoIM4gy",
+          "MJzBv2QWIR",
+          "P5zLtqY7y",
+          "W5sbCv_X34",
+          "xnz0Td37UZ",
+          "Qe21Wmp77",
+          "L98tra9vYX",
+          "NEK9dSz9wd",
+          "jbqEWnxe6",
+          "DViHOhZEw",
+          "XOjkpzI6h6",
+          "lhIROrPmV",
+          "A4Euag_hG",
+          "R5PS0xUQI",
+          "dJb9mqV8A",
+          "GgHM9VBc7",
+          "jDZGfzgiS",
+          "BqU9dngUa",
+          "W_8SLCb67",
+          "GkNrNIlbf",
+          "PpbsNF8Nw"
+        ]
+      }
+    ]
+  },
+  "id": "wfBy1paHlb",
+  "version": 17,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-06-16T10:33:00.766Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 28,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 28,
+          "items": [
+            {
+              "id": "_ehOPN5ih",
+              "type": "queries",
+              "title": "INF Generi per Parametri Film Blocco 1"
+            },
+            {
+              "id": "rAoCaKtAs",
+              "type": "queries",
+              "title": "INF Generi per Parametri Film Blocco 2"
+            },
+            {
+              "id": "Fey8TGWHzd",
+              "type": "queries",
+              "title": "INF Most recent Film"
+            },
+            {
+              "id": "qLHnIzGLeb",
+              "type": "queries",
+              "title": "INF Film In scadenza"
+            },
+            {
+              "id": "Z5PVWp8fG",
+              "type": "queries",
+              "title": "Query Fiction e Soap Blocco 3"
+            },
+            {
+              "id": "rkiCo37Zx",
+              "type": "queries",
+              "title": "Query Fiction e Soap Blocco 1"
+            },
+            {
+              "id": "_v4wfuHNr",
+              "type": "queries",
+              "title": "Query Fiction e Soap Blocco 2"
+            },
+            {
+              "id": "Bmmb_X6oxW",
+              "type": "queries",
+              "title": "Query Fiction e Soap Blocco 4"
+            },
+            {
+              "id": "s820x60ap",
+              "type": "queries",
+              "title": "INF Film Blockbuster Cult"
+            },
+            {
+              "id": "nfx18gJXx",
+              "type": "queries",
+              "title": "INF Stagioni Serie TV in Prima TV Pay"
+            },
+            {
+              "id": "xe_zUdYnf",
+              "type": "queries",
+              "title": "INF Generi per Parametri Serie Blocco 2"
+            },
+            {
+              "id": "toSpu6fdu",
+              "type": "queries",
+              "title": "INF Serie Top viewed 24H"
+            },
+            {
+              "id": "Ae2BOByZ_",
+              "type": "queries",
+              "title": "INF Serie Documentari Most recent"
+            },
+            {
+              "id": "CS0sNrcco",
+              "type": "queries",
+              "title": "INF Stagioni GOT 4K"
+            },
+            {
+              "id": "c_R2PteO7",
+              "type": "queries",
+              "title": "INF Film di Animazione"
+            },
+            {
+              "id": "IUd_q_ixKj",
+              "type": "queries",
+              "title": "INF Film Family"
+            },
+            {
+              "id": "Ctw5PvR1Gw",
+              "type": "queries",
+              "title": "INF Film Infinity Top Blockbuster"
+            },
+            {
+              "id": "sDmAYxCfr",
+              "type": "queries",
+              "title": "Query Film Mediaset Play Top Blockbuster"
+            },
+            {
+              "id": "uSnnVTcnV",
+              "type": "queries",
+              "title": "INF Serie TV in Prima TV Pay "
+            },
+            {
+              "id": "h0DYFqNjp",
+              "type": "queries",
+              "title": "INF Generi per Parametri Serie Blocco 1"
+            },
+            {
+              "id": "kz55YrMHS",
+              "type": "queries",
+              "title": "INF Film Più visti 24h"
+            },
+            {
+              "id": "yNmdifMzM",
+              "type": "queries",
+              "title": "INF Film Più visti 7 giorni"
+            },
+            {
+              "id": "pNmPWjxre",
+              "type": "queries",
+              "title": "Query Fiction e Serie TV del momento Blocco 5"
+            },
+            {
+              "id": "qOqWHDpaC",
+              "type": "queries",
+              "title": "Query Fiction e Serie TV del momento Blocco 1"
+            },
+            {
+              "id": "M4d1BL7df",
+              "type": "queries",
+              "title": "Query Enabler Fiction e Soap Blocco 3"
+            },
+            {
+              "id": "ZWp_WOb5a3",
+              "type": "queries",
+              "title": "Query Enabler Fiction e Soap Blocco 4"
+            },
+            {
+              "id": "cOZWtR5QFk",
+              "type": "queries",
+              "title": "Query Fiction e Serie TV del momento Blocco 2"
+            },
+            {
+              "id": "wZl6yRICv",
+              "type": "queries",
+              "title": "Query Film del momento Mplay Infinity Noleggio"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 1,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "realm": "content",
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": []
+}

@@ -1,0 +1,224 @@
+{
+  "title": "Rule Top Blockbuster Publication date",
+  "description": "Quattro statements in or \nBlockbuster \nproductionvalue \netichetta Top\nAnnoproduzione over 2015 \nPublication date range now",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": [
+              {
+                "type": "metadata",
+                "value": ""
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ],
+            "id": "oHKrUuXRX_"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "Blockbuster",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "categoriecritichestoriche",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "IybREig55",
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "greaterOperator": "gte",
+      "API": "V2",
+      "condition": "*",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": [
+              {
+                "type": "metadata",
+                "value": ""
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ],
+            "id": "oHKrUuXRX_"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "2015",
+      "valueType": "freeText",
+      "queryType": "greaterValue",
+      "field": "annoproduzione",
+      "fieldNested": 0,
+      "fieldDBType": "date",
+      "_id": "gZrrc9csu",
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "API": "V2",
+      "condition": "*",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": [
+              {
+                "type": "metadata",
+                "value": ""
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ],
+            "id": "oHKrUuXRX_"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "",
+      "valueType": "",
+      "queryType": "checkExists",
+      "field": "fattoriproductionvalue",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "MpdEm2_m3",
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "API": "V2",
+      "condition": "*",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": [
+              {
+                "type": "metadata",
+                "value": ""
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ],
+            "id": "oHKrUuXRX_"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "Top",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "etichetteEditoriali",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "CH_RDInwz",
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "range": 2,
+      "period": "M",
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "when_now",
+      "valueType": "metadata",
+      "queryType": "range",
+      "field": "publication_date",
+      "fieldNested": 0,
+      "fieldDBType": "date",
+      "_id": "dGTXzajXg"
+    }
+  ],
+  "clauses": [
+    "include"
+  ],
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "smEuLKmQtT",
+          "d5BIIowCX",
+          "kiw8qXocC"
+        ]
+      }
+    ]
+  },
+  "id": "w_A5RtTR9",
+  "version": 10,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-04-02T17:03:08.177Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 2,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 2,
+          "items": [
+            {
+              "id": "_ehOPN5ih",
+              "type": "queries",
+              "title": "INF Generi per Parametri Film Blocco 1"
+            },
+            {
+              "id": "smEuLKmQtT",
+              "type": "queries",
+              "title": "TVOD Generi per Parametri Film Blocco 1"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 1,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "time": true
+  }
+}

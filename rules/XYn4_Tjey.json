@@ -1,0 +1,65 @@
+{
+  "title": " Rule Anno Produzione over 2005",
+  "description": "",
+  "contentType": "video",
+  "clauses": [
+    "filter",
+    "boost"
+  ],
+  "rule": [
+    {
+      "condition": "*",
+      "boost": 1,
+      "type": "I2I",
+      "_id": "B1xY2tUCky",
+      "greaterValue": "2005-01-01T00:00:00.000Z",
+      "greaterOperator": "gte",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      },
+      "field": "annoproduzione",
+      "fieldDBType": "date",
+      "queryType": "greaterValue",
+      "value": "2005-01-01T00:00:00.000Z",
+      "valueType": "date",
+      "API": "V2"
+    }
+  ],
+  "field": "annoproduzione",
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "c_R2PteO7",
+          "IUd_q_ixKj",
+          "osVzkbq1f",
+          "GgHM9VBc7",
+          "jDZGfzgiS",
+          "BqU9dngUa"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": []
+      }
+    ]
+  },
+  "id": "XYn4_Tjey",
+  "version": 2,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2020-11-30T16:09:38.928Z"
+  }
+}

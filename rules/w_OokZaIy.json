@@ -1,0 +1,80 @@
+{
+  "title": "Rule Subbrand Id Partite intere Champions League",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "SoEqx3095",
+      "valueType": "list",
+      "queryType": "listTermsId",
+      "field": "subbrand_id",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "LbJjAGkBe"
+    }
+  ],
+  "clauses": [
+    "filter",
+    "exclude"
+  ],
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": [
+          "SoEqx3095"
+        ]
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": []
+      }
+    ]
+  },
+  "id": "w_OokZaIy",
+  "version": 10,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2022-09-13T08:50:33.454Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 1,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 1,
+          "items": [
+            {
+              "id": "SoEqx3095",
+              "type": "lists",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  }
+}

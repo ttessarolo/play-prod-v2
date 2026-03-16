@@ -1,0 +1,110 @@
+{
+  "title": "INF CodiceF presente",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "iHi81BYTF"
+    }
+  ],
+  "exclude": [],
+  "include": [],
+  "boost": [],
+  "order": [],
+  "realm": "content",
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "iHi81BYTF"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "dHLUD0MQs"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "id": "Vt4nvO2n3",
+  "version": 4,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-03-18T18:55:16.537Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "EQJhlR0N7",
+              "type": "blocks",
+              "title": "INF Most Recent Film"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 5,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 5,
+          "items": [
+            {
+              "id": "wfBy1paHlb",
+              "type": "rules",
+              "title": "Rule Channel Infinity"
+            },
+            {
+              "id": "83txjtJm",
+              "type": "rules",
+              "title": "Rule Tipologia Film"
+            },
+            {
+              "id": "Qs0Vux5WH_",
+              "type": "rules",
+              "title": "Rule Editorial Type Movie"
+            },
+            {
+              "id": "ju06OqIgO",
+              "type": "rules",
+              "title": "Rule Channel Mediaset Play"
+            },
+            {
+              "id": "fnNa_WKV",
+              "type": "rules",
+              "title": "Rule Order By Most Recent"
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "metadataOverrides": {}
+}

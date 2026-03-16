@@ -1,0 +1,215 @@
+{
+  "id": "nyMd3k9ed",
+  "active": true,
+  "title": "multipleBlockCompleanno",
+  "description": "",
+  "reference": "multipleBlockDemCompleanno",
+  "propertyId": "zlqQNxLcGh",
+  "blockId": "Q7H3gYrrMH",
+  "variants": [
+    {
+      "blockId": "thJULhcXoc",
+      "condition": "(!isEmpty(unifiedClusterId) && !equals(id_season_st, \"ST000000004480\"))",
+      "priority": 1,
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "!isEmpty",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "unifiedClusterId"
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ],
+            "id": "wR0Qjr-vSW"
+          },
+          {
+            "id": "EGB_YeDsU",
+            "operator": "!equals",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "id_season_st"
+              },
+              {
+                "value": "\"ST000000004480\"",
+                "type": "freeText"
+              }
+            ]
+          }
+        ]
+      },
+      "scheduled": false,
+      "scheduling": [],
+      "active": false
+    },
+    {
+      "blockId": "hb1B41JYe",
+      "condition": "(equals(id_season_st, \"ST000000004480\"))",
+      "priority": 1,
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "equals",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "id_season_st"
+              },
+              {
+                "value": "\"ST000000004480\"",
+                "type": "freeText"
+              }
+            ],
+            "id": "wR0Qjr-vSW"
+          }
+        ]
+      },
+      "scheduled": false,
+      "scheduling": [],
+      "active": true
+    }
+  ],
+  "params": {
+    "timeout": 3000,
+    "cacheConfig": {
+      "cache": 1,
+      "cacheTTL": 3600,
+      "cachePrefix": {
+        "group": true,
+        "static": "endpoint",
+        "keys": []
+      },
+      "computeKeys": [
+        "startBlock",
+        "endBlock",
+        "contentId",
+        "userId",
+        "context"
+      ]
+    },
+    "userIdFields": {
+      "active": false,
+      "fields": []
+    },
+    "inveverseCacheConfig": {
+      "cacheTTL": 3600
+    }
+  },
+  "paramsId": "playDefault",
+  "input": {
+    "decorators": []
+  },
+  "output": {
+    "decorators": [
+      "mU5ep6Aze"
+    ],
+    "filters": {
+      "maxFilterPercentage": 100
+    }
+  },
+  "version": 66,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2025-05-14T14:29:51.959Z"
+  },
+  "refs": {
+    "belongs": [],
+    "require": [
+      {
+        "type": "blocks",
+        "items": [
+          "Q7H3gYrrMH",
+          "thJULhcXoc",
+          "hb1B41JYe"
+        ]
+      },
+      {
+        "type": "params",
+        "items": [
+          "playDefault"
+        ]
+      },
+      {
+        "type": "decorators",
+        "items": [
+          "mU5ep6Aze"
+        ]
+      },
+      {
+        "type": "conversionPacks",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 5,
+      "types": 4,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 3,
+          "items": [
+            {
+              "id": "Q7H3gYrrMH",
+              "type": "blocks"
+            },
+            {
+              "id": "thJULhcXoc",
+              "type": "blocks"
+            },
+            {
+              "id": "hb1B41JYe",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "params",
+          "count": 1,
+          "items": [
+            {
+              "id": "playDefault",
+              "type": "params"
+            }
+          ]
+        },
+        {
+          "type": "decorators",
+          "count": 1,
+          "items": [
+            {
+              "id": "mU5ep6Aze",
+              "type": "decorators"
+            }
+          ]
+        },
+        {
+          "type": "conversionPacks",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "haveScheduledVariants": 0,
+  "prevReference": "multipleBlockDemCompleanno",
+  "paginateFromCache": true,
+  "property": "play",
+  "sortKey": "play multipleBlockCompleanno",
+  "enableAnalitica": true,
+  "variantsMetadata": {
+    "content": true
+  },
+  "contentType": "video"
+}

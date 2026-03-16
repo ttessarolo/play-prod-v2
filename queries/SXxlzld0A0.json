@@ -1,0 +1,121 @@
+{
+  "title": "SRC Default Search Video",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "_lqe9hGoC"
+    }
+  ],
+  "exclude": [],
+  "include": [],
+  "boost": [],
+  "order": [
+    {
+      "id": "A5n475YeR"
+    }
+  ],
+  "realm": "content",
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "_lqe9hGoC",
+          "A5n475YeR"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "TuAyi0elu",
+          "ZRorAbL96Q"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "Fxifzzkdw"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "id": "SXxlzld0A0",
+  "version": 4,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2023-01-24T10:17:44.826Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "Fxifzzkdw",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 3,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 2,
+          "items": [
+            {
+              "id": "_lqe9hGoC",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "A5n475YeR",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 1,
+          "items": [
+            {
+              "id": "ZRorAbL96Q",
+              "type": "rulesPresets",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "metadataOverrides": {},
+  "presets": {
+    "exclude": [
+      {
+        "id": "ZRorAbL96Q"
+      }
+    ],
+    "filter": [
+      {
+        "id": "TuAyi0elu"
+      }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "title": "Lista Editorial Type Clip Extra Anticipazioni Trailer",
+  "description": "",
+  "contentType": "video",
+  "type": "text",
+  "elements": [
+    "Clip",
+    "Extra",
+    "Riassunti",
+    "Trailer",
+    "Ricette"
+  ],
+  "id": "ctDzYcXKh",
+  "version": 5,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2022-08-31T16:00:05.067Z"
+  },
+  "refs": {
+    "belongs": []
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  },
+  "realm": "content"
+}

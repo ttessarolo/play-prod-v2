@@ -1,0 +1,181 @@
+{
+  "results": {
+    "min": 0,
+    "flatAllBlocks": true,
+    "fallbackBlockId": "P0csRsOt7",
+    "max": 100,
+    "deduplicateFlattedResults": true
+  },
+  "blocks": [
+    {
+      "_id": "RBWCZeGEf",
+      "condition": "*",
+      "title": "Multiple Block Documentari genere primario",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 8,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true
+      },
+      "queryId": "SN3RejmFQ"
+    },
+    {
+      "_id": "CFJfOwP_GQ",
+      "condition": "*",
+      "title": "Multiple Block Documentari",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 100,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "fallbackBlockId": "P0csRsOt7",
+        "skipOnEmpty": true
+      },
+      "queryId": "I4CroOsh9i"
+    }
+  ],
+  "title": "Block Multiple Block Documentari",
+  "description": "",
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "realm": "content",
+  "refs": {
+    "require": [
+      {
+        "type": "queries",
+        "items": [
+          "SN3RejmFQ",
+          "I4CroOsh9i"
+        ]
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "P0csRsOt7"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": [
+          "eOaXizx_"
+        ]
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "jAc6h3XPq",
+          "ekmyB30A9",
+          "yxizcpSjI"
+        ]
+      }
+    ]
+  },
+  "id": "ywdQ5O6c9",
+  "version": 3,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2022-05-17T10:56:13.692Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "jAc6h3XPq",
+              "type": "blocks",
+              "title": "Default"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 4,
+      "types": 6,
+      "items": [
+        {
+          "type": "queries",
+          "count": 2,
+          "items": [
+            {
+              "id": "SN3RejmFQ",
+              "type": "queries",
+              "title": "Query Multiple Block Documentari genere Primario"
+            },
+            {
+              "id": "I4CroOsh9i",
+              "type": "queries",
+              "title": "Query Multiple Block Documentari"
+            }
+          ]
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "P0csRsOt7",
+              "type": "blocks",
+              "title": "Block published flag not exists"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 1,
+          "items": [
+            {
+              "id": "eOaXizx_",
+              "type": "responseFields",
+              "title": "PLAY-PROD-VIDEO-MINIMAL-SET"
+            }
+          ]
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": []
+}

@@ -1,0 +1,287 @@
+{
+  "id": "TFmQYMIE8",
+  "active": true,
+  "title": "viewAllFilteredSearchParams",
+  "description": "",
+  "reference": "viewAllFilteredSearchParams",
+  "propertyId": "rrjMTUmyqd",
+  "blockId": "vwVWNItTb",
+  "variants": [],
+  "params": {
+    "timeout": 1500,
+    "cacheConfig": {
+      "cache": 1,
+      "cacheTTL": 1800,
+      "cachePrefix": {
+        "group": true,
+        "static": "endpoint",
+        "keys": []
+      },
+      "computeKeys": [
+        "startBlock",
+        "endBlock",
+        "context",
+        "params",
+        "query"
+      ]
+    },
+    "inveverseCacheConfig": {
+      "cacheTTL": 1800
+    }
+  },
+  "paramsId": "playDefault",
+  "input": {
+    "schema": {
+      "name": "Input Validation Schema",
+      "description": "ARES Request Params",
+      "type": "object",
+      "required": [
+        "query"
+      ],
+      "properties": {
+        "query": {
+          "type": "object",
+          "required": [
+            "tenant",
+            "uxReference"
+          ],
+          "properties": {
+            "tenant": {
+              "type": "string"
+            },
+            "uxReference": {
+              "type": "string"
+            },
+            "userId": {
+              "type": "string"
+            },
+            "userType": {
+              "type": "string"
+            },
+            "userGroup": {
+              "type": "string"
+            },
+            "deviceId": {
+              "type": "string"
+            },
+            "contentId": {
+              "type": "string"
+            },
+            "sessionId": {
+              "type": "string"
+            },
+            "context": {
+              "type": "string"
+            },
+            "query": {
+              "type": "string"
+            },
+            "startBlock": {
+              "type": "number"
+            },
+            "endBlock": {
+              "type": "number"
+            },
+            "page": {
+              "type": "number"
+            },
+            "hitsPerPage": {
+              "type": "number"
+            }
+          }
+        }
+      }
+    },
+    "decorators": [
+      "XIHg_DI92f"
+    ]
+  },
+  "output": {
+    "decorators": [
+      "mU5ep6Aze"
+    ],
+    "filters": {
+      "maxFilterPercentage": 100
+    }
+  },
+  "version": 7,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2023-10-31T13:53:19.085Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "zjMBeoafa8",
+          "l086tIljZ",
+          "Pil1XjlIgl",
+          "cVhuVOrhgW",
+          "pYHbnwL1Y",
+          "JjaawRIpD",
+          "Fkuq3OMlav",
+          "lbTpE9Ugz"
+        ]
+      }
+    ],
+    "require": [
+      {
+        "type": "blocks",
+        "items": [
+          "vwVWNItTb"
+        ]
+      },
+      {
+        "type": "params",
+        "items": [
+          "playDefault"
+        ]
+      },
+      {
+        "type": "decorators",
+        "items": [
+          "XIHg_DI92f",
+          "mU5ep6Aze"
+        ]
+      },
+      {
+        "type": "conversionPacks",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 8,
+      "types": 1,
+      "items": [
+        {
+          "type": "pages",
+          "count": 8,
+          "items": [
+            {
+              "variantId": "zjMBeoafa8",
+              "variantTitle": "Default Ricerca",
+              "propertyId": "rrjMTUmyqd",
+              "propertyTitle": "search",
+              "endpointId": "Y_T1DSbZ9",
+              "endpointTitle": "filteredSearch"
+            },
+            {
+              "variantId": "l086tIljZ",
+              "variantTitle": "Ricerca Tutti",
+              "propertyId": "rrjMTUmyqd",
+              "propertyTitle": "search",
+              "endpointId": "Y_T1DSbZ9",
+              "endpointTitle": "filteredSearch"
+            },
+            {
+              "variantId": "Pil1XjlIgl",
+              "variantTitle": "Ricerca Programmi e Serie",
+              "propertyId": "rrjMTUmyqd",
+              "propertyTitle": "search",
+              "endpointId": "Y_T1DSbZ9",
+              "endpointTitle": "filteredSearch"
+            },
+            {
+              "variantId": "cVhuVOrhgW",
+              "variantTitle": "Ricerca Film",
+              "propertyId": "rrjMTUmyqd",
+              "propertyTitle": "search",
+              "endpointId": "Y_T1DSbZ9",
+              "endpointTitle": "filteredSearch"
+            },
+            {
+              "variantId": "pYHbnwL1Y",
+              "variantTitle": "Ricerca Video",
+              "propertyId": "rrjMTUmyqd",
+              "propertyTitle": "search",
+              "endpointId": "Y_T1DSbZ9",
+              "endpointTitle": "filteredSearch"
+            },
+            {
+              "variantId": "JjaawRIpD",
+              "variantTitle": "Ricerca Gratis per te ",
+              "propertyId": "rrjMTUmyqd",
+              "propertyTitle": "search",
+              "endpointId": "Y_T1DSbZ9",
+              "endpointTitle": "filteredSearch"
+            },
+            {
+              "variantId": "Fkuq3OMlav",
+              "variantTitle": "Default Mediaset Italia",
+              "propertyId": "rrjMTUmyqd",
+              "propertyTitle": "search",
+              "endpointId": "Y_T1DSbZ9",
+              "endpointTitle": "filteredSearch"
+            },
+            {
+              "variantId": "lbTpE9Ugz",
+              "variantTitle": "Ricerca Tutti no fallback",
+              "propertyId": "rrjMTUmyqd",
+              "propertyTitle": "search",
+              "endpointId": "Sbmoj6vuY",
+              "endpointTitle": "filteredSearchSuggestions"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 4,
+      "types": 4,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "vwVWNItTb",
+              "type": "blocks",
+              "title": "view all filtered search params"
+            }
+          ]
+        },
+        {
+          "type": "params",
+          "count": 1,
+          "items": [
+            {
+              "id": "playDefault",
+              "type": "params",
+              "title": "Play Default"
+            }
+          ]
+        },
+        {
+          "type": "decorators",
+          "count": 2,
+          "items": [
+            {
+              "id": "XIHg_DI92f",
+              "type": "decorators",
+              "title": "Play Persona Input Decorator"
+            },
+            {
+              "id": "mU5ep6Aze",
+              "type": "decorators",
+              "title": "MPlay Universal Enricher "
+            }
+          ]
+        },
+        {
+          "type": "conversionPacks",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "haveScheduledVariants": false,
+  "prevReference": "viewAllFilteredSearchParams",
+  "paginateFromCache": true,
+  "property": "search",
+  "sortKey": "search viewAllFilteredSearchParams",
+  "enableAnalitica": true
+}

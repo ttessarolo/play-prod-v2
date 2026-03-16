@@ -1,0 +1,225 @@
+{
+  "id": "YXgJJEmkJ",
+  "propertyId": "zlqQNxLcGh",
+  "title": "Programmi Tv Params Genre",
+  "description": "Please Edit description for Page \"Default\"",
+  "enabledPagesId": [
+    "Dp18zVMBBg"
+  ],
+  "isPage": true,
+  "blocks": [
+    {
+      "id": "tGTs8r8xE",
+      "condition": "*",
+      "title": "Generi per Parametri Programmi TV",
+      "type": "nested",
+      "layout": {
+        "i": "tGTs8r8xE",
+        "x": 0,
+        "y": 1,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true,
+        "max": 100
+      },
+      "blockId": "WMiNKvnY4",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      }
+    }
+  ],
+  "version": 17,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2023-03-29T08:33:21.369Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "endpoints",
+        "items": [
+          "Dp18zVMBBg"
+        ]
+      }
+    ],
+    "require": [
+      {
+        "type": "queries",
+        "items": []
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "Rc1YEkVxO",
+          "WMiNKvnY4"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "Dp18zVMBBg",
+              "type": "endpoints",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 2,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 2,
+          "items": [
+            {
+              "id": "Rc1YEkVxO",
+              "type": "blocks"
+            },
+            {
+              "id": "WMiNKvnY4",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "layout": [
+    {
+      "i": "tGTs8r8xE",
+      "x": 0,
+      "y": 1,
+      "w": 12,
+      "h": 30,
+      "blocks": []
+    }
+  ],
+  "uiParams": {
+    "layout": {
+      "uiParams": {
+        "current": "Default",
+        "currentIndex": 0,
+        "sets": [
+          {
+            "title": "Default",
+            "params": {
+              "paramsId": {
+                "value": "playDefault",
+                "active": true
+              },
+              "contentId": {
+                "value": "F301644701000103",
+                "active": false
+              },
+              "userId": {
+                "value": "1f51d5e9f09e4d349fa3af349e1cdac4",
+                "active": false
+              },
+              "deviceId": {
+                "value": "ARES-CC",
+                "active": true
+              },
+              "params": {
+                "active": true,
+                "value": "genre≈Talent show,Reality show"
+              },
+              "decoratorOutputEnvironment": {
+                "value": "production",
+                "active": true
+              },
+              "decoratorOutputVersion": {
+                "value": "v2",
+                "active": true
+              }
+            }
+          }
+        ]
+      },
+      "currentParams": {
+        "paramsId": "playDefault",
+        "deviceId": "ARES-CC",
+        "params": "genre≈Talent show,Reality show",
+        "decoratorOutputEnvironment": "production",
+        "decoratorOutputVersion": "v2"
+      }
+    }
+  },
+  "results": {
+    "fallbackBlockId": "Rc1YEkVxO",
+    "fullSubstituteFallback": true
+  },
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": [],
+  "fullSubstituteFallback": true
+}

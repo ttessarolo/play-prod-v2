@@ -1,0 +1,175 @@
+{
+  "results": {
+    "min": 0,
+    "flatAllBlocks": true,
+    "fallbackBlockId": "P0csRsOt7",
+    "max": 300,
+    "deduplicateFlattedResults": true
+  },
+  "blocks": [
+    {
+      "_id": "nFw2vMsw3",
+      "condition": "(isEmpty(params_orderBy))",
+      "title": "Film TOP",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 3,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true,
+        "shuffleItems": false
+      },
+      "queryId": "d5BIIowCX",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "isEmpty",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "params_orderBy"
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ],
+            "id": "8dBIhrJ-Wt"
+          }
+        ]
+      },
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "_id": "say3vnNqUU",
+      "condition": "*",
+      "title": "Home Pay Generi per Parametri Film",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 297,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "fallbackBlockId": "P0csRsOt7"
+      },
+      "queryId": "skE6ZZaHs"
+    }
+  ],
+  "scheduled": 0,
+  "scheduling": [],
+  "schedulingMap": [],
+  "realm": "content",
+  "title": "Home Pay Generi per Parametri Film",
+  "description": "",
+  "refs": {
+    "require": [
+      {
+        "type": "queries",
+        "items": [
+          "d5BIIowCX",
+          "skE6ZZaHs"
+        ]
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "P0csRsOt7"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": [
+          "eOaXizx_"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "pyU9yg1UR"
+        ]
+      }
+    ]
+  },
+  "id": "hr35tVjd2",
+  "version": 15,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-05-07T10:56:29.134Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 0,
+          "items": []
+        }
+      ]
+    },
+    "require": {
+      "total": 4,
+      "types": 4,
+      "items": [
+        {
+          "type": "queries",
+          "count": 2,
+          "items": [
+            {
+              "id": "d5BIIowCX",
+              "type": "queries",
+              "title": "Query Home Pay Generi per Parametri Film Blocco 1"
+            },
+            {
+              "id": "skE6ZZaHs",
+              "type": "queries",
+              "title": "Query Home Pay Generi per Parametri Film Blocco 2"
+            }
+          ]
+        },
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "P0csRsOt7",
+              "type": "blocks",
+              "title": "Block published flag not exists"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 1,
+          "items": [
+            {
+              "id": "eOaXizx_",
+              "type": "responseFields",
+              "title": "PLAY-PROD-VIDEO-MINIMAL-SET"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": []
+}

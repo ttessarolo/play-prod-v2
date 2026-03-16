@@ -1,0 +1,46 @@
+{
+  "title": "Blacklist La casa tra le montagne",
+  "description": "",
+  "type": "contentId",
+  "contentType": "video",
+  "realm": "content",
+  "elements": [
+    "F310252501000104",
+    "F310252001000104",
+    "F310251901000104",
+    "F310252101000104",
+    "F310252301000104",
+    "F310252201000104",
+    "F310252601000104",
+    "F310252701000104",
+    "F310985601000101"
+  ],
+  "id": "xcpuJSZfrF",
+  "version": 3,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-11-04T10:55:02.558Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "rules",
+        "items": [
+          "LKRG4VUSN"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  }
+}

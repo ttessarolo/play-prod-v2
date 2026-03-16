@@ -1,0 +1,66 @@
+{
+  "id": "C1K7xc54F9",
+  "title": "Search Enricher",
+  "environnement": "JS",
+  "package": "rti_play_search.js",
+  "metadata": [
+    {
+      "id": "search_enriched",
+      "realm": "request",
+      "catalog": "*",
+      "types": [
+        "boolean"
+      ],
+      "values": [
+        "true",
+        "false"
+      ]
+    },
+    {
+      "id": "search_publication_date",
+      "realm": "request",
+      "catalog": "*",
+      "types": [
+        "date"
+      ],
+      "values": []
+    },
+    {
+      "id": "search_publication_date_range",
+      "realm": "request",
+      "catalog": "*",
+      "types": [
+        "dateRange"
+      ],
+      "values": []
+    },
+    {
+      "id": "search_query_to_numbers",
+      "realm": "request",
+      "catalog": "*",
+      "types": [
+        "string"
+      ],
+      "values": []
+    },
+    {
+      "id": "search_query_to_words",
+      "realm": "request",
+      "catalog": "*",
+      "types": [
+        "string"
+      ],
+      "values": []
+    }
+  ],
+  "refs": {
+    "belongs": [
+      {
+        "type": "rules",
+        "items": [
+          "rI3PnaL4qf"
+        ]
+      }
+    ]
+  }
+}

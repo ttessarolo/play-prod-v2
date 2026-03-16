@@ -1,0 +1,141 @@
+{
+  "title": "Rule Tipologia Film",
+  "description": "Tipologia match with Film",
+  "contentType": "video",
+  "clauses": [
+    "filter",
+    "exclude",
+    "include"
+  ],
+  "rule": [
+    {
+      "condition": "*",
+      "boost": 1,
+      "type": "I2I",
+      "_id": "pkpDc0d5",
+      "match": "Film",
+      "phrase": true,
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      },
+      "field": "tipologia",
+      "fieldDBType": "keyword",
+      "queryType": "match",
+      "value": "Film",
+      "valueType": "string",
+      "API": "V2"
+    }
+  ],
+  "field": "tipologia",
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "HWJT1cPPY",
+          "b20L6V_Cz",
+          "bGHIfOpkw",
+          "VPCz1frwh",
+          "M9xhdzkJvY",
+          "XfBmXeGEp",
+          "zWYdI9xZd",
+          "rAoCaKtAs",
+          "js5eihPKLL",
+          "Fey8TGWHzd",
+          "Cz5mbdSpkG",
+          "qLHnIzGLeb",
+          "dwZ0qqYYpq",
+          "VXeQD5L8kq",
+          "WPl6VDGVC",
+          "s820x60ap",
+          "GuKk9Bo7iv",
+          "gcHNGd2H_",
+          "c_R2PteO7",
+          "lKsGN9IPe9",
+          "IUd_q_ixKj",
+          "j0Q299ZnJ",
+          "smEuLKmQtT",
+          "ARAIdR8pC",
+          "skE6ZZaHs",
+          "d5BIIowCX",
+          "sDmAYxCfr",
+          "Ctw5PvR1Gw",
+          "kz55YrMHS",
+          "yNmdifMzM",
+          "jO1QhHhsaX",
+          "rFYrNUGdd",
+          "BVC4GzQXU",
+          "OFmr6tjnNd",
+          "wZl6yRICv",
+          "FHMVTArGO",
+          "fuIccUZaR",
+          "WQk9TX6Gz",
+          "xMecDK8KF",
+          "M6znVT4rI",
+          "NHBn8poSz",
+          "VSuWQgZ1N",
+          "rOiEnU9mH",
+          "osVzkbq1f",
+          "eYE4Fz7jp",
+          "Jt4Mp8mym",
+          "gMMABcytBa",
+          "Qd7iEXoJo",
+          "ZqCof5t6v",
+          "OgvJP6sKX",
+          "N8t6D3FZ4",
+          "UCdpGCh1t",
+          "OcoPuWrqc",
+          "byoCWLksA",
+          "QPwcsFJG6",
+          "MOiBhvfylX",
+          "CMc5GpUU2",
+          "FF2wg0oZIu",
+          "yNxWfYgpgd",
+          "OrpWHvd2JE",
+          "saXXHN9eH",
+          "WberdVHbj",
+          "KFrd0k5xX",
+          "jfiYB856s",
+          "szkQ5qxWx",
+          "yjy2A9HNE",
+          "oBvzKyfF6",
+          "BWgEuhfRp",
+          "aXM_s_5Uh",
+          "kiw8qXocC",
+          "nI6X6r96d",
+          "vd0sQwe2q",
+          "O4OWKwsiK",
+          "R5PS0xUQI",
+          "dJb9mqV8A",
+          "HGGJsLjDh",
+          "GU2OBQqML",
+          "GgHM9VBc7",
+          "jDZGfzgiS",
+          "BqU9dngUa",
+          "m088vbWc5Q",
+          "zGCftF1vF",
+          "Vegj8XiOcr",
+          "RASMXpoN0",
+          "PpbsNF8Nw"
+        ]
+      }
+    ]
+  },
+  "id": "83txjtJm",
+  "version": 2,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2020-04-08T10:56:35.982Z"
+  }
+}

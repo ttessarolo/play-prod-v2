@@ -1,0 +1,118 @@
+{
+  "results": {
+    "min": 0,
+    "flatAllBlocks": true,
+    "max": 24
+  },
+  "blocks": [
+    {
+      "_id": "AYHJHru_24",
+      "condition": "*",
+      "title": "Block Most Recent Serie Tv e Fiction",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 24,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_"
+      },
+      "queryId": "xpFUJN2NV"
+    }
+  ],
+  "title": "Block Most Recent Serie Tv e Fiction",
+  "description": "",
+  "scheduled": 0,
+  "scheduling": [],
+  "schedulingMap": [],
+  "realm": "content",
+  "canBeFallback": 1,
+  "refs": {
+    "require": [
+      {
+        "type": "queries",
+        "items": [
+          "xpFUJN2NV"
+        ]
+      },
+      {
+        "type": "blocks",
+        "items": []
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": [
+          "eOaXizx_"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "In8E6MBfb",
+          "o3TvMKssn",
+          "aidPOYBHr",
+          "H1pq_9kZj",
+          "TzQKW1L9m",
+          "HMZg5h0Qx"
+        ]
+      }
+    ]
+  },
+  "id": "Bn52RsYBn",
+  "version": 4,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-03-29T16:15:55.226Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 2,
+      "types": 4,
+      "items": [
+        {
+          "type": "queries",
+          "count": 1,
+          "items": [
+            {
+              "id": "xpFUJN2NV",
+              "type": "queries",
+              "title": "Query Most Recent Serie Tv e Fiction"
+            }
+          ]
+        },
+        {
+          "type": "blocks",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 1,
+          "items": [
+            {
+              "id": "eOaXizx_",
+              "type": "responseFields",
+              "title": "PLAY-PROD-VIDEO-MINIMAL-SET"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

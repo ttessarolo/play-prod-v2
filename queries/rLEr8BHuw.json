@@ -1,0 +1,164 @@
+{
+  "title": "CHNLS Serie Fep Most Recent ParamsChannel",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "C3q9HsDkx"
+    },
+    {
+      "id": "IA2rMeBZYW"
+    },
+    {
+      "id": "JfE3hcRkF"
+    }
+  ],
+  "exclude": [],
+  "include": [],
+  "boost": [],
+  "order": [
+    {
+      "id": "h9o95GEDTY"
+    }
+  ],
+  "realm": "content",
+  "presets": {
+    "filter": [
+      {
+        "id": "ur0WldwQk"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "ZRorAbL96Q"
+      },
+      {
+        "id": "KhQ3IziFJ"
+      },
+      {
+        "id": "zFmF5zQpRG"
+      }
+    ]
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "C3q9HsDkx",
+          "IA2rMeBZYW",
+          "JfE3hcRkF",
+          "h9o95GEDTY"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "ur0WldwQk",
+          "ZRorAbL96Q",
+          "KhQ3IziFJ",
+          "zFmF5zQpRG"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "GjwIS5XI0",
+          "mHP49v6DC"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "id": "rLEr8BHuw",
+  "version": 20,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-05-26T14:32:19.100Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 2,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 2,
+          "items": [
+            {
+              "id": "GjwIS5XI0",
+              "type": "blocks",
+              "title": ""
+            },
+            {
+              "id": "mHP49v6DC",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 7,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 4,
+          "items": [
+            {
+              "id": "C3q9HsDkx",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "IA2rMeBZYW",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "JfE3hcRkF",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "h9o95GEDTY",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 3,
+          "items": [
+            {
+              "id": "ur0WldwQk",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "ZRorAbL96Q",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "KhQ3IziFJ",
+              "type": "rulesPresets",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "uselessMultiplier": false,
+  "metadataOverrides": {}
+}

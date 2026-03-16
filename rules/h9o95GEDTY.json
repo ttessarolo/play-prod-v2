@@ -1,0 +1,98 @@
+{
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "sortOrder": "desc",
+      "sortMode": "avg",
+      "API": "V2",
+      "condition": "*",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": [
+              {
+                "type": "metadata",
+                "value": ""
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ],
+            "id": "k7IvYMuTwe"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "",
+      "valueType": "",
+      "queryType": "sortOrder",
+      "field": "publication_date_fep_most_recent",
+      "fieldNested": 0,
+      "fieldDBType": "date",
+      "_id": "xthjEcCaIy",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "clauses": [
+    "order"
+  ],
+  "title": "Rule Order By Publication date Fep Most Recent All",
+  "description": "",
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "x7_VOViNIL",
+          "hKH4jrbFF",
+          "TgKGs2jDf",
+          "N_80T8VLG",
+          "rLEr8BHuw",
+          "R38KED28bt"
+        ]
+      }
+    ]
+  },
+  "id": "h9o95GEDTY",
+  "version": 10,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-06-10T13:00:59.386Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 1,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "scheduled": 0,
+  "scheduling": [],
+  "schedulingMap": [],
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": []
+}

@@ -1,0 +1,85 @@
+{
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "lessOperator": "lte",
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "when_now",
+      "valueType": "metadata",
+      "queryType": "lessValue",
+      "field": "fep_publication_date",
+      "fieldNested": 0,
+      "fieldDBType": "date",
+      "_id": "xkTQr3kI7"
+    }
+  ],
+  "title": "Rule Fep Publication Date minore uguale Oggi",
+  "description": "",
+  "clauses": [
+    "filter",
+    "boost"
+  ],
+  "metadata": {
+    "time": true
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "rulesPresets",
+        "items": [
+          "ztWfmA_PI"
+        ]
+      },
+      {
+        "type": "queries",
+        "items": []
+      }
+    ]
+  },
+  "id": "FRp60sfoW",
+  "version": 5,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-04-08T15:46:39.053Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "rulesPresets",
+          "count": 1,
+          "items": [
+            {
+              "id": "ztWfmA_PI",
+              "type": "rulesPresets",
+              "title": "Preset Fep attivi"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 1,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "id": "iETDJq7dJ",
+  "propertyId": "zlqQNxLcGh",
+  "title": "Mixed Component",
+  "description": "Please Edit description for Page \"Default\"",
+  "enabledPagesId": [
+    "JuhgwrBdNL"
+  ],
+  "isPage": true,
+  "blocks": [
+    {
+      "id": "KXMP5bcT4",
+      "condition": "*",
+      "title": "Contenuti misti",
+      "type": "nested",
+      "layout": {
+        "i": "KXMP5bcT4",
+        "x": 0,
+        "y": 1,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "bCHN1vRScA"
+    }
+  ],
+  "version": 6,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2025-04-16T08:21:35.804Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "endpoints",
+        "items": [
+          "JuhgwrBdNL"
+        ]
+      }
+    ],
+    "require": [
+      {
+        "type": "queries",
+        "items": []
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "Rc1YEkVxO",
+          "bCHN1vRScA"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "JuhgwrBdNL",
+              "type": "endpoints",
+              "title": "mixedComponentTest"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 2,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 2,
+          "items": [
+            {
+              "id": "Rc1YEkVxO",
+              "type": "blocks",
+              "title": "Fallback vuota"
+            },
+            {
+              "id": "bCHN1vRScA",
+              "type": "blocks",
+              "title": "Block Test Mixed Component"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "layout": [
+    {
+      "i": "KXMP5bcT4",
+      "x": 0,
+      "y": 1,
+      "w": 12,
+      "h": 30,
+      "blocks": []
+    }
+  ],
+  "results": {
+    "fallbackBlockId": "Rc1YEkVxO",
+    "fullSubstituteFallback": true
+  },
+  "fullSubstituteFallback": true,
+  "uiParams": {
+    "preview": {
+      "uiParams": {
+        "current": "Anonymous",
+        "currentIndex": 0,
+        "sets": [
+          {
+            "title": "Anonymous",
+            "params": {
+              "contentId": {
+                "value": "F010791601000102",
+                "active": true
+              },
+              "userId": {
+                "value": "1f51d5e9f09e4d349fa3af349e1cdac4",
+                "active": false
+              },
+              "deviceId": {
+                "value": "ARES-CC",
+                "active": true
+              }
+            }
+          },
+          {
+            "title": "User Logged #1",
+            "params": {
+              "contentId": {
+                "value": "F010791601000102",
+                "active": true
+              },
+              "userId": {
+                "value": "1f51d5e9f09e4d349fa3af349e1cdac4",
+                "active": true
+              },
+              "deviceId": {
+                "value": "ARES-CC",
+                "active": true
+              }
+            }
+          },
+          {
+            "title": "User Logged #2",
+            "params": {
+              "contentId": {
+                "value": "F010791601000102",
+                "active": true
+              },
+              "userId": {
+                "value": "36e9cfd5ec474972ba1a82d19696346c",
+                "active": true
+              },
+              "deviceId": {
+                "value": "ARES-CC",
+                "active": true
+              }
+            }
+          }
+        ]
+      },
+      "currentParams": {
+        "contentId": "F010791601000102",
+        "deviceId": "ARES-CC"
+      }
+    }
+  }
+}

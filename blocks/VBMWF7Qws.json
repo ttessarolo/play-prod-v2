@@ -1,0 +1,205 @@
+{
+  "results": {
+    "min": 0,
+    "flatAllBlocks": true,
+    "fallbackBlockId": "P0csRsOt7",
+    "max": 30,
+    "deduplicateFlattedResults": true
+  },
+  "blocks": [
+    {
+      "_id": "L3xFGbFDwD",
+      "condition": "*",
+      "title": "Serie TV Infinity più viste 24h INF",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 15,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "fallbackBlockId": "P0csRsOt7",
+        "skipOnEmpty": true
+      },
+      "queryId": "toSpu6fdu"
+    },
+    {
+      "_id": "cR4s3zzb7Q",
+      "condition": "*",
+      "title": "Serie TV e Fiction Infinity e Mplay più viste 24h INF",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 32,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "fallbackBlockId": "P0csRsOt7",
+        "filters": {
+          "repeatedMetadata": [
+            {
+              "meta": "tipologia",
+              "value": "Fiction",
+              "moreThan": "6"
+            }
+          ]
+        }
+      },
+      "queryId": "s6Gij1X5i"
+    }
+  ],
+  "title": "INF Serie Più viste 24H",
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "realm": "content",
+  "refs": {
+    "require": [
+      {
+        "type": "queries",
+        "items": [
+          "toSpu6fdu",
+          "s6Gij1X5i"
+        ]
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "P0csRsOt7"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": [
+          "eOaXizx_"
+        ]
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "FVhhSXKuS",
+          "GAHb3UNXJ"
+        ]
+      }
+    ]
+  },
+  "id": "VBMWF7Qws",
+  "version": 16,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-02-18T15:23:25.598Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 2,
+      "types": 1,
+      "items": [
+        {
+          "type": "pages",
+          "count": 2,
+          "items": [
+            {
+              "variantId": "FVhhSXKuS",
+              "propertyId": "zlqQNxLcGh",
+              "propertyTitle": "",
+              "endpointId": "pWQv2yNew",
+              "endpointTitle": ""
+            },
+            {
+              "variantId": "GAHb3UNXJ",
+              "propertyId": "zlqQNxLcGh",
+              "propertyTitle": "",
+              "endpointId": "d8XTtDDov",
+              "endpointTitle": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 4,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 2,
+          "items": [
+            {
+              "id": "toSpu6fdu",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "s6Gij1X5i",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "P0csRsOt7",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 1,
+          "items": [
+            {
+              "id": "eOaXizx_",
+              "type": "responseFields",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": []
+}

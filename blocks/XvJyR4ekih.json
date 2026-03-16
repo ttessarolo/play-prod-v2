@@ -1,0 +1,142 @@
+{
+  "results": {
+    "flatAllBlocks": true,
+    "min": 0,
+    "fallbackBlockId": "TO8nRwwqH",
+    "max": 30
+  },
+  "blocks": [
+    {
+      "_id": "Ax0giEc2f7",
+      "condition": "*",
+      "title": "Query ADV X Style Ultimi contenuti pubblicati",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 30,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "fallbackBlockId": "TO8nRwwqH",
+        "skipOnEmpty": true
+      },
+      "queryId": "Twrr8UhdDy"
+    }
+  ],
+  "refs": {
+    "require": [
+      {
+        "type": "queries",
+        "items": [
+          "Twrr8UhdDy"
+        ]
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "TO8nRwwqH"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": [
+          "eOaXizx_"
+        ]
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": []
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 3,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 1,
+          "items": [
+            {
+              "id": "Twrr8UhdDy",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "TO8nRwwqH",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 1,
+          "items": [
+            {
+              "id": "eOaXizx_",
+              "type": "responseFields",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "realm": "content",
+  "title": "Query ADV X Style Ultimi contenuti pubblicati",
+  "description": "",
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-11-11T10:06:36.349Z"
+  },
+  "id": "XvJyR4ekih",
+  "version": 1
+}

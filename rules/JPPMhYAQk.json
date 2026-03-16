@@ -1,0 +1,161 @@
+{
+  "title": "Rule Exclude Video visti ",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "splitter": ",",
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "video_watched_w_ts.id",
+      "valueType": "metadata",
+      "queryType": "ids",
+      "field": "video_content_id",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "Yay6eDx17"
+    },
+    {
+      "splitter": ",",
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "video_aborted_w_ts.id",
+      "valueType": "metadata",
+      "queryType": "ids",
+      "field": "video_content_id",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "Y0usovlI8"
+    }
+  ],
+  "clauses": [
+    "exclude"
+  ],
+  "metadata": {
+    "user": {
+      "required": true,
+      "userContentType": "user"
+    }
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "b20L6V_Cz",
+          "zfs8imRPC",
+          "WberdVHbj",
+          "R5PS0xUQI",
+          "dJb9mqV8A",
+          "GgHM9VBc7",
+          "jDZGfzgiS",
+          "BqU9dngUa",
+          "m088vbWc5Q"
+        ]
+      }
+    ]
+  },
+  "id": "JPPMhYAQk",
+  "version": 4,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2025-03-26T17:35:29.385Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 9,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 9,
+          "items": [
+            {
+              "id": "b20L6V_Cz",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "zfs8imRPC",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "WberdVHbj",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "R5PS0xUQI",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "dJb9mqV8A",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "GgHM9VBc7",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "jDZGfzgiS",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "BqU9dngUa",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "m088vbWc5Q",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "searchMetadata": [
+    "request",
+    "user"
+  ],
+  "includedMetadata": [
+    "user"
+  ]
+}

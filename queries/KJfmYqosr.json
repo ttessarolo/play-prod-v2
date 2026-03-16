@@ -1,0 +1,136 @@
+{
+  "metadataInRules": [],
+  "title": "Query Default Search Video",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "qHip42w8U"
+    },
+    {
+      "id": "SoWpAwYrUh"
+    },
+    {
+      "id": "oLLAE6EUiU"
+    }
+  ],
+  "exclude": [
+    {
+      "id": "g_H1wj8zj2"
+    },
+    {
+      "id": "YBuRs5V8xn"
+    }
+  ],
+  "include": [],
+  "boost": [],
+  "order": [
+    {
+      "id": "A5n475YeR"
+    }
+  ],
+  "general": {
+    "resultsMultiplier": 1,
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9
+  },
+  "presets": {
+    "filter": []
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "qHip42w8U",
+          "SoWpAwYrUh",
+          "oLLAE6EUiU",
+          "g_H1wj8zj2",
+          "YBuRs5V8xn",
+          "A5n475YeR"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "m0fY0CpslB"
+        ]
+      }
+    ]
+  },
+  "id": "KJfmYqosr",
+  "version": 19,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2022-03-01T15:02:12.167Z"
+  },
+  "metadataOverrides": {},
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "m0fY0CpslB",
+              "type": "blocks",
+              "title": "Block Default Search Video"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 5,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 5,
+          "items": [
+            {
+              "id": "qHip42w8U",
+              "type": "rules",
+              "title": "Rule Params Channel MPlay Video Default Search "
+            },
+            {
+              "id": "SoWpAwYrUh",
+              "type": "rules",
+              "title": "Rule Params Channel Film Default Search"
+            },
+            {
+              "id": "g_H1wj8zj2",
+              "type": "rules",
+              "title": "Rule Exclude Sportmediaset"
+            },
+            {
+              "id": "YBuRs5V8xn",
+              "type": "rules",
+              "title": "Rule Id Series Se Tgcom"
+            },
+            {
+              "id": "A5n475YeR",
+              "type": "rules",
+              "title": "Rule Piu visti 24h Always"
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "uselessMultiplier": false
+}

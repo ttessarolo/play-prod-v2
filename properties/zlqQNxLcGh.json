@@ -1,0 +1,2201 @@
+{
+  "input": {
+    "schema": {
+      "name": "Input Validation Schema",
+      "description": "ARES Request Params",
+      "type": "object",
+      "required": [
+        "query"
+      ],
+      "properties": {
+        "query": {
+          "type": "object",
+          "required": [
+            "tenant",
+            "uxReference"
+          ],
+          "properties": {
+            "tenant": {
+              "type": "string"
+            },
+            "uxReference": {
+              "type": "string"
+            },
+            "userId": {
+              "type": "string"
+            },
+            "userType": {
+              "type": "string"
+            },
+            "userGroup": {
+              "type": "string"
+            },
+            "deviceId": {
+              "type": "string"
+            },
+            "contentId": {
+              "type": "string"
+            },
+            "sessionId": {
+              "type": "string"
+            },
+            "context": {
+              "type": "string"
+            },
+            "query": {
+              "type": "string"
+            },
+            "startBlock": {
+              "type": "number"
+            },
+            "endBlock": {
+              "type": "number"
+            },
+            "page": {
+              "type": "number"
+            },
+            "hitsPerPage": {
+              "type": "number"
+            }
+          }
+        }
+      }
+    }
+  },
+  "params": {
+    "timeout": 1500,
+    "cacheConfig": {
+      "cache": false,
+      "cacheTTL": 300
+    }
+  },
+  "paramsId": "playDefault",
+  "output": {
+    "decorators": [
+      "mU5ep6Aze"
+    ]
+  },
+  "uiParams": {
+    "preview": {
+      "currentParams": {},
+      "uiParams": {
+        "current": "User Logged #2",
+        "currentIndex": 2,
+        "sets": [
+          {
+            "title": "Anonymous",
+            "params": {
+              "contentId": {
+                "value": "F010791601000102",
+                "active": true
+              },
+              "userId": {
+                "value": "1f51d5e9f09e4d349fa3af349e1cdac4",
+                "active": false
+              },
+              "deviceId": {
+                "value": "ARES-CC",
+                "active": true
+              }
+            }
+          },
+          {
+            "title": "User Logged #1",
+            "params": {
+              "contentId": {
+                "value": "F010791601000102",
+                "active": true
+              },
+              "userId": {
+                "value": "1f51d5e9f09e4d349fa3af349e1cdac4",
+                "active": true
+              },
+              "deviceId": {
+                "value": "ARES-CC",
+                "active": true
+              }
+            }
+          },
+          {
+            "title": "User Logged #2",
+            "params": {
+              "contentId": {
+                "value": "F010791601000102",
+                "active": true
+              },
+              "userId": {
+                "value": "36e9cfd5ec474972ba1a82d19696346c",
+                "active": true
+              },
+              "deviceId": {
+                "value": "ARES-CC",
+                "active": true
+              }
+            }
+          }
+        ]
+      },
+      "decorator": "(\n   {\n     \"layout\": layout,\n     \"blocks\": $map(blocks ? blocks : entries, function($block){(\n        $iterator :=  $exists($block.entries) ? $block.entries : $exists($block.items) ? $block.items : $block;\n\n        {\n            \"id\":$block._aresId,\n            \"title\":$block.title,\n            \"type\":$block._blockType,\n            \"score\":$block._smartOrderingScore,\n            \"results\":$count($iterator),\n            \"pinned\":$block.pinned,\n            \"layout\":$block.layout,\n            \"items\":$map($iterator, function($item) {(\n            {\n                \"contentId\": $item.video_content_id ? $item.video_content_id : $item.id ?  $item.id : $item.video_content_id,\n                \"title\": $item.title,  \n                \"imageURL\": $item.thumbnails ? $item.thumbnails.`image_keyframe_poster-292x165`.url : $item.horizontal_poster, \n                \"date\":$item.`mediasetprogram$publishInfo_lastPublished` ? $fromMillis($item.`mediasetprogram$publishInfo_lastPublished`) : $item.publication_date,\n                \"category\":$item.editorial_type\n            }      \n        )})\n        }\n    )})\n   }\n\n)"
+    },
+    "layout": {
+      "currentParams": {},
+      "uiParams": {
+        "current": "Default",
+        "currentIndex": 0,
+        "sets": [
+          {
+            "title": "Default",
+            "params": {
+              "paramsId": {
+                "value": "playDefault",
+                "active": true
+              },
+              "contentId": {
+                "value": "F301644701000103",
+                "active": true
+              },
+              "userId": {
+                "value": "1f51d5e9f09e4d349fa3af349e1cdac4",
+                "active": true
+              },
+              "deviceId": {
+                "value": "ARES-CC",
+                "active": true
+              }
+            }
+          }
+        ]
+      },
+      "decorator": "(\n    $iterator :=  $exists(blocks.entries) ? blocks.entries : entries ? entries : blocks.items;\n\n    $map($iterator, function($item) {(\n        {\n            \"contentId\": $item.id ?  $item.id : $item.video_content_id,\n            \"title\": $item.title,  \n            \"imageURL\": $item.thumbnails ? $item.thumbnails.`image_keyframe_poster-292x165`.url : $item.horizontal_poster, \n            \"date\":$item.`mediasetprogram$publishInfo_lastPublished` ? $fromMillis($item.`mediasetprogram$publishInfo_lastPublished`) : $item.publication_date,\n            \"category\":$item.editorial_type\n        }      \n    )})\n\n)"
+    }
+  },
+  "blocksMetadata": [
+    {
+      "id": "yBwM_3yG2",
+      "title": "attributes",
+      "metadata": [
+        {
+          "type": "select",
+          "id": "e044760xy",
+          "label": "Template",
+          "dataField": "template",
+          "selectValues": [
+            [
+              "Keyframe",
+              "KEYFRAME"
+            ],
+            [
+              "Poster",
+              "POSTER"
+            ]
+          ],
+          "mandatory": false
+        }
+      ]
+    },
+    {
+      "id": "SD6Iz25dI",
+      "title": "playDetailParams",
+      "metadata": [
+        {
+          "type": "select",
+          "id": "zr4V0lcQo",
+          "label": "Property",
+          "dataField": "property",
+          "selectValues": [
+            [
+              "Play",
+              "play"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rKagnQQWY",
+      "title": "playContentMeta",
+      "metadata": [
+        {
+          "type": "input",
+          "id": "fHNzmAXt7",
+          "label": "Genere",
+          "dataField": "genere_mcm"
+        },
+        {
+          "type": "select",
+          "id": "nnsoEUnBYL",
+          "label": "Editorial type",
+          "dataField": "editorial_type",
+          "selectValues": [
+            [
+              "Anticipazioni",
+              "Anticipazioni"
+            ],
+            [
+              "Clip",
+              "Clip"
+            ],
+            [
+              "Extra",
+              "Extra"
+            ],
+            [
+              "Full Episode",
+              "Full Episode"
+            ],
+            [
+              "Movie",
+              "Movie"
+            ],
+            [
+              "Promo",
+              "Promo"
+            ],
+            [
+              "Riassunti",
+              "Riassunti"
+            ],
+            [
+              "Serie",
+              "Serie"
+            ],
+            [
+              "TVSeason",
+              "TVSeason"
+            ],
+            [
+              "Trailer",
+              "Trailer"
+            ]
+          ]
+        },
+        {
+          "type": "select",
+          "id": "Sdwi_3aars",
+          "label": "Channel",
+          "dataField": "content_channels",
+          "selectValues": [
+            [
+              "Infinity",
+              "Infinity"
+            ],
+            [
+              "Juventus",
+              "Juventus"
+            ],
+            [
+              "MediasetPlay",
+              "MediasetPlay"
+            ],
+            [
+              "MidnightFactory",
+              "MidnightFactory"
+            ],
+            [
+              "Noleggio",
+              "Noleggio"
+            ],
+            [
+              "Starz",
+              "Starz"
+            ],
+            [
+              "historyplayit",
+              "historyplayit"
+            ],
+            [
+              "MGM",
+              "MGM"
+            ],
+            [
+              "InfAutore",
+              "InfAutore"
+            ],
+            [
+              "InfComico",
+              "InfComico"
+            ],
+            [
+              "InfLight",
+              "InfLight"
+            ],
+            [
+              "InfNero",
+              "InfNero"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "title": "play",
+  "description": "",
+  "tree": [
+    {
+      "value": "KWmqH3hpP",
+      "label": "play",
+      "children": [
+        {
+          "value": "isGTaKBrn6",
+          "label": "stagioniTipologiaParams",
+          "children": [
+            {
+              "value": "PiHvqqMh7",
+              "label": "Default"
+            }
+          ]
+        },
+        {
+          "value": "tUjq3QyMz7",
+          "label": "multipleBlockEsg",
+          "children": [
+            {
+              "value": "DVwDWh4H4",
+              "label": "Default"
+            }
+          ]
+        },
+        {
+          "value": "OnqnxpJBzv",
+          "label": "dem",
+          "children": [
+            {
+              "value": "RgybRRcgZr",
+              "label": "multipleBlockDemMonobrand",
+              "children": [
+                {
+                  "value": "jHz8QQRV0",
+                  "label": "Dem Monobrand"
+                }
+              ]
+            },
+            {
+              "value": "ASLi4JOoR",
+              "label": "multipleBlockDemFilmFree",
+              "children": [
+                {
+                  "value": "d0Gt6grYF",
+                  "label": "Scelti per te film Free"
+                }
+              ]
+            },
+            {
+              "value": "GmsW6if9I",
+              "label": "multipleBlockSceltiPerTeFiction",
+              "children": [
+                {
+                  "value": "BPoxLffjYC",
+                  "label": "Scelti per te Fiction"
+                }
+              ]
+            },
+            {
+              "value": "d8XTtDDov",
+              "label": "multipleBlockDemSceltiPerTe",
+              "children": [
+                {
+                  "value": "GAHb3UNXJ",
+                  "label": "Dem Scelti per te"
+                }
+              ]
+            },
+            {
+              "value": "vTODt8afF",
+              "label": "multipleBlockDemTitoliMomento",
+              "children": [
+                {
+                  "value": "QLhb1DQxx",
+                  "label": "Dem Titoli del momento"
+                },
+                {
+                  "value": "UzsmyaqtN",
+                  "label": "Clusterizzato"
+                }
+              ]
+            },
+            {
+              "value": "nyMd3k9ed",
+              "label": "multipleBlockDemCompleanno",
+              "children": [
+                {
+                  "value": "Q7H3gYrrMH",
+                  "label": "Statico"
+                },
+                {
+                  "value": "thJULhcXoc",
+                  "label": "Clusterizzato"
+                },
+                {
+                  "value": "hb1B41JYe",
+                  "label": "Ciak"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "value": "KV1M4AJ7L",
+          "label": "experiments",
+          "children": [
+            {
+              "value": "MaV9Sd605",
+              "label": "similarIntrABtest",
+              "children": [
+                {
+                  "value": "QivlwH9Zr",
+                  "label": "Similar Intrattenimento invertito"
+                },
+                {
+                  "value": "ou1WmXHcr",
+                  "label": "Similar Intrattenimento Ipotesi C"
+                }
+              ]
+            },
+            {
+              "value": "onteU8tNE",
+              "label": "infABtestFilm",
+              "children": [
+                {
+                  "value": "XZ5f1gK8y",
+                  "label": "Ipotesi Person"
+                },
+                {
+                  "value": "fm0gjH0tS",
+                  "label": "Ipotesi Cluster"
+                },
+                {
+                  "value": "V7QA_iGnE",
+                  "label": "Ipotesi Random"
+                }
+              ]
+            },
+            {
+              "value": "pKQHFdFrz",
+              "label": "freeABtestFilm",
+              "children": [
+                {
+                  "value": "zJdRVOBGv",
+                  "label": "Ipotesi Person"
+                },
+                {
+                  "value": "ftepghXc5",
+                  "label": "Ipotesi Cluster"
+                },
+                {
+                  "value": "jbOpvqnFG",
+                  "label": "Ipotesi Random"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "value": "uGOIZUQWoC",
+          "label": "test",
+          "children": [
+            {
+              "value": "RMr3U8Unm",
+              "label": "articleSeasonParams",
+              "children": [
+                {
+                  "value": "SoixOjql6Q",
+                  "label": "articleSeasonParams"
+                }
+              ]
+            },
+            {
+              "value": "VaVcnXzBv",
+              "label": "storieCommoventi",
+              "children": [
+                {
+                  "value": "P2T9xm1_w8",
+                  "label": "Default"
+                }
+              ]
+            },
+            {
+              "value": "dnKsEIfIF",
+              "label": "newSimilarIntrattenimento",
+              "children": [
+                {
+                  "value": "Ri_NBG1UF",
+                  "label": "Default"
+                }
+              ]
+            },
+            {
+              "value": "X1pHDHSB4",
+              "label": "testCollaborative",
+              "children": [
+                {
+                  "value": "teXKejgr2",
+                  "label": "Default"
+                }
+              ]
+            },
+            {
+              "value": "lVBDCkyj7",
+              "label": "main",
+              "children": [
+                {
+                  "value": "O8HKmwHzc",
+                  "label": "Play Main"
+                }
+              ]
+            },
+            {
+              "value": "E29EGlkkuq",
+              "label": "similarSuggestions",
+              "children": [
+                {
+                  "value": "NC8jVLFZB",
+                  "label": "Similar suggestions"
+                }
+              ]
+            },
+            {
+              "value": "Q20zIJufF",
+              "label": "enablerTestFilm",
+              "children": [
+                {
+                  "value": "gAYxluVbC",
+                  "label": "Enabler Test Film"
+                }
+              ]
+            },
+            {
+              "value": "USS9RQ9gOr",
+              "label": "enablerTestSerie",
+              "children": [
+                {
+                  "value": "qXKmJZZOl",
+                  "label": "Enabler Test Serie"
+                }
+              ]
+            },
+            {
+              "value": "dtYpT5Clpj",
+              "label": "enablerTestStagioni",
+              "children": [
+                {
+                  "value": "lKQ2uywsg",
+                  "label": "Enabler Test Stagioni"
+                }
+              ]
+            },
+            {
+              "value": "FLIeiCr_I",
+              "label": "enablerTestEpisodi",
+              "children": [
+                {
+                  "value": "_rcg8yQG_",
+                  "label": "Enabler Test Episodi"
+                }
+              ]
+            },
+            {
+              "value": "JuhgwrBdNL",
+              "label": "mixedComponentTest",
+              "children": [
+                {
+                  "value": "iETDJq7dJ",
+                  "label": "Mixed Component"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "value": "q92sG36gh",
+          "label": "viewAllCluster",
+          "children": [
+            {
+              "value": "JQ_FqyHpV",
+              "label": "View All Cluster"
+            }
+          ]
+        },
+        {
+          "value": "ihiCAj9Qp",
+          "label": "viewAllPerson",
+          "children": [
+            {
+              "value": "fAQDvCXWHh",
+              "label": "View All Person"
+            }
+          ]
+        },
+        {
+          "value": "WXsJUgBAp",
+          "label": "viewAll1H",
+          "children": [
+            {
+              "value": "RsgHYYlbYf",
+              "label": "view All 1H"
+            }
+          ]
+        },
+        {
+          "value": "Avimk5jU2",
+          "label": "fallback",
+          "children": [
+            {
+              "value": "d0HcvWEBF",
+              "label": "fallbackPersonalizzati",
+              "children": [
+                {
+                  "value": "x0BmGLyVnR",
+                  "label": "Fallback Person to Content Film"
+                },
+                {
+                  "value": "qi0AgY214Q",
+                  "label": "Fallback Inf Smart Block Film"
+                },
+                {
+                  "value": "K6MHXRZhh",
+                  "label": "Fallback Film Cluster"
+                }
+              ]
+            },
+            {
+              "value": "dEuNmasA7",
+              "label": "fallbackVarianti",
+              "children": [
+                {
+                  "value": "bnMH6NW9d",
+                  "label": "Most Recent Intrattenimento"
+                },
+                {
+                  "value": "HC5Rkj77s",
+                  "label": "Most Recent Film"
+                },
+                {
+                  "value": "o3TvMKssn",
+                  "label": "Most Recent Serie Tv Fiction"
+                },
+                {
+                  "value": "SCbCTF69h",
+                  "label": "Most Recent Informazione"
+                },
+                {
+                  "value": "Rft5zalrE5",
+                  "label": "Most Recent Sport"
+                },
+                {
+                  "value": "IpbAn73Uo",
+                  "label": "Most Recent TG"
+                },
+                {
+                  "value": "JCY9vljLb",
+                  "label": "Most Recent Cartoni"
+                },
+                {
+                  "value": "hp5t109jk",
+                  "label": "Most Recent Doc"
+                }
+              ]
+            },
+            {
+              "value": "kEsMgb00Z",
+              "label": "fallbackMultipleDoc",
+              "children": [
+                {
+                  "value": "yxizcpSjI",
+                  "label": "fallback Multiple Doc"
+                }
+              ]
+            },
+            {
+              "value": "Ap0CXYLXi",
+              "label": "fallbackVuota",
+              "children": [
+                {
+                  "value": "Rc1YEkVxO",
+                  "label": "Fallback vuota"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "value": "zGHSiXBxW",
+          "label": "mediasetItalia",
+          "children": [
+            {
+              "value": "Pm0N5ugp_",
+              "label": "medItaCollection",
+              "children": [
+                {
+                  "value": "LzYUktKQc",
+                  "label": "MedIta Collection Params"
+                }
+              ]
+            },
+            {
+              "value": "D2gmXznqh",
+              "label": "medItaFictionLibrary",
+              "children": [
+                {
+                  "value": "W4m72efqqu",
+                  "label": "Default"
+                }
+              ]
+            },
+            {
+              "value": "p7HZLnaKE",
+              "label": "medItaMultipleBlockFictionSerie",
+              "children": [
+                {
+                  "value": "R_tEijSXy",
+                  "label": "MedIta Multiple Block Fiction Serie"
+                }
+              ]
+            },
+            {
+              "value": "tgXUEdcir",
+              "label": "medItaMultipleBlockProgrammiTv",
+              "children": [
+                {
+                  "value": "HV6YfKzh0",
+                  "label": "MedIta Multiple Block Programmi TV"
+                }
+              ]
+            },
+            {
+              "value": "MVpCyzxSL",
+              "label": "medItaMultipleBlockFilm",
+              "children": [
+                {
+                  "value": "DRuoIOFsf",
+                  "label": "MedIta Multiple Block Film"
+                }
+              ]
+            },
+            {
+              "value": "P_S3rlrI4E",
+              "label": "medItaFictionSerieTv",
+              "children": [
+                {
+                  "value": "eCOBgNbar",
+                  "label": "medIta Fiction Serie Tv"
+                }
+              ]
+            },
+            {
+              "value": "gYlnQwASKN",
+              "label": "medItaDocumentari",
+              "children": [
+                {
+                  "value": "d8_MU7DEF",
+                  "label": "medIta Documentari"
+                }
+              ]
+            },
+            {
+              "value": "dOFyKdy79",
+              "label": "medItaStagioniDaytime",
+              "children": [
+                {
+                  "value": "ZH_qUNnjn",
+                  "label": "medIta Stagioni Daytime"
+                }
+              ]
+            },
+            {
+              "value": "m4WH5DZNF",
+              "label": "medItaStagioniPrimaSerata",
+              "children": [
+                {
+                  "value": "I49jejix7",
+                  "label": "medIta Stagioni Prima Serata"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "value": "p0Q9em_gN",
+          "label": "sport",
+          "children": [
+            {
+              "value": "f5qYVJdmo",
+              "label": "stagioniSport",
+              "children": [
+                {
+                  "value": "RkXwKjzYE",
+                  "label": "Stagioni Sport"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "value": "lQaZUXOjMy",
+          "label": "collection",
+          "children": [
+            {
+              "value": "D32UYAzZn7",
+              "label": "collectionOrderByEditor",
+              "children": [
+                {
+                  "value": "pk491Nhdl",
+                  "label": "Collection by Editor"
+                }
+              ]
+            },
+            {
+              "value": "FIO4mToIT",
+              "label": "collectionParams",
+              "children": [
+                {
+                  "value": "Ag5ZkK06H",
+                  "label": "Collection Params"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "value": "wiUTzIeOxA",
+          "label": "channelEsterni",
+          "children": [
+            {
+              "value": "fQMzKHZsR",
+              "label": "chnlsAllMovieSerie",
+              "children": [
+                {
+                  "value": "el3yzysWV",
+                  "label": "CHNLS Tutti i Film e le Serie"
+                }
+              ]
+            },
+            {
+              "value": "HTThXiH3EX",
+              "label": "focusMultipleBlockDocumentari",
+              "children": [
+                {
+                  "value": "yGKZbCboS",
+                  "label": "Focus Selection Doc"
+                }
+              ]
+            },
+            {
+              "value": "juWt8GRTH",
+              "label": "chnlsFilmSerieMostRecent",
+              "children": [
+                {
+                  "value": "HNDfXxstQ",
+                  "label": "Default"
+                }
+              ]
+            },
+            {
+              "value": "Sa0YQmb5O",
+              "label": "chnlsFilmSerieTopViewed",
+              "children": [
+                {
+                  "value": "fWE6zjkEc",
+                  "label": "Default"
+                }
+              ]
+            },
+            {
+              "value": "PqCZuuS7R",
+              "label": "chnlsFilmSerieParamsGenre",
+              "children": [
+                {
+                  "value": "SjKviPsLkq",
+                  "label": "Default"
+                }
+              ]
+            },
+            {
+              "value": "B2KocO6PAl",
+              "label": "chnlsStagioniFepMostRecentParamsChannel",
+              "children": [
+                {
+                  "value": "ptDNjX91x",
+                  "label": "Chnls Stagioni Fep Most recent Params Channel"
+                }
+              ]
+            },
+            {
+              "value": "ARSuntEWLj",
+              "label": "chnlsSerieFepMostRecentParamsChannel",
+              "children": [
+                {
+                  "value": "WqxEFYLpoJ",
+                  "label": "Chnls Serie Fep Most Recent Params Channel"
+                }
+              ]
+            },
+            {
+              "value": "j0Yidhi3b",
+              "label": "chnlsSerieTopViewed24HParamsChannel",
+              "children": [
+                {
+                  "value": "osvAYl79i",
+                  "label": "Chnls Serie Top Viewed 24H Params Channel"
+                }
+              ]
+            },
+            {
+              "value": "BwanFYsXQ",
+              "label": "chnlsMovieMostRecentParamsChannel",
+              "children": [
+                {
+                  "value": "pzJ7OtIGe",
+                  "label": "Chnls Movie Most Recent Params Channel"
+                }
+              ]
+            },
+            {
+              "value": "WHLqfUKgA",
+              "label": "chnlsMovieTopViewed24HParamsChannel",
+              "children": [
+                {
+                  "value": "rmjtyFT3a",
+                  "label": "Chnls Movie Top Viewed 24H Params Channel"
+                }
+              ]
+            },
+            {
+              "value": "fVvrWMCVw",
+              "label": "chnlsSerieParamsGenre",
+              "children": [
+                {
+                  "value": "gC1GfJxtli",
+                  "label": "Chnls Serie Params Genre"
+                }
+              ]
+            },
+            {
+              "value": "S_UgVjUsh",
+              "label": "chnlsFilmParamsGenre",
+              "children": [
+                {
+                  "value": "uGqZrbJkk",
+                  "label": "Chnls Film Params Genre"
+                }
+              ]
+            },
+            {
+              "value": "Gle2b_LNs",
+              "label": "chnlsAllSeries",
+              "children": [
+                {
+                  "value": "rbTNmJ3TJ",
+                  "label": "Chnls All Series"
+                }
+              ]
+            },
+            {
+              "value": "qjMwol5CGG",
+              "label": "chnlsFilmInScadenza",
+              "children": [
+                {
+                  "value": "q74CMo9Fr",
+                  "label": "Chnls Film In Scadenza"
+                }
+              ]
+            },
+            {
+              "value": "ZFtFS3U2e",
+              "label": "chnlsAllMovies",
+              "children": [
+                {
+                  "value": "cudgnIyv0",
+                  "label": "Chnls All Movies"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "value": "TdP8j1X4_",
+          "label": "overlaySmartTv",
+          "children": [
+            {
+              "value": "c8IVxo2BCe",
+              "label": "highlightsSmartTv",
+              "children": [
+                {
+                  "value": "UJdgK_zFD",
+                  "label": "Highlights Smart Tv"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "value": "W53hk22qT",
+          "label": "infHomepage",
+          "children": [
+            {
+              "value": "JRvbVODfI2",
+              "label": "infItemLinkPiuVisti",
+              "children": [
+                {
+                  "value": "uUVSRsHfy",
+                  "label": "Default"
+                }
+              ]
+            },
+            {
+              "value": "GlbpXo2RG",
+              "label": "multipleBlock4K",
+              "children": [
+                {
+                  "value": "CQfOFKG2S",
+                  "label": "Default Inf Multiple Block 4K"
+                },
+                {
+                  "value": "RL5cxkerX",
+                  "label": "Inf Multiple Block 4K"
+                }
+              ]
+            },
+            {
+              "value": "Mh9WbkEHg",
+              "label": "infBecauseYouCollaborative",
+              "children": [
+                {
+                  "value": "jVI3NVaUq",
+                  "label": "Inf Because You Collaborative"
+                }
+              ]
+            },
+            {
+              "value": "NxQika02i",
+              "label": "infMultipleBlockFilmSerie",
+              "children": [
+                {
+                  "value": "k4QGHdxQW",
+                  "label": "Multiple Block Film Serie Anonimo"
+                },
+                {
+                  "value": "iweYhg7DLk",
+                  "label": "Multiple Block Film e Serie Personalizzato"
+                }
+              ]
+            },
+            {
+              "value": "AMsLxXdFR",
+              "label": "infBecauseYou",
+              "children": [
+                {
+                  "value": "vIM4jwm5U",
+                  "label": "Inf Because You "
+                }
+              ]
+            },
+            {
+              "value": "hxltEEGGk",
+              "label": "infInfinityLab",
+              "children": [
+                {
+                  "value": "b_5KJIrlI",
+                  "label": "Inf Infinity Lab"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "value": "WUhMXKAOI",
+          "label": "infCinema",
+          "children": [
+            {
+              "value": "TVLxg8iQm",
+              "label": "infFilmPiuVisti7Gg",
+              "children": [
+                {
+                  "value": "PEvA7OHsX",
+                  "label": "Inf Film più visti 7 giorni"
+                }
+              ]
+            },
+            {
+              "value": "GDGyDPHJ0",
+              "label": "infMultipleBlockFilm",
+              "children": [
+                {
+                  "value": "nHnxnqpZl",
+                  "label": "infMultiBlockFilmAnonimi"
+                },
+                {
+                  "value": "g4LwExz6x",
+                  "label": "infMultiBlockFilmPersonalizzato"
+                }
+              ]
+            },
+            {
+              "value": "RVtOTd3BL",
+              "label": "infSmartBlockFilm",
+              "children": [
+                {
+                  "value": "iHhUjO02y",
+                  "label": "Inf Smart Block Film"
+                }
+              ]
+            },
+            {
+              "value": "H1byI1Xx4",
+              "label": "personToContentFilm",
+              "children": [
+                {
+                  "value": "SLZ0YkYjA",
+                  "label": "Person to Content Film"
+                }
+              ]
+            },
+            {
+              "value": "XaJ56XE0B",
+              "label": "infFilm4KHdr",
+              "children": [
+                {
+                  "value": "dDl0XcxbY",
+                  "label": "Inf Film 4K Hdr"
+                }
+              ]
+            },
+            {
+              "value": "NOqqMIEua",
+              "label": "infFilm4KSdr",
+              "children": [
+                {
+                  "value": "KjIdt09QW",
+                  "label": "Inf Film 4K Sdr"
+                }
+              ]
+            },
+            {
+              "value": "gC7p9nO5B",
+              "label": "infFilmBlockbusterCult",
+              "children": [
+                {
+                  "value": "x7_xwRTAi",
+                  "label": "Inf Film Blockbuster Cult"
+                }
+              ]
+            },
+            {
+              "value": "qHtiQfWZI",
+              "label": "infFilmPiuVisti24H",
+              "children": [
+                {
+                  "value": "JiFtOxgm7",
+                  "label": "Inf Film Piu Visti 24H"
+                }
+              ]
+            },
+            {
+              "value": "fqAcVdrAy",
+              "label": "infFilmInScadenza",
+              "children": [
+                {
+                  "value": "hZ6GuIqqR",
+                  "label": "Inf Film In Scadenza"
+                }
+              ]
+            },
+            {
+              "value": "Ckw1xL36E",
+              "label": "infFilmParamsGenre",
+              "children": [
+                {
+                  "value": "J6OLRf2Xr",
+                  "label": "Inf Film Params Genre"
+                }
+              ]
+            },
+            {
+              "value": "LboFQwweD",
+              "label": "infFilmMostRecent",
+              "children": [
+                {
+                  "value": "xPvSMkXJU",
+                  "label": "Inf Film Most Recent"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "value": "t5dxMCKLf",
+          "label": "infSerieTvFiction",
+          "children": [
+            {
+              "value": "TAHCjN9hxX",
+              "label": "infMultipleBlockSerieTvFiction",
+              "children": [
+                {
+                  "value": "V9RI7BjV7",
+                  "label": "Inf Multiple Block SerieTv Fiction Anonimi"
+                },
+                {
+                  "value": "uF8fwo1mt",
+                  "label": "Inf Multiple Block SerieTv Fiction Personalizzata"
+                }
+              ]
+            },
+            {
+              "value": "CXGAXZ8ztj",
+              "label": "infSerieDocumentari",
+              "children": [
+                {
+                  "value": "KFFTEFcl0",
+                  "label": "Inf Serie Documentari"
+                }
+              ]
+            },
+            {
+              "value": "pWQv2yNew",
+              "label": "infSeriePiuViste24H",
+              "children": [
+                {
+                  "value": "FVhhSXKuS",
+                  "label": "Inf Serie Piu Viste 24H"
+                }
+              ]
+            },
+            {
+              "value": "IgzaMfofy",
+              "label": "infSerieParamsGenre",
+              "children": [
+                {
+                  "value": "TltxdLmVn",
+                  "label": "Inf Serie Params Genre"
+                }
+              ]
+            },
+            {
+              "value": "jdc_nBjRW",
+              "label": "infStagioniPrimaTvPay",
+              "children": [
+                {
+                  "value": "Cr5rUbbgk",
+                  "label": "Inf Stagioni Prima Tv Pay"
+                }
+              ]
+            },
+            {
+              "value": "ziTNmEdrw",
+              "label": "infSerieMostRecent",
+              "children": [
+                {
+                  "value": "WGAhYkgWN",
+                  "label": "Inf Serie Most Recent"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "value": "i25bYW6Vk",
+          "label": "enabler",
+          "children": [
+            {
+              "value": "HcoR4C1PW",
+              "label": "enablerExtraAnticipazioni",
+              "children": [
+                {
+                  "value": "DPvDRAwPv",
+                  "label": "Default"
+                }
+              ]
+            },
+            {
+              "value": "sN1fAyTsr",
+              "label": "enablerInfFilm24H",
+              "children": [
+                {
+                  "value": "aYik5ZNw4m",
+                  "label": "Enabler Inf Film 24H"
+                }
+              ]
+            },
+            {
+              "value": "bvhiMZgoA",
+              "label": "enablerHighlightsCalcioI1",
+              "children": [
+                {
+                  "value": "H5fd7vXdX",
+                  "label": "Enabler Highlights Calcio I1"
+                }
+              ]
+            },
+            {
+              "value": "YQ0vkJ_3U",
+              "label": "enablerHighlightsCalcioPT",
+              "children": [
+                {
+                  "value": "n2IQQp3B2",
+                  "label": "Enabler Highlights Calcio PT"
+                }
+              ]
+            },
+            {
+              "value": "iOVm86rAsE",
+              "label": "enablerHighlightsCalcio",
+              "children": [
+                {
+                  "value": "kfA9kBtSv",
+                  "label": "Enabler Highlights Calcio"
+                }
+              ]
+            },
+            {
+              "value": "pFUmQiORd",
+              "label": "enablerStagioniSport",
+              "children": [
+                {
+                  "value": "FCT3qcJX1",
+                  "label": "Enabler Stagioni Sport"
+                }
+              ]
+            },
+            {
+              "value": "kkVrXW1b6",
+              "label": "enablerProgrammiTv",
+              "children": [
+                {
+                  "value": "mg6fW181Aa",
+                  "label": "Enabler Programmi Tv"
+                }
+              ]
+            },
+            {
+              "value": "bhDKfIlsS",
+              "label": "enablerPlayCult",
+              "children": [
+                {
+                  "value": "hjuQaz3Pk",
+                  "label": "Enabler Play Cult"
+                }
+              ]
+            },
+            {
+              "value": "EKRB7JDNH",
+              "label": "enablerDocumentari",
+              "children": [
+                {
+                  "value": "BSNyrPdHfo",
+                  "label": "Enabler Documentari"
+                }
+              ]
+            },
+            {
+              "value": "RP4FjBkgG",
+              "label": "enablerFilm",
+              "children": [
+                {
+                  "value": "SmXWEUxKG",
+                  "label": "Enabler Film"
+                }
+              ]
+            },
+            {
+              "value": "Cx4bdj5cGF",
+              "label": "enablerFiction",
+              "children": [
+                {
+                  "value": "bVipaHKy1",
+                  "label": "Enabler Fiction"
+                }
+              ]
+            },
+            {
+              "value": "pOLdDpfF4",
+              "label": "enablerSerieTv",
+              "children": [
+                {
+                  "value": "A_zdvd6MiC",
+                  "label": "Enabler Serie Tv"
+                }
+              ]
+            },
+            {
+              "value": "GHptJmQ2r",
+              "label": "enablerInEvidenza",
+              "children": [
+                {
+                  "value": "qRhKcvnvv",
+                  "label": "Default"
+                }
+              ]
+            },
+            {
+              "value": "VikHuTBp_",
+              "label": "enablerSoapOpera",
+              "children": [
+                {
+                  "value": "rqicoQi_nQ",
+                  "label": "Default"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "value": "zz7e9pJ0g8",
+          "label": "profiloBambino",
+          "children": [
+            {
+              "value": "j_KA7MIY5o",
+              "label": "infKidsFamily",
+              "children": [
+                {
+                  "value": "AFZ30fSMh",
+                  "label": "Inf Kids Family"
+                }
+              ]
+            },
+            {
+              "value": "rdXCmq9e1d",
+              "label": "infKidsAnimazione",
+              "children": [
+                {
+                  "value": "sMos40JpV",
+                  "label": "Inf Kids Animazione"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "value": "Vk0RA5R4a",
+          "label": "noleggio",
+          "children": [
+            {
+              "value": "YZ8Gk2fzJ",
+              "label": "tvodMultipleBlock",
+              "children": [
+                {
+                  "value": "wUc78StbQ",
+                  "label": "TVOD Multiple Block"
+                }
+              ]
+            },
+            {
+              "value": "ra0XD2trY",
+              "label": "tvodPiuNoleggiati",
+              "children": [
+                {
+                  "value": "mMyozpKut",
+                  "label": "Tvod Piu Noleggiati"
+                }
+              ]
+            },
+            {
+              "value": "bz6OhLXwN",
+              "label": "tvodFilmParamsGenre",
+              "children": [
+                {
+                  "value": "Xc_FAsre0K",
+                  "label": "Tvod Film Params Genre"
+                }
+              ]
+            },
+            {
+              "value": "gFCE7wHAi",
+              "label": "tvodFilmBlockbuster",
+              "children": [
+                {
+                  "value": "_hKL88LiKF",
+                  "label": "Tvod Film Blockbuster"
+                }
+              ]
+            },
+            {
+              "value": "ByI1G39Bay",
+              "label": "tvodFilmInScadenza",
+              "children": [
+                {
+                  "value": "aH0uiSk8h",
+                  "label": "Tvod Film In Scadenza"
+                }
+              ]
+            },
+            {
+              "value": "iNIiiEcj_Q",
+              "label": "tvodFilmInOfferta",
+              "children": [
+                {
+                  "value": "LVouqEcXf",
+                  "label": "Tvod Film In Offerta"
+                }
+              ]
+            },
+            {
+              "value": "gD7NiGV6Rb",
+              "label": "tvodFilmMostRecent",
+              "children": [
+                {
+                  "value": "MONXUfkKz",
+                  "label": "Tvod Film Most Recent"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "value": "QSO8t_Z4f",
+          "label": "kids",
+          "children": [
+            {
+              "value": "zdUkZB2aQg",
+              "label": "kidsSerieAnimateMultipleBlock",
+              "children": [
+                {
+                  "value": "PocmHNOJu",
+                  "label": "Kids Serie Animate Multiple"
+                }
+              ]
+            },
+            {
+              "value": "hQpOtGAwjU",
+              "label": "kidsSerieAnimate",
+              "children": [
+                {
+                  "value": "uSQMPkr2v",
+                  "label": "Kids Serie Animate"
+                }
+              ]
+            },
+            {
+              "value": "MDVgtJQWT",
+              "label": "kidsBoing",
+              "children": [
+                {
+                  "value": "WgfpkmLHJ",
+                  "label": "Kids Boing"
+                }
+              ]
+            },
+            {
+              "value": "V7LVzpACM",
+              "label": "kidsCartoonito",
+              "children": [
+                {
+                  "value": "tF86dGgfB",
+                  "label": "Kids Cartoonito"
+                }
+              ]
+            },
+            {
+              "value": "Onw1HfzkW",
+              "label": "kidsMediaset",
+              "children": [
+                {
+                  "value": "SgkKm0fss",
+                  "label": "Kids Mediaset"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "value": "F4oPdKHrP",
+          "label": "documentari",
+          "children": [
+            {
+              "value": "uK3VPzv6U",
+              "label": "multipleBlockDocumentari",
+              "children": [
+                {
+                  "value": "jAc6h3XPq",
+                  "label": "Default"
+                },
+                {
+                  "value": "ekmyB30A9",
+                  "label": "Default-[COPY]"
+                }
+              ]
+            },
+            {
+              "value": "pENDpshS3",
+              "label": "filmDocumentari",
+              "children": [
+                {
+                  "value": "G1zYxSkdu",
+                  "label": "Film Documentari"
+                }
+              ]
+            },
+            {
+              "value": "wYMnH4C13",
+              "label": "documentariParamsGenre",
+              "children": [
+                {
+                  "value": "kvX63eJM1",
+                  "label": "Documentari Params Genre"
+                }
+              ]
+            },
+            {
+              "value": "KzchDr8pS",
+              "label": "documentariPiuVisti24H",
+              "children": [
+                {
+                  "value": "YioN2Diy8",
+                  "label": "Documentari Piu Visti 24H"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "value": "d_KHautz_L",
+          "label": "fictionSerieTv",
+          "children": [
+            {
+              "value": "a6EZfjban",
+              "label": "tvMovieFiction",
+              "children": [
+                {
+                  "value": "H9ZIGo39c",
+                  "label": "TV Movie Fiction"
+                }
+              ]
+            },
+            {
+              "value": "k6yJDLV5b",
+              "label": "becauseYouFictionSerieTv",
+              "children": [
+                {
+                  "value": "Xp9Sbgys5",
+                  "label": "Because you Fiction SerieTv"
+                }
+              ]
+            },
+            {
+              "value": "MHKSMtXnx",
+              "label": "fictionSerieTvLibrary",
+              "children": [
+                {
+                  "value": "nSlVGH0Hs",
+                  "label": "Fiction Serie TV Library"
+                }
+              ]
+            },
+            {
+              "value": "DrF2Y1RZU",
+              "label": "fictionOriginals",
+              "children": [
+                {
+                  "value": "HDTkemrtG",
+                  "label": "Default"
+                }
+              ]
+            },
+            {
+              "value": "jj72aKvoC",
+              "label": "multipleBlockFictionSerieTv",
+              "children": [
+                {
+                  "value": "FELb4Gfq3",
+                  "label": "Multiple Block Fiction SerieTv"
+                }
+              ]
+            },
+            {
+              "value": "P6UdjLapE",
+              "label": "fictionSerieTvDelMomento",
+              "children": [
+                {
+                  "value": "PORHTlGBe",
+                  "label": "Fiction Serie Tv Del Momento"
+                }
+              ]
+            },
+            {
+              "value": "XzvXgQ2xM3",
+              "label": "fictionSerieTvParamsGenre",
+              "children": [
+                {
+                  "value": "yIsgXYLsU",
+                  "label": "Fiction Serie Tv Params Genre"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "value": "m9YkCwdFn",
+          "label": "similar",
+          "children": [
+            {
+              "value": "_T_5xGrfz",
+              "label": "similarSerieB",
+              "children": [
+                {
+                  "value": "T5QT3JmGE",
+                  "label": "Default"
+                }
+              ]
+            },
+            {
+              "value": "QWy8y_ZIwz",
+              "label": "similarNoCategory",
+              "children": [
+                {
+                  "value": "H5LkUZTLLD",
+                  "label": "similar no category"
+                }
+              ]
+            },
+            {
+              "value": "HHb0YGlvS",
+              "label": "similarSport",
+              "children": [
+                {
+                  "value": "F_fwHp_Hq",
+                  "label": "Similar Sport"
+                },
+                {
+                  "value": "v0h5mj4YR",
+                  "label": "CHNLSSimilarSport"
+                }
+              ]
+            },
+            {
+              "value": "QkOcjo5u_o",
+              "label": "similarTg",
+              "children": [
+                {
+                  "value": "eSZgKCzVb",
+                  "label": "Similar TG"
+                },
+                {
+                  "value": "TVb1U063L",
+                  "label": "Similar Pier Silvio"
+                }
+              ]
+            },
+            {
+              "value": "Zo6ECYV90",
+              "label": "similarInformazione",
+              "children": [
+                {
+                  "value": "gZVannlg5",
+                  "label": "Similar Informazione"
+                },
+                {
+                  "value": "j6Q_b26qL",
+                  "label": "Similar QuiMediaset"
+                }
+              ]
+            },
+            {
+              "value": "XY2qRtWub",
+              "label": "similarIntrattenimento",
+              "children": [
+                {
+                  "value": "QNr9SnA5k",
+                  "label": "Similar Intrattenimento"
+                },
+                {
+                  "value": "aR0mJ3IQB",
+                  "label": "Similar X Style"
+                },
+                {
+                  "value": "HYO_dnK0l3",
+                  "label": "Similar Calendario Avvento"
+                }
+              ]
+            },
+            {
+              "value": "NIaLB1BTVl",
+              "label": "similarSerieTvFiction",
+              "children": [
+                {
+                  "value": "gbJDK5fwo7",
+                  "label": "Similar Serie Tv Fiction"
+                },
+                {
+                  "value": "fnGIb84YX",
+                  "label": "INFSerieTvFiction"
+                },
+                {
+                  "value": "_VqJkMMN1l",
+                  "label": "CHNLSSimilarSerieTv"
+                }
+              ]
+            },
+            {
+              "value": "s1anvg99C4",
+              "label": "similarCartoni",
+              "children": [
+                {
+                  "value": "hqncHFlz5u",
+                  "label": "Similar Cartoni"
+                }
+              ]
+            },
+            {
+              "value": "NjbgtR2lz",
+              "label": "similarDocumentari",
+              "children": [
+                {
+                  "value": "NXrzVs6qU",
+                  "label": "Similar Documentari"
+                },
+                {
+                  "value": "DPajhkT23v",
+                  "label": "CHNLSSimilarDocumentari"
+                }
+              ]
+            },
+            {
+              "value": "xu2fLgL1v",
+              "label": "similarCinema",
+              "children": [
+                {
+                  "value": "ZA5bk7Cqp",
+                  "label": "Similar Cinema"
+                },
+                {
+                  "value": "i8ZVS1OMr",
+                  "label": "Similar 4K"
+                },
+                {
+                  "value": "ziKOJXLlU",
+                  "label": "INFSimilarCinema"
+                },
+                {
+                  "value": "sCx4lHHdZ",
+                  "label": "CHNLSSimilarCinema"
+                },
+                {
+                  "value": "JnawDETcld",
+                  "label": "TVODSimilarCinema"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "value": "vAky9a3AY",
+          "label": "film",
+          "children": [
+            {
+              "value": "W2sNZ_bXP",
+              "label": "multipleBlockFilm",
+              "children": [
+                {
+                  "value": "MRR_0Yp3I",
+                  "label": "Multiple Block Film"
+                }
+              ]
+            },
+            {
+              "value": "xG209TQAOl",
+              "label": "filmClustering",
+              "children": [
+                {
+                  "value": "R9DA4iBBnw",
+                  "label": "Default Anonimi "
+                },
+                {
+                  "value": "D0STFPk3S",
+                  "label": "Cluster To Content Film"
+                },
+                {
+                  "value": "C8LfLLdpg",
+                  "label": "Person to content Outlier"
+                }
+              ]
+            },
+            {
+              "value": "M7ZFBdo1c",
+              "label": "filmParamsGenre",
+              "children": [
+                {
+                  "value": "a0tfbqvDn",
+                  "label": "Film Params Genre"
+                }
+              ]
+            },
+            {
+              "value": "ofDzBAam80",
+              "label": "filmDelMomento",
+              "children": [
+                {
+                  "value": "YmMDc5Z1G",
+                  "label": "Film Del Momento"
+                }
+              ]
+            },
+            {
+              "value": "XTq7v51eP",
+              "label": "filmUltimiArrivi",
+              "children": [
+                {
+                  "value": "Hx5w3GWr7",
+                  "label": "Film Ultimi Arrivi"
+                }
+              ]
+            },
+            {
+              "value": "QRd7IFMQaY",
+              "label": "filmPiuVisti24H",
+              "children": [
+                {
+                  "value": "Rr1oVr_BGW",
+                  "label": "Film Piu Visti 24H"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "value": "oWJ1lFasPk",
+          "label": "programmiTv",
+          "children": [
+            {
+              "value": "HEPxgP8Pm",
+              "label": "xStyleSubbrandParams",
+              "children": [
+                {
+                  "value": "If1yBj9d7",
+                  "label": "X Style subbrand"
+                }
+              ]
+            },
+            {
+              "value": "NCATfP6la",
+              "label": "multipleBlockProgrammiTv",
+              "children": [
+                {
+                  "value": "F_sjywA9Q",
+                  "label": "MultiBlock Programmi Tv"
+                }
+              ]
+            },
+            {
+              "value": "vXLwShIOp",
+              "label": "grandeFratelloTopViewed24H",
+              "children": [
+                {
+                  "value": "AIP91IWZU9",
+                  "label": "Grande Fratello Top Viewed 24H"
+                }
+              ]
+            },
+            {
+              "value": "zIx7jRMtT",
+              "label": "mostRecentSport",
+              "children": [
+                {
+                  "value": "xglMRSas4",
+                  "label": "Most Recent Sport"
+                }
+              ]
+            },
+            {
+              "value": "Dp18zVMBBg",
+              "label": "programmiTvParamsGenre",
+              "children": [
+                {
+                  "value": "YXgJJEmkJ",
+                  "label": "Programmi Tv Params Genre"
+                }
+              ]
+            },
+            {
+              "value": "vVGe5Suk3",
+              "label": "stagioniPrimaSerata",
+              "children": [
+                {
+                  "value": "sEP3zfViW",
+                  "label": "Stagioni Prima Serata"
+                }
+              ]
+            },
+            {
+              "value": "GLph9x0zD",
+              "label": "stagioniDaytime",
+              "children": [
+                {
+                  "value": "rsqDOhhtgu",
+                  "label": "Stagioni Daytime"
+                }
+              ]
+            },
+            {
+              "value": "dSO8u7pRf",
+              "label": "programmiTvClip24H",
+              "children": [
+                {
+                  "value": "WskbBSb5I",
+                  "label": "Programmi Tv Clip 24H"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "value": "U0WrVkcN6",
+          "label": "homepage",
+          "children": [
+            {
+              "value": "qET0zRl1G7",
+              "label": "fepPiuRecentiSeasonParams",
+              "children": [
+                {
+                  "value": "K0s4tyEoi",
+                  "label": "fepPiuRecentiSeasonParams"
+                }
+              ]
+            },
+            {
+              "value": "xto6zka9cb",
+              "label": "multipleBlockSubscriptionChannel",
+              "children": [
+                {
+                  "value": "U9VSvjaKl",
+                  "label": "Subscription Channel Film"
+                }
+              ]
+            },
+            {
+              "value": "v3M63bs3c",
+              "label": "clip24HParamsSeason",
+              "children": [
+                {
+                  "value": "XIjwlMKj7",
+                  "label": "Clip 24H Params Season"
+                }
+              ]
+            },
+            {
+              "value": "RTutmVwd8",
+              "label": "serieTvDelMomento",
+              "children": [
+                {
+                  "value": "wkpqlVmY5",
+                  "label": "Serie Tv Del Momento"
+                }
+              ]
+            },
+            {
+              "value": "lh9H8mbT8",
+              "label": "homePayFilmParamsGenre",
+              "children": [
+                {
+                  "value": "pyU9yg1UR",
+                  "label": "Home Pay Film Params Genre"
+                }
+              ]
+            },
+            {
+              "value": "d4IsNrq0A",
+              "label": "serieTvPiuViste24H",
+              "children": [
+                {
+                  "value": "lV_EHAzs2h",
+                  "label": "Serie Tv Piu Viste 24H"
+                }
+              ]
+            },
+            {
+              "value": "qBFifKbjX",
+              "label": "stagioniFictionSoap",
+              "children": [
+                {
+                  "value": "RkeXT7FCf",
+                  "label": "Stagioni Fiction Soap"
+                }
+              ]
+            },
+            {
+              "value": "Rj1_1Ldtp",
+              "label": "stagioniProgrammiTv",
+              "children": [
+                {
+                  "value": "wflA9RRQu",
+                  "label": "Stagioni Programmi Tv"
+                }
+              ]
+            },
+            {
+              "value": "wa7CTFrKM",
+              "label": "stagioniKids",
+              "children": [
+                {
+                  "value": "ZlNq8fAav",
+                  "label": "Stagioni Kids"
+                }
+              ]
+            },
+            {
+              "value": "wSapSXMZL",
+              "label": "stagioniFictionSerieTvHomepage",
+              "children": [
+                {
+                  "value": "oh3L3bngOT",
+                  "label": "Stagioni Fiction SerieTv Homepage"
+                }
+              ]
+            },
+            {
+              "value": "v8HBDVt48",
+              "label": "piuVisti24H",
+              "children": [
+                {
+                  "value": "ABI4m0dhX",
+                  "label": "Piu Visti 24H"
+                }
+              ]
+            },
+            {
+              "value": "XBJpXgG8U",
+              "label": "personToContentHomepage",
+              "children": [
+                {
+                  "value": "DpOQyZDgw",
+                  "label": "Person To Content Homepage"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "id": "zlqQNxLcGh",
+  "version": 672,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2026-03-05T16:41:27.538Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "experiments",
+        "items": []
+      }
+    ]
+  },
+  "pagesMetadata": [
+    {
+      "id": "GXEO0MvgI",
+      "title": "Default",
+      "metadata": []
+    }
+  ],
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  },
+  "active": true
+}

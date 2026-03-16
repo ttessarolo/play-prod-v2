@@ -1,0 +1,43 @@
+{
+  "title": "List ADV Bravo e con gusto",
+  "description": "",
+  "type": "contentId",
+  "contentType": "video",
+  "realm": "content",
+  "metadataField": "title",
+  "elements": [
+    "F314244401000101",
+    "F314244401000201",
+    "F314244401000301",
+    "F314244401000401",
+    "F314244401000501"
+  ],
+  "id": "OJBypkVIS",
+  "version": 9,
+  "lastSaved": {
+    "username": "Massimiliano.Berardi",
+    "date": "2025-11-05T10:43:38.087Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "rules",
+        "items": [
+          "XhBXHe_tWU"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  }
+}

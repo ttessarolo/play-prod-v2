@@ -1,0 +1,93 @@
+{
+  "title": "Query recommendable true",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "YJNYDzbb7"
+    }
+  ],
+  "exclude": [],
+  "include": [],
+  "boost": [],
+  "order": [
+    {
+      "id": "SXyaET7iz2"
+    }
+  ],
+  "realm": "content",
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "YJNYDzbb7",
+          "SXyaET7iz2"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": []
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "id": "QP0jwForL",
+  "version": 2,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-07-15T15:14:43.396Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "SLkLuottk",
+              "type": "blocks",
+              "title": "Block recommendable true"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 1,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 1,
+          "items": [
+            {
+              "id": "YJNYDzbb7",
+              "type": "rules",
+              "title": "Rule recommendable true"
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "uselessMultiplier": false
+}

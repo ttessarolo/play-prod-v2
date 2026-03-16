@@ -1,0 +1,60 @@
+{
+  "title": "🧑‍🧒 PLAY:USERS:INCREMENTAL",
+  "description": "User Loader for incremental users onboarding",
+  "queue": "play-prod-v2:users:green",
+  "index": "utenti_incremental",
+  "idField": "user_id",
+  "label": "__eK0_jTf",
+  "tokens": [
+    "H4sIAAAAAAAAE6tWyslMUbJSynBOyXf1iggNUtJRKskrAYoU5CRW6hYU5afolhkBBfPL84CCQSGeQHZqRQGQbWRoZKprYKRrZBpiYGllbGZlaqJnYGQWBVSQmAw0IVqpHMhMAeJSpdhaAPnRtQ9pAAAA"
+  ],
+  "refs": {
+    "require": [
+      {
+        "type": "labels",
+        "items": [
+          "wvWb0c63u"
+        ]
+      }
+    ],
+    "belongs": []
+  },
+  "id": "hCdoEJXUR",
+  "version": 16,
+  "lastSaved": {
+    "username": "ttessarolo",
+    "date": "2025-05-30T13:09:11.825Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "labels",
+          "count": 1,
+          "items": [
+            {
+              "id": "wvWb0c63u",
+              "type": "labels",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "active": true,
+  "retry": {
+    "active": true,
+    "token": "H4sIAAAAAAAAA6tWyslMUbJSynBOyXf1iggNUtJRKskrAYoU5CRW6hYU5afolhkBBfPL84CCjkGuwUBOakUBkGNsYGCga2ika2wQYmRsZWAARHpAoSiggsRkoBHRSuVAZgoQlwJxkVJsLQCvdXoObgAAAA%3D%3D"
+  },
+  "schema": {
+    "input": "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"User Data Schema\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"user_id\": {\n      \"type\": \"string\"\n    },\n    \"cluster_id\": {\n      \"type\": \"string\"\n    },\n    \"is_outlier\":{\n      \"type\":\"boolean\"\n    },\n    \"video_watched_w_ts\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"object\",\n        \"properties\": {\n          \"id\": {\n            \"type\": \"string\"\n          },\n          \"ts\": {\n            \"type\": \"string\",\n            \"format\": \"date-time\"\n          }\n        },\n        \"required\": [\"id\", \"ts\"],\n        \"additionalProperties\": false\n      }\n    },\n    \"video_aborted_w_ts\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"object\",\n        \"properties\": {\n          \"id\": {\n            \"type\": \"string\"\n          },\n          \"ts\": {\n            \"type\": \"string\",\n            \"format\": \"date-time\"\n          }\n        },\n        \"required\": [\"id\", \"ts\"],\n        \"additionalProperties\": false\n      }\n    },\n    \"video_keep_watching_w_ts\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"object\",\n        \"properties\": {\n          \"id\": {\n            \"type\": \"string\"\n          },\n          \"ts\": {\n            \"type\": \"string\",\n            \"format\": \"date-time\"\n          }\n        },\n        \"required\": [\"id\", \"ts\"],\n        \"additionalProperties\": false\n      }\n    },\n    \"video_historical_fingerprint\": {\n      \"type\": \"string\"\n    },\n    \"video_series_engaged_w_ts\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"object\",\n        \"properties\": {\n          \"id\": {\n            \"type\": \"string\"\n          },\n          \"ts\": {\n            \"type\": \"string\",\n            \"format\": \"date-time\"\n          }\n        },\n        \"required\": [\"id\", \"ts\"],\n        \"additionalProperties\": false\n      }\n    },\n    \"video_seasons_engaged_w_ts\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"object\",\n        \"properties\": {\n          \"id\": {\n            \"type\": \"string\"\n          },\n          \"ts\": {\n            \"type\": \"string\",\n            \"format\": \"date-time\"\n          }\n        },\n        \"required\": [\"id\", \"ts\"],\n        \"additionalProperties\": false\n      }\n    },\n    \"lastARESLoaderModified\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\"\n    }\n  },\n  \"required\": [\"user_id\"],\n  \"additionalProperties\": false\n}"
+  }
+}

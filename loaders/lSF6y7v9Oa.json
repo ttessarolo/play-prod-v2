@@ -1,0 +1,138 @@
+{
+  "title": "PLAY:VIDEO:CONTENT",
+  "description": "Loader for Video Content onboarding",
+  "tokens": [
+    "H4sIAAAAAAAAA6tWyslMUbJSygl2M6s0L7P0T1TSUSrJKwEKFeQkVuoWFOWn6JYZAQXzy%2FOAgh6uAR6uwSGhwUCR1IoCoIiRgbGxroGlroF5iIGRlamllYmBnpGRYRRQQWIy0JxopXIgMwWIS5ViawF%2FaIGvcAAAAA%3D%3D"
+  ],
+  "active": true,
+  "queue": "play-prod-v2:video_content:ingress",
+  "index": "play-prod-v2_video_content_v3",
+  "idField": "video_content_id",
+  "refs": {
+    "require": [
+      {
+        "type": "pipelines",
+        "items": [
+          "PaKfUCtXY"
+        ]
+      },
+      {
+        "type": "labels",
+        "items": [
+          "wvWb0c63u"
+        ]
+      }
+    ],
+    "belongs": []
+  },
+  "id": "lSF6y7v9Oa",
+  "version": 38,
+  "lastSaved": {
+    "username": "ttessarolo",
+    "date": "2025-04-09T12:48:33.598Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 2,
+      "types": 2,
+      "items": [
+        {
+          "type": "pipelines",
+          "count": 1,
+          "items": [
+            {
+              "id": "PaKfUCtXY",
+              "type": "pipelines",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "labels",
+          "count": 1,
+          "items": [
+            {
+              "id": "wvWb0c63u",
+              "type": "labels",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "pipelines": {
+    "static": [
+      "PaKfUCtXY"
+    ],
+    "active": true
+  },
+  "injects": {
+    "fingerprint": {
+      "active": true,
+      "key": "fingerprint"
+    },
+    "egress": {
+      "active": true
+    }
+  },
+  "scheduling": {
+    "index": "play-prod-v2_video_content_schedule_v1",
+    "token": "H4sIAAAAAAAAA6tWyslMUbJScovITA51tQwKVdJRKskrAYoU5CRW6hYU5afolhkBBfPL84CCHq4BHq7BIaHBQJHUigKgiJGBsbGugaWukVGIgYGVqbGVqZmeuZl5FFBBYjLQnGilciAzBYhLlWJrAdawCR9vAAAA",
+    "schedules": [
+      {
+        "id": "fa2zOgjWj",
+        "active": true,
+        "cron": "* * * * *",
+        "keys": {
+          "root": "windows",
+          "start": "start",
+          "end": "end"
+        },
+        "events": {
+          "start": {
+            "active": true,
+            "recommendable": true,
+            "evaluate": "\n        /**\n         * Pure JavaScript Function that Evaluate if condition should trigger and\n         * optionally enriches the update payload of the processed document\n         * \n         * @param $document - The document that is being processed\n         * @param $window - The Event window object eg. {start:\"XXX\", end:\"YYY\"}\n         * \n         * @returns A single boolean (true if event should trigger) or [boolean, object]\n         * where boolean must be true if event should trigger and the optional object is \n         * the additional document update payload when the event is triggered\n         */\n        \n        const content_channels = new Set($document.content_channels ?? []);\n        if($window.channel) content_channels.add($window.channel);\n\n        const content_rights = new Set($document.content_rights ?? []);\n        if($window.right) content_rights.add($window.right);\n\n        const content_channels_rights = new Set($document.content_channels_rights ?? []);\n        if($window.right && $window.channel) content_channels_rights.add(`${$window.channel}_${$window.right}`)\n\n        return [true, {\n                content_channels: [...content_channels], \n                content_rights: [...content_rights], \n                content_channels_rights: [...content_channels_rights]\n                }];"
+          },
+          "end": {
+            "active": true,
+            "recommendable": false,
+            "evaluate": "\n        /**\n         * Pure JavaScript Function that Evaluate if condition should trigger and\n         * optionally enriches the update payload of the processed document\n         * \n         * @param $document - The document that is being processed\n         * @param $window - The Event window object eg. {start:\"XXX\", end:\"YYY\"}\n         * \n         * @returns A single boolean (true if event should trigger) or [boolean, object]\n         * where boolean must be true if event should trigger and the optional object is \n         * the additional document update payload when the event is triggered\n         */\n\n        const content_channels = new Set($document.content_channels ?? []);\n        content_channels.delete($window.channel);\n\n        const content_rights = new Set($document.content_rights ?? []);\n        content_rights.delete($window.right);\n\n        const content_channels_rights = new Set($document.content_channels_rights ?? []);\n        content_channels_rights.delete(`${$window.channel}_${$window.right}`)\n\n        return [true, {\n                content_channels: [...content_channels], \n                content_rights: [...content_rights], \n                content_channels_rights: [...content_channels_rights]\n                }];"
+          },
+          "destroy": {
+            "active": true,
+            "evaluate": "\n        /**\n         * Pure JavaScript Function that Evaluate if condition should trigger\n         * \n         * @param $document - The document that is being processed\n         * @param $window - The Event window object {end:\"YYY\"}\n         * \n         * @returns A single boolean (true if event should trigger) \n         */\n\n        //if([\"Movie\",\"Full Episode\"].includes($document.editorial_type)) return false;\n        return true;"
+          }
+        },
+        "skipPastEvents": true
+      }
+    ]
+  },
+  "backup": {
+    "u": {
+      "active": true,
+      "bucket": "prod-ares-root-content/loaders/lSF6y7v9Oa/update"
+    },
+    "w": {
+      "active": true,
+      "bucket": "prod-ares-root-content/loaders/lSF6y7v9Oa/write"
+    },
+    "d": {
+      "active": true,
+      "bucket": "prod-ares-root-content/loaders/lSF6y7v9Oa/delete"
+    },
+    "prefixWithDate": true
+  },
+  "retry": {
+    "active": true,
+    "token": "H4sIAAAAAAAAA6tWyslMUbJSygl2M6s0L7P0T1TSUSrJKwEKFeQkVuoWFOWn6JYZAQXzy%2FOAgo5BrsFATmpFAZBjbGBgoGtopGtsEGJkbGVgAER6QKEooILEZKAR0UrlQGYKEJcCcZFSbC0AwfrpdG8AAAA%3D",
+    "checkFutureDate": true
+  },
+  "label": "ddQongIHWN"
+}

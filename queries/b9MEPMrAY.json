@@ -1,0 +1,163 @@
+{
+  "title": "INF Serie Most recent Top Stagione Completa",
+  "description": "Carrello: I nostri cofanetti di serie Contiene: Serie di Infinity e MPlay In attesa del campo INFINITY publication date\n",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "MrtMAYnbZ"
+    },
+    {
+      "id": "IA2rMeBZYW"
+    },
+    {
+      "id": "CDMrhQW14"
+    },
+    {
+      "id": "kcFRvo0hZ1"
+    },
+    {
+      "id": "RqBahOBRSz"
+    }
+  ],
+  "exclude": [],
+  "include": [],
+  "boost": [],
+  "order": [
+    {
+      "id": "zmV_L7QRr"
+    }
+  ],
+  "realm": "content",
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "MrtMAYnbZ",
+          "IA2rMeBZYW",
+          "CDMrhQW14",
+          "kcFRvo0hZ1",
+          "RqBahOBRSz",
+          "zmV_L7QRr"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "ztWfmA_PI",
+          "KhQ3IziFJ"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "DzhJ1E4qZ"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "id": "b9MEPMrAY",
+  "version": 10,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2022-09-26T14:29:12.845Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "DzhJ1E4qZ",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 8,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 6,
+          "items": [
+            {
+              "id": "MrtMAYnbZ",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "IA2rMeBZYW",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "CDMrhQW14",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "kcFRvo0hZ1",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "RqBahOBRSz",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "zmV_L7QRr",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 2,
+          "items": [
+            {
+              "id": "ztWfmA_PI",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "KhQ3IziFJ",
+              "type": "rulesPresets",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "uselessMultiplier": false,
+  "metadataOverrides": {},
+  "presets": {
+    "exclude": [
+      {
+        "id": "KhQ3IziFJ"
+      }
+    ],
+    "filter": [
+      {
+        "id": "ztWfmA_PI"
+      }
+    ]
+  }
+}

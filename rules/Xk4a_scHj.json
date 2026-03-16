@@ -1,0 +1,108 @@
+{
+  "contentType": "video",
+  "clauses": [
+    "boost"
+  ],
+  "rule": [
+    {
+      "condition": "(is(filmdautore, \"true\"))",
+      "boost": 1,
+      "type": "I2I",
+      "_id": "t2xKfKNbL",
+      "match": "true",
+      "phrase": false,
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "is",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "filmdautore"
+              },
+              {
+                "value": "\"true\"",
+                "type": "boolean"
+              }
+            ],
+            "id": "bACKpnBcPw"
+          }
+        ]
+      },
+      "field": "filmdautore",
+      "fieldDBType": "boolean",
+      "queryType": "match",
+      "value": "true",
+      "valueType": "string",
+      "API": "V2",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "field": "filmdautore",
+  "title": "Rule Film di Autore Condizionale",
+  "description": "Include i film di autore se il contenuto chiamante è d'autore",
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "KrplYijM4",
+          "mkgdGBb51b",
+          "hpyoLcJCQ",
+          "MH1tGzFfW",
+          "l4aaD5uVWs"
+        ]
+      }
+    ]
+  },
+  "id": "Xk4a_scHj",
+  "version": 5,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-04-02T14:42:03.644Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 1,
+          "items": [
+            {
+              "id": "KrplYijM4",
+              "type": "queries",
+              "title": "INF Similar Cinema"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 1,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "realm": "content",
+  "metadata": {
+    "content": true
+  },
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": []
+}

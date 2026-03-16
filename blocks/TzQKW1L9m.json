@@ -1,0 +1,259 @@
+{
+  "results": {
+    "flatAllBlocks": true,
+    "min": 0,
+    "fallbackBlockId": "Bn52RsYBn",
+    "max": 24,
+    "deduplicateFlattedResults": true
+  },
+  "blocks": [
+    {
+      "_id": "qfKR_oN7pb",
+      "condition": "(!equals(params_seasonId, \"ST000000004468\") && !equals(params_seasonId, \"ST000000004878\"))",
+      "title": "FEP più recenti Season params",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 24,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "fallbackBlockId": "Bn52RsYBn",
+        "skipOnEmpty": true
+      },
+      "queryId": "_t8yb_eh3",
+      "metadata": {
+        "content": false
+      },
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "!equals",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "params_seasonId"
+              },
+              {
+                "value": "\"ST000000004468\"",
+                "type": "freeText"
+              }
+            ],
+            "id": "xaR2cchj9k"
+          },
+          {
+            "id": "Zj8mvHOKs",
+            "operator": "!equals",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "params_seasonId"
+              },
+              {
+                "value": "\"ST000000004878\"",
+                "type": "string"
+              }
+            ]
+          }
+        ]
+      },
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "_id": "rMrLZ41PK",
+      "condition": "(equals(params_seasonId, \"ST000000004468\") || equals(params_seasonId, \"ST000000004878\"))",
+      "title": "FEP più recenti Season params last live dat",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 20,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true
+      },
+      "queryId": "XQDNlUIPb",
+      "metadata": {
+        "content": false
+      },
+      "conditionRaw": {
+        "or": [
+          {
+            "operator": "equals",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "params_seasonId"
+              },
+              {
+                "value": "\"ST000000004468\"",
+                "type": "freeText"
+              }
+            ],
+            "id": "PQpRKMqt_M"
+          },
+          {
+            "id": "JdZrdJu7Y",
+            "operator": "equals",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "params_seasonId"
+              },
+              {
+                "value": "\"ST000000004878\"",
+                "type": "string"
+              }
+            ]
+          }
+        ]
+      },
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "refs": {
+    "require": [
+      {
+        "type": "queries",
+        "items": [
+          "_t8yb_eh3",
+          "XQDNlUIPb"
+        ]
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "Bn52RsYBn"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": [
+          "eOaXizx_"
+        ]
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "K0s4tyEoi"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "pages",
+          "count": 1,
+          "items": [
+            {
+              "variantId": "K0s4tyEoi",
+              "propertyId": "zlqQNxLcGh",
+              "propertyTitle": "",
+              "endpointId": "qET0zRl1G7",
+              "endpointTitle": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 4,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 2,
+          "items": [
+            {
+              "id": "_t8yb_eh3",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "XQDNlUIPb",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "Bn52RsYBn",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 1,
+          "items": [
+            {
+              "id": "eOaXizx_",
+              "type": "responseFields",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "title": "Block FEP più recenti Season params",
+  "description": "",
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "realm": "content",
+  "id": "TzQKW1L9m",
+  "version": 11,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2026-01-14T16:28:38.604Z"
+  }
+}

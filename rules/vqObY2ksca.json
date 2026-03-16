@@ -1,0 +1,137 @@
+{
+  "title": "Rule Similar Tipologia Intrattenimento Fep",
+  "description": "Include FEP di tipologia Intrattenimento e esclude brand del chiamante",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "keepOrder": true,
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "video_similar_ids_intratt_fep",
+      "valueType": "metadata",
+      "queryType": "ids",
+      "field": "video_content_id",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "OQuYAwWHQ"
+    }
+  ],
+  "clauses": [
+    "include",
+    "filter"
+  ],
+  "metadata": {
+    "content_similar": {
+      "required": true,
+      "output": "video_similar_ids_intratt_fep",
+      "numResults": 50,
+      "metadata": {
+        "included": [
+          "tipologia=Intrattenimento",
+          "editorial_type=Full Episode",
+          "content_channels=MediasetPlay"
+        ],
+        "excluded": [
+          "id_series_se"
+        ]
+      },
+      "date": {
+        "range": 18,
+        "period": "M",
+        "field": "publication_date",
+        "absolute": true
+      },
+      "fingerprint": {
+        "matchFields": [
+          "fingerprint"
+        ]
+      },
+      "groupby": {
+        "metadata": "id_series_se",
+        "results": 1,
+        "sortMetadata": "",
+        "sortDirection": "asc"
+      }
+    }
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "DHl6a0GLT",
+          "TGWJP5C2lJ"
+        ]
+      }
+    ]
+  },
+  "id": "vqObY2ksca",
+  "version": 3,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2023-05-23T13:41:23.776Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 4,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 4,
+          "items": [
+            {
+              "id": "DHl6a0GLT",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "TGWJP5C2lJ",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "YX8WbRcpU",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "NMhUa_Z7w",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  }
+}

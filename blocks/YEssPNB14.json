@@ -1,0 +1,245 @@
+{
+  "results": {
+    "min": 0,
+    "flatAllBlocks": true,
+    "fallbackBlockId": "P0csRsOt7",
+    "max": 35,
+    "deduplicateFlattedResults": true,
+    "shuffleItems": false
+  },
+  "blocks": [
+    {
+      "_id": "kxsb_lVQY",
+      "condition": "*",
+      "title": "INF Blockbuster Top 2018",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 3,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true,
+        "shuffleItems": false
+      },
+      "queryId": "wZl6yRICv"
+    },
+    {
+      "_id": "mUYGyGPigz",
+      "condition": "*",
+      "title": "MPlay Top over 2015",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 2,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true,
+        "inject": []
+      },
+      "queryId": "FHMVTArGO"
+    },
+    {
+      "_id": "__kkjLNNa",
+      "condition": "*",
+      "title": "MPlay INF e Noleggio Blockbuster Top 2020",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 10,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true,
+        "filters": {
+          "repeatedMetadata": [
+            {
+              "meta": "content_channels",
+              "value": "Noleggio",
+              "moreThan": "1%"
+            }
+          ]
+        },
+        "shuffleItems": false,
+        "inject": []
+      },
+      "queryId": "jO1QhHhsaX"
+    },
+    {
+      "_id": "lrOf4am1E",
+      "condition": "*",
+      "title": "INF Blockbuster Top 2018",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 60,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_"
+      },
+      "queryId": "wZl6yRICv"
+    }
+  ],
+  "title": "Block Film del momento",
+  "description": "",
+  "scheduled": 0,
+  "scheduling": [],
+  "schedulingMap": [],
+  "realm": "content",
+  "refs": {
+    "require": [
+      {
+        "type": "queries",
+        "items": [
+          "wZl6yRICv",
+          "FHMVTArGO",
+          "jO1QhHhsaX"
+        ]
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "P0csRsOt7"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": [
+          "eOaXizx_"
+        ]
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "YmMDc5Z1G"
+        ]
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      }
+    ]
+  },
+  "id": "YEssPNB14",
+  "version": 63,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2022-01-17T09:59:34.733Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 2,
+      "types": 2,
+      "items": [
+        {
+          "type": "pages",
+          "count": 1,
+          "items": [
+            {
+              "variantId": "YmMDc5Z1G",
+              "variantTitle": "Default",
+              "propertyId": "zlqQNxLcGh",
+              "propertyTitle": "play",
+              "endpointId": "ofDzBAam80",
+              "endpointTitle": "filmDelMomento"
+            }
+          ]
+        },
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "d1hO0b0oFp",
+              "type": "endpoints",
+              "title": "test"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 5,
+      "types": 6,
+      "items": [
+        {
+          "type": "queries",
+          "count": 3,
+          "items": [
+            {
+              "id": "wZl6yRICv",
+              "type": "queries",
+              "title": "Query Film del momento Infinity"
+            },
+            {
+              "id": "FHMVTArGO",
+              "type": "queries",
+              "title": "Query Film del momento MPlay"
+            },
+            {
+              "id": "jO1QhHhsaX",
+              "type": "queries",
+              "title": "Query Film del momento Mplay Infinity Noleggio"
+            }
+          ]
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "P0csRsOt7",
+              "type": "blocks",
+              "title": "Block published flag not exists"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 1,
+          "items": [
+            {
+              "id": "eOaXizx_",
+              "type": "responseFields",
+              "title": "PLAY-PROD-VIDEO-MINIMAL-SET"
+            }
+          ]
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": []
+}

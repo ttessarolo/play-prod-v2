@@ -1,0 +1,33 @@
+{
+  "title": "Lista ADV DR",
+  "description": "",
+  "type": "contentId",
+  "contentType": "video",
+  "realm": "content",
+  "metadataField": "title",
+  "elements": [
+    "FD00000000519925",
+    "FD00000000518502"
+  ],
+  "id": "q2bSBGxF_",
+  "version": 9,
+  "lastSaved": {
+    "username": "Massimiliano.Berardi",
+    "date": "2026-03-02T10:29:22.393Z"
+  },
+  "refs": {
+    "belongs": []
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  }
+}

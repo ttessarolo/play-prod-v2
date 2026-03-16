@@ -1,0 +1,140 @@
+{
+  "results": {
+    "flatAllBlocks": true,
+    "min": 0,
+    "max": 30,
+    "fallbackBlockId": "P0csRsOt7"
+  },
+  "blocks": [
+    {
+      "condition": "*",
+      "title": "I più visti del giorno 24h",
+      "type": "query",
+      "_id": "ctkdrG8ic8",
+      "pinned": true,
+      "results": {
+        "max": 30,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true,
+        "fallbackBlockId": "P0csRsOt7"
+      },
+      "queryId": "bOnJl04URI",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      }
+    }
+  ],
+  "canBeFallback": false,
+  "title": "Block I più visti del giorno 24h",
+  "description": "",
+  "refs": {
+    "require": [
+      {
+        "type": "queries",
+        "items": [
+          "bOnJl04URI"
+        ]
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "P0csRsOt7"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": [
+          "eOaXizx_"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "ABI4m0dhX"
+        ]
+      }
+    ]
+  },
+  "id": "BGDVNJzqyk",
+  "version": 7,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-03-25T17:28:17.320Z"
+  },
+  "enabledPagesId": [
+    "U0WrVkcN6",
+    "Rj1_1Ldtp",
+    "wa7CTFrKM",
+    "wSapSXMZL",
+    "v8HBDVt48",
+    "XBJpXgG8U"
+  ],
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 1,
+      "items": [
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        }
+      ]
+    },
+    "require": {
+      "total": 2,
+      "types": 4,
+      "items": [
+        {
+          "type": "queries",
+          "count": 1,
+          "items": [
+            {
+              "id": "bOnJl04URI",
+              "type": "queries",
+              "title": "Query Più visti del giorno 24h"
+            }
+          ]
+        },
+        {
+          "type": "blocks",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 1,
+          "items": [
+            {
+              "id": "eOaXizx_",
+              "type": "responseFields",
+              "title": "PLAY-PROD-VIDEO-MINIMAL-SET"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

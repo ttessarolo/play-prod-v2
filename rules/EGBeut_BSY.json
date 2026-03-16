@@ -1,0 +1,132 @@
+{
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "NjHXbVUOud",
+          "XObNbg7Sk"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 1,
+          "items": [
+            {
+              "id": "NjHXbVUOud",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "(contains(context_features_subscription_channels, \"Infinity\"))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "context_features_subscription_channels"
+              },
+              {
+                "value": "\"Infinity\"",
+                "type": "string"
+              }
+            ],
+            "id": "7mDoXV413o"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "video_similar_ids_include_infinity_serie",
+      "valueType": "metadata",
+      "queryType": "ids",
+      "field": "video_content_id",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "jConwJtIP",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "title": "Rule Include Consistenza commerciale Serie Infinity",
+  "description": "",
+  "clauses": [
+    "include"
+  ],
+  "metadata": {
+    "content_similar": {
+      "required": true,
+      "metadata": {
+        "included": [
+          "content_channels=Infinity",
+          "tipologia=Serie TV",
+          "editorial_type=Serie"
+        ],
+        "excluded": [
+          "content_channels=MediasetPlay"
+        ]
+      },
+      "numResults": 12,
+      "groupby": {
+        "metadata": "tipologia",
+        "results": 2,
+        "sortMetadata": "last24h_infinity_videoviewers",
+        "sortDirection": "desc"
+      },
+      "output": "video_similar_ids_include_infinity_serie"
+    }
+  },
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "id": "EGBeut_BSY",
+  "version": 3,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2022-06-30T13:29:06.405Z"
+  }
+}

@@ -1,0 +1,366 @@
+{
+  "id": "JAbj2kfLf",
+  "propertyId": "zlqQNxLcGh",
+  "title": "fallbackMultipleDoc",
+  "description": "Please Edit description for Page \"Default\"",
+  "enabledPagesId": [
+    "jtGCoLtz4"
+  ],
+  "isPage": true,
+  "blocks": [
+    {
+      "id": "NAFTCAydp",
+      "condition": "*",
+      "title": "Spazio",
+      "type": "nested",
+      "layout": {
+        "i": "NAFTCAydp",
+        "w": 12,
+        "h": 30
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "ywdQ5O6c9",
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H",
+        "siteMapped": false
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Spazio"
+        }
+      }
+    },
+    {
+      "id": "OHNvie0O1",
+      "condition": "*",
+      "title": "Natura e animali",
+      "type": "nested",
+      "layout": {
+        "i": "OHNvie0O1",
+        "x": 0,
+        "y": 2,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "ywdQ5O6c9",
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H",
+        "siteMapped": false
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Natura,Animali,Il regno Animale,Meraviglie della Natura"
+        }
+      }
+    },
+    {
+      "id": "EM9Gsx1Dk",
+      "condition": "*",
+      "title": "Scienza e tecnologia",
+      "type": "nested",
+      "layout": {
+        "i": "EM9Gsx1Dk",
+        "x": 0,
+        "y": 3,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "ywdQ5O6c9",
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H",
+        "siteMapped": false
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Scienza e Tecnologia,Scienza"
+        }
+      }
+    },
+    {
+      "id": "SaJrrgisR",
+      "condition": "*",
+      "title": "Storia e personaggi",
+      "type": "nested",
+      "layout": {
+        "i": "SaJrrgisR",
+        "x": 0,
+        "y": 4,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "ywdQ5O6c9",
+      "viewAll": {
+        "siteMapped": false,
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H"
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Biografico,Storia Miti e Religioni,Storico,Guerra,Personaggi"
+        }
+      }
+    },
+    {
+      "id": "i3DP_wg6P",
+      "condition": "*",
+      "title": "Inchieste",
+      "type": "nested",
+      "layout": {
+        "i": "i3DP_wg6P",
+        "x": 0,
+        "y": 5,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "ywdQ5O6c9",
+      "viewAll": {
+        "siteMapped": false,
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H"
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Inchiesta"
+        }
+      }
+    }
+  ],
+  "version": 12,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2022-06-16T08:12:55.127Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": []
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      }
+    ],
+    "require": [
+      {
+        "type": "queries",
+        "items": []
+      },
+      {
+        "type": "endpoints",
+        "items": [
+          "WXsJUgBAp"
+        ]
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "Rc1YEkVxO",
+          "ywdQ5O6c9"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 3,
+      "types": 2,
+      "items": [
+        {
+          "type": "pages",
+          "count": 2,
+          "items": [
+            {
+              "variantId": "jAc6h3XPq",
+              "propertyId": "zlqQNxLcGh",
+              "propertyTitle": "",
+              "endpointId": "uK3VPzv6U",
+              "endpointTitle": ""
+            },
+            {
+              "variantId": "ekmyB30A9",
+              "propertyId": "zlqQNxLcGh",
+              "propertyTitle": "",
+              "endpointId": "uK3VPzv6U",
+              "endpointTitle": ""
+            }
+          ]
+        },
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "jtGCoLtz4",
+              "type": "endpoints",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 3,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "WXsJUgBAp",
+              "type": "endpoints",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "blocks",
+          "count": 2,
+          "items": [
+            {
+              "id": "Rc1YEkVxO",
+              "type": "blocks"
+            },
+            {
+              "id": "ywdQ5O6c9",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": [],
+  "layout": [
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 2,
+      "i": "NAFTCAydp",
+      "moved": true,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 31,
+      "i": "OHNvie0O1",
+      "moved": true,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 61,
+      "i": "EM9Gsx1Dk",
+      "moved": true,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 91,
+      "i": "SaJrrgisR",
+      "moved": true,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 121,
+      "i": "i3DP_wg6P",
+      "moved": true,
+      "static": false
+    }
+  ],
+  "results": {
+    "fallbackBlockId": "Rc1YEkVxO"
+  },
+  "fullSubstituteFallback": true
+}

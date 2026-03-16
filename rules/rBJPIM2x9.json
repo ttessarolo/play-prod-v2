@@ -1,0 +1,78 @@
+{
+  "title": "Rule Similar Tipologia Serie Tv Fiction e Film",
+  "description": "Applicata alla Similar Serie Tv\n",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "video_similar_ids_serietv_fiction_film",
+      "valueType": "metadata",
+      "queryType": "ids",
+      "field": "video_content_id",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "fLz93Niaao"
+    }
+  ],
+  "clauses": [
+    "filter",
+    "include"
+  ],
+  "metadata": {
+    "content": false,
+    "content_similar": {
+      "required": true,
+      "output": "video_similar_ids_serietv_fiction_film",
+      "metadata": {
+        "included": [
+          "tipologia=(Serie TV) OR (Fiction) OR (Film)",
+          "editorial_type=(Full Episode) OR (Movie)",
+          "generepatemico",
+          "content_channels=MediasetPlay"
+        ],
+        "excluded": [
+          "id_series_se",
+          "genere_mcm=Soap opera"
+        ]
+      },
+      "fingerprint": {
+        "matchFields": [
+          "fingerprint"
+        ]
+      },
+      "groupby": {
+        "metadata": "id_series_se",
+        "results": 1,
+        "sortMetadata": "season,episode",
+        "sortDirection": "asc,asc"
+      }
+    }
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "uPK9cU2MwQ",
+          "C02qfD2Y3"
+        ]
+      }
+    ]
+  },
+  "id": "rBJPIM2x9",
+  "version": 1,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-03-29T16:00:01.559Z"
+  }
+}

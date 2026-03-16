@@ -1,0 +1,408 @@
+{
+  "title": "Query SerieTv Fiction",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "rBJPIM2x9"
+    },
+    {
+      "id": "KukwdwFDvb"
+    }
+  ],
+  "exclude": [
+    {
+      "id": "guv9d2IRj"
+    },
+    {
+      "id": "Ehrm1Jwn6"
+    },
+    {
+      "id": "k53RiiqC7K"
+    },
+    {
+      "id": "n1PFC8Cdd"
+    }
+  ],
+  "include": [],
+  "boost": [
+    {
+      "id": "Fo9RZaXKg",
+      "overides": {
+        "pvNalVW3KG": {
+          "boost": 25
+        }
+      }
+    },
+    {
+      "id": "di6tkikyl",
+      "overides": {
+        "BsvxJsE1dY": {
+          "boost": 25
+        }
+      }
+    },
+    {
+      "id": "blJLJBTPz",
+      "overides": {
+        "BsvxJsE1dY": {
+          "boost": 5
+        }
+      }
+    },
+    {
+      "id": "u2np4nyh9"
+    },
+    {
+      "id": "z_XOAIDTj",
+      "overides": {
+        "lJkMcgZTr": {
+          "boost": 5
+        }
+      }
+    },
+    {
+      "id": "hxpNg6Vpq",
+      "overides": {
+        "tFSn0VBcU": {
+          "boost": 10
+        }
+      }
+    },
+    {
+      "id": "j4OCS2DpZ",
+      "overides": {
+        "lJkMcgZTr": {
+          "boost": 10
+        }
+      }
+    },
+    {
+      "id": "q__I0vE90",
+      "overides": {
+        "hs7oTAK98": {
+          "boost": 25,
+          "period": "y"
+        }
+      }
+    },
+    {
+      "id": "faxSUCHjP",
+      "overides": {
+        "BsvxJsE1dY": {
+          "boost": 10
+        }
+      }
+    },
+    {
+      "id": "Twl7CiRm17",
+      "overides": {
+        "lJkMcgZTr": {
+          "boost": 10
+        },
+        "Njv619LQn5": {
+          "boost": 10
+        }
+      }
+    },
+    {
+      "id": "Wd3kfmaIm",
+      "overides": {
+        "BsvxJsE1dY": {
+          "boost": 10
+        }
+      }
+    },
+    {
+      "id": "teCUyBxCNV",
+      "overides": {
+        "BsvxJsE1dY": {
+          "boost": 10
+        }
+      }
+    },
+    {
+      "id": "_uB6kc3vVf",
+      "overides": {
+        "eBGsi6WV6": {
+          "boost": 20
+        }
+      }
+    },
+    {
+      "id": "ClcgEL3GM",
+      "overides": {
+        "lJkMcgZTr": {
+          "boost": 10
+        }
+      }
+    },
+    {
+      "id": "nCRmJzUuG",
+      "overides": {
+        "tYeu208Fm": {
+          "boost": 25
+        }
+      }
+    }
+  ],
+  "order": [],
+  "realm": "content",
+  "presets": {
+    "filter": [
+      {
+        "id": "TuAyi0elu"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "ZRorAbL96Q"
+      },
+      {
+        "id": "KhQ3IziFJ"
+      }
+    ]
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "rBJPIM2x9",
+          "KukwdwFDvb",
+          "guv9d2IRj",
+          "Ehrm1Jwn6",
+          "k53RiiqC7K",
+          "n1PFC8Cdd",
+          "Fo9RZaXKg",
+          "di6tkikyl",
+          "blJLJBTPz",
+          "u2np4nyh9",
+          "z_XOAIDTj",
+          "hxpNg6Vpq",
+          "j4OCS2DpZ",
+          "q__I0vE90",
+          "faxSUCHjP",
+          "Twl7CiRm17",
+          "Wd3kfmaIm",
+          "teCUyBxCNV",
+          "_uB6kc3vVf",
+          "ClcgEL3GM",
+          "nCRmJzUuG"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "TuAyi0elu",
+          "ZRorAbL96Q",
+          "KhQ3IziFJ"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "In8E6MBfb"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 2
+  },
+  "id": "uPK9cU2MwQ",
+  "version": 13,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2022-04-28T09:40:56.584Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "In8E6MBfb",
+              "type": "blocks",
+              "title": "Block Similar Serie Tv e Fiction"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 23,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 20,
+          "items": [
+            {
+              "id": "rBJPIM2x9",
+              "type": "rules",
+              "title": "Rule Similar Tipologia Serie Tv Fiction e Film"
+            },
+            {
+              "id": "guv9d2IRj",
+              "type": "rules",
+              "title": "Rule Filtro Animazione da Live Action"
+            },
+            {
+              "id": "Ehrm1Jwn6",
+              "type": "rules",
+              "title": "Rule Filtro Documentario da Finzione"
+            },
+            {
+              "id": "k53RiiqC7K",
+              "type": "rules",
+              "title": "Rule Exclude Brand Category Kids"
+            },
+            {
+              "id": "n1PFC8Cdd",
+              "type": "rules",
+              "title": "Rule Escludi Content channel non Mediaset Play"
+            },
+            {
+              "id": "Fo9RZaXKg",
+              "type": "rules",
+              "title": "Rule Boost Genere Diegetico"
+            },
+            {
+              "id": "di6tkikyl",
+              "type": "rules",
+              "title": "Rule Boost Creator"
+            },
+            {
+              "id": "blJLJBTPz",
+              "type": "rules",
+              "title": "Rule Boost Attore"
+            },
+            {
+              "id": "u2np4nyh9",
+              "type": "rules",
+              "title": "Rule Boost Anno di Produzione Concentrico"
+            },
+            {
+              "id": "z_XOAIDTj",
+              "type": "rules",
+              "title": "Rule Boost Sottogenere Tematico"
+            },
+            {
+              "id": "hxpNg6Vpq",
+              "type": "rules",
+              "title": "Rule Boost Genere Tematico"
+            },
+            {
+              "id": "j4OCS2DpZ",
+              "type": "rules",
+              "title": "Rule Boost Paese Non Italia"
+            },
+            {
+              "id": "q__I0vE90",
+              "type": "rules",
+              "title": "Rule Boost Fiction e Serie TV Recenti"
+            },
+            {
+              "id": "faxSUCHjP",
+              "type": "rules",
+              "title": "Rule Boost Mood"
+            },
+            {
+              "id": "Twl7CiRm17",
+              "type": "rules",
+              "title": "Rule Boost Tipologia Serie TV Fiction"
+            },
+            {
+              "id": "Wd3kfmaIm",
+              "type": "rules",
+              "title": "Rule Boost Epoca"
+            },
+            {
+              "id": "teCUyBxCNV",
+              "type": "rules",
+              "title": "Rule Boost Epoca Sub"
+            },
+            {
+              "id": "_uB6kc3vVf",
+              "type": "rules",
+              "title": "Rule Boost sociodemo condizionale Kids e non Kids"
+            },
+            {
+              "id": "ClcgEL3GM",
+              "type": "rules",
+              "title": "Rule Boost Sottogenere Patemico"
+            },
+            {
+              "id": "nCRmJzUuG",
+              "type": "rules",
+              "title": "Rule Boost Genere Mcm"
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 3,
+          "items": [
+            {
+              "id": "TuAyi0elu",
+              "type": "rulesPresets",
+              "title": "Preset SearchVisible e FrontEnd Visible True"
+            },
+            {
+              "id": "ZRorAbL96Q",
+              "type": "rulesPresets",
+              "title": "Preset Blacklist"
+            },
+            {
+              "id": "KhQ3IziFJ",
+              "type": "rulesPresets",
+              "title": "Preset Video format exclude 4K"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "uselessMultiplier": false,
+  "metadataOverrides": {
+    "rBJPIM2x9": {
+      "content": false,
+      "content_similar": {
+        "required": true,
+        "output": "video_similar_ids_serietv_fiction_film",
+        "metadata": {
+          "included": [
+            "tipologia=(Serie TV) OR (Fiction) OR (Film)",
+            "editorial_type=(Full Episode) OR (Movie)",
+            "content_channels"
+          ],
+          "excluded": [
+            "id_series_se",
+            "genere_mcm=Soap opera"
+          ]
+        },
+        "fingerprint": {
+          "matchFields": [
+            "fingerprint"
+          ]
+        },
+        "groupby": {
+          "metadata": "id_series_se",
+          "results": 1,
+          "sortMetadata": "season,episode",
+          "sortDirection": "asc,asc"
+        },
+        "numResults": 152
+      }
+    }
+  }
+}

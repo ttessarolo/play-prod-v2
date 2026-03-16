@@ -1,0 +1,168 @@
+{
+  "title": "Query Enabler Stagioni Più visti 7gg Programmi TV IN ONDA",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "ju06OqIgO"
+    },
+    {
+      "id": "KdgZfZ_wm"
+    },
+    {
+      "id": "mwku2JtbU5"
+    },
+    {
+      "id": "XrQIQriQGR"
+    },
+    {
+      "id": "gQuX7uK3vM"
+    }
+  ],
+  "exclude": [
+    {
+      "id": "icgYMaSvpq"
+    },
+    {
+      "id": "HPtARQ5tbK"
+    }
+  ],
+  "include": [],
+  "boost": [],
+  "order": [
+    {
+      "id": "LT7oy4fn1"
+    }
+  ],
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "ju06OqIgO",
+          "KdgZfZ_wm",
+          "mwku2JtbU5",
+          "XrQIQriQGR",
+          "gQuX7uK3vM",
+          "icgYMaSvpq",
+          "HPtARQ5tbK",
+          "LT7oy4fn1"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "ztWfmA_PI"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "Kv6wN8Y2zI"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "id": "vKyWUq28Mj",
+  "version": 35,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2023-05-09T09:01:33.954Z"
+  },
+  "metadataInRules": [],
+  "presets": {
+    "exclude": [],
+    "filter": [
+      {
+        "id": "ztWfmA_PI"
+      }
+    ]
+  },
+  "metadataOverrides": {},
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "Kv6wN8Y2zI",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 8,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 7,
+          "items": [
+            {
+              "id": "ju06OqIgO",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "KdgZfZ_wm",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "mwku2JtbU5",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "XrQIQriQGR",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "icgYMaSvpq",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "HPtARQ5tbK",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "LT7oy4fn1",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 1,
+          "items": [
+            {
+              "id": "ztWfmA_PI",
+              "type": "rulesPresets",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "realm": "content",
+  "uselessMultiplier": false
+}

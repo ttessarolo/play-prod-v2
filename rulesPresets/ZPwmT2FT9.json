@@ -1,0 +1,55 @@
+{
+  "title": "Preset Boost Temi",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "clause": "boost",
+  "rules": [
+    {
+      "id": "hxpNg6Vpq"
+    },
+    {
+      "id": "SonpJllfx",
+      "overides": {
+        "KfMtb6ZTb": {
+          "boost": 5
+        }
+      }
+    },
+    {
+      "id": "Fo9RZaXKg",
+      "overides": {
+        "pvNalVW3KG": {
+          "boost": 5
+        }
+      }
+    }
+  ],
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "hxpNg6Vpq",
+          "SonpJllfx",
+          "Fo9RZaXKg"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "U1hz1tNQN",
+          "tv97xe64g"
+        ]
+      }
+    ]
+  },
+  "id": "ZPwmT2FT9",
+  "version": 1,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-03-29T14:26:46.867Z"
+  }
+}

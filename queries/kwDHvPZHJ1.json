@@ -1,0 +1,177 @@
+{
+  "title": "Med Ita Fiction e Serie TV del momento Blocco 4",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "CDMrhQW14"
+    },
+    {
+      "id": "KdgZfZ_wm"
+    },
+    {
+      "id": "gxhHRBwU9"
+    },
+    {
+      "id": "gQuX7uK3vM"
+    },
+    {
+      "id": "CTGuqOMTe"
+    }
+  ],
+  "exclude": [
+    {
+      "id": "NfU7ovdXbm"
+    }
+  ],
+  "include": [],
+  "boost": [],
+  "order": [
+    {
+      "id": "A5n475YeR"
+    }
+  ],
+  "realm": "content",
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "CDMrhQW14",
+          "KdgZfZ_wm",
+          "gxhHRBwU9",
+          "gQuX7uK3vM",
+          "CTGuqOMTe",
+          "NfU7ovdXbm",
+          "A5n475YeR"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "ztWfmA_PI",
+          "KhQ3IziFJ",
+          "ZRorAbL96Q"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "QaoCUQxDs"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "id": "kwDHvPZHJ1",
+  "version": 24,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2024-05-28T13:48:50.457Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "QaoCUQxDs",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 9,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 6,
+          "items": [
+            {
+              "id": "CDMrhQW14",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "KdgZfZ_wm",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "gxhHRBwU9",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "gQuX7uK3vM",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "NfU7ovdXbm",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "A5n475YeR",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 3,
+          "items": [
+            {
+              "id": "ztWfmA_PI",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "KhQ3IziFJ",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "ZRorAbL96Q",
+              "type": "rulesPresets",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "presets": {
+    "filter": [
+      {
+        "id": "ztWfmA_PI"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "KhQ3IziFJ"
+      },
+      {
+        "id": "ZRorAbL96Q"
+      }
+    ]
+  },
+  "metadataOverrides": {},
+  "uselessMultiplier": false
+}

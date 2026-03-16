@@ -1,0 +1,139 @@
+{
+  "id": "RVtOTd3BL",
+  "active": true,
+  "title": "infSmartBlockFilm",
+  "description": "",
+  "reference": "infSmartBlockFilm",
+  "propertyId": "zlqQNxLcGh",
+  "blockId": "iHhUjO02y",
+  "variants": [],
+  "params": {
+    "timeout": 1500,
+    "cacheConfig": {
+      "cache": 1,
+      "cacheTTL": 300,
+      "cachePrefix": {
+        "group": true,
+        "static": "endpoint",
+        "keys": []
+      },
+      "computeKeys": [
+        "startBlock",
+        "endBlock",
+        "userId"
+      ]
+    },
+    "inveverseCacheConfig": {
+      "cacheTTL": 300
+    }
+  },
+  "paramsId": "playDefault",
+  "input": {
+    "decorators": [
+      "XIHg_DI92f"
+    ]
+  },
+  "output": {
+    "decorators": [
+      "mU5ep6Aze"
+    ]
+  },
+  "version": 45,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2023-03-29T09:10:24.649Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "experiments",
+        "items": []
+      }
+    ],
+    "require": [
+      {
+        "type": "blocks",
+        "items": [
+          "iHhUjO02y"
+        ]
+      },
+      {
+        "type": "params",
+        "items": [
+          "playDefault"
+        ]
+      },
+      {
+        "type": "decorators",
+        "items": [
+          "XIHg_DI92f",
+          "mU5ep6Aze"
+        ]
+      },
+      {
+        "type": "conversionPacks",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 4,
+      "types": 4,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "iHhUjO02y",
+              "type": "blocks",
+              "title": "Inf Smart Block Film"
+            }
+          ]
+        },
+        {
+          "type": "params",
+          "count": 1,
+          "items": [
+            {
+              "id": "playDefault",
+              "type": "params",
+              "title": "Play Default"
+            }
+          ]
+        },
+        {
+          "type": "decorators",
+          "count": 2,
+          "items": [
+            {
+              "id": "XIHg_DI92f",
+              "type": "decorators",
+              "title": "Play Persona Input Decorator"
+            },
+            {
+              "id": "mU5ep6Aze",
+              "type": "decorators",
+              "title": "MPlay Universal Enricher "
+            }
+          ]
+        },
+        {
+          "type": "conversionPacks",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "haveScheduledVariants": 0,
+  "prevReference": "infSmartBlockFilm",
+  "paginateFromCache": true,
+  "enableAnalitica": true
+}

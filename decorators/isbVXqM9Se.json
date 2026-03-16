@@ -1,0 +1,31 @@
+{
+  "title": "MPX COLLECTION ALL FCODES",
+  "description": "",
+  "type": "external-source-decorator",
+  "language": "jsonata",
+  "pubKey": "rti.pub.pem",
+  "algorithm": "SHA512withRSA",
+  "execute": "[$map(entries, function($v, $i, $a) {\n                $map($eval($v.mediasetprogram$collectionContents).contentList, function($v,$i,$a){\n                    $v.guid\n                })\n        })  \n]",
+  "signature": "537d075151eabd53ea362f0c0178a17394147001beca358eb60785978c66416d1b326008f9c44d6c83dae6dcc78e62fd4e1de6b02400eab36c1709e4293834d9adcf0b4fefc9eba0a60d3157e3f6014011e0a3e7f51e956a8f6e972f9f1d7a566712f2bf09b7bc374a3c9f147e62512a4984d3e852c4957efd6f17840dc5cee72fd0a089d13286afd0521ab7d83e1446f2d461aa351df2e74452e25d52662a0695007d955bc2f99300c31d9bbf3ad116973729d8012f49f26717427faae51f8295092b7ae15fc32650900ab6c75316fc8b00414f448afeb6926ce9ea232551cbb137697c0e0bf82cd45e2418dd64355189825b20786c4c367cbb8f3aa01c17c1f3ff0dca915ed882e68e6c7eb40703c974b16845ac32363b07c24973f3dce832d08aacbb20892e2ad48d907ba1bda9634688343870760fb99208607657d0edd6ec1ae6961438cc20aa71f850bdfbb32bff257233806b48e3ffeb1f4f5ac6c8399eb99507aff7f7b926579610945738d91ac92a66c044e54a7e54cce71fd0212e1a63046b4d1e3908d9185f0aac4bec42933b15f41cb56c28e7afcf8df9e2a84a9f2e56af680e6bd2fb2c7f92aafa0b489bed6926353d59177af23236d04a709e6c2f324ea258f2cceb0b16c437dfacc492e1d3fde2c1d971f5f9112dacdbc8605287b2d743d40759d8f17b501b05f08ebfb1c35c5decc8489a76b1506a062b1b",
+  "id": "isbVXqM9Se",
+  "version": 2,
+  "lastSaved": {
+    "username": "ttessarolo",
+    "date": "2021-07-23T08:27:19.807Z"
+  },
+  "refs": {
+    "belongs": []
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  }
+}

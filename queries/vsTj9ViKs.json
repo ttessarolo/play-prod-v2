@@ -1,0 +1,139 @@
+{
+  "title": "Query Search Item link",
+  "description": "",
+  "contentType": "link",
+  "filter": [
+    {
+      "id": "lLSm594kz"
+    },
+    {
+      "id": "AspsvtE6D7"
+    }
+  ],
+  "exclude": [
+    {
+      "id": "J46PzKPRdj"
+    },
+    {
+      "id": "MLzMWuruc"
+    },
+    {
+      "id": "yYKxUyFDEu"
+    }
+  ],
+  "include": [
+    {
+      "id": "lVeFZYBsy"
+    }
+  ],
+  "boost": [],
+  "order": [],
+  "realm": "content",
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "lLSm594kz",
+          "AspsvtE6D7",
+          "J46PzKPRdj",
+          "MLzMWuruc",
+          "yYKxUyFDEu",
+          "lVeFZYBsy"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "OUCaweD3X",
+          "Cw3pr3TaY"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1,
+    "mustOperator": "or"
+  },
+  "id": "vsTj9ViKs",
+  "version": 14,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2023-03-29T18:28:19.449Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 2,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 2,
+          "items": [
+            {
+              "id": "OUCaweD3X",
+              "type": "blocks",
+              "title": ""
+            },
+            {
+              "id": "Cw3pr3TaY",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 5,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 5,
+          "items": [
+            {
+              "id": "lLSm594kz",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "AspsvtE6D7",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "J46PzKPRdj",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "MLzMWuruc",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "lVeFZYBsy",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "metadataOverrides": {}
+}

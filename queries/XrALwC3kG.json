@@ -1,0 +1,46 @@
+{
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "RrTAbOBm6"
+    }
+  ],
+  "exclude": [],
+  "include": [],
+  "boost": [],
+  "order": [],
+  "realm": "content",
+  "title": "Query The Family 2 Catch up Canale 5",
+  "description": "",
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "RrTAbOBm6"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": []
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "id": "XrALwC3kG",
+  "version": 1,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-03-26T15:08:11.528Z"
+  }
+}

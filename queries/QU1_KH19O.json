@@ -1,0 +1,129 @@
+{
+  "title": "CHNLS All Series ParamsChannel",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "C3q9HsDkx"
+    },
+    {
+      "id": "IA2rMeBZYW"
+    },
+    {
+      "id": "JfE3hcRkF"
+    }
+  ],
+  "exclude": [],
+  "include": [],
+  "boost": [],
+  "order": [
+    {
+      "id": "MAkE36K_7"
+    }
+  ],
+  "realm": "content",
+  "presets": {
+    "filter": [
+      {
+        "id": "ur0WldwQk"
+      }
+    ]
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "C3q9HsDkx",
+          "IA2rMeBZYW",
+          "JfE3hcRkF",
+          "MAkE36K_7"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "ur0WldwQk"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "B9DRBHh9E"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "id": "QU1_KH19O",
+  "version": 14,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-06-29T19:05:20.175Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "B9DRBHh9E",
+              "type": "blocks",
+              "title": "CHNLS All Series ParamsChannel"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 4,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 3,
+          "items": [
+            {
+              "id": "IA2rMeBZYW",
+              "type": "rules",
+              "title": "Rule Editorial Type Serie"
+            },
+            {
+              "id": "JfE3hcRkF",
+              "type": "rules",
+              "title": "Rule Channel match ParamsChannel "
+            },
+            {
+              "id": "MAkE36K_7",
+              "type": "rules",
+              "title": "Rule Order by Title Asc"
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 1,
+          "items": [
+            {
+              "id": "ur0WldwQk",
+              "type": "rulesPresets",
+              "title": "Preset Contenuti attivi"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "uselessMultiplier": false,
+  "metadataOverrides": {}
+}

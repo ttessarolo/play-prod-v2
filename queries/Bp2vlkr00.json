@@ -1,0 +1,48 @@
+{
+  "metadataInRules": [],
+  "title": "Query published flag not exists",
+  "description": "Per ottenere zero risultati. Utilizzato per fallback del Person to content FILM",
+  "contentType": "video",
+  "filter": [],
+  "exclude": [
+    {
+      "id": "ut6mxlalK"
+    }
+  ],
+  "include": [],
+  "boost": [],
+  "order": [],
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "ut6mxlalK"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "P0csRsOt7"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "id": "Bp2vlkr00",
+  "version": 3,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2020-10-07T14:03:49.997Z"
+  }
+}

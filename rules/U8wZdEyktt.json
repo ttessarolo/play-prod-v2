@@ -1,0 +1,148 @@
+{
+  "title": "Rule Piu visti 7 giorni Params",
+  "description": "Order By più visti 7 giorni SE params_orderBy è vuoto ",
+  "contentType": "video",
+  "clauses": [
+    "order"
+  ],
+  "rule": [
+    {
+      "sortOrder": "desc",
+      "sortMode": "avg",
+      "API": "V2",
+      "condition": "(isEmpty(params_orderBy))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "isEmpty",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "params_orderBy"
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ],
+            "id": "ywhZt1VpQG"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "",
+      "valueType": "",
+      "queryType": "sortOrder",
+      "field": "last7d_videoviews",
+      "fieldNested": 0,
+      "fieldDBType": "long",
+      "_id": "VqSzCMaYe",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "field": "last24h_videoviews",
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "Cz5mbdSpkG",
+          "UdUyyyAd3"
+        ]
+      }
+    ]
+  },
+  "id": "U8wZdEyktt",
+  "version": 6,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-04-06T10:08:16.304Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 10,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 10,
+          "items": [
+            {
+              "id": "ZBDFPdp2L",
+              "type": "queries",
+              "title": "Query Person To Content Homepage"
+            },
+            {
+              "id": "Cz5mbdSpkG",
+              "type": "queries",
+              "title": "INF Film Più visti 7 giorni Blocco 2"
+            },
+            {
+              "id": "vKyWUq28Mj",
+              "type": "queries",
+              "title": "Query Enabler Stagioni Più visti 7gg Programmi TV IN ONDA"
+            },
+            {
+              "id": "J5tCfqwb1y",
+              "type": "queries",
+              "title": "Query Enabler Stagioni Più visti 7gg Programmi TV SUPERTOP"
+            },
+            {
+              "id": "I1706J335",
+              "type": "queries",
+              "title": "Query Enabler Stagioni Più visti 7gg Programmi TV TOP e PRIMA SERATA"
+            },
+            {
+              "id": "FF6GVv2DC",
+              "type": "queries",
+              "title": "Query Enabler Stagioni Più visti 7gg Programmi TV PRIMA SERATA"
+            },
+            {
+              "id": "ZmqQWEcF8",
+              "type": "queries",
+              "title": "Query Enabler Stagioni Più visti 7gg Programmi TV TOP"
+            },
+            {
+              "id": "WPl6VDGVC",
+              "type": "queries",
+              "title": "Query Enabler Film Top più visti 7 giorni"
+            },
+            {
+              "id": "dwZ0qqYYpq",
+              "type": "queries",
+              "title": "Query Enabler Film più visti 7 giorni"
+            },
+            {
+              "id": "UdUyyyAd3",
+              "type": "queries",
+              "title": "Query Enabler Documentari"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 1,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "realm": "content",
+  "scheduled": 0,
+  "scheduling": [],
+  "schedulingMap": []
+}

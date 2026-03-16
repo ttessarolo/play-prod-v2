@@ -1,0 +1,146 @@
+{
+  "title": "TVOD Più noleggiati",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "Qs0Vux5WH_"
+    },
+    {
+      "id": "IyDzyntfi"
+    }
+  ],
+  "exclude": [
+    {
+      "id": "MrtMAYnbZ"
+    }
+  ],
+  "include": [],
+  "boost": [],
+  "order": [
+    {
+      "id": "A5n475YeR"
+    }
+  ],
+  "realm": "content",
+  "presets": {
+    "filter": [
+      {
+        "id": "TuAyi0elu"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "KhQ3IziFJ"
+      }
+    ]
+  },
+  "metadataOverrides": {},
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "Qs0Vux5WH_",
+          "IyDzyntfi",
+          "MrtMAYnbZ",
+          "A5n475YeR"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "TuAyi0elu",
+          "KhQ3IziFJ"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "QCB5Tbxp0"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "id": "TUEwHugpG",
+  "version": 8,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-05-13T16:29:10.629Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "QCB5Tbxp0",
+              "type": "blocks",
+              "title": "TVOD I più noleggiati"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 6,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 4,
+          "items": [
+            {
+              "id": "Qs0Vux5WH_",
+              "type": "rules",
+              "title": "Rule Editorial Type Movie"
+            },
+            {
+              "id": "IyDzyntfi",
+              "type": "rules",
+              "title": "Rule Channel Noleggio"
+            },
+            {
+              "id": "MrtMAYnbZ",
+              "type": "rules",
+              "title": "Rule Channel Mediaset Play e Infinity"
+            },
+            {
+              "id": "J0NNb391SF",
+              "type": "rules",
+              "title": "Rule Piu visti 24h Params"
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 2,
+          "items": [
+            {
+              "id": "TuAyi0elu",
+              "type": "rulesPresets",
+              "title": "Preset SearchVisible e FrontEnd Visible True"
+            },
+            {
+              "id": "KhQ3IziFJ",
+              "type": "rulesPresets",
+              "title": "Preset Video format exclude 4K"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "uselessMultiplier": false
+}

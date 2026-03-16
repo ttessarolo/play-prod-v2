@@ -1,0 +1,83 @@
+{
+  "title": "CHNLS Film e Serie Più visti per Homepage Pay",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "kb0ZRiIVbE"
+    },
+    {
+      "id": "NgJMmQ2Uv"
+    }
+  ],
+  "exclude": [],
+  "include": [],
+  "boost": [],
+  "order": [
+    {
+      "id": "cSh3ZcljL"
+    }
+  ],
+  "realm": "content",
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "kb0ZRiIVbE",
+          "NgJMmQ2Uv",
+          "cSh3ZcljL"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "ZRorAbL96Q",
+          "KhQ3IziFJ"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "tm5hY7MyUv"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "id": "kFMBsoJ1X",
+  "version": 8,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2024-05-02T16:16:03.892Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  },
+  "metadataOverrides": {},
+  "presets": {
+    "exclude": [
+      {
+        "id": "ZRorAbL96Q"
+      },
+      {
+        "id": "KhQ3IziFJ"
+      }
+    ]
+  }
+}

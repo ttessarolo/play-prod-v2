@@ -1,0 +1,175 @@
+{
+  "title": "Rule Params filterBy audio subtitle listing page",
+  "description": "se params_filterBy contiene \naudioOriginal - tiene solo lingue diverse da ITA,\nsubIta - tiene solo subtitle ITA, \nsubOriginal - tiene solo subtitle diversi da ITA",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "(contains(params_filterBy, \"audioOriginal\"))",
+      "conditionRaw": {
+        "and": [
+          {
+            "id": "xhsJ9QylXoY",
+            "operator": "contains",
+            "values": [
+              {
+                "value": "params_filterBy",
+                "type": "metadata"
+              },
+              {
+                "value": "\"audioOriginal\"",
+                "type": "string"
+              }
+            ]
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "CU131eVnnV",
+      "valueType": "list",
+      "queryType": "listTermsId",
+      "field": "audio_language",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "kn1rCk99f8",
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "API": "V2",
+      "condition": "(contains(params_filterBy, \"subIta\"))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "params_filterBy"
+              },
+              {
+                "value": "\"subIta\"",
+                "type": "string"
+              }
+            ],
+            "id": "_nmRhPgLnw"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "ita",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "subtitle_language",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "zDnvkHlu4",
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "API": "V2",
+      "condition": "(contains(params_filterBy, \"subOriginal\"))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "params_filterBy"
+              },
+              {
+                "value": "\"subOriginal\"",
+                "type": "string"
+              }
+            ],
+            "id": "vXKJlxB1lj"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "CU131eVnnV",
+      "valueType": "list",
+      "queryType": "listTermsId",
+      "field": "subtitle_language",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "c32pbgo5Dl",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "clauses": [
+    "filter"
+  ],
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "rAoCaKtAs",
+          "zWYdI9xZd",
+          "smEuLKmQtT",
+          "ARAIdR8pC",
+          "skE6ZZaHs",
+          "_s_m7kglK",
+          "gMMABcytBa",
+          "Qd7iEXoJo",
+          "ZqCof5t6v",
+          "QPwcsFJG6",
+          "BVC4GzQXU"
+        ]
+      }
+    ]
+  },
+  "id": "vKGPyoliA",
+  "version": 4,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-03-27T11:38:47.295Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 1,
+          "items": [
+            {
+              "id": "z4mtIU3h8",
+              "type": "queries",
+              "title": "INF Film Blockbuster Cult LISTING PAGE"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 1,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  }
+}

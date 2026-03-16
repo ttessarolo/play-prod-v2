@@ -1,0 +1,83 @@
+{
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "rF9k3yyPZ"
+    },
+    {
+      "id": "YMaH2tPZC"
+    },
+    {
+      "id": "tfAzCHYts"
+    },
+    {
+      "id": "LYJYFUHxO2"
+    }
+  ],
+  "exclude": [
+    {
+      "id": "aNHO5E_ne"
+    }
+  ],
+  "include": [],
+  "boost": [],
+  "order": [
+    {
+      "id": "SXyaET7iz2"
+    }
+  ],
+  "realm": "content",
+  "title": "Similar Spagna Clip stesso giorno FEP Chiamante",
+  "description": "",
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "rF9k3yyPZ",
+          "YMaH2tPZC",
+          "tfAzCHYts",
+          "LYJYFUHxO2",
+          "aNHO5E_ne",
+          "SXyaET7iz2"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "iMUW89z18U"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  },
+  "id": "JN5f1BTm8",
+  "version": 6,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-03-06T15:38:30.596Z"
+  },
+  "metadataOverrides": {}
+}

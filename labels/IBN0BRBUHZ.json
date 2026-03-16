@@ -1,0 +1,36 @@
+{
+  "title": "SRC no results search",
+  "description": "",
+  "type": "placeholderMain",
+  "elements": [
+    {
+      "id": "q_uMQtaBV",
+      "value": "No Results Search",
+      "color": "",
+      "background": "",
+      "type": "groupMain",
+      "parent": "IBN0BRBUHZ"
+    }
+  ],
+  "id": "IBN0BRBUHZ",
+  "version": 2,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2022-11-24T12:29:23.134Z"
+  },
+  "refs": {
+    "belongs": []
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  }
+}

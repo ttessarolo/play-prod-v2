@@ -1,0 +1,46 @@
+{
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "*mese*",
+      "valueType": "freeText",
+      "queryType": "contains",
+      "field": "ui_title",
+      "fieldNested": 0,
+      "fieldDBType": "text",
+      "_id": "PwJHSrJsD"
+    }
+  ],
+  "clauses": [
+    "filter"
+  ],
+  "title": "Rule title contiene mese",
+  "description": "Usato per Infinity Prossimo mese",
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "AhJPVfln2"
+        ]
+      }
+    ]
+  },
+  "id": "dCRAO5ATh",
+  "version": 1,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-04-09T18:07:51.957Z"
+  }
+}

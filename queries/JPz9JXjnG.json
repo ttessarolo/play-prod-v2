@@ -1,0 +1,146 @@
+{
+  "metadataInRules": [
+    "content",
+    "content_similar"
+  ],
+  "title": "Query Similar Cinema PURO",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "MrtMAYnbZ"
+    }
+  ],
+  "exclude": [],
+  "include": [
+    {
+      "id": "oHTnV7lfY"
+    }
+  ],
+  "boost": [],
+  "order": [],
+  "presets": {
+    "filter": [
+      {
+        "id": "TuAyi0elu"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "ZRorAbL96Q"
+      }
+    ]
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "MrtMAYnbZ",
+          "oHTnV7lfY"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "TuAyi0elu",
+          "ZRorAbL96Q"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "sGG56chdvk"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1,
+    "mustOperator": "or"
+  },
+  "id": "JPz9JXjnG",
+  "version": 16,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-02-25T16:59:24.328Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "sGG56chdvk",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 3,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 1,
+          "items": [
+            {
+              "id": "oHTnV7lfY",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 2,
+          "items": [
+            {
+              "id": "TuAyi0elu",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "ZRorAbL96Q",
+              "type": "rulesPresets",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "uselessMultiplier": false,
+  "metadataOverrides": {
+    "oHTnV7lfY": {
+      "content_similar": {
+        "required": true,
+        "metadata": {
+          "included": [
+            "tipologia=Film",
+            "editorial_type=Movie"
+          ]
+        },
+        "fingerprint": {
+          "matchFields": [
+            "fingerprint"
+          ]
+        },
+        "output": "video_similar_ids_cinema"
+      },
+      "content": true
+    }
+  },
+  "realm": "content"
+}

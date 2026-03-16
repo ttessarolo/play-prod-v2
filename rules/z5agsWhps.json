@@ -1,0 +1,134 @@
+{
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "(between(when_month_number, \"2÷10\"))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "between",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "when_month_number"
+              },
+              {
+                "value": "\"2÷10\"",
+                "type": "between"
+              }
+            ],
+            "id": "IInKyJTzlH"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "*Natale*",
+      "valueType": "freeText",
+      "queryType": "contains",
+      "field": "ui_title",
+      "fieldNested": 0,
+      "fieldDBType": "text",
+      "_id": "PwJHSrJsD",
+      "scheduled": true,
+      "scheduling": [
+        {
+          "id": "IInKyJTzlH",
+          "start": "2",
+          "end": "10"
+        }
+      ]
+    }
+  ],
+  "clauses": [
+    "exclude"
+  ],
+  "title": "Rule Title match Natale",
+  "description": "",
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "b20L6V_Cz"
+        ]
+      }
+    ]
+  },
+  "id": "z5agsWhps",
+  "version": 7,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2024-04-03T13:20:55.965Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 1,
+          "items": [
+            {
+              "id": "b20L6V_Cz",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "time": true
+  },
+  "scheduled": true,
+  "scheduling": [
+    {
+      "id": "IInKyJTzlH",
+      "start": "2",
+      "end": "10"
+    }
+  ],
+  "schedulingMap": [
+    [
+      0,
+      [
+        {
+          "id": "IInKyJTzlH",
+          "start": "2",
+          "end": "10"
+        }
+      ]
+    ]
+  ]
+}

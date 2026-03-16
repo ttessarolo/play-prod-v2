@@ -1,0 +1,103 @@
+{
+  "metadataInRules": [
+    "user"
+  ],
+  "title": "Query Film Mplay Similar to cluster",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "ju06OqIgO"
+    },
+    {
+      "id": "83txjtJm"
+    },
+    {
+      "id": "Qs0Vux5WH_"
+    }
+  ],
+  "exclude": [
+    {
+      "id": "nUNjcCU6f"
+    }
+  ],
+  "include": [
+    {
+      "id": "Z3l6Yo7Eg"
+    }
+  ],
+  "boost": [],
+  "order": [],
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "ju06OqIgO",
+          "83txjtJm",
+          "Qs0Vux5WH_",
+          "nUNjcCU6f",
+          "Z3l6Yo7Eg"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "TuAyi0elu",
+          "ZRorAbL96Q",
+          "KhQ3IziFJ"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "WR4SfBv86"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1,
+    "mustOperator": "or"
+  },
+  "id": "O4OWKwsiK",
+  "version": 15,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2023-07-06T10:28:37.174Z"
+  },
+  "metadataOverrides": {},
+  "presets": {
+    "filter": [
+      {
+        "id": "TuAyi0elu"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "ZRorAbL96Q"
+      },
+      {
+        "id": "KhQ3IziFJ"
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  },
+  "uselessMultiplier": false,
+  "realm": "content"
+}

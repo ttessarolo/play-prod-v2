@@ -1,0 +1,102 @@
+{
+  "title": "Query Blocco ADV",
+  "description": "SE è un subbrand o una serie, multiplier a 4 - se codice singolo, a 1 ",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "xvYVAxCdJ"
+    }
+  ],
+  "exclude": [
+    {
+      "id": "aNHO5E_ne"
+    }
+  ],
+  "include": [],
+  "boost": [],
+  "order": [],
+  "realm": "content",
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "xvYVAxCdJ",
+          "aNHO5E_ne"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "hr9EobplH",
+          "PovJt3Vzm"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 4
+  },
+  "id": "JCKH0ADNmB",
+  "version": 34,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-11-18T14:03:03.683Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 2,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 2,
+          "items": [
+            {
+              "id": "hr9EobplH",
+              "type": "blocks",
+              "title": ""
+            },
+            {
+              "id": "PovJt3Vzm",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 1,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 1,
+          "items": [
+            {
+              "id": "xvYVAxCdJ",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "uselessMultiplier": true,
+  "metadataOverrides": {}
+}

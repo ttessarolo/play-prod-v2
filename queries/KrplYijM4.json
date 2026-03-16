@@ -1,0 +1,300 @@
+{
+  "metadataInRules": [
+    "content",
+    "content_similar"
+  ],
+  "title": "INF Similar Cinema",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "eWJaE8Lwit"
+    }
+  ],
+  "exclude": [
+    {
+      "id": "guv9d2IRj"
+    },
+    {
+      "id": "Ehrm1Jwn6"
+    },
+    {
+      "id": "IRLCpxM3B"
+    }
+  ],
+  "include": [
+    {
+      "id": "oHTnV7lfY"
+    },
+    {
+      "id": "On7trJ8hmJ"
+    }
+  ],
+  "boost": [
+    {
+      "id": "nCRmJzUuG",
+      "overides": {
+        "tYeu208Fm": {
+          "boost": 25
+        }
+      }
+    },
+    {
+      "id": "bpF1hcTCd",
+      "overides": {
+        "U9RSonIxL": {
+          "boost": 35
+        }
+      }
+    },
+    {
+      "id": "anWkfdU3R",
+      "overides": {
+        "BsvxJsE1dY": {
+          "boost": 15
+        }
+      }
+    },
+    {
+      "id": "u2np4nyh9",
+      "overides": {
+        "ZFa6FIbYK": {
+          "boost": 1
+        },
+        "aW9TOP2s6": {
+          "boost": 1
+        }
+      }
+    },
+    {
+      "id": "Xk4a_scHj",
+      "overides": {
+        "t2xKfKNbL": {
+          "boost": 1
+        }
+      }
+    },
+    {
+      "id": "SonpJllfx"
+    },
+    {
+      "id": "faxSUCHjP"
+    },
+    {
+      "id": "tKzTMaP6Q"
+    },
+    {
+      "id": "BLQcVKaOs",
+      "overides": {
+        "ZIeK9vClDn": {
+          "boost": 4
+        }
+      }
+    }
+  ],
+  "order": [],
+  "presets": {
+    "filter": [
+      {
+        "id": "TuAyi0elu"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "ZRorAbL96Q"
+      }
+    ]
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "eWJaE8Lwit",
+          "guv9d2IRj",
+          "Ehrm1Jwn6",
+          "IRLCpxM3B",
+          "oHTnV7lfY",
+          "On7trJ8hmJ",
+          "nCRmJzUuG",
+          "bpF1hcTCd",
+          "anWkfdU3R",
+          "u2np4nyh9",
+          "Xk4a_scHj",
+          "SonpJllfx",
+          "faxSUCHjP",
+          "tKzTMaP6Q",
+          "BLQcVKaOs"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "TuAyi0elu",
+          "ZRorAbL96Q"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": []
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1,
+    "mustOperator": "or",
+    "mustNotOperator": "and",
+    "tieBreakerMustNot": 0.9
+  },
+  "id": "KrplYijM4",
+  "version": 73,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-06-17T13:03:35.714Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 18,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 16,
+          "items": [
+            {
+              "id": "eWJaE8Lwit",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "guv9d2IRj",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "Ehrm1Jwn6",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "IRLCpxM3B",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "oHTnV7lfY",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "On7trJ8hmJ",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "nCRmJzUuG",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "bpF1hcTCd",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "anWkfdU3R",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "u2np4nyh9",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "Xk4a_scHj",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "SonpJllfx",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "faxSUCHjP",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "tKzTMaP6Q",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "BLQcVKaOs",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "uXBAHIG51I",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 2,
+          "items": [
+            {
+              "id": "TuAyi0elu",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "ZRorAbL96Q",
+              "type": "rulesPresets",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "uselessMultiplier": false,
+  "realm": "content",
+  "metadataOverrides": {
+    "oHTnV7lfY": {
+      "content_similar": {
+        "required": true,
+        "metadata": {
+          "included": [
+            "tipologia=Film",
+            "editorial_type=Movie",
+            "content_channels=(Infinity) OR (MediasetPlay)"
+          ],
+          "excluded": [
+            "genere_mcm=Corti"
+          ]
+        },
+        "fingerprint": {
+          "matchFields": [
+            "fingerprint"
+          ]
+        },
+        "output": "video_similar_ids_cinema"
+      },
+      "content": false
+    }
+  }
+}

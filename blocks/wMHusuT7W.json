@@ -1,0 +1,190 @@
+{
+  "results": {
+    "min": 1,
+    "flatAllBlocks": true,
+    "fallbackBlockId": "s941nm7Vkw",
+    "max": 24,
+    "deduplicateFlattedResults": true,
+    "shuffleItems": false
+  },
+  "blocks": [
+    {
+      "_id": "W5tM1x3n0",
+      "condition": "*",
+      "title": "Block Similar Intrattenimento Stesso Brand",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 4,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "fallbackBlockId": "s941nm7Vkw",
+        "skipOnEmpty": true
+      },
+      "queryId": "OoW_RxrtA"
+    },
+    {
+      "_id": "BbRI9mkaQ",
+      "condition": "*",
+      "title": "Block Similar Intrattenimento Diverso dal Brand",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 24,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "fallbackBlockId": "s941nm7Vkw"
+      },
+      "queryId": "DHl6a0GLT"
+    }
+  ],
+  "title": "Block Similar AB Test ipotesi C",
+  "description": "",
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "realm": "content",
+  "refs": {
+    "require": [
+      {
+        "type": "queries",
+        "items": [
+          "OoW_RxrtA",
+          "DHl6a0GLT"
+        ]
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "s941nm7Vkw"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": [
+          "eOaXizx_"
+        ]
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "ou1WmXHcr"
+        ]
+      }
+    ]
+  },
+  "id": "wMHusuT7W",
+  "version": 101,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2024-12-13T10:52:05.962Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "pages",
+          "count": 1,
+          "items": [
+            {
+              "variantId": "ou1WmXHcr",
+              "propertyId": "zlqQNxLcGh",
+              "propertyTitle": "",
+              "endpointId": "MaV9Sd605",
+              "endpointTitle": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 4,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 2,
+          "items": [
+            {
+              "id": "OoW_RxrtA",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "DHl6a0GLT",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "s941nm7Vkw",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 1,
+          "items": [
+            {
+              "id": "eOaXizx_",
+              "type": "responseFields",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": []
+}

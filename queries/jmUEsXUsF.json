@@ -1,0 +1,150 @@
+{
+  "metadataInRules": [],
+  "title": "Search Fep",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "ssdeTHIxc"
+    },
+    {
+      "id": "ju06OqIgO"
+    }
+  ],
+  "exclude": [],
+  "include": [
+    {
+      "id": "kVdJpW4Ky"
+    }
+  ],
+  "boost": [],
+  "order": [
+    {
+      "id": "SXyaET7iz2"
+    }
+  ],
+  "presets": {
+    "filter": [
+      {
+        "id": "TuAyi0elu"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "ZRorAbL96Q"
+      }
+    ]
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "ssdeTHIxc",
+          "ju06OqIgO",
+          "kVdJpW4Ky",
+          "SXyaET7iz2"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "TuAyi0elu",
+          "ZRorAbL96Q"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "UfjbdJWlQL"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1,
+    "mustOperator": "or",
+    "mustNotOperator": "or",
+    "tieBreakerMustNot": 0.9
+  },
+  "id": "jmUEsXUsF",
+  "version": 22,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2023-01-09T10:09:06.827Z"
+  },
+  "metadataOverrides": {},
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "UfjbdJWlQL",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 6,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 4,
+          "items": [
+            {
+              "id": "ssdeTHIxc",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "ju06OqIgO",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "kVdJpW4Ky",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "SXyaET7iz2",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 2,
+          "items": [
+            {
+              "id": "TuAyi0elu",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "zFmF5zQpRG",
+              "type": "rulesPresets",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "uselessMultiplier": true,
+  "realm": "content"
+}

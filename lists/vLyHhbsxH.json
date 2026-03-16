@@ -1,0 +1,40 @@
+{
+  "title": "Lista ADV il mio viaggio a NY",
+  "description": "",
+  "type": "contentId",
+  "contentType": "video",
+  "realm": "content",
+  "metadataField": "video_content_id",
+  "elements": [
+    "F313548201000101",
+    "F313548201000201",
+    "F313548201000301",
+    "F313548201000401"
+  ],
+  "id": "vLyHhbsxH",
+  "version": 8,
+  "lastSaved": {
+    "username": "Massimiliano.Berardi",
+    "date": "2024-09-25T12:52:47.833Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "rules",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  }
+}

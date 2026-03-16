@@ -1,0 +1,44 @@
+{
+  "title": "List Intrattenimento e Informazione",
+  "description": "",
+  "contentType": "video",
+  "type": "text",
+  "elements": [
+    "Intrattenimento",
+    "Informazione"
+  ],
+  "id": "gZX3nBSME",
+  "version": 5,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-09-09T17:14:58.443Z"
+  },
+  "refs": {
+    "belongs": []
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "rules",
+          "count": 1,
+          "items": [
+            {
+              "id": "mwku2JtbU5",
+              "type": "rules",
+              "title": "Rule Tipologia Intrattenimento Informazione e Sport"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  },
+  "realm": "content"
+}

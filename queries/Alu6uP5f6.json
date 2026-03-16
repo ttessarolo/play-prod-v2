@@ -1,0 +1,183 @@
+{
+  "title": "NEW Query Similar Intrattenimento Stessa Serie",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "YMaH2tPZC"
+    },
+    {
+      "id": "KukwdwFDvb"
+    },
+    {
+      "id": "rF9k3yyPZ"
+    },
+    {
+      "id": "tfAzCHYts"
+    }
+  ],
+  "exclude": [
+    {
+      "id": "uB1vEod_9"
+    },
+    {
+      "id": "xymitMKK9"
+    },
+    {
+      "id": "aNHO5E_ne"
+    }
+  ],
+  "include": [],
+  "boost": [],
+  "order": [
+    {
+      "id": "A5n475YeR"
+    }
+  ],
+  "realm": "content",
+  "presets": {
+    "filter": [
+      {
+        "id": "TuAyi0elu"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "ZRorAbL96Q"
+      }
+    ]
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "YMaH2tPZC",
+          "KukwdwFDvb",
+          "rF9k3yyPZ",
+          "tfAzCHYts",
+          "uB1vEod_9",
+          "xymitMKK9",
+          "aNHO5E_ne",
+          "A5n475YeR"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "TuAyi0elu",
+          "ZRorAbL96Q"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "PovJt3Vzm"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 4,
+    "mustOperator": "or"
+  },
+  "id": "Alu6uP5f6",
+  "version": 33,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-02-26T09:52:46.566Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 2,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 2,
+          "items": [
+            {
+              "id": "PovJt3Vzm",
+              "type": "blocks",
+              "title": ""
+            },
+            {
+              "id": "rZE_CjlgN",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 9,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 7,
+          "items": [
+            {
+              "id": "YMaH2tPZC",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "KukwdwFDvb",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "rF9k3yyPZ",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "tfAzCHYts",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "uB1vEod_9",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "xymitMKK9",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "A5n475YeR",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 2,
+          "items": [
+            {
+              "id": "TuAyi0elu",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "ZRorAbL96Q",
+              "type": "rulesPresets",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "uselessMultiplier": false,
+  "metadataOverrides": {}
+}

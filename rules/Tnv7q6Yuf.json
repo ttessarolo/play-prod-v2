@@ -1,0 +1,124 @@
+{
+  "title": "Rule Boost Genere Patemico Condizionale",
+  "description": "Boost su match genere patemico con boost maggiore per patemico=commedia\n",
+  "contentType": "video",
+  "clauses": [
+    "boost"
+  ],
+  "rule": [
+    {
+      "phrase": false,
+      "API": "V2",
+      "condition": "(equals(generepatemico, \"Comico Commedia\"))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "equals",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "generepatemico"
+              },
+              {
+                "value": "\"Comico Commedia\"",
+                "type": "string"
+              }
+            ],
+            "id": "cTbiWicf-I"
+          }
+        ]
+      },
+      "boost": 150,
+      "type": "I2I",
+      "value": "generepatemico",
+      "valueType": "metadata",
+      "queryType": "match",
+      "field": "generepatemico",
+      "fieldDBType": "keyword",
+      "_id": "KfMtb6ZTb",
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "API": "V2",
+      "condition": "(!equals(generepatemico, \"Comico Commedia\"))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "!equals",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "generepatemico"
+              },
+              {
+                "value": "\"Comico Commedia\"",
+                "type": "string"
+              }
+            ],
+            "id": "oY6MmRXE38"
+          }
+        ]
+      },
+      "boost": 50,
+      "type": "",
+      "value": "generepatemico",
+      "valueType": "metadata",
+      "queryType": "match",
+      "field": "generepatemico",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "SyKdN_et5W",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "field": "generepatemico",
+  "metadata": {
+    "content": true
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "F8q0MMwh8"
+        ]
+      }
+    ]
+  },
+  "id": "Tnv7q6Yuf",
+  "version": 3,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-04-02T11:33:31.662Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 1,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "realm": "content",
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": []
+}

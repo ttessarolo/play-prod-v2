@@ -1,0 +1,78 @@
+{
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "Hpf2pfaEM",
+          "PoNLxId54"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "title": "Rule Id Season ST match origin",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "id_season_st",
+      "valueType": "metadata",
+      "queryType": "match",
+      "field": "id_season_st",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "EBaDl00PjD"
+    }
+  ],
+  "clauses": [
+    "filter",
+    "exclude"
+  ],
+  "metadata": {
+    "content": true
+  },
+  "id": "GETZ802mK",
+  "version": 3,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-01-09T11:22:03.566Z"
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "refs": {
+    "require": [
+      {
+        "type": "queries",
+        "items": [
+          "sAkw5LwYq",
+          "QBSCM27jL",
+          "pNmPWjxre"
+        ]
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "Bn52RsYBn"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": [
+          "eOaXizx_"
+        ]
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "thJULhcXoc",
+          "UzsmyaqtN"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "pages",
+          "count": 1,
+          "items": [
+            {
+              "variantId": "thJULhcXoc",
+              "propertyId": "zlqQNxLcGh",
+              "propertyTitle": "",
+              "endpointId": "nyMd3k9ed",
+              "endpointTitle": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 5,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 3,
+          "items": [
+            {
+              "id": "sAkw5LwYq",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "QBSCM27jL",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "pNmPWjxre",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "Bn52RsYBn",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 1,
+          "items": [
+            {
+              "id": "eOaXizx_",
+              "type": "responseFields",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "results": {
+    "flatAllBlocks": true,
+    "min": 0,
+    "fallbackBlockId": "Bn52RsYBn",
+    "max": 20,
+    "deduplicateFlattedResults": true
+  },
+  "blocks": [
+    {
+      "_id": "AHLjUsweA",
+      "condition": "*",
+      "title": "Fiction del momento",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 4,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true
+      },
+      "queryId": "sAkw5LwYq"
+    },
+    {
+      "_id": "auHjlMQGFC",
+      "condition": "*",
+      "title": "Fiction e Serie TV similar to Cluster",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 20,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "fallbackBlockId": "Bn52RsYBn",
+        "skipOnEmpty": true
+      },
+      "queryId": "QBSCM27jL"
+    },
+    {
+      "_id": "d4IksoDSvz",
+      "condition": "*",
+      "title": "Fiction copertura",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 20,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true
+      },
+      "queryId": "pNmPWjxre"
+    }
+  ],
+  "title": "Block Fiction e Serie TV similar to Cluster",
+  "description": "",
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "realm": "content",
+  "id": "aidPOYBHr",
+  "version": 4,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2024-11-19T16:11:45.150Z"
+  }
+}

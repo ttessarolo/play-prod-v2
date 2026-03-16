@@ -1,0 +1,132 @@
+{
+  "results": {
+    "min": 0,
+    "flatAllBlocks": true,
+    "max": 24
+  },
+  "blocks": [
+    {
+      "_id": "AYHJHru_24",
+      "condition": "*",
+      "title": "Block Most Recent Intrattenimento",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 24,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_"
+      },
+      "queryId": "UNYXfbEQP"
+    }
+  ],
+  "title": "Block Most Recent Intrattenimento",
+  "description": "",
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "realm": "content",
+  "canBeFallback": 1,
+  "refs": {
+    "require": [
+      {
+        "type": "queries",
+        "items": [
+          "UNYXfbEQP"
+        ]
+      },
+      {
+        "type": "blocks",
+        "items": []
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": [
+          "eOaXizx_"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "hr9EobplH",
+          "bnMH6NW9d",
+          "RgNarqlFkn",
+          "nyZIQBFS9",
+          "EmT520GqFi",
+          "n8ux7oE5U",
+          "wMHusuT7W",
+          "_NC2xBwkMD"
+        ]
+      }
+    ]
+  },
+  "id": "s941nm7Vkw",
+  "version": 2,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-03-29T15:10:49.189Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "PY_ejKHEh",
+              "type": "blocks",
+              "title": "Block Similar Documentari"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 2,
+      "types": 4,
+      "items": [
+        {
+          "type": "queries",
+          "count": 1,
+          "items": [
+            {
+              "id": "cbbhfkNy0",
+              "type": "queries",
+              "title": "Query Most Recent Documentari"
+            }
+          ]
+        },
+        {
+          "type": "blocks",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 1,
+          "items": [
+            {
+              "id": "eOaXizx_",
+              "type": "responseFields",
+              "title": "PLAY-PROD-VIDEO-MINIMAL-SET"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

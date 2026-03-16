@@ -1,0 +1,187 @@
+{
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "zGCftF1vF"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 1,
+          "items": [
+            {
+              "id": "zGCftF1vF",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "(contains(content_channels, \"MediasetPlay\") && contains(context_features_subscription_channels, \"MediasetItalia\"))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "content_channels"
+              },
+              {
+                "value": "\"MediasetPlay\"",
+                "type": "string"
+              }
+            ],
+            "id": "fjJaNWLIQf"
+          },
+          {
+            "id": "uQ49b7XE6V",
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "context_features_subscription_channels"
+              },
+              {
+                "value": "\"MediasetItalia\"",
+                "type": "string"
+              }
+            ]
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "MediasetItalia",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "content_channels",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "QwnpCuMrV",
+      "scheduled": false,
+      "scheduling": [],
+      "break": true
+    },
+    {
+      "API": "V2",
+      "condition": "(contains(content_channels, \"MediasetPlay\") && !contains(context_features_subscription_channels, \"MediasetItalia\"))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "content_channels"
+              },
+              {
+                "value": "\"MediasetPlay\"",
+                "type": "string"
+              }
+            ],
+            "id": "fjJaNWLIQf"
+          },
+          {
+            "id": "uQ49b7XE6V",
+            "operator": "!contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "context_features_subscription_channels"
+              },
+              {
+                "value": "\"MediasetItalia\"",
+                "type": "string"
+              }
+            ]
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "MediasetPlay",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "content_channels",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "InayFOVzx",
+      "scheduled": false,
+      "scheduling": [],
+      "break": true
+    },
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "content_channels",
+      "valueType": "metadata",
+      "queryType": "matchAll",
+      "field": "content_channels",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "yRqbhwbA6h"
+    }
+  ],
+  "clauses": [
+    "filter"
+  ],
+  "title": "Rule Channel match Channel e Utenti MediasetItalia chiamano MediasetItalia",
+  "description": "",
+  "metadata": {
+    "content": true
+  },
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "id": "kmZRwFiD5q",
+  "version": 6,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2024-01-30T11:42:10.862Z"
+  }
+}

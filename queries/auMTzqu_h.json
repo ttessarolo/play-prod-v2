@@ -1,0 +1,135 @@
+{
+  "title": "CHNLS Film e Serie Params Genre",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "JfE3hcRkF"
+    },
+    {
+      "id": "kb0ZRiIVbE"
+    },
+    {
+      "id": "MhwnTO2PIM"
+    }
+  ],
+  "exclude": [],
+  "include": [],
+  "boost": [],
+  "order": [
+    {
+      "id": "SXyaET7iz2"
+    }
+  ],
+  "realm": "content",
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "JfE3hcRkF",
+          "kb0ZRiIVbE",
+          "MhwnTO2PIM",
+          "SXyaET7iz2"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "ZRorAbL96Q",
+          "KhQ3IziFJ",
+          "zFmF5zQpRG"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "LgdzJZo0E"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "id": "auMTzqu_h",
+  "version": 7,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-05-26T14:29:50.267Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "LgdzJZo0E",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 4,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 4,
+          "items": [
+            {
+              "id": "JfE3hcRkF",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "kb0ZRiIVbE",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "MhwnTO2PIM",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "SXyaET7iz2",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "metadataOverrides": {},
+  "presets": {
+    "exclude": [
+      {
+        "id": "ZRorAbL96Q"
+      },
+      {
+        "id": "KhQ3IziFJ"
+      },
+      {
+        "id": "zFmF5zQpRG"
+      }
+    ]
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "title": "CHNLS Movie Top Viewed 24h ParamsChannel Top",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "GrwUgwwMlH"
+    },
+    {
+      "id": "Qs0Vux5WH_"
+    },
+    {
+      "id": "JfE3hcRkF"
+    },
+    {
+      "id": "BTmRUYEm9u"
+    }
+  ],
+  "exclude": [],
+  "include": [],
+  "boost": [],
+  "order": [
+    {
+      "id": "LT7oy4fn1"
+    }
+  ],
+  "realm": "content",
+  "presets": {
+    "filter": [
+      {
+        "id": "ur0WldwQk"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "KhQ3IziFJ"
+      },
+      {
+        "id": "ZRorAbL96Q"
+      }
+    ]
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "GrwUgwwMlH",
+          "Qs0Vux5WH_",
+          "JfE3hcRkF",
+          "BTmRUYEm9u",
+          "LT7oy4fn1"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "ur0WldwQk",
+          "KhQ3IziFJ",
+          "ZRorAbL96Q"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "xtzjtgx36"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "id": "q3JzVcUsf",
+  "version": 17,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2024-04-16T12:56:05.754Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "xtzjtgx36",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 7,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 5,
+          "items": [
+            {
+              "id": "GrwUgwwMlH",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "Qs0Vux5WH_",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "JfE3hcRkF",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "BTmRUYEm9u",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "LT7oy4fn1",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 2,
+          "items": [
+            {
+              "id": "ur0WldwQk",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "KhQ3IziFJ",
+              "type": "rulesPresets",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "uselessMultiplier": false,
+  "metadataOverrides": {}
+}

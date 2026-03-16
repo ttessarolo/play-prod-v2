@@ -1,0 +1,58 @@
+{
+  "title": "Lista Editorial Type NO Movie e Serie",
+  "description": "",
+  "type": "text",
+  "contentType": "video",
+  "realm": "content",
+  "elements": [
+    "Anticipazioni",
+    "Clip",
+    "Extra",
+    "Full Episode",
+    "Promo",
+    "Riassunti",
+    "Ricette",
+    "TVSeason",
+    "Trailer"
+  ],
+  "id": "tkfKlsc0W2",
+  "version": 3,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2023-01-24T15:25:40.035Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "rules",
+        "items": [
+          "dOAdO5aP_"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "rules",
+          "count": 1,
+          "items": [
+            {
+              "id": "dOAdO5aP_",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  }
+}

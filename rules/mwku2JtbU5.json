@@ -1,0 +1,76 @@
+{
+  "title": "Rule Tipologia Intrattenimento Informazione e Sport",
+  "description": " ",
+  "contentType": "video",
+  "clauses": [
+    "filter",
+    "exclude",
+    "include"
+  ],
+  "rule": [
+    {
+      "condition": "*",
+      "boost": 1,
+      "type": "I2I",
+      "_id": "uSkQ1cEI8",
+      "listTermsId": "sI8RQxedr",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      },
+      "field": "tipologia",
+      "fieldDBType": "keyword",
+      "queryType": "listTermsId",
+      "value": "sI8RQxedr",
+      "valueType": "list",
+      "API": "V2"
+    }
+  ],
+  "field": "tipologia",
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": [
+          "sI8RQxedr"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "PzMzP5D6R",
+          "T2R37bH_w",
+          "i7977YQbm",
+          "zqakv8vZvB",
+          "hhqbCjmm_1",
+          "I1706J335",
+          "J5tCfqwb1y",
+          "ZmqQWEcF8",
+          "FF6GVv2DC",
+          "vKyWUq28Mj",
+          "OFJfHmsz5",
+          "YSg0jB6ZY",
+          "A7GegaBl8",
+          "EunqfeQqG",
+          "AQ0EW0owXS",
+          "byMpe1wx_f",
+          "TrBCM_mrO",
+          "JcLPwIH_9",
+          "AkDXA7YHE"
+        ]
+      }
+    ]
+  },
+  "id": "mwku2JtbU5",
+  "version": 4,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2020-12-16T10:59:42.171Z"
+  }
+}

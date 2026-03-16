@@ -1,0 +1,89 @@
+{
+  "metadataInRules": [],
+  "title": "SNAP Query published flag not exists ",
+  "description": "Usato come fallback vuota per endpoint della property 'snaphot'",
+  "contentType": "video",
+  "filter": [],
+  "exclude": [
+    {
+      "id": "ut6mxlalK"
+    }
+  ],
+  "include": [],
+  "boost": [],
+  "order": [],
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "ut6mxlalK"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "l4VJd3rno"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "id": "nOcHilFiK",
+  "version": 5,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2022-11-07T14:53:50.492Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "l4VJd3rno",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 1,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 1,
+          "items": [
+            {
+              "id": "ut6mxlalK",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  }
+}

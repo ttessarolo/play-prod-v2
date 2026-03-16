@@ -1,0 +1,70 @@
+{
+  "title": "Rule Include Tutti i gol se chiamante Highlights",
+  "description": "Se il chiamante è Highlights chiama Highlights\n",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "(equals(subbrand_title, \"tutti_i_gol\"))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "equals",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "subbrand_title"
+              },
+              {
+                "value": "\"tutti_i_gol\"",
+                "type": "string"
+              }
+            ],
+            "id": "jZE2-eyXAX"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "tutti_i_gol",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "subbrand_title",
+      "fieldNested": 0,
+      "fieldDBType": "text",
+      "_id": "TpYv81_F8Q",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "clauses": [
+    "include"
+  ],
+  "metadata": {
+    "content": true
+  },
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": []
+      }
+    ]
+  },
+  "id": "g_Vp5IkeQq",
+  "version": 1,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-03-29T17:07:13.303Z"
+  }
+}

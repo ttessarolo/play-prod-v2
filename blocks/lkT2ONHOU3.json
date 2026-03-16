@@ -1,0 +1,275 @@
+{
+  "results": {
+    "min": 0,
+    "flatAllBlocks": true,
+    "fallbackBlockId": "P0csRsOt7",
+    "max": 50,
+    "deduplicateFlattedResults": true
+  },
+  "blocks": [
+    {
+      "_id": "alFPtW0g5",
+      "condition": "*",
+      "title": "Params Fiction e Serie TV Super Top",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 10,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true
+      },
+      "queryId": "nGhPhWBeV"
+    },
+    {
+      "_id": "KwHTroprse",
+      "condition": "*",
+      "title": "Params Fiction e Serie TV Top In Onda o Esclusiva",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 30,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true
+      },
+      "queryId": "IjuqSujtX",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": [
+              {
+                "type": "metadata",
+                "value": ""
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ],
+            "id": "kPEHyLuOHy"
+          }
+        ]
+      },
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "_id": "hezTNSn5yL",
+      "condition": "*",
+      "title": "Params Fiction e Serie TV In Onda o Esclusiva no Top",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 30,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true
+      },
+      "queryId": "jTxxLascsn"
+    },
+    {
+      "_id": "JmkYKr3KHo",
+      "condition": "*",
+      "title": "Params Fiction e Serie TV più visti",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 30,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "fallbackBlockId": "P0csRsOt7",
+        "skipOnEmpty": true
+      },
+      "queryId": "dLoPEBrcJd",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": [
+              {
+                "type": "metadata",
+                "value": ""
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ],
+            "id": "ttr-Ukapmt"
+          }
+        ]
+      },
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "title": "Block Generi per Parametri Fiction e Serie TV",
+  "description": "",
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "realm": "content",
+  "refs": {
+    "require": [
+      {
+        "type": "queries",
+        "items": [
+          "nGhPhWBeV",
+          "IjuqSujtX",
+          "jTxxLascsn",
+          "dLoPEBrcJd"
+        ]
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "P0csRsOt7"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": [
+          "eOaXizx_"
+        ]
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "yIsgXYLsU"
+        ]
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      }
+    ]
+  },
+  "id": "lkT2ONHOU3",
+  "version": 19,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2023-08-29T13:40:11.902Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "pages",
+          "count": 1,
+          "items": [
+            {
+              "variantId": "yIsgXYLsU",
+              "propertyId": "zlqQNxLcGh",
+              "propertyTitle": "",
+              "endpointId": "XzvXgQ2xM3",
+              "endpointTitle": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 6,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 4,
+          "items": [
+            {
+              "id": "nGhPhWBeV",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "IjuqSujtX",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "jTxxLascsn",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "dLoPEBrcJd",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "P0csRsOt7",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 1,
+          "items": [
+            {
+              "id": "eOaXizx_",
+              "type": "responseFields",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": []
+}

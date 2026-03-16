@@ -1,0 +1,130 @@
+{
+  "id": "rmphsQOjB",
+  "propertyId": "rrjMTUmyqd",
+  "title": "Ricerca Gratis-[COPY]",
+  "description": "Please Edit description for Page \"Variant 5\"",
+  "enabledPagesId": [
+    "Y_T1DSbZ9"
+  ],
+  "isPage": true,
+  "blocks": [
+    {
+      "id": "XaLCozoPZ",
+      "condition": "*",
+      "title": "Gratis Serie e Movie",
+      "type": "nested",
+      "layout": {
+        "i": "XaLCozoPZ",
+        "x": 0,
+        "y": 1,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "jC1O6gKqK",
+      "viewAll": {
+        "id": "b1EDgwfNS9",
+        "reference": "viewAllFilteredSearch"
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER",
+          "layout": "GRID"
+        }
+      }
+    },
+    {
+      "id": "yt0bu_1bv",
+      "condition": "*",
+      "title": "Gratis Video",
+      "type": "nested",
+      "layout": {
+        "i": "yt0bu_1bv",
+        "x": 0,
+        "y": 2,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true
+      }
+    }
+  ],
+  "version": 5,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2022-11-24T12:57:07.358Z"
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "endpoints",
+        "items": [
+          "b1EDgwfNS9"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "endpoints",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "Y_T1DSbZ9",
+              "type": "endpoints"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "b1EDgwfNS9",
+              "type": "endpoints"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "layout": [
+    {
+      "i": "XaLCozoPZ",
+      "x": 0,
+      "y": 1,
+      "w": 12,
+      "h": 30,
+      "blocks": []
+    },
+    {
+      "i": "yt0bu_1bv",
+      "x": 0,
+      "y": 2,
+      "w": 12,
+      "h": 30,
+      "blocks": []
+    }
+  ]
+}

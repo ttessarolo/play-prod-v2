@@ -1,0 +1,207 @@
+{
+  "title": "TVOD Multiple block Top Blockbuster",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "IyDzyntfi"
+    },
+    {
+      "id": "83txjtJm"
+    },
+    {
+      "id": "Qs0Vux5WH_"
+    },
+    {
+      "id": "CTGuqOMTe"
+    },
+    {
+      "id": "fknyNP0OE"
+    }
+  ],
+  "exclude": [
+    {
+      "id": "e9Y3R8KxHI"
+    },
+    {
+      "id": "Ey4u2apQQ1"
+    }
+  ],
+  "include": [
+    {
+      "id": "w_A5RtTR9"
+    },
+    {
+      "id": "eDSlXBQn1"
+    }
+  ],
+  "boost": [],
+  "order": [
+    {
+      "id": "He8f44l1s"
+    }
+  ],
+  "realm": "content",
+  "presets": {
+    "filter": [
+      {
+        "id": "TuAyi0elu"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "KhQ3IziFJ"
+      }
+    ]
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "IyDzyntfi",
+          "83txjtJm",
+          "Qs0Vux5WH_",
+          "CTGuqOMTe",
+          "fknyNP0OE",
+          "e9Y3R8KxHI",
+          "Ey4u2apQQ1",
+          "w_A5RtTR9",
+          "eDSlXBQn1",
+          "He8f44l1s"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "TuAyi0elu",
+          "KhQ3IziFJ"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "_xKCjqOWX"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": "0.1",
+    "resultsMultiplier": 1,
+    "mustOperator": "or"
+  },
+  "id": "kiw8qXocC",
+  "version": 32,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2023-11-02T14:26:36.948Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "_xKCjqOWX",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 13,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 11,
+          "items": [
+            {
+              "id": "IyDzyntfi",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "83txjtJm",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "Qs0Vux5WH_",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "CTGuqOMTe",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "fknyNP0OE",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "JP8BezUBBQ",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "e9Y3R8KxHI",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "Ey4u2apQQ1",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "w_A5RtTR9",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "eDSlXBQn1",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "He8f44l1s",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 2,
+          "items": [
+            {
+              "id": "TuAyi0elu",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "KhQ3IziFJ",
+              "type": "rulesPresets",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "metadataOverrides": {},
+  "uselessMultiplier": false
+}

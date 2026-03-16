@@ -1,0 +1,98 @@
+{
+  "metadataInRules": [],
+  "title": "Search Movie TimVision",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "Kdxjjyz8N"
+    },
+    {
+      "id": "Qs0Vux5WH_"
+    },
+    {
+      "id": "oLLAE6EUiU"
+    },
+    {
+      "id": "KOrhM3aP8e"
+    }
+  ],
+  "exclude": [],
+  "include": [
+    {
+      "id": "g8Je5FUuKL"
+    }
+  ],
+  "boost": [],
+  "order": [],
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "Kdxjjyz8N",
+          "Qs0Vux5WH_",
+          "oLLAE6EUiU",
+          "KOrhM3aP8e",
+          "g8Je5FUuKL"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "TuAyi0elu",
+          "ZRorAbL96Q"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "fOtPO4RYt"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1,
+    "mustOperator": "or",
+    "mustNotOperator": "or",
+    "tieBreakerMustNot": 0.9
+  },
+  "id": "rU9JESwD9",
+  "version": 45,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2022-06-21T13:13:40.872Z"
+  },
+  "presets": {
+    "filter": [
+      {
+        "id": "TuAyi0elu"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "ZRorAbL96Q"
+      }
+    ]
+  },
+  "metadataOverrides": {},
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  },
+  "uselessMultiplier": false,
+  "realm": "content"
+}

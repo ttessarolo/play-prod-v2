@@ -1,0 +1,163 @@
+{
+  "title": "INF Most recent Film Blocco 2",
+  "description": "Most recent film Infinity e Mediaset Play",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "MrtMAYnbZ"
+    },
+    {
+      "id": "83txjtJm"
+    },
+    {
+      "id": "cdk5AiQ3p"
+    },
+    {
+      "id": "Qs0Vux5WH_"
+    },
+    {
+      "id": "RqBahOBRSz"
+    }
+  ],
+  "exclude": [],
+  "include": [],
+  "boost": [],
+  "order": [
+    {
+      "id": "SXyaET7iz2"
+    }
+  ],
+  "realm": "content",
+  "presets": {
+    "filter": [
+      {
+        "id": "TuAyi0elu"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "KhQ3IziFJ"
+      }
+    ]
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "MrtMAYnbZ",
+          "83txjtJm",
+          "cdk5AiQ3p",
+          "Qs0Vux5WH_",
+          "RqBahOBRSz",
+          "SXyaET7iz2"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "TuAyi0elu",
+          "KhQ3IziFJ"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "EQJhlR0N7"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "id": "js5eihPKLL",
+  "version": 9,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-06-11T10:53:12.497Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "EQJhlR0N7",
+              "type": "blocks",
+              "title": "INF Film Most Recent "
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 8,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 6,
+          "items": [
+            {
+              "id": "MrtMAYnbZ",
+              "type": "rules",
+              "title": "Rule Channel Mediaset Play o Infinity"
+            },
+            {
+              "id": "83txjtJm",
+              "type": "rules",
+              "title": "Rule Tipologia Film"
+            },
+            {
+              "id": "cdk5AiQ3p",
+              "type": "rules",
+              "title": "Rule Keep only Publication Date range 60 giorni da Now"
+            },
+            {
+              "id": "Qs0Vux5WH_",
+              "type": "rules",
+              "title": "Rule Editorial Type Movie"
+            },
+            {
+              "id": "RqBahOBRSz",
+              "type": "rules",
+              "title": "Rule etichetta editoriale Top"
+            },
+            {
+              "id": "fnNa_WKV",
+              "type": "rules",
+              "title": "Rule Order By Most Recent Params"
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 2,
+          "items": [
+            {
+              "id": "TuAyi0elu",
+              "type": "rulesPresets",
+              "title": "Preset SearchVisible e FrontEnd Visible True"
+            },
+            {
+              "id": "KhQ3IziFJ",
+              "type": "rulesPresets",
+              "title": "Preset Video format exclude 4K"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "metadataOverrides": {},
+  "uselessMultiplier": false
+}

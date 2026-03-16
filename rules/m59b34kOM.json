@@ -1,0 +1,73 @@
+{
+  "title": "Rule Fingerprint similar to User",
+  "description": "Raccomandati per te",
+  "contentType": "video",
+  "clauses": [
+    "include",
+    "filter"
+  ],
+  "rule": [
+    {
+      "condition": "*",
+      "boost": 1,
+      "type": "I2I",
+      "_id": "nkuBvQkmV",
+      "likeFromMetadata": "video_historical_fingerprint",
+      "maxTerms": 200,
+      "minTermFreq": 1,
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      },
+      "field": "fingerprint",
+      "fieldDBType": "text",
+      "queryType": "like",
+      "value": "video_historical_fingerprint",
+      "valueType": "metadata",
+      "API": "V2"
+    }
+  ],
+  "field": "fingerprint",
+  "metadata": {
+    "user": {
+      "required": true,
+      "userContentType": "user"
+    }
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "b20L6V_Cz",
+          "CMc5GpUU2",
+          "zfs8imRPC",
+          "WsemoIM4gy",
+          "WberdVHbj",
+          "ahVkQ5zxC",
+          "MvBEHiAgy",
+          "jfiYB856s",
+          "yjy2A9HNE",
+          "HGGJsLjDh",
+          "BqU9dngUa"
+        ]
+      }
+    ]
+  },
+  "id": "m59b34kOM",
+  "version": 2,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2020-09-22T10:07:18.104Z"
+  }
+}

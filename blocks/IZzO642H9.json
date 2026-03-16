@@ -1,0 +1,252 @@
+{
+  "results": {
+    "min": 0,
+    "flatAllBlocks": true,
+    "fallbackBlockId": "P0csRsOt7",
+    "max": 30
+  },
+  "blocks": [
+    {
+      "_id": "z7T_RryNu0",
+      "condition": "(between(when_current_hour_and_minute, \"1300÷1400\") || (equals(when_day_of_the_week, \"Tuesday\") && between(when_current_hour_and_minute, \"0001÷0200\")))",
+      "title": "Highlights Calcio",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 30,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "fallbackBlockId": "P0csRsOt7"
+      },
+      "metadata": {
+        "external": {
+          "output": "external_source"
+        },
+        "time": true
+      },
+      "queryId": "v3vjgsdRZ",
+      "conditionRaw": {
+        "or": [
+          {
+            "id": "sCtdvtuj2",
+            "operator": "between",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "when_current_hour_and_minute"
+              },
+              {
+                "value": "\"1300÷1400\"",
+                "type": "between"
+              }
+            ]
+          },
+          {
+            "and": [
+              {
+                "id": "jD2tILm59",
+                "operator": "equals",
+                "values": [
+                  {
+                    "type": "metadata",
+                    "value": "when_day_of_the_week"
+                  },
+                  {
+                    "value": "\"Tuesday\"",
+                    "type": "string"
+                  }
+                ]
+              },
+              {
+                "id": "qHdK_SUS-",
+                "operator": "between",
+                "values": [
+                  {
+                    "type": "metadata",
+                    "value": "when_current_hour_and_minute"
+                  },
+                  {
+                    "value": "\"0001÷0200\"",
+                    "type": "between"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "scheduled": true,
+      "scheduling": [
+        {
+          "id": "sCtdvtuj2",
+          "start": "1300",
+          "end": "1400"
+        }
+      ]
+    }
+  ],
+  "title": "Block Highlights Calcio Italia1",
+  "description": "",
+  "scheduled": true,
+  "scheduling": [
+    {
+      "id": "sCtdvtuj2",
+      "start": "1300",
+      "end": "1400"
+    }
+  ],
+  "schedulingMap": [
+    [
+      0,
+      [
+        {
+          "id": "sCtdvtuj2",
+          "start": "1300",
+          "end": "1400"
+        }
+      ]
+    ]
+  ],
+  "realm": "content",
+  "refs": {
+    "require": [
+      {
+        "type": "queries",
+        "items": [
+          "v3vjgsdRZ"
+        ]
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "P0csRsOt7"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": [
+          "eOaXizx_"
+        ]
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "H5fd7vXdX"
+        ]
+      }
+    ]
+  },
+  "id": "IZzO642H9",
+  "version": 29,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-02-07T14:32:02.337Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "pages",
+          "count": 1,
+          "items": [
+            {
+              "variantId": "H5fd7vXdX",
+              "propertyId": "zlqQNxLcGh",
+              "propertyTitle": "",
+              "endpointId": "bvhiMZgoA",
+              "endpointTitle": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 3,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 1,
+          "items": [
+            {
+              "id": "v3vjgsdRZ",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "P0csRsOt7",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 1,
+          "items": [
+            {
+              "id": "eOaXizx_",
+              "type": "responseFields",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "searchMetadata": [
+    "request",
+    "external",
+    "time"
+  ],
+  "includedMetadata": [
+    "external",
+    "time"
+  ]
+}

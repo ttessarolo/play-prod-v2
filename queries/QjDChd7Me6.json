@@ -1,0 +1,159 @@
+{
+  "title": "INF Multiple block Genere Primario per Parametri Film e Serie Personalizzato",
+  "description": "Personalizzato",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "wfBy1paHlb"
+    },
+    {
+      "id": "kb0ZRiIVbE"
+    },
+    {
+      "id": "kiTG7_6td"
+    },
+    {
+      "id": "fknyNP0OE"
+    }
+  ],
+  "exclude": [],
+  "include": [
+    {
+      "id": "eDSlXBQn1"
+    }
+  ],
+  "boost": [],
+  "order": [],
+  "realm": "content",
+  "presets": {
+    "filter": [],
+    "exclude": [
+      {
+        "id": "KhQ3IziFJ"
+      },
+      {
+        "id": "ZRorAbL96Q"
+      }
+    ]
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "wfBy1paHlb",
+          "kb0ZRiIVbE",
+          "kiTG7_6td",
+          "fknyNP0OE",
+          "eDSlXBQn1"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "KhQ3IziFJ",
+          "ZRorAbL96Q"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "Z3QZHU9QP"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1,
+    "mustOperator": "or"
+  },
+  "id": "QjDChd7Me6",
+  "version": 31,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2022-11-09T15:19:43.064Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "Z3QZHU9QP",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 8,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 6,
+          "items": [
+            {
+              "id": "wfBy1paHlb",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "kb0ZRiIVbE",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "kiTG7_6td",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "fknyNP0OE",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "eDSlXBQn1",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "He8f44l1s",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 2,
+          "items": [
+            {
+              "id": "KhQ3IziFJ",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "ZRorAbL96Q",
+              "type": "rulesPresets",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "metadataOverrides": {},
+  "uselessMultiplier": false
+}

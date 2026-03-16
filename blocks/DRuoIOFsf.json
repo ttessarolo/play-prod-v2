@@ -1,0 +1,354 @@
+{
+  "id": "DRuoIOFsf",
+  "propertyId": "zlqQNxLcGh",
+  "title": "MedIta Multiple Block Film",
+  "description": "Please Edit description for Page \"Default\"",
+  "enabledPagesId": [
+    "MVpCyzxSL"
+  ],
+  "isPage": true,
+  "blocks": [
+    {
+      "id": "vqcYupKLE",
+      "condition": "*",
+      "title": "I più visti",
+      "type": "nested",
+      "layout": {
+        "i": "vqcYupKLE",
+        "x": 0,
+        "y": 1,
+        "w": 12,
+        "h": 30,
+        "blocks": [],
+        "isDraggable": false
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H",
+        "siteMapped": true
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        }
+      },
+      "blockId": "CSA_Vvj8g",
+      "pinned": true
+    },
+    {
+      "id": "ZtRogwYlXV",
+      "condition": "*",
+      "title": "Comici e commedie",
+      "type": "nested",
+      "layout": {
+        "i": "ZtRogwYlXV",
+        "x": 0,
+        "y": 2,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "Wn1FBsvd2",
+      "metadataUI": {
+        "playContentMeta": {
+          "genere_mcm": "Comico,Commedia"
+        },
+        "attributes": {
+          "template": "POSTER"
+        }
+      },
+      "viewAll": {
+        "id": "ihiCAj9Qp",
+        "reference": "viewAllPerson",
+        "siteMapped": false
+      }
+    },
+    {
+      "id": "mCN3UlUwr",
+      "condition": "*",
+      "title": "Azione, avventura e thriller",
+      "type": "nested",
+      "layout": {
+        "i": "mCN3UlUwr",
+        "x": 0,
+        "y": 3,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "Wn1FBsvd2",
+      "viewAll": {
+        "id": "ihiCAj9Qp",
+        "reference": "viewAllPerson",
+        "siteMapped": false
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Azione,Avventura,Thriller,Horror,Fantasy,Crime"
+        }
+      }
+    },
+    {
+      "id": "emS_AFmyP",
+      "condition": "*",
+      "title": "Drammatici",
+      "type": "nested",
+      "layout": {
+        "i": "emS_AFmyP",
+        "x": 0,
+        "y": 4,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "Wn1FBsvd2",
+      "viewAll": {
+        "id": "ihiCAj9Qp",
+        "reference": "viewAllPerson",
+        "siteMapped": false
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Drammatico"
+        }
+      }
+    },
+    {
+      "id": "waABB5_q7l",
+      "condition": "*",
+      "title": "Classici",
+      "type": "nested",
+      "layout": {
+        "i": "waABB5_q7l",
+        "x": 0,
+        "y": 5,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "Wn1FBsvd2",
+      "viewAll": {
+        "id": "ihiCAj9Qp",
+        "reference": "viewAllPerson",
+        "siteMapped": false
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Classici,Restaurato,Strakult"
+        }
+      }
+    }
+  ],
+  "version": 15,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2023-03-29T09:02:59.272Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "endpoints",
+        "items": [
+          "MVpCyzxSL"
+        ]
+      }
+    ],
+    "require": [
+      {
+        "type": "queries",
+        "items": []
+      },
+      {
+        "type": "endpoints",
+        "items": [
+          "WXsJUgBAp",
+          "ihiCAj9Qp"
+        ]
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "Rc1YEkVxO",
+          "CSA_Vvj8g",
+          "Wn1FBsvd2"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "MVpCyzxSL",
+              "type": "endpoints",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 5,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "endpoints",
+          "count": 2,
+          "items": [
+            {
+              "id": "WXsJUgBAp",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "ihiCAj9Qp",
+              "type": "endpoints",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "blocks",
+          "count": 3,
+          "items": [
+            {
+              "id": "Rc1YEkVxO",
+              "type": "blocks"
+            },
+            {
+              "id": "CSA_Vvj8g",
+              "type": "blocks"
+            },
+            {
+              "id": "Wn1FBsvd2",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "layout": [
+    {
+      "i": "vqcYupKLE",
+      "x": 0,
+      "y": 1,
+      "w": 12,
+      "h": 30,
+      "blocks": []
+    },
+    {
+      "i": "ZtRogwYlXV",
+      "x": 0,
+      "y": 2,
+      "w": 12,
+      "h": 30,
+      "blocks": []
+    },
+    {
+      "i": "mCN3UlUwr",
+      "x": 0,
+      "y": 3,
+      "w": 12,
+      "h": 30,
+      "blocks": []
+    },
+    {
+      "i": "emS_AFmyP",
+      "x": 0,
+      "y": 4,
+      "w": 12,
+      "h": 30,
+      "blocks": []
+    },
+    {
+      "i": "waABB5_q7l",
+      "x": 0,
+      "y": 5,
+      "w": 12,
+      "h": 30,
+      "blocks": []
+    }
+  ],
+  "results": {
+    "smartOrderBlocks": true,
+    "contentType": "video",
+    "userContentType": "user",
+    "event": "watched",
+    "perUserBasisType": "video_historical_fingerprint",
+    "fallbackBlockId": "Rc1YEkVxO",
+    "fullSubstituteFallback": true
+  },
+  "fullSubstituteFallback": true
+}

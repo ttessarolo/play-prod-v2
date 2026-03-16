@@ -1,0 +1,177 @@
+{
+  "metadataInRules": [],
+  "title": "Query Stagioni Most Recent Programmi TV del momento TOP",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "ju06OqIgO"
+    },
+    {
+      "id": "KdgZfZ_wm"
+    },
+    {
+      "id": "XrQIQriQGR"
+    },
+    {
+      "id": "mwku2JtbU5"
+    },
+    {
+      "id": "RqBahOBRSz"
+    }
+  ],
+  "exclude": [
+    {
+      "id": "F2TfzDgyrR"
+    },
+    {
+      "id": "g_H1wj8zj2"
+    }
+  ],
+  "include": [],
+  "boost": [],
+  "order": [
+    {
+      "id": "tMgBtvtBy"
+    }
+  ],
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "ju06OqIgO",
+          "KdgZfZ_wm",
+          "XrQIQriQGR",
+          "mwku2JtbU5",
+          "RqBahOBRSz",
+          "F2TfzDgyrR",
+          "g_H1wj8zj2",
+          "tMgBtvtBy"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "ur0WldwQk",
+          "ZRorAbL96Q"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "FTR93QFLi"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "id": "zqakv8vZvB",
+  "version": 36,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-06-14T16:22:27.614Z"
+  },
+  "presets": {
+    "exclude": [
+      {
+        "id": "ZRorAbL96Q"
+      }
+    ],
+    "filter": [
+      {
+        "id": "ur0WldwQk"
+      }
+    ]
+  },
+  "metadataOverrides": {},
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "FTR93QFLi",
+              "type": "blocks",
+              "title": "Block Stagioni Programmi TV del Momento"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 9,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 8,
+          "items": [
+            {
+              "id": "ju06OqIgO",
+              "type": "rules",
+              "title": "Rule Channel Mediaset Play"
+            },
+            {
+              "id": "KdgZfZ_wm",
+              "type": "rules",
+              "title": "Rule Editorial Type TV Season"
+            },
+            {
+              "id": "XrQIQriQGR",
+              "type": "rules",
+              "title": "Rule etichetta editoriale In Onda"
+            },
+            {
+              "id": "mwku2JtbU5",
+              "type": "rules",
+              "title": "Rule Tipologia Intrattenimento Informazione e Sport"
+            },
+            {
+              "id": "RqBahOBRSz",
+              "type": "rules",
+              "title": "Rule etichetta editoriale Top"
+            },
+            {
+              "id": "F2TfzDgyrR",
+              "type": "rules",
+              "title": "Rule Genere Mcm Telegiornale"
+            },
+            {
+              "id": "g_H1wj8zj2",
+              "type": "rules",
+              "title": "Rule Exclude Sportmediaset"
+            },
+            {
+              "id": "tMgBtvtBy",
+              "type": "rules",
+              "title": "Rule Order By Publication date Fep Most Recent Play "
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 1,
+          "items": [
+            {
+              "id": "ur0WldwQk",
+              "type": "rulesPresets",
+              "title": "Preset Contenuti attivi"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "uselessMultiplier": false
+}

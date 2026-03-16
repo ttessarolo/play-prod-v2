@@ -1,0 +1,155 @@
+{
+  "id": "CW48jTyGKQ",
+  "propertyId": "zlqQNxLcGh",
+  "title": "item link",
+  "description": "Please Edit description for Page \"Variant 1\"",
+  "enabledPagesId": [
+    "YZ8Gk2fzJ"
+  ],
+  "isPage": true,
+  "blocks": [
+    {
+      "id": "eLBBRaaTl",
+      "condition": "*",
+      "title": "Item Link",
+      "type": "nested",
+      "layout": {
+        "i": "eLBBRaaTl",
+        "x": 0,
+        "y": 1,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "tKAnOWY36H",
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        }
+      }
+    }
+  ],
+  "version": 4,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2023-03-23T15:51:31.075Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "endpoints",
+        "items": []
+      }
+    ],
+    "require": [
+      {
+        "type": "queries",
+        "items": []
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "tKAnOWY36H"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "YZ8Gk2fzJ",
+              "type": "endpoints",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 1,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "tKAnOWY36H",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "layout": [
+    {
+      "i": "eLBBRaaTl",
+      "x": 0,
+      "y": 1,
+      "w": 12,
+      "h": 30,
+      "blocks": []
+    }
+  ]
+}

@@ -1,0 +1,252 @@
+{
+  "title": "Block Enabler Stagioni Programmi TV del Momento",
+  "description": "",
+  "results": {
+    "flatAllBlocks": true,
+    "min": 0,
+    "max": 50,
+    "deduplicateFlattedResults": true,
+    "fallbackBlockId": "P0csRsOt7"
+  },
+  "blocks": [
+    {
+      "condition": "*",
+      "title": "Stagioni Programmi TV SUPERTOP",
+      "type": "query",
+      "_id": "ImA9lX07n",
+      "pinned": true,
+      "results": {
+        "max": 3,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true,
+        "fallbackBlockId": "P0csRsOt7"
+      },
+      "queryId": "J5tCfqwb1y",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      }
+    },
+    {
+      "condition": "*",
+      "title": "Stagioni Programmi TV TOP e PRIMA SERATA",
+      "type": "query",
+      "_id": "JEwSOpMsR1",
+      "pinned": true,
+      "results": {
+        "max": 10,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true,
+        "fallbackBlockId": "P0csRsOt7"
+      },
+      "queryId": "I1706J335",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      }
+    },
+    {
+      "_id": "dSCVCsELl",
+      "condition": "*",
+      "title": "Stagioni Programmi TV TOP",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 10,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true,
+        "fallbackBlockId": "P0csRsOt7"
+      },
+      "queryId": "ZmqQWEcF8"
+    },
+    {
+      "_id": "sx4zV0qEy",
+      "condition": "*",
+      "title": "Stagioni Programmi TV PRIMA SERATA",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 10,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true,
+        "fallbackBlockId": "P0csRsOt7"
+      },
+      "queryId": "FF6GVv2DC"
+    },
+    {
+      "_id": "L2fksIvhuY",
+      "condition": "*",
+      "title": "Stagioni Programmi TV IN ONDA",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 40,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "fallbackBlockId": "P0csRsOt7"
+      },
+      "queryId": "vKyWUq28Mj"
+    }
+  ],
+  "canBeFallback": 1,
+  "refs": {
+    "require": [
+      {
+        "type": "queries",
+        "items": [
+          "J5tCfqwb1y",
+          "I1706J335",
+          "ZmqQWEcF8",
+          "FF6GVv2DC",
+          "vKyWUq28Mj"
+        ]
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "P0csRsOt7"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": [
+          "eOaXizx_"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "mg6fW181Aa",
+          "KRHAb_ct0H",
+          "ZX1HRyV_LQ",
+          "FjD3AdqNL",
+          "rxlzHtzFi"
+        ]
+      }
+    ]
+  },
+  "id": "Kv6wN8Y2zI",
+  "version": 26,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-03-29T11:30:07.895Z"
+  },
+  "enabledPagesId": [
+    "U0WrVkcN6",
+    "Rj1_1Ldtp",
+    "wa7CTFrKM",
+    "wSapSXMZL",
+    "v8HBDVt48",
+    "XBJpXgG8U"
+  ],
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "mg6fW181Aa",
+              "type": "blocks",
+              "title": "Default"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 7,
+      "types": 4,
+      "items": [
+        {
+          "type": "queries",
+          "count": 5,
+          "items": [
+            {
+              "id": "J5tCfqwb1y",
+              "type": "queries",
+              "title": "Query Enabler Stagioni Più visti 7gg Programmi TV SUPERTOP"
+            },
+            {
+              "id": "I1706J335",
+              "type": "queries",
+              "title": "Query Enabler Stagioni Più visti 7gg Programmi TV TOP e PRIMA SERATA"
+            },
+            {
+              "id": "ZmqQWEcF8",
+              "type": "queries",
+              "title": "Query Enabler Stagioni Più visti 7gg Programmi TV TOP"
+            },
+            {
+              "id": "FF6GVv2DC",
+              "type": "queries",
+              "title": "Query Enabler Stagioni Più visti 7gg Programmi TV PRIMA SERATA"
+            },
+            {
+              "id": "vKyWUq28Mj",
+              "type": "queries",
+              "title": "Query Enabler Stagioni Più visti 7gg Programmi TV IN ONDA"
+            }
+          ]
+        },
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "P0csRsOt7",
+              "type": "blocks",
+              "title": "Block published flag not exists"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 1,
+          "items": [
+            {
+              "id": "eOaXizx_",
+              "type": "responseFields",
+              "title": "PLAY-PROD-VIDEO-MINIMAL-SET"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "realm": "content",
+  "scheduled": 0,
+  "scheduling": [],
+  "schedulingMap": []
+}

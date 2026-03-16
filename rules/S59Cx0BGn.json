@@ -1,0 +1,64 @@
+{
+  "title": "Rule Tipologia Cartoni ",
+  "description": "Tipologia cartoni",
+  "contentType": "video",
+  "clauses": [
+    "filter",
+    "exclude",
+    "include",
+    "boost"
+  ],
+  "rule": [
+    {
+      "condition": "*",
+      "boost": 1,
+      "type": "I2I",
+      "_id": "43Lz_wqVq",
+      "match": "Cartoni",
+      "phrase": false,
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      },
+      "field": "tipologia",
+      "fieldDBType": "keyword",
+      "queryType": "match",
+      "value": "Cartoni",
+      "valueType": "string",
+      "API": "V2"
+    }
+  ],
+  "field": "tipologia",
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "DH6QDWCTHE",
+          "fWwljHj1tt",
+          "Sm_6fxZYb",
+          "fFfkZBP4s",
+          "xhXKgqHLs",
+          "Oo7bQ3Dg8Z",
+          "dsgyKDyMs"
+        ]
+      }
+    ]
+  },
+  "id": "S59Cx0BGn",
+  "version": 2,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2020-04-22T11:39:13.446Z"
+  }
+}

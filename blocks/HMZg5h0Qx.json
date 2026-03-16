@@ -1,0 +1,171 @@
+{
+  "results": {
+    "flatAllBlocks": true,
+    "min": 0,
+    "fallbackBlockId": "Bn52RsYBn",
+    "max": 50,
+    "deduplicateFlattedResults": true
+  },
+  "blocks": [
+    {
+      "_id": "YRuVgWZNZ",
+      "condition": "*",
+      "title": "TV Movie sezione Fiction Random",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 5,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true,
+        "shuffleItems": true
+      },
+      "queryId": "KoF8mkswc"
+    },
+    {
+      "_id": "wniUCvs2v",
+      "condition": "*",
+      "title": "TV Movie Italiani sezione Fiction",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 60,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true
+      },
+      "queryId": "lM4eMA8k_"
+    }
+  ],
+  "refs": {
+    "require": [
+      {
+        "type": "queries",
+        "items": [
+          "KoF8mkswc",
+          "lM4eMA8k_"
+        ]
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "Bn52RsYBn"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": [
+          "eOaXizx_"
+        ]
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "H9ZIGo39c"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 4,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 2,
+          "items": [
+            {
+              "id": "KoF8mkswc",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "lM4eMA8k_",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "Bn52RsYBn",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 1,
+          "items": [
+            {
+              "id": "eOaXizx_",
+              "type": "responseFields",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "title": "Block TV Movie sezione Fiction",
+  "description": "",
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "realm": "content",
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2026-01-20T10:07:52.583Z"
+  },
+  "id": "HMZg5h0Qx",
+  "version": 5
+}

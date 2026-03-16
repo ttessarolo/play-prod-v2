@@ -1,0 +1,83 @@
+{
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": [
+          "R5xfn6tRc"
+        ]
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "Z4Xzab9uO0",
+          "CGFfVq3sX",
+          "zzovQgZgg"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 1,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 1,
+          "items": [
+            {
+              "id": "R5xfn6tRc",
+              "type": "lists",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "title": "Rule Blacklist Id Series Se Search",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "R5xfn6tRc",
+      "valueType": "list",
+      "queryType": "listId",
+      "field": "id_series_se",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "HEHhJYluOf"
+    }
+  ],
+  "clauses": [
+    "exclude"
+  ],
+  "id": "JxJdZXiBK",
+  "version": 7,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2023-05-04T11:03:08.345Z"
+  }
+}

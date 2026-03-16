@@ -1,0 +1,574 @@
+{
+  "title": "Rule Editorial Type TV Season",
+  "description": "",
+  "contentType": "video",
+  "clauses": [
+    "filter",
+    "include"
+  ],
+  "rule": [
+    {
+      "condition": "*",
+      "boost": 1,
+      "type": "I2I",
+      "_id": "uh2ckOvn_",
+      "match": "TVSeason",
+      "phrase": false,
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      },
+      "field": "editorial_type",
+      "fieldDBType": "keyword",
+      "queryType": "match",
+      "value": "TVSeason",
+      "valueType": "string",
+      "API": "V2"
+    }
+  ],
+  "field": "editorial_type",
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "PzMzP5D6R",
+          "T2R37bH_w",
+          "i7977YQbm",
+          "zqakv8vZvB",
+          "hhqbCjmm_1",
+          "VaFxBerr6",
+          "ajqPan1bS",
+          "yncTA7ween",
+          "arcIZfX7Q",
+          "NDMxn06hM",
+          "IHZg0PHBxF",
+          "KM2HiheDL",
+          "uUJ4hfCDig",
+          "ZRGcMAnsL",
+          "CAd6ogG7u",
+          "TLxbxZNoD",
+          "uk8fnabnQY",
+          "_YcmnLaH4",
+          "hbPc0tj9I",
+          "hn5iFhhbZ",
+          "qOqWHDpaC",
+          "cOZWtR5QFk",
+          "aTlHoTaH0",
+          "mvZ0e6XOY",
+          "PAFpFHSdQ",
+          "vKyWUq28Mj",
+          "J5tCfqwb1y",
+          "I1706J335",
+          "FF6GVv2DC",
+          "ZmqQWEcF8",
+          "ubigd5wChi",
+          "DH6QDWCTHE",
+          "rkiCo37Zx",
+          "_v4wfuHNr",
+          "Z5PVWp8fG",
+          "Bmmb_X6oxW",
+          "zfEqUdL_n",
+          "xQZzlMyWn",
+          "UdUyyyAd3",
+          "s1zg4_4pH",
+          "aPpgfgCvJy",
+          "nfx18gJXx",
+          "vloOlFQwh",
+          "sAkw5LwYq",
+          "pNmPWjxre",
+          "Y3Ko1EEsco",
+          "us3vUNLgO",
+          "R4M6lw89s",
+          "M4d1BL7df",
+          "ZWp_WOb5a3",
+          "zHlSX9ygS",
+          "OFJfHmsz5",
+          "JR8cDQowD",
+          "YMNQr6Pus",
+          "sC1otJfhE",
+          "hKH4jrbFF",
+          "TgKGs2jDf",
+          "x7_VOViNIL",
+          "N_80T8VLG",
+          "PKIPtcVd_",
+          "aqIFPp4zi",
+          "qW2FYtvyr",
+          "tNuQWnsHf",
+          "kBxcwzsiW8",
+          "opSo8V1UKT",
+          "DfAJs6epYQ",
+          "S5KdN0aRZ",
+          "UxPXwvjeT",
+          "ziE_vsPP2x",
+          "kwDHvPZHJ1",
+          "WQFzcbZi3",
+          "IjuqSujtX",
+          "dLoPEBrcJd",
+          "hHiEPD3VA",
+          "XUe7byBci",
+          "tbkv2_bXt",
+          "vQpdSxndVV",
+          "YSg0jB6ZY",
+          "fPSsZdCBTk",
+          "crNss9ZoJ",
+          "W5sbCv_X34",
+          "A7GegaBl8",
+          "V66dk1Z4w",
+          "EunqfeQqG",
+          "r3UuPrHFa3",
+          "m8rpiaFciK",
+          "ZXzhs1rr4",
+          "AQ0EW0owXS",
+          "DViHOhZEw",
+          "QBSCM27jL",
+          "dRtZeUJMlX",
+          "n34TQOZcMI",
+          "TuLnMyRO6r",
+          "sJQMmhHHE",
+          "o3oATF3Xw",
+          "Sm_6fxZYb",
+          "TNtOUf6kS",
+          "ABUvps5All",
+          "Hgvp3RuY2",
+          "eYpjGfjVG",
+          "Fnu1as9qg",
+          "m_gnuihp0",
+          "kc8b7byAm",
+          "YutotoG_ze",
+          "KAsq06N6F",
+          "OvIXofGN2E",
+          "tC8ZKQ37Ld",
+          "w5Jx9w27Z",
+          "P9Ls7vSds",
+          "sRlHZqMawB",
+          "mtx6Ew_wWR",
+          "Kimd2MNT4C",
+          "Um3tRpT7u",
+          "xhXKgqHLs",
+          "Oo7bQ3Dg8Z",
+          "nGhPhWBeV",
+          "jTxxLascsn",
+          "VYVUiuCSM",
+          "Hx2MoUuC4",
+          "BIcv1VGPk",
+          "AF2YRNifd",
+          "W_8SLCb67",
+          "A4Euag_hG",
+          "jxdmOp891w",
+          "PpdrrVxDc"
+        ]
+      }
+    ]
+  },
+  "id": "KdgZfZ_wm",
+  "version": 3,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2022-02-11T14:08:13.327Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 72,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 72,
+          "items": [
+            {
+              "id": "PzMzP5D6R",
+              "type": "queries",
+              "title": "Query Stagioni Most Recent Programmi TV del momento"
+            },
+            {
+              "id": "T2R37bH_w",
+              "type": "queries",
+              "title": "Query Stagioni Most Recent Programmi TV del momento SUPERTOP"
+            },
+            {
+              "id": "i7977YQbm",
+              "type": "queries",
+              "title": "Query Stagioni Most Recent Programmi TV del momento PRIMA SERATA"
+            },
+            {
+              "id": "zqakv8vZvB",
+              "type": "queries",
+              "title": "Query Stagioni Most Recent Programmi TV del momento TOP"
+            },
+            {
+              "id": "hhqbCjmm_1",
+              "type": "queries",
+              "title": "Query Stagioni Most Recent Programmi TV del momento TOP e PRIMA SERATA"
+            },
+            {
+              "id": "VaFxBerr6",
+              "type": "queries",
+              "title": "Query Stagioni Most Recent Fiction Homepage"
+            },
+            {
+              "id": "ajqPan1bS",
+              "type": "queries",
+              "title": "Query Stagioni Most Recent Fiction PRIMA SERATA Homepage"
+            },
+            {
+              "id": "yncTA7ween",
+              "type": "queries",
+              "title": "Query Stagioni Most Recent Fiction e Serie Tv TOP e PRIMA SERATA Homepage"
+            },
+            {
+              "id": "arcIZfX7Q",
+              "type": "queries",
+              "title": "Query Stagioni Most Recent Fiction TOP Homepage"
+            },
+            {
+              "id": "NDMxn06hM",
+              "type": "queries",
+              "title": "Query Stagioni Most Recent Fiction e Serie Tv SUPERTOP Homepage"
+            },
+            {
+              "id": "IHZg0PHBxF",
+              "type": "queries",
+              "title": "Query Stagioni Soap Opera"
+            },
+            {
+              "id": "KM2HiheDL",
+              "type": "queries",
+              "title": "Query Enabler Test Stagioni"
+            },
+            {
+              "id": "uUJ4hfCDig",
+              "type": "queries",
+              "title": "Query Kids Boing Più visti 24H"
+            },
+            {
+              "id": "ZRGcMAnsL",
+              "type": "queries",
+              "title": "Query Kids Cartoonito Più visti 24H"
+            },
+            {
+              "id": "CAd6ogG7u",
+              "type": "queries",
+              "title": "Query Programmi TV Prima Serata Blocco 1"
+            },
+            {
+              "id": "TLxbxZNoD",
+              "type": "queries",
+              "title": "Query Programmi TV Prima Serata Blocco 2"
+            },
+            {
+              "id": "uk8fnabnQY",
+              "type": "queries",
+              "title": "Query Programmi TV Prima Serata Blocco 3"
+            },
+            {
+              "id": "_YcmnLaH4",
+              "type": "queries",
+              "title": "Query Programmi TV In primo piano Blocco 1"
+            },
+            {
+              "id": "hbPc0tj9I",
+              "type": "queries",
+              "title": "Query Programmi TV In primo piano Blocco 2"
+            },
+            {
+              "id": "hn5iFhhbZ",
+              "type": "queries",
+              "title": "Query Programmi TV In primo piano Blocco 3"
+            },
+            {
+              "id": "qOqWHDpaC",
+              "type": "queries",
+              "title": "Query Fiction e Serie TV del momento Blocco 1"
+            },
+            {
+              "id": "cOZWtR5QFk",
+              "type": "queries",
+              "title": "Query Fiction e Serie TV del momento Blocco 2"
+            },
+            {
+              "id": "aTlHoTaH0",
+              "type": "queries",
+              "title": "Query Fiction e Serie TV del momento Blocco 3"
+            },
+            {
+              "id": "mvZ0e6XOY",
+              "type": "queries",
+              "title": "Query Enabler stagioni Serie TV Super Top"
+            },
+            {
+              "id": "PAFpFHSdQ",
+              "type": "queries",
+              "title": "Query Enabler stagioni Serie TV Mplay"
+            },
+            {
+              "id": "vKyWUq28Mj",
+              "type": "queries",
+              "title": "Query Enabler Stagioni Più visti 7gg Programmi TV IN ONDA"
+            },
+            {
+              "id": "J5tCfqwb1y",
+              "type": "queries",
+              "title": "Query Enabler Stagioni Programmi TV SUPERTOP"
+            },
+            {
+              "id": "I1706J335",
+              "type": "queries",
+              "title": "Query Enabler Stagioni Programmi TV TOP e PRIMA SERATA"
+            },
+            {
+              "id": "FF6GVv2DC",
+              "type": "queries",
+              "title": "Query Enabler Stagioni Programmi TV PRIMA SERATA"
+            },
+            {
+              "id": "ZmqQWEcF8",
+              "type": "queries",
+              "title": "Query Enabler Stagioni Programmi TV TOP"
+            },
+            {
+              "id": "ubigd5wChi",
+              "type": "queries",
+              "title": "Query Kids Evergreen Più visti 24H"
+            },
+            {
+              "id": "DH6QDWCTHE",
+              "type": "queries",
+              "title": "Query Stagioni Kids Più Visti 24h"
+            },
+            {
+              "id": "rkiCo37Zx",
+              "type": "queries",
+              "title": "Query Fiction e Soap Blocco 1"
+            },
+            {
+              "id": "_v4wfuHNr",
+              "type": "queries",
+              "title": "Query Fiction e Soap Blocco 2"
+            },
+            {
+              "id": "Z5PVWp8fG",
+              "type": "queries",
+              "title": "Query Fiction e Soap Blocco 3"
+            },
+            {
+              "id": "Bmmb_X6oxW",
+              "type": "queries",
+              "title": "Query Fiction e Soap Blocco 4"
+            },
+            {
+              "id": "zfEqUdL_n",
+              "type": "queries",
+              "title": "Query Serie TV più viste 24h Blocco 1"
+            },
+            {
+              "id": "xQZzlMyWn",
+              "type": "queries",
+              "title": "Query Serie TV più viste 24h Blocco 3"
+            },
+            {
+              "id": "UdUyyyAd3",
+              "type": "queries",
+              "title": "Query Enabler Documentari"
+            },
+            {
+              "id": "s1zg4_4pH",
+              "type": "queries",
+              "title": "Query Generi per Parametri Documentari"
+            },
+            {
+              "id": "aPpgfgCvJy",
+              "type": "queries",
+              "title": "Query Documentari più visti 24h"
+            },
+            {
+              "id": "nfx18gJXx",
+              "type": "queries",
+              "title": "INF Stagioni Serie TV in Prima TV Pay"
+            },
+            {
+              "id": "CS0sNrcco",
+              "type": "queries",
+              "title": "INF Stagioni GOT 4K"
+            },
+            {
+              "id": "vloOlFQwh",
+              "type": "queries",
+              "title": "Query Fiction e Soap Blocco Super Top"
+            },
+            {
+              "id": "sAkw5LwYq",
+              "type": "queries",
+              "title": "Query Fiction e Serie TV del momento Blocco 4"
+            },
+            {
+              "id": "pNmPWjxre",
+              "type": "queries",
+              "title": "Query Fiction e Serie TV del momento Blocco 5"
+            },
+            {
+              "id": "Y3Ko1EEsco",
+              "type": "queries",
+              "title": "Query Serie TV più viste 24h Blocco 2"
+            },
+            {
+              "id": "us3vUNLgO",
+              "type": "queries",
+              "title": "Query Enabler Fiction e Soap Blocco 1"
+            },
+            {
+              "id": "R4M6lw89s",
+              "type": "queries",
+              "title": "Query Enabler Fiction e Soap Blocco 2"
+            },
+            {
+              "id": "M4d1BL7df",
+              "type": "queries",
+              "title": "Query Enabler Fiction e Soap Blocco 3"
+            },
+            {
+              "id": "ZWp_WOb5a3",
+              "type": "queries",
+              "title": "Query Enabler Fiction e Soap Blocco 4"
+            },
+            {
+              "id": "zHlSX9ygS",
+              "type": "queries",
+              "title": "Query Enabler Fiction e Soap Blocco Super Top"
+            },
+            {
+              "id": "OFJfHmsz5",
+              "type": "queries",
+              "title": "Query Highlights Smart TV Programmi TV"
+            },
+            {
+              "id": "JR8cDQowD",
+              "type": "queries",
+              "title": "Query Enabler Stagioni Programmi Tv Sport"
+            },
+            {
+              "id": "YMNQr6Pus",
+              "type": "queries",
+              "title": "Query Stagioni Programmi Tv Sport"
+            },
+            {
+              "id": "sC1otJfhE",
+              "type": "queries",
+              "title": "Query Stagioni Programmi Tv Sport Top"
+            },
+            {
+              "id": "hKH4jrbFF",
+              "type": "queries",
+              "title": "Query Serie TV del momento home Free 1"
+            },
+            {
+              "id": "TgKGs2jDf",
+              "type": "queries",
+              "title": "Query Serie TV del momento home Free 2"
+            },
+            {
+              "id": "x7_VOViNIL",
+              "type": "queries",
+              "title": "Query Serie TV del momento home Free 3"
+            },
+            {
+              "id": "N_80T8VLG",
+              "type": "queries",
+              "title": "Query Serie TV del momento home Free 4"
+            },
+            {
+              "id": "PKIPtcVd_",
+              "type": "queries",
+              "title": "Med Ita Programmi TV Prima Serata Blocco 1"
+            },
+            {
+              "id": "aqIFPp4zi",
+              "type": "queries",
+              "title": "Med Ita Programmi TV Prima Serata Blocco 2"
+            },
+            {
+              "id": "qW2FYtvyr",
+              "type": "queries",
+              "title": "Med Ita Programmi TV Prima Serata Blocco 3"
+            },
+            {
+              "id": "tNuQWnsHf",
+              "type": "queries",
+              "title": "Med Ita Programmi TV In primo piano Blocco 1"
+            },
+            {
+              "id": "kBxcwzsiW8",
+              "type": "queries",
+              "title": "Med Ita Programmi TV In primo piano Blocco 2"
+            },
+            {
+              "id": "opSo8V1UKT",
+              "type": "queries",
+              "title": "Med Ita Programmi TV In primo piano Blocco 3"
+            },
+            {
+              "id": "DfAJs6epYQ",
+              "type": "queries",
+              "title": "Med Ita Documentari più visti 24h"
+            },
+            {
+              "id": "S5KdN0aRZ",
+              "type": "queries",
+              "title": "Med Ita Fiction e Serie TV del momento Blocco 1"
+            },
+            {
+              "id": "UxPXwvjeT",
+              "type": "queries",
+              "title": "Med Ita Fiction e Serie TV del momento Blocco 2"
+            },
+            {
+              "id": "wsb1xQV0d",
+              "type": "queries",
+              "title": "Med Ita Fiction e Serie TV del momento Blocco 5"
+            },
+            {
+              "id": "ziE_vsPP2x",
+              "type": "queries",
+              "title": "Med Ita Fiction e Serie TV del momento Blocco 3"
+            },
+            {
+              "id": "kwDHvPZHJ1",
+              "type": "queries",
+              "title": "Med Ita Fiction e Serie TV del momento Blocco 4"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 1,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": [],
+  "realm": "content"
+}

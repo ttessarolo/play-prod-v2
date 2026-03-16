@@ -1,0 +1,59 @@
+{
+  "title": "Play conversion",
+  "description": "",
+  "id": "play",
+  "version": 5,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2023-10-09T11:01:31.779Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "analitica",
+        "items": [
+          "metrics"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "analitica",
+          "count": 1,
+          "items": [
+            {
+              "id": "metrics",
+              "type": "analitica",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  },
+  "include": {
+    "context": true,
+    "params": true
+  },
+  "whiteList": {
+    "context": {
+      "platform": [],
+      "features_subscription_cluster": []
+    },
+    "params": {
+      "genre": [],
+      "channel": [],
+      "collectionId": []
+    }
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "title": "Rule Filtro Animazione da Live Action",
+  "description": "tecnicarealizzazione: chiamante Live Action - chiamata Animazione",
+  "contentType": "video",
+  "clauses": [
+    "exclude"
+  ],
+  "rule": [
+    {
+      "condition": "(equals(tecnicarealizzazione, \"Live action\"))",
+      "boost": 1,
+      "type": "I2I",
+      "_id": "BV4P03I69",
+      "match": "Animazione",
+      "phrase": false,
+      "conditionRaw": {
+        "and": [
+          {
+            "id": "kuqamvnw_E",
+            "operator": "equals",
+            "values": [
+              {
+                "value": "tecnicarealizzazione",
+                "type": "metadata"
+              },
+              {
+                "value": "\"Live action\"",
+                "type": "freeText"
+              }
+            ]
+          }
+        ]
+      },
+      "field": "tecnicarealizzazione",
+      "fieldDBType": "keyword",
+      "queryType": "match",
+      "value": "Animazione",
+      "valueType": "string",
+      "API": "V2",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "field": "tecnicarealizzazione",
+  "metadata": {
+    "content": true
+  },
+  "scheduled": false,
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "_UJtujmOS",
+          "ek22t7eOE",
+          "uPK9cU2MwQ",
+          "KrplYijM4",
+          "mkgdGBb51b",
+          "SGD1LQ9Mj",
+          "UhRmAOyNS",
+          "KLRC8NR6Z",
+          "hzT5G0sYG",
+          "hpyoLcJCQ",
+          "MH1tGzFfW",
+          "rlrVLabqSl",
+          "PGHHPIFHQ"
+        ]
+      }
+    ]
+  },
+  "id": "guv9d2IRj",
+  "version": 2,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-03-29T16:06:00.351Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 1,
+          "items": [
+            {
+              "id": "_UJtujmOS",
+              "type": "queries",
+              "title": "Query Similar Cinema"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 1,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "scheduling": [],
+  "schedulingMap": []
+}

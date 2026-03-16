@@ -1,0 +1,32 @@
+{
+  "type": "text",
+  "contentType": "video",
+  "realm": "content",
+  "elements": [
+    "PVOD - Cinema a casa tua",
+    "Noleggio Prima Finestra TVOD"
+  ],
+  "title": "List etichette editoriali PVOD e Prima Finestra TVOD",
+  "description": "",
+  "id": "qzTxonk3H",
+  "version": 5,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-05-20T13:46:32.671Z"
+  },
+  "refs": {
+    "belongs": []
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  }
+}

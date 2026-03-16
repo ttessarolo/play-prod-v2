@@ -1,0 +1,112 @@
+{
+  "title": "Rule  Anno Produzione over 2020",
+  "description": "",
+  "contentType": "video",
+  "clauses": [
+    "filter",
+    "boost"
+  ],
+  "rule": [
+    {
+      "greaterOperator": "gte",
+      "API": "V2",
+      "condition": "*",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "I2I",
+      "value": "2020",
+      "valueType": "freeText",
+      "queryType": "greaterValue",
+      "field": "annoproduzione",
+      "fieldDBType": "date",
+      "_id": "NIWh2k5VC"
+    }
+  ],
+  "field": "annoproduzione",
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "Bd_D1xwYT",
+          "jO1QhHhsaX",
+          "RASMXpoN0"
+        ]
+      }
+    ]
+  },
+  "id": "BWeiHNstQ",
+  "version": 3,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-05-13T16:27:30.216Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 5,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 5,
+          "items": [
+            {
+              "id": "M9xhdzkJvY",
+              "type": "queries",
+              "title": "Query Film over 2015"
+            },
+            {
+              "id": "zWYdI9xZd",
+              "type": "queries",
+              "title": "Query Generi per Parametri Film"
+            },
+            {
+              "id": "VXeQD5L8kq",
+              "type": "queries",
+              "title": "Query Enabler Film over 2015"
+            },
+            {
+              "id": "c_R2PteO7",
+              "type": "queries",
+              "title": "INF Film di Animazione"
+            },
+            {
+              "id": "IUd_q_ixKj",
+              "type": "queries",
+              "title": "INF Film Family"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 1,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": [],
+  "realm": "content"
+}

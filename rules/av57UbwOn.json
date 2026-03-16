@@ -1,0 +1,94 @@
+{
+  "title": "Rule Anno Produzione under 2014",
+  "description": "",
+  "contentType": "video",
+  "clauses": [
+    "filter",
+    "boost"
+  ],
+  "rule": [
+    {
+      "lessOperator": "lte",
+      "API": "V2",
+      "condition": "*",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "I2I",
+      "value": "2014-01-01T14:02:12.972Z",
+      "valueType": "date",
+      "queryType": "lessValue",
+      "field": "annoproduzione",
+      "fieldDBType": "date",
+      "_id": "B1xY2tUCky"
+    }
+  ],
+  "field": "annoproduzione",
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "Hx2MoUuC4"
+        ]
+      }
+    ]
+  },
+  "id": "av57UbwOn",
+  "version": 4,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2024-05-28T13:04:14.509Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 1,
+          "items": [
+            {
+              "id": "Hx2MoUuC4",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  }
+}

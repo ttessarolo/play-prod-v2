@@ -1,0 +1,347 @@
+{
+  "results": {
+    "min": 0,
+    "flatAllBlocks": true,
+    "fallbackBlockId": "P0csRsOt7",
+    "max": 30,
+    "deduplicateFlattedResults": true
+  },
+  "blocks": [
+    {
+      "_id": "oO5zG4yOI8",
+      "condition": "(contains(title, \"Harry Potter\") || contains(title, \"Animali fantastici\"))",
+      "title": "Harry Potter Film successivo",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 10,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true
+      },
+      "queryId": "jwTBGzq_6I",
+      "conditionRaw": {
+        "or": [
+          {
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "title"
+              },
+              {
+                "value": "\"Harry Potter\"",
+                "type": "string"
+              }
+            ],
+            "id": "wjS6KEZp9H"
+          },
+          {
+            "id": "y-3SvMVJ4",
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "title"
+              },
+              {
+                "value": "\"Animali fantastici\"",
+                "type": "string"
+              }
+            ]
+          }
+        ]
+      },
+      "scheduled": false,
+      "scheduling": [],
+      "metadata": {
+        "content": true
+      }
+    },
+    {
+      "_id": "NkTNTXOna",
+      "condition": "(contains(title, \"Harry Potter\") || contains(title, \"Animali fantastici\"))",
+      "title": "Harry Potter Tutti i film",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 10,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true
+      },
+      "queryId": "WoWB_ho2K",
+      "metadata": {
+        "content": true
+      },
+      "conditionRaw": {
+        "or": [
+          {
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "title"
+              },
+              {
+                "value": "\"Harry Potter\"",
+                "type": "string"
+              }
+            ],
+            "id": "wjS6KEZp9H"
+          },
+          {
+            "id": "y-3SvMVJ4",
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "title"
+              },
+              {
+                "value": "\"Animali fantastici\"",
+                "type": "string"
+              }
+            ]
+          }
+        ]
+      },
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "_id": "sC0xe7ann",
+      "condition": "(equals(editorial_type, \"Trailer\"))",
+      "title": "Similar per Trailer",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 30,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true
+      },
+      "queryId": "aIek_pwCv",
+      "metadata": {
+        "content": true
+      },
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "equals",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "editorial_type"
+              },
+              {
+                "value": "\"Trailer\"",
+                "type": "string"
+              }
+            ],
+            "id": "YtaKi1pB6y"
+          }
+        ]
+      },
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "_id": "oYvAd08tKy",
+      "condition": "*",
+      "title": "INF Similar Cinema",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 30,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "fallbackBlockId": "P0csRsOt7",
+        "skipOnEmpty": true
+      },
+      "queryId": "l4aaD5uVWs",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": [
+              {
+                "type": "metadata",
+                "value": ""
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ],
+            "id": "Hnx65Vy8YX"
+          }
+        ]
+      },
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "title": "INF Similar Cinema",
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "realm": "content",
+  "refs": {
+    "require": [
+      {
+        "type": "queries",
+        "items": [
+          "jwTBGzq_6I",
+          "WoWB_ho2K",
+          "aIek_pwCv",
+          "l4aaD5uVWs"
+        ]
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "P0csRsOt7"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": [
+          "eOaXizx_"
+        ]
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "ziKOJXLlU"
+        ]
+      }
+    ]
+  },
+  "id": "VLpBOAKQIo",
+  "version": 17,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-12-03T14:15:25.459Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "pages",
+          "count": 1,
+          "items": [
+            {
+              "variantId": "ziKOJXLlU",
+              "propertyId": "zlqQNxLcGh",
+              "propertyTitle": "",
+              "endpointId": "xu2fLgL1v",
+              "endpointTitle": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 6,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 4,
+          "items": [
+            {
+              "id": "jwTBGzq_6I",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "WoWB_ho2K",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "aIek_pwCv",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "l4aaD5uVWs",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "P0csRsOt7",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 1,
+          "items": [
+            {
+              "id": "eOaXizx_",
+              "type": "responseFields",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": []
+}

@@ -1,0 +1,355 @@
+{
+  "refs": {
+    "require": [
+      {
+        "type": "queries",
+        "items": [
+          "OZ38X0bIg",
+          "OgvJP6sKX",
+          "toSpu6fdu",
+          "Fey8TGWHzd",
+          "Ctw5PvR1Gw"
+        ]
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "tKAnOWY36H"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": [
+          "LBxQrHpqX",
+          "eOaXizx_"
+        ]
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "uUVSRsHfy"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "pages",
+          "count": 1,
+          "items": [
+            {
+              "variantId": "uUVSRsHfy",
+              "propertyId": "zlqQNxLcGh",
+              "propertyTitle": "",
+              "endpointId": "JRvbVODfI2",
+              "endpointTitle": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 8,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 5,
+          "items": [
+            {
+              "id": "OZ38X0bIg",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "OgvJP6sKX",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "toSpu6fdu",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "Fey8TGWHzd",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "Ctw5PvR1Gw",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "tKAnOWY36H",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 2,
+          "items": [
+            {
+              "id": "LBxQrHpqX",
+              "type": "responseFields",
+              "title": ""
+            },
+            {
+              "id": "eOaXizx_",
+              "type": "responseFields",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "results": {
+    "flatAllBlocks": true,
+    "min": 0,
+    "fallbackBlockId": "tKAnOWY36H",
+    "max": 24,
+    "deduplicateFlattedResults": true
+  },
+  "blocks": [
+    {
+      "_id": "AtWf3yoc5l",
+      "condition": "(contains(context_features_subscription_channels, \"Infinity\"))",
+      "title": "Item link Infinity",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 1,
+        "min": 0,
+        "contentType": "link",
+        "responseFieldsId": "LBxQrHpqX",
+        "fallbackBlockId": "tKAnOWY36H",
+        "skipOnEmpty": true
+      },
+      "queryId": "OZ38X0bIg",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "context_features_subscription_channels"
+              },
+              {
+                "value": "\"Infinity\"",
+                "type": "string"
+              }
+            ],
+            "id": "7mDoXV413o"
+          }
+        ]
+      },
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "_id": "KIC_zagDc",
+      "condition": "(contains(context_features_subscription_channels, \"Infinity\"))",
+      "title": "Film più visti",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 5,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true
+      },
+      "queryId": "OgvJP6sKX",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "context_features_subscription_channels"
+              },
+              {
+                "value": "\"Infinity\"",
+                "type": "string"
+              }
+            ],
+            "id": "7mDoXV413o"
+          }
+        ]
+      },
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "_id": "bKhddktDk",
+      "condition": "(contains(context_features_subscription_channels, \"Infinity\"))",
+      "title": "Serie più viste",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 4,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true
+      },
+      "queryId": "toSpu6fdu",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "context_features_subscription_channels"
+              },
+              {
+                "value": "\"Infinity\"",
+                "type": "string"
+              }
+            ],
+            "id": "7mDoXV413o"
+          }
+        ]
+      },
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "_id": "SgpAhrEuR",
+      "condition": "(contains(context_features_subscription_channels, \"Infinity\"))",
+      "title": "Ultimi arrivi",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 9,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true
+      },
+      "queryId": "Fey8TGWHzd",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "context_features_subscription_channels"
+              },
+              {
+                "value": "\"Infinity\"",
+                "type": "string"
+              }
+            ],
+            "id": "7mDoXV413o"
+          }
+        ]
+      },
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "_id": "egegwJN3bP",
+      "condition": "(contains(context_features_subscription_channels, \"Infinity\"))",
+      "title": "Inf Blockbuster",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 20,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true,
+        "shuffleItems": true
+      },
+      "queryId": "Ctw5PvR1Gw",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "context_features_subscription_channels"
+              },
+              {
+                "value": "\"Infinity\"",
+                "type": "string"
+              }
+            ],
+            "id": "7mDoXV413o"
+          }
+        ]
+      },
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "title": "Block I più visti di Infinity in Homepage Pay",
+  "description": "",
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "realm": "content",
+  "id": "r5OMhn9D3",
+  "version": 5,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2024-05-02T12:54:22.059Z"
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "title": "Rule Fingerprint similar to User Condizionale",
+  "description": "Raccomandati per te",
+  "contentType": "video",
+  "clauses": [
+    "include",
+    "filter",
+    "boost"
+  ],
+  "rule": [
+    {
+      "condition": "(!isEmpty(video_historical_fingerprint))",
+      "boost": 1,
+      "type": "I2I",
+      "_id": "nkuBvQkmV",
+      "likeFromMetadata": "video_historical_fingerprint",
+      "maxTerms": 200,
+      "minTermFreq": 1,
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "!isEmpty",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "video_historical_fingerprint"
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ],
+            "id": "f1LRQr5o35"
+          }
+        ]
+      },
+      "field": "fingerprint",
+      "fieldDBType": "text",
+      "queryType": "like",
+      "value": "video_historical_fingerprint",
+      "valueType": "metadata",
+      "API": "V2",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "field": "fingerprint",
+  "metadata": {
+    "user": {
+      "required": true,
+      "userContentType": "user"
+    }
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "ZqCof5t6v",
+          "rAoCaKtAs",
+          "Jt4Mp8mym",
+          "N8t6D3FZ4",
+          "UCdpGCh1t",
+          "QjDChd7Me6",
+          "fMmnBcAQu",
+          "wEB_e4Cs3",
+          "P5zLtqY7y",
+          "BWgEuhfRp",
+          "aXM_s_5Uh",
+          "kiw8qXocC",
+          "OGVDkyHGae"
+        ]
+      }
+    ]
+  },
+  "id": "eDSlXBQn1",
+  "version": 4,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2022-03-17T11:26:08.042Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 5,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 5,
+          "items": [
+            {
+              "id": "ZqCof5t6v",
+              "type": "queries",
+              "title": "INF Generi per Parametri Film Blocco 1"
+            },
+            {
+              "id": "rAoCaKtAs",
+              "type": "queries",
+              "title": "INF Generi per Parametri Film Blocco 2"
+            },
+            {
+              "id": "Jt4Mp8mym",
+              "type": "queries",
+              "title": "INF Multiple block Generi per Parametri Film"
+            },
+            {
+              "id": "N8t6D3FZ4",
+              "type": "queries",
+              "title": "INF Multiple block Genere Primario per Parametri Film"
+            },
+            {
+              "id": "UCdpGCh1t",
+              "type": "queries",
+              "title": "INF Multiple block Generi per Parametri Film Random"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "searchMetadata": [
+    "request",
+    "user"
+  ],
+  "includedMetadata": [
+    "user"
+  ],
+  "realm": "content",
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": []
+}

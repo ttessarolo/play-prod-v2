@@ -1,0 +1,114 @@
+{
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "BsSouDdUo"
+    },
+    {
+      "id": "sm7vjVeXV"
+    }
+  ],
+  "exclude": [
+    {
+      "id": "aNHO5E_ne"
+    }
+  ],
+  "include": [],
+  "boost": [],
+  "order": [
+    {
+      "id": "kyf9nAWhM"
+    }
+  ],
+  "realm": "content",
+  "title": "Query Calendario Avvento",
+  "description": "",
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "BsSouDdUo",
+          "sm7vjVeXV",
+          "aNHO5E_ne",
+          "kyf9nAWhM"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "FeIJ0TZ8q"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-12-01T11:30:08.199Z"
+  },
+  "id": "Sb9MD73HU",
+  "version": 3,
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "FeIJ0TZ8q",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 3,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 3,
+          "items": [
+            {
+              "id": "BsSouDdUo",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "aNHO5E_ne",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "kyf9nAWhM",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "metadataOverrides": {}
+}

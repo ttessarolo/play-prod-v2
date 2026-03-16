@@ -1,0 +1,300 @@
+{
+  "id": "uF8fwo1mt",
+  "propertyId": "zlqQNxLcGh",
+  "title": "Inf Multiple Block SerieTv Fiction Personalizzata",
+  "description": "Please Edit description for Page \"Variant 1\"",
+  "enabledPagesId": [
+    "TAHCjN9hxX"
+  ],
+  "isPage": true,
+  "blocks": [
+    {
+      "id": "TNmPYAKunQ",
+      "condition": "*",
+      "title": "Avventura e Mystery",
+      "type": "nested",
+      "layout": {
+        "i": "TNmPYAKunQ",
+        "x": 0,
+        "y": 3,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "kE99BaJ2R",
+      "viewAll": {
+        "siteMapped": false,
+        "id": "ihiCAj9Qp",
+        "reference": "viewAllPerson"
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Avventura,Mystery,Fantasy,Horror,Supereroi"
+        }
+      }
+    },
+    {
+      "id": "KIm6DXH2CH",
+      "condition": "*",
+      "title": "Crime e Action",
+      "type": "nested",
+      "layout": {
+        "i": "KIm6DXH2CH",
+        "w": 12,
+        "h": 30
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "kE99BaJ2R",
+      "viewAll": {
+        "id": "ihiCAj9Qp",
+        "reference": "viewAllPerson"
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Crime,Thriller,Azione"
+        }
+      }
+    },
+    {
+      "id": "F3F6xxGbl",
+      "condition": "*",
+      "title": "Comedy",
+      "type": "nested",
+      "layout": {
+        "i": "F3F6xxGbl",
+        "w": 12,
+        "h": 30
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "kE99BaJ2R",
+      "viewAll": {
+        "id": "ihiCAj9Qp",
+        "reference": "viewAllPerson"
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Commedia,Comico,Sit Com"
+        }
+      }
+    },
+    {
+      "id": "s3v1y_i6Xq",
+      "condition": "*",
+      "title": "Drama",
+      "type": "nested",
+      "layout": {
+        "i": "s3v1y_i6Xq",
+        "x": 0,
+        "y": 4,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "kE99BaJ2R",
+      "viewAll": {
+        "id": "ihiCAj9Qp",
+        "reference": "viewAllPerson"
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Drammatico"
+        }
+      }
+    }
+  ],
+  "version": 25,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2023-03-29T09:11:18.817Z"
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "queries",
+        "items": []
+      },
+      {
+        "type": "endpoints",
+        "items": [
+          "ihiCAj9Qp"
+        ]
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "Rc1YEkVxO",
+          "kE99BaJ2R"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "endpoints",
+        "items": [
+          "TAHCjN9hxX"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "TAHCjN9hxX",
+              "type": "endpoints",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 3,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "ihiCAj9Qp",
+              "type": "endpoints",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "blocks",
+          "count": 2,
+          "items": [
+            {
+              "id": "Rc1YEkVxO",
+              "type": "blocks"
+            },
+            {
+              "id": "kE99BaJ2R",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "layout": [
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 30,
+      "i": "TNmPYAKunQ",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 60,
+      "i": "KIm6DXH2CH",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 90,
+      "i": "F3F6xxGbl",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 120,
+      "i": "s3v1y_i6Xq",
+      "moved": false,
+      "static": false
+    }
+  ],
+  "results": {
+    "smartOrderBlocks": true,
+    "contentType": "video",
+    "userContentType": "user",
+    "event": "watched",
+    "perUserBasisType": "video_historical_fingerprint",
+    "fallbackBlockId": "Rc1YEkVxO",
+    "fullSubstituteFallback": true
+  },
+  "fullSubstituteFallback": true
+}

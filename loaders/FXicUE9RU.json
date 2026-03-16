@@ -1,0 +1,46 @@
+{
+  "title": "PLAY:VIDEO:CONTENT:SCHEDULE",
+  "description": "Loader for Video Content Patch Scheduled Updates",
+  "queue": "play-prod-v2:video_content:schedule",
+  "index": "play-prod-v2_video_content_v3",
+  "idField": "video_content_id",
+  "tokens": [
+    "H4sIAAAAAAAAA6tWyslMUbJScovITA51tQwKVdJRKskrAYoU5CRW6hYU5afolhkBBfPL84CCHq4BHq7BIaHBQJHUigKgiJGBsbGugaWukVGIgYGVqbGVqZmeuZl5FFBBYjLQnGilciAzBYhLlWJrAdawCR9vAAAA"
+  ],
+  "active": true,
+  "refs": {
+    "require": [
+      {
+        "type": "labels",
+        "items": [
+          "wvWb0c63u"
+        ]
+      }
+    ],
+    "belongs": []
+  },
+  "id": "FXicUE9RU",
+  "version": 9,
+  "lastSaved": {
+    "username": "ttessarolo",
+    "date": "2025-03-21T10:43:25.095Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  },
+  "retry": {
+    "active": true,
+    "token": "H4sIAAAAAAAAA6tWyslMUbJScovITA51tQwKVdJRKskrAYoU5CRW6hYU5afolhkBBfPL84CCjkGuwUBOakUBkGNsYGCga2ika2wQYmRsZWAARHpAoSiggsRkoBHRSuVAZgoQlwJxkVJsLQA7ulwRbgAAAA%3D%3D"
+  },
+  "patcher": true,
+  "label": "ddQongIHWN"
+}

@@ -1,0 +1,30 @@
+{
+  "title": "Lista Fantaghiro",
+  "description": "",
+  "contentType": "video",
+  "type": "contentId",
+  "elements": [
+    "F002166303000101",
+    "F005805503000101",
+    "F005929803000101",
+    "F006223202000101",
+    "F007321702000101",
+    "F006684002000101"
+  ],
+  "id": "iH4_y_zrt",
+  "version": 1,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-01-26T16:19:45.640Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "rules",
+        "items": [
+          "aokNclHtx"
+        ]
+      }
+    ]
+  }
+}

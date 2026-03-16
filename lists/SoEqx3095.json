@@ -1,0 +1,31 @@
+{
+  "type": "contentId",
+  "contentType": "video",
+  "realm": "content",
+  "metadataField": "subbrand_id",
+  "elements": [
+    "100019030",
+    "100019031",
+    "100019032",
+    "100019033",
+    "100019034"
+  ],
+  "title": "List Subbrand Id Partite intere Champions League",
+  "description": "Lista di tutte le partite intere di UEFA Champions League 2022-2023",
+  "id": "SoEqx3095",
+  "version": 1,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2022-09-13T08:49:21.198Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "rules",
+        "items": [
+          "w_OokZaIy"
+        ]
+      }
+    ]
+  }
+}

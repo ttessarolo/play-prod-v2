@@ -1,0 +1,257 @@
+{
+  "id": "Ri_NBG1UF",
+  "propertyId": "zlqQNxLcGh",
+  "title": "Default",
+  "description": "Please Edit description for Page \"Default\"",
+  "enabledPagesId": [
+    "dnKsEIfIF"
+  ],
+  "isPage": true,
+  "blocks": [
+    {
+      "id": "Ai61B8Eq8a",
+      "condition": "*",
+      "title": "Guarda anche",
+      "type": "nested",
+      "layout": {
+        "i": "Ai61B8Eq8a",
+        "w": 12,
+        "h": 30
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "PovJt3Vzm",
+      "metadataUI": {
+        "attributes": {
+          "template": "KEYFRAME"
+        }
+      }
+    },
+    {
+      "id": "lsDFuw9og",
+      "condition": "*",
+      "title": "Film più visti 24h",
+      "type": "nested",
+      "layout": {
+        "i": "lsDFuw9og",
+        "x": 0,
+        "y": 1,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "xo1OyaXTN",
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        }
+      }
+    }
+  ],
+  "version": 3,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2026-02-12T14:26:48.725Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "endpoints",
+        "items": [
+          "dnKsEIfIF"
+        ]
+      }
+    ],
+    "require": [
+      {
+        "type": "queries",
+        "items": []
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "PovJt3Vzm",
+          "xo1OyaXTN"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "dnKsEIfIF",
+              "type": "endpoints",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 2,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 2,
+          "items": [
+            {
+              "id": "PovJt3Vzm",
+              "type": "blocks"
+            },
+            {
+              "id": "xo1OyaXTN",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "layout": [
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 0,
+      "i": "Ai61B8Eq8a",
+      "moved": false,
+      "static": false
+    },
+    {
+      "i": "lsDFuw9og",
+      "x": 0,
+      "y": 1,
+      "w": 12,
+      "h": 30,
+      "blocks": []
+    }
+  ],
+  "uiParams": {
+    "preview": {
+      "uiParams": {
+        "current": "User Logged #2",
+        "currentIndex": 2,
+        "sets": [
+          {
+            "title": "Anonymous",
+            "params": {
+              "contentId": {
+                "value": "F010791601000102",
+                "active": true
+              },
+              "userId": {
+                "value": "1f51d5e9f09e4d349fa3af349e1cdac4",
+                "active": false
+              },
+              "deviceId": {
+                "value": "ARES-CC",
+                "active": true
+              }
+            }
+          },
+          {
+            "title": "User Logged #1",
+            "params": {
+              "contentId": {
+                "value": "F010791601000102",
+                "active": true
+              },
+              "userId": {
+                "value": "1f51d5e9f09e4d349fa3af349e1cdac4",
+                "active": true
+              },
+              "deviceId": {
+                "value": "ARES-CC",
+                "active": true
+              }
+            }
+          },
+          {
+            "title": "User Logged #2",
+            "params": {
+              "contentId": {
+                "value": "F313696501000201",
+                "active": true
+              },
+              "userId": {
+                "value": "36e9cfd5ec474972ba1a82d19696346c",
+                "active": true
+              },
+              "deviceId": {
+                "value": "ARES-CC",
+                "active": true
+              }
+            }
+          }
+        ]
+      },
+      "currentParams": {
+        "contentId": "F313696501000201",
+        "userId": "36e9cfd5ec474972ba1a82d19696346c",
+        "deviceId": "ARES-CC"
+      }
+    }
+  }
+}

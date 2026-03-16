@@ -1,0 +1,79 @@
+{
+  "title": "Rule Etichetta editoriale PVOD Cinema a casa tua",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "I2I",
+      "value": "PVOD*",
+      "valueType": "freeText",
+      "queryType": "contains",
+      "field": "etichetteEditoriali",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "HYcLgUrHhA"
+    }
+  ],
+  "clauses": [
+    "filter"
+  ],
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "wuJsw2gkz"
+        ]
+      }
+    ]
+  },
+  "id": "RhyGh4zB9u",
+  "version": 15,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-03-31T17:37:31.371Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 1,
+          "items": [
+            {
+              "id": "wuJsw2gkz",
+              "type": "queries",
+              "title": "TVOD Il cinema a casa tua"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 1,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "content": false
+  }
+}

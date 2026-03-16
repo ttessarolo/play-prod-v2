@@ -1,0 +1,52 @@
+{
+  "title": "Rule Tipologia Channel Serie",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "FhV7qupjo",
+      "valueType": "list",
+      "queryType": "listTermsId",
+      "field": "tipologia",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "fpXx26aY2w"
+    }
+  ],
+  "clauses": [
+    "filter"
+  ],
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "QU1_KH19O",
+          "KnjGSCyiX",
+          "lqIeDJkxU",
+          "XCTJ5Ut99",
+          "rLEr8BHuw",
+          "KrpLhTmP9",
+          "jdnnllcxm"
+        ]
+      }
+    ]
+  },
+  "id": "C3q9HsDkx",
+  "version": 1,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-06-29T19:04:06.277Z"
+  }
+}

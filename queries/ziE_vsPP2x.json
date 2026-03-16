@@ -1,0 +1,184 @@
+{
+  "title": "Med Ita Fiction e Serie TV del momento Blocco 3",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "gxhHRBwU9"
+    },
+    {
+      "id": "M2X3Atski"
+    },
+    {
+      "id": "KdgZfZ_wm"
+    },
+    {
+      "id": "XrQIQriQGR"
+    },
+    {
+      "id": "gQuX7uK3vM"
+    }
+  ],
+  "exclude": [
+    {
+      "id": "elT4DxH4Cc"
+    },
+    {
+      "id": "NfU7ovdXbm"
+    }
+  ],
+  "include": [],
+  "boost": [],
+  "order": [
+    {
+      "id": "tMgBtvtBy"
+    }
+  ],
+  "realm": "content",
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "gxhHRBwU9",
+          "M2X3Atski",
+          "KdgZfZ_wm",
+          "XrQIQriQGR",
+          "gQuX7uK3vM",
+          "elT4DxH4Cc",
+          "NfU7ovdXbm",
+          "tMgBtvtBy"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "ztWfmA_PI",
+          "KhQ3IziFJ",
+          "ZRorAbL96Q"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": []
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "id": "ziE_vsPP2x",
+  "version": 22,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2023-04-11T09:33:49.489Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "QaoCUQxDs",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 10,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 7,
+          "items": [
+            {
+              "id": "gxhHRBwU9",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "M2X3Atski",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "KdgZfZ_wm",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "XrQIQriQGR",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "gQuX7uK3vM",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "elT4DxH4Cc",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "tMgBtvtBy",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 3,
+          "items": [
+            {
+              "id": "ztWfmA_PI",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "KhQ3IziFJ",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "ZRorAbL96Q",
+              "type": "rulesPresets",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "presets": {
+    "filter": [
+      {
+        "id": "ztWfmA_PI"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "KhQ3IziFJ"
+      },
+      {
+        "id": "ZRorAbL96Q"
+      }
+    ]
+  },
+  "metadataOverrides": {},
+  "uselessMultiplier": false
+}

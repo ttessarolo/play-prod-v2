@@ -1,0 +1,629 @@
+{
+  "id": "wUc78StbQ",
+  "propertyId": "zlqQNxLcGh",
+  "title": "TVOD Multiple Block",
+  "description": "Please Edit description for Page \"Default\"",
+  "enabledPagesId": [
+    "YZ8Gk2fzJ"
+  ],
+  "isPage": true,
+  "blocks": [
+    {
+      "id": "O489RuFKz",
+      "condition": "*",
+      "title": "Per tutta la famiglia",
+      "type": "nested",
+      "layout": {
+        "i": "O489RuFKz",
+        "x": 0,
+        "y": 1,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true,
+        "max": 30
+      },
+      "blockId": "_xKCjqOWX",
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Family,Animazione"
+        }
+      },
+      "viewAll": {
+        "id": "ihiCAj9Qp",
+        "reference": "viewAllPerson"
+      }
+    },
+    {
+      "id": "BaALiw12C",
+      "condition": "*",
+      "title": "Azione",
+      "type": "nested",
+      "layout": {
+        "i": "BaALiw12C",
+        "x": 0,
+        "y": 2,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true,
+        "max": 30
+      },
+      "blockId": "_xKCjqOWX",
+      "viewAll": {
+        "id": "ihiCAj9Qp",
+        "reference": "viewAllPerson"
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Azione"
+        }
+      }
+    },
+    {
+      "id": "fDWHZ9GChx",
+      "condition": "*",
+      "title": "Perché hai visto {title}",
+      "type": "nested",
+      "layout": {
+        "i": "fDWHZ9GChx",
+        "w": 12,
+        "h": 30,
+        "isDraggable": false
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "EuOtAwNy8",
+      "viewAll": {
+        "id": "ihiCAj9Qp",
+        "reference": "viewAllPerson"
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        }
+      },
+      "pinned": true
+    },
+    {
+      "id": "iLOx1eJRR",
+      "condition": "*",
+      "title": "Commedia",
+      "type": "nested",
+      "layout": {
+        "i": "iLOx1eJRR",
+        "x": 0,
+        "y": 3,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true,
+        "max": 30
+      },
+      "blockId": "_xKCjqOWX",
+      "viewAll": {
+        "id": "ihiCAj9Qp",
+        "reference": "viewAllPerson"
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Commedia,Comico"
+        }
+      }
+    },
+    {
+      "id": "HxQxeazFW",
+      "condition": "*",
+      "title": "Drammatico",
+      "type": "nested",
+      "layout": {
+        "i": "HxQxeazFW",
+        "x": 0,
+        "y": 4,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true,
+        "max": 30
+      },
+      "blockId": "_xKCjqOWX",
+      "viewAll": {
+        "id": "ihiCAj9Qp",
+        "reference": "viewAllPerson"
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Drammatico"
+        }
+      }
+    },
+    {
+      "id": "TBQdl_eRZ",
+      "condition": "*",
+      "title": "Horror",
+      "type": "nested",
+      "layout": {
+        "i": "TBQdl_eRZ",
+        "x": 0,
+        "y": 5,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true,
+        "max": 30
+      },
+      "blockId": "_xKCjqOWX",
+      "viewAll": {
+        "id": "ihiCAj9Qp",
+        "reference": "viewAllPerson"
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Horror"
+        }
+      }
+    },
+    {
+      "id": "jGsUKhUCx",
+      "condition": "*",
+      "title": "Thriller",
+      "type": "nested",
+      "layout": {
+        "i": "jGsUKhUCx",
+        "x": 0,
+        "y": 6,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true,
+        "max": 30
+      },
+      "blockId": "_xKCjqOWX",
+      "viewAll": {
+        "id": "ihiCAj9Qp",
+        "reference": "viewAllPerson"
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Thriller"
+        }
+      }
+    },
+    {
+      "id": "JugdsMnoq1",
+      "condition": "*",
+      "title": "Fantascienza",
+      "type": "nested",
+      "layout": {
+        "i": "JugdsMnoq1",
+        "x": 0,
+        "y": 7,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true,
+        "max": 30
+      },
+      "blockId": "_xKCjqOWX",
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Fantascienza"
+        }
+      },
+      "viewAll": {
+        "id": "ihiCAj9Qp",
+        "reference": "viewAllPerson"
+      }
+    },
+    {
+      "id": "jcgRf3zbY",
+      "condition": "*",
+      "title": "Avventura",
+      "type": "nested",
+      "layout": {
+        "i": "jcgRf3zbY",
+        "x": 0,
+        "y": 8,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true,
+        "max": 30
+      },
+      "blockId": "_xKCjqOWX",
+      "viewAll": {
+        "id": "ihiCAj9Qp",
+        "reference": "viewAllPerson"
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Avventura"
+        }
+      }
+    },
+    {
+      "id": "IStTs5J8pT",
+      "condition": "*",
+      "title": "Biografico",
+      "type": "nested",
+      "layout": {
+        "i": "IStTs5J8pT",
+        "x": 0,
+        "y": 9,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true,
+        "max": 30
+      },
+      "blockId": "_xKCjqOWX",
+      "viewAll": {
+        "id": "ihiCAj9Qp",
+        "reference": "viewAllPerson"
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Biografico"
+        }
+      }
+    },
+    {
+      "id": "cysjSbllt",
+      "condition": "*",
+      "title": "Crime",
+      "type": "nested",
+      "layout": {
+        "i": "cysjSbllt",
+        "x": 0,
+        "y": 10,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true,
+        "max": 30
+      },
+      "blockId": "_xKCjqOWX",
+      "viewAll": {
+        "id": "ihiCAj9Qp",
+        "reference": "viewAllPerson"
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Crime"
+        }
+      }
+    },
+    {
+      "id": "NyW6YC2Aho",
+      "condition": "*",
+      "title": "Sportivo",
+      "type": "nested",
+      "layout": {
+        "i": "NyW6YC2Aho",
+        "x": 0,
+        "y": 11,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true,
+        "max": 30
+      },
+      "blockId": "_xKCjqOWX",
+      "viewAll": {
+        "id": "ihiCAj9Qp",
+        "reference": "viewAllPerson"
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Sportivo"
+        }
+      }
+    }
+  ],
+  "version": 25,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2023-08-24T15:03:02.714Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "endpoints",
+        "items": [
+          "YZ8Gk2fzJ"
+        ]
+      }
+    ],
+    "require": [
+      {
+        "type": "queries",
+        "items": []
+      },
+      {
+        "type": "endpoints",
+        "items": [
+          "ihiCAj9Qp"
+        ]
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "Rc1YEkVxO",
+          "_xKCjqOWX",
+          "EuOtAwNy8"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "YZ8Gk2fzJ",
+              "type": "endpoints",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 4,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "ihiCAj9Qp",
+              "type": "endpoints",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "blocks",
+          "count": 3,
+          "items": [
+            {
+              "id": "Rc1YEkVxO",
+              "type": "blocks"
+            },
+            {
+              "id": "_xKCjqOWX",
+              "type": "blocks"
+            },
+            {
+              "id": "EuOtAwNy8",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "layout": [
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 0,
+      "i": "O489RuFKz",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 31,
+      "i": "BaALiw12C",
+      "moved": true,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 60,
+      "i": "fDWHZ9GChx",
+      "moved": true,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 90,
+      "i": "iLOx1eJRR",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 120,
+      "i": "HxQxeazFW",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 150,
+      "i": "TBQdl_eRZ",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 180,
+      "i": "jGsUKhUCx",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 210,
+      "i": "JugdsMnoq1",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 240,
+      "i": "jcgRf3zbY",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 270,
+      "i": "IStTs5J8pT",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 300,
+      "i": "cysjSbllt",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 330,
+      "i": "NyW6YC2Aho",
+      "moved": false,
+      "static": false
+    }
+  ],
+  "results": {
+    "smartOrderBlocks": true,
+    "contentType": "video",
+    "userContentType": "user",
+    "event": "watched",
+    "perUserBasisType": "video_historical_fingerprint",
+    "fallbackBlockId": "Rc1YEkVxO",
+    "fullSubstituteFallback": true
+  },
+  "fullSubstituteFallback": true
+}

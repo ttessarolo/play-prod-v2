@@ -1,0 +1,98 @@
+{
+  "title": "INF Multiple Block Serie TV Fiction Prima TV Pay Anonimo",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "wfBy1paHlb"
+    },
+    {
+      "id": "M2X3Atski"
+    },
+    {
+      "id": "IA2rMeBZYW"
+    },
+    {
+      "id": "hXLkhjZvG8"
+    },
+    {
+      "id": "fknyNP0OE"
+    }
+  ],
+  "exclude": [],
+  "include": [],
+  "boost": [],
+  "order": [
+    {
+      "id": "zmV_L7QRr"
+    }
+  ],
+  "realm": "content",
+  "presets": {
+    "filter": [
+      {
+        "id": "ur0WldwQk"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "KhQ3IziFJ"
+      }
+    ]
+  },
+  "general": {
+    "mustOperator": "or",
+    "tieBreaker": 0.9,
+    "minimumShouldMatch": "1%",
+    "resultsMultiplier": 1
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "wfBy1paHlb",
+          "M2X3Atski",
+          "IA2rMeBZYW",
+          "hXLkhjZvG8",
+          "fknyNP0OE",
+          "zmV_L7QRr"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "ur0WldwQk",
+          "KhQ3IziFJ"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "SkQgSkoMT"
+        ]
+      }
+    ]
+  },
+  "id": "xnz0Td37UZ",
+  "version": 4,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2022-11-23T15:13:08.153Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  },
+  "metadataOverrides": {}
+}

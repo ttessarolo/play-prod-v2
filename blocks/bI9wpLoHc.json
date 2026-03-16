@@ -1,0 +1,234 @@
+{
+  "results": {
+    "min": 0,
+    "flatAllBlocks": true,
+    "fallbackBlockId": "P0csRsOt7",
+    "max": 30
+  },
+  "blocks": [
+    {
+      "_id": "z7T_RryNu0",
+      "condition": "(equals(when_day_of_the_week, \"Monday\") && between(when_current_hour_and_minute, \"0001÷0200\"))",
+      "title": "Highlights Calcio",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 30,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "fallbackBlockId": "P0csRsOt7"
+      },
+      "metadata": {
+        "external": {
+          "output": "external_source"
+        },
+        "time": true
+      },
+      "queryId": "DgQplsdQu",
+      "conditionRaw": {
+        "and": [
+          {
+            "id": "sEMjwzID6",
+            "operator": "equals",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "when_day_of_the_week"
+              },
+              {
+                "value": "\"Monday\"",
+                "type": "string"
+              }
+            ]
+          },
+          {
+            "id": "NeK6_7AEg",
+            "operator": "between",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "when_current_hour_and_minute"
+              },
+              {
+                "value": "\"0001÷0200\"",
+                "type": "between"
+              }
+            ]
+          }
+        ]
+      },
+      "scheduled": true,
+      "scheduling": [
+        {
+          "id": "NeK6_7AEg",
+          "start": "0001",
+          "end": "0200"
+        }
+      ]
+    }
+  ],
+  "title": "Block Highlights Calcio Prime Time",
+  "description": "",
+  "scheduled": true,
+  "scheduling": [
+    {
+      "id": "NeK6_7AEg",
+      "start": "0001",
+      "end": "0200"
+    }
+  ],
+  "schedulingMap": [
+    [
+      0,
+      [
+        {
+          "id": "NeK6_7AEg",
+          "start": "0001",
+          "end": "0200"
+        }
+      ]
+    ]
+  ],
+  "realm": "content",
+  "refs": {
+    "require": [
+      {
+        "type": "queries",
+        "items": [
+          "DgQplsdQu"
+        ]
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "P0csRsOt7"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": [
+          "eOaXizx_"
+        ]
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "n2IQQp3B2"
+        ]
+      }
+    ]
+  },
+  "id": "bI9wpLoHc",
+  "version": 41,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-02-07T14:28:04.729Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "pages",
+          "count": 1,
+          "items": [
+            {
+              "variantId": "n2IQQp3B2",
+              "propertyId": "zlqQNxLcGh",
+              "propertyTitle": "",
+              "endpointId": "YQ0vkJ_3U",
+              "endpointTitle": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 3,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 1,
+          "items": [
+            {
+              "id": "DgQplsdQu",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "P0csRsOt7",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 1,
+          "items": [
+            {
+              "id": "eOaXizx_",
+              "type": "responseFields",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "searchMetadata": [
+    "request",
+    "external",
+    "time"
+  ],
+  "includedMetadata": [
+    "external",
+    "time"
+  ]
+}

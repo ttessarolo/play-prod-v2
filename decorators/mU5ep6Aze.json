@@ -1,0 +1,999 @@
+{
+  "title": "MPlay Universal Enricher ",
+  "description": "",
+  "language": "javascript",
+  "type": "endpoint-out",
+  "execute": "// **********************************************************\n    // @description Enrich Response with UI Metadata from Cache\n    //\n    // @param   {object} data - computed result or input payload\n    // @param   {object} $    - {tenant, paramsId, params, payload, endpointConfig}\n    // @param   {object} ctx  - opentracing context\n    // @param   {object} this - ARES\n    //\n    // @return  {object} data - data object enriched\n    // **********************************************************\n    const { tenant, params, payload, endpointConfig } = $;\n    const keys = [];\n    const ids = [];\n    const skipContentTypes = [\"link\"];\n    const idTypeMap = new Map();\n    const missingMap = new Map();\n    const typeCache = new Map();\n    const labelCache = new Map();\n    const contentIdFieldMap = new Map();\n    \n    const skipThis = this.get(payload, \"query.skipMPXDecorator\") || false;\n    const typeField = this.get(payload, \"query.decoratorTypeField\") || \"programtype\";\n    const includeMPXAdvancedStats = this.get(payload, \"query.includeMPXAdvancedStats\") || false;\n    const environment = this.get(payload, \"query.decoratorOutputEnvironment\") || \"production\";\n    const version =  this.get(payload, \"query.decoratorOutputVersion\") || \"v2\";\n    const application = this.get(payload, \"query.decoratorOutputApplication\") || \"default\";\n    const rootUrlSuffix = { commerce: \"f4lFhC\", production: \"PR1GhC\" };\n    const rootUrl = `https://feed.entertainment.tv.theplatform.eu/f/${rootUrlSuffix[environment]}/`;\n    const cacheTTL = this.get(endpointConfig,\"params.cacheConfig.cacheTTL\") || 86400;\n\n    if(skipThis) return data;\n\n    // **************************************\n    // Table for all editorialType\n    // divided by version v1 or v2\n    // **************************************\n    const endpointTable = [\n      {\n        label: \"all-programs\",\n        v1: {\n          environments: {\n            commerce: \"mst-dev-playg-all-programs\",\n            production: \"mediaset-prod-all-programs\",\n          },\n          types: new Set([\"Episode\", \"Movie\", \"Clip\", \"DigitalFirst\"]),\n          fields: {\n            default:\n              \"guid,title,description,programType,thumbnails,media.expirationDate,media.availableDate,media.publicUrl,longDescription,year,seriesId,tvSeasonEpisodeNumber,tvSeasonNumber,mediasetprogram$videoPageUrl,mediasetprogram$numberOfViews,mediasetprogram$genres,ratings,tags,mediasetprogram$duration,mediasetprogram$pageUrl,mediasetprogram$publishInfo,mediasetprogram$publishInfo_lastPublished,mediasetprogram$brandDescription,mediasetprogram$brandId,mediasetprogram$brandTitle,mediasetprogram$subBrandId,mediasetprogram$subBrandTitle,mediasetprogram$episodeId,seriesId,mediasetprogram$sourceAspectRatio,mediasetprogram$subBrandDescription\",\n          },\n        },\n        v2: {\n          environments: {\n            commerce: \"mediaset-comm-all-programs-v2\",\n            production: \"mediaset-prod-all-programs-v2\"\n          },\n          types: new Set([\"extra\",\"Episode\", \"episode\",\"Movie\",\"movie\",\"Clip\",\"clip\",\"DigitalFirst\",\"digitalfirst\"]),\n          fields: {\n            default:\n              \"id,guid,updated,title,description,programType,thumbnails,longDescription,year,seriesId,tvSeasonId,tvSeasonEpisodeNumber,tvSeasonNumber,mediasetprogram$videoPageUrl,mediasetprogram$genres,ratings,tags,mediasetprogram$duration,mediasetprogram$pageUrl,mediasetprogram$publishInfo,mediasetprogram$publishInfo_lastPublished,mediasetprogram$brandTitle,mediasetprogram$episodeId,mediasetprogram$channelsRights,mediasetprogram$countryProduction,mediasetprogram$editorialType,mediasetprogram$expirationDatePerChannelRight\",\n          },\n        },\n      },\n      {\n        label: \"all-series\",\n        v1: {\n          environments: {\n            commerce: \"mst-dev-playg-all-series\",\n            production: \"mediaset-prod-all-series\",\n          },\n          types: new Set([\"Serie\"]),\n          fields: {\n            default:\n              \"guid,title,description,programType,thumbnails,longDescription,year,tvSeasonEpisodeNumber,tvSeasonNumber,mediasetprogram$videoPageUrl,mediasetprogram$numberOfViews,mediasetprogram$genres,ratings,tags,mediasetprogram$duration,mediasetprogram$pageUrl,mediasetprogram$publishInfo,mediasetprogram$publishInfo_lastPublished,mediasetprogram$brandDescription,mediasetprogram$brandId,mediasetprogram$brandTitle,mediasetprogram$subBrandId,mediasetprogram$subBrandTitle,mediasetprogram$episodeId,seriesId,mediasetprogram$sourceAspectRatio,mediasetprogram$subBrandDescription\",\n          },\n        },\n        v2: {\n          environments: {\n            commerce: \"mediaset-comm-all-series-v2\",\n            production: \"mediaset-prod-all-series-v2\"\n          },\n          types: new Set([\"Serie\",\"series\"]),\n          fields: {\n            default:\n              \"id,guid,updated,title,description,programType,thumbnails,longDescription,ratings,tags,year,mediasetprogram$channelsRights,mediasetprogram$countryProduction,mediasetprogram$currentSeason,mediasetprogram$genres,mediasetprogram$pageUrl,seriesTvSeasons,availableTvSeasonIds\",\n          },\n        },\n      },\n      {\n        label: \"tv-seasons\",\n        v1: {\n          environments: {\n            commerce: \"mst-dev-playg-all-brands\",\n            production: \"mediaset-prod-all-brands\",\n          },\n          endpointSuffix: \"&byTags=contentgroup:Brand&byCustomValue=\",\n          contentIdField: \"id_brand\",\n          idsDecorator: (ids) => `{brandId}{${ids.join(\"|\")}}`,\n          types: new Set([\"TVSeason\"]),\n          fields: {\n            default:\"\"\n          },\n        },\n        v2: {\n          environments: {\n            commerce: \"mediaset-comm-tv-seasons-v2\",\n            production: \"mediaset-prod-tv-seasons-v2\"\n          },\n          types: new Set([\"TVSeason\",\"season\"]),\n          fields: {\n            default:\"\"\n          },\n        },\n      },\n    ];\n\nfunction getEndpoint(type, label) {\n      if (type && typeCache.has(type)) return typeCache.get(type);\n      if (label && labelCache.has(label)) return labelCache.get(label);\n\n      for (const entry of endpointTable) {\n        const vEntry = entry[version];\n        const fields = vEntry.fields[application];\n\n        if (vEntry.types.has(type)) {\n          const suffix = vEntry.endpointSuffix || \"&byGuid=\";\n          const endpoint = `${rootUrl}${vEntry.environments[environment]}?range=1-300&fields=${fields}${suffix}`;\n          const idsDecorator = vEntry.idsDecorator || ((ids) => ids.join(\"|\"));\n\n          const ret = {\n            endpoint,\n            label: entry.label,\n            fields,\n            idsDecorator,\n          };\n\n          typeCache.set(type, ret);\n          labelCache.set(entry.label, ret);\n\n          return ret;\n        }\n      }\n\n      return {};\n    }\n\n    function getCacheKey(tenant, type, id) {\n      return `{${tenant}:${type}:ux}:${id}`;\n    }\n\n    function getContentIdField(contentType, type) {\n      const key = `${contentType}-${type}`;\n\n      if (contentIdFieldMap.has(key)) return contentIdFieldMap.get(key);\n\n      const contentIdField = params.content.types[contentType].contentIdField;\n      const customContentIdField = endpointTable.find((entry) => entry[version].types.has(type))[\n        version\n      ].contentIdField;\n\n      contentIdFieldMap.set(key, customContentIdField || contentIdField);\n\n      return contentIdFieldMap.get(key);\n    }\n\n    if (includeMPXAdvancedStats) data.metadata.MPXUniversalDecorator = {typeField};\n\n    // **************************************\n    // Get ids, contentType for every element\n    // to process and generate Cache Key\n    // **************************************\n    for (let k = 0, length = data.blocks.length; k < length; k++) {\n      const block = data.blocks[k];\n      const contentType = block._contentType;\n\n      for (let i = 0, length = block.items.length; i < length; i++) {\n        const item = block.items[i];\n\n        // Check Skipped Content Types\n         if(skipContentTypes.includes(item._contentType)) continue;\n\n        const type = item[typeField];\n        const id = item[getContentIdField(item._contentType ?? contentType, type)];\n        const { label,idsDecorator } = getEndpoint(type);\n\n        keys.push(getCacheKey(tenant, type, id));\n        ids.push(id);\n        idTypeMap.set(id, type);\n        if (!missingMap.has(label)) missingMap.set(label, { ids: [], idsDecorator });\n      }\n    }\n\n    if (includeMPXAdvancedStats) {\n       data.metadata.MPXUniversalDecorator.cacheKeysChecked = keys;\n    }\n    \n    if (!keys.length) return data;\n    \n\n\n    // **************************************\n    // Get UIItems from Cache and check for\n    // missing items\n    // **************************************\n    const values = await this.cache.getKeys(keys);\n    const UIMap = new Map();\n\n    for (let i = 0, length = values.length; i < length; i++) {\n      const id = ids[i];\n      const value = values[i];\n\n      if (!value) {\n        const type = idTypeMap.get(id);\n        const { label } = getEndpoint(type);\n\n        missingMap.get(label).ids.push(id);\n      } else UIMap.set(id, value);\n    }\n\n    // **************************************\n    // If some UI Enrichment is missing then\n    // grab it from MPX and put it in cache\n    // **************************************\n    if (missingMap.size > 0) {\n      const mpxBatch = [];\n      const pipeline = this.cache.getPipeline();\n\n      for (const [label, { ids, idsDecorator }] of missingMap.entries()) {\n        if (ids.length === 0) continue;\n        \n        const { endpoint, fields } = getEndpoint(null, label);\n        const url = endpoint + idsDecorator(ids);\n\n        if (includeMPXAdvancedStats) {\n          if (!data.metadata.MPXUniversalDecorator.enpointsCalls)\n            data.metadata.MPXUniversalDecorator.enpointsCalls = [];\n          data.metadata.MPXUniversalDecorator.enpointsCalls.push({\n            version,\n            environment,\n            application,\n            MPXType: `${label}`,\n            itemsRequested: ids.length,\n            fieldsRequested: fields,\n            idsRequested: ids,\n            url,\n          });\n\n          data.metadata.MPXUniversalDecorator.itemsInCache =\n            data.pagination.totalHits - ids.length;\n        }\n\n         if (endpoint)\n          mpxBatch.push(\n            this.axios(url).catch((error) => {\n              this.logger.error({\n                function: \"axiosGetMPX\",\n                errorMessage: error.message,\n                error: `GET ${url}`,\n              });\n\n              if (includeMPXAdvancedStats) {\n                if (!data.metadata.MPXUniversalDecorator.enpointsCallsErrors){\n                  data.metadata.MPXUniversalDecorator.enpointsCallsErrors = [];\n                }\n                data.metadata.MPXUniversalDecorator.enpointsCallsErrors.push(error.message)\n              }\n              \n              return { data: { entries: [] } };\n            })\n          );\n      }\n\n      const mpxMetadata = await Promise.all(mpxBatch);\n\n      for (const metadataMPX of mpxMetadata) {\n        if(!metadataMPX.data) continue;\n        \n        for (const uxItem of metadataMPX.data.entries) {\n          const id = uxItem.guid || uxItem.mediasetprogram$brandId;\n          const type = idTypeMap.get(id);\n          const cacheKey = getCacheKey(tenant, type, id);\n\n          UIMap.set(id, uxItem);\n          pipeline.set(cacheKey, JSON.stringify(uxItem), \"EX\", cacheTTL);\n        }\n      }\n\n      pipeline.exec();\n    }\n\n    // **************************************\n    // Enrich Blocks with UIItems\n    // **************************************\n    let totalEnriched = 0;\n    for (let blockIndex = 0, length = data.blocks.length; blockIndex < length; blockIndex++) {\n      const block = data.blocks[blockIndex];\n      const contentType = block._contentType;\n\n      for (let itemIndex = 0, length = block.items.length; itemIndex < length; itemIndex++) {\n        const item = block.items[itemIndex];\n\n        // Check Skipped Content Types\n         if(skipContentTypes.includes(item._contentType)){\n           totalEnriched += 1;\n           continue;\n         } \n         \n        const type = item[typeField];\n        const id = item[getContentIdField(item._contentType ?? contentType, type)];\n        const uiEnrich = UIMap.get(id);\n\n        if (!uiEnrich) {\n          delete data.blocks[blockIndex].items[itemIndex];\n          continue;\n        }\n\n        totalEnriched += 1;\n        const enriched = typeof uiEnrich === \"object\" ? uiEnrich : JSON.parse(uiEnrich);\n\n        data.blocks[blockIndex].items[itemIndex] = { ...item, ...enriched };\n      }\n\n      data.blocks[blockIndex].items = data.blocks[blockIndex].items.filter((item) => item !== null);\n    }\n\n    if (includeMPXAdvancedStats) {\n      data.metadata.MPXUniversalDecorator.itemsInChache = values.filter(k => k).length;\n      data.metadata.MPXUniversalDecorator.itemsBeforeMPXEnrichment = data.pagination.totalHits;\n      data.metadata.MPXUniversalDecorator.itemsRequestedToMPX = data.pagination.totalHits - data.metadata.MPXUniversalDecorator.itemsInChache;\n      data.metadata.MPXUniversalDecorator.itemsNotInMPX = data.pagination.totalHits - totalEnriched;\n      data.metadata.MPXUniversalDecorator.itemsReturned = totalEnriched;\n    }\n\n    data.pagination.totalHits = totalEnriched;\n\n    return data;",
+  "signature": "0f661559364eff2489393873a1de9777e47853412398ac500bbe9087ffaae3988a7c19daf79f482384299c18915e209b098a65b1b3d63a4e082d89b05de965954d1c9703f43faf70cbe226026cb3fa8623e1065eb01fcf2e5e2df9fd92b5d4d0423c2e9140969a83f03fa1bfd00c88b8460f2342d43628b86d9878a3347f0b2d5e687d31aecf008174cf393fede0c75d3517de66eb7db9c9525d89c78b88cfa66ce3e42f796b02e42babd9bb6877cc01e5747990ee2c8bd903c235e6001e6c036bf0529cacb81f85e55b4dd064e4bcbc6d8cf5415b4f70038aab1fd7149b7affa5a14b49481b3f4e24f393c0cc14eaa550231c12ae31fc0c8966516d636706182091194049c7ef8c56a531ecd5452aedfffe81c7e764677108201a1d2c471d23eb9339571bccfdff1f781d0f3ae3cf08e16eb52b0c9b584d7073e7487e6e5aa6aa698eee6d9823840c5c9f9d3a66a25047956d026cc4c45b901e17f04b2aafc8e92dfeea09ac74afa47cd0e02e36293db584c5079323f7135d5b9be2bcace8e8f3a1eb83aef5c39eca05cf1654741abce7dff566e6f50f4d9547151551dfe0fa436ad5ad3c2f8bb908f142a667c6106fedf74b57322b86e5754848422a30aaf4acdad1b9a0b51990f7246564cfdaf02d5ae76a7e2216ead769ec8ecb2f571ed6cf27e99fe1fb5124e99f58cb70b9ca82cf206dccc7df4279820bf03a2e3e18de",
+  "pubKey": "rti.pub.pem",
+  "algorithm": "SHA512withRSA",
+  "id": "mU5ep6Aze",
+  "version": 28,
+  "lastSaved": {
+    "username": "ttessarolo",
+    "date": "2025-05-26T15:02:01.444Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "endpoints",
+        "items": [
+          "YGly6uAkxD",
+          "Gw6akjKa4a",
+          "d4IsNrq0A",
+          "kkVrXW1b6",
+          "qBFifKbjX",
+          "bhDKfIlsS",
+          "EKRB7JDNH",
+          "Rj1_1Ldtp",
+          "RP4FjBkgG",
+          "Cx4bdj5cGF",
+          "wa7CTFrKM",
+          "pOLdDpfF4",
+          "wSapSXMZL",
+          "FLIeiCr_I",
+          "dtYpT5Clpj",
+          "v8HBDVt48",
+          "USS9RQ9gOr",
+          "XBJpXgG8U",
+          "Q20zIJufF",
+          "zIx7jRMtT",
+          "ra0XD2trY",
+          "gC7p9nO5B",
+          "Dp18zVMBBg",
+          "qHtiQfWZI",
+          "fqAcVdrAy",
+          "Ckw1xL36E",
+          "LboFQwweD",
+          "vVGe5Suk3",
+          "GLph9x0zD",
+          "MDVgtJQWT",
+          "V7LVzpACM",
+          "QRd7IFMQaY",
+          "Onw1HfzkW",
+          "H1byI1Xx4",
+          "pENDpshS3",
+          "M7ZFBdo1c",
+          "wYMnH4C13",
+          "KzchDr8pS",
+          "HHb0YGlvS",
+          "P6UdjLapE",
+          "QkOcjo5u_o",
+          "XzvXgQ2xM3",
+          "Zo6ECYV90",
+          "xu2fLgL1v",
+          "NIaLB1BTVl",
+          "NjbgtR2lz",
+          "XY2qRtWub",
+          "Tac2Yo4sw",
+          "hxltEEGGk",
+          "ziTNmEdrw",
+          "gD7NiGV6Rb",
+          "jdc_nBjRW",
+          "IgzaMfofy",
+          "pWQv2yNew",
+          "ByI1G39Bay",
+          "bz6OhLXwN",
+          "gFCE7wHAi",
+          "iNIiiEcj_Q",
+          "lh9H8mbT8",
+          "NOqqMIEua",
+          "XaJ56XE0B",
+          "dSO8u7pRf",
+          "ofDzBAam80",
+          "XTq7v51eP",
+          "CXGAXZ8ztj",
+          "rdXCmq9e1d",
+          "c8IVxo2BCe",
+          "j_KA7MIY5o",
+          "Gle2b_LNs",
+          "ZFtFS3U2e",
+          "fVvrWMCVw",
+          "S_UgVjUsh",
+          "WHLqfUKgA",
+          "BwanFYsXQ",
+          "j0Yidhi3b",
+          "ARSuntEWLj",
+          "FIO4mToIT",
+          "qjMwol5CGG",
+          "RVtOTd3BL",
+          "pFUmQiORd",
+          "iOVm86rAsE",
+          "YQ0vkJ_3U",
+          "bvhiMZgoA",
+          "f5qYVJdmo",
+          "vXLwShIOp",
+          "WXsJUgBAp",
+          "RTutmVwd8",
+          "m4WH5DZNF",
+          "dOFyKdy79",
+          "gYlnQwASKN",
+          "P_S3rlrI4E",
+          "sN1fAyTsr",
+          "v3M63bs3c",
+          "GDGyDPHJ0",
+          "uK3VPzv6U",
+          "Ap0CXYLXi",
+          "kEsMgb00Z",
+          "VqbKPchOM",
+          "dEuNmasA7",
+          "d0HcvWEBF",
+          "xto6zka9cb",
+          "ihiCAj9Qp",
+          "QWy8y_ZIwz",
+          "zwEA3GI4v",
+          "AMsLxXdFR",
+          "apKRr498c",
+          "jlxOdccFF",
+          "xG209TQAOl",
+          "q92sG36gh",
+          "JuhgwrBdNL",
+          "NxQika02i",
+          "NCATfP6la",
+          "Mh9WbkEHg",
+          "W2sNZ_bXP",
+          "jj72aKvoC",
+          "TAHCjN9hxX",
+          "b1EDgwfNS9",
+          "t2lTpliWX",
+          "Y_T1DSbZ9",
+          "MVpCyzxSL",
+          "tgXUEdcir",
+          "p7HZLnaKE",
+          "B2KocO6PAl",
+          "GlbpXo2RG",
+          "TFmQYMIE8",
+          "YZ8Gk2fzJ",
+          "nyMd3k9ed",
+          "tUjq3QyMz7",
+          "GHptJmQ2r",
+          "E29EGlkkuq",
+          "RBrjmHSmj",
+          "Sbmoj6vuY",
+          "VikHuTBp_",
+          "isGTaKBrn6",
+          "hQpOtGAwjU",
+          "zdUkZB2aQg",
+          "HcoR4C1PW",
+          "PqCZuuS7R",
+          "Sa0YQmb5O",
+          "juWt8GRTH",
+          "lVBDCkyj7",
+          "onteU8tNE",
+          "MaV9Sd605",
+          "pKQHFdFrz",
+          "X1pHDHSB4",
+          "iueh1zUR4",
+          "JRvbVODfI2",
+          "DrF2Y1RZU",
+          "D2gmXznqh",
+          "_T_5xGrfz",
+          "dnKsEIfIF",
+          "vTODt8afF",
+          "d8XTtDDov",
+          "HEPxgP8Pm",
+          "Pm0N5ugp_",
+          "s1anvg99C4",
+          "HTThXiH3EX",
+          "MHKSMtXnx",
+          "fQMzKHZsR",
+          "VaVcnXzBv",
+          "k6yJDLV5b",
+          "GmsW6if9I",
+          "ASLi4JOoR",
+          "qET0zRl1G7",
+          "RMr3U8Unm",
+          "D32UYAzZn7",
+          "a6EZfjban",
+          "TVLxg8iQm",
+          "PvlSaIkyvm",
+          "RgybRRcgZr"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 157,
+      "types": 1,
+      "items": [
+        {
+          "type": "endpoints",
+          "count": 157,
+          "items": [
+            {
+              "id": "YGly6uAkxD",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "Gw6akjKa4a",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "d4IsNrq0A",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "kkVrXW1b6",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "qBFifKbjX",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "bhDKfIlsS",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "EKRB7JDNH",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "Rj1_1Ldtp",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "RP4FjBkgG",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "Cx4bdj5cGF",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "wa7CTFrKM",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "pOLdDpfF4",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "wSapSXMZL",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "FLIeiCr_I",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "dtYpT5Clpj",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "v8HBDVt48",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "USS9RQ9gOr",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "XBJpXgG8U",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "Q20zIJufF",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "zIx7jRMtT",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "ra0XD2trY",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "gC7p9nO5B",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "Dp18zVMBBg",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "qHtiQfWZI",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "fqAcVdrAy",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "Ckw1xL36E",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "LboFQwweD",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "vVGe5Suk3",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "GLph9x0zD",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "MDVgtJQWT",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "V7LVzpACM",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "QRd7IFMQaY",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "Onw1HfzkW",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "H1byI1Xx4",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "pENDpshS3",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "M7ZFBdo1c",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "wYMnH4C13",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "KzchDr8pS",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "HHb0YGlvS",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "P6UdjLapE",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "QkOcjo5u_o",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "XzvXgQ2xM3",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "Zo6ECYV90",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "xu2fLgL1v",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "NIaLB1BTVl",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "NjbgtR2lz",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "XY2qRtWub",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "Tac2Yo4sw",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "hxltEEGGk",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "ziTNmEdrw",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "gD7NiGV6Rb",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "jdc_nBjRW",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "IgzaMfofy",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "pWQv2yNew",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "ByI1G39Bay",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "bz6OhLXwN",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "gFCE7wHAi",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "iNIiiEcj_Q",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "lh9H8mbT8",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "NOqqMIEua",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "XaJ56XE0B",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "dSO8u7pRf",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "ofDzBAam80",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "XTq7v51eP",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "CXGAXZ8ztj",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "rdXCmq9e1d",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "c8IVxo2BCe",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "j_KA7MIY5o",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "Gle2b_LNs",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "ZFtFS3U2e",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "fVvrWMCVw",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "S_UgVjUsh",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "WHLqfUKgA",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "BwanFYsXQ",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "j0Yidhi3b",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "ARSuntEWLj",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "FIO4mToIT",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "qjMwol5CGG",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "RVtOTd3BL",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "pFUmQiORd",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "iOVm86rAsE",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "YQ0vkJ_3U",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "bvhiMZgoA",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "f5qYVJdmo",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "vXLwShIOp",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "WXsJUgBAp",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "RTutmVwd8",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "m4WH5DZNF",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "dOFyKdy79",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "gYlnQwASKN",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "P_S3rlrI4E",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "sN1fAyTsr",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "v3M63bs3c",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "GDGyDPHJ0",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "uK3VPzv6U",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "Ap0CXYLXi",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "kEsMgb00Z",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "VqbKPchOM",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "dEuNmasA7",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "d0HcvWEBF",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "xto6zka9cb",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "ihiCAj9Qp",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "QWy8y_ZIwz",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "zwEA3GI4v",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "AMsLxXdFR",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "apKRr498c",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "jlxOdccFF",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "xG209TQAOl",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "q92sG36gh",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "JuhgwrBdNL",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "NxQika02i",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "NCATfP6la",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "Mh9WbkEHg",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "W2sNZ_bXP",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "jj72aKvoC",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "TAHCjN9hxX",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "b1EDgwfNS9",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "t2lTpliWX",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "Y_T1DSbZ9",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "MVpCyzxSL",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "tgXUEdcir",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "p7HZLnaKE",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "B2KocO6PAl",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "GlbpXo2RG",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "TFmQYMIE8",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "YZ8Gk2fzJ",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "nyMd3k9ed",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "tUjq3QyMz7",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "GHptJmQ2r",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "E29EGlkkuq",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "RBrjmHSmj",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "Sbmoj6vuY",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "VikHuTBp_",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "isGTaKBrn6",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "hQpOtGAwjU",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "zdUkZB2aQg",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "HcoR4C1PW",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "PqCZuuS7R",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "Sa0YQmb5O",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "juWt8GRTH",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "lVBDCkyj7",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "onteU8tNE",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "MaV9Sd605",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "pKQHFdFrz",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "X1pHDHSB4",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "iueh1zUR4",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "JRvbVODfI2",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "DrF2Y1RZU",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "D2gmXznqh",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "_T_5xGrfz",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "dnKsEIfIF",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "vTODt8afF",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "d8XTtDDov",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "HEPxgP8Pm",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "Pm0N5ugp_",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "s1anvg99C4",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "HTThXiH3EX",
+              "type": "endpoints",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  }
+}

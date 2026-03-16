@@ -1,0 +1,167 @@
+{
+  "metadataInRules": [],
+  "title": "INF Documentari 4K",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "wfBy1paHlb"
+    },
+    {
+      "id": "KdgZfZ_wm"
+    },
+    {
+      "id": "CHueCEIvSV"
+    },
+    {
+      "id": "KlMoOttOks"
+    }
+  ],
+  "exclude": [],
+  "include": [],
+  "boost": [],
+  "order": [
+    {
+      "id": "A5n475YeR"
+    }
+  ],
+  "presets": {
+    "exclude": [
+      {
+        "id": "ZRorAbL96Q"
+      }
+    ],
+    "filter": []
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "wfBy1paHlb",
+          "KdgZfZ_wm",
+          "CHueCEIvSV",
+          "KlMoOttOks",
+          "A5n475YeR"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "ZRorAbL96Q"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "pzGIgPjnu",
+          "ALNZoG00_T"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "id": "DViHOhZEw",
+  "version": 32,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2023-06-28T11:01:22.456Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "pzGIgPjnu",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 6,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 5,
+          "items": [
+            {
+              "id": "wfBy1paHlb",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "KdgZfZ_wm",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "CHueCEIvSV",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "KlMoOttOks",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "A5n475YeR",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 1,
+          "items": [
+            {
+              "id": "ZRorAbL96Q",
+              "type": "rulesPresets",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "realm": "content",
+  "metadataOverrides": {
+    "KlMoOttOks": {
+      "content": false,
+      "content_similar": {
+        "required": true,
+        "output": "video_similar_ids_4khdr_4ksdr",
+        "metadata": {
+          "included": [
+            "video_formats=(4K HDR) OR (4K SDR)",
+            "tipologia=Documentari",
+            "editorial_type=TVSeason"
+          ]
+        },
+        "groupby": {
+          "metadata": "title.keyword",
+          "results": 1,
+          "sortMetadata": "video_formats",
+          "sortDirection": "asc"
+        }
+      }
+    }
+  },
+  "uselessMultiplier": false
+}

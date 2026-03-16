@@ -1,0 +1,133 @@
+{
+  "title": "Query stagioni da taggare",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "KdgZfZ_wm"
+    },
+    {
+      "id": "EA745TcQQ"
+    },
+    {
+      "id": "MrtMAYnbZ"
+    }
+  ],
+  "exclude": [],
+  "include": [
+    {
+      "id": "RGAyQsKlN"
+    },
+    {
+      "id": "P0zoQTpk9"
+    }
+  ],
+  "boost": [],
+  "order": [
+    {
+      "id": "LT7oy4fn1"
+    }
+  ],
+  "realm": "content",
+  "metadataOverrides": {},
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "KdgZfZ_wm",
+          "EA745TcQQ",
+          "MrtMAYnbZ",
+          "RGAyQsKlN",
+          "P0zoQTpk9",
+          "LT7oy4fn1"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "Li5pJmw2Nc"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1,
+    "mustOperator": "or"
+  },
+  "id": "Um3tRpT7u",
+  "version": 6,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2023-07-17T12:56:38.405Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "Li5pJmw2Nc",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 5,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 5,
+          "items": [
+            {
+              "id": "KdgZfZ_wm",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "EA745TcQQ",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "MrtMAYnbZ",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "RGAyQsKlN",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "P0zoQTpk9",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  }
+}

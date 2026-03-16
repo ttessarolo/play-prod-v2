@@ -1,0 +1,205 @@
+{
+  "title": "SRC Search Gratis per te Serie e Movie DA VERIFICARE",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "vOLwGVeR4"
+    }
+  ],
+  "exclude": [
+    {
+      "id": "XJHXFsPMz"
+    },
+    {
+      "id": "dOAdO5aP_"
+    }
+  ],
+  "include": [
+    {
+      "id": "U5DeUiXfO"
+    },
+    {
+      "id": "oUDwGrmkk"
+    }
+  ],
+  "boost": [
+    {
+      "id": "mfXQdqG3TO"
+    },
+    {
+      "id": "RqBahOBRSz"
+    },
+    {
+      "id": "S__HGJYN5V"
+    },
+    {
+      "id": "bxjJcRxw6j"
+    },
+    {
+      "id": "hXLkhjZvG8"
+    },
+    {
+      "id": "OuILCofHC"
+    },
+    {
+      "id": "XrQIQriQGR",
+      "overides": {
+        "D5Ommj0iv": {
+          "boost": 2
+        }
+      }
+    },
+    {
+      "id": "xFhBODpCp"
+    }
+  ],
+  "order": [],
+  "realm": "content",
+  "general": {
+    "mustOperator": "or",
+    "tieBreaker": 0.9,
+    "minimumShouldMatch": "1%",
+    "resultsMultiplier": 1,
+    "filterOperator": "and",
+    "tieBreakerFilter": 0.9
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "vOLwGVeR4",
+          "XJHXFsPMz",
+          "dOAdO5aP_",
+          "U5DeUiXfO",
+          "oUDwGrmkk",
+          "mfXQdqG3TO",
+          "RqBahOBRSz",
+          "S__HGJYN5V",
+          "bxjJcRxw6j",
+          "hXLkhjZvG8",
+          "OuILCofHC",
+          "XrQIQriQGR",
+          "xFhBODpCp"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "ZRorAbL96Q"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": []
+      }
+    ]
+  },
+  "id": "O43LrW3K3",
+  "version": 20,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2024-11-04T17:46:17.111Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 13,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 12,
+          "items": [
+            {
+              "id": "vOLwGVeR4",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "XJHXFsPMz",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "dOAdO5aP_",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "U5DeUiXfO",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "oUDwGrmkk",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "mfXQdqG3TO",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "RqBahOBRSz",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "S__HGJYN5V",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "bxjJcRxw6j",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "hXLkhjZvG8",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "OuILCofHC",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "XrQIQriQGR",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 1,
+          "items": [
+            {
+              "id": "ZRorAbL96Q",
+              "type": "rulesPresets",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "presets": {
+    "exclude": [
+      {
+        "id": "ZRorAbL96Q"
+      }
+    ]
+  },
+  "metadataOverrides": {}
+}

@@ -1,0 +1,42 @@
+{
+  "title": "Lista ADV un'altra me",
+  "description": "",
+  "type": "contentId",
+  "contentType": "video",
+  "realm": "content",
+  "metadataField": "video_content_id",
+  "elements": [
+    "F313048101000101",
+    "F313048101000201",
+    "F313048101000301",
+    "F313048101000401",
+    "F313048101000501",
+    "F313048101000601"
+  ],
+  "id": "nkOh44inh",
+  "version": 7,
+  "lastSaved": {
+    "username": "Massimiliano.Berardi",
+    "date": "2024-04-15T08:53:29.967Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "rules",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  }
+}

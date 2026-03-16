@@ -1,0 +1,80 @@
+{
+  "title": "Rule Programmi TV Clip 24h Secondo Blocco",
+  "description": "",
+  "contentType": "video",
+  "clauses": [
+    "filter",
+    "include"
+  ],
+  "rule": [
+    {
+      "condition": "*",
+      "boost": 1,
+      "type": "I2I",
+      "_id": "lR_OJp5Xz",
+      "idsFromMetadata": "video_similar_ids_clip_24h_fake_2",
+      "keepOrder": true,
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      },
+      "field": "video_content_id",
+      "fieldDBType": "keyword",
+      "queryType": "ids",
+      "value": "video_similar_ids_clip_24h_fake_2",
+      "valueType": "metadata",
+      "API": "V2"
+    }
+  ],
+  "field": "video_content_id",
+  "metadata": {
+    "content_similar": {
+      "required": true,
+      "output": "video_similar_ids_clip_24h_fake_2",
+      "metadata": {
+        "included": [
+          "tipologia=Intrattenimento",
+          "content_channels=MediasetPlay",
+          "editorial_type=Clip",
+          "frontend_visible=true"
+        ],
+        "excluded": [
+          "subbrand_title=full"
+        ]
+      },
+      "groupby": {
+        "metadata": "id_season_st",
+        "results": 2,
+        "sortMetadata": "last24h_videoviews",
+        "sortDirection": "desc"
+      },
+      "numResults": 20
+    }
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "wlooGCozMD"
+        ]
+      }
+    ]
+  },
+  "id": "DQyNWNYJ_B",
+  "version": 4,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2020-12-18T11:08:38.369Z"
+  }
+}

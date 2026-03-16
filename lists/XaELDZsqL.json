@@ -1,0 +1,65 @@
+{
+  "title": "Platform Tv",
+  "description": "",
+  "type": "text",
+  "contentType": "video",
+  "realm": "content",
+  "elements": [
+    "vodafonetv",
+    "samsung-tizen",
+    "samsung-orsay",
+    "lge-webos",
+    "lge-netcast",
+    "panasonic-viera",
+    "sony-ceb",
+    "sony-androidtv",
+    "philips-androidtv",
+    "philips-whaleos",
+    "amazon-androidtv",
+    "timbox-androidtv",
+    "nvidia-androidtv",
+    "generic-androidtv",
+    "hisense-vidaa",
+    "sony-ps3",
+    "sony-ps4",
+    "sony-ps5",
+    "microsoft-xbox360",
+    "microsoft-xboxone",
+    "skyq",
+    "skyglass",
+    "google-androidtv",
+    "google-chromecast",
+    "apple-tvos",
+    "vendorName-hbbtv-OS",
+    "embed"
+  ],
+  "id": "XaELDZsqL",
+  "version": 6,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2023-03-30T12:53:24.914Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "rules",
+        "items": [
+          "xvYVAxCdJ",
+          "XhBXHe_tWU"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  }
+}

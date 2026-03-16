@@ -1,0 +1,177 @@
+{
+  "title": "Med Ita Programmi TV In primo piano Blocco 2",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "gxhHRBwU9"
+    },
+    {
+      "id": "KdgZfZ_wm"
+    },
+    {
+      "id": "RqBahOBRSz"
+    },
+    {
+      "id": "XrQIQriQGR"
+    },
+    {
+      "id": "AgDADBKfEz"
+    }
+  ],
+  "exclude": [
+    {
+      "id": "S__HGJYN5V"
+    },
+    {
+      "id": "NfU7ovdXbm"
+    }
+  ],
+  "include": [],
+  "boost": [],
+  "order": [
+    {
+      "id": "tMgBtvtBy"
+    }
+  ],
+  "realm": "content",
+  "presets": {
+    "filter": [
+      {
+        "id": "ztWfmA_PI"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "ZRorAbL96Q"
+      }
+    ]
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "gxhHRBwU9",
+          "KdgZfZ_wm",
+          "RqBahOBRSz",
+          "XrQIQriQGR",
+          "AgDADBKfEz",
+          "S__HGJYN5V",
+          "NfU7ovdXbm",
+          "tMgBtvtBy"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "ztWfmA_PI",
+          "ZRorAbL96Q"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "Ux07kHZqz"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "id": "kBxcwzsiW8",
+  "version": 14,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2023-04-11T09:34:31.763Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "Ux07kHZqz",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 9,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 7,
+          "items": [
+            {
+              "id": "gxhHRBwU9",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "KdgZfZ_wm",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "RqBahOBRSz",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "XrQIQriQGR",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "AgDADBKfEz",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "S__HGJYN5V",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "tMgBtvtBy",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 2,
+          "items": [
+            {
+              "id": "ztWfmA_PI",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "ZRorAbL96Q",
+              "type": "rulesPresets",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "metadataOverrides": {},
+  "uselessMultiplier": false
+}

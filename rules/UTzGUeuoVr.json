@@ -1,0 +1,55 @@
+{
+  "title": "Rule Video Format 4K HDR",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "4K HDR",
+      "valueType": "freeText",
+      "queryType": "match",
+      "field": "video_format",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "jfWaOfWPaY"
+    }
+  ],
+  "clauses": [
+    "filter",
+    "exclude"
+  ],
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "F8q0MMwh8",
+          "HmTQKuI0C",
+          "CMc5GpUU2"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "KhQ3IziFJ"
+        ]
+      }
+    ]
+  },
+  "id": "UTzGUeuoVr",
+  "version": 1,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-04-02T10:46:26.827Z"
+  }
+}

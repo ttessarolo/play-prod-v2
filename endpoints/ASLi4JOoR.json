@@ -1,0 +1,132 @@
+{
+  "id": "ASLi4JOoR",
+  "active": true,
+  "title": "multipleBlockDemFilmFree",
+  "description": "",
+  "reference": "multipleBlockDemFilmFree",
+  "propertyId": "zlqQNxLcGh",
+  "blockId": "d0Gt6grYF",
+  "variants": [],
+  "params": {
+    "timeout": 2500,
+    "cacheConfig": {
+      "cache": 1,
+      "cacheTTL": 3600,
+      "cachePrefix": {
+        "group": true,
+        "static": "endpoint",
+        "keys": []
+      },
+      "computeKeys": [
+        "startBlock",
+        "endBlock",
+        "userId",
+        "contentId",
+        "context"
+      ]
+    },
+    "inveverseCacheConfig": {
+      "cacheTTL": 3600
+    }
+  },
+  "paramsId": "playDefault",
+  "input": {
+    "decorators": [
+      "XIHg_DI92f"
+    ]
+  },
+  "output": {
+    "decorators": [
+      "mU5ep6Aze"
+    ]
+  },
+  "version": 17,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-10-01T16:46:58.690Z"
+  },
+  "refs": {
+    "belongs": [],
+    "require": [
+      {
+        "type": "blocks",
+        "items": [
+          "d0Gt6grYF"
+        ]
+      },
+      {
+        "type": "params",
+        "items": [
+          "playDefault"
+        ]
+      },
+      {
+        "type": "decorators",
+        "items": [
+          "XIHg_DI92f",
+          "mU5ep6Aze"
+        ]
+      },
+      {
+        "type": "conversionPacks",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 4,
+      "types": 4,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "d0Gt6grYF",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "params",
+          "count": 1,
+          "items": [
+            {
+              "id": "playDefault",
+              "type": "params"
+            }
+          ]
+        },
+        {
+          "type": "decorators",
+          "count": 2,
+          "items": [
+            {
+              "id": "XIHg_DI92f",
+              "type": "decorators"
+            },
+            {
+              "id": "mU5ep6Aze",
+              "type": "decorators"
+            }
+          ]
+        },
+        {
+          "type": "conversionPacks",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "haveScheduledVariants": 0,
+  "prevReference": "multipleBlockDemFilmFree",
+  "paginateFromCache": true,
+  "enableAnalitica": true
+}

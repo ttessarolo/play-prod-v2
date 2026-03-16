@@ -1,0 +1,189 @@
+{
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "XxbW1AxwU"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 1,
+          "items": [
+            {
+              "id": "XxbW1AxwU",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "(!equals(id_series_se, \"SE000000002360\") && dateRange(when_now, \"2024-12-01T23:01:13.043Z÷2024-12-09T22:59:00.043Z\"))",
+      "conditionRaw": {
+        "and": [
+          {
+            "id": "Zt1u4SYUE",
+            "operator": "!equals",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "id_series_se"
+              },
+              {
+                "value": "\"SE000000002360\"",
+                "type": "freeText"
+              }
+            ]
+          },
+          {
+            "id": "FHYVimiT9",
+            "operator": "dateRange",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "when_now"
+              },
+              {
+                "value": "\"2024-12-01T23:01:13.043Z÷2024-12-09T22:59:00.043Z\"",
+                "type": "DateRange"
+              }
+            ]
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "F313010301000104",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "video_content_id",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "a1ZhZHPwE",
+      "scheduled": true,
+      "scheduling": [
+        {
+          "id": "FHYVimiT9",
+          "start": "2024-12-01T23:01:13.043Z",
+          "end": "2024-12-09T22:59:00.043Z"
+        }
+      ]
+    }
+  ],
+  "clauses": [
+    "filter"
+  ],
+  "metadata": {
+    "content": true,
+    "time": true
+  },
+  "scheduled": true,
+  "scheduling": [
+    {
+      "id": "FHYVimiT9",
+      "start": "2024-12-01T23:01:13.043Z",
+      "end": "2024-12-09T22:59:00.043Z"
+    },
+    {
+      "id": "RTRGQclMn",
+      "start": "2024-11-11T14:01:38.943Z",
+      "end": "2024-11-12T15:00:00.943Z"
+    },
+    {
+      "id": "uYJ7KZZJ5",
+      "start": "50"
+    },
+    {
+      "id": "FHYVimiT9",
+      "start": "2024-11-25T23:01:13.043Z",
+      "end": "2024-12-01T22:59:00.043Z"
+    }
+  ],
+  "schedulingMap": [
+    [
+      1,
+      [
+        {
+          "id": "FHYVimiT9",
+          "start": "2024-12-01T23:01:13.043Z",
+          "end": "2024-12-09T22:59:00.043Z"
+        }
+      ]
+    ],
+    [
+      3,
+      [
+        {
+          "id": "RTRGQclMn",
+          "start": "2024-11-11T14:01:38.943Z",
+          "end": "2024-11-12T15:00:00.943Z"
+        },
+        {
+          "id": "uYJ7KZZJ5",
+          "start": "50"
+        }
+      ]
+    ],
+    [
+      0,
+      [
+        {
+          "id": "FHYVimiT9",
+          "start": "2024-11-25T23:01:13.043Z",
+          "end": "2024-12-01T22:59:00.043Z"
+        }
+      ]
+    ]
+  ],
+  "title": "Rule ADV Editoriale Similar Doc Film e Sport",
+  "description": "FD00000000454402: Promo Attacco al potere\nF313010301000104: Attacco al potere ep. 1",
+  "id": "JIri5LN3YP",
+  "version": 43,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2024-12-03T09:57:37.660Z"
+  },
+  "grouped": false,
+  "operator": "and"
+}

@@ -1,0 +1,116 @@
+{
+  "title": "Rule Context features subscription channel Empty match MediasetPlay",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "(isEmpty(context_features_subscription_channels))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "isEmpty",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "context_features_subscription_channels"
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ],
+            "id": "5rwV-R9_n0"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "MediasetPlay",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "content_channels",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "u7ZFVWw7wU",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "clauses": [
+    "filter",
+    "include"
+  ],
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": []
+      }
+    ]
+  },
+  "id": "_8XrsebT6",
+  "version": 6,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2023-01-25T11:31:16.321Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 2,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 2,
+          "items": [
+            {
+              "id": "O43LrW3K3",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "_H76LpNLGe",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": []
+}

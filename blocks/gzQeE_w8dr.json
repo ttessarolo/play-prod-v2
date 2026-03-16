@@ -1,0 +1,308 @@
+{
+  "title": "Block Enabler Stagioni Fiction del momento",
+  "description": "",
+  "results": {
+    "flatAllBlocks": true,
+    "min": 0,
+    "max": 50,
+    "deduplicateFlattedResults": true,
+    "fallbackBlockId": "P0csRsOt7"
+  },
+  "blocks": [
+    {
+      "condition": "*",
+      "title": "Stagioni Fiction Super Top",
+      "type": "query",
+      "_id": "ImA9lX07n",
+      "pinned": true,
+      "results": {
+        "max": 3,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true,
+        "fallbackBlockId": "P0csRsOt7"
+      },
+      "queryId": "zHlSX9ygS",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      }
+    },
+    {
+      "condition": "*",
+      "title": "Stagioni In Onda Prima Serata e Top",
+      "type": "query",
+      "_id": "JEwSOpMsR1",
+      "pinned": true,
+      "results": {
+        "max": 20,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true,
+        "fallbackBlockId": "P0csRsOt7"
+      },
+      "queryId": "us3vUNLgO",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      }
+    },
+    {
+      "condition": "*",
+      "title": "Stagioni Top e In Onda o Esclusiva 3 mesi",
+      "type": "query",
+      "_id": "yPy7flnccSx",
+      "pinned": true,
+      "results": {
+        "max": 20,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true,
+        "fallbackBlockId": "P0csRsOt7"
+      },
+      "queryId": "eYpjGfjVG",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      }
+    },
+    {
+      "_id": "iKScjeaoF",
+      "condition": "*",
+      "title": "Stagioni In Onda e Prima Serata",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 20,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true
+      },
+      "queryId": "Fnu1as9qg"
+    },
+    {
+      "_id": "igWe4WCqe",
+      "condition": "*",
+      "title": "Stagioni In Onda o Esclusiva 9 mesi",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 20,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true
+      },
+      "queryId": "m_gnuihp0"
+    },
+    {
+      "_id": "IFpijQAVH",
+      "condition": "*",
+      "title": "Stagioni Fiction più viste",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 50,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true
+      },
+      "queryId": "ZWp_WOb5a3"
+    }
+  ],
+  "canBeFallback": false,
+  "refs": {
+    "require": [
+      {
+        "type": "queries",
+        "items": [
+          "zHlSX9ygS",
+          "us3vUNLgO",
+          "eYpjGfjVG",
+          "Fnu1as9qg",
+          "m_gnuihp0",
+          "ZWp_WOb5a3"
+        ]
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "P0csRsOt7"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": [
+          "eOaXizx_"
+        ]
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "bVipaHKy1"
+        ]
+      }
+    ]
+  },
+  "id": "gzQeE_w8dr",
+  "version": 43,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2023-06-01T16:04:36.097Z"
+  },
+  "enabledPagesId": [
+    "U0WrVkcN6",
+    "Rj1_1Ldtp",
+    "wa7CTFrKM",
+    "wSapSXMZL",
+    "v8HBDVt48",
+    "XBJpXgG8U"
+  ],
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "pages",
+          "count": 1,
+          "items": [
+            {
+              "variantId": "bVipaHKy1",
+              "propertyId": "zlqQNxLcGh",
+              "propertyTitle": "",
+              "endpointId": "Cx4bdj5cGF",
+              "endpointTitle": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 8,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 6,
+          "items": [
+            {
+              "id": "zHlSX9ygS",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "us3vUNLgO",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "eYpjGfjVG",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "Fnu1as9qg",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "m_gnuihp0",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "ZWp_WOb5a3",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "P0csRsOt7",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 1,
+          "items": [
+            {
+              "id": "eOaXizx_",
+              "type": "responseFields",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "realm": "content",
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": []
+}

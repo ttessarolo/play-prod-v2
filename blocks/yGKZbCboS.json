@@ -1,0 +1,293 @@
+{
+  "id": "yGKZbCboS",
+  "propertyId": "zlqQNxLcGh",
+  "title": "Focus Selection Doc",
+  "description": "Please Edit description for Page \"Default\"",
+  "enabledPagesId": [
+    "HTThXiH3EX"
+  ],
+  "isPage": true,
+  "blocks": [
+    {
+      "id": "Dm97mcADu",
+      "condition": "*",
+      "title": "Animali nel mondo",
+      "type": "nested",
+      "layout": {
+        "i": "Dm97mcADu",
+        "w": 12,
+        "h": 30
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "zfajhk8XFF",
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H"
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Il regno Animale"
+        }
+      }
+    },
+    {
+      "id": "pdlkCA9Duz",
+      "condition": "*",
+      "title": "Natura meravigliosa",
+      "type": "nested",
+      "layout": {
+        "i": "pdlkCA9Duz",
+        "w": 12,
+        "h": 30
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Meraviglie della Natura"
+        }
+      },
+      "blockId": "zfajhk8XFF",
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H"
+      }
+    },
+    {
+      "id": "gB0V7FlUrq",
+      "condition": "*",
+      "title": "Spazio, scienza e tecnologia",
+      "type": "nested",
+      "layout": {
+        "i": "gB0V7FlUrq",
+        "x": 0,
+        "y": 3,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "metadataUI": {
+        "playContentMeta": {
+          "genere_mcm": "Scienza e Tecnologia,Scienza,Spazio"
+        },
+        "attributes": {
+          "template": "POSTER"
+        }
+      },
+      "blockId": "zfajhk8XFF",
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H"
+      }
+    },
+    {
+      "id": "gDnp6c0oFe",
+      "condition": "*",
+      "title": "Storia, inchieste e personaggi",
+      "type": "nested",
+      "layout": {
+        "i": "gDnp6c0oFe",
+        "x": 0,
+        "y": 4,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "zfajhk8XFF",
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H"
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Inchiesta,Biografico,Storia Miti e Religioni,Storico,Guerra,Personaggi"
+        }
+      }
+    }
+  ],
+  "version": 7,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-05-26T15:18:52.454Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "endpoints",
+        "items": [
+          "HTThXiH3EX"
+        ]
+      }
+    ],
+    "require": [
+      {
+        "type": "queries",
+        "items": []
+      },
+      {
+        "type": "endpoints",
+        "items": [
+          "WXsJUgBAp"
+        ]
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "Rc1YEkVxO",
+          "zfajhk8XFF"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "HTThXiH3EX",
+              "type": "endpoints",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 3,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "WXsJUgBAp",
+              "type": "endpoints",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "blocks",
+          "count": 2,
+          "items": [
+            {
+              "id": "Rc1YEkVxO",
+              "type": "blocks"
+            },
+            {
+              "id": "zfajhk8XFF",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "layout": [
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 0,
+      "i": "Dm97mcADu",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 30,
+      "i": "pdlkCA9Duz",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 60,
+      "i": "gB0V7FlUrq",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 90,
+      "i": "gDnp6c0oFe",
+      "moved": false,
+      "static": false
+    }
+  ],
+  "results": {
+    "fallbackBlockId": "Rc1YEkVxO",
+    "fullSubstituteFallback": true
+  }
+}

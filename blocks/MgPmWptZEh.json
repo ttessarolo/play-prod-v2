@@ -1,0 +1,184 @@
+{
+  "results": {
+    "min": 1,
+    "flatAllBlocks": true,
+    "fallbackBlockId": "Q70BkzEGk",
+    "max": 24,
+    "deduplicateFlattedResults": true
+  },
+  "blocks": [
+    {
+      "_id": "TyUMypfjn0",
+      "condition": "*",
+      "title": "Blocco Tipologia Informazione stesso Brand",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 11,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "fallbackBlockId": "Q70BkzEGk",
+        "skipOnEmpty": true
+      },
+      "queryId": "_WmSa4Xbk"
+    },
+    {
+      "_id": "ygzz_e2bKb",
+      "condition": "*",
+      "title": "Blocco Tipologia Informazione",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 24,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_"
+      },
+      "queryId": "snFdkOv3m"
+    }
+  ],
+  "title": "Block Similar Informazione",
+  "description": "",
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "realm": "content",
+  "refs": {
+    "require": [
+      {
+        "type": "queries",
+        "items": [
+          "_WmSa4Xbk",
+          "snFdkOv3m"
+        ]
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "Q70BkzEGk"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": [
+          "eOaXizx_"
+        ]
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "gZVannlg5"
+        ]
+      }
+    ]
+  },
+  "id": "MgPmWptZEh",
+  "version": 4,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-01-23T11:38:03.649Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "pages",
+          "count": 1,
+          "items": [
+            {
+              "variantId": "gZVannlg5",
+              "propertyId": "zlqQNxLcGh",
+              "propertyTitle": "",
+              "endpointId": "Zo6ECYV90",
+              "endpointTitle": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 4,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 2,
+          "items": [
+            {
+              "id": "_WmSa4Xbk",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "snFdkOv3m",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "Q70BkzEGk",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 1,
+          "items": [
+            {
+              "id": "eOaXizx_",
+              "type": "responseFields",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  }
+}

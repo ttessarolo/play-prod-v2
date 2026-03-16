@@ -1,0 +1,37 @@
+{
+  "title": "List Harry Potter Film",
+  "description": "",
+  "type": "contentId",
+  "contentType": "video",
+  "realm": "content",
+  "metadataField": "brand_title",
+  "elements": [
+    "F010959801000103",
+    "F011294501000102",
+    "F011463001000102",
+    "F011845201000102",
+    "F012533601000103",
+    "F012874601000105",
+    "F302656101000102",
+    "F302656201000102",
+    "F307798301000103",
+    "F309241601000103",
+    "F311793001000103"
+  ],
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-12-02T14:22:45.735Z"
+  },
+  "id": "pTOb4MEEz",
+  "version": 1,
+  "refs": {
+    "belongs": [
+      {
+        "type": "rules",
+        "items": [
+          "E4qIw3cSX"
+        ]
+      }
+    ]
+  }
+}

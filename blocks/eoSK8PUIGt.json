@@ -1,0 +1,242 @@
+{
+  "id": "eoSK8PUIGt",
+  "propertyId": "zlqQNxLcGh",
+  "title": "Film Top Viewed Most Recent",
+  "description": "Please Edit description for Page \"Default\"",
+  "enabledPagesId": [
+    "q0qDR2kO7"
+  ],
+  "isPage": true,
+  "blocks": [
+    {
+      "id": "NjSEksylR",
+      "condition": "*",
+      "title": "Block Film Top Viewed e Most Recent",
+      "type": "nested",
+      "layout": {
+        "i": "NjSEksylR",
+        "w": 12,
+        "h": 30
+      },
+      "results": {
+        "flatAllBlocks": true,
+        "max": 30
+      },
+      "blockId": "Wbd_QbaekG"
+    }
+  ],
+  "version": 11,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2022-06-16T09:47:07.702Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "endpoints",
+        "items": []
+      }
+    ],
+    "require": [
+      {
+        "type": "queries",
+        "items": []
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "Rc1YEkVxO",
+          "Wbd_QbaekG"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "q0qDR2kO7",
+              "type": "endpoints"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 2,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 2,
+          "items": [
+            {
+              "id": "Rc1YEkVxO",
+              "type": "blocks"
+            },
+            {
+              "id": "Wbd_QbaekG",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "layout": [
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 0,
+      "i": "NjSEksylR",
+      "moved": false,
+      "static": false
+    }
+  ],
+  "uiParams": {
+    "preview": {
+      "uiParams": {
+        "current": "User Logged #2",
+        "currentIndex": 2,
+        "sets": [
+          {
+            "title": "Anonymous",
+            "params": {
+              "contentId": {
+                "value": "F010791601000102",
+                "active": true
+              },
+              "userId": {
+                "value": "1f51d5e9f09e4d349fa3af349e1cdac4",
+                "active": false
+              },
+              "deviceId": {
+                "value": "ARES-CC",
+                "active": true
+              }
+            }
+          },
+          {
+            "title": "User Logged #1",
+            "params": {
+              "contentId": {
+                "value": "F010791601000102",
+                "active": true
+              },
+              "userId": {
+                "value": "1f51d5e9f09e4d349fa3af349e1cdac4",
+                "active": true
+              },
+              "deviceId": {
+                "value": "ARES-CC",
+                "active": true
+              }
+            }
+          },
+          {
+            "title": "User Logged #2",
+            "params": {
+              "contentId": {
+                "value": "F010791601000102",
+                "active": true
+              },
+              "userId": {
+                "value": "36e9cfd5ec474972ba1a82d19696346c",
+                "active": true
+              },
+              "deviceId": {
+                "value": "ARES-CC",
+                "active": true
+              },
+              "decoratorOutputEnvironment": {
+                "value": "production",
+                "active": true
+              },
+              "decoratorOutputVersion": {
+                "value": "v2",
+                "active": true
+              },
+              "params": {
+                "active": true,
+                "value": "orderby≈topViewedDesc"
+              }
+            }
+          }
+        ]
+      },
+      "currentParams": {
+        "contentId": "F010791601000102",
+        "userId": "36e9cfd5ec474972ba1a82d19696346c",
+        "deviceId": "ARES-CC",
+        "decoratorOutputEnvironment": "production",
+        "decoratorOutputVersion": "v2",
+        "params": "orderby≈topViewedDesc"
+      }
+    }
+  },
+  "results": {
+    "fallbackBlockId": "Rc1YEkVxO"
+  },
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": [],
+  "fullSubstituteFallback": true
+}

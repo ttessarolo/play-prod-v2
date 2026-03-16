@@ -1,0 +1,103 @@
+{
+  "cache": true,
+  "title": "Documentari visti utente 90 giorni",
+  "description": "",
+  "paramsId": "playDefault",
+  "contentType": "video",
+  "realm": "content",
+  "outputMetadataField": "userWatchedDoc",
+  "numElements": "3",
+  "range": {
+    "comparePrevious": 0,
+    "period": "90",
+    "unit": "d"
+  },
+  "userBased": true,
+  "conversions": [
+    {
+      "label": "watched",
+      "value": "watched"
+    }
+  ],
+  "minOccurrences": "1",
+  "injectHistory": true,
+  "filter": {
+    "rules": [
+      {
+        "type": "metadata",
+        "name": "editorial_type",
+        "values": [
+          "Full Episode",
+          "Movie"
+        ],
+        "operator": "or",
+        "fieldNested": 0,
+        "dbType": "keyword"
+      },
+      {
+        "type": "metadata",
+        "name": "tipologia",
+        "values": [
+          "Documentari"
+        ],
+        "operator": "or",
+        "fieldNested": 0,
+        "dbType": "text"
+      }
+    ],
+    "operator": "and",
+    "tieBreaker": "0.9"
+  },
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2023-07-13T09:56:05.178Z"
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "conversionPacks",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "endpoints",
+        "items": [
+          "NjbgtR2lz"
+        ]
+      }
+    ]
+  },
+  "id": "DpUROccfj",
+  "version": 49,
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "NjbgtR2lz",
+              "type": "endpoints",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 1,
+      "items": [
+        {
+          "type": "conversionPacks",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  }
+}

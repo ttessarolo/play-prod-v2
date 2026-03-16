@@ -1,0 +1,138 @@
+{
+  "title": "Rule Ultima Stagione per serie",
+  "description": "",
+  "contentType": "video",
+  "clauses": [
+    "filter"
+  ],
+  "rule": [
+    {
+      "condition": "(isEmpty(params_channel))",
+      "boost": 1,
+      "type": "I2I",
+      "_id": "tFbwIUmIWo",
+      "idsFromMetadata": "video_similar_ids_search_stagioni",
+      "keepOrder": true,
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "isEmpty",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "params_channel"
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ],
+            "id": "PYY-_aMulW"
+          }
+        ]
+      },
+      "field": "video_content_id",
+      "fieldDBType": "keyword",
+      "queryType": "ids",
+      "value": "video_similar_ids_search_stagioni",
+      "valueType": "metadata",
+      "API": "V2",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "field": "video_content_id",
+  "metadata": {
+    "content_similar": {
+      "required": true,
+      "output": "video_similar_ids_search_stagioni",
+      "numResults": 800,
+      "metadata": {
+        "included": [
+          "editorial_type=TVSeason",
+          "content_channels=MediasetPlay"
+        ]
+      },
+      "groupby": {
+        "metadata": "id_series_se",
+        "results": 1,
+        "sortMetadata": "publication_date",
+        "sortDirection": "desc"
+      }
+    }
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "ds8pLOaGO"
+        ]
+      }
+    ]
+  },
+  "id": "f7rLiq5pk4",
+  "version": 8,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-04-12T13:51:30.686Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 4,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 4,
+          "items": [
+            {
+              "id": "AQ0EW0owXS",
+              "type": "queries",
+              "title": "Query Generi per Parametri Programmi TV"
+            },
+            {
+              "id": "IjuqSujtX",
+              "type": "queries",
+              "title": "Query Generi per Parametri Fiction e Serie TV In Onda"
+            },
+            {
+              "id": "k3ik6QW0sZ",
+              "type": "queries",
+              "title": "Query Generi per Parametri Fiction e Serie TV"
+            },
+            {
+              "id": "ds8pLOaGO",
+              "type": "queries",
+              "title": "Search Stagioni"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 1,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "scheduled": 0,
+  "scheduling": [],
+  "schedulingMap": [],
+  "searchMetadata": [
+    "request",
+    "content_similar"
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "title": "Rule Boost sociodemo condizionale Kids se chiama Kids",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "(contains(categoriasociodemo, \"Bambini anche soli età pre scolare\") || contains(categoriasociodemo, \"Bambini anche soli età scolare\"))",
+      "conditionRaw": {
+        "or": [
+          {
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "categoriasociodemo"
+              },
+              {
+                "value": "\"Bambini anche soli età pre scolare\"",
+                "type": "string"
+              }
+            ],
+            "id": "pImmBLj7EQ"
+          },
+          {
+            "id": "bRHybFJ7x",
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "categoriasociodemo"
+              },
+              {
+                "value": "\"Bambini anche soli età scolare\"",
+                "type": "string"
+              }
+            ]
+          }
+        ]
+      },
+      "boost": 35,
+      "type": "",
+      "value": "categoriasociodemo",
+      "valueType": "metadata",
+      "queryType": "matchFromArray",
+      "field": "categoriasociodemo",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "U9RSonIxL",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "clauses": [
+    "boost"
+  ],
+  "metadata": {
+    "content": true
+  },
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "KrplYijM4",
+          "mkgdGBb51b",
+          "_UJtujmOS",
+          "hzT5G0sYG",
+          "hpyoLcJCQ",
+          "MH1tGzFfW",
+          "rlrVLabqSl",
+          "SGD1LQ9Mj",
+          "l4aaD5uVWs",
+          "PGHHPIFHQ"
+        ]
+      }
+    ]
+  },
+  "id": "bpF1hcTCd",
+  "version": 4,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-04-02T14:07:31.992Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 1,
+          "items": [
+            {
+              "id": "KrplYijM4",
+              "type": "queries",
+              "title": "INF Similar Cinema"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 1,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  }
+}

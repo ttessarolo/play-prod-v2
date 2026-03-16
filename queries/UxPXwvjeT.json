@@ -1,0 +1,200 @@
+{
+  "title": "Med Ita Fiction e Serie TV del momento Blocco 2",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "gxhHRBwU9"
+    },
+    {
+      "id": "CDMrhQW14"
+    },
+    {
+      "id": "KdgZfZ_wm"
+    },
+    {
+      "id": "XrQIQriQGR"
+    },
+    {
+      "id": "S__HGJYN5V"
+    },
+    {
+      "id": "gQuX7uK3vM"
+    }
+  ],
+  "exclude": [
+    {
+      "id": "wfBy1paHlb"
+    },
+    {
+      "id": "NfU7ovdXbm"
+    }
+  ],
+  "include": [],
+  "boost": [],
+  "order": [
+    {
+      "id": "tMgBtvtBy"
+    }
+  ],
+  "realm": "content",
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "gxhHRBwU9",
+          "CDMrhQW14",
+          "KdgZfZ_wm",
+          "XrQIQriQGR",
+          "S__HGJYN5V",
+          "gQuX7uK3vM",
+          "wfBy1paHlb",
+          "NfU7ovdXbm",
+          "tMgBtvtBy"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "ztWfmA_PI",
+          "KhQ3IziFJ",
+          "ZRorAbL96Q"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "QaoCUQxDs"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "id": "UxPXwvjeT",
+  "version": 25,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2024-05-28T10:54:12.937Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "QaoCUQxDs",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 12,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 9,
+          "items": [
+            {
+              "id": "gxhHRBwU9",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "q4YApM928H",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "KdgZfZ_wm",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "XrQIQriQGR",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "S__HGJYN5V",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "elT4DxH4Cc",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "wfBy1paHlb",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "NfU7ovdXbm",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "tMgBtvtBy",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 3,
+          "items": [
+            {
+              "id": "ztWfmA_PI",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "KhQ3IziFJ",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "ZRorAbL96Q",
+              "type": "rulesPresets",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "presets": {
+    "filter": [
+      {
+        "id": "ztWfmA_PI"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "KhQ3IziFJ"
+      },
+      {
+        "id": "ZRorAbL96Q"
+      }
+    ]
+  },
+  "metadataOverrides": {},
+  "uselessMultiplier": false
+}

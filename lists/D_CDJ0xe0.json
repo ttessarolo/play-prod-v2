@@ -1,0 +1,42 @@
+{
+  "contentType": "video",
+  "type": "text",
+  "elements": [
+    "Clip",
+    "Full Episode",
+    "Movie",
+    "TVSeason",
+    "Serie"
+  ],
+  "title": "Lista Editorial Type Clip FullEpisode Movie TVSeason e Serie",
+  "description": "",
+  "id": "D_CDJ0xe0",
+  "version": 3,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2022-11-03T11:46:51.206Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "rules",
+        "items": [
+          "NgPtZciQJ"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  },
+  "realm": "content"
+}

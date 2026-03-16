@@ -1,0 +1,313 @@
+{
+  "id": "Rc1YEkVxO",
+  "propertyId": "zlqQNxLcGh",
+  "title": "Fallback vuota",
+  "description": "Please Edit description for Page \"Default\"",
+  "enabledPagesId": [
+    "Ap0CXYLXi"
+  ],
+  "isPage": true,
+  "blocks": [
+    {
+      "id": "T0NhkqpNR",
+      "condition": "*",
+      "title": "No results",
+      "type": "nested",
+      "layout": {
+        "i": "T0NhkqpNR",
+        "x": 0,
+        "y": 1,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "P0csRsOt7"
+    }
+  ],
+  "version": 4,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2022-06-16T08:00:51.346Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "endpoints",
+        "items": [
+          "Ap0CXYLXi"
+        ]
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "nHnxnqpZl",
+          "g4LwExz6x",
+          "yxizcpSjI",
+          "RsgHYYlbYf",
+          "DpOQyZDgw",
+          "ABI4m0dhX",
+          "oh3L3bngOT",
+          "ZlNq8fAav",
+          "wflA9RRQu",
+          "RkeXT7FCf",
+          "lV_EHAzs2h",
+          "pyU9yg1UR",
+          "wkpqlVmY5",
+          "XIjwlMKj7",
+          "WskbBSb5I",
+          "rsqDOhhtgu",
+          "sEP3zfViW",
+          "YXgJJEmkJ",
+          "xglMRSas4",
+          "AIP91IWZU9",
+          "Rr1oVr_BGW",
+          "Hx5w3GWr7",
+          "YmMDc5Z1G",
+          "a0tfbqvDn",
+          "yIsgXYLsU",
+          "PORHTlGBe",
+          "YioN2Diy8",
+          "kvX63eJM1",
+          "G1zYxSkdu",
+          "tF86dGgfB",
+          "SgkKm0fss",
+          "WgfpkmLHJ",
+          "mMyozpKut",
+          "MONXUfkKz",
+          "LVouqEcXf",
+          "aH0uiSk8h",
+          "_hKL88LiKF",
+          "Xc_FAsre0K",
+          "sMos40JpV",
+          "AFZ30fSMh",
+          "gAYxluVbC",
+          "qXKmJZZOl",
+          "lKQ2uywsg",
+          "_rcg8yQG_",
+          "A_zdvd6MiC",
+          "bVipaHKy1",
+          "SmXWEUxKG",
+          "BSNyrPdHfo",
+          "hjuQaz3Pk",
+          "mg6fW181Aa",
+          "FCT3qcJX1",
+          "kfA9kBtSv",
+          "n2IQQp3B2",
+          "H5fd7vXdX",
+          "aYik5ZNw4m",
+          "WGAhYkgWN",
+          "Cr5rUbbgk",
+          "TltxdLmVn",
+          "FVhhSXKuS",
+          "KFFTEFcl0",
+          "xPvSMkXJU",
+          "J6OLRf2Xr",
+          "hZ6GuIqqR",
+          "JiFtOxgm7",
+          "x7_xwRTAi",
+          "KjIdt09QW",
+          "dDl0XcxbY",
+          "b_5KJIrlI",
+          "UJdgK_zFD",
+          "cudgnIyv0",
+          "rbTNmJ3TJ",
+          "uGqZrbJkk",
+          "gC1GfJxtli",
+          "rmjtyFT3a",
+          "pzJ7OtIGe",
+          "osvAYl79i",
+          "WqxEFYLpoJ",
+          "q74CMo9Fr",
+          "Ag5ZkK06H",
+          "RkXwKjzYE",
+          "I49jejix7",
+          "ZH_qUNnjn",
+          "d8_MU7DEF",
+          "eCOBgNbar",
+          "ziKOJXLlU",
+          "JnawDETcld",
+          "sCx4lHHdZ",
+          "fnGIb84YX",
+          "_VqJkMMN1l",
+          "DPajhkT23v",
+          "v0h5mj4YR",
+          "OIRenuhdk",
+          "x970kZPQD",
+          "k0Eu5XVki",
+          "U9VSvjaKl",
+          "vIM4jwm5U",
+          "JQ_FqyHpV",
+          "fAQDvCXWHh",
+          "k4QGHdxQW",
+          "iETDJq7dJ",
+          "F_sjywA9Q",
+          "iweYhg7DLk",
+          "jVI3NVaUq",
+          "MRR_0Yp3I",
+          "DRuoIOFsf",
+          "HV6YfKzh0",
+          "R_tEijSXy",
+          "uF8fwo1mt",
+          "V9RI7BjV7",
+          "RL5cxkerX",
+          "FELb4Gfq3",
+          "i8ZVS1OMr",
+          "wUc78StbQ",
+          "ptDNjX91x",
+          "x0BmGLyVnR",
+          "Q7H3gYrrMH",
+          "thJULhcXoc",
+          "qRhKcvnvv",
+          "DVwDWh4H4",
+          "NC8jVLFZB",
+          "uSQMPkr2v",
+          "PocmHNOJu",
+          "DPvDRAwPv",
+          "SjKviPsLkq",
+          "HNDfXxstQ",
+          "fWE6zjkEc",
+          "fm0gjH0tS",
+          "XZ5f1gK8y",
+          "V7QA_iGnE",
+          "QivlwH9Zr",
+          "zJdRVOBGv",
+          "ftepghXc5",
+          "jbOpvqnFG",
+          "teXKejgr2",
+          "uUVSRsHfy",
+          "HDTkemrtG",
+          "hb1B41JYe",
+          "QLhb1DQxx",
+          "UzsmyaqtN",
+          "aR0mJ3IQB",
+          "GAHb3UNXJ",
+          "LzYUktKQc",
+          "TVb1U063L",
+          "yGKZbCboS",
+          "nSlVGH0Hs",
+          "el3yzysWV",
+          "P2T9xm1_w8",
+          "Xp9Sbgys5",
+          "BPoxLffjYC",
+          "d0Gt6grYF",
+          "K0s4tyEoi",
+          "SoixOjql6Q",
+          "HYO_dnK0l3",
+          "pk491Nhdl",
+          "j6Q_b26qL",
+          "H9ZIGo39c"
+        ]
+      }
+    ],
+    "require": [
+      {
+        "type": "queries",
+        "items": []
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "P0csRsOt7"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "Ap0CXYLXi",
+              "type": "endpoints"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 1,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "P0csRsOt7",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "layout": [
+    {
+      "i": "T0NhkqpNR",
+      "x": 0,
+      "y": 1,
+      "w": 12,
+      "h": 30,
+      "blocks": []
+    }
+  ],
+  "canBeFallback": true
+}

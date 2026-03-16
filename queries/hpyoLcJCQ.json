@@ -1,0 +1,236 @@
+{
+  "metadataInRules": [
+    "content",
+    "content_similar"
+  ],
+  "title": "Query Similar 4K",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "V4xkRfQcM"
+    }
+  ],
+  "exclude": [
+    {
+      "id": "guv9d2IRj"
+    },
+    {
+      "id": "Ehrm1Jwn6"
+    },
+    {
+      "id": "u1S33CURt"
+    }
+  ],
+  "include": [
+    {
+      "id": "dYe_lYgTX"
+    }
+  ],
+  "boost": [
+    {
+      "id": "nCRmJzUuG",
+      "overides": {
+        "tYeu208Fm": {
+          "boost": 25
+        }
+      }
+    },
+    {
+      "id": "bpF1hcTCd",
+      "overides": {
+        "U9RSonIxL": {
+          "boost": 35
+        }
+      }
+    },
+    {
+      "id": "anWkfdU3R",
+      "overides": {
+        "BsvxJsE1dY": {
+          "boost": 15
+        }
+      }
+    },
+    {
+      "id": "u2np4nyh9",
+      "overides": {
+        "ZFa6FIbYK": {
+          "boost": 20
+        },
+        "aW9TOP2s6": {
+          "boost": 20
+        }
+      }
+    },
+    {
+      "id": "Xk4a_scHj",
+      "overides": {
+        "t2xKfKNbL": {
+          "boost": 15
+        }
+      }
+    }
+  ],
+  "order": [],
+  "presets": {
+    "filter": [
+      {
+        "id": "TuAyi0elu"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "ZRorAbL96Q"
+      }
+    ]
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "V4xkRfQcM",
+          "guv9d2IRj",
+          "Ehrm1Jwn6",
+          "u1S33CURt",
+          "dYe_lYgTX",
+          "nCRmJzUuG",
+          "bpF1hcTCd",
+          "anWkfdU3R",
+          "u2np4nyh9",
+          "Xk4a_scHj"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "TuAyi0elu",
+          "ZRorAbL96Q"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "OBAKFbhO7C"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1,
+    "mustOperator": "or",
+    "mustNotOperator": "and",
+    "tieBreakerMustNot": 0.9
+  },
+  "id": "hpyoLcJCQ",
+  "version": 58,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2023-01-24T13:55:29.085Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "OBAKFbhO7C",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 12,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 10,
+          "items": [
+            {
+              "id": "V4xkRfQcM",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "guv9d2IRj",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "Ehrm1Jwn6",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "u1S33CURt",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "dYe_lYgTX",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "nCRmJzUuG",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "bpF1hcTCd",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "anWkfdU3R",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "u2np4nyh9",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "Xk4a_scHj",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 2,
+          "items": [
+            {
+              "id": "TuAyi0elu",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "ZRorAbL96Q",
+              "type": "rulesPresets",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "uselessMultiplier": false,
+  "realm": "content",
+  "metadataOverrides": {}
+}

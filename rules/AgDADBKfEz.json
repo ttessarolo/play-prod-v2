@@ -1,0 +1,195 @@
+{
+  "title": "Rule Tipologia List Intrattenimento e Informazione",
+  "description": " ",
+  "contentType": "video",
+  "clauses": [
+    "filter",
+    "exclude",
+    "include"
+  ],
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "I2I",
+      "value": "gZX3nBSME",
+      "valueType": "list",
+      "queryType": "listTermsId",
+      "field": "tipologia",
+      "fieldDBType": "keyword",
+      "_id": "uSkQ1cEI8"
+    }
+  ],
+  "field": "tipologia",
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "CAd6ogG7u",
+          "TLxbxZNoD",
+          "uk8fnabnQY",
+          "_YcmnLaH4",
+          "hbPc0tj9I",
+          "hn5iFhhbZ",
+          "PKIPtcVd_",
+          "aqIFPp4zi",
+          "qW2FYtvyr",
+          "tNuQWnsHf",
+          "kBxcwzsiW8",
+          "opSo8V1UKT",
+          "WQFzcbZi3",
+          "XUe7byBci",
+          "tbkv2_bXt",
+          "vQpdSxndVV"
+        ]
+      }
+    ]
+  },
+  "id": "AgDADBKfEz",
+  "version": 5,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-09-09T17:15:23.829Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 17,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 17,
+          "items": [
+            {
+              "id": "PzMzP5D6R",
+              "type": "queries",
+              "title": "Query Stagioni Most Recent Programmi TV del momento"
+            },
+            {
+              "id": "T2R37bH_w",
+              "type": "queries",
+              "title": "Query Stagioni Most Recent Programmi TV del momento SUPERTOP"
+            },
+            {
+              "id": "i7977YQbm",
+              "type": "queries",
+              "title": "Query Stagioni Most Recent Programmi TV del momento PRIMA SERATA"
+            },
+            {
+              "id": "zqakv8vZvB",
+              "type": "queries",
+              "title": "Query Stagioni Most Recent Programmi TV del momento TOP"
+            },
+            {
+              "id": "hhqbCjmm_1",
+              "type": "queries",
+              "title": "Query Stagioni Most Recent Programmi TV del momento TOP e PRIMA SERATA"
+            },
+            {
+              "id": "CAd6ogG7u",
+              "type": "queries",
+              "title": "Query Programmi TV Prima Serata Blocco 1"
+            },
+            {
+              "id": "TLxbxZNoD",
+              "type": "queries",
+              "title": "Query Programmi TV Prima Serata Blocco 2"
+            },
+            {
+              "id": "uk8fnabnQY",
+              "type": "queries",
+              "title": "Query Programmi TV Prima Serata Blocco 3"
+            },
+            {
+              "id": "_YcmnLaH4",
+              "type": "queries",
+              "title": "Query Programmi TV In primo piano Blocco 1"
+            },
+            {
+              "id": "hbPc0tj9I",
+              "type": "queries",
+              "title": "Query Programmi TV In primo piano Blocco 2"
+            },
+            {
+              "id": "hn5iFhhbZ",
+              "type": "queries",
+              "title": "Query Programmi TV In primo piano Blocco 3"
+            },
+            {
+              "id": "I1706J335",
+              "type": "queries",
+              "title": "Query Enabler Stagioni Programmi TV TOP e PRIMA SERATA"
+            },
+            {
+              "id": "J5tCfqwb1y",
+              "type": "queries",
+              "title": "Query Enabler Stagioni Programmi TV SUPERTOP"
+            },
+            {
+              "id": "ZmqQWEcF8",
+              "type": "queries",
+              "title": "Query Enabler Stagioni Programmi TV TOP"
+            },
+            {
+              "id": "FF6GVv2DC",
+              "type": "queries",
+              "title": "Query Enabler Stagioni Programmi TV PRIMA SERATA"
+            },
+            {
+              "id": "vKyWUq28Mj",
+              "type": "queries",
+              "title": "Query Enabler Stagioni Più visti 7gg Programmi TV IN ONDA"
+            },
+            {
+              "id": "OFJfHmsz5",
+              "type": "queries",
+              "title": "Query Highlights Smart TV Programmi TV"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "lists",
+          "count": 1,
+          "items": [
+            {
+              "id": "sI8RQxedr",
+              "type": "lists",
+              "title": "List Intrattenimento Informazione e Sport"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": [],
+  "realm": "content"
+}

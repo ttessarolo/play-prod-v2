@@ -1,0 +1,81 @@
+{
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": [
+          "VMgTgN5FV"
+        ]
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "W5eXiix_7"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 1,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 1,
+          "items": [
+            {
+              "id": "VMgTgN5FV",
+              "type": "lists",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "VMgTgN5FV",
+      "valueType": "list",
+      "queryType": "listTermsId",
+      "field": "video_content_id",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "AM0mkyKpB9"
+    }
+  ],
+  "clauses": [
+    "exclude"
+  ],
+  "title": "Blacklist per Most recent per Channel",
+  "description": "",
+  "id": "ybeAsA8Cq",
+  "version": 1,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-05-26T13:41:39.023Z"
+  }
+}

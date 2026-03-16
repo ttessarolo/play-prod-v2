@@ -1,0 +1,73 @@
+{
+  "title": "Rule Esclude Tgcom Condizionale",
+  "description": "Esclude Tgcom24 se il chiamante non è Tgcom24",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "(!equals(id_series_se, \"SE000000000062\"))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "!equals",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "id_series_se"
+              },
+              {
+                "value": "\"SE000000000062\"",
+                "type": "freeText"
+              }
+            ],
+            "id": "dxxt4wPEsF"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "SE000000000062",
+      "valueType": "freeText",
+      "queryType": "match",
+      "field": "id_series_se",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "nXqQCAoKx",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "metadata": {
+    "content": true
+  },
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "clauses": [
+    "exclude"
+  ],
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "DGN31xSm2",
+          "zLGBFxSxo"
+        ]
+      }
+    ]
+  },
+  "id": "T9gDZGzfA",
+  "version": 1,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-03-29T16:50:55.987Z"
+  }
+}

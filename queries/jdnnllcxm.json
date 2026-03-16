@@ -1,0 +1,143 @@
+{
+  "title": "CHNLS Serie Top Viewed 24h ParamsChannel Top",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "C3q9HsDkx"
+    },
+    {
+      "id": "IA2rMeBZYW"
+    },
+    {
+      "id": "JfE3hcRkF"
+    },
+    {
+      "id": "BTmRUYEm9u"
+    }
+  ],
+  "exclude": [],
+  "include": [],
+  "boost": [],
+  "order": [
+    {
+      "id": "A5n475YeR"
+    }
+  ],
+  "realm": "content",
+  "presets": {
+    "filter": [
+      {
+        "id": "ur0WldwQk"
+      }
+    ]
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "C3q9HsDkx",
+          "IA2rMeBZYW",
+          "JfE3hcRkF",
+          "BTmRUYEm9u",
+          "A5n475YeR"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "ur0WldwQk"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "MpWLMS2iV"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "id": "jdnnllcxm",
+  "version": 15,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-06-30T09:33:12.044Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "MpWLMS2iV",
+              "type": "blocks",
+              "title": "CHNLS Serie Top Viewed 24h ParamsChannel"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 6,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 5,
+          "items": [
+            {
+              "id": "C3q9HsDkx",
+              "type": "rules",
+              "title": "Rule Tipologia Channel Serie"
+            },
+            {
+              "id": "IA2rMeBZYW",
+              "type": "rules",
+              "title": "Rule Editorial Type Serie"
+            },
+            {
+              "id": "JfE3hcRkF",
+              "type": "rules",
+              "title": "Rule Channel match ParamsChannel "
+            },
+            {
+              "id": "RqBahOBRSz",
+              "type": "rules",
+              "title": "Rule etichetta editoriale Top"
+            },
+            {
+              "id": "A5n475YeR",
+              "type": "rules",
+              "title": "Rule Piu visti 24h Always"
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 1,
+          "items": [
+            {
+              "id": "ur0WldwQk",
+              "type": "rulesPresets",
+              "title": "Preset Contenuti attivi"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "uselessMultiplier": false,
+  "metadataOverrides": {}
+}

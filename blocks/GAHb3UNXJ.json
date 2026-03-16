@@ -1,0 +1,734 @@
+{
+  "id": "GAHb3UNXJ",
+  "propertyId": "zlqQNxLcGh",
+  "title": "Dem Scelti per te",
+  "description": "Please Edit description for Page \"Default\"",
+  "enabledPagesId": [
+    "d8XTtDDov"
+  ],
+  "isPage": true,
+  "blocks": [
+    {
+      "id": "FQmhMD7VC",
+      "condition": "*",
+      "title": "Perché hai visto {title}",
+      "type": "nested",
+      "layout": {
+        "i": "FQmhMD7VC",
+        "w": 12,
+        "h": 30,
+        "isDraggable": false
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "HQY25kST23",
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        }
+      },
+      "nestingType": "block",
+      "pinned": true,
+      "viewAll": {
+        "id": "ihiCAj9Qp",
+        "reference": "viewAllPerson"
+      }
+    },
+    {
+      "id": "FFuFn4E3ab",
+      "condition": "*",
+      "title": "Film che ti potrebbero piacere",
+      "type": "nested",
+      "layout": {
+        "i": "FFuFn4E3ab",
+        "w": 12,
+        "h": 30
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "fDgcsNSTO",
+      "viewAll": {
+        "id": "ihiCAj9Qp",
+        "reference": "viewAllPerson"
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        }
+      },
+      "pinned": true
+    },
+    {
+      "id": "czsb59YHv",
+      "condition": "*",
+      "title": "Serie TV del momento",
+      "type": "nested",
+      "layout": {
+        "i": "czsb59YHv",
+        "w": 12,
+        "h": 30
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "VBMWF7Qws",
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H"
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "KEYFRAME"
+        }
+      },
+      "pinned": true
+    },
+    {
+      "id": "Ka86XjebO",
+      "condition": "*",
+      "title": "Il tuo genere preferito: Azione",
+      "type": "nested",
+      "layout": {
+        "i": "Ka86XjebO",
+        "x": 0,
+        "y": 32,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true,
+        "max": 24
+      },
+      "blockId": "NkPxz7IDV",
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H"
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Azione"
+        }
+      }
+    },
+    {
+      "id": "V79wQsoAI",
+      "condition": "*",
+      "title": "Il tuo genere preferito: Commedia",
+      "type": "nested",
+      "layout": {
+        "i": "V79wQsoAI",
+        "x": 0,
+        "y": 33,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true,
+        "max": 24
+      },
+      "blockId": "NkPxz7IDV",
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H"
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Commedia,Comico"
+        }
+      }
+    },
+    {
+      "id": "_xoOuiGLT",
+      "condition": "*",
+      "title": "Il tuo genere preferito: Drammatico",
+      "type": "nested",
+      "layout": {
+        "i": "_xoOuiGLT",
+        "x": 0,
+        "y": 34,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true,
+        "max": 24
+      },
+      "blockId": "NkPxz7IDV",
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H"
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Drammatico"
+        }
+      }
+    },
+    {
+      "id": "QOHOsMe2V",
+      "condition": "*",
+      "title": "Il tuo genere preferito: Animazione",
+      "type": "nested",
+      "layout": {
+        "i": "QOHOsMe2V",
+        "x": 0,
+        "y": 35,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true,
+        "max": 24
+      },
+      "blockId": "NkPxz7IDV",
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H"
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Animazione"
+        }
+      }
+    },
+    {
+      "id": "QwNCbMo98",
+      "condition": "*",
+      "title": "Il tuo genere preferito: Fantascienza",
+      "type": "nested",
+      "layout": {
+        "i": "QwNCbMo98",
+        "x": 0,
+        "y": 36,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true,
+        "max": 24
+      },
+      "blockId": "NkPxz7IDV",
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H"
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Fantascienza"
+        }
+      }
+    },
+    {
+      "id": "langNSxLiW",
+      "condition": "*",
+      "title": "Il tuo genere preferito: Thriller",
+      "type": "nested",
+      "layout": {
+        "i": "langNSxLiW",
+        "x": 0,
+        "y": 37,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true,
+        "max": 24
+      },
+      "blockId": "NkPxz7IDV",
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H"
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Thriller"
+        }
+      }
+    },
+    {
+      "id": "ij_AUN9NF",
+      "condition": "*",
+      "title": "Il tuo genere preferito: Sentimentale",
+      "type": "nested",
+      "layout": {
+        "i": "ij_AUN9NF",
+        "w": 12,
+        "h": 30
+      },
+      "results": {
+        "flatAllBlocks": true,
+        "max": 24
+      },
+      "blockId": "NkPxz7IDV",
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H"
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Sentimentale"
+        }
+      }
+    },
+    {
+      "id": "StzAbFvAk",
+      "condition": "*",
+      "title": "Il tuo genere preferito: Horror",
+      "type": "nested",
+      "layout": {
+        "i": "StzAbFvAk",
+        "x": 0,
+        "y": 39,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true,
+        "max": 24
+      },
+      "blockId": "NkPxz7IDV",
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H"
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Horror"
+        }
+      }
+    },
+    {
+      "id": "DMEEiYU2u",
+      "condition": "*",
+      "title": "Il tuo genere preferito: Avventura",
+      "type": "nested",
+      "layout": {
+        "i": "DMEEiYU2u",
+        "x": 0,
+        "y": 40,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true,
+        "max": 24
+      },
+      "blockId": "NkPxz7IDV",
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H"
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Avventura"
+        }
+      }
+    },
+    {
+      "id": "xeI_2T6m1",
+      "condition": "*",
+      "title": "Il tuo genere preferito: Guerra",
+      "type": "nested",
+      "layout": {
+        "i": "xeI_2T6m1",
+        "w": 12,
+        "h": 30
+      },
+      "results": {
+        "flatAllBlocks": true,
+        "max": 24
+      },
+      "blockId": "NkPxz7IDV",
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H"
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Guerra"
+        }
+      }
+    }
+  ],
+  "version": 9,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-02-20T14:44:54.170Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "endpoints",
+        "items": [
+          "d8XTtDDov"
+        ]
+      }
+    ],
+    "require": [
+      {
+        "type": "queries",
+        "items": []
+      },
+      {
+        "type": "endpoints",
+        "items": [
+          "ihiCAj9Qp",
+          "WXsJUgBAp"
+        ]
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "Rc1YEkVxO",
+          "HQY25kST23",
+          "fDgcsNSTO",
+          "VBMWF7Qws",
+          "NkPxz7IDV"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "d8XTtDDov",
+              "type": "endpoints",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 7,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "endpoints",
+          "count": 2,
+          "items": [
+            {
+              "id": "ihiCAj9Qp",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "WXsJUgBAp",
+              "type": "endpoints",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "blocks",
+          "count": 5,
+          "items": [
+            {
+              "id": "Rc1YEkVxO",
+              "type": "blocks"
+            },
+            {
+              "id": "HQY25kST23",
+              "type": "blocks"
+            },
+            {
+              "id": "fDgcsNSTO",
+              "type": "blocks"
+            },
+            {
+              "id": "VBMWF7Qws",
+              "type": "blocks"
+            },
+            {
+              "id": "NkPxz7IDV",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "layout": [
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 0,
+      "i": "FQmhMD7VC",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 30,
+      "i": "FFuFn4E3ab",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 60,
+      "i": "czsb59YHv",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 90,
+      "i": "Ka86XjebO",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 120,
+      "i": "V79wQsoAI",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 150,
+      "i": "_xoOuiGLT",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 180,
+      "i": "QOHOsMe2V",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 210,
+      "i": "QwNCbMo98",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 240,
+      "i": "langNSxLiW",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 270,
+      "i": "ij_AUN9NF",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 300,
+      "i": "StzAbFvAk",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 330,
+      "i": "DMEEiYU2u",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 360,
+      "i": "xeI_2T6m1",
+      "moved": false,
+      "static": false
+    }
+  ],
+  "results": {
+    "fallbackBlockId": "Rc1YEkVxO",
+    "fullSubstituteFallback": true,
+    "smartOrderBlocks": true,
+    "contentType": "video",
+    "userContentType": "user",
+    "event": "watched",
+    "perUserBasisType": "video_historical_fingerprint",
+    "max": "4"
+  },
+  "uiParams": {
+    "preview": {
+      "uiParams": {
+        "current": "User Logged #1",
+        "currentIndex": 1,
+        "sets": [
+          {
+            "title": "Anonymous",
+            "params": {
+              "contentId": {
+                "value": "F010791601000102",
+                "active": true
+              },
+              "userId": {
+                "value": "1f51d5e9f09e4d349fa3af349e1cdac4",
+                "active": false
+              },
+              "deviceId": {
+                "value": "ARES-CC",
+                "active": true
+              }
+            }
+          },
+          {
+            "title": "User Logged #1",
+            "params": {
+              "contentId": {
+                "value": "F010791601000102",
+                "active": true
+              },
+              "userId": {
+                "value": "1f51d5e9f09e4d349fa3af349e1cdac4",
+                "active": true
+              },
+              "deviceId": {
+                "value": "ARES-CC",
+                "active": true
+              }
+            }
+          },
+          {
+            "title": "User Logged #2",
+            "params": {
+              "contentId": {
+                "value": "F010791601000102",
+                "active": true
+              },
+              "userId": {
+                "value": "36e9cfd5ec474972ba1a82d19696346c",
+                "active": true
+              },
+              "deviceId": {
+                "value": "ARES-CC",
+                "active": true
+              }
+            }
+          }
+        ]
+      },
+      "currentParams": {
+        "contentId": "F010791601000102",
+        "userId": "1f51d5e9f09e4d349fa3af349e1cdac4",
+        "deviceId": "ARES-CC"
+      }
+    }
+  }
+}

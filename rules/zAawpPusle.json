@@ -1,0 +1,133 @@
+{
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "(contains(context_4kcapability, \"4ksdr\"))",
+      "boost": 1,
+      "type": "",
+      "value": "SE000000001311",
+      "valueType": "freeText",
+      "queryType": "match",
+      "field": "id_series_se",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "CCUTj_tkhZ",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "context_4kcapability"
+              },
+              {
+                "value": "\"4ksdr\"",
+                "type": "string"
+              }
+            ],
+            "id": "KYL_1rZYPf"
+          }
+        ]
+      },
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "API": "V2",
+      "condition": "(contains(context_4kcapability, \"4khdr\"))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "context_4kcapability"
+              },
+              {
+                "value": "\"4khdr\"",
+                "type": "string"
+              }
+            ],
+            "id": "luO8tqdy-P"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "SE000000001310",
+      "valueType": "freeText",
+      "queryType": "match",
+      "field": "id_series_se",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "yb9jX_ccOe",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "clauses": [
+    "filter"
+  ],
+  "title": "Rule Id serie Se GOT",
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": []
+      }
+    ]
+  },
+  "id": "zAawpPusle",
+  "version": 3,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-04-14T13:50:55.495Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 1,
+          "items": [
+            {
+              "id": "CS0sNrcco",
+              "type": "queries",
+              "title": "INF Stagioni GOT 4K"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 1,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": [],
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": []
+}

@@ -1,0 +1,211 @@
+{
+  "title": "SRC Default Search Programmi e Serie Mediaset Italia",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "gxhHRBwU9"
+    },
+    {
+      "id": "IA2rMeBZYW"
+    },
+    {
+      "id": "gLpFUO7F3"
+    }
+  ],
+  "exclude": [],
+  "include": [],
+  "boost": [
+    {
+      "id": "mfXQdqG3TO"
+    },
+    {
+      "id": "RqBahOBRSz",
+      "overides": {
+        "gxbb6JYRxw": {
+          "boost": 2
+        }
+      }
+    },
+    {
+      "id": "XrQIQriQGR",
+      "overides": {
+        "D5Ommj0iv": {
+          "boost": 4
+        }
+      }
+    },
+    {
+      "id": "S__HGJYN5V"
+    },
+    {
+      "id": "AlCYTEPhW"
+    },
+    {
+      "id": "xu8XdKNqp",
+      "overides": {
+        "KLZEQSo2L": {
+          "boost": 3
+        }
+      }
+    }
+  ],
+  "order": [
+    {
+      "id": "IGvLQhQlz"
+    },
+    {
+      "id": "MAkE36K_7"
+    }
+  ],
+  "realm": "content",
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "gxhHRBwU9",
+          "IA2rMeBZYW",
+          "gLpFUO7F3",
+          "mfXQdqG3TO",
+          "RqBahOBRSz",
+          "XrQIQriQGR",
+          "S__HGJYN5V",
+          "AlCYTEPhW",
+          "xu8XdKNqp",
+          "IGvLQhQlz",
+          "MAkE36K_7"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "ZRorAbL96Q",
+          "KhQ3IziFJ"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "VRY5tsiDh"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "id": "gZLBaGLkr",
+  "version": 12,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2023-01-31T11:41:05.521Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "VRY5tsiDh",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 11,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 9,
+          "items": [
+            {
+              "id": "gxhHRBwU9",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "IA2rMeBZYW",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "gLpFUO7F3",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "mfXQdqG3TO",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "RqBahOBRSz",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "XrQIQriQGR",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "S__HGJYN5V",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "AlCYTEPhW",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "xu8XdKNqp",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 2,
+          "items": [
+            {
+              "id": "ZRorAbL96Q",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "KhQ3IziFJ",
+              "type": "rulesPresets",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "metadataOverrides": {},
+  "presets": {
+    "exclude": [
+      {
+        "id": "ZRorAbL96Q"
+      },
+      {
+        "id": "KhQ3IziFJ"
+      }
+    ]
+  }
+}

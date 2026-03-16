@@ -1,0 +1,82 @@
+{
+  "id": "VaVcnXzBv",
+  "active": true,
+  "title": "storieCommoventi",
+  "description": "",
+  "reference": "storieCommoventi",
+  "propertyId": "zlqQNxLcGh",
+  "blockId": "P2T9xm1_w8",
+  "variants": [],
+  "params": {
+    "timeout": 1500,
+    "cacheConfig": {
+      "cache": false,
+      "cacheTTL": 300,
+      "cachePrefix": {
+        "group": true,
+        "static": "endpoint",
+        "keys": []
+      },
+      "computeKeys": [
+        "page",
+        "hitsPerPage",
+        "startBlock",
+        "endBlock",
+        "geolocation"
+      ]
+    }
+  },
+  "paramsId": "playDefault",
+  "input": {},
+  "output": {
+    "decorators": [
+      "mU5ep6Aze"
+    ]
+  },
+  "version": 3,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-06-11T08:49:27.581Z"
+  },
+  "refs": {
+    "belongs": [],
+    "require": [
+      {
+        "type": "blocks",
+        "items": [
+          "P2T9xm1_w8"
+        ]
+      },
+      {
+        "type": "params",
+        "items": [
+          "playDefault"
+        ]
+      },
+      {
+        "type": "decorators",
+        "items": [
+          "mU5ep6Aze"
+        ]
+      },
+      {
+        "type": "conversionPacks",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  },
+  "haveScheduledVariants": 0,
+  "prevReference": "storieCommoventi"
+}

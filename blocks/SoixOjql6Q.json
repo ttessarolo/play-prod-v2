@@ -1,0 +1,147 @@
+{
+  "id": "SoixOjql6Q",
+  "propertyId": "zlqQNxLcGh",
+  "title": "Default",
+  "description": "Please Edit description for Page \"Default\"",
+  "enabledPagesId": [
+    "RMr3U8Unm"
+  ],
+  "isPage": true,
+  "blocks": [
+    {
+      "id": "nAdINoK8D",
+      "condition": "*",
+      "title": "test article",
+      "type": "nested",
+      "layout": {
+        "i": "nAdINoK8D",
+        "w": 12,
+        "h": 30
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "QTRufiL7Rc"
+    }
+  ],
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-10-29T16:07:01.651Z"
+  },
+  "version": 2,
+  "refs": {
+    "belongs": [
+      {
+        "type": "endpoints",
+        "items": [
+          "RMr3U8Unm"
+        ]
+      }
+    ],
+    "require": [
+      {
+        "type": "queries",
+        "items": []
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "Rc1YEkVxO",
+          "QTRufiL7Rc"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 2,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 2,
+          "items": [
+            {
+              "id": "Rc1YEkVxO",
+              "type": "blocks"
+            },
+            {
+              "id": "QTRufiL7Rc",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "layout": [
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 0,
+      "i": "nAdINoK8D",
+      "moved": false,
+      "static": false
+    }
+  ],
+  "results": {
+    "fallbackBlockId": "Rc1YEkVxO",
+    "fullSubstituteFallback": true
+  }
+}

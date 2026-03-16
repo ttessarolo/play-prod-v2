@@ -1,0 +1,98 @@
+{
+  "title": "Rule Genere Patemico Comico Commedia",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "Comico Commedia",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "generepatemico",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "jl0mZa5lr",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "clauses": [
+    "filter",
+    "boost",
+    "include",
+    "exclude"
+  ],
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "e5VXFM3VPh",
+          "CDsTVvCvs",
+          "Ly04WXzqgZ",
+          "Td9MT7WjJ",
+          "Gs2DZhmnXF",
+          "T6GgclYgM"
+        ]
+      }
+    ]
+  },
+  "id": "LitJmvyZa",
+  "version": 2,
+  "lastSaved": {
+    "username": "laura.radice",
+    "date": "2021-09-08T14:02:06.371Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": []
+}

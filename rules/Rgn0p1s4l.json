@@ -1,0 +1,105 @@
+{
+  "title": "Rule Similar Tipologia Sport",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "keepOrder": true,
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "I2I",
+      "value": "video_similar_sport",
+      "valueType": "metadata",
+      "queryType": "ids",
+      "field": "video_content_id",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "Aa3isA6MH"
+    }
+  ],
+  "clauses": [
+    "include"
+  ],
+  "metadata": {
+    "content_similar": {
+      "required": true,
+      "output": "video_similar_sport",
+      "metadata": {
+        "included": [
+          "tipologia=Sport",
+          "editorial_type=(Clip) OR (Full Episode)",
+          "content_channels=MediasetPlay"
+        ],
+        "excluded": [
+          "codice_prodotto_padre"
+        ]
+      },
+      "date": {
+        "absolute": true,
+        "range": 2,
+        "period": "w",
+        "field": "publication_date"
+      },
+      "fingerprint": {
+        "matchFields": [
+          "fingerprint"
+        ]
+      }
+    }
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "eYuL4ML7TS",
+          "YLPLAtYlN"
+        ]
+      }
+    ]
+  },
+  "id": "Rgn0p1s4l",
+  "version": 2,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-03-29T17:13:25.146Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 1,
+          "items": [
+            {
+              "id": "eYuL4ML7TS",
+              "type": "queries",
+              "title": "Query Similar Sport"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 1,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "title": "🫆 PLAY:REDUCED:FINGERPRINT:TEST",
+  "description": "Test Loader for Reduced Fingerprint",
+  "queue": "play-prod-v2:users:reduced:fingerprint",
+  "index": "utenti_fgpt_reduced",
+  "idField": "user_id",
+  "label": "__eK0_jTf",
+  "schema": {
+    "input": "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"User Data Schema\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"user_id\": {\n      \"type\": \"string\"\n    },\n    \"video_watched_w_ts\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"object\",\n        \"properties\": {\n          \"id\": {\n            \"type\": \"string\"\n          },\n          \"ts\": {\n            \"type\": \"string\",\n            \"format\": \"date-time\"\n          }\n        },\n        \"required\": [\"id\", \"ts\"],\n        \"additionalProperties\": false\n      }\n    },\n    \"video_aborted_w_ts\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"object\",\n        \"properties\": {\n          \"id\": {\n            \"type\": \"string\"\n          },\n          \"ts\": {\n            \"type\": \"string\",\n            \"format\": \"date-time\"\n          }\n        },\n        \"required\": [\"id\", \"ts\"],\n        \"additionalProperties\": false\n      }\n    },\n    \"video_keep_watching_w_ts\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"object\",\n        \"properties\": {\n          \"id\": {\n            \"type\": \"string\"\n          },\n          \"ts\": {\n            \"type\": \"string\",\n            \"format\": \"date-time\"\n          }\n        },\n        \"required\": [\"id\", \"ts\"],\n        \"additionalProperties\": false\n      }\n    },\n    \"video_historical_fingerprint\": {\n      \"type\": \"string\"\n    },\n    \"reduced_video_historical_fingerprint\": {\n      \"type\": \"string\"\n    },\n    \"lastARESLoaderModified\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\"\n    }\n  },\n  \"required\": [\"user_id\"],\n  \"additionalProperties\": false\n}\n"
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "labels",
+        "items": [
+          "wvWb0c63u"
+        ]
+      }
+    ],
+    "belongs": []
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "labels",
+          "count": 1,
+          "items": [
+            {
+              "id": "wvWb0c63u",
+              "type": "labels",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "active": true,
+  "tokens": [
+    "H4sIAAAAAAAAAzXKMQuCQBxA8e%2Fy5rvQC8v%2BY1DR0lBHUOIgnkYkKnJ5RfTdw6HhwW94H5q7Q1i3Fzeey8cNhW89Qt8Ub90PndOjQdGFFuFo92I3Jyvbw2466wHJckX1qv7oEUxkFjpaahNbE8t8JUk6S9L0iqIoPZIRUDgUz6lA%2Fv0BtRPHR4kAAAA%3D"
+  ],
+  "id": "BnYdvVckg",
+  "version": 1,
+  "lastSaved": {
+    "username": "ttessarolo",
+    "date": "2025-07-21T15:40:01.698Z"
+  }
+}

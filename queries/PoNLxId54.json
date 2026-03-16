@@ -1,0 +1,150 @@
+{
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "rF9k3yyPZ"
+    },
+    {
+      "id": "YMaH2tPZC"
+    },
+    {
+      "id": "GETZ802mK"
+    },
+    {
+      "id": "Lev6cIuhq"
+    },
+    {
+      "id": "ssdeTHIxc"
+    },
+    {
+      "id": "JRuv8vnEl"
+    }
+  ],
+  "exclude": [
+    {
+      "id": "aNHO5E_ne"
+    }
+  ],
+  "include": [],
+  "boost": [],
+  "order": [
+    {
+      "id": "o9HGEr9up"
+    }
+  ],
+  "realm": "content",
+  "title": "Similar Next video Spagna Ep successivo",
+  "description": "",
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "rF9k3yyPZ",
+          "YMaH2tPZC",
+          "GETZ802mK",
+          "Lev6cIuhq",
+          "ssdeTHIxc",
+          "JRuv8vnEl",
+          "aNHO5E_ne",
+          "o9HGEr9up"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "iMUW89z18U"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "iMUW89z18U",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 7,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 7,
+          "items": [
+            {
+              "id": "rF9k3yyPZ",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "YMaH2tPZC",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "GETZ802mK",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "Lev6cIuhq",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "ssdeTHIxc",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "aNHO5E_ne",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "o9HGEr9up",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "id": "PoNLxId54",
+  "version": 7,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-03-05T16:38:22.211Z"
+  },
+  "metadataOverrides": {}
+}

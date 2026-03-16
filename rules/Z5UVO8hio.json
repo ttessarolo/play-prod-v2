@@ -1,0 +1,69 @@
+{
+  "title": "Rule Boost Categorie critiche storiche",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "categoriecritichestoriche",
+      "valueType": "metadata",
+      "queryType": "matchFromArray",
+      "field": "categoriecritichestoriche",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "vtLtLHhKm"
+    }
+  ],
+  "clauses": [
+    "boost"
+  ],
+  "metadata": {
+    "content": true
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": []
+  },
+  "id": "Z5UVO8hio",
+  "version": 2,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-06-12T13:45:04.354Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  }
+}

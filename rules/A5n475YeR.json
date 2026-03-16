@@ -1,0 +1,395 @@
+{
+  "title": "Rule Piu visti 24h Always",
+  "description": "",
+  "contentType": "video",
+  "clauses": [
+    "order"
+  ],
+  "rule": [
+    {
+      "condition": "*",
+      "boost": 1,
+      "type": "I2I",
+      "_id": "VqSzCMaYe",
+      "sortOrder": "desc",
+      "sortMode": "avg",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": [
+              {
+                "type": "metadata",
+                "value": ""
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ],
+            "id": "ywhZt1VpQG"
+          }
+        ]
+      },
+      "field": "last24h_videoviews",
+      "fieldDBType": "long",
+      "queryType": "sortOrder",
+      "API": "V2",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "field": "last24h_videoviews",
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "smEuLKmQtT",
+          "ZRGcMAnsL",
+          "ubigd5wChi",
+          "aPpgfgCvJy",
+          "IN_VtB1yk",
+          "HWJT1cPPY",
+          "s1zg4_4pH",
+          "uUJ4hfCDig",
+          "bOnJl04URI",
+          "PoGtOonWm",
+          "wlooGCozMD",
+          "pNmPWjxre",
+          "Z5PVWp8fG",
+          "Bmmb_X6oxW",
+          "smVITPQ7Q",
+          "BS1LYQUhG",
+          "Y3Ko1EEsco",
+          "M4d1BL7df",
+          "ZWp_WOb5a3",
+          "TUEwHugpG",
+          "xQZzlMyWn",
+          "OFJfHmsz5",
+          "dwZ0qqYYpq",
+          "u8IIXQT9v",
+          "VPCz1frwh",
+          "xe_zUdYnf",
+          "sSJKqI_d5",
+          "KJfmYqosr",
+          "jdnnllcxm",
+          "WsAxg5DEF",
+          "DH6QDWCTHE",
+          "qnEDrWjeg",
+          "DfAJs6epYQ",
+          "kwDHvPZHJ1",
+          "WPl6VDGVC",
+          "PbWq9UplH",
+          "Bd_D1xwYT",
+          "I4CroOsh9i",
+          "YsF6lF5pCC",
+          "QniVzl_vg",
+          "OrpWHvd2JE",
+          "szkQ5qxWx",
+          "EunqfeQqG",
+          "r3UuPrHFa3",
+          "ZXzhs1rr4",
+          "DViHOhZEw",
+          "SXxlzld0A0",
+          "oBvzKyfF6",
+          "UQJXXpvIu",
+          "olTmQaj8i",
+          "fU8UHr5Td",
+          "KFrd0k5xX",
+          "_MhAmoqgA",
+          "TuLnMyRO6r",
+          "sJQMmhHHE",
+          "n34TQOZcMI",
+          "LFRatKHdi",
+          "yxFAZhBMq",
+          "wBqjRIpLT",
+          "Sm_6fxZYb",
+          "LQNTpN5LdF",
+          "yHKYscQUvt",
+          "xhXKgqHLs",
+          "Oo7bQ3Dg8Z",
+          "dLoPEBrcJd",
+          "UzwyXBtrD",
+          "z4cKov4kQ",
+          "dsgyKDyMs",
+          "Hx2MoUuC4",
+          "Vegj8XiOcr",
+          "Alu6uP5f6",
+          "div23Vxzv",
+          "zfEqUdL_n",
+          "gcQgVKXeZ",
+          "crNss9ZoJ",
+          "baxaNx1MU",
+          "hlVeeW3f2",
+          "CDsTVvCvs",
+          "Ly04WXzqgZ",
+          "Td9MT7WjJ",
+          "Gs2DZhmnXF",
+          "dOLvfVNVS",
+          "_4B6SzEZy",
+          "IuO6CmHVV",
+          "luXgVBWl6",
+          "_oPkRZjuW",
+          "YY_osrxFBI",
+          "gJthFqC_H",
+          "ub3yV4gS6",
+          "dozi3IMou",
+          "G2Pc_vyqd",
+          "R2gramigsK",
+          "hcoUNChdN",
+          "BVyzpjtqc",
+          "T6GgclYgM",
+          "A6FHuXLjp",
+          "PpdrrVxDc",
+          "LjCTWPXAo",
+          "HYBQYXPrar",
+          "lM4eMA8k_",
+          "kz55YrMHS",
+          "toSpu6fdu"
+        ]
+      }
+    ]
+  },
+  "id": "A5n475YeR",
+  "version": 4,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-04-06T10:01:07.186Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 40,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 40,
+          "items": [
+            {
+              "id": "HWJT1cPPY",
+              "type": "queries",
+              "title": "Query Film più visti 24h"
+            },
+            {
+              "id": "VPCz1frwh",
+              "type": "queries",
+              "title": "Query Film più visti 24h Person to Content"
+            },
+            {
+              "id": "bOnJl04URI",
+              "type": "queries",
+              "title": "Query Più visti del giorno 24h"
+            },
+            {
+              "id": "PoGtOonWm",
+              "type": "queries",
+              "title": "Query Programmi TV Clip 24h Blocco 1"
+            },
+            {
+              "id": "wlooGCozMD",
+              "type": "queries",
+              "title": "Query Programmi TV Clip 24h Blocco 2"
+            },
+            {
+              "id": "u8IIXQT9v",
+              "type": "queries",
+              "title": "Query Programmi TV Clip 24h"
+            },
+            {
+              "id": "KJfmYqosr",
+              "type": "queries",
+              "title": "Query Default Search Video"
+            },
+            {
+              "id": "s1zg4_4pH",
+              "type": "queries",
+              "title": "Query Generi per Parametri Documentari"
+            },
+            {
+              "id": "IN_VtB1yk",
+              "type": "queries",
+              "title": "Query Film Documentari"
+            },
+            {
+              "id": "aPpgfgCvJy",
+              "type": "queries",
+              "title": "Query Documentari più visti 24h"
+            },
+            {
+              "id": "uUJ4hfCDig",
+              "type": "queries",
+              "title": "Query Kids Boing Più visti 24H"
+            },
+            {
+              "id": "ZRGcMAnsL",
+              "type": "queries",
+              "title": "Query Kids Cartoonito Più visti 24H"
+            },
+            {
+              "id": "ubigd5wChi",
+              "type": "queries",
+              "title": "Query Kids Evergreen Più visti 24H"
+            },
+            {
+              "id": "AQ0EW0owXS",
+              "type": "queries",
+              "title": "Query Generi per Parametri Programmi TV"
+            },
+            {
+              "id": "CAd6ogG7u",
+              "type": "queries",
+              "title": "Query Programmi TV Prima Serata Blocco 1"
+            },
+            {
+              "id": "TLxbxZNoD",
+              "type": "queries",
+              "title": "Query Programmi TV Prima Serata Blocco 2"
+            },
+            {
+              "id": "uk8fnabnQY",
+              "type": "queries",
+              "title": "Query Programmi TV Prima Serata Blocco 3"
+            },
+            {
+              "id": "_YcmnLaH4",
+              "type": "queries",
+              "title": "Query Programmi TV In primo piano Blocco 1"
+            },
+            {
+              "id": "hbPc0tj9I",
+              "type": "queries",
+              "title": "Query Programmi TV In primo piano Blocco 2"
+            },
+            {
+              "id": "hn5iFhhbZ",
+              "type": "queries",
+              "title": "Query Programmi TV In primo piano Blocco 3"
+            },
+            {
+              "id": "qOqWHDpaC",
+              "type": "queries",
+              "title": "Query Fiction e Serie TV del momento Blocco 1"
+            },
+            {
+              "id": "cOZWtR5QFk",
+              "type": "queries",
+              "title": "Query Fiction e Serie TV del momento Blocco 2"
+            },
+            {
+              "id": "aTlHoTaH0",
+              "type": "queries",
+              "title": "Query Fiction e Serie TV del momento Blocco 3"
+            },
+            {
+              "id": "kz55YrMHS",
+              "type": "queries",
+              "title": "INF Film Più visti 24h"
+            },
+            {
+              "id": "teSxvE1Cm",
+              "type": "queries",
+              "title": "INF Film Più visti 24h Blocco 2"
+            },
+            {
+              "id": "DH6QDWCTHE",
+              "type": "queries",
+              "title": "Query Stagioni Kids Più Visti 24h"
+            },
+            {
+              "id": "rkiCo37Zx",
+              "type": "queries",
+              "title": "Query Fiction e Soap Blocco 1"
+            },
+            {
+              "id": "_v4wfuHNr",
+              "type": "queries",
+              "title": "Query Fiction e Soap Blocco 2"
+            },
+            {
+              "id": "Z5PVWp8fG",
+              "type": "queries",
+              "title": "Query Fiction e Soap Blocco 3"
+            },
+            {
+              "id": "Bmmb_X6oxW",
+              "type": "queries",
+              "title": "Query Fiction e Soap Blocco 4"
+            },
+            {
+              "id": "zfEqUdL_n",
+              "type": "queries",
+              "title": "Query Serie TV Channel Mediaset Play "
+            },
+            {
+              "id": "xQZzlMyWn",
+              "type": "queries",
+              "title": "Query Serie TV Channel Mediaset Play e Infinity"
+            },
+            {
+              "id": "TUEwHugpG",
+              "type": "queries",
+              "title": "TVOD Più noleggiati"
+            },
+            {
+              "id": "smVITPQ7Q",
+              "type": "queries",
+              "title": "Query Play Cult Più visti 24h"
+            },
+            {
+              "id": "YsF6lF5pCC",
+              "type": "queries",
+              "title": "Query Più visti 24H L'Isola dei famosi"
+            },
+            {
+              "id": "sSJKqI_d5",
+              "type": "queries",
+              "title": "INF Generi per Parametri Serie Blocco 3"
+            },
+            {
+              "id": "toSpu6fdu",
+              "type": "queries",
+              "title": "INF Serie Top viewed 24H"
+            },
+            {
+              "id": "s6Gij1X5i",
+              "type": "queries",
+              "title": "INF Serie Top viewed 24H Blocco 2"
+            },
+            {
+              "id": "_s_m7kglK",
+              "type": "queries",
+              "title": "TVOD Film in offerta"
+            },
+            {
+              "id": "skE6ZZaHs",
+              "type": "queries",
+              "title": "Home Pay Generi per Parametri Film Blocco 2"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 1,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "scheduled": 0,
+  "scheduling": [],
+  "schedulingMap": [],
+  "realm": "content"
+}

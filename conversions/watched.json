@@ -1,0 +1,38 @@
+{
+  "title": "Watched conversion",
+  "description": "",
+  "label": "watched",
+  "id": "watched",
+  "scope": "item",
+  "version": 5,
+  "lastSaved": {
+    "username": "ttessarolo",
+    "date": "2023-04-21T08:20:04.971Z"
+  },
+  "refs": {
+    "belongs": []
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  },
+  "historicized": true,
+  "include": {
+    "context": true
+  },
+  "whiteList": {
+    "context": {
+      "platform": [],
+      "features_subscription_cluster": []
+    },
+    "params": {}
+  }
+}

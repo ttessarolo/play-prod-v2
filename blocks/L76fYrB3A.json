@@ -1,0 +1,219 @@
+{
+  "id": "L76fYrB3A",
+  "propertyId": "rrjMTUmyqd",
+  "title": "chnlsDefault",
+  "description": "Please Edit description for Page \"Variant 5\"",
+  "enabledPagesId": [
+    "Gw6akjKa4a"
+  ],
+  "isPage": true,
+  "blocks": [
+    {
+      "id": "ogzCcooqX2",
+      "condition": "*",
+      "title": "Le serie più cercate",
+      "type": "nested",
+      "layout": {
+        "i": "ogzCcooqX2",
+        "x": 0,
+        "y": 1,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "V8fuaquogZ",
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "searchDetailParams": {
+          "params": "variant≈{variant};channel≈{channel}",
+          "property": "search",
+          "uxReference": "detail",
+          "variant": "infSearchedSerie"
+        }
+      }
+    },
+    {
+      "id": "oBhiuytRl",
+      "condition": "*",
+      "title": "I film più cercati",
+      "type": "nested",
+      "layout": {
+        "i": "oBhiuytRl",
+        "x": 0,
+        "y": 2,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "m0fY0CpslB",
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "searchDetailParams": {
+          "uxReference": "detail",
+          "property": "search",
+          "params": "variant≈{variant};channel≈{channel}",
+          "variant": "infSearchedFilm"
+        }
+      }
+    }
+  ],
+  "version": 11,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2023-03-29T08:19:42.377Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "endpoints",
+        "items": [
+          "Gw6akjKa4a"
+        ]
+      }
+    ],
+    "require": [
+      {
+        "type": "queries",
+        "items": []
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "AwF1CRpxF",
+          "V8fuaquogZ",
+          "m0fY0CpslB"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "Gw6akjKa4a",
+              "type": "endpoints",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 3,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 3,
+          "items": [
+            {
+              "id": "AwF1CRpxF",
+              "type": "blocks"
+            },
+            {
+              "id": "V8fuaquogZ",
+              "type": "blocks"
+            },
+            {
+              "id": "m0fY0CpslB",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": [],
+  "layout": [
+    {
+      "i": "ogzCcooqX2",
+      "x": 0,
+      "y": 1,
+      "w": 12,
+      "h": 30,
+      "blocks": []
+    },
+    {
+      "i": "oBhiuytRl",
+      "x": 0,
+      "y": 2,
+      "w": 12,
+      "h": 30,
+      "blocks": []
+    }
+  ],
+  "results": {
+    "fallbackBlockId": "AwF1CRpxF",
+    "fullSubstituteFallback": true
+  },
+  "fullSubstituteFallback": true
+}

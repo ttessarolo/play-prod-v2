@@ -1,0 +1,45 @@
+{
+  "title": "Lista Tipologia Programmi e Serie per Search",
+  "description": "",
+  "type": "text",
+  "contentType": "video",
+  "realm": "content",
+  "elements": [
+    "Cartoni",
+    "Documentari",
+    "Fiction",
+    "Informazione",
+    "Intrattenimento",
+    "Serie TV",
+    "Sport",
+    "TG"
+  ],
+  "id": "gF7tjssiOL",
+  "version": 2,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2023-01-18T16:43:01.536Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "rules",
+        "items": [
+          "gLpFUO7F3"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  }
+}

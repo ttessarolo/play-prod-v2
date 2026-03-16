@@ -1,0 +1,207 @@
+{
+  "title": "SNAP Query Similar Intrattenimento Stesso Brand",
+  "description": "Utilizzato in property 'snapshot'",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "YMaH2tPZC"
+    }
+  ],
+  "exclude": [
+    {
+      "id": "uB1vEod_9"
+    }
+  ],
+  "include": [
+    {
+      "id": "BIZvf_IY2c"
+    },
+    {
+      "id": "fAswzMIfc"
+    }
+  ],
+  "boost": [
+    {
+      "id": "d2xM8JomBl"
+    },
+    {
+      "id": "V0o_Ar6Kt",
+      "overides": {
+        "QP40QdmIJ": {
+          "boost": 10
+        }
+      }
+    },
+    {
+      "id": "SYrAp4NDd"
+    }
+  ],
+  "order": [],
+  "realm": "content",
+  "presets": {
+    "filter": [],
+    "exclude": []
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "YMaH2tPZC",
+          "uB1vEod_9",
+          "BIZvf_IY2c",
+          "fAswzMIfc",
+          "d2xM8JomBl",
+          "V0o_Ar6Kt",
+          "SYrAp4NDd"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "kHVcIz6OJ"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1,
+    "mustOperator": "or"
+  },
+  "id": "wLOGym_XT",
+  "version": 13,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2022-11-07T14:53:33.925Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 7,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 7,
+          "items": [
+            {
+              "id": "YMaH2tPZC",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "uB1vEod_9",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "BIZvf_IY2c",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "fAswzMIfc",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "d2xM8JomBl",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "V0o_Ar6Kt",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "SYrAp4NDd",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "uselessMultiplier": false,
+  "metadataOverrides": {
+    "fAswzMIfc": {
+      "content_similar": {
+        "required": true,
+        "output": "video_similar_ids_same_clip",
+        "numResults": 50,
+        "metadata": {
+          "included": [
+            "id_series_se",
+            "editorial_type=(Clip) OR (Extra)",
+            "content_channels"
+          ]
+        },
+        "date": {
+          "range": 18,
+          "period": "M",
+          "field": "publication_date",
+          "absolute": false
+        },
+        "fingerprint": {
+          "matchFields": [
+            "fingerprint"
+          ]
+        }
+      }
+    },
+    "BIZvf_IY2c": {
+      "content_similar": {
+        "required": true,
+        "output": "video_similar_ids_same_fep",
+        "numResults": 50,
+        "metadata": {
+          "included": [
+            "editorial_type=Full Episode",
+            "id_series_se",
+            "content_channels"
+          ],
+          "excluded": [
+            "subbrand_id",
+            "codice_prodotto_padre"
+          ]
+        },
+        "date": {
+          "range": 18,
+          "period": "M",
+          "field": "publication_date",
+          "absolute": false
+        },
+        "fingerprint": {
+          "matchFields": [
+            "fingerprint"
+          ]
+        },
+        "groupby": {
+          "metadata": "subbrand_id",
+          "results": 1,
+          "sortMetadata": "",
+          "sortDirection": "asc"
+        }
+      }
+    }
+  }
+}

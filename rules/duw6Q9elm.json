@@ -1,0 +1,166 @@
+{
+  "clauses": [
+    "filter"
+  ],
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "(!isEmpty(params_channel))",
+      "boost": 1,
+      "type": "",
+      "value": "params_channel",
+      "valueType": "metadata",
+      "queryType": "matchFromArray",
+      "field": "content_channels",
+      "fieldNested": 0,
+      "fieldDBType": "text",
+      "_id": "TM3Tb0Oqt",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "!isEmpty",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "params_channel"
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ],
+            "id": "fuITRy2L4C"
+          }
+        ]
+      },
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "title": "Rule Search Params Channel",
+  "description": "",
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": []
+      }
+    ]
+  },
+  "id": "duw6Q9elm",
+  "version": 7,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-07-07T15:48:50.583Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 14,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 14,
+          "items": [
+            {
+              "id": "FXJ2KlZhgq",
+              "type": "queries",
+              "title": "CHNLS All Movies ParamsChannel"
+            },
+            {
+              "id": "P6UulTcyj",
+              "type": "queries",
+              "title": "CHNLS All Movies ParamsChannel Top"
+            },
+            {
+              "id": "QU1_KH19O",
+              "type": "queries",
+              "title": "CHNLS All Series ParamsChannel"
+            },
+            {
+              "id": "KnjGSCyiX",
+              "type": "queries",
+              "title": "CHNLS All Series ParamsChannel Top"
+            },
+            {
+              "id": "hoeYnq5f6",
+              "type": "queries",
+              "title": "CHNLS Movie Most Recent ParamsChannel"
+            },
+            {
+              "id": "q3JzVcUsf",
+              "type": "queries",
+              "title": "CHNLS Movie Top Viewed 24h ParamsChannel Top"
+            },
+            {
+              "id": "pHwVQGHS7",
+              "type": "queries",
+              "title": "CHNLS Params Genre Film"
+            },
+            {
+              "id": "YctY14hyPa",
+              "type": "queries",
+              "title": "CHNLS Params Genre Film Top"
+            },
+            {
+              "id": "lqIeDJkxU",
+              "type": "queries",
+              "title": "CHNLS Params Genre Serie"
+            },
+            {
+              "id": "XCTJ5Ut99",
+              "type": "queries",
+              "title": "CHNLS Params Genre Serie Top"
+            },
+            {
+              "id": "_izzlx6HS7",
+              "type": "queries",
+              "title": "CHNLS Movie Top Viewed 24h ParamsChannel"
+            },
+            {
+              "id": "jdnnllcxm",
+              "type": "queries",
+              "title": "CHNLS Serie Top Viewed 24h ParamsChannel Top"
+            },
+            {
+              "id": "KrpLhTmP9",
+              "type": "queries",
+              "title": "CHNLS Serie Top Viewed 24h ParamsChannel"
+            },
+            {
+              "id": "rLEr8BHuw",
+              "type": "queries",
+              "title": "CHNLS Serie Fep Most Recent ParamsChannel"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 1,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": [],
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": []
+}

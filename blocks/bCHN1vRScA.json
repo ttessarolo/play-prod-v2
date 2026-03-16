@@ -1,0 +1,247 @@
+{
+  "refs": {
+    "require": [
+      {
+        "type": "queries",
+        "items": [
+          "toSpu6fdu",
+          "HWJT1cPPY",
+          "VaFxBerr6",
+          "u8IIXQT9v",
+          "IN_VtB1yk"
+        ]
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "ZKixtOJkR"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": [
+          "eOaXizx_"
+        ]
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "iETDJq7dJ"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "pages",
+          "count": 1,
+          "items": [
+            {
+              "variantId": "iETDJq7dJ",
+              "propertyId": "zlqQNxLcGh",
+              "propertyTitle": "",
+              "endpointId": "JuhgwrBdNL",
+              "endpointTitle": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 7,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 5,
+          "items": [
+            {
+              "id": "toSpu6fdu",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "HWJT1cPPY",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "VaFxBerr6",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "u8IIXQT9v",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "IN_VtB1yk",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "ZKixtOJkR",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 1,
+          "items": [
+            {
+              "id": "eOaXizx_",
+              "type": "responseFields",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "results": {
+    "flatAllBlocks": true,
+    "min": 0,
+    "fallbackBlockId": "ZKixtOJkR",
+    "max": 26,
+    "deduplicateFlattedResults": true
+  },
+  "blocks": [
+    {
+      "_id": "MjW7dB_5N",
+      "condition": "*",
+      "title": "Serie",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 5,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true
+      },
+      "queryId": "toSpu6fdu"
+    },
+    {
+      "_id": "BsKUyhkMT",
+      "condition": "*",
+      "title": "Film",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 5,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true
+      },
+      "queryId": "HWJT1cPPY"
+    },
+    {
+      "_id": "CW2txB3SH",
+      "condition": "*",
+      "title": "Stagioni",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 5,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true
+      },
+      "queryId": "VaFxBerr6"
+    },
+    {
+      "_id": "BXx0kngYs",
+      "condition": "*",
+      "title": "Clip",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 5,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true
+      },
+      "queryId": "u8IIXQT9v"
+    },
+    {
+      "_id": "mFkNetpse",
+      "condition": "*",
+      "title": "Full episode",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 8,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true
+      },
+      "queryId": "IN_VtB1yk"
+    }
+  ],
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "realm": "content",
+  "title": "Block Test Mixed Component",
+  "description": "Per test component con contenuti misti",
+  "id": "bCHN1vRScA",
+  "version": 19,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2025-04-16T09:35:40.737Z"
+  }
+}

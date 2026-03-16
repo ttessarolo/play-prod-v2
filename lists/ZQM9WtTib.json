@@ -1,0 +1,32 @@
+{
+  "title": "Lista Editorial Type Movie Fep",
+  "description": "",
+  "contentType": "video",
+  "type": "text",
+  "elements": [
+    "Full Episode",
+    "Movie"
+  ],
+  "id": "ZQM9WtTib",
+  "version": 7,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-04-22T08:12:39.633Z"
+  },
+  "refs": {
+    "belongs": []
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  },
+  "realm": "content"
+}

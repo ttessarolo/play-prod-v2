@@ -1,0 +1,165 @@
+{
+  "id": "F_fwHp_Hq",
+  "propertyId": "zlqQNxLcGh",
+  "title": "Similar Sport",
+  "description": "Please Edit description for Page \"Default\"",
+  "enabledPagesId": [
+    "HHb0YGlvS"
+  ],
+  "isPage": true,
+  "blocks": [
+    {
+      "id": "V6OUsdFJWo",
+      "condition": "*",
+      "title": "Similar Sport",
+      "type": "nested",
+      "layout": {
+        "i": "V6OUsdFJWo",
+        "w": 12,
+        "h": 30
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "ER9ytvdX2t"
+    }
+  ],
+  "version": 10,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2023-03-29T08:52:58.538Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "endpoints",
+        "items": [
+          "HHb0YGlvS"
+        ]
+      }
+    ],
+    "require": [
+      {
+        "type": "queries",
+        "items": []
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "Rft5zalrE5",
+          "ER9ytvdX2t"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "HHb0YGlvS",
+              "type": "endpoints",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 2,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 2,
+          "items": [
+            {
+              "id": "Rft5zalrE5",
+              "type": "blocks"
+            },
+            {
+              "id": "ER9ytvdX2t",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "layout": [
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 0,
+      "i": "V6OUsdFJWo",
+      "moved": false,
+      "static": false
+    }
+  ],
+  "results": {
+    "fallbackBlockId": "Rft5zalrE5",
+    "fullSubstituteFallback": true
+  },
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": [],
+  "realm": "content",
+  "fullSubstituteFallback": true
+}

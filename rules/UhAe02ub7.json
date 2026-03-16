@@ -1,0 +1,126 @@
+{
+  "title": "Rule Stagioni Serie TV del momento Fake similar",
+  "description": "",
+  "contentType": "video",
+  "clauses": [
+    "filter",
+    "include"
+  ],
+  "rule": [
+    {
+      "keepOrder": true,
+      "API": "V2",
+      "condition": "*",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "I2I",
+      "value": "video_similar_ids_serietv_fake",
+      "valueType": "metadata",
+      "queryType": "ids",
+      "field": "video_content_id",
+      "fieldDBType": "keyword",
+      "_id": "mRYNsyj7C"
+    }
+  ],
+  "field": "video_content_id",
+  "metadata": {
+    "content_similar": {
+      "required": true,
+      "output": "video_similar_ids_serietv_fake",
+      "metadata": {
+        "included": [
+          "tipologia=Serie TV",
+          "content_channels=(MediasetPlay) OR (Infinity)",
+          "editorial_type=TVSeason"
+        ],
+        "excluded": [
+          "video_format=(4K HDR) OR (4K SDR)"
+        ]
+      },
+      "groupby": {
+        "metadata": "id_series_se",
+        "results": 1,
+        "sortMetadata": "seasons_number",
+        "sortDirection": "desc"
+      },
+      "numResults": 50
+    }
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": []
+      }
+    ]
+  },
+  "id": "UhAe02ub7",
+  "version": 7,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-11-10T13:44:37.516Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 2,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 2,
+          "items": [
+            {
+              "id": "N_80T8VLG",
+              "type": "queries",
+              "title": "Query Serie TV del momento home Free 4"
+            },
+            {
+              "id": "x7_VOViNIL",
+              "type": "queries",
+              "title": "Query Serie TV del momento home Free 3"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "searchMetadata": [
+    "request",
+    "content_similar"
+  ],
+  "includedMetadata": [],
+  "realm": "content"
+}

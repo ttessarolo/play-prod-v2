@@ -1,0 +1,80 @@
+{
+  "title": "INF Film 4K HDR ParamsGenre Primario",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "wfBy1paHlb"
+    },
+    {
+      "id": "Qs0Vux5WH_"
+    },
+    {
+      "id": "D8K2lQMJTq"
+    },
+    {
+      "id": "fknyNP0OE"
+    }
+  ],
+  "exclude": [],
+  "include": [],
+  "boost": [],
+  "order": [
+    {
+      "id": "kOlQwmT1A"
+    }
+  ],
+  "realm": "content",
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "wfBy1paHlb",
+          "Qs0Vux5WH_",
+          "D8K2lQMJTq",
+          "fknyNP0OE",
+          "kOlQwmT1A"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "p2KfQcnFS"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1,
+    "mustOperator": "or"
+  },
+  "id": "XOjkpzI6h6",
+  "version": 12,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2022-12-19T12:28:41.794Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  },
+  "uselessMultiplier": false,
+  "metadataOverrides": {}
+}

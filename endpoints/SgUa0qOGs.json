@@ -1,0 +1,173 @@
+{
+  "refs": {
+    "require": [
+      {
+        "type": "blocks",
+        "items": [
+          "Li5pJmw2Nc"
+        ]
+      },
+      {
+        "type": "params",
+        "items": [
+          "playDefault"
+        ]
+      },
+      {
+        "type": "decorators",
+        "items": []
+      },
+      {
+        "type": "conversionPacks",
+        "items": []
+      }
+    ],
+    "belongs": []
+  },
+  "prevReference": "testEndpoint",
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 2,
+      "types": 4,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "Li5pJmw2Nc",
+              "type": "blocks",
+              "title": "Block stagioni da taggare"
+            }
+          ]
+        },
+        {
+          "type": "params",
+          "count": 1,
+          "items": [
+            {
+              "id": "playDefault",
+              "type": "params",
+              "title": "Play Default"
+            }
+          ]
+        },
+        {
+          "type": "decorators",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "conversionPacks",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "output": {
+    "filters": {
+      "maxFilterPercentage": 100
+    }
+  },
+  "params": {
+    "timeout": 1500,
+    "cacheConfig": {
+      "cache": false,
+      "cacheTTL": 300,
+      "cachePrefix": {
+        "group": true,
+        "static": "endpoint",
+        "keys": []
+      },
+      "computeKeys": [
+        "page",
+        "hitsPerPage",
+        "startBlock",
+        "endBlock"
+      ]
+    }
+  },
+  "active": true,
+  "input": {
+    "schema": {
+      "name": "Input Validation Schema",
+      "description": "ARES Request Params",
+      "type": "object",
+      "required": [
+        "query"
+      ],
+      "properties": {
+        "query": {
+          "type": "object",
+          "required": [
+            "tenant",
+            "uxReference"
+          ],
+          "properties": {
+            "tenant": {
+              "type": "string"
+            },
+            "uxReference": {
+              "type": "string"
+            },
+            "userId": {
+              "type": "string"
+            },
+            "userType": {
+              "type": "string"
+            },
+            "userGroup": {
+              "type": "string"
+            },
+            "deviceId": {
+              "type": "string"
+            },
+            "contentId": {
+              "type": "string"
+            },
+            "sessionId": {
+              "type": "string"
+            },
+            "context": {
+              "type": "string"
+            },
+            "query": {
+              "type": "string"
+            },
+            "startBlock": {
+              "type": "number"
+            },
+            "endBlock": {
+              "type": "number"
+            },
+            "page": {
+              "type": "number"
+            },
+            "hitsPerPage": {
+              "type": "number"
+            }
+          }
+        }
+      }
+    }
+  },
+  "reference": "stagioniDaTaggare",
+  "paramsId": "playDefault",
+  "blockId": "Li5pJmw2Nc",
+  "title": "Stagioni da taggare",
+  "description": "",
+  "id": "SgUa0qOGs",
+  "version": 4,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2023-10-31T13:46:43.684Z"
+  },
+  "sortKey": "Stagioni da taggare",
+  "enableAnalitica": false
+}

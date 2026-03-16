@@ -1,0 +1,262 @@
+{
+  "title": "Rule Top Blockbuster 2020",
+  "description": "Quattro statements in or \nBlockbuster \nproductionvalue \netichetta Top\nAnnoproduzione over 2015 ",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": [
+              {
+                "type": "metadata",
+                "value": ""
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ],
+            "id": "oHKrUuXRX_"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "Blockbuster",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "categoriecritichestoriche",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "IybREig55",
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "greaterOperator": "gte",
+      "API": "V2",
+      "condition": "*",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": [
+              {
+                "type": "metadata",
+                "value": ""
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ],
+            "id": "oHKrUuXRX_"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "2016",
+      "valueType": "freeText",
+      "queryType": "greaterValue",
+      "field": "annoproduzione",
+      "fieldNested": 0,
+      "fieldDBType": "date",
+      "_id": "gZrrc9csu",
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "API": "V2",
+      "condition": "*",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": [
+              {
+                "type": "metadata",
+                "value": ""
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ],
+            "id": "oHKrUuXRX_"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "",
+      "valueType": "",
+      "queryType": "checkExists",
+      "field": "fattoriproductionvalue",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "MpdEm2_m3",
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "API": "V2",
+      "condition": "*",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": [
+              {
+                "type": "metadata",
+                "value": ""
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ],
+            "id": "oHKrUuXRX_"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "Top",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "etichetteEditoriali",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "CH_RDInwz",
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "greaterOperator": "gte",
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "2020",
+      "valueType": "freeText",
+      "queryType": "greaterValue",
+      "field": "annoproduzione",
+      "fieldNested": 0,
+      "fieldDBType": "date",
+      "_id": "a19KypcQV"
+    },
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "Infinity",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "content_channels",
+      "fieldNested": 0,
+      "fieldDBType": "text",
+      "_id": "BwsTOEY6H"
+    },
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "MediasetPlay",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "content_channels",
+      "fieldNested": 0,
+      "fieldDBType": "text",
+      "_id": "GRYPxRojS"
+    },
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "Noleggio",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "content_channels",
+      "fieldNested": 0,
+      "fieldDBType": "text",
+      "_id": "IGuNoO9cv"
+    }
+  ],
+  "clauses": [
+    "include",
+    "boost"
+  ],
+  "scheduled": 0,
+  "scheduling": [],
+  "schedulingMap": [],
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "wZl6yRICv"
+        ]
+      }
+    ]
+  },
+  "id": "na3X_QEwxx",
+  "version": 19,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-06-16T09:58:29.431Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 2,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 2,
+          "items": [
+            {
+              "id": "jO1QhHhsaX",
+              "type": "queries",
+              "title": "Query Film del momento Mplay Infinity Noleggio"
+            },
+            {
+              "id": "wZl6yRICv",
+              "type": "queries",
+              "title": "Query Film del momento Infinity"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 1,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": []
+}

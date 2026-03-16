@@ -1,0 +1,31 @@
+{
+  "title": "Lista ADV Video ContentId Audi",
+  "description": "",
+  "type": "contentId",
+  "contentType": "video",
+  "realm": "content",
+  "elements": [
+    "FD00000000300988"
+  ],
+  "id": "rGtR6JVeR",
+  "version": 3,
+  "lastSaved": {
+    "username": "Massimiliano.Berardi",
+    "date": "2021-07-28T10:18:12.849Z"
+  },
+  "refs": {
+    "belongs": []
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  }
+}

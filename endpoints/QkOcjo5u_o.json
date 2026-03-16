@@ -1,0 +1,232 @@
+{
+  "id": "QkOcjo5u_o",
+  "active": true,
+  "title": "similarTg",
+  "description": "",
+  "reference": "similarTg",
+  "propertyId": "zlqQNxLcGh",
+  "blockId": "eSZgKCzVb",
+  "variants": [
+    {
+      "blockId": "TVb1U063L",
+      "condition": "(equals(video_content_id, \"F313645001470C06\"))",
+      "priority": 1,
+      "active": true,
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "equals",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "video_content_id"
+              },
+              {
+                "value": "\"F313645001470C06\"",
+                "type": "string"
+              }
+            ],
+            "id": "qGsLWRDXlq"
+          }
+        ]
+      },
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "params": {
+    "timeout": 1500,
+    "cacheConfig": {
+      "cache": true,
+      "cacheTTL": 3600,
+      "cachePrefix": {
+        "group": true,
+        "static": "endpoint",
+        "keys": []
+      },
+      "computeKeys": [
+        "page",
+        "hitsPerPage",
+        "startBlock",
+        "endBlock",
+        "contentId",
+        "context"
+      ]
+    },
+    "inveverseCacheConfig": {
+      "cacheTTL": 3600
+    }
+  },
+  "paramsId": "playDefault",
+  "input": {
+    "schema": {
+      "name": "Input Validation Schema",
+      "description": "ARES Request Params",
+      "type": "object",
+      "required": [
+        "query"
+      ],
+      "properties": {
+        "query": {
+          "type": "object",
+          "required": [
+            "tenant",
+            "uxReference"
+          ],
+          "properties": {
+            "tenant": {
+              "type": "string"
+            },
+            "uxReference": {
+              "type": "string"
+            },
+            "userId": {
+              "type": "string"
+            },
+            "userType": {
+              "type": "string"
+            },
+            "userGroup": {
+              "type": "string"
+            },
+            "deviceId": {
+              "type": "string"
+            },
+            "contentId": {
+              "type": "string"
+            },
+            "sessionId": {
+              "type": "string"
+            },
+            "context": {
+              "type": "string"
+            },
+            "query": {
+              "type": "string"
+            },
+            "startBlock": {
+              "type": "number"
+            },
+            "endBlock": {
+              "type": "number"
+            },
+            "page": {
+              "type": "number"
+            },
+            "hitsPerPage": {
+              "type": "number"
+            }
+          }
+        }
+      }
+    },
+    "decorators": [
+      "XIHg_DI92f"
+    ]
+  },
+  "output": {
+    "decorators": [
+      "mU5ep6Aze"
+    ],
+    "filters": {
+      "maxFilterPercentage": 100
+    }
+  },
+  "version": 22,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-04-29T10:56:27.628Z"
+  },
+  "refs": {
+    "belongs": [],
+    "require": [
+      {
+        "type": "blocks",
+        "items": [
+          "eSZgKCzVb",
+          "TVb1U063L"
+        ]
+      },
+      {
+        "type": "params",
+        "items": [
+          "playDefault"
+        ]
+      },
+      {
+        "type": "decorators",
+        "items": [
+          "XIHg_DI92f",
+          "mU5ep6Aze"
+        ]
+      },
+      {
+        "type": "conversionPacks",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 5,
+      "types": 4,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 2,
+          "items": [
+            {
+              "id": "eSZgKCzVb",
+              "type": "blocks"
+            },
+            {
+              "id": "TVb1U063L",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "params",
+          "count": 1,
+          "items": [
+            {
+              "id": "playDefault",
+              "type": "params"
+            }
+          ]
+        },
+        {
+          "type": "decorators",
+          "count": 2,
+          "items": [
+            {
+              "id": "XIHg_DI92f",
+              "type": "decorators"
+            },
+            {
+              "id": "mU5ep6Aze",
+              "type": "decorators"
+            }
+          ]
+        },
+        {
+          "type": "conversionPacks",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "haveScheduledVariants": 0,
+  "prevReference": "similarTg",
+  "enableAnalitica": true,
+  "variantsMetadata": {
+    "content": true
+  },
+  "contentType": "video"
+}

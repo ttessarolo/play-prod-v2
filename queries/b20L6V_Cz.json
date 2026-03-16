@@ -1,0 +1,205 @@
+{
+  "metadataInRules": [
+    "user"
+  ],
+  "title": "Query Person to Content Film",
+  "description": "Carrello film raccomandati per te",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "wfBy1paHlb"
+    },
+    {
+      "id": "83txjtJm"
+    },
+    {
+      "id": "Qs0Vux5WH_"
+    }
+  ],
+  "exclude": [
+    {
+      "id": "JPPMhYAQk"
+    },
+    {
+      "id": "nUNjcCU6f"
+    },
+    {
+      "id": "tBRJIJKy3"
+    },
+    {
+      "id": "PJa1zlP6CP"
+    },
+    {
+      "id": "z5agsWhps"
+    }
+  ],
+  "include": [
+    {
+      "id": "m59b34kOM"
+    }
+  ],
+  "boost": [],
+  "order": [],
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "wfBy1paHlb",
+          "83txjtJm",
+          "Qs0Vux5WH_",
+          "JPPMhYAQk",
+          "nUNjcCU6f",
+          "tBRJIJKy3",
+          "PJa1zlP6CP",
+          "z5agsWhps",
+          "m59b34kOM"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "TuAyi0elu",
+          "ZRorAbL96Q",
+          "KhQ3IziFJ"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "fDgcsNSTO",
+          "JlhUmKmsUd"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1,
+    "mustOperator": "or"
+  },
+  "id": "b20L6V_Cz",
+  "version": 17,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2024-04-03T13:17:46.722Z"
+  },
+  "metadataOverrides": {},
+  "presets": {
+    "filter": [
+      {
+        "id": "TuAyi0elu"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "ZRorAbL96Q"
+      },
+      {
+        "id": "KhQ3IziFJ"
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 2,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 2,
+          "items": [
+            {
+              "id": "fDgcsNSTO",
+              "type": "blocks",
+              "title": ""
+            },
+            {
+              "id": "JlhUmKmsUd",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 11,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 8,
+          "items": [
+            {
+              "id": "wfBy1paHlb",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "83txjtJm",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "Qs0Vux5WH_",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "JPPMhYAQk",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "nUNjcCU6f",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "tBRJIJKy3",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "PJa1zlP6CP",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "m59b34kOM",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 3,
+          "items": [
+            {
+              "id": "TuAyi0elu",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "ZRorAbL96Q",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "KhQ3IziFJ",
+              "type": "rulesPresets",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "uselessMultiplier": false,
+  "realm": "content"
+}

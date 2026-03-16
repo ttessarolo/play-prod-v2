@@ -1,0 +1,20 @@
+{
+  "type": "contentId",
+  "contentType": "video",
+  "realm": "content",
+  "elements": [
+    "7263078",
+    "7260853"
+  ],
+  "title": "Lista Subbrand Id Meteo Regionale",
+  "description": "Lista editoriale contenente i Meteo Regionali",
+  "id": "TwS6kLtiuX",
+  "version": 1,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-03-29T16:47:49.076Z"
+  },
+  "refs": {
+    "belongs": []
+  }
+}

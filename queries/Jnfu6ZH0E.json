@@ -1,0 +1,305 @@
+{
+  "title": "Query Similar Cartoni",
+  "description": "Similar finalizzata al GUARDA ANCHE dei CARTONI ANIMATI\n",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "YMaH2tPZC"
+    },
+    {
+      "id": "KukwdwFDvb"
+    }
+  ],
+  "exclude": [],
+  "include": [
+    {
+      "id": "Fz7BooszQ"
+    },
+    {
+      "id": "Lz91hr8cBF"
+    }
+  ],
+  "boost": [
+    {
+      "id": "SYrAp4NDd"
+    },
+    {
+      "id": "nCRmJzUuG",
+      "overides": {
+        "tYeu208Fm": {
+          "boost": 10
+        }
+      }
+    },
+    {
+      "id": "WkXu_7jnp",
+      "overides": {
+        "pvNalVW3KG": {
+          "boost": 100
+        }
+      }
+    },
+    {
+      "id": "i38vVP396",
+      "overides": {
+        "pvNalVW3KG": {
+          "boost": 35
+        }
+      }
+    },
+    {
+      "id": "SonpJllfx",
+      "overides": {
+        "KfMtb6ZTb": {
+          "boost": 20
+        }
+      }
+    },
+    {
+      "id": "fR5oAo8iS",
+      "overides": {
+        "ZYqXlcNpQ": {
+          "boost": 10
+        }
+      }
+    },
+    {
+      "id": "z_XOAIDTj",
+      "overides": {
+        "lJkMcgZTr": {
+          "boost": 10
+        }
+      }
+    },
+    {
+      "id": "k3ppmLaY4",
+      "overides": {
+        "pvNalVW3KG": {
+          "boost": 30
+        }
+      }
+    }
+  ],
+  "order": [],
+  "realm": "content",
+  "presets": {
+    "filter": [
+      {
+        "id": "TuAyi0elu"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "ZRorAbL96Q"
+      },
+      {
+        "id": "KhQ3IziFJ"
+      }
+    ]
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "YMaH2tPZC",
+          "KukwdwFDvb",
+          "Fz7BooszQ",
+          "Lz91hr8cBF",
+          "SYrAp4NDd",
+          "nCRmJzUuG",
+          "WkXu_7jnp",
+          "i38vVP396",
+          "SonpJllfx",
+          "fR5oAo8iS",
+          "z_XOAIDTj",
+          "k3ppmLaY4"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "TuAyi0elu",
+          "ZRorAbL96Q",
+          "KhQ3IziFJ"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "xxGX6JO9q"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1,
+    "mustOperator": "or"
+  },
+  "id": "Jnfu6ZH0E",
+  "version": 17,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2022-04-28T09:42:29.282Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "xxGX6JO9q",
+              "type": "blocks",
+              "title": "Block Similar Cartoni"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 14,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 11,
+          "items": [
+            {
+              "id": "YMaH2tPZC",
+              "type": "rules",
+              "title": "Rule Content Channel Origin"
+            },
+            {
+              "id": "Fz7BooszQ",
+              "type": "rules",
+              "title": "Rule Similar Tipologia Cartoni"
+            },
+            {
+              "id": "Lz91hr8cBF",
+              "type": "rules",
+              "title": "Rule Similar Tipologia Film Animati"
+            },
+            {
+              "id": "SYrAp4NDd",
+              "type": "rules",
+              "title": "Rule Boost Contenuti In Onda"
+            },
+            {
+              "id": "nCRmJzUuG",
+              "type": "rules",
+              "title": "Rule Boost Genere Mcm"
+            },
+            {
+              "id": "WkXu_7jnp",
+              "type": "rules",
+              "title": "Rule Boost Protagonista Sesso"
+            },
+            {
+              "id": "i38vVP396",
+              "type": "rules",
+              "title": "Rule Boost Protagonista Specie"
+            },
+            {
+              "id": "SonpJllfx",
+              "type": "rules",
+              "title": "Rule Boost Genere Patemico"
+            },
+            {
+              "id": "fR5oAo8iS",
+              "type": "rules",
+              "title": "Rule Boost Categorie Sociodemo"
+            },
+            {
+              "id": "z_XOAIDTj",
+              "type": "rules",
+              "title": "Rule Boost Sottogenere Tematico"
+            },
+            {
+              "id": "k3ppmLaY4",
+              "type": "rules",
+              "title": "Rule Boost PaeseOrigine Giappone"
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 3,
+          "items": [
+            {
+              "id": "TuAyi0elu",
+              "type": "rulesPresets",
+              "title": "Preset SearchVisible e FrontEnd Visible True"
+            },
+            {
+              "id": "ZRorAbL96Q",
+              "type": "rulesPresets",
+              "title": "Preset Blacklist"
+            },
+            {
+              "id": "KhQ3IziFJ",
+              "type": "rulesPresets",
+              "title": "Preset Video format exclude 4K"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "uselessMultiplier": false,
+  "metadataOverrides": {
+    "Fz7BooszQ": {
+      "content_similar": {
+        "required": true,
+        "output": "video_similar_ids_cartoni",
+        "metadata": {
+          "included": [
+            "tipologia=Cartoni"
+          ],
+          "excluded": [
+            "editorial_type=(Clip) OR (TVSeason) OR (Serie)",
+            "id_series_se"
+          ]
+        },
+        "fingerprint": {
+          "matchFields": [
+            "fingerprint"
+          ]
+        },
+        "groupby": {
+          "metadata": "id_series_se",
+          "results": 1,
+          "sortMetadata": "",
+          "sortDirection": "asc"
+        }
+      }
+    },
+    "Lz91hr8cBF": {
+      "content_similar": {
+        "required": true,
+        "output": "video_similar_ids_filmanimazione",
+        "metadata": {
+          "included": [
+            "tipologia=Film",
+            "tecnicarealizzazione=Animazione"
+          ],
+          "excluded": [
+            "editorial_type=(Serie) OR (TVSeason) OR (Clip)"
+          ]
+        },
+        "fingerprint": {
+          "matchFields": [
+            "fingerprint"
+          ]
+        }
+      }
+    }
+  }
+}

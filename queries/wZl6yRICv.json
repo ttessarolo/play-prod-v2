@@ -1,0 +1,189 @@
+{
+  "title": "Query Film del momento Infinity",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "wfBy1paHlb"
+    },
+    {
+      "id": "83txjtJm"
+    },
+    {
+      "id": "Qs0Vux5WH_"
+    },
+    {
+      "id": "kcU76zAFv"
+    }
+  ],
+  "exclude": [
+    {
+      "id": "tBRJIJKy3"
+    },
+    {
+      "id": "LKRG4VUSN"
+    }
+  ],
+  "include": [
+    {
+      "id": "na3X_QEwxx"
+    }
+  ],
+  "boost": [],
+  "order": [],
+  "realm": "content",
+  "presets": {
+    "filter": [
+      {
+        "id": "TuAyi0elu"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "KhQ3IziFJ"
+      },
+      {
+        "id": "ZRorAbL96Q"
+      }
+    ]
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "wfBy1paHlb",
+          "83txjtJm",
+          "Qs0Vux5WH_",
+          "kcU76zAFv",
+          "tBRJIJKy3",
+          "LKRG4VUSN",
+          "na3X_QEwxx"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "TuAyi0elu",
+          "KhQ3IziFJ",
+          "ZRorAbL96Q"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "YEssPNB14",
+          "i79ZQj_n9"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1,
+    "mustOperator": "or"
+  },
+  "id": "wZl6yRICv",
+  "version": 27,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-11-04T11:01:48.874Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 2,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 2,
+          "items": [
+            {
+              "id": "YEssPNB14",
+              "type": "blocks",
+              "title": "Block Film del momento"
+            },
+            {
+              "id": "i79ZQj_n9",
+              "type": "blocks",
+              "title": "Da non perdere"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 10,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 7,
+          "items": [
+            {
+              "id": "wfBy1paHlb",
+              "type": "rules",
+              "title": "Rule Channel Infinity"
+            },
+            {
+              "id": "83txjtJm",
+              "type": "rules",
+              "title": "Rule Tipologia Film"
+            },
+            {
+              "id": "Qs0Vux5WH_",
+              "type": "rules",
+              "title": "Rule Editorial Type Movie"
+            },
+            {
+              "id": "CTGuqOMTe",
+              "type": "rules",
+              "title": "Rule  Anno Produzione over 2015"
+            },
+            {
+              "id": "tBRJIJKy3",
+              "type": "rules",
+              "title": "Rule Etichetta editoriale Infinity Lab"
+            },
+            {
+              "id": "LKRG4VUSN",
+              "type": "rules",
+              "title": "Blacklist La casa tra le montagne"
+            },
+            {
+              "id": "na3X_QEwxx",
+              "type": "rules",
+              "title": "Rule Top Blockbuster 2020"
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 3,
+          "items": [
+            {
+              "id": "TuAyi0elu",
+              "type": "rulesPresets",
+              "title": "Preset SearchVisible e FrontEnd Visible True"
+            },
+            {
+              "id": "KhQ3IziFJ",
+              "type": "rulesPresets",
+              "title": "Preset Video format exclude 4K"
+            },
+            {
+              "id": "ZRorAbL96Q",
+              "type": "rulesPresets",
+              "title": "Preset Blacklist"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "uselessMultiplier": false,
+  "metadataOverrides": {}
+}

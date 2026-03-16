@@ -1,0 +1,62 @@
+{
+  "type": "text",
+  "contentType": "video",
+  "realm": "content",
+  "title": "List Comedy per Genere Patemico Sub",
+  "description": "",
+  "elements": [
+    "Action comedy",
+    "Action thriller leggero",
+    "Barzellette",
+    "Comedy thriller",
+    "Comicità verbale Giochi Di Parole",
+    "Comico grottesco",
+    "Comico slapstick",
+    "Commedia brillante",
+    "Demenziale stupida",
+    "Dramma leggero dramedy",
+    "Imitazioni",
+    "Scherzi",
+    "Sketch"
+  ],
+  "id": "vmOkZzqH7",
+  "version": 3,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-06-10T15:46:51.004Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "rules",
+        "items": [
+          "WvDf_HuRp"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "rules",
+          "count": 1,
+          "items": [
+            {
+              "id": "WvDf_HuRp",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  }
+}

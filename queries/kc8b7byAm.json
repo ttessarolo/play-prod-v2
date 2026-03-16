@@ -1,0 +1,96 @@
+{
+  "title": "Query Serie TV Animazione",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "ju06OqIgO"
+    },
+    {
+      "id": "KdgZfZ_wm"
+    },
+    {
+      "id": "XrQIQriQGR"
+    }
+  ],
+  "exclude": [
+    {
+      "id": "K1ufZZIPR"
+    },
+    {
+      "id": "VdOo8vxG1"
+    },
+    {
+      "id": "n1PFC8Cdd"
+    }
+  ],
+  "include": [],
+  "boost": [],
+  "order": [
+    {
+      "id": "tMgBtvtBy"
+    }
+  ],
+  "realm": "content",
+  "presets": {
+    "filter": [
+      {
+        "id": "ztWfmA_PI"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "ZRorAbL96Q"
+      }
+    ]
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "ju06OqIgO",
+          "KdgZfZ_wm",
+          "XrQIQriQGR",
+          "K1ufZZIPR",
+          "VdOo8vxG1",
+          "n1PFC8Cdd",
+          "tMgBtvtBy"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "ztWfmA_PI",
+          "ZRorAbL96Q"
+        ]
+      }
+    ],
+    "belongs": []
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "id": "kc8b7byAm",
+  "version": 11,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2023-06-08T16:30:45.128Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  },
+  "metadataOverrides": {},
+  "uselessMultiplier": false
+}

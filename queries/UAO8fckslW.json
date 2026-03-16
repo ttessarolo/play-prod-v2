@@ -1,0 +1,132 @@
+{
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "rF9k3yyPZ"
+    },
+    {
+      "id": "YMaH2tPZC"
+    },
+    {
+      "id": "tfAzCHYts"
+    }
+  ],
+  "exclude": [
+    {
+      "id": "JRuv8vnEl"
+    },
+    {
+      "id": "aNHO5E_ne"
+    }
+  ],
+  "include": [],
+  "boost": [],
+  "order": [
+    {
+      "id": "SXyaET7iz2"
+    }
+  ],
+  "realm": "content",
+  "title": "Similar Next Video Spagna",
+  "description": "",
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "rF9k3yyPZ",
+          "YMaH2tPZC",
+          "tfAzCHYts",
+          "JRuv8vnEl",
+          "aNHO5E_ne",
+          "SXyaET7iz2"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "iMUW89z18U"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 4
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "iMUW89z18U",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 5,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 5,
+          "items": [
+            {
+              "id": "rF9k3yyPZ",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "YMaH2tPZC",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "JRuv8vnEl",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "aNHO5E_ne",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "SXyaET7iz2",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "id": "UAO8fckslW",
+  "version": 5,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-03-05T16:36:31.759Z"
+  },
+  "metadataOverrides": {}
+}

@@ -1,0 +1,152 @@
+{
+  "title": "CHNLS Params Genre Serie",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "C3q9HsDkx"
+    },
+    {
+      "id": "IA2rMeBZYW"
+    },
+    {
+      "id": "JfE3hcRkF"
+    },
+    {
+      "id": "MhwnTO2PIM"
+    },
+    {
+      "id": "M8LBGIXiL"
+    }
+  ],
+  "exclude": [],
+  "include": [],
+  "boost": [],
+  "order": [
+    {
+      "id": "SXyaET7iz2"
+    }
+  ],
+  "realm": "content",
+  "presets": {
+    "filter": [
+      {
+        "id": "ur0WldwQk"
+      }
+    ]
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "C3q9HsDkx",
+          "IA2rMeBZYW",
+          "JfE3hcRkF",
+          "MhwnTO2PIM",
+          "M8LBGIXiL",
+          "SXyaET7iz2"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "ur0WldwQk"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "BHdy_nvgv"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "id": "lqIeDJkxU",
+  "version": 20,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-07-01T08:46:58.960Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "BHdy_nvgv",
+              "type": "blocks",
+              "title": "CHNLS Params Genre Serie"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 7,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 6,
+          "items": [
+            {
+              "id": "C3q9HsDkx",
+              "type": "rules",
+              "title": "Rule Tipologia Channel Serie"
+            },
+            {
+              "id": "JfE3hcRkF",
+              "type": "rules",
+              "title": "Rule Channel match ParamsChannel "
+            },
+            {
+              "id": "MhwnTO2PIM",
+              "type": "rules",
+              "title": "Rule params_genre"
+            },
+            {
+              "id": "M8LBGIXiL",
+              "type": "rules",
+              "title": "Rule Params Etichette editoriali"
+            },
+            {
+              "id": "rca7ZRjPo",
+              "type": "rules",
+              "title": "Rule Editorial Type TVSeason Params Channel"
+            },
+            {
+              "id": "SXyaET7iz2",
+              "type": "rules",
+              "title": "Rule Order By Most Recent Always"
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 1,
+          "items": [
+            {
+              "id": "ur0WldwQk",
+              "type": "rulesPresets",
+              "title": "Preset Contenuti attivi"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "uselessMultiplier": false,
+  "metadataOverrides": {}
+}

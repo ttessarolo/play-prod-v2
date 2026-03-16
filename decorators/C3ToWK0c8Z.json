@@ -1,0 +1,50 @@
+{
+  "title": "eNeX™",
+  "description": "Entities Extractor",
+  "language": "javascript",
+  "type": "loader",
+  "execute": "// **********************************************************\n// @description Decorate Input Content with eNeX™\n//\n// @param   {object} data - payload\n// @param   {object} $    - {tenant, id, action}\n// @param   {object} ctx  - opentracing context\n// @param   {object} this - ARES\n//\n// @return  {object} data - payload decorated\n// **********************************************************\n\nif (data.superkeywords) return data;\n\nconst url = `https://test.be.ares-mediaset.net/api/ares-rti-entities-extractor/extract?tenant=${$.tenant}`;\nconst fields = [\"title\", \"description\"];\nconst body = [];\n\nfor (const field of fields) {\n  if (data[field]) {\n    body.push(data[field]);\n  }\n}\n\nconst res = await fetch(url, {\n  method: \"POST\",\n  headers: {\n    \"Content-Type\": \"application/json\"\n  },\n  body: JSON.stringify(body.join(\" \"))\n});\n\nconst keys = await res.json();\n\nif (keys?.all) {\n  data.superkeywords = keys.all;\n}\nreturn data;",
+  "pubKey": "rti.pub.pem",
+  "algorithm": "SHA512withRSA",
+  "signature": "4995d96aa01b6d1ddbbd627715a7b16f3272b8b8ea76c3250748cbf4156db269f44b57f850c8f165346ed7d027022765cdeacea6703656ec62f0b2420a72352ad38fd69753e411c011d6b10bb33cbeabcc9dd0d594691585686ba64666ee833be3a8a7e1ea89e6f843610cd0084b249f966a4a3be8856db3a531655d214b3534ee49bc0c1354bdb6c4aa125e583e0b844b88f9272c6a4fdbf360c9281044e5fd5498d7bb5b5640565d0c6d10c3ac82f61e80ec60f09b904c56eadc9ec93c4462f2a75537a4bc22fe5ace50a4a3e9afb7a223f8b9f67423d1509e3a200761d4806a4feb1fb9e7bb1b9f9c561953a7ebce701e7b476dd7928d03bc1c139f58cee171f9083bd96341b51fb120d85626c2c0fb7773dbb6072b1853416177fa8a4bc49d8a2c252a99149e42f3fca44bd9d895ffc636003af84a72b4de3dcd9e4ffab4ef0fc705248f7ecb8921068da1f372109b1165e4138149a734bcfdef7fa37f7c27b6357a3c9c453956e5b94046ca1eb4dc5a7c63b36cfa1374691a349f82f83f33dec4a55ba25dbf1deeb0f7502fde4f0b94c79d70286fa5a2e94e36c4732b8406a5e308c9d8ef7e31a887400f37856016f1d54c3b621d94367c733764d7e9cff21a5d5379317e789d838ba100f19c7d9c090f3369228db1410182fb5d8e1c66e102f279be64c7bbea1245d84e56c1f8cdf268af2b82873261bf8896f501b67d",
+  "id": "C3ToWK0c8Z",
+  "version": 5,
+  "lastSaved": {
+    "username": "ttessarolo",
+    "date": "2024-10-30T09:03:41.578Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "loaders",
+        "items": [
+          "b7CL9DQSbK"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "loaders",
+          "count": 1,
+          "items": [
+            {
+              "id": "b7CL9DQSbK",
+              "type": "loaders",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  }
+}

@@ -1,0 +1,260 @@
+{
+  "title": "Rule Order by Most recent Canali Italia",
+  "description": "",
+  "contentType": "video",
+  "clauses": [
+    "order"
+  ],
+  "rule": [
+    {
+      "sortOrder": "desc",
+      "sortMode": "avg",
+      "API": "V2",
+      "condition": "(!isEmpty(params_channel) && equals(params_channel, \"InfComico\"))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "!isEmpty",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "params_channel"
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ],
+            "id": "SaaZTeaR1Y"
+          },
+          {
+            "id": "hUn2WNVa_",
+            "operator": "equals",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "params_channel"
+              },
+              {
+                "value": "\"InfComico\"",
+                "type": "string"
+              }
+            ]
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "",
+      "valueType": "",
+      "queryType": "sortOrder",
+      "field": "publication_date_start_infcomico",
+      "fieldNested": 0,
+      "fieldDBType": "date",
+      "_id": "iCoqdGV_",
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "sortOrder": "desc",
+      "sortMode": "avg",
+      "API": "V2",
+      "condition": "(!isEmpty(params_channel) && equals(params_channel, \"InfAutore\"))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "!isEmpty",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "params_channel"
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ],
+            "id": "SaaZTeaR1Y"
+          },
+          {
+            "id": "hUn2WNVa_",
+            "operator": "equals",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "params_channel"
+              },
+              {
+                "value": "\"InfAutore\"",
+                "type": "string"
+              }
+            ]
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "",
+      "valueType": "",
+      "queryType": "sortOrder",
+      "field": "publication_date_start_infautore",
+      "fieldNested": 0,
+      "fieldDBType": "date",
+      "_id": "hfffoXCvG",
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "sortOrder": "desc",
+      "sortMode": "avg",
+      "API": "V2",
+      "condition": "(!isEmpty(params_channel) && equals(params_channel, \"InfNero\"))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "!isEmpty",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "params_channel"
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ],
+            "id": "SaaZTeaR1Y"
+          },
+          {
+            "id": "hUn2WNVa_",
+            "operator": "equals",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "params_channel"
+              },
+              {
+                "value": "\"InfNero\"",
+                "type": "string"
+              }
+            ]
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "",
+      "valueType": "",
+      "queryType": "sortOrder",
+      "field": "publication_date_start_infnero",
+      "fieldNested": 0,
+      "fieldDBType": "date",
+      "_id": "mNq33d5SZ",
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "sortOrder": "desc",
+      "sortMode": "avg",
+      "API": "V2",
+      "condition": "(!isEmpty(params_channel) && equals(params_channel, \"InfLight\"))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "!isEmpty",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "params_channel"
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ],
+            "id": "SaaZTeaR1Y"
+          },
+          {
+            "id": "hUn2WNVa_",
+            "operator": "equals",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "params_channel"
+              },
+              {
+                "value": "\"InfLight\"",
+                "type": "string"
+              }
+            ]
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "",
+      "valueType": "",
+      "queryType": "sortOrder",
+      "field": "publication_date_start_inflight",
+      "fieldNested": 0,
+      "fieldDBType": "date",
+      "_id": "onLmdu2ufn",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "field": "publication_date",
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "hoeYnq5f6"
+        ]
+      }
+    ]
+  },
+  "id": "lbVu1FvI4",
+  "version": 12,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2022-11-03T10:51:33.976Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "realm": "content"
+}

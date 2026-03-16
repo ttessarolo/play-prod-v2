@@ -1,0 +1,186 @@
+{
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "ju06OqIgO"
+    },
+    {
+      "id": "kTr99U6ZL"
+    },
+    {
+      "id": "ziGw_HC81"
+    },
+    {
+      "id": "CwPiclFTw"
+    }
+  ],
+  "exclude": [
+    {
+      "id": "CHueCEIvSV"
+    },
+    {
+      "id": "tBRJIJKy3"
+    },
+    {
+      "id": "C8UvXYhvg"
+    }
+  ],
+  "include": [],
+  "boost": [],
+  "order": [
+    {
+      "id": "A5n475YeR"
+    }
+  ],
+  "realm": "content",
+  "title": "Fiction e Programmi ESG",
+  "description": "",
+  "presets": {
+    "filter": [],
+    "exclude": [
+      {
+        "id": "ZRorAbL96Q"
+      },
+      {
+        "id": "KhQ3IziFJ"
+      }
+    ]
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "ju06OqIgO",
+          "kTr99U6ZL",
+          "ziGw_HC81",
+          "CwPiclFTw",
+          "CHueCEIvSV",
+          "tBRJIJKy3",
+          "C8UvXYhvg",
+          "A5n475YeR"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "ZRorAbL96Q",
+          "KhQ3IziFJ"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "MVJOOYqCC"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "id": "wBqjRIpLT",
+  "version": 38,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2023-06-13T13:39:41.412Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "MVJOOYqCC",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 11,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 8,
+          "items": [
+            {
+              "id": "ju06OqIgO",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "kTr99U6ZL",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "ziGw_HC81",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "CwPiclFTw",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "CHueCEIvSV",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "tBRJIJKy3",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "C8UvXYhvg",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "A5n475YeR",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 3,
+          "items": [
+            {
+              "id": "ztWfmA_PI",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "ZRorAbL96Q",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "KhQ3IziFJ",
+              "type": "rulesPresets",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "metadataOverrides": {},
+  "uselessMultiplier": false
+}

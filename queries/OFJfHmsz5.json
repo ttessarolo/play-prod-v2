@@ -1,0 +1,151 @@
+{
+  "metadataInRules": [],
+  "title": "Query Highlights Smart TV Programmi TV",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "ju06OqIgO"
+    },
+    {
+      "id": "KdgZfZ_wm"
+    },
+    {
+      "id": "mwku2JtbU5"
+    }
+  ],
+  "exclude": [
+    {
+      "id": "F2TfzDgyrR"
+    }
+  ],
+  "include": [],
+  "boost": [],
+  "order": [
+    {
+      "id": "A5n475YeR"
+    }
+  ],
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "ju06OqIgO",
+          "KdgZfZ_wm",
+          "mwku2JtbU5",
+          "F2TfzDgyrR",
+          "A5n475YeR"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "ur0WldwQk"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "yVFxcfHJH"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "id": "OFJfHmsz5",
+  "version": 39,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-05-24T10:49:58.816Z"
+  },
+  "presets": {
+    "exclude": [],
+    "filter": [
+      {
+        "id": "ur0WldwQk"
+      }
+    ]
+  },
+  "metadataOverrides": {},
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "yVFxcfHJH",
+              "type": "blocks",
+              "title": "Block Highlights Smart Tv"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 7,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 6,
+          "items": [
+            {
+              "id": "ju06OqIgO",
+              "type": "rules",
+              "title": "Rule Channel Mediaset Play"
+            },
+            {
+              "id": "KdgZfZ_wm",
+              "type": "rules",
+              "title": "Rule Editorial Type TV Season"
+            },
+            {
+              "id": "mwku2JtbU5",
+              "type": "rules",
+              "title": "Rule Tipologia Intrattenimento Informazione e Sport"
+            },
+            {
+              "id": "F2TfzDgyrR",
+              "type": "rules",
+              "title": "Rule Genere Mcm Telegiornale"
+            },
+            {
+              "id": "g_H1wj8zj2",
+              "type": "rules",
+              "title": "Rule Exclude Sportmediaset"
+            },
+            {
+              "id": "A5n475YeR",
+              "type": "rules",
+              "title": "Rule Piu visti 24h Always"
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 1,
+          "items": [
+            {
+              "id": "ur0WldwQk",
+              "type": "rulesPresets",
+              "title": "Preset Contenuti attivi"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "uselessMultiplier": false,
+  "realm": "content"
+}

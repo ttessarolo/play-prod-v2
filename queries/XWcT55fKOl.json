@@ -1,0 +1,158 @@
+{
+  "title": "Query Collaborative Because you watched",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "MrtMAYnbZ"
+    },
+    {
+      "id": "kb0ZRiIVbE"
+    },
+    {
+      "id": "k9ysvL20u"
+    }
+  ],
+  "exclude": [],
+  "include": [
+    {
+      "id": "tAztoYb0l",
+      "overides": {
+        "WwS9kLKNy": {
+          "boost": 25
+        }
+      }
+    }
+  ],
+  "boost": [],
+  "order": [],
+  "realm": "content",
+  "general": {
+    "mustOperator": "or",
+    "tieBreaker": 0.9,
+    "minimumShouldMatch": "1%",
+    "resultsMultiplier": 1
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "MrtMAYnbZ",
+          "kb0ZRiIVbE",
+          "k9ysvL20u",
+          "tAztoYb0l"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "ZRorAbL96Q",
+          "KhQ3IziFJ"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "sZIlXj8Kl"
+        ]
+      }
+    ]
+  },
+  "id": "XWcT55fKOl",
+  "version": 12,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2022-10-13T09:38:33.561Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 2,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 2,
+          "items": [
+            {
+              "id": "sZIlXj8Kl",
+              "type": "blocks",
+              "title": ""
+            },
+            {
+              "id": "Ac_jDaKG3t",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 7,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 5,
+          "items": [
+            {
+              "id": "MrtMAYnbZ",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "kb0ZRiIVbE",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "k9ysvL20u",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "tAztoYb0l",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "oHTnV7lfY",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 2,
+          "items": [
+            {
+              "id": "ZRorAbL96Q",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "KhQ3IziFJ",
+              "type": "rulesPresets",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "metadataOverrides": {},
+  "presets": {
+    "exclude": [
+      {
+        "id": "ZRorAbL96Q"
+      },
+      {
+        "id": "KhQ3IziFJ"
+      }
+    ]
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "ssdeTHIxc"
+    },
+    {
+      "id": "Sv1WLwgHh"
+    },
+    {
+      "id": "cdk5AiQ3p",
+      "overides": {
+        "Xz4rBbExB": {
+          "range": 7,
+          "period": "d"
+        }
+      }
+    }
+  ],
+  "exclude": [],
+  "include": [],
+  "boost": [],
+  "order": [
+    {
+      "id": "o9HGEr9up"
+    }
+  ],
+  "realm": "content",
+  "metadataOverrides": {},
+  "title": "Query FEP più recenti Season params",
+  "description": "",
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "ssdeTHIxc",
+          "Sv1WLwgHh",
+          "cdk5AiQ3p",
+          "o9HGEr9up"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "TzQKW1L9m"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "id": "_t8yb_eh3",
+  "version": 13,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-11-12T14:29:01.544Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "TzQKW1L9m",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 4,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 4,
+          "items": [
+            {
+              "id": "ssdeTHIxc",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "Sv1WLwgHh",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "cdk5AiQ3p",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "o9HGEr9up",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  }
+}

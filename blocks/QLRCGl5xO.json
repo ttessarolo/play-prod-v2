@@ -1,0 +1,926 @@
+{
+  "id": "QLRCGl5xO",
+  "propertyId": "zlqQNxLcGh",
+  "title": "Default",
+  "description": "Please Edit description for Page \"Default\"",
+  "enabledPagesId": [
+    "GXh9ZFSqt"
+  ],
+  "isPage": true,
+  "blocks": [
+    {
+      "id": "owjVgGCNR",
+      "condition": "*",
+      "title": "Animazione",
+      "type": "nested",
+      "layout": {
+        "i": "owjVgGCNR",
+        "w": 12,
+        "h": 30
+      },
+      "results": {
+        "flatAllBlocks": true,
+        "max": 12
+      },
+      "blockId": "NkPxz7IDV",
+      "metadataUI": {
+        "default": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Animazione"
+        },
+        "attributes": {
+          "template": "POSTER"
+        }
+      },
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H",
+        "siteMapped": 0
+      },
+      "pinned": false
+    },
+    {
+      "id": "fn3e0mH_o",
+      "condition": "*",
+      "title": "Clip più viste del giorno ",
+      "type": "nested",
+      "layout": {
+        "i": "fn3e0mH_o",
+        "w": 12,
+        "h": 30
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "B3PITzclV",
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H",
+        "siteMapped": 1
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        }
+      },
+      "pinned": true
+    },
+    {
+      "id": "Gg42SSTfK",
+      "condition": "*",
+      "title": "Family",
+      "type": "nested",
+      "layout": {
+        "i": "Gg42SSTfK",
+        "w": 12,
+        "h": 30
+      },
+      "results": {
+        "flatAllBlocks": true,
+        "max": 12
+      },
+      "blockId": "NkPxz7IDV",
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H",
+        "siteMapped": 0
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Family"
+        }
+      },
+      "pinned": false
+    },
+    {
+      "id": "zUmAQXxWu",
+      "condition": "*",
+      "title": "Guerra",
+      "type": "nested",
+      "layout": {
+        "i": "zUmAQXxWu",
+        "w": 12,
+        "h": 30
+      },
+      "results": {
+        "flatAllBlocks": true,
+        "max": 12
+      },
+      "blockId": "NkPxz7IDV",
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Guerra"
+        }
+      },
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H",
+        "siteMapped": 0
+      },
+      "pinned": false
+    },
+    {
+      "id": "NxJsutbt8",
+      "condition": "*",
+      "title": "Fantascienza",
+      "type": "nested",
+      "layout": {
+        "i": "NxJsutbt8",
+        "w": 12,
+        "h": 30
+      },
+      "results": {
+        "flatAllBlocks": true,
+        "max": 12
+      },
+      "blockId": "NkPxz7IDV",
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H",
+        "siteMapped": 0
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Fantascienza"
+        }
+      },
+      "pinned": false
+    },
+    {
+      "id": "_WEuo3HjL",
+      "condition": "*",
+      "title": "Musicale",
+      "type": "nested",
+      "layout": {
+        "i": "_WEuo3HjL",
+        "w": 12,
+        "h": 30
+      },
+      "results": {
+        "flatAllBlocks": true,
+        "max": 12
+      },
+      "blockId": "NkPxz7IDV",
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H",
+        "type": "automatic",
+        "siteMapped": 0
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Musical,Musicale"
+        }
+      },
+      "pinned": false
+    },
+    {
+      "id": "JasH1jDUl3",
+      "condition": "*",
+      "title": "Cinema italiano",
+      "type": "nested",
+      "layout": {
+        "i": "JasH1jDUl3",
+        "w": 12,
+        "h": 30,
+        "isDraggable": true
+      },
+      "results": {
+        "flatAllBlocks": true,
+        "max": 12
+      },
+      "viewAll": {
+        "siteMapped": 0,
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H"
+      },
+      "blockId": "NkPxz7IDV",
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Cinema italiano"
+        }
+      },
+      "pinned": false
+    },
+    {
+      "id": "GO2eBx7ek",
+      "condition": "*",
+      "title": "Sentimentale",
+      "type": "nested",
+      "layout": {
+        "i": "GO2eBx7ek",
+        "w": 12,
+        "h": 30
+      },
+      "results": {
+        "flatAllBlocks": true,
+        "max": 12
+      },
+      "metadataUI": {
+        "playContentMeta": {
+          "genere_mcm": "Sentimentale"
+        },
+        "attributes": {
+          "template": "POSTER"
+        }
+      },
+      "blockId": "NkPxz7IDV",
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H",
+        "siteMapped": 0
+      },
+      "pinned": false
+    },
+    {
+      "id": "aVN7_EuWx",
+      "condition": "*",
+      "title": "Thriller",
+      "type": "nested",
+      "layout": {
+        "i": "aVN7_EuWx",
+        "w": 12,
+        "h": 30
+      },
+      "results": {
+        "flatAllBlocks": true,
+        "max": 12
+      },
+      "blockId": "NkPxz7IDV",
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H",
+        "siteMapped": 0,
+        "type": "automatic"
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Thriller"
+        }
+      },
+      "pinned": false
+    },
+    {
+      "id": "iRE91uDNL",
+      "condition": "*",
+      "title": "Horror",
+      "type": "nested",
+      "layout": {
+        "i": "iRE91uDNL",
+        "w": 12,
+        "h": 30
+      },
+      "results": {
+        "flatAllBlocks": true,
+        "max": 12
+      },
+      "blockId": "NkPxz7IDV",
+      "metadataUI": {
+        "playContentMeta": {
+          "genere_mcm": "Horror"
+        },
+        "default": {
+          "template": "POSTER"
+        },
+        "attributes": {
+          "template": "POSTER"
+        }
+      },
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H",
+        "siteMapped": 0
+      },
+      "pinned": false
+    },
+    {
+      "id": "n1o_GhtkF",
+      "condition": "*",
+      "title": "Avventura",
+      "type": "nested",
+      "layout": {
+        "i": "n1o_GhtkF",
+        "w": 12,
+        "h": 30,
+        "isDraggable": true
+      },
+      "results": {
+        "flatAllBlocks": true,
+        "max": 12
+      },
+      "blockId": "NkPxz7IDV",
+      "metadataUI": {
+        "playContentMeta": {
+          "genere_mcm": "Avventura"
+        },
+        "default": {
+          "template": "POSTER"
+        },
+        "attributes": {
+          "template": "POSTER"
+        }
+      },
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H",
+        "siteMapped": 0
+      },
+      "pinned": false
+    },
+    {
+      "id": "LO1oycJdRa",
+      "condition": "*",
+      "title": "Azione",
+      "type": "nested",
+      "layout": {
+        "i": "LO1oycJdRa",
+        "w": 12,
+        "h": 30,
+        "isDraggable": true
+      },
+      "results": {
+        "flatAllBlocks": true,
+        "max": 12
+      },
+      "blockId": "NkPxz7IDV",
+      "nestingType": "block",
+      "pinned": false,
+      "metadataUI": {
+        "playContentMeta": {
+          "genere_mcm": "Azione"
+        },
+        "default": {
+          "template": "POSTER"
+        },
+        "attributes": {
+          "template": "POSTER"
+        }
+      },
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H",
+        "siteMapped": 0
+      }
+    },
+    {
+      "id": "DV5iJMB_p",
+      "condition": "*",
+      "title": "Drammatico",
+      "type": "nested",
+      "layout": {
+        "i": "DV5iJMB_p",
+        "w": 12,
+        "h": 30,
+        "isDraggable": true
+      },
+      "results": {
+        "flatAllBlocks": true,
+        "max": 12
+      },
+      "blockId": "NkPxz7IDV",
+      "metadataUI": {
+        "default": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Drammatico"
+        },
+        "attributes": {
+          "template": "POSTER"
+        }
+      },
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H",
+        "siteMapped": 0
+      },
+      "pinned": false
+    },
+    {
+      "id": "wK2jdQISw",
+      "condition": "*",
+      "title": "Commedia e comico",
+      "type": "nested",
+      "layout": {
+        "i": "wK2jdQISw",
+        "w": 12,
+        "h": 30
+      },
+      "results": {
+        "flatAllBlocks": true,
+        "max": 12
+      },
+      "blockId": "NkPxz7IDV",
+      "metadataUI": {
+        "default": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Commedia,Comico"
+        },
+        "attributes": {
+          "template": "POSTER"
+        }
+      },
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H",
+        "siteMapped": 0
+      },
+      "pinned": false
+    },
+    {
+      "id": "g5eT8oWc9",
+      "condition": "*",
+      "title": "Classici",
+      "type": "nested",
+      "layout": {
+        "i": "g5eT8oWc9",
+        "x": 0,
+        "y": 366,
+        "w": 12,
+        "h": 30,
+        "blocks": [],
+        "isDraggable": true
+      },
+      "results": {
+        "flatAllBlocks": true,
+        "max": 12
+      },
+      "blockId": "NkPxz7IDV",
+      "viewAll": {
+        "siteMapped": 0,
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H",
+        "type": "automatic"
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Classici"
+        }
+      },
+      "pinned": false
+    },
+    {
+      "id": "MT_QOcGzX",
+      "condition": "*",
+      "title": "Documentario",
+      "type": "nested",
+      "layout": {
+        "i": "MT_QOcGzX",
+        "w": 12,
+        "h": 30,
+        "isDraggable": true
+      },
+      "results": {
+        "flatAllBlocks": true,
+        "max": 12
+      },
+      "blockId": "NkPxz7IDV",
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H",
+        "siteMapped": 0
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Documentario"
+        }
+      },
+      "pinned": false
+    }
+  ],
+  "version": 85,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2022-06-16T16:00:03.886Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "endpoints",
+        "items": []
+      }
+    ],
+    "require": [
+      {
+        "type": "queries",
+        "items": []
+      },
+      {
+        "type": "endpoints",
+        "items": [
+          "WXsJUgBAp"
+        ]
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "Rc1YEkVxO",
+          "NkPxz7IDV",
+          "B3PITzclV"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "GXh9ZFSqt",
+              "type": "endpoints",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 4,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "WXsJUgBAp",
+              "type": "endpoints",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "blocks",
+          "count": 3,
+          "items": [
+            {
+              "id": "Rc1YEkVxO",
+              "type": "blocks"
+            },
+            {
+              "id": "NkPxz7IDV",
+              "type": "blocks"
+            },
+            {
+              "id": "B3PITzclV",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": [],
+  "layout": [
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 0,
+      "i": "owjVgGCNR",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 1,
+      "h": 1,
+      "x": 0,
+      "y": 30,
+      "i": "fn3e0mH_o",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 31,
+      "i": "Gg42SSTfK",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 61,
+      "i": "zUmAQXxWu",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 91,
+      "i": "NxJsutbt8",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 121,
+      "i": "_WEuo3HjL",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 151,
+      "i": "JasH1jDUl3",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 181,
+      "i": "GO2eBx7ek",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 211,
+      "i": "aVN7_EuWx",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 241,
+      "i": "iRE91uDNL",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 271,
+      "i": "n1o_GhtkF",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 301,
+      "i": "LO1oycJdRa",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 331,
+      "i": "DV5iJMB_p",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 361,
+      "i": "wK2jdQISw",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 391,
+      "i": "g5eT8oWc9",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 421,
+      "i": "MT_QOcGzX",
+      "moved": false,
+      "static": false
+    }
+  ],
+  "results": {
+    "fallbackBlockId": "Rc1YEkVxO",
+    "deduplicatedResultsBetweenBlocks": true,
+    "smartOrderBlocks": true,
+    "contentType": "video",
+    "userContentType": "user",
+    "event": "watched",
+    "perUserBasisType": "video_historical_fingerprint",
+    "deduplicateAdvanced": {
+      "bagOfIds": {
+        "enabled": false
+      },
+      "startFromBlock": "0"
+    }
+  },
+  "uiParams": {
+    "layout": {
+      "uiParams": {
+        "current": "Default",
+        "currentIndex": 0,
+        "sets": [
+          {
+            "title": "Default",
+            "params": {
+              "paramsId": {
+                "value": "playDefault",
+                "active": true
+              },
+              "contentId": {
+                "value": "F301644701000103",
+                "active": true
+              },
+              "userId": {
+                "value": "INF_3301168:2702976343/d3cac1f7-7903-45d6-a875-bf993f083ad1/e28c230a-eca7-401c-8ad1-33ad4451f935",
+                "active": true
+              },
+              "deviceId": {
+                "value": "ARES-CC",
+                "active": true
+              }
+            }
+          }
+        ]
+      },
+      "currentParams": {
+        "paramsId": "playDefault",
+        "contentId": "F301644701000103",
+        "userId": "INF_3301168:2702976343/d3cac1f7-7903-45d6-a875-bf993f083ad1/e28c230a-eca7-401c-8ad1-33ad4451f935",
+        "deviceId": "ARES-CC"
+      }
+    },
+    "preview": {
+      "uiParams": {
+        "current": "User Logged #1",
+        "currentIndex": 1,
+        "sets": [
+          {
+            "title": "Anonymous",
+            "params": {
+              "contentId": {
+                "value": "F010791601000102",
+                "active": true
+              },
+              "userId": {
+                "value": "1f51d5e9f09e4d349fa3af349e1cdac4",
+                "active": false
+              },
+              "deviceId": {
+                "value": "ARES-CC",
+                "active": true
+              }
+            }
+          },
+          {
+            "title": "User Logged #1",
+            "params": {
+              "contentId": {
+                "value": "F010791601000102",
+                "active": true
+              },
+              "userId": {
+                "value": "1f51d5e9f09e4d349fa3af349e1cdac4",
+                "active": true
+              },
+              "deviceId": {
+                "value": "ARES-CC",
+                "active": true
+              }
+            }
+          },
+          {
+            "title": "User Logged #2",
+            "params": {
+              "contentId": {
+                "value": "F010791601000102",
+                "active": false
+              },
+              "userId": {
+                "value": "INF_3301168:2702976343/d3cac1f7-7903-45d6-a875-bf993f083ad1/e28c230a-eca7-401c-8ad1-33ad4451f935",
+                "active": true
+              },
+              "deviceId": {
+                "value": "ARES-CC",
+                "active": true
+              },
+              "decoratorOutputVersion": {
+                "value": "v2",
+                "active": true
+              },
+              "decoratorOutputApplication": {
+                "value": "default",
+                "active": true
+              },
+              "decoratorOutputEnvironment": {
+                "value": "production",
+                "active": true
+              }
+            }
+          }
+        ]
+      },
+      "currentParams": {
+        "contentId": "F010791601000102",
+        "userId": "1f51d5e9f09e4d349fa3af349e1cdac4",
+        "deviceId": "ARES-CC"
+      }
+    }
+  },
+  "fullSubstituteFallback": true
+}

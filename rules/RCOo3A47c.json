@@ -1,0 +1,132 @@
+{
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "nEHdWgP7H",
+          "lUYqji6FvZ"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 1,
+          "items": [
+            {
+              "id": "nEHdWgP7H",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "title": "Rule Include Consistenza commerciale Film MidnightFactory",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "keepOrder": true,
+      "API": "V2",
+      "condition": "(contains(context_features_subscription_channels, \"MidnightFactory\"))",
+      "boost": 1,
+      "type": "",
+      "value": "video_similar_ids_film_midnight",
+      "valueType": "metadata",
+      "queryType": "ids",
+      "field": "video_content_id",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "CLdfcOlYYh",
+      "conditionRaw": {
+        "and": [
+          {
+            "id": "wDJN1nWjrj",
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "context_features_subscription_channels"
+              },
+              {
+                "value": "\"MidnightFactory\"",
+                "type": "string"
+              }
+            ]
+          }
+        ]
+      },
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "clauses": [
+    "include"
+  ],
+  "metadata": {
+    "content_similar": {
+      "required": true,
+      "output": "video_similar_ids_film_midnight",
+      "numResults": 12,
+      "metadata": {
+        "included": [
+          "tipologia=Film",
+          "editorial_type=Movie",
+          "video_format=(HD) OR (SD)",
+          "content_channels=MidnightFactory"
+        ],
+        "excluded": []
+      },
+      "groupby": {
+        "metadata": "editorial_type",
+        "results": 2,
+        "sortMetadata": "last7d_videoviews",
+        "sortDirection": "desc"
+      }
+    }
+  },
+  "id": "RCOo3A47c",
+  "version": 5,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2022-06-29T13:52:25.319Z"
+  },
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": []
+}

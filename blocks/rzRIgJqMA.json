@@ -1,0 +1,236 @@
+{
+  "id": "rzRIgJqMA",
+  "propertyId": "rrjMTUmyqd",
+  "title": "Fallback Film",
+  "description": "Please Edit description for Page \"Variant 3\"",
+  "enabledPagesId": [
+    "t2lTpliWX"
+  ],
+  "isPage": true,
+  "blocks": [
+    {
+      "id": "YusaLQ2WPs",
+      "condition": "*",
+      "title": "no-results",
+      "type": "nested",
+      "layout": {
+        "i": "YusaLQ2WPs",
+        "x": 0,
+        "y": 1,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "YgxPUZIuxO",
+      "metadataUI": {
+        "errorMessage": {
+          "description": "no-results"
+        }
+      }
+    },
+    {
+      "id": "LhLV4rl0N",
+      "condition": "*",
+      "title": "I più cercati",
+      "type": "nested",
+      "layout": {
+        "i": "LhLV4rl0N",
+        "x": 0,
+        "y": 2,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "sow__H0R2",
+      "viewAll": {
+        "id": "b1EDgwfNS9",
+        "reference": "viewAllFilteredSearch"
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER",
+          "layout": "GRID"
+        }
+      }
+    }
+  ],
+  "version": 11,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2023-03-29T08:28:49.651Z"
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "queries",
+        "items": []
+      },
+      {
+        "type": "endpoints",
+        "items": [
+          "b1EDgwfNS9"
+        ]
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "AwF1CRpxF",
+          "YgxPUZIuxO",
+          "sow__H0R2"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "endpoints",
+        "items": [
+          "t2lTpliWX"
+        ]
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "cVhuVOrhgW"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 2,
+      "types": 2,
+      "items": [
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "t2lTpliWX",
+              "type": "endpoints",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "pages",
+          "count": 1,
+          "items": [
+            {
+              "variantId": "cVhuVOrhgW",
+              "propertyId": "rrjMTUmyqd",
+              "propertyTitle": "",
+              "endpointId": "Y_T1DSbZ9",
+              "endpointTitle": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 4,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "b1EDgwfNS9",
+              "type": "endpoints",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "blocks",
+          "count": 3,
+          "items": [
+            {
+              "id": "AwF1CRpxF",
+              "type": "blocks"
+            },
+            {
+              "id": "YgxPUZIuxO",
+              "type": "blocks"
+            },
+            {
+              "id": "sow__H0R2",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "layout": [
+    {
+      "i": "YusaLQ2WPs",
+      "x": 0,
+      "y": 1,
+      "w": 12,
+      "h": 30,
+      "blocks": []
+    },
+    {
+      "i": "LhLV4rl0N",
+      "x": 0,
+      "y": 2,
+      "w": 12,
+      "h": 30,
+      "blocks": []
+    }
+  ],
+  "results": {
+    "fallbackBlockId": "AwF1CRpxF",
+    "fullSubstituteFallback": true
+  },
+  "fullSubstituteFallback": true,
+  "canBeFallback": true
+}

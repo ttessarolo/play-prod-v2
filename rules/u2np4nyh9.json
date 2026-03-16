@@ -1,0 +1,155 @@
+{
+  "title": "Rule Boost Anno di Produzione Concentrico",
+  "description": "",
+  "contentType": "video",
+  "clauses": [
+    "boost"
+  ],
+  "rule": [
+    {
+      "condition": "not isEmpty(annoproduzione)",
+      "boost": 25,
+      "type": "I2I",
+      "_id": "ZFa6FIbYK",
+      "matchFromMetadata": "annoproduzione",
+      "range": 4,
+      "period": "y",
+      "notOverwritable": false,
+      "conditionRaw": {
+        "and": [
+          {
+            "id": "WYGOCjMtpB",
+            "operator": "!isEmpty",
+            "values": [
+              {
+                "value": "annoproduzione",
+                "type": "metadata"
+              }
+            ]
+          }
+        ]
+      },
+      "field": "annoproduzione",
+      "fieldDBType": "date",
+      "queryType": "range",
+      "value": "annoproduzione",
+      "valueType": "metadata",
+      "API": "V2"
+    },
+    {
+      "condition": "not isEmpty(annoproduzione)",
+      "boost": 25,
+      "type": "I2I",
+      "_id": "aW9TOP2s6",
+      "matchFromMetadata": "annoproduzione",
+      "range": 9,
+      "period": "y",
+      "notOverwritable": false,
+      "conditionRaw": {
+        "and": [
+          {
+            "id": "sDYe5Y21jR",
+            "operator": "!isEmpty",
+            "values": [
+              {
+                "value": "annoproduzione",
+                "type": "metadata"
+              }
+            ]
+          }
+        ]
+      },
+      "field": "annoproduzione",
+      "fieldDBType": "date",
+      "queryType": "range",
+      "value": "annoproduzione",
+      "valueType": "metadata",
+      "API": "V2"
+    }
+  ],
+  "field": "annoproduzione",
+  "metadata": {
+    "content": true
+  },
+  "scheduled": false,
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "_UJtujmOS",
+          "ek22t7eOE",
+          "uPK9cU2MwQ",
+          "F8q0MMwh8",
+          "KrplYijM4",
+          "mkgdGBb51b",
+          "hzT5G0sYG",
+          "hpyoLcJCQ",
+          "MH1tGzFfW",
+          "rlrVLabqSl",
+          "SGD1LQ9Mj",
+          "l4aaD5uVWs",
+          "C02qfD2Y3",
+          "PGHHPIFHQ"
+        ]
+      }
+    ]
+  },
+  "id": "u2np4nyh9",
+  "version": 2,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-04-02T11:02:12.917Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 4,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 4,
+          "items": [
+            {
+              "id": "_UJtujmOS",
+              "type": "queries",
+              "title": "Query Similar Cinema"
+            },
+            {
+              "id": "ek22t7eOE",
+              "type": "queries",
+              "title": "Query SerieTv Fiction blocco6"
+            },
+            {
+              "id": "uPK9cU2MwQ",
+              "type": "queries",
+              "title": "Query SerieTv Fiction"
+            },
+            {
+              "id": "F8q0MMwh8",
+              "type": "queries",
+              "title": "INF Similar Serie tv e fiction"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 1,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  }
+}

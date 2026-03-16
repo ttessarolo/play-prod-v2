@@ -1,0 +1,107 @@
+{
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "splitter": ",",
+      "API": "V2",
+      "condition": "(contains(context_features_subscription_channels, \"MediasetItalia\"))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "context_features_subscription_channels"
+              },
+              {
+                "value": "\"MediasetItalia\"",
+                "type": "freeText"
+              }
+            ],
+            "id": "3ItOjdPrG6"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "MediasetItalia",
+      "valueType": "string",
+      "queryType": "matchAll",
+      "field": "content_channels",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "ozsCxRUws",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "clauses": [
+    "filter"
+  ],
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "title": "Rule Content channel MediasetItalia se Feature subscription channel MediasetItalia",
+  "description": "",
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "OoW_RxrtA",
+          "DHl6a0GLT",
+          "eKqq5qm5PJ",
+          "eYuL4ML7TS",
+          "YLPLAtYlN",
+          "zLGBFxSxo",
+          "DGN31xSm2",
+          "_WmSa4Xbk",
+          "snFdkOv3m",
+          "A4ofNYRa8",
+          "qA8cN2kDM",
+          "YhVp7CQNc",
+          "ek22t7eOE",
+          "uPK9cU2MwQ",
+          "UhRmAOyNS",
+          "Jnfu6ZH0E",
+          "U1hz1tNQN",
+          "tv97xe64g",
+          "SGD1LQ9Mj",
+          "hzT5G0sYG",
+          "f8tvqAypXq",
+          "rlrVLabqSl",
+          "SBCpFpJAt",
+          "cm6U6qlM9",
+          "GU2OBQqML",
+          "Alu6uP5f6",
+          "Hpf2pfaEM",
+          "jTWiGJ8a3j",
+          "div23Vxzv",
+          "fBjcjMmv5",
+          "tE6FKWNO0",
+          "C02qfD2Y3",
+          "PGHHPIFHQ",
+          "AqgW7pWFS"
+        ]
+      }
+    ]
+  },
+  "id": "KukwdwFDvb",
+  "version": 1,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2022-04-28T09:33:43.520Z"
+  }
+}

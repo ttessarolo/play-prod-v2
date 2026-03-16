@@ -1,0 +1,172 @@
+{
+  "params": {
+    "timeout": 1500,
+    "cacheConfig": {
+      "cache": false,
+      "cacheTTL": 300,
+      "cachePrefix": {
+        "group": true,
+        "static": "endpoint",
+        "keys": []
+      },
+      "computeKeys": [
+        "page",
+        "hitsPerPage",
+        "startBlock",
+        "endBlock"
+      ]
+    }
+  },
+  "active": true,
+  "input": {
+    "schema": {
+      "name": "Input Validation Schema",
+      "description": "ARES Request Params",
+      "type": "object",
+      "required": [
+        "query"
+      ],
+      "properties": {
+        "query": {
+          "type": "object",
+          "required": [
+            "tenant",
+            "uxReference"
+          ],
+          "properties": {
+            "tenant": {
+              "type": "string"
+            },
+            "uxReference": {
+              "type": "string"
+            },
+            "userId": {
+              "type": "string"
+            },
+            "userType": {
+              "type": "string"
+            },
+            "userGroup": {
+              "type": "string"
+            },
+            "deviceId": {
+              "type": "string"
+            },
+            "contentId": {
+              "type": "string"
+            },
+            "sessionId": {
+              "type": "string"
+            },
+            "context": {
+              "type": "string"
+            },
+            "query": {
+              "type": "string"
+            },
+            "startBlock": {
+              "type": "number"
+            },
+            "endBlock": {
+              "type": "number"
+            },
+            "page": {
+              "type": "number"
+            },
+            "hitsPerPage": {
+              "type": "number"
+            }
+          }
+        }
+      }
+    }
+  },
+  "title": "Prod CodiceF presente",
+  "description": "",
+  "reference": "prodCodiceF",
+  "paramsId": "playDefault",
+  "blockId": "dHLUD0MQs",
+  "output": {
+    "decorators": [
+      "mU5ep6Aze"
+    ]
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "blocks",
+        "items": [
+          "dHLUD0MQs"
+        ]
+      },
+      {
+        "type": "params",
+        "items": [
+          "playDefault"
+        ]
+      },
+      {
+        "type": "decorators",
+        "items": [
+          "mU5ep6Aze"
+        ]
+      }
+    ],
+    "belongs": []
+  },
+  "prevReference": "infCodiceF",
+  "id": "YGly6uAkxD",
+  "version": 6,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2023-10-31T13:46:39.779Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 3,
+      "types": 3,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "dHLUD0MQs",
+              "type": "blocks",
+              "title": "INF CodiceF presente"
+            }
+          ]
+        },
+        {
+          "type": "params",
+          "count": 1,
+          "items": [
+            {
+              "id": "playDefault",
+              "type": "params",
+              "title": "Play Default"
+            }
+          ]
+        },
+        {
+          "type": "decorators",
+          "count": 1,
+          "items": [
+            {
+              "id": "mU5ep6Aze",
+              "type": "decorators",
+              "title": "MPlay Universal Enricher "
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "sortKey": "Prod CodiceF presente",
+  "enableAnalitica": false
+}

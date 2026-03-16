@@ -1,0 +1,52 @@
+{
+  "contentType": "video",
+  "type": "text",
+  "elements": [
+    "Clip",
+    "Full Episode",
+    "Movie"
+  ],
+  "title": "List Editorlial Type Clip Full Episode Movie",
+  "description": "",
+  "id": "GA88bUF7I",
+  "version": 2,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-03-30T13:18:50.874Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "rules",
+        "items": [
+          "QUaXrD4lOo"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "rules",
+          "count": 1,
+          "items": [
+            {
+              "id": "QUaXrD4lOo",
+              "type": "rules",
+              "title": "Rule Editorial Type Fep Clip Movie"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  },
+  "realm": "content"
+}

@@ -1,0 +1,139 @@
+{
+  "title": "STZ Params Genre Film Top",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "83txjtJm"
+    },
+    {
+      "id": "Qs0Vux5WH_"
+    },
+    {
+      "id": "EEPm_03sz"
+    },
+    {
+      "id": "MhwnTO2PIM"
+    },
+    {
+      "id": "RqBahOBRSz"
+    }
+  ],
+  "exclude": [],
+  "include": [],
+  "boost": [],
+  "order": [
+    {
+      "id": "SXyaET7iz2"
+    }
+  ],
+  "realm": "content",
+  "presets": {
+    "filter": [
+      {
+        "id": "ur0WldwQk"
+      }
+    ]
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "83txjtJm",
+          "Qs0Vux5WH_",
+          "EEPm_03sz",
+          "MhwnTO2PIM",
+          "RqBahOBRSz",
+          "SXyaET7iz2"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "ur0WldwQk"
+        ]
+      }
+    ],
+    "belongs": []
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "id": "OFmr6tjnNd",
+  "version": 2,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-06-15T14:27:48.535Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "kqmkzdnLKO",
+              "type": "blocks",
+              "title": "STZ Params Genre Film"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 6,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 5,
+          "items": [
+            {
+              "id": "83txjtJm",
+              "type": "rules",
+              "title": "Rule Tipologia Film"
+            },
+            {
+              "id": "Qs0Vux5WH_",
+              "type": "rules",
+              "title": "Rule Editorial Type Movie"
+            },
+            {
+              "id": "EEPm_03sz",
+              "type": "rules",
+              "title": "Rule Params Channel Starz"
+            },
+            {
+              "id": "MhwnTO2PIM",
+              "type": "rules",
+              "title": "Rule params_genre"
+            },
+            {
+              "id": "SXyaET7iz2",
+              "type": "rules",
+              "title": "Rule Order By Most Recent Always"
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 1,
+          "items": [
+            {
+              "id": "ur0WldwQk",
+              "type": "rulesPresets",
+              "title": "Preset Contenuti attivi"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "uselessMultiplier": false
+}

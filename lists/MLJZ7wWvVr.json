@@ -1,0 +1,47 @@
+{
+  "title": "Lista NO Talent",
+  "description": "",
+  "type": "contentId",
+  "contentType": "video",
+  "realm": "content",
+  "metadataField": "video_content_id",
+  "elements": [
+    "F313010901000101",
+    "F313010901000201",
+    "F313010901000301",
+    "F313010901000401",
+    "F313010901000501",
+    "F313010901000601",
+    "F313010901000701",
+    "F313010901000801",
+    "F313010901000901",
+    "F313010901001001",
+    "F313010901001101"
+  ],
+  "id": "MLJZ7wWvVr",
+  "version": 7,
+  "lastSaved": {
+    "username": "Massimiliano.Berardi",
+    "date": "2024-01-23T10:31:44.161Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "rules",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  }
+}

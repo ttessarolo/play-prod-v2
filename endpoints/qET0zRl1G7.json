@@ -1,0 +1,124 @@
+{
+  "id": "qET0zRl1G7",
+  "active": true,
+  "title": "fepPiuRecentiSeasonParams",
+  "description": "",
+  "reference": "fepPiuRecentiSeasonParams",
+  "propertyId": "zlqQNxLcGh",
+  "blockId": "K0s4tyEoi",
+  "variants": [],
+  "params": {
+    "timeout": 1500,
+    "cacheConfig": {
+      "cache": 1,
+      "cacheTTL": 3600,
+      "cachePrefix": {
+        "group": true,
+        "static": "endpoint",
+        "keys": []
+      },
+      "computeKeys": [
+        "startBlock",
+        "endBlock",
+        "params"
+      ]
+    },
+    "inveverseCacheConfig": {
+      "cacheTTL": 3600
+    }
+  },
+  "paramsId": "playDefault",
+  "input": {},
+  "output": {
+    "decorators": [
+      "mU5ep6Aze"
+    ]
+  },
+  "version": 4,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-09-30T10:10:48.044Z"
+  },
+  "refs": {
+    "belongs": [],
+    "require": [
+      {
+        "type": "blocks",
+        "items": [
+          "K0s4tyEoi"
+        ]
+      },
+      {
+        "type": "params",
+        "items": [
+          "playDefault"
+        ]
+      },
+      {
+        "type": "decorators",
+        "items": [
+          "mU5ep6Aze"
+        ]
+      },
+      {
+        "type": "conversionPacks",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 3,
+      "types": 4,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "K0s4tyEoi",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "params",
+          "count": 1,
+          "items": [
+            {
+              "id": "playDefault",
+              "type": "params",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "decorators",
+          "count": 1,
+          "items": [
+            {
+              "id": "mU5ep6Aze",
+              "type": "decorators",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "conversionPacks",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "haveScheduledVariants": 0,
+  "prevReference": "fepPiuRecentiSeasonParams",
+  "enableAnalitica": true,
+  "paginateFromCache": 1
+}

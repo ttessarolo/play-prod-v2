@@ -1,0 +1,70 @@
+{
+  "title": "Rule Order By Collection Position ",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "sortMode": "avg",
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "",
+      "valueType": "",
+      "queryType": "sortOrder",
+      "field": "collection_list.position",
+      "fieldNested": 1,
+      "fieldNestedRoot": "collection_list",
+      "fieldDBType": "integer",
+      "_id": "BcEtzKieaU"
+    }
+  ],
+  "clauses": [
+    "order"
+  ],
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "X1ibxFr5L"
+        ]
+      }
+    ]
+  },
+  "id": "qrBfvzvG8",
+  "version": 2,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-07-13T14:05:36.387Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 1,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": []
+}

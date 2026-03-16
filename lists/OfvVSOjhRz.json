@@ -1,0 +1,51 @@
+{
+  "type": "text",
+  "contentType": "link",
+  "realm": "content",
+  "elements": [
+    "La 5: video, puntate, programmi tv",
+    "Lovemypets"
+  ],
+  "title": "List Blacklist Item Link",
+  "description": "",
+  "id": "OfvVSOjhRz",
+  "version": 6,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-07-08T13:23:44.313Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "rules",
+        "items": [
+          "yYKxUyFDEu"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "rules",
+          "count": 1,
+          "items": [
+            {
+              "id": "yYKxUyFDEu",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "title": "MPX COLLECTION ALL FCODES",
+  "description": "",
+  "type": "REST",
+  "verb": "GET",
+  "url": "https://feed.entertainment.tv.theplatform.eu/f/PR1GhC/mediaset-prod-all-collections-v2",
+  "params": [
+    "byGuid=${collectionId}"
+  ],
+  "compliant": false,
+  "id": "D8YD41lKF",
+  "version": 3,
+  "lastSaved": {
+    "username": "ttessarolo",
+    "date": "2021-07-23T08:28:49.755Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "rules",
+        "items": [
+          "nRThqF13G"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  },
+  "decorators": [
+    "isbVXqM9Se"
+  ]
+}

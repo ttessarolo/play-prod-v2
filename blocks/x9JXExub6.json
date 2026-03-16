@@ -1,0 +1,212 @@
+{
+  "results": {
+    "min": 1,
+    "flatAllBlocks": true,
+    "fallbackBlockId": "P0csRsOt7",
+    "max": 12
+  },
+  "blocks": [
+    {
+      "_id": "p5r8kc5iY6",
+      "condition": "*",
+      "title": "Block Because you Watched Fiction Serie TV",
+      "type": "conversions",
+      "pinned": true,
+      "results": {
+        "max": 30,
+        "min": 1,
+        "contentType": "video",
+        "responseFieldsId": "ococ5qsUC",
+        "fallbackBlockId": "P0csRsOt7",
+        "skipOnEmpty": false
+      },
+      "queryId": "C02qfD2Y3",
+      "packs": [
+        {
+          "conversionPackId": "RML6xzUVUi"
+        }
+      ],
+      "idExtractMethod": "recent",
+      "idExtractPosition": 0,
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": [
+              {
+                "type": "metadata",
+                "value": ""
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ],
+            "id": "Jx8cCCyGQh"
+          }
+        ]
+      },
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "title": "Block Because you Watched Fiction Serie TV",
+  "description": "",
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "realm": "content",
+  "refs": {
+    "require": [
+      {
+        "type": "queries",
+        "items": [
+          "C02qfD2Y3"
+        ]
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "P0csRsOt7"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": [
+          "ococ5qsUC"
+        ]
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      },
+      {
+        "type": "conversionPacks",
+        "items": [
+          "RML6xzUVUi"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "Xp9Sbgys5",
+          "BPoxLffjYC"
+        ]
+      }
+    ]
+  },
+  "id": "x9JXExub6",
+  "version": 24,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-09-18T14:41:29.457Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "pages",
+          "count": 1,
+          "items": [
+            {
+              "variantId": "Xp9Sbgys5",
+              "propertyId": "zlqQNxLcGh",
+              "propertyTitle": "",
+              "endpointId": "k6yJDLV5b",
+              "endpointTitle": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 4,
+      "types": 8,
+      "items": [
+        {
+          "type": "queries",
+          "count": 1,
+          "items": [
+            {
+              "id": "C02qfD2Y3",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "P0csRsOt7",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 1,
+          "items": [
+            {
+              "id": "ococ5qsUC",
+              "type": "responseFields",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "conversionPacks",
+          "count": 1,
+          "items": [
+            {
+              "id": "RML6xzUVUi",
+              "type": "conversionPacks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": []
+}

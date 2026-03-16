@@ -1,0 +1,204 @@
+{
+  "id": "GlbpXo2RG",
+  "active": true,
+  "title": "multipleBlock4K",
+  "description": "",
+  "reference": "multipleBlock4K",
+  "propertyId": "zlqQNxLcGh",
+  "blockId": "CQfOFKG2S",
+  "variants": [
+    {
+      "blockId": "RL5cxkerX",
+      "condition": "(!isEmpty(context_4kcapability) && (contains(context_4kcapability, \"4khdr\") || contains(context_4kcapability, \"4ksdr\")))",
+      "priority": 1,
+      "active": true,
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "!isEmpty",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "context_4kcapability"
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ],
+            "id": "fRyX3I6p_g"
+          },
+          {
+            "or": [
+              {
+                "id": "RQpkZGx3e",
+                "operator": "contains",
+                "values": [
+                  {
+                    "type": "metadata",
+                    "value": "context_4kcapability"
+                  },
+                  {
+                    "value": "\"4khdr\"",
+                    "type": "string"
+                  }
+                ]
+              },
+              {
+                "id": "3jl8zIYO7",
+                "operator": "contains",
+                "values": [
+                  {
+                    "type": "metadata",
+                    "value": "context_4kcapability"
+                  },
+                  {
+                    "value": "\"4ksdr\"",
+                    "type": "string"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "params": {
+    "timeout": 2500,
+    "cacheConfig": {
+      "cache": 1,
+      "cacheTTL": 3600,
+      "cachePrefix": {
+        "group": true,
+        "static": "endpoint",
+        "keys": []
+      },
+      "computeKeys": [
+        "startBlock",
+        "endBlock",
+        "userId",
+        "contentId",
+        "context"
+      ]
+    },
+    "inveverseCacheConfig": {
+      "cacheTTL": 3600
+    }
+  },
+  "paramsId": "playDefault",
+  "input": {
+    "decorators": [
+      "XIHg_DI92f"
+    ]
+  },
+  "output": {
+    "decorators": [
+      "mU5ep6Aze"
+    ],
+    "filters": {
+      "maxFilterPercentage": 100
+    }
+  },
+  "version": 28,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2024-06-19T08:36:51.066Z"
+  },
+  "refs": {
+    "belongs": [],
+    "require": [
+      {
+        "type": "blocks",
+        "items": [
+          "CQfOFKG2S",
+          "RL5cxkerX"
+        ]
+      },
+      {
+        "type": "params",
+        "items": [
+          "playDefault"
+        ]
+      },
+      {
+        "type": "decorators",
+        "items": [
+          "XIHg_DI92f",
+          "mU5ep6Aze"
+        ]
+      },
+      {
+        "type": "conversionPacks",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 5,
+      "types": 4,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 2,
+          "items": [
+            {
+              "id": "CQfOFKG2S",
+              "type": "blocks",
+              "title": "Default Inf Multiple Block 4K"
+            },
+            {
+              "id": "RL5cxkerX",
+              "type": "blocks",
+              "title": "Inf Multiple Block 4K"
+            }
+          ]
+        },
+        {
+          "type": "params",
+          "count": 1,
+          "items": [
+            {
+              "id": "playDefault",
+              "type": "params",
+              "title": "Play Default"
+            }
+          ]
+        },
+        {
+          "type": "decorators",
+          "count": 2,
+          "items": [
+            {
+              "id": "XIHg_DI92f",
+              "type": "decorators",
+              "title": "Play Persona Input Decorator"
+            },
+            {
+              "id": "mU5ep6Aze",
+              "type": "decorators",
+              "title": "MPlay Universal Enricher "
+            }
+          ]
+        },
+        {
+          "type": "conversionPacks",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "haveScheduledVariants": 0,
+  "prevReference": "multipleBlock4K",
+  "paginateFromCache": true,
+  "enableAnalitica": true
+}

@@ -1,0 +1,39 @@
+{
+  "type": "text",
+  "contentType": "video",
+  "realm": "content",
+  "title": "List Tipologia Informazione e Sport",
+  "description": "",
+  "elements": [
+    "Informazione",
+    "Sport"
+  ],
+  "id": "W81OoIiVhh",
+  "version": 3,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2023-05-09T10:59:41.148Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "rules",
+        "items": [
+          "RWaH5uitX"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  }
+}

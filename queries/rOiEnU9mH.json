@@ -1,0 +1,176 @@
+{
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "wfBy1paHlb"
+    },
+    {
+      "id": "83txjtJm"
+    },
+    {
+      "id": "Qs0Vux5WH_"
+    },
+    {
+      "id": "MuizEfGLE"
+    },
+    {
+      "id": "fBOLNQB9Q"
+    }
+  ],
+  "exclude": [
+    {
+      "id": "nUNjcCU6f"
+    },
+    {
+      "id": "CHueCEIvSV"
+    }
+  ],
+  "include": [
+    {
+      "id": "mlqeOblll"
+    }
+  ],
+  "boost": [
+    {
+      "id": "hEqJRKkwOV"
+    }
+  ],
+  "order": [],
+  "realm": "content",
+  "title": "INF Smart Block Film Feeling Blue",
+  "description": "",
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "wfBy1paHlb",
+          "83txjtJm",
+          "Qs0Vux5WH_",
+          "MuizEfGLE",
+          "fBOLNQB9Q",
+          "nUNjcCU6f",
+          "CHueCEIvSV",
+          "mlqeOblll",
+          "hEqJRKkwOV"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "TuAyi0elu",
+          "KhQ3IziFJ"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "VYBMa1Toh"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1,
+    "mustOperator": "or"
+  },
+  "id": "rOiEnU9mH",
+  "version": 11,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-09-08T13:50:22.754Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 10,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 8,
+          "items": [
+            {
+              "id": "wfBy1paHlb",
+              "type": "rules",
+              "title": "Rule Channel Infinity"
+            },
+            {
+              "id": "83txjtJm",
+              "type": "rules",
+              "title": "Rule Tipologia Film"
+            },
+            {
+              "id": "Qs0Vux5WH_",
+              "type": "rules",
+              "title": "Rule Editorial Type Movie"
+            },
+            {
+              "id": "MuizEfGLE",
+              "type": "rules",
+              "title": "Rule  Anno Produzione over 1995"
+            },
+            {
+              "id": "nUNjcCU6f",
+              "type": "rules",
+              "title": "Rule Filtro Escludi Tv Movie e Miniserie"
+            },
+            {
+              "id": "CHueCEIvSV",
+              "type": "rules",
+              "title": "Rule Tipologia Documentari"
+            },
+            {
+              "id": "mlqeOblll",
+              "type": "rules",
+              "title": "Rule Mood agrodolce melanconico"
+            },
+            {
+              "id": "hEqJRKkwOV",
+              "type": "rules",
+              "title": "Rule Film di Autore e Qualità"
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 2,
+          "items": [
+            {
+              "id": "TuAyi0elu",
+              "type": "rulesPresets",
+              "title": "Preset SearchVisible e FrontEnd Visible True"
+            },
+            {
+              "id": "KhQ3IziFJ",
+              "type": "rulesPresets",
+              "title": "Preset Video format exclude 4K"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "uselessMultiplier": false,
+  "metadataOverrides": {},
+  "presets": {
+    "filter": [
+      {
+        "id": "TuAyi0elu"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "KhQ3IziFJ"
+      }
+    ]
+  }
+}

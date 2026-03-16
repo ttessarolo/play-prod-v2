@@ -1,0 +1,71 @@
+{
+  "results": {
+    "min": 0,
+    "flatAllBlocks": true,
+    "max": 24
+  },
+  "blocks": [
+    {
+      "_id": "AYHJHru_24",
+      "condition": "*",
+      "title": "Block Most Recent Documentari",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 24,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_"
+      },
+      "queryId": "cbbhfkNy0"
+    }
+  ],
+  "title": "Block Most Recent Documentari",
+  "description": "",
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "realm": "content",
+  "canBeFallback": 1,
+  "refs": {
+    "require": [
+      {
+        "type": "queries",
+        "items": [
+          "cbbhfkNy0"
+        ]
+      },
+      {
+        "type": "blocks",
+        "items": []
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": [
+          "eOaXizx_"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "PY_ejKHEh",
+          "hp5t109jk",
+          "lj4Lgcx84",
+          "MVJOOYqCC"
+        ]
+      }
+    ]
+  },
+  "id": "ZIadZYmk6",
+  "version": 1,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-03-29T14:38:56.208Z"
+  }
+}

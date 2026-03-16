@@ -1,0 +1,54 @@
+{
+  "title": "Lista ADV La nave della Bellezza",
+  "description": "",
+  "type": "contentId",
+  "contentType": "video",
+  "realm": "content",
+  "metadataField": "video_content_id",
+  "elements": [
+    "F313040201000701",
+    "F313040201000801",
+    "F313040201000901",
+    "F313040201001001",
+    "F313040201001101",
+    "F313040201001201"
+  ],
+  "id": "oqoheKawM",
+  "version": 8,
+  "lastSaved": {
+    "username": "Massimiliano.Berardi",
+    "date": "2024-01-12T10:16:05.696Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "rules",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "rules",
+          "count": 1,
+          "items": [
+            {
+              "id": "xvYVAxCdJ",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  }
+}

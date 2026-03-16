@@ -1,0 +1,31 @@
+{
+  "title": "Lista ADV Bialetti",
+  "description": "",
+  "type": "contentId",
+  "contentType": "video",
+  "realm": "content",
+  "elements": [
+    "F311299801000101"
+  ],
+  "id": "UF5SMoKif",
+  "version": 6,
+  "lastSaved": {
+    "username": "Massimiliano.Berardi",
+    "date": "2021-08-31T14:32:43.820Z"
+  },
+  "refs": {
+    "belongs": []
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  }
+}

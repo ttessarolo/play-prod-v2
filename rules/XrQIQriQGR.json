@@ -1,0 +1,132 @@
+{
+  "contentType": "video",
+  "title": "Rule etichetta editoriale In Onda",
+  "description": "",
+  "clauses": [
+    "filter",
+    "exclude",
+    "include",
+    "boost"
+  ],
+  "rule": [
+    {
+      "condition": "*",
+      "boost": 1,
+      "type": "I2I",
+      "_id": "D5Ommj0iv",
+      "matchFromArray": "In Onda",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      },
+      "field": "etichetteEditoriali",
+      "fieldDBType": "keyword",
+      "queryType": "matchFromArray",
+      "value": "In Onda",
+      "valueType": "string",
+      "API": "V2"
+    }
+  ],
+  "field": "etichetteEditoriali",
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "PzMzP5D6R",
+          "T2R37bH_w",
+          "i7977YQbm",
+          "zqakv8vZvB",
+          "hhqbCjmm_1",
+          "VaFxBerr6",
+          "ajqPan1bS",
+          "yncTA7ween",
+          "arcIZfX7Q",
+          "NDMxn06hM",
+          "ds8pLOaGO",
+          "CAd6ogG7u",
+          "TLxbxZNoD",
+          "uk8fnabnQY",
+          "_YcmnLaH4",
+          "hbPc0tj9I",
+          "hn5iFhhbZ",
+          "cOZWtR5QFk",
+          "vKyWUq28Mj",
+          "J5tCfqwb1y",
+          "I1706J335",
+          "FF6GVv2DC",
+          "ZmqQWEcF8",
+          "wwG2hSMIC",
+          "_v4wfuHNr",
+          "us3vUNLgO",
+          "R4M6lw89s",
+          "YMNQr6Pus",
+          "sC1otJfhE",
+          "PKIPtcVd_",
+          "aqIFPp4zi",
+          "qW2FYtvyr",
+          "tNuQWnsHf",
+          "kBxcwzsiW8",
+          "opSo8V1UKT",
+          "UxPXwvjeT",
+          "ziE_vsPP2x",
+          "XUe7byBci",
+          "tbkv2_bXt",
+          "vQpdSxndVV",
+          "fPSsZdCBTk",
+          "CGFfVq3sX",
+          "ZsxcVJ4cb",
+          "NTAbYMbvb",
+          "gZLBaGLkr",
+          "O43LrW3K3",
+          "DB7Fg4hfA",
+          "Z4Xzab9uO0",
+          "ohpTGTghM",
+          "L_RgHf3zx",
+          "dRtZeUJMlX",
+          "sJQMmhHHE",
+          "n34TQOZcMI",
+          "TuLnMyRO6r",
+          "ABUvps5All",
+          "Fnu1as9qg",
+          "ZWp_WOb5a3",
+          "ZRGcMAnsL",
+          "uUJ4hfCDig",
+          "kc8b7byAm",
+          "YutotoG_ze",
+          "XX1xUnRXVj",
+          "Kimd2MNT4C",
+          "LFRatKHdi",
+          "qP2zv3POr",
+          "QBSCM27jL",
+          "yHKYscQUvt",
+          "rkiCo37Zx",
+          "zzovQgZgg",
+          "JcLPwIH_9",
+          "TrBCM_mrO",
+          "AkDXA7YHE",
+          "byMpe1wx_f",
+          "z4cKov4kQ",
+          "zfEqUdL_n",
+          "jxdmOp891w"
+        ]
+      }
+    ]
+  },
+  "id": "XrQIQriQGR",
+  "version": 2,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2020-10-30T13:29:04.759Z"
+  }
+}

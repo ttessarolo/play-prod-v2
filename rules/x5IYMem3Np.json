@@ -1,0 +1,46 @@
+{
+  "title": "Rule IdSeason Play Cult",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "ST000000001111",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "id_season_st",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "yqRHn3DA7"
+    }
+  ],
+  "clauses": [
+    "filter"
+  ],
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "smVITPQ7Q"
+        ]
+      }
+    ]
+  },
+  "id": "x5IYMem3Np",
+  "version": 1,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-03-28T11:18:10.023Z"
+  }
+}

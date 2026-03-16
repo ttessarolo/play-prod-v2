@@ -1,0 +1,98 @@
+{
+  "title": "Rule Include Highlights Calcio se chiamante Highlights Calcio",
+  "description": "Se il chiamante è Highlights chiama Highlights\n",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "*highlights*",
+      "valueType": "freeText",
+      "queryType": "contains",
+      "field": "title",
+      "fieldNested": 0,
+      "fieldDBType": "text",
+      "_id": "oYZpC33yO"
+    }
+  ],
+  "clauses": [
+    "include"
+  ],
+  "metadata": {
+    "content": false
+  },
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "jNFBAYUGK"
+        ]
+      }
+    ]
+  },
+  "id": "KJSwFJ4F4x",
+  "version": 7,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-09-15T10:44:18.682Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 1,
+          "items": [
+            {
+              "id": "jNFBAYUGK",
+              "type": "queries",
+              "title": "Query Similar Sport Highlights"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "searchMetadata": [
+    "request",
+    "content"
+  ],
+  "includedMetadata": [
+    "content"
+  ]
+}

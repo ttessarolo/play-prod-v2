@@ -1,0 +1,38 @@
+{
+  "id": "seVStySXi",
+  "propertyId": "zlqQNxLcGh",
+  "title": "Ciak",
+  "description": "Please Edit description for Page \"Variant 2\"",
+  "enabledPagesId": [
+    "nyMd3k9ed"
+  ],
+  "isPage": true,
+  "blocks": [],
+  "version": 2,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2024-11-19T16:13:44.196Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "endpoints",
+        "items": [
+          "nyMd3k9ed"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  }
+}

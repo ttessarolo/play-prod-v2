@@ -1,0 +1,67 @@
+{
+  "title": "Rule published_flag per Genere Parametri",
+  "description": "Restituisce zero risultati se il parametro Genere è vuoto",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "(isEmpty(params_genre))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "isEmpty",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "params_genre"
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ],
+            "id": "PXJ958JYXM"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "",
+      "valueType": "",
+      "queryType": "checkExists",
+      "field": "published_flag",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "PGseX4ORmg",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "clauses": [
+    "exclude"
+  ],
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": []
+      }
+    ]
+  },
+  "id": "givQ_pxa_",
+  "version": 1,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-03-02T11:42:31.519Z"
+  }
+}

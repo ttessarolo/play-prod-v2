@@ -1,0 +1,199 @@
+{
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "(contains(ratingparentalcontrol, \"verde\"))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "ratingparentalcontrol"
+              },
+              {
+                "value": "\"verde\"",
+                "type": "string"
+              }
+            ],
+            "id": "15V8AFxN3n"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "giallo",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "ratingparentalcontrol",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "pYSomshvV",
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "API": "V2",
+      "condition": "(contains(ratingparentalcontrol, \"verde\"))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "ratingparentalcontrol"
+              },
+              {
+                "value": "\"verde\"",
+                "type": "string"
+              }
+            ],
+            "id": "15V8AFxN3n"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "rosso",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "ratingparentalcontrol",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "am3x6ddsAF",
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "API": "V2",
+      "condition": "(contains(ratingparentalcontrol, \"verde\"))",
+      "boost": 1,
+      "type": "",
+      "value": "rosso vm14",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "ratingparentalcontrol",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "_G2PotVD9Y",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "ratingparentalcontrol"
+              },
+              {
+                "value": "\"verde\"",
+                "type": "string"
+              }
+            ],
+            "id": "15V8AFxN3n"
+          }
+        ]
+      },
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "API": "V2",
+      "condition": "(contains(ratingparentalcontrol, \"verde\"))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "ratingparentalcontrol"
+              },
+              {
+                "value": "\"verde\"",
+                "type": "string"
+              }
+            ],
+            "id": "15V8AFxN3n"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "rosso vm18",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "ratingparentalcontrol",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "iQAlHHnb4M",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "clauses": [
+    "exclude"
+  ],
+  "title": "Rule Rating Parental control Verde",
+  "description": "",
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": []
+      }
+    ]
+  },
+  "id": "NO4wNwi0N",
+  "version": 10,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-04-07T13:49:40.539Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 1,
+          "items": [
+            {
+              "id": "_UJtujmOS",
+              "type": "queries",
+              "title": "Query Similar Cinema"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 1,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "content": true
+  }
+}

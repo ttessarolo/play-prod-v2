@@ -1,0 +1,197 @@
+{
+  "title": "TVOD Generi per Parametri Film Top Blockbuster",
+  "description": "Per use case parametrici in TVOD",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "IyDzyntfi"
+    },
+    {
+      "id": "83txjtJm"
+    },
+    {
+      "id": "Qs0Vux5WH_"
+    },
+    {
+      "id": "JP8BezUBBQ"
+    },
+    {
+      "id": "vKGPyoliA"
+    },
+    {
+      "id": "CTGuqOMTe"
+    }
+  ],
+  "exclude": [
+    {
+      "id": "hzun5eW6d"
+    },
+    {
+      "id": "MwF1OITAc"
+    }
+  ],
+  "include": [
+    {
+      "id": "w_A5RtTR9"
+    }
+  ],
+  "boost": [],
+  "order": [
+    {
+      "id": "A5n475YeR"
+    }
+  ],
+  "realm": "content",
+  "presets": {
+    "filter": [
+      {
+        "id": "TuAyi0elu"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "KhQ3IziFJ"
+      }
+    ]
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "IyDzyntfi",
+          "83txjtJm",
+          "Qs0Vux5WH_",
+          "JP8BezUBBQ",
+          "vKGPyoliA",
+          "CTGuqOMTe",
+          "hzun5eW6d",
+          "MwF1OITAc",
+          "w_A5RtTR9",
+          "A5n475YeR"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "TuAyi0elu",
+          "KhQ3IziFJ"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "xRuss7PzAY"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": "0.1",
+    "resultsMultiplier": 1,
+    "mustOperator": "or"
+  },
+  "id": "smEuLKmQtT",
+  "version": 26,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2022-09-21T15:57:48.683Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "xRuss7PzAY",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 11,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 9,
+          "items": [
+            {
+              "id": "IyDzyntfi",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "83txjtJm",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "Qs0Vux5WH_",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "JP8BezUBBQ",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "vKGPyoliA",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "hzun5eW6d",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "MwF1OITAc",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "w_A5RtTR9",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "A5n475YeR",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 2,
+          "items": [
+            {
+              "id": "TuAyi0elu",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "KhQ3IziFJ",
+              "type": "rulesPresets",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "metadataOverrides": {},
+  "uselessMultiplier": false
+}

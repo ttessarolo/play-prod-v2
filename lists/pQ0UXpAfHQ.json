@@ -1,0 +1,53 @@
+{
+  "title": "Lista ADV Studio Aperto Mag",
+  "description": "",
+  "type": "contentId",
+  "contentType": "video",
+  "realm": "content",
+  "metadataField": "video_content_id",
+  "elements": [
+    "F312329301337C02",
+    "F312329301337C03",
+    "F312329301337C04",
+    "F312329301337C05",
+    "F312329301337C06"
+  ],
+  "id": "pQ0UXpAfHQ",
+  "version": 9,
+  "lastSaved": {
+    "username": "Massimiliano.Berardi",
+    "date": "2023-12-15T09:35:21.225Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "rules",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "rules",
+          "count": 1,
+          "items": [
+            {
+              "id": "xvYVAxCdJ",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  }
+}

@@ -1,0 +1,459 @@
+{
+  "id": "k4QGHdxQW",
+  "propertyId": "zlqQNxLcGh",
+  "title": "Multiple Block Film Serie Anonimo",
+  "description": "Please Edit description for Page \"Default\"",
+  "enabledPagesId": [
+    "NxQika02i"
+  ],
+  "isPage": true,
+  "blocks": [
+    {
+      "id": "PSQUo3WS8",
+      "condition": "*",
+      "title": "Film comici e commedie",
+      "type": "nested",
+      "layout": {
+        "i": "PSQUo3WS8",
+        "x": 0,
+        "y": 1,
+        "w": 12,
+        "h": 30,
+        "blocks": [],
+        "isDraggable": true
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "EXWiZCvTJ",
+      "metadataUI": {
+        "playContentMeta": {
+          "genere_mcm": "Commedia,Comico"
+        },
+        "attributes": {
+          "template": "POSTER"
+        }
+      },
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H",
+        "siteMapped": true
+      },
+      "pinned": true
+    },
+    {
+      "id": "YjLkexumH",
+      "condition": "*",
+      "title": "Film drammatici e sentimentali",
+      "type": "nested",
+      "layout": {
+        "i": "YjLkexumH",
+        "w": 12,
+        "h": 30
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "EXWiZCvTJ",
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Drammatico,Sentimentale"
+        }
+      },
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H",
+        "siteMapped": true
+      },
+      "pinned": true
+    },
+    {
+      "id": "QYdVjBOvU",
+      "condition": "*",
+      "title": "Film azione e thriller",
+      "type": "nested",
+      "layout": {
+        "i": "QYdVjBOvU",
+        "x": 0,
+        "y": 2,
+        "w": 12,
+        "h": 30,
+        "blocks": [],
+        "isDraggable": true
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "EXWiZCvTJ",
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Azione,Avventura,Thriller,Crime"
+        }
+      },
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H",
+        "siteMapped": true
+      },
+      "pinned": true
+    },
+    {
+      "id": "yKtFnKRR2",
+      "condition": "*",
+      "title": "Serie tv e Fiction Drama",
+      "type": "nested",
+      "layout": {
+        "i": "yKtFnKRR2",
+        "x": 0,
+        "y": 4,
+        "w": 12,
+        "h": 30,
+        "blocks": [],
+        "isDraggable": true
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "FjKkdJxMN",
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H",
+        "siteMapped": true
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Drammatico,Sentimentale"
+        }
+      },
+      "pinned": true
+    },
+    {
+      "id": "s4KFHBc16",
+      "condition": "*",
+      "title": "Serie tv e Fiction Comedy",
+      "type": "nested",
+      "layout": {
+        "i": "s4KFHBc16",
+        "w": 12,
+        "h": 30
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "FjKkdJxMN",
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Commedia,Comico,Sit-Com"
+        }
+      },
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H",
+        "siteMapped": true
+      },
+      "pinned": true
+    },
+    {
+      "id": "ia4axZJVbb",
+      "condition": "*",
+      "title": "Serie tv e Fiction Crime",
+      "type": "nested",
+      "layout": {
+        "i": "ia4axZJVbb",
+        "w": 12,
+        "h": 30
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "FjKkdJxMN",
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H",
+        "siteMapped": true
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Crime,Thriller"
+        }
+      }
+    }
+  ],
+  "version": 42,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2023-03-29T09:05:47.789Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "endpoints",
+        "items": [
+          "NxQika02i"
+        ]
+      }
+    ],
+    "require": [
+      {
+        "type": "queries",
+        "items": []
+      },
+      {
+        "type": "endpoints",
+        "items": [
+          "WXsJUgBAp"
+        ]
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "Rc1YEkVxO",
+          "EXWiZCvTJ",
+          "FjKkdJxMN"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "NxQika02i",
+              "type": "endpoints",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 4,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "WXsJUgBAp",
+              "type": "endpoints",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "blocks",
+          "count": 3,
+          "items": [
+            {
+              "id": "Rc1YEkVxO",
+              "type": "blocks"
+            },
+            {
+              "id": "EXWiZCvTJ",
+              "type": "blocks"
+            },
+            {
+              "id": "FjKkdJxMN",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "layout": [
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 0,
+      "i": "PSQUo3WS8",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 30,
+      "i": "YjLkexumH",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 60,
+      "i": "QYdVjBOvU",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 90,
+      "i": "yKtFnKRR2",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 120,
+      "i": "s4KFHBc16",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 180,
+      "i": "ia4axZJVbb",
+      "moved": false,
+      "static": false
+    }
+  ],
+  "results": {
+    "smartOrderBlocks": false,
+    "deduplicatedResultsBetweenBlocks": false,
+    "contentType": "video",
+    "userContentType": "user",
+    "event": "watched",
+    "perUserBasisType": "video_historical_fingerprint",
+    "fallbackBlockId": "Rc1YEkVxO",
+    "fullSubstituteFallback": true
+  },
+  "fullSubstituteFallback": true,
+  "uiParams": {
+    "preview": {
+      "uiParams": {
+        "current": "User Logged #2",
+        "currentIndex": 2,
+        "sets": [
+          {
+            "title": "Anonymous",
+            "params": {
+              "contentId": {
+                "value": "F010791601000102",
+                "active": true
+              },
+              "userId": {
+                "value": "1f51d5e9f09e4d349fa3af349e1cdac4",
+                "active": false
+              },
+              "deviceId": {
+                "value": "ARES-CC",
+                "active": true
+              }
+            }
+          },
+          {
+            "title": "User Logged #1",
+            "params": {
+              "contentId": {
+                "value": "F010791601000102",
+                "active": true
+              },
+              "userId": {
+                "value": "1f51d5e9f09e4d349fa3af349e1cdac4",
+                "active": true
+              },
+              "deviceId": {
+                "value": "ARES-CC",
+                "active": true
+              }
+            }
+          },
+          {
+            "title": "User Logged #2",
+            "params": {
+              "contentId": {
+                "value": "F010791601000102",
+                "active": false
+              },
+              "userId": {
+                "value": "8afd26d2efbd47b4a7a63e03b566e7b5:2702976343/c1589bff-6136-443a-a897-9060a84d72f5/58954e77-5e7e-4c75-8e9d-6f6f774ea473",
+                "active": true
+              },
+              "deviceId": {
+                "value": "ARES-CC",
+                "active": true
+              }
+            }
+          }
+        ]
+      },
+      "currentParams": {
+        "userId": "8afd26d2efbd47b4a7a63e03b566e7b5:2702976343/c1589bff-6136-443a-a897-9060a84d72f5/58954e77-5e7e-4c75-8e9d-6f6f774ea473",
+        "deviceId": "ARES-CC"
+      }
+    }
+  }
+}

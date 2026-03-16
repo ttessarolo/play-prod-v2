@@ -1,0 +1,229 @@
+{
+  "refs": {
+    "require": [
+      {
+        "type": "queries",
+        "items": [
+          "P9Ls7vSds",
+          "sRlHZqMawB",
+          "mtx6Ew_wWR",
+          "XX1xUnRXVj"
+        ]
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "Kv6wN8Y2zI"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": [
+          "eOaXizx_"
+        ]
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "rqicoQi_nQ",
+          "QLhb1DQxx",
+          "UzsmyaqtN"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "pages",
+          "count": 1,
+          "items": [
+            {
+              "variantId": "rqicoQi_nQ",
+              "propertyId": "zlqQNxLcGh",
+              "propertyTitle": "",
+              "endpointId": "VikHuTBp_",
+              "endpointTitle": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 6,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 4,
+          "items": [
+            {
+              "id": "P9Ls7vSds",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "sRlHZqMawB",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "mtx6Ew_wWR",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "XX1xUnRXVj",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "Kv6wN8Y2zI",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 1,
+          "items": [
+            {
+              "id": "eOaXizx_",
+              "type": "responseFields",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "results": {
+    "flatAllBlocks": true,
+    "min": 0,
+    "fallbackBlockId": "Kv6wN8Y2zI",
+    "max": 30,
+    "deduplicateFlattedResults": true
+  },
+  "blocks": [
+    {
+      "_id": "X1ZAlnu4HD",
+      "condition": "*",
+      "title": "Stagioni Super Top",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 20,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "fallbackBlockId": "Kv6wN8Y2zI",
+        "skipOnEmpty": true
+      },
+      "queryId": "P9Ls7vSds"
+    },
+    {
+      "_id": "KLUT5wOPg",
+      "condition": "*",
+      "title": "Stagioni Top In Onda o Esclusiva",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 20,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true
+      },
+      "queryId": "sRlHZqMawB"
+    },
+    {
+      "_id": "zkxuH2Izu",
+      "condition": "*",
+      "title": "Stagioni In Onda o Esclusiva no TOP",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 30,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true
+      },
+      "queryId": "mtx6Ew_wWR"
+    },
+    {
+      "_id": "UZcZMSphp",
+      "condition": "*",
+      "title": "Serie più viste",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 50,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true
+      },
+      "queryId": "XX1xUnRXVj"
+    }
+  ],
+  "title": "Block Soap opera",
+  "description": "",
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "realm": "content",
+  "id": "FjD3AdqNL",
+  "version": 24,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2023-06-20T08:05:39.685Z"
+  }
+}

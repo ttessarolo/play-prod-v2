@@ -1,0 +1,131 @@
+{
+  "title": "Rule Content Channel Origin",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "content_channels",
+      "valueType": "metadata",
+      "queryType": "matchFromArray",
+      "field": "content_channels",
+      "fieldNested": 0,
+      "fieldDBType": "text",
+      "_id": "zSLYJtcoyH"
+    }
+  ],
+  "clauses": [
+    "filter"
+  ],
+  "metadata": {
+    "content": true
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "Jnfu6ZH0E",
+          "SGD1LQ9Mj",
+          "eYuL4ML7TS",
+          "YLPLAtYlN",
+          "tv97xe64g",
+          "qA8cN2kDM",
+          "DHl6a0GLT",
+          "OoW_RxrtA",
+          "_WmSa4Xbk",
+          "snFdkOv3m",
+          "U1hz1tNQN",
+          "wLOGym_XT",
+          "TGWJP5C2lJ",
+          "Alu6uP5f6",
+          "Hpf2pfaEM",
+          "jTWiGJ8a3j",
+          "UAO8fckslW",
+          "PoNLxId54",
+          "JN5f1BTm8",
+          "hW8B6U1FQ",
+          "AqgW7pWFS"
+        ]
+      }
+    ]
+  },
+  "id": "YMaH2tPZC",
+  "version": 6,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-07-15T16:26:09.333Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 6,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 6,
+          "items": [
+            {
+              "id": "Jnfu6ZH0E",
+              "type": "queries",
+              "title": "Query Similar Cartoni"
+            },
+            {
+              "id": "SGD1LQ9Mj",
+              "type": "queries",
+              "title": "CHNLS Similar Cinema"
+            },
+            {
+              "id": "UhRmAOyNS",
+              "type": "queries",
+              "title": "CHNLS Similar Serie TV"
+            },
+            {
+              "id": "eYuL4ML7TS",
+              "type": "queries",
+              "title": "Query Similar Sport"
+            },
+            {
+              "id": "YLPLAtYlN",
+              "type": "queries",
+              "title": "CHNLS Similar Sport"
+            },
+            {
+              "id": "tv97xe64g",
+              "type": "queries",
+              "title": "CHNLS Similar Documentari"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 1,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "searchMetadata": [
+    "request",
+    "content"
+  ],
+  "includedMetadata": [
+    "content"
+  ]
+}

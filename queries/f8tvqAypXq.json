@@ -1,0 +1,146 @@
+{
+  "title": "CHNLS Similar Serie TV Trailer Fep",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "shFaOTU2LS"
+    },
+    {
+      "id": "KukwdwFDvb"
+    }
+  ],
+  "exclude": [
+    {
+      "id": "n1PFC8Cdd"
+    }
+  ],
+  "include": [],
+  "boost": [],
+  "order": [],
+  "realm": "content",
+  "presets": {
+    "filter": [
+      {
+        "id": "TuAyi0elu"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "ZRorAbL96Q"
+      },
+      {
+        "id": "KhQ3IziFJ"
+      }
+    ]
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "shFaOTU2LS",
+          "KukwdwFDvb",
+          "n1PFC8Cdd"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "TuAyi0elu",
+          "ZRorAbL96Q",
+          "KhQ3IziFJ"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": []
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "id": "f8tvqAypXq",
+  "version": 13,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2022-09-28T14:29:21.459Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 9,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 6,
+          "items": [
+            {
+              "id": "reuwYeTqu",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "KukwdwFDvb",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "guv9d2IRj",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "Ehrm1Jwn6",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "k53RiiqC7K",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "n1PFC8Cdd",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 3,
+          "items": [
+            {
+              "id": "TuAyi0elu",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "ZRorAbL96Q",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "KhQ3IziFJ",
+              "type": "rulesPresets",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "uselessMultiplier": false,
+  "metadataOverrides": {}
+}

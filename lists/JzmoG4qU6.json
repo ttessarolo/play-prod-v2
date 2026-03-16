@@ -1,0 +1,51 @@
+{
+  "title": "Lista Editorial Type Clip Extra Promo Trailer",
+  "description": "",
+  "contentType": "video",
+  "type": "text",
+  "elements": [
+    "Clip",
+    "Extra",
+    "Promo",
+    "Trailer"
+  ],
+  "id": "JzmoG4qU6",
+  "version": 3,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-04-09T17:22:43.031Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "rules",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "rules",
+          "count": 1,
+          "items": [
+            {
+              "id": "u3qMFpEPQ",
+              "type": "rules",
+              "title": "Rule Editorial Type Clip per search"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  },
+  "realm": "content"
+}

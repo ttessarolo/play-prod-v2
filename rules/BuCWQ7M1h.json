@@ -1,0 +1,81 @@
+{
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": [
+          "zdlOkQ0o4"
+        ]
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "fFfkZBP4s"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 1,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 1,
+          "items": [
+            {
+              "id": "zdlOkQ0o4",
+              "type": "lists",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "zdlOkQ0o4",
+      "valueType": "list",
+      "queryType": "listTermsId",
+      "field": "last_live_channel",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "nUxDCdBEW9"
+    }
+  ],
+  "clauses": [
+    "filter"
+  ],
+  "title": "Rule Last Live Channel match I1 I2 e Boing",
+  "description": "",
+  "id": "BuCWQ7M1h",
+  "version": 2,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2023-08-22T14:31:49.236Z"
+  }
+}

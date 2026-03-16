@@ -1,0 +1,68 @@
+{
+  "language": "javascript",
+  "title": "Play Cluster Input Decorator",
+  "description": "",
+  "type": "endpoint-in",
+  "execute": "// **********************************************************\n// @description Generate userID from Payload\n//\n// @param   {object} data - payload\n// @param   {object} $    - {tenant, paramsId, endpointId, endpointConfig}\n// @param   {object} ctx  - opentracing context\n// @param   {object} this - ARES\n//\n// @return  {object} data - payload decorated\n// **********************************************************\n\nconst indexName = \"utenti\";\nconst action = \"_search\";\nconst environment = process.env.ARES_ENVIRONMENT ?? \"TEST\";\nconst settings = {\n  PROD:{\n    token:\"YXJlcy1kZWNvcmF0b3I6RTh2aHJqeWRzWjpqZ2wqPw==\",\n    url:`https://vpc-prod-ares-es-domain-46dhp5roary3finmmp5xtntsvy.eu-west-1.es.amazonaws.com/${indexName}/${action}`\n  },\n  TEST:{\n    token:\"YXJlcy1kZWNvcmF0b3I6Rk95bTU4Nmh3N0hXMXR6fQ==\",\n    url:`https://vpc-test-ares-es-domain-kwqpzbvm4h64in2iyr4prx6bhe.eu-west-1.es.amazonaws.com/${indexName}/${action}`\n  }\n}\n\nif (data.query && data.query.userId && data.query.personaShortId && !data.query.originalUserId) {\n  data.query.familyId = data.query.userId;\n  data.query.userId = `${data.query.userId}:${decodeURIComponent(data.query.personaShortId)}`;\n\n  const url = settings[environment].url;\n  const token = settings[environment].token;\n\n  const clusterResponse = await this.axios\n    ({\n      url,\n      method: \"POST\",\n      headers: {\n        'X-Custom-Ares': 'cluster_input_decorator',\n        \"Authorization\": `Basic ${token}`\n      },\n      data: {\n        query: {\n          ids: {\n            values: [data.query.userId ],\n          },\n        },\n      },\n    })\n    .catch((error) => {\n      this.logger.error({\n        function: \"axiosGetClusterIDs\",\n        errorMessage: error.message,\n        error: `CLUSTERS DECORATOR GET ${url}`,\n      });\n    });\n\n  if (clusterResponse?.data?.hits?.total?.value > 0) {\n    const { is_outlier, cluster_id } = clusterResponse.data.hits.hits[0]._source;\n\n    data.query.unifiedClusterId = cluster_id;\n    data.query.isOutlier = is_outlier;\n\n    // Force No Cache if is an Outliner\n    if(is_outlier){\n      data.query.cache = \"false\"\n    }\n  }\n\n  // Fill Cluster Metadata to let ARES inject response metadata\n  data.clusterMetadata = {\n    familyId: data.query.familyId,\n    userId: data.query.userId,\n    unifiedClusterId: data.query.unifiedClusterId,\n    isOutlier: data.query.isOutlier,\n  };\n}\n\nreturn data;",
+  "pubKey": "rti.pub.pem",
+  "algorithm": "SHA512withRSA",
+  "signature": "22a7acf0d1ae4ec259fc30edfee849bb3bb090c6a4a5f00cafc12e691411f8a8f400e81a2d3a5d971e18476e7100830ed6a5d4eee7e33ae2532a6b843a122d568aba55938a1e4dfd3c44265e3aa7a7249fd72f7651a864a2b5e482a5585e0b6cc801d7681384008254896334ebb874e2816bbab585f00d4a187667a342f5ced6e5863f6ff6985e6b749e6991c8f906dfe8a841de795cc283c012cc2300154df3e6c6c609ca0b71bf28a40d51e214fc7105f211a2eb8ae15c002708661fc07410a2349c888fb978477fb34bc7891bcf05a06da796dfb3d7cb5401837166525472323c3c394bdb6ff4b4e5d21287b27334ce689ade2e54e9eac09ab17207d30b5c44507821e0fd91db4d7f5486de52235a5103560719f31972f536f60d5d53707601c8d4cb7a33312253f9279be43c2049a089865c7c9693267215bb3f86fd2b012c1d0cd3d1ab536c6ab8583770a49496d9a24d251ac678e5663749084bf4a68de01999aca12eda5a697cb5d32e0ba603d9c746e11beedfc54a07060f757d7a2e9402af013168a2a1611ac8c9ec9346ec26b7c0cda1456bf6a3ebd082c1669359a3358d97a0172947b16bc3d123160629b555ccd528cd7af0274915d635b24007ce6af48c55ff792f519a390f260935b28c247a959f6a07b0365ca56aa88db1849a3c94566417e4c3dc19b08afb6a23bc3fb3562681dd5ff366f75175897173d6",
+  "id": "GEifuOt9g",
+  "version": 19,
+  "lastSaved": {
+    "username": "ttessarolo",
+    "date": "2025-06-03T09:21:03.411Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "endpoints",
+        "items": [
+          "q92sG36gh",
+          "onteU8tNE",
+          "pKQHFdFrz",
+          "xG209TQAOl",
+          "uK3VPzv6U",
+          "NCATfP6la",
+          "W2sNZ_bXP",
+          "vTODt8afF",
+          "MHKSMtXnx"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 3,
+      "types": 1,
+      "items": [
+        {
+          "type": "endpoints",
+          "count": 3,
+          "items": [
+            {
+              "id": "q92sG36gh",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "onteU8tNE",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "pKQHFdFrz",
+              "type": "endpoints",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  }
+}

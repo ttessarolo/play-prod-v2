@@ -1,0 +1,187 @@
+{
+  "results": {
+    "min": 0,
+    "flatAllBlocks": true,
+    "fallbackBlockId": "P0csRsOt7",
+    "max": 30,
+    "deduplicateFlattedResults": true
+  },
+  "blocks": [
+    {
+      "_id": "IFwRCbneq",
+      "condition": "*",
+      "title": "Stagioni Programmi Tv Sport TOP",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 10,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true
+      },
+      "queryId": "sC1otJfhE"
+    },
+    {
+      "_id": "osMaGIPeXm",
+      "condition": "*",
+      "title": "Block Stagioni Programmi Tv Sport",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 30,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "fallbackBlockId": "P0csRsOt7",
+        "inject": [
+          {
+            "position": 2,
+            "contentId": "ST000000002679",
+            "injectIndex": 0
+          }
+        ]
+      },
+      "metadata": {
+        "external": {
+          "output": "external_source"
+        }
+      },
+      "queryId": "YMNQr6Pus"
+    }
+  ],
+  "title": "Block Stagioni Programmi Tv Sport",
+  "description": "",
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "realm": "content",
+  "refs": {
+    "require": [
+      {
+        "type": "queries",
+        "items": [
+          "sC1otJfhE",
+          "YMNQr6Pus"
+        ]
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "P0csRsOt7"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": [
+          "eOaXizx_"
+        ]
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "RkXwKjzYE"
+        ]
+      }
+    ]
+  },
+  "id": "WUKILpoyhw",
+  "version": 7,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-09-08T08:54:11.518Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "pages",
+          "count": 1,
+          "items": [
+            {
+              "variantId": "RkXwKjzYE",
+              "variantTitle": "Default",
+              "propertyId": "zlqQNxLcGh",
+              "propertyTitle": "play",
+              "endpointId": "f5qYVJdmo",
+              "endpointTitle": "stagioniSport"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 4,
+      "types": 5,
+      "items": [
+        {
+          "type": "queries",
+          "count": 2,
+          "items": [
+            {
+              "id": "sC1otJfhE",
+              "type": "queries",
+              "title": "Query Stagioni Programmi Tv Sport Top"
+            },
+            {
+              "id": "YMNQr6Pus",
+              "type": "queries",
+              "title": "Query Stagioni Programmi Tv Sport"
+            }
+          ]
+        },
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "P0csRsOt7",
+              "type": "blocks",
+              "title": "Block published flag not exists"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 1,
+          "items": [
+            {
+              "id": "eOaXizx_",
+              "type": "responseFields",
+              "title": "PLAY-PROD-VIDEO-MINIMAL-SET"
+            }
+          ]
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "searchMetadata": [
+    "request",
+    "external"
+  ],
+  "includedMetadata": [
+    "external"
+  ]
+}

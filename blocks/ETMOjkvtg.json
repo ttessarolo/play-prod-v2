@@ -1,0 +1,316 @@
+{
+  "id": "ETMOjkvtg",
+  "propertyId": "rrjMTUmyqd",
+  "title": "infMain",
+  "description": "Please Edit description for Page \"Variant 2\"",
+  "enabledPagesId": [
+    "Gw6akjKa4a"
+  ],
+  "isPage": true,
+  "blocks": [
+    {
+      "id": "nBRLsvMJO",
+      "condition": "*",
+      "title": "Film",
+      "type": "nested",
+      "layout": {
+        "i": "nBRLsvMJO",
+        "w": 12,
+        "h": 30
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "TCx_rZ2AW",
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "searchDetailParams": {
+          "uxReference": "detail",
+          "property": "search",
+          "params": "variant≈{variant};channel≈{channel}",
+          "variant": "movie",
+          "channel": "Infinity"
+        }
+      }
+    },
+    {
+      "id": "_NThG2e3DN",
+      "condition": "*",
+      "title": "Serie",
+      "type": "nested",
+      "layout": {
+        "i": "_NThG2e3DN",
+        "w": 12,
+        "h": 30
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "ZyqTEHJfD",
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "searchDetailParams": {
+          "uxReference": "detail",
+          "property": "search",
+          "params": "variant≈{variant};channel≈{channel}",
+          "variant": "infSerie",
+          "channel": "Infinity"
+        }
+      }
+    },
+    {
+      "id": "ftCAfUpzcH",
+      "condition": "*",
+      "title": "Clip",
+      "type": "nested",
+      "layout": {
+        "i": "ftCAfUpzcH",
+        "w": 12,
+        "h": 30
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "Tiu8NSl7tn",
+      "metadataUI": {
+        "attributes": {
+          "template": "KEYFRAME"
+        },
+        "searchDetailParams": {
+          "uxReference": "detail",
+          "property": "search",
+          "params": "variant≈{variant};channel≈{channel}",
+          "variant": "clip",
+          "channel": "Infinity"
+        }
+      }
+    }
+  ],
+  "version": 27,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2023-03-29T08:19:18.687Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "endpoints",
+        "items": [
+          "Gw6akjKa4a"
+        ]
+      }
+    ],
+    "require": [
+      {
+        "type": "queries",
+        "items": []
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "AwF1CRpxF",
+          "TCx_rZ2AW",
+          "ZyqTEHJfD",
+          "Tiu8NSl7tn"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "Gw6akjKa4a",
+              "type": "endpoints",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 4,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 4,
+          "items": [
+            {
+              "id": "AwF1CRpxF",
+              "type": "blocks"
+            },
+            {
+              "id": "TCx_rZ2AW",
+              "type": "blocks"
+            },
+            {
+              "id": "ZyqTEHJfD",
+              "type": "blocks"
+            },
+            {
+              "id": "Tiu8NSl7tn",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "layout": [
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 0,
+      "i": "nBRLsvMJO",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 30,
+      "i": "_NThG2e3DN",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 60,
+      "i": "ftCAfUpzcH",
+      "moved": false,
+      "static": false
+    }
+  ],
+  "uiParams": {
+    "preview": {
+      "uiParams": {
+        "current": "Default",
+        "currentIndex": 0,
+        "sets": [
+          {
+            "title": "Default",
+            "params": {
+              "paramsId": {
+                "value": "playDefault",
+                "active": true
+              },
+              "contentId": {
+                "value": "F301644701000103",
+                "active": false
+              },
+              "userId": {
+                "value": "1f51d5e9f09e4d349fa3af349e1cdac4",
+                "active": false
+              },
+              "deviceId": {
+                "value": "ARES-CC",
+                "active": true
+              },
+              "query": {
+                "active": true,
+                "value": "title≈legacies"
+              },
+              "userGroup": {
+                "active": false
+              },
+              "params": {
+                "active": true,
+                "value": "channel≈Infinity"
+              },
+              "decoratorOutputEnvironment": {
+                "value": "production",
+                "active": true
+              },
+              "decoratorOutputVersion": {
+                "value": "v2",
+                "active": true
+              }
+            }
+          }
+        ]
+      },
+      "currentParams": {
+        "paramsId": "playDefault",
+        "deviceId": "ARES-CC",
+        "query": "title≈legacies",
+        "params": "channel≈Infinity",
+        "decoratorOutputEnvironment": "production",
+        "decoratorOutputVersion": "v2"
+      }
+    }
+  },
+  "results": {
+    "fallbackBlockId": "AwF1CRpxF",
+    "fullSubstituteFallback": true
+  },
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": [],
+  "fullSubstituteFallback": true
+}

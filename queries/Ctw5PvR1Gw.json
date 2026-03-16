@@ -1,0 +1,165 @@
+{
+  "title": "INF Film Infinity Top Blockbuster",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "wfBy1paHlb"
+    },
+    {
+      "id": "83txjtJm"
+    },
+    {
+      "id": "Qs0Vux5WH_"
+    }
+  ],
+  "exclude": [
+    {
+      "id": "ju06OqIgO"
+    }
+  ],
+  "include": [
+    {
+      "id": "YH7QA4iyR"
+    }
+  ],
+  "boost": [],
+  "order": [],
+  "realm": "content",
+  "presets": {
+    "exclude": [
+      {
+        "id": "KhQ3IziFJ"
+      }
+    ]
+  },
+  "general": {
+    "resultsMultiplier": 1,
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "mustOperator": "or"
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "wfBy1paHlb",
+          "83txjtJm",
+          "Qs0Vux5WH_",
+          "ju06OqIgO",
+          "YH7QA4iyR"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "KhQ3IziFJ"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "m0fY0CpslB",
+          "r5OMhn9D3"
+        ]
+      }
+    ]
+  },
+  "id": "Ctw5PvR1Gw",
+  "version": 9,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-07-19T16:52:43.552Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 3,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 3,
+          "items": [
+            {
+              "id": "tD88oE7bRW",
+              "type": "blocks",
+              "title": "INF Film Più visti 24h"
+            },
+            {
+              "id": "m0fY0CpslB",
+              "type": "blocks",
+              "title": "Block Default Search Video"
+            },
+            {
+              "id": "Wbd_QbaekG",
+              "type": "blocks",
+              "title": "Block Film Top viewed e Most recent"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 8,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 7,
+          "items": [
+            {
+              "id": "wfBy1paHlb",
+              "type": "rules",
+              "title": "Rule Channel Infinity"
+            },
+            {
+              "id": "83txjtJm",
+              "type": "rules",
+              "title": "Rule Tipologia Film"
+            },
+            {
+              "id": "Qs0Vux5WH_",
+              "type": "rules",
+              "title": "Rule Editorial Type Movie"
+            },
+            {
+              "id": "XYn4_Tjey",
+              "type": "rules",
+              "title": " Rule Anno Produzione over 2005"
+            },
+            {
+              "id": "ju06OqIgO",
+              "type": "rules",
+              "title": "Rule Channel Mediaset Play"
+            },
+            {
+              "id": "YH7QA4iyR",
+              "type": "rules",
+              "title": "Rule Top Blockbuster"
+            },
+            {
+              "id": "Mwx2cMdDRM",
+              "type": "rules",
+              "title": "Rule Film Cult"
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 1,
+          "items": [
+            {
+              "id": "KhQ3IziFJ",
+              "type": "rulesPresets",
+              "title": "Preset Video format exclude 4K"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "uselessMultiplier": false,
+  "metadataOverrides": {}
+}

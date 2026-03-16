@@ -1,0 +1,106 @@
+{
+  "title": "Rule Order By last live date",
+  "description": "Ordinamento per data di messa in onda Desc",
+  "contentType": "video",
+  "clauses": [
+    "order"
+  ],
+  "rule": [
+    {
+      "sortOrder": "desc",
+      "sortMode": "avg",
+      "API": "V2",
+      "condition": "*",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": [
+              {
+                "type": "metadata",
+                "value": ""
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ],
+            "id": "ywhZt1VpQG"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "",
+      "valueType": "",
+      "queryType": "sortOrder",
+      "field": "last_live_date",
+      "fieldNested": 0,
+      "fieldDBType": "date",
+      "_id": "iCoqdGV_",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "field": "publication_date",
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "XQDNlUIPb"
+        ]
+      }
+    ]
+  },
+  "id": "GuznuQFc4",
+  "version": 9,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-05-06T17:55:36.576Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 1,
+          "items": [
+            {
+              "id": "rFYrNUGdd",
+              "type": "queries",
+              "title": "Query Film Mediaset Play Ultimi arrivi"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 1,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "scheduled": 0,
+  "scheduling": [],
+  "schedulingMap": [],
+  "realm": "content",
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": []
+}

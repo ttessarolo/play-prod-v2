@@ -1,0 +1,236 @@
+{
+  "id": "pKQHFdFrz",
+  "active": true,
+  "title": "aBtestCinemaFree",
+  "description": "",
+  "reference": "freeABtestFilm",
+  "propertyId": "zlqQNxLcGh",
+  "blockId": "zJdRVOBGv",
+  "variants": [
+    {
+      "blockId": "ftepghXc5",
+      "condition": "*",
+      "priority": 1,
+      "active": true
+    },
+    {
+      "blockId": "jbOpvqnFG",
+      "condition": "*",
+      "priority": 1,
+      "active": true
+    }
+  ],
+  "params": {
+    "timeout": 2500,
+    "cacheConfig": {
+      "cache": 1,
+      "cacheTTL": 3600,
+      "cachePrefix": {
+        "group": true,
+        "static": "endpoint",
+        "keys": []
+      },
+      "computeKeys": [
+        "startBlock",
+        "endBlock",
+        "unifiedClusterId"
+      ]
+    },
+    "userIdFields": {
+      "active": true,
+      "fields": [
+        "unifiedClusterId"
+      ]
+    },
+    "inveverseCacheConfig": {
+      "cacheTTL": 3600
+    }
+  },
+  "paramsId": "playDefault",
+  "input": {
+    "decorators": [
+      "GEifuOt9g"
+    ],
+    "schema": {
+      "name": "Input Validation Schema",
+      "description": "ARES Request Params",
+      "type": "object",
+      "required": [
+        "query"
+      ],
+      "properties": {
+        "query": {
+          "type": "object",
+          "required": [
+            "tenant",
+            "uxReference"
+          ],
+          "properties": {
+            "tenant": {
+              "type": "string"
+            },
+            "uxReference": {
+              "type": "string"
+            },
+            "userId": {
+              "type": "string"
+            },
+            "userType": {
+              "type": "string"
+            },
+            "userGroup": {
+              "type": "string"
+            },
+            "deviceId": {
+              "type": "string"
+            },
+            "contentId": {
+              "type": "string"
+            },
+            "sessionId": {
+              "type": "string"
+            },
+            "context": {
+              "type": "string"
+            },
+            "query": {
+              "type": "string"
+            },
+            "startBlock": {
+              "type": "number"
+            },
+            "endBlock": {
+              "type": "number"
+            },
+            "page": {
+              "type": "number"
+            },
+            "hitsPerPage": {
+              "type": "number"
+            }
+          }
+        }
+      }
+    }
+  },
+  "output": {
+    "decorators": [
+      "mU5ep6Aze"
+    ]
+  },
+  "version": 27,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2023-12-19T11:54:18.336Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "experiments",
+        "items": []
+      }
+    ],
+    "require": [
+      {
+        "type": "blocks",
+        "items": [
+          "zJdRVOBGv",
+          "ftepghXc5",
+          "jbOpvqnFG"
+        ]
+      },
+      {
+        "type": "params",
+        "items": [
+          "playDefault"
+        ]
+      },
+      {
+        "type": "decorators",
+        "items": [
+          "GEifuOt9g",
+          "mU5ep6Aze"
+        ]
+      },
+      {
+        "type": "conversionPacks",
+        "items": []
+      }
+    ]
+  },
+  "prevReference": "freeABtestFilm",
+  "haveScheduledVariants": 0,
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "experiments",
+          "count": 1,
+          "items": [
+            {
+              "id": "wZhtacbc2g",
+              "type": "experiments"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 6,
+      "types": 4,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 3,
+          "items": [
+            {
+              "id": "zJdRVOBGv",
+              "type": "blocks"
+            },
+            {
+              "id": "ftepghXc5",
+              "type": "blocks"
+            },
+            {
+              "id": "jbOpvqnFG",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "params",
+          "count": 1,
+          "items": [
+            {
+              "id": "playDefault",
+              "type": "params"
+            }
+          ]
+        },
+        {
+          "type": "decorators",
+          "count": 2,
+          "items": [
+            {
+              "id": "GEifuOt9g",
+              "type": "decorators"
+            },
+            {
+              "id": "mU5ep6Aze",
+              "type": "decorators"
+            }
+          ]
+        },
+        {
+          "type": "conversionPacks",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "enableAnalitica": true,
+  "paginateFromCache": true
+}

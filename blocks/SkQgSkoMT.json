@@ -1,0 +1,213 @@
+{
+  "refs": {
+    "require": [
+      {
+        "type": "queries",
+        "items": [
+          "xnz0Td37UZ",
+          "Qe21Wmp77",
+          "L98tra9vYX",
+          "R38KED28bt"
+        ]
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "P0csRsOt7"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": [
+          "eOaXizx_"
+        ]
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "V9RI7BjV7"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 6,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 4,
+          "items": [
+            {
+              "id": "xnz0Td37UZ",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "Qe21Wmp77",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "L98tra9vYX",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "R38KED28bt",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "P0csRsOt7",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 1,
+          "items": [
+            {
+              "id": "eOaXizx_",
+              "type": "responseFields",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "results": {
+    "flatAllBlocks": true,
+    "min": 0,
+    "fallbackBlockId": "P0csRsOt7",
+    "max": 110,
+    "deduplicateFlattedResults": true
+  },
+  "blocks": [
+    {
+      "_id": "CNa23PVMK",
+      "condition": "*",
+      "title": "Serie TV Infinity Prima TV Pay",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 10,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "fallbackBlockId": "P0csRsOt7",
+        "skipOnEmpty": true
+      },
+      "queryId": "xnz0Td37UZ"
+    },
+    {
+      "_id": "erfSVUplq",
+      "condition": "*",
+      "title": "Serie TV Infinity Genere Primario",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 50,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true
+      },
+      "queryId": "Qe21Wmp77"
+    },
+    {
+      "_id": "QW8lMKBGFH",
+      "condition": "*",
+      "title": "Serie TV Infinity Genere MCM",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 50,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true
+      },
+      "queryId": "L98tra9vYX"
+    },
+    {
+      "_id": "Kb20snjfIL",
+      "condition": "*",
+      "title": "Serie TV e Fiction Mplay e Infinity",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 50,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true
+      },
+      "queryId": "R38KED28bt"
+    }
+  ],
+  "title": "INF Multiple Block Serie TV Fiction Anonimo",
+  "description": "",
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "realm": "content",
+  "id": "SkQgSkoMT",
+  "version": 7,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2022-11-23T15:36:08.423Z"
+  }
+}

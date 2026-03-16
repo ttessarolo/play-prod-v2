@@ -1,0 +1,49 @@
+{
+  "title": "Query similar suggestions",
+  "description": "",
+  "contentType": "video",
+  "filter": [],
+  "exclude": [],
+  "include": [
+    {
+      "id": "rjzIKufDv"
+    }
+  ],
+  "boost": [],
+  "order": [],
+  "realm": "content",
+  "general": {
+    "mustOperator": "or",
+    "tieBreaker": 0.9,
+    "minimumShouldMatch": "1%",
+    "resultsMultiplier": 1
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "rjzIKufDv"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "YMyR8CINcc"
+        ]
+      }
+    ]
+  },
+  "id": "wro9hPaFUB",
+  "version": 1,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2023-06-14T08:25:35.138Z"
+  }
+}

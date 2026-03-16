@@ -1,0 +1,134 @@
+{
+  "title": "Rule params genre primario",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "splitter": ",",
+      "API": "V2",
+      "condition": "(!isEmpty(params_genre))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "!isEmpty",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "params_genre"
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ],
+            "id": "Qk-PySfPGz"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "params_genre",
+      "valueType": "metadata",
+      "queryType": "matchAll",
+      "field": "genere_mcm_primario",
+      "fieldNested": 0,
+      "fieldDBType": "text",
+      "_id": "YFafpBM9P",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "clauses": [
+    "filter"
+  ],
+  "scheduled": 0,
+  "scheduling": [],
+  "schedulingMap": [],
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "YctY14hyPa",
+          "XCTJ5Ut99",
+          "ZqCof5t6v",
+          "_s_m7kglK",
+          "smEuLKmQtT",
+          "BVC4GzQXU",
+          "QPwcsFJG6",
+          "nGhPhWBeV",
+          "IjuqSujtX",
+          "ZqtoubOdJ",
+          "ieeLkGbq7X",
+          "OQ6f716Nm0"
+        ]
+      }
+    ]
+  },
+  "id": "JP8BezUBBQ",
+  "version": 9,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2022-02-23T15:38:27.297Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 3,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 3,
+          "items": [
+            {
+              "id": "YctY14hyPa",
+              "type": "queries",
+              "title": "CHNLS Params Genre Primario Film"
+            },
+            {
+              "id": "XCTJ5Ut99",
+              "type": "queries",
+              "title": "CHNLS Params Genre Serie Top"
+            },
+            {
+              "id": "ZqCof5t6v",
+              "type": "queries",
+              "title": "INF Generi per Parametri Film Blocco 1"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": []
+}

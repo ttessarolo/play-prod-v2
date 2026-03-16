@@ -1,0 +1,25 @@
+{
+  "type": "text",
+  "contentType": "video",
+  "realm": "content",
+  "title": "List Boing Cartoonito",
+  "description": "",
+  "elements": [
+    "Cartoonito",
+    "Boing"
+  ],
+  "id": "KjDphMmi6z",
+  "version": 1,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2024-03-20T17:47:52.454Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "rules",
+        "items": []
+      }
+    ]
+  }
+}

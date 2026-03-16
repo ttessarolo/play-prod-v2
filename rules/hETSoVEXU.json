@@ -1,0 +1,87 @@
+{
+  "title": "Rule Genere Mcm Family e Parental Control V",
+  "description": "",
+  "contentType": "video",
+  "clauses": [
+    "filter",
+    "include"
+  ],
+  "rule": [
+    {
+      "phrase": false,
+      "API": "V2",
+      "condition": "*",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "I2I",
+      "value": "Family",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "genere_mcm",
+      "fieldDBType": "keyword",
+      "_id": "SO5iR0ZbG"
+    },
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "verde",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "ratingparentalcontrol",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "pEVnaB8uj"
+    }
+  ],
+  "field": "genere_mcm",
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "IUd_q_ixKj"
+        ]
+      }
+    ]
+  },
+  "id": "hETSoVEXU",
+  "version": 6,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-04-02T15:51:06.187Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 1,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "realm": "content"
+}

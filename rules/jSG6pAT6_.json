@@ -1,0 +1,73 @@
+{
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "pYmZdkdms"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "Top Crime",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "last_live_channel",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "sWnVxo0EA"
+    }
+  ],
+  "clauses": [
+    "filter"
+  ],
+  "title": "Last live channel Top Crime",
+  "description": "",
+  "id": "jSG6pAT6_",
+  "version": 1,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2023-10-16T15:44:03.437Z"
+  }
+}

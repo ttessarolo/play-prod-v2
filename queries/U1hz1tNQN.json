@@ -1,0 +1,340 @@
+{
+  "title": "Query Similar Documentari",
+  "description": "Similar con documentari\n",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "YMaH2tPZC"
+    },
+    {
+      "id": "KukwdwFDvb"
+    }
+  ],
+  "exclude": [
+    {
+      "id": "n1PFC8Cdd"
+    }
+  ],
+  "include": [
+    {
+      "id": "Zfqe55OC2"
+    }
+  ],
+  "boost": [
+    {
+      "id": "dy9sl_H_1",
+      "overides": {
+        "BsvxJsE1dY": {
+          "boost": 10
+        }
+      }
+    },
+    {
+      "id": "teCUyBxCNV",
+      "overides": {
+        "BsvxJsE1dY": {
+          "boost": 20
+        }
+      }
+    },
+    {
+      "id": "B42ePWTJR",
+      "overides": {
+        "hs7oTAK98": {
+          "boost": 10
+        }
+      }
+    },
+    {
+      "id": "hxpNg6Vpq",
+      "overides": {
+        "tFSn0VBcU": {
+          "boost": 10
+        }
+      }
+    },
+    {
+      "id": "PIe_NcOxD",
+      "overides": {
+        "Yvt2qMOQl": {
+          "boost": 15
+        }
+      }
+    },
+    {
+      "id": "uXBAHIG51I",
+      "overides": {
+        "EH8TU8L8o": {
+          "boost": 8
+        }
+      }
+    },
+    {
+      "id": "POneRhLfh",
+      "overides": {
+        "j6OjnkXKM": {
+          "boost": 5
+        }
+      }
+    },
+    {
+      "id": "JxYHUw7yH",
+      "overides": {
+        "j6OjnkXKM": {
+          "boost": 8
+        }
+      }
+    },
+    {
+      "id": "G2FXLxv7K",
+      "overides": {
+        "_jVD3zTZo": {
+          "boost": 5
+        }
+      }
+    },
+    {
+      "id": "SYrAp4NDd"
+    }
+  ],
+  "order": [],
+  "realm": "content",
+  "presets": {
+    "filter": [
+      {
+        "id": "TuAyi0elu"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "ZRorAbL96Q"
+      }
+    ],
+    "boost": [
+      {
+        "id": "ZPwmT2FT9"
+      },
+      {
+        "id": "l4ImWw6zL"
+      },
+      {
+        "id": "nvqWNnbgX"
+      }
+    ]
+  },
+  "general": {
+    "tieBreaker": "0.9",
+    "minimumShouldMatch": "1%",
+    "resultsMultiplier": 1,
+    "mustOperator": "or"
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "YMaH2tPZC",
+          "KukwdwFDvb",
+          "n1PFC8Cdd",
+          "Zfqe55OC2",
+          "dy9sl_H_1",
+          "teCUyBxCNV",
+          "B42ePWTJR",
+          "hxpNg6Vpq",
+          "PIe_NcOxD",
+          "uXBAHIG51I",
+          "POneRhLfh",
+          "JxYHUw7yH",
+          "G2FXLxv7K",
+          "SYrAp4NDd"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "TuAyi0elu",
+          "ZRorAbL96Q",
+          "ZPwmT2FT9",
+          "l4ImWw6zL",
+          "nvqWNnbgX"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "PY_ejKHEh"
+        ]
+      }
+    ]
+  },
+  "id": "U1hz1tNQN",
+  "version": 10,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-10-01T08:31:55.780Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "PY_ejKHEh",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 19,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 14,
+          "items": [
+            {
+              "id": "YMaH2tPZC",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "KukwdwFDvb",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "n1PFC8Cdd",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "Zfqe55OC2",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "dy9sl_H_1",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "teCUyBxCNV",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "B42ePWTJR",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "hxpNg6Vpq",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "PIe_NcOxD",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "uXBAHIG51I",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "POneRhLfh",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "JxYHUw7yH",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "G2FXLxv7K",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "SYrAp4NDd",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 5,
+          "items": [
+            {
+              "id": "TuAyi0elu",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "ZRorAbL96Q",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "ZPwmT2FT9",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "l4ImWw6zL",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "nvqWNnbgX",
+              "type": "rulesPresets",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "uselessMultiplier": false,
+  "metadataOverrides": {
+    "Zfqe55OC2": {
+      "content_similar": {
+        "required": true,
+        "output": "video_similar_ids_documentari",
+        "metadata": {
+          "included": [
+            "tipologia=Documentari",
+            "content_channels"
+          ],
+          "excluded": [
+            "editorial_type=(Clip) OR (TVSeason) OR (Serie)",
+            "id_series_se"
+          ]
+        },
+        "fingerprint": {
+          "matchFields": [
+            "fingerprint"
+          ]
+        },
+        "groupby": {
+          "metadata": "id_series_se",
+          "results": 1,
+          "sortMetadata": "episode",
+          "sortDirection": "asc"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,252 @@
+{
+  "results": {
+    "min": 0,
+    "flatAllBlocks": true,
+    "fallbackBlockId": "P0csRsOt7",
+    "max": 30,
+    "deduplicateFlattedResults": true
+  },
+  "blocks": [
+    {
+      "_id": "L9r1Z3ule",
+      "condition": "(dateRange(when_now, \"2024-12-10T23:00:01.653Z÷2025-01-31T22:59:59.653Z\"))",
+      "title": "ADV Materia Viva",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 1,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true
+      },
+      "queryId": "AF2YRNifd",
+      "metadata": {
+        "time": true
+      },
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "dateRange",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "when_now"
+              },
+              {
+                "value": "\"2024-12-10T23:00:01.653Z÷2025-01-31T22:59:59.653Z\"",
+                "type": "DateRange"
+              }
+            ],
+            "id": "uouPAJQR9c"
+          }
+        ]
+      },
+      "scheduled": true,
+      "scheduling": [
+        {
+          "id": "uouPAJQR9c",
+          "start": "2024-12-10T23:00:01.653Z",
+          "end": "2025-01-31T22:59:59.653Z"
+        }
+      ]
+    },
+    {
+      "_id": "DVuJ8f1R6e",
+      "condition": "*",
+      "title": "Documentari più visti 24H",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 30,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "fallbackBlockId": "P0csRsOt7"
+      },
+      "queryId": "aPpgfgCvJy",
+      "conditionRaw": {
+        "and": [
+          {
+            "id": "buXlw-o4T",
+            "operator": "*",
+            "values": []
+          }
+        ]
+      },
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "title": "Block Documentari più visti 24H",
+  "description": "",
+  "scheduled": true,
+  "scheduling": [
+    {
+      "id": "uouPAJQR9c",
+      "start": "2024-12-10T23:00:01.653Z",
+      "end": "2025-01-31T22:59:59.653Z"
+    }
+  ],
+  "schedulingMap": [
+    [
+      0,
+      [
+        {
+          "id": "uouPAJQR9c",
+          "start": "2024-12-10T23:00:01.653Z",
+          "end": "2025-01-31T22:59:59.653Z"
+        }
+      ]
+    ]
+  ],
+  "realm": "content",
+  "refs": {
+    "require": [
+      {
+        "type": "queries",
+        "items": [
+          "AF2YRNifd",
+          "aPpgfgCvJy"
+        ]
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "P0csRsOt7"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": [
+          "eOaXizx_"
+        ]
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "YioN2Diy8",
+          "Q7H3gYrrMH",
+          "QLhb1DQxx",
+          "UzsmyaqtN",
+          "jHz8QQRV0"
+        ]
+      }
+    ]
+  },
+  "id": "LzHgDyGoq",
+  "version": 8,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2024-12-11T15:59:19.545Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 2,
+      "types": 1,
+      "items": [
+        {
+          "type": "pages",
+          "count": 2,
+          "items": [
+            {
+              "variantId": "YioN2Diy8",
+              "propertyId": "zlqQNxLcGh",
+              "propertyTitle": "",
+              "endpointId": "KzchDr8pS",
+              "endpointTitle": ""
+            },
+            {
+              "variantId": "Q7H3gYrrMH",
+              "propertyId": "zlqQNxLcGh",
+              "propertyTitle": "",
+              "endpointId": "nyMd3k9ed",
+              "endpointTitle": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 4,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 2,
+          "items": [
+            {
+              "id": "AF2YRNifd",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "aPpgfgCvJy",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "P0csRsOt7",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 1,
+          "items": [
+            {
+              "id": "eOaXizx_",
+              "type": "responseFields",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  }
+}

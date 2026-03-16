@@ -1,0 +1,205 @@
+{
+  "id": "NjbgtR2lz",
+  "active": true,
+  "title": "similarDocumentari",
+  "description": "",
+  "reference": "similarDocumentari",
+  "propertyId": "zlqQNxLcGh",
+  "blockId": "NXrzVs6qU",
+  "variants": [
+    {
+      "blockId": "DPajhkT23v",
+      "condition": "(!contains(content_channels, \"Infinity\") && !contains(content_channels, \"MediasetPlay\"))",
+      "priority": 1,
+      "active": true,
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "!contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "content_channels"
+              },
+              {
+                "value": "\"Infinity\"",
+                "type": "string"
+              }
+            ],
+            "id": "MjCPL_aXXG"
+          },
+          {
+            "id": "DH5ESxw20",
+            "operator": "!contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "content_channels"
+              },
+              {
+                "value": "\"MediasetPlay\"",
+                "type": "string"
+              }
+            ]
+          }
+        ]
+      },
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "params": {
+    "timeout": 1500,
+    "cacheConfig": {
+      "cache": 1,
+      "cacheTTL": 3600,
+      "cachePrefix": {
+        "group": true,
+        "static": "endpoint",
+        "keys": []
+      },
+      "computeKeys": [
+        "page",
+        "hitsPerPage",
+        "startBlock",
+        "endBlock",
+        "contentId",
+        "context"
+      ]
+    },
+    "inveverseCacheConfig": {
+      "cacheTTL": 3600
+    }
+  },
+  "paramsId": "playDefault",
+  "input": {
+    "decorators": [
+      "XIHg_DI92f"
+    ]
+  },
+  "output": {
+    "decorators": [
+      "mU5ep6Aze"
+    ],
+    "filters": {
+      "maxFilterPercentage": 100,
+      "contentType": "video",
+      "packs": [
+        {
+          "conversionPackId": "DpUROccfj"
+        }
+      ]
+    }
+  },
+  "version": 25,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2023-07-13T09:55:42.776Z"
+  },
+  "refs": {
+    "belongs": [],
+    "require": [
+      {
+        "type": "blocks",
+        "items": [
+          "NXrzVs6qU",
+          "DPajhkT23v"
+        ]
+      },
+      {
+        "type": "params",
+        "items": [
+          "playDefault"
+        ]
+      },
+      {
+        "type": "decorators",
+        "items": [
+          "XIHg_DI92f",
+          "mU5ep6Aze"
+        ]
+      },
+      {
+        "type": "conversionPacks",
+        "items": [
+          "DpUROccfj"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 6,
+      "types": 4,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 2,
+          "items": [
+            {
+              "id": "NXrzVs6qU",
+              "type": "blocks",
+              "title": ""
+            },
+            {
+              "id": "DPajhkT23v",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "params",
+          "count": 1,
+          "items": [
+            {
+              "id": "playDefault",
+              "type": "params",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "decorators",
+          "count": 2,
+          "items": [
+            {
+              "id": "XIHg_DI92f",
+              "type": "decorators",
+              "title": ""
+            },
+            {
+              "id": "mU5ep6Aze",
+              "type": "decorators",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "conversionPacks",
+          "count": 1,
+          "items": [
+            {
+              "id": "DpUROccfj",
+              "type": "conversionPacks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "haveScheduledVariants": false,
+  "prevReference": "similarDocumentari",
+  "variantsMetadata": {
+    "content": true
+  },
+  "contentType": "video",
+  "enableAnalitica": true,
+  "realm": "content"
+}

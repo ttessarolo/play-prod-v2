@@ -1,0 +1,283 @@
+{
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "fhGrdnEFA"
+    }
+  ],
+  "exclude": [
+    {
+      "id": "UTzGUeuoVr"
+    },
+    {
+      "id": "xEXzd5RrK"
+    }
+  ],
+  "include": [],
+  "boost": [
+    {
+      "id": "GsQBOWslH",
+      "overides": {
+        "zSLYJtcoyH": {
+          "boost": 20
+        }
+      }
+    },
+    {
+      "id": "j4OCS2DpZ",
+      "overides": {
+        "lJkMcgZTr": {
+          "boost": 5
+        }
+      }
+    },
+    {
+      "id": "Fo9RZaXKg",
+      "overides": {
+        "pvNalVW3KG": {
+          "boost": 15
+        }
+      }
+    },
+    {
+      "id": "ScQXLIgjk",
+      "overides": {
+        "IAgkBW31w": {
+          "boost": 20
+        }
+      }
+    },
+    {
+      "id": "hxpNg6Vpq",
+      "overides": {
+        "tFSn0VBcU": {
+          "boost": 5
+        }
+      }
+    },
+    {
+      "id": "faxSUCHjP",
+      "overides": {
+        "BsvxJsE1dY": {
+          "boost": 3
+        }
+      }
+    },
+    {
+      "id": "u2np4nyh9",
+      "overides": {
+        "ZFa6FIbYK": {
+          "range": 2
+        },
+        "aW9TOP2s6": {
+          "range": 5
+        }
+      }
+    },
+    {
+      "id": "Tnv7q6Yuf",
+      "overides": {
+        "SyKdN_et5W": {
+          "boost": 35
+        },
+        "KfMtb6ZTb": {
+          "boost": 200
+        }
+      }
+    }
+  ],
+  "order": [],
+  "realm": "content",
+  "metadataOverrides": {
+    "fhGrdnEFA": {
+      "content_similar": {
+        "required": true,
+        "output": "video_similar_ids_serietv_fiction_blocco6",
+        "metadata": {
+          "included": [
+            "tipologia=(Fiction) OR (Serie TV)",
+            "editorial_type=Full Episode",
+            "content_channels=Infinity"
+          ],
+          "excluded": [
+            "id_series_se"
+          ]
+        },
+        "fingerprint": {
+          "matchFields": [
+            "fingerprint"
+          ]
+        },
+        "groupby": {
+          "metadata": "id_series_se",
+          "results": 1,
+          "sortMetadata": "season,episode",
+          "sortDirection": "asc,asc"
+        }
+      }
+    }
+  },
+  "title": "INF Similar Serie tv e fiction",
+  "description": "",
+  "presets": {
+    "filter": [
+      {
+        "id": "TuAyi0elu"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "ZRorAbL96Q"
+      }
+    ]
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "fhGrdnEFA",
+          "UTzGUeuoVr",
+          "xEXzd5RrK",
+          "GsQBOWslH",
+          "j4OCS2DpZ",
+          "Fo9RZaXKg",
+          "ScQXLIgjk",
+          "hxpNg6Vpq",
+          "faxSUCHjP",
+          "u2np4nyh9",
+          "Tnv7q6Yuf"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "TuAyi0elu",
+          "ZRorAbL96Q"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "sS8FYCahyu"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "id": "F8q0MMwh8",
+  "version": 22,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-04-02T11:40:33.321Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "sS8FYCahyu",
+              "type": "blocks",
+              "title": "INF Similar Serie tv e fiction"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 13,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 11,
+          "items": [
+            {
+              "id": "fhGrdnEFA",
+              "type": "rules",
+              "title": "Rule Similar Tipologia SerieTv Fiction blocco6"
+            },
+            {
+              "id": "UTzGUeuoVr",
+              "type": "rules",
+              "title": "Rule Video Format 4K HDR"
+            },
+            {
+              "id": "xEXzd5RrK",
+              "type": "rules",
+              "title": "Rule Video Format 4K SDR"
+            },
+            {
+              "id": "GsQBOWslH",
+              "type": "rules",
+              "title": "Rule Boost Tipologia origin"
+            },
+            {
+              "id": "j4OCS2DpZ",
+              "type": "rules",
+              "title": "Rule Boost Paese Non Italia"
+            },
+            {
+              "id": "Fo9RZaXKg",
+              "type": "rules",
+              "title": "Rule Boost Genere Diegetico"
+            },
+            {
+              "id": "ScQXLIgjk",
+              "type": "rules",
+              "title": "Rule Boost Sottogenere Diegetico"
+            },
+            {
+              "id": "hxpNg6Vpq",
+              "type": "rules",
+              "title": "Rule Boost Genere Tematico"
+            },
+            {
+              "id": "faxSUCHjP",
+              "type": "rules",
+              "title": "Rule Boost Mood"
+            },
+            {
+              "id": "u2np4nyh9",
+              "type": "rules",
+              "title": "Rule Boost Anno di Produzione Concentrico"
+            },
+            {
+              "id": "Tnv7q6Yuf",
+              "type": "rules",
+              "title": "Rule Boost Genere Patemico Condizionale"
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 2,
+          "items": [
+            {
+              "id": "TuAyi0elu",
+              "type": "rulesPresets",
+              "title": "Preset SearchVisible e FrontEnd Visible True"
+            },
+            {
+              "id": "ZRorAbL96Q",
+              "type": "rulesPresets",
+              "title": "Preset Blacklist"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "uselessMultiplier": false
+}

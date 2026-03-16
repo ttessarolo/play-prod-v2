@@ -1,0 +1,56 @@
+{
+  "title": "INF Infinity il prossimo mese",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "ZaylXpNGp"
+    },
+    {
+      "id": "wodpz7dxR"
+    },
+    {
+      "id": "dCRAO5ATh"
+    }
+  ],
+  "exclude": [],
+  "include": [],
+  "boost": [],
+  "order": [],
+  "realm": "content",
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "ZaylXpNGp",
+          "wodpz7dxR",
+          "dCRAO5ATh"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "EQJhlR0N7"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "id": "AhJPVfln2",
+  "version": 1,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-04-09T18:08:23.794Z"
+  }
+}

@@ -1,0 +1,266 @@
+{
+  "id": "PocmHNOJu",
+  "propertyId": "zlqQNxLcGh",
+  "title": "Kids Serie Animate Multiple",
+  "description": "Please Edit description for Page \"Default\"",
+  "enabledPagesId": [
+    "zdUkZB2aQg"
+  ],
+  "isPage": true,
+  "blocks": [
+    {
+      "id": "MSwOueE24",
+      "condition": "*",
+      "title": "Anime",
+      "type": "nested",
+      "layout": {
+        "i": "MSwOueE24",
+        "x": 0,
+        "y": 3,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "mIOpzGxnw",
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H",
+        "siteMapped": true
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        }
+      }
+    },
+    {
+      "id": "HrUkgH6x5",
+      "condition": "*",
+      "title": "Evergreen",
+      "type": "nested",
+      "layout": {
+        "i": "HrUkgH6x5",
+        "x": 0,
+        "y": 4,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "OUNPflQWd",
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H",
+        "siteMapped": true
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        }
+      }
+    },
+    {
+      "id": "OYcC3rkBcV",
+      "condition": "*",
+      "title": "Ultimi arrivi",
+      "type": "nested",
+      "layout": {
+        "i": "OYcC3rkBcV",
+        "w": 12,
+        "h": 30
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "EbKnYGsuk",
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H",
+        "siteMapped": true
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "KEYFRAME"
+        }
+      }
+    }
+  ],
+  "version": 11,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2023-08-25T10:19:54.368Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "endpoints",
+        "items": [
+          "zdUkZB2aQg"
+        ]
+      }
+    ],
+    "require": [
+      {
+        "type": "queries",
+        "items": []
+      },
+      {
+        "type": "endpoints",
+        "items": [
+          "WXsJUgBAp"
+        ]
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "Rc1YEkVxO",
+          "mIOpzGxnw",
+          "OUNPflQWd",
+          "EbKnYGsuk"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "zdUkZB2aQg",
+              "type": "endpoints",
+              "title": "kidsSerieAnimateMultipleBlock"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 5,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "WXsJUgBAp",
+              "type": "endpoints",
+              "title": "viewAll1H"
+            }
+          ]
+        },
+        {
+          "type": "blocks",
+          "count": 4,
+          "items": [
+            {
+              "id": "Rc1YEkVxO",
+              "type": "blocks",
+              "title": "Fallback vuota"
+            },
+            {
+              "id": "mIOpzGxnw",
+              "type": "blocks",
+              "title": "Block Made in Japan Stagioni Anime"
+            },
+            {
+              "id": "OUNPflQWd",
+              "type": "blocks",
+              "title": "Block Made in Japan Stagioni Evergreen"
+            },
+            {
+              "id": "EbKnYGsuk",
+              "type": "blocks",
+              "title": "Block Made in Japan Stagioni Fep Most recent"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "layout": [
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 0,
+      "i": "MSwOueE24",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 31,
+      "i": "HrUkgH6x5",
+      "moved": true,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 60,
+      "i": "OYcC3rkBcV",
+      "moved": true,
+      "static": false
+    }
+  ],
+  "results": {
+    "fallbackBlockId": "Rc1YEkVxO",
+    "fullSubstituteFallback": true
+  },
+  "canBeFallback": true
+}

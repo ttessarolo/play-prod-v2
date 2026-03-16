@@ -1,0 +1,136 @@
+{
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "vsTj9ViKs"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 1,
+          "items": [
+            {
+              "id": "vsTj9ViKs",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "contentType": "link",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "(contains(context_platform, \"timbox-androidtv\") || contains(context_platform, \"skyq\") || contains(context_platform, \"skyglass\"))",
+      "conditionRaw": {
+        "or": [
+          {
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "context_platform"
+              },
+              {
+                "value": "\"timbox-androidtv\"",
+                "type": "string"
+              }
+            ],
+            "id": "SIQ3Bmz9jl"
+          },
+          {
+            "id": "k-grKyWpQy",
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "context_platform"
+              },
+              {
+                "value": "\"skyq\"",
+                "type": "string"
+              }
+            ]
+          },
+          {
+            "id": "gaxt8xGDxw",
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "context_platform"
+              },
+              {
+                "value": "\"skyglass\"",
+                "type": "string"
+              }
+            ]
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "Kids: cartoni animati per bambini",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "cardTitle",
+      "fieldNested": 0,
+      "fieldDBType": "text",
+      "_id": "ooKnOamNGy",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "clauses": [
+    "exclude"
+  ],
+  "title": "Rule Search Item Link Platform per Kids",
+  "description": "",
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "id": "J46PzKPRdj",
+  "version": 5,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2023-03-24T13:59:30.735Z"
+  }
+}

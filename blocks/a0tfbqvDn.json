@@ -1,0 +1,311 @@
+{
+  "id": "a0tfbqvDn",
+  "propertyId": "zlqQNxLcGh",
+  "title": "Film Params Genre",
+  "description": "Please Edit description for Page \"Default\"",
+  "enabledPagesId": [
+    "M7ZFBdo1c"
+  ],
+  "isPage": true,
+  "blocks": [
+    {
+      "id": "Bb2XzNFQh",
+      "condition": "*",
+      "title": "Block Generi per Parametri Film",
+      "type": "nested",
+      "layout": {
+        "i": "Bb2XzNFQh",
+        "w": 12,
+        "h": 30
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "NQi7zRZZmW",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      }
+    }
+  ],
+  "version": 41,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2023-03-29T08:55:16.462Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "endpoints",
+        "items": [
+          "M7ZFBdo1c"
+        ]
+      }
+    ],
+    "require": [
+      {
+        "type": "queries",
+        "items": []
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "Rc1YEkVxO",
+          "NQi7zRZZmW"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "M7ZFBdo1c",
+              "type": "endpoints",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 2,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 2,
+          "items": [
+            {
+              "id": "Rc1YEkVxO",
+              "type": "blocks"
+            },
+            {
+              "id": "NQi7zRZZmW",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "layout": [
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 0,
+      "i": "Bb2XzNFQh",
+      "moved": false,
+      "static": false
+    }
+  ],
+  "uiParams": {
+    "layout": {
+      "uiParams": {
+        "current": "Default",
+        "currentIndex": 0,
+        "sets": [
+          {
+            "title": "Default",
+            "params": {
+              "paramsId": {
+                "value": "playDefault",
+                "active": true
+              },
+              "contentId": {
+                "value": "F301644701000103",
+                "active": true
+              },
+              "userId": {
+                "value": "1f51d5e9f09e4d349fa3af349e1cdac4",
+                "active": true
+              },
+              "deviceId": {
+                "value": "ARES-CC",
+                "active": true
+              },
+              "params_genre": {
+                "active": true,
+                "value": "Azione"
+              }
+            }
+          }
+        ]
+      },
+      "currentParams": {
+        "paramsId": "playDefault",
+        "contentId": "F301644701000103",
+        "userId": "1f51d5e9f09e4d349fa3af349e1cdac4",
+        "deviceId": "ARES-CC",
+        "params_genre": "Azione"
+      }
+    },
+    "preview": {
+      "uiParams": {
+        "current": "Film Commedia",
+        "currentIndex": 2,
+        "sets": [
+          {
+            "title": "Anonymous",
+            "params": {
+              "contentId": {
+                "value": "F010791601000102",
+                "active": true
+              },
+              "userId": {
+                "value": "1f51d5e9f09e4d349fa3af349e1cdac4",
+                "active": false
+              },
+              "deviceId": {
+                "value": "ARES-CC",
+                "active": true
+              }
+            }
+          },
+          {
+            "title": "User Logged #1",
+            "params": {
+              "contentId": {
+                "value": "F010791601000102",
+                "active": false
+              },
+              "userId": {
+                "value": "1f51d5e9f09e4d349fa3af349e1cdac4",
+                "active": true
+              },
+              "deviceId": {
+                "value": "ARES-CC",
+                "active": true
+              },
+              "params": {
+                "active": true,
+                "value": "genre≈Azione"
+              }
+            }
+          },
+          {
+            "title": "Film Commedia",
+            "params": {
+              "contentId": {
+                "value": "F010791601000102",
+                "active": false
+              },
+              "userId": {
+                "value": "36e9cfd5ec474972ba1a82d19696346c",
+                "active": false
+              },
+              "deviceId": {
+                "value": "ARES-CC",
+                "active": true
+              },
+              "params_genre": {
+                "active": true,
+                "value": "Drammatico"
+              },
+              "params": {
+                "active": true,
+                "value": "genre≈Commedia"
+              }
+            }
+          },
+          {
+            "title": "Film Thriller",
+            "params": {
+              "contentId": {
+                "value": "F010791601000102",
+                "active": false
+              },
+              "userId": {
+                "value": "36e9cfd5ec474972ba1a82d19696346c",
+                "active": false
+              },
+              "deviceId": {
+                "value": "ARES-CC",
+                "active": true
+              },
+              "params_genre": {
+                "active": true,
+                "value": "Drammatico"
+              },
+              "params": {
+                "active": true,
+                "value": "genre≈Thriller"
+              }
+            }
+          }
+        ]
+      },
+      "currentParams": {
+        "deviceId": "ARES-CC",
+        "params_genre": "Drammatico",
+        "params": "genre≈Commedia"
+      }
+    }
+  },
+  "results": {
+    "fallbackBlockId": "Rc1YEkVxO",
+    "fullSubstituteFallback": true
+  },
+  "fullSubstituteFallback": true
+}

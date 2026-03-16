@@ -1,0 +1,305 @@
+{
+  "results": {
+    "flatAllBlocks": true,
+    "min": 1,
+    "max": 30,
+    "fallbackBlockId": "ivlIDKnOR",
+    "deduplicateFlattedResults": true
+  },
+  "title": "Block Ti potrebbero piacere Film e Serie",
+  "description": "",
+  "blocks": [
+    {
+      "condition": "(!isEmpty(video_historical_fingerprint) && greaterThan('video_watched_w_ts.id', \"3\"))",
+      "title": "Person to Content Film e Serie",
+      "type": "query",
+      "_id": "LYTTcu2YqR",
+      "pinned": true,
+      "results": {
+        "min": 1,
+        "max": 3,
+        "contentType": "video",
+        "inject": [],
+        "responseFieldsId": "eOaXizx_",
+        "fallbackBlockId": "ivlIDKnOR",
+        "shuffleItems": false
+      },
+      "queryId": "zfs8imRPC",
+      "metadata": {
+        "user": {
+          "required": true,
+          "userContentType": "user"
+        }
+      },
+      "conditionRaw": {
+        "and": [
+          {
+            "id": "kBiT8dYqCb",
+            "operator": "!isEmpty",
+            "values": [
+              {
+                "value": "video_historical_fingerprint",
+                "type": "metadata"
+              }
+            ]
+          },
+          {
+            "id": "RXG-a5aqw",
+            "operator": "greaterThan",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "video_watched_w_ts.id"
+              },
+              {
+                "value": "\"3\"",
+                "type": "number"
+              }
+            ]
+          }
+        ]
+      },
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "_id": "GGpHLfxlr",
+      "condition": "(!isEmpty(video_historical_fingerprint) && greaterThan('video_watched_w_ts.id', \"3\"))",
+      "title": "Person To Content Serie",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 3,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "fallbackBlockId": "ivlIDKnOR"
+      },
+      "queryId": "WsemoIM4gy",
+      "metadata": {
+        "user": {
+          "required": true,
+          "userContentType": "user"
+        }
+      },
+      "conditionRaw": {
+        "and": [
+          {
+            "id": "kBiT8dYqCb",
+            "operator": "!isEmpty",
+            "values": [
+              {
+                "value": "video_historical_fingerprint",
+                "type": "metadata"
+              }
+            ]
+          },
+          {
+            "id": "RXG-a5aqw",
+            "operator": "greaterThan",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "video_watched_w_ts.id"
+              },
+              {
+                "value": "\"3\"",
+                "type": "number"
+              }
+            ]
+          }
+        ]
+      },
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "_id": "UArGo6Jzb",
+      "condition": "(!isEmpty(video_historical_fingerprint) && greaterThan('video_watched_w_ts.id', \"3\"))",
+      "title": "Person To Content Film e Serie 2",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 24,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "fallbackBlockId": "ivlIDKnOR"
+      },
+      "queryId": "zfs8imRPC",
+      "metadata": {
+        "user": {
+          "required": true,
+          "userContentType": "user"
+        }
+      },
+      "conditionRaw": {
+        "and": [
+          {
+            "id": "kBiT8dYqCb",
+            "operator": "!isEmpty",
+            "values": [
+              {
+                "value": "video_historical_fingerprint",
+                "type": "metadata"
+              }
+            ]
+          },
+          {
+            "id": "RXG-a5aqw",
+            "operator": "greaterThan",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "video_watched_w_ts.id"
+              },
+              {
+                "value": "\"3\"",
+                "type": "number"
+              }
+            ]
+          }
+        ]
+      },
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "scheduled": false,
+  "refs": {
+    "require": [
+      {
+        "type": "queries",
+        "items": [
+          "zfs8imRPC",
+          "WsemoIM4gy"
+        ]
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "ivlIDKnOR"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": [
+          "eOaXizx_"
+        ]
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": []
+      }
+    ]
+  },
+  "id": "Y3I5bXe1U",
+  "version": 26,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2025-03-26T17:31:57.243Z"
+  },
+  "enabledPagesId": [
+    "vAky9a3AY",
+    "H1byI1Xx4",
+    "QRd7IFMQaY"
+  ],
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 4,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 2,
+          "items": [
+            {
+              "id": "zfs8imRPC",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "WsemoIM4gy",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "ivlIDKnOR",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 1,
+          "items": [
+            {
+              "id": "eOaXizx_",
+              "type": "responseFields",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "searchMetadata": [
+    "request",
+    "user"
+  ],
+  "includedMetadata": [
+    "user"
+  ],
+  "realm": "content",
+  "scheduling": [],
+  "schedulingMap": []
+}

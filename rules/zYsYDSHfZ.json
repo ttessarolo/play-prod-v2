@@ -1,0 +1,79 @@
+{
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "b_VOzI8kU"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "title": "DEM TEST Rule person to cluster",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "video_historical_fingerprint",
+      "valueType": "metadata",
+      "queryType": "like",
+      "field": "fingerprint",
+      "fieldNested": 0,
+      "fieldDBType": "text",
+      "_id": "TF1JXwM5iT"
+    }
+  ],
+  "clauses": [
+    "include"
+  ],
+  "metadata": {
+    "user": {
+      "required": true,
+      "userContentType": "cluster"
+    }
+  },
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2026-02-26T13:43:18.052Z"
+  },
+  "id": "zYsYDSHfZ",
+  "version": 1
+}

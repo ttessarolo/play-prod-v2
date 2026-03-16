@@ -1,0 +1,250 @@
+{
+  "id": "gbJDK5fwo7",
+  "propertyId": "zlqQNxLcGh",
+  "title": "Similar Serie Tv Fiction",
+  "description": "Please Edit description for Page \"Default\"",
+  "enabledPagesId": [
+    "NIaLB1BTVl"
+  ],
+  "isPage": true,
+  "blocks": [
+    {
+      "id": "quzcQjgye",
+      "condition": "*",
+      "title": "Similar Serie TV e Fiction",
+      "type": "nested",
+      "layout": {
+        "i": "quzcQjgye",
+        "x": 0,
+        "y": 1,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true,
+        "max": 24
+      },
+      "blockId": "In8E6MBfb"
+    }
+  ],
+  "version": 19,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2026-02-17T16:06:14.525Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "endpoints",
+        "items": [
+          "NIaLB1BTVl"
+        ]
+      }
+    ],
+    "require": [
+      {
+        "type": "queries",
+        "items": []
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "o3TvMKssn",
+          "In8E6MBfb"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "NIaLB1BTVl",
+              "type": "endpoints",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 2,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 2,
+          "items": [
+            {
+              "id": "o3TvMKssn",
+              "type": "blocks"
+            },
+            {
+              "id": "In8E6MBfb",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "layout": [
+    {
+      "i": "quzcQjgye",
+      "x": 0,
+      "y": 1,
+      "w": 12,
+      "h": 30,
+      "blocks": []
+    }
+  ],
+  "results": {
+    "fallbackBlockId": "o3TvMKssn",
+    "fullSubstituteFallback": true
+  },
+  "realm": "content",
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": [],
+  "uiParams": {
+    "preview": {
+      "uiParams": {
+        "current": "User Logged #2",
+        "currentIndex": 2,
+        "sets": [
+          {
+            "title": "Anonymous",
+            "params": {
+              "contentId": {
+                "value": "F010791601000102",
+                "active": true
+              },
+              "userId": {
+                "value": "1f51d5e9f09e4d349fa3af349e1cdac4",
+                "active": false
+              },
+              "deviceId": {
+                "value": "ARES-CC",
+                "active": true
+              }
+            }
+          },
+          {
+            "title": "User Logged #1",
+            "params": {
+              "contentId": {
+                "value": "F010791601000102",
+                "active": true
+              },
+              "userId": {
+                "value": "1f51d5e9f09e4d349fa3af349e1cdac4",
+                "active": true
+              },
+              "deviceId": {
+                "value": "ARES-CC",
+                "active": true
+              }
+            }
+          },
+          {
+            "title": "User Logged #2",
+            "params": {
+              "contentId": {
+                "value": "F314238203001201",
+                "active": true
+              },
+              "userId": {
+                "value": "36e9cfd5ec474972ba1a82d19696346c",
+                "active": false
+              },
+              "deviceId": {
+                "value": "ARES-CC",
+                "active": false
+              },
+              "decoratorOutputEnvironment": {
+                "value": "production",
+                "active": true
+              },
+              "decoratorOutputVersion": {
+                "value": "v2",
+                "active": true
+              },
+              "decoratorOutputApplication": {
+                "value": "default",
+                "active": true
+              },
+              "userGroup": {
+                "active": false
+              }
+            }
+          }
+        ]
+      },
+      "currentParams": {
+        "contentId": "F314238203001201",
+        "decoratorOutputEnvironment": "production",
+        "decoratorOutputVersion": "v2",
+        "decoratorOutputApplication": "default"
+      }
+    }
+  },
+  "fullSubstituteFallback": true
+}

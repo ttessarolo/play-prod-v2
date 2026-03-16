@@ -1,0 +1,169 @@
+{
+  "title": "NEW Query Anticipazioni Soap Opera",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "KukwdwFDvb"
+    },
+    {
+      "id": "rF9k3yyPZ"
+    },
+    {
+      "id": "hKgA0BKKg"
+    },
+    {
+      "id": "YwI0FdfFp"
+    }
+  ],
+  "exclude": [
+    {
+      "id": "LHwpBTAJE"
+    }
+  ],
+  "include": [],
+  "boost": [],
+  "order": [
+    {
+      "id": "kyf9nAWhM"
+    }
+  ],
+  "realm": "content",
+  "presets": {
+    "filter": [
+      {
+        "id": "TuAyi0elu"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "KhQ3IziFJ"
+      }
+    ]
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "KukwdwFDvb",
+          "rF9k3yyPZ",
+          "hKgA0BKKg",
+          "YwI0FdfFp",
+          "LHwpBTAJE",
+          "kyf9nAWhM"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "TuAyi0elu",
+          "KhQ3IziFJ"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "In8E6MBfb"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "id": "tE6FKWNO0",
+  "version": 32,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-07-02T16:43:12.180Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 2,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 2,
+          "items": [
+            {
+              "id": "B9Q9jZjAx",
+              "type": "blocks",
+              "title": ""
+            },
+            {
+              "id": "In8E6MBfb",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 8,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 6,
+          "items": [
+            {
+              "id": "KukwdwFDvb",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "rF9k3yyPZ",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "hKgA0BKKg",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "YwI0FdfFp",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "LHwpBTAJE",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "kyf9nAWhM",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 2,
+          "items": [
+            {
+              "id": "TuAyi0elu",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "KhQ3IziFJ",
+              "type": "rulesPresets",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "uselessMultiplier": false,
+  "metadataOverrides": {}
+}

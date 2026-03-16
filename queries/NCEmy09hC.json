@@ -1,0 +1,53 @@
+{
+  "title": "Ciak del martedì",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "GgwBFXk_r"
+    }
+  ],
+  "exclude": [],
+  "include": [],
+  "boost": [],
+  "order": [
+    {
+      "id": "X3s55Uzk4"
+    }
+  ],
+  "realm": "content",
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "GgwBFXk_r",
+          "X3s55Uzk4"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "gBXcue5x_"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "id": "NCEmy09hC",
+  "version": 1,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2024-11-19T16:35:30.778Z"
+  }
+}

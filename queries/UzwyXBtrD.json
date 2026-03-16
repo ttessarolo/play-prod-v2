@@ -1,0 +1,79 @@
+{
+  "title": "SKY Top Viewed",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "opdWd3W4E"
+    },
+    {
+      "id": "VvVxavf8JI"
+    }
+  ],
+  "exclude": [],
+  "include": [],
+  "boost": [],
+  "order": [
+    {
+      "id": "A5n475YeR"
+    }
+  ],
+  "realm": "content",
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "opdWd3W4E",
+          "VvVxavf8JI",
+          "A5n475YeR"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "TuAyi0elu"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "axHFoW0wP"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "id": "UzwyXBtrD",
+  "version": 5,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2024-02-26T10:49:26.467Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  },
+  "presets": {
+    "filter": [
+      {
+        "id": "TuAyi0elu"
+      }
+    ]
+  },
+  "metadataOverrides": {}
+}

@@ -1,0 +1,136 @@
+{
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "VMjkKkljfF",
+          "yFHHJNULO",
+          "UpCkzkV_m",
+          "z4cKov4kQ",
+          "gE_eIFPElo"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 5,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 5,
+          "items": [
+            {
+              "id": "VMjkKkljfF",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "yFHHJNULO",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "UpCkzkV_m",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "z4cKov4kQ",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "gE_eIFPElo",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "title": "Rule Content pack Fiction Serie TV per Sky",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "video_similar_ids_fiction_sky",
+      "valueType": "metadata",
+      "queryType": "ids",
+      "field": "video_content_id",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "bL93eAbvPM"
+    }
+  ],
+  "clauses": [
+    "filter",
+    "include"
+  ],
+  "metadata": {
+    "content_similar": {
+      "required": true,
+      "metadata": {
+        "included": [
+          "content_channels=MediasetPlay",
+          "tipologia=(Fiction) OR (Serie TV)",
+          "editorial_type=Full Episode",
+          "etichetteEditoriali=In Onda"
+        ]
+      },
+      "groupby": {
+        "metadata": "id_series_se",
+        "results": 1,
+        "sortMetadata": "",
+        "sortDirection": "asc"
+      },
+      "date": {
+        "period": "d",
+        "field": "publication_date",
+        "range": 15,
+        "absolute": true
+      },
+      "output": "video_similar_ids_fiction_sky"
+    }
+  },
+  "id": "tyiCLyfGz",
+  "version": 6,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2024-03-28T16:38:12.328Z"
+  }
+}

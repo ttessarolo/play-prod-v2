@@ -1,0 +1,184 @@
+{
+  "title": "Query Soap Extra e Anticipazioni",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "q4YApM928H"
+    },
+    {
+      "id": "elT4DxH4Cc"
+    },
+    {
+      "id": "KukwdwFDvb"
+    },
+    {
+      "id": "T68gtuReg"
+    }
+  ],
+  "exclude": [],
+  "include": [],
+  "boost": [],
+  "order": [
+    {
+      "id": "SXyaET7iz2"
+    }
+  ],
+  "realm": "content",
+  "presets": {
+    "filter": [
+      {
+        "id": "ur0WldwQk"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "ZRorAbL96Q"
+      }
+    ]
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "q4YApM928H",
+          "elT4DxH4Cc",
+          "KukwdwFDvb",
+          "T68gtuReg",
+          "SXyaET7iz2"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "ur0WldwQk",
+          "ZRorAbL96Q"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "U5vDEWpl7"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "id": "cm6U6qlM9",
+  "version": 7,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2023-08-29T14:43:06.771Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "U5vDEWpl7",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 7,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 5,
+          "items": [
+            {
+              "id": "q4YApM928H",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "elT4DxH4Cc",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "KukwdwFDvb",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "T68gtuReg",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "SXyaET7iz2",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 2,
+          "items": [
+            {
+              "id": "ur0WldwQk",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "ZRorAbL96Q",
+              "type": "rulesPresets",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "metadataOverrides": {
+    "T68gtuReg": {
+      "content_similar": {
+        "required": true,
+        "output": "video_similar_ids_anticipazioni",
+        "numResults": 30,
+        "metadata": {
+          "included": [
+            "genere_mcm=Soap opera",
+            "tipologia=Fiction",
+            "subbrand_title=(Extra) OR (anticipazioni) OR (clip_anticipazioni) OR (clip_wochit)"
+          ],
+          "excluded": []
+        },
+        "fingerprint": {
+          "matchFields": []
+        },
+        "groupby": {
+          "metadata": "brand_title",
+          "results": 5,
+          "sortMetadata": "publication_date",
+          "sortDirection": "desc"
+        },
+        "date": {
+          "range": 1,
+          "period": "M",
+          "field": "publication_date",
+          "absolute": true
+        }
+      }
+    }
+  }
+}

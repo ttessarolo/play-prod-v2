@@ -1,0 +1,52 @@
+{
+  "title": "Rule Etichetta editoriale Serie Completa",
+  "description": "",
+  "clauses": [
+    "filter",
+    "include",
+    "boost"
+  ],
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "Serie Completa",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "etichetteEditoriali",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "sU1TcydBX"
+    }
+  ],
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "jghd_cW_3",
+          "b9MEPMrAY",
+          "qPd0aP7wuv",
+          "MvBEHiAgy",
+          "ahVkQ5zxC"
+        ]
+      }
+    ]
+  },
+  "id": "kcFRvo0hZ1",
+  "version": 1,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-03-30T15:24:17.056Z"
+  }
+}

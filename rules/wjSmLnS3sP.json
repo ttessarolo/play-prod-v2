@@ -1,0 +1,72 @@
+{
+  "title": "Rule Esclude Fep se il chiamante è Fep",
+  "description": "Al chiamante FEP non vengono restituiti FEP. Applicata alla SImilar Sport",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "(equals(editorial_type, \"Full Episode\"))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "equals",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "editorial_type"
+              },
+              {
+                "value": "\"Full Episode\"",
+                "type": "string"
+              }
+            ],
+            "id": "UTRKL_tH3Z"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "Full Episode",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "editorial_type",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "lpW2OMPan",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "clauses": [
+    "exclude"
+  ],
+  "metadata": {
+    "content": true
+  },
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "eYuL4ML7TS"
+        ]
+      }
+    ]
+  },
+  "id": "wjSmLnS3sP",
+  "version": 1,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-03-29T17:09:08.154Z"
+  }
+}

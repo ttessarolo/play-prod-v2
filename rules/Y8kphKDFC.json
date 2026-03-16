@@ -1,0 +1,93 @@
+{
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "sortOrder": "asc",
+      "sortMode": "avg",
+      "API": "V2",
+      "condition": "*",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": [
+              {
+                "type": "metadata",
+                "value": ""
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ],
+            "id": "k7IvYMuTwe"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "",
+      "valueType": "",
+      "queryType": "sortOrder",
+      "field": "publication_date_end_infinity",
+      "fieldNested": 0,
+      "fieldDBType": "date",
+      "_id": "xthjEcCaIy",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "clauses": [
+    "order"
+  ],
+  "title": "Rule Order By Publication date End Infinity Asc",
+  "description": "",
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "qLHnIzGLeb"
+        ]
+      }
+    ]
+  },
+  "id": "Y8kphKDFC",
+  "version": 11,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-06-11T10:15:36.651Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 1,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "scheduled": 0,
+  "scheduling": [],
+  "schedulingMap": [],
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": []
+}

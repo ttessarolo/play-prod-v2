@@ -1,0 +1,164 @@
+{
+  "title": "INF Generi per Parametri Serie Blocco 2",
+  "description": "Per use case parametrici in Infinity - Serie tv e fiction\nSOLO serie Infinity",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "wfBy1paHlb"
+    },
+    {
+      "id": "M2X3Atski"
+    },
+    {
+      "id": "IA2rMeBZYW"
+    },
+    {
+      "id": "MhwnTO2PIM"
+    }
+  ],
+  "exclude": [
+    {
+      "id": "ju06OqIgO"
+    }
+  ],
+  "include": [],
+  "boost": [],
+  "order": [
+    {
+      "id": "A5n475YeR"
+    }
+  ],
+  "realm": "content",
+  "presets": {
+    "filter": [
+      {
+        "id": "ztWfmA_PI"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "KhQ3IziFJ"
+      }
+    ]
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "wfBy1paHlb",
+          "M2X3Atski",
+          "IA2rMeBZYW",
+          "MhwnTO2PIM",
+          "ju06OqIgO",
+          "A5n475YeR"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "ztWfmA_PI",
+          "KhQ3IziFJ"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "hG4sWA1BTz"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": "0.1",
+    "resultsMultiplier": 1
+  },
+  "id": "xe_zUdYnf",
+  "version": 30,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-07-07T07:47:24.866Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "hG4sWA1BTz",
+              "type": "blocks",
+              "title": "INF Generi per Parametri Serie"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 8,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 6,
+          "items": [
+            {
+              "id": "wfBy1paHlb",
+              "type": "rules",
+              "title": "Rule Channel Infinity"
+            },
+            {
+              "id": "IA2rMeBZYW",
+              "type": "rules",
+              "title": "Rule Editorial Type Serie"
+            },
+            {
+              "id": "CDMrhQW14",
+              "type": "rules",
+              "title": "Rule Tipologia Serie Tv e Fiction"
+            },
+            {
+              "id": "MhwnTO2PIM",
+              "type": "rules",
+              "title": "Rule params_genre"
+            },
+            {
+              "id": "ju06OqIgO",
+              "type": "rules",
+              "title": "Rule Channel Mediaset Play"
+            },
+            {
+              "id": "A5n475YeR",
+              "type": "rules",
+              "title": "Rule Piu visti 24h Always"
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 2,
+          "items": [
+            {
+              "id": "ztWfmA_PI",
+              "type": "rulesPresets",
+              "title": "Preset Fep attivi"
+            },
+            {
+              "id": "KhQ3IziFJ",
+              "type": "rulesPresets",
+              "title": "Preset Video format exclude 4K"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "metadataOverrides": {},
+  "uselessMultiplier": false
+}

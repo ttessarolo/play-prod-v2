@@ -1,0 +1,228 @@
+{
+  "metadataInRules": [
+    "content",
+    "content_similar"
+  ],
+  "title": "Query Similar Cinema per Serie TV e Fiction",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "ju06OqIgO"
+    },
+    {
+      "id": "83txjtJm"
+    },
+    {
+      "id": "Qs0Vux5WH_"
+    }
+  ],
+  "exclude": [],
+  "include": [],
+  "boost": [
+    {
+      "id": "WQFkHun96",
+      "overides": {
+        "CH_RDInwz": {
+          "boost": 2
+        },
+        "IybREig55": {
+          "boost": 2
+        }
+      }
+    },
+    {
+      "id": "BWeiHNstQ",
+      "overides": {
+        "NIWh2k5VC": {
+          "boost": 2
+        }
+      }
+    },
+    {
+      "id": "nCRmJzUuG",
+      "overides": {
+        "tYeu208Fm": {
+          "boost": 2
+        }
+      }
+    },
+    {
+      "id": "aQ0mVXMBj",
+      "overides": {
+        "EH8TU8L8o": {
+          "boost": 2
+        }
+      }
+    },
+    {
+      "id": "uXBAHIG51I",
+      "overides": {
+        "EH8TU8L8o": {
+          "boost": 2
+        }
+      }
+    },
+    {
+      "id": "oHTnV7lfY",
+      "overides": {
+        "lb6KZRLsRX": {
+          "boost": 1
+        }
+      }
+    }
+  ],
+  "order": [],
+  "presets": {
+    "filter": [
+      {
+        "id": "TuAyi0elu"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "ZRorAbL96Q"
+      }
+    ]
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "ju06OqIgO",
+          "83txjtJm",
+          "Qs0Vux5WH_",
+          "WQFkHun96",
+          "BWeiHNstQ",
+          "nCRmJzUuG",
+          "aQ0mVXMBj",
+          "uXBAHIG51I",
+          "oHTnV7lfY"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "TuAyi0elu",
+          "ZRorAbL96Q"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "M1EXcaeqz"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1,
+    "mustOperator": "or"
+  },
+  "id": "RASMXpoN0",
+  "version": 24,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-11-12T14:57:42.532Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "M1EXcaeqz",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 11,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 9,
+          "items": [
+            {
+              "id": "ju06OqIgO",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "83txjtJm",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "Qs0Vux5WH_",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "WQFkHun96",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "BWeiHNstQ",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "nCRmJzUuG",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "aQ0mVXMBj",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "uXBAHIG51I",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "oHTnV7lfY",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 2,
+          "items": [
+            {
+              "id": "TuAyi0elu",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "ZRorAbL96Q",
+              "type": "rulesPresets",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "uselessMultiplier": false,
+  "metadataOverrides": {},
+  "realm": "content"
+}

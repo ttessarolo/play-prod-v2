@@ -1,0 +1,133 @@
+{
+  "title": "Rule Params Channel Starz",
+  "description": "KeepOnly  content_channel=Infinity se params_channel=Starz",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "(contains(params_channel, \"Starz\"))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "params_channel"
+              },
+              {
+                "value": "\"Starz\"",
+                "type": "string"
+              }
+            ],
+            "id": "z5VT8HYdor"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "Starz",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "content_channels",
+      "fieldNested": 0,
+      "fieldDBType": "text",
+      "_id": "Zs7mnkYcE",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "clauses": [
+    "filter"
+  ],
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "OFmr6tjnNd"
+        ]
+      }
+    ]
+  },
+  "id": "EEPm_03sz",
+  "version": 7,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-06-16T15:18:11.734Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 7,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 7,
+          "items": [
+            {
+              "id": "FXJ2KlZhgq",
+              "type": "queries",
+              "title": "CHNLS All Film Annoproduzione Desc"
+            },
+            {
+              "id": "pHwVQGHS7",
+              "type": "queries",
+              "title": "CHNLS Params Genre Film"
+            },
+            {
+              "id": "P6UulTcyj",
+              "type": "queries",
+              "title": "CHNLS All Film Annoproduzione Desc Top"
+            },
+            {
+              "id": "OFmr6tjnNd",
+              "type": "queries",
+              "title": "STZ Params Genre Film Top"
+            },
+            {
+              "id": "lqIeDJkxU",
+              "type": "queries",
+              "title": "CHNLS Params Genre Serie"
+            },
+            {
+              "id": "KnjGSCyiX",
+              "type": "queries",
+              "title": "CHNLS All Serie Annoproduzione Desc Top"
+            },
+            {
+              "id": "QU1_KH19O",
+              "type": "queries",
+              "title": "CHNLS All Serie Annoproduzione Desc"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 1,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": []
+}

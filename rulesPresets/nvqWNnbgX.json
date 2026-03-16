@@ -1,0 +1,60 @@
+{
+  "title": "Preset Boost Tematismi",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "clause": "boost",
+  "rules": [
+    {
+      "id": "FcbnNEyTL",
+      "overides": {
+        "Sh_GoAsnMQ": {
+          "boost": 10
+        }
+      }
+    },
+    {
+      "id": "B42ePWTJR",
+      "overides": {
+        "hs7oTAK98": {
+          "boost": 10
+        }
+      }
+    },
+    {
+      "id": "LKVNQgg10S",
+      "overides": {
+        "VDI77O93Y4": {
+          "boost": 10
+        }
+      }
+    }
+  ],
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "FcbnNEyTL",
+          "B42ePWTJR",
+          "LKVNQgg10S"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "U1hz1tNQN",
+          "tv97xe64g"
+        ]
+      }
+    ]
+  },
+  "id": "nvqWNnbgX",
+  "version": 1,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-03-29T14:29:34.906Z"
+  }
+}

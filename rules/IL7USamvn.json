@@ -1,0 +1,47 @@
+{
+  "title": "Rule Subbrand ID per TG",
+  "description": "Comprende i subbrand di TG 4, TG 5, Studio Aperto e TgCom24",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "nU83J6Hqs",
+      "valueType": "list",
+      "queryType": "listTermsId",
+      "field": "subbrand_id",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "LbJjAGkBe"
+    }
+  ],
+  "clauses": [
+    "include"
+  ],
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "zLGBFxSxo",
+          "rjWULeByhq"
+        ]
+      }
+    ]
+  },
+  "id": "IL7USamvn",
+  "version": 1,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-03-29T16:55:13.749Z"
+  }
+}

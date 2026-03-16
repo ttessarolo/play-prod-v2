@@ -1,0 +1,105 @@
+{
+  "title": "Rule last24 videoviews greater than",
+  "description": "",
+  "contentType": "video",
+  "clauses": [
+    "filter",
+    "exclude",
+    "include"
+  ],
+  "rule": [
+    {
+      "greaterOperator": "gt",
+      "API": "V2",
+      "condition": "*",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "I2I",
+      "value": "3000",
+      "valueType": "freeText",
+      "queryType": "greaterValue",
+      "field": "last24h_videoviews",
+      "fieldDBType": "long",
+      "_id": "DilyrldI73"
+    }
+  ],
+  "field": "last24h_videoviews",
+  "metadata": {
+    "time": false
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "PoGtOonWm",
+          "wlooGCozMD"
+        ]
+      }
+    ]
+  },
+  "id": "Q9v_RI3WDv",
+  "version": 9,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-03-24T15:27:33.749Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 4,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 4,
+          "items": [
+            {
+              "id": "KJfmYqosr",
+              "type": "queries",
+              "title": "Query Default Search Video"
+            },
+            {
+              "id": "PoGtOonWm",
+              "type": "queries",
+              "title": "Query Programmi TV Clip 24h Blocco 1"
+            },
+            {
+              "id": "wlooGCozMD",
+              "type": "queries",
+              "title": "Query Programmi TV Clip 24h Blocco 2"
+            },
+            {
+              "id": "u8IIXQT9v",
+              "type": "queries",
+              "title": "Query Programmi TV Clip 24h"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 1,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  }
+}

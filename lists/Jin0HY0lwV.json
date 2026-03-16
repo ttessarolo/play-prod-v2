@@ -1,0 +1,40 @@
+{
+  "type": "text",
+  "contentType": "video",
+  "realm": "content",
+  "title": "List Content Channel MPlay, Infinity e Noleggio",
+  "description": "",
+  "elements": [
+    "Infinity",
+    "Noleggio",
+    "MediasetPlay"
+  ],
+  "id": "Jin0HY0lwV",
+  "version": 2,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-04-27T16:06:43.348Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "rules",
+        "items": [
+          "pdYDSoG5m0"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  }
+}

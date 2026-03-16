@@ -1,0 +1,312 @@
+{
+  "results": {
+    "flatAllBlocks": true,
+    "min": 0,
+    "fallbackBlockId": "TO8nRwwqH",
+    "max": 50,
+    "deduplicateFlattedResults": true
+  },
+  "blocks": [
+    {
+      "_id": "tqelDGI_wy",
+      "condition": "(!isEmpty(params_collectionId))",
+      "title": "Più visti",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 1,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "fallbackBlockId": "wDqD28KJY",
+        "skipOnEmpty": true
+      },
+      "queryId": "LjCTWPXAo",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "!isEmpty",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "params_collectionId"
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ],
+            "id": "xN27zBZNDB"
+          }
+        ]
+      },
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "_id": "osIdpdYZ4t",
+      "condition": "(!isEmpty(params_collectionId))",
+      "title": "Random",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 2,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true,
+        "shuffleItems": true
+      },
+      "queryId": "NPfkvPslCH",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "!isEmpty",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "params_collectionId"
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ],
+            "id": "xN27zBZNDB"
+          }
+        ]
+      },
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "_id": "Ibea5Amfq",
+      "condition": "(!isEmpty(params_collectionId))",
+      "title": "Ultimi arrivi MPlay",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 4,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_"
+      },
+      "queryId": "OOWDm50lJ",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "!isEmpty",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "params_collectionId"
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ],
+            "id": "xN27zBZNDB"
+          }
+        ]
+      },
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "_id": "OgreARO2q",
+      "condition": "(!isEmpty(params_collectionId))",
+      "title": "Più visti in coda",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 50,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true
+      },
+      "queryId": "HYBQYXPrar",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "!isEmpty",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "params_collectionId"
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ],
+            "id": "xN27zBZNDB"
+          }
+        ]
+      },
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "refs": {
+    "require": [
+      {
+        "type": "queries",
+        "items": [
+          "LjCTWPXAo",
+          "NPfkvPslCH",
+          "OOWDm50lJ",
+          "HYBQYXPrar"
+        ]
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "TO8nRwwqH",
+          "wDqD28KJY"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": [
+          "eOaXizx_"
+        ]
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "pk491Nhdl"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "pages",
+          "count": 1,
+          "items": [
+            {
+              "variantId": "pk491Nhdl",
+              "propertyId": "zlqQNxLcGh",
+              "propertyTitle": "",
+              "endpointId": "D32UYAzZn7",
+              "endpointTitle": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 7,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 4,
+          "items": [
+            {
+              "id": "LjCTWPXAo",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "NPfkvPslCH",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "OOWDm50lJ",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "HYBQYXPrar",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 2,
+          "items": [
+            {
+              "id": "TO8nRwwqH",
+              "type": "blocks"
+            },
+            {
+              "id": "wDqD28KJY",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 1,
+          "items": [
+            {
+              "id": "eOaXizx_",
+              "type": "responseFields",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "realm": "content",
+  "title": "Block Collection Natale 2025",
+  "description": "",
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-12-18T14:48:11.567Z"
+  },
+  "id": "zUHKl3x8Z",
+  "version": 9
+}

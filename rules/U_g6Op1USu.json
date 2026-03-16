@@ -1,0 +1,61 @@
+{
+  "title": "Rule Tipologia Tg",
+  "description": "",
+  "contentType": "video",
+  "clauses": [
+    "filter",
+    "exclude"
+  ],
+  "rule": [
+    {
+      "condition": "*",
+      "boost": 1,
+      "type": "I2I",
+      "_id": "bjhQr1mud",
+      "match": "TG",
+      "phrase": false,
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      },
+      "field": "tipologia",
+      "fieldDBType": "keyword",
+      "queryType": "match",
+      "value": "TG",
+      "valueType": "string",
+      "API": "V2"
+    }
+  ],
+  "field": "tipologia",
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "bOnJl04URI",
+          "rjWULeByhq",
+          "zLGBFxSxo",
+          "qP2zv3POr",
+          "LFRatKHdi",
+          "yHKYscQUvt"
+        ]
+      }
+    ]
+  },
+  "id": "U_g6Op1USu",
+  "version": 1,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2020-06-08T09:45:45.600Z"
+  }
+}

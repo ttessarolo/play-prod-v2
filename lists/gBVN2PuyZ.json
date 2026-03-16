@@ -1,0 +1,53 @@
+{
+  "title": "List ADV X-style Lexus",
+  "description": "Lista contenuti Adv Lexus",
+  "type": "contentId",
+  "contentType": "video",
+  "realm": "content",
+  "metadataField": "title",
+  "elements": [
+    "FD00000000494531",
+    "FD00000000494695",
+    "FD00000000494800",
+    "FD00000000495103",
+    "FD00000000494951"
+  ],
+  "id": "gBVN2PuyZ",
+  "version": 11,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-10-08T08:28:43.738Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "rules",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "rules",
+          "count": 1,
+          "items": [
+            {
+              "id": "xvYVAxCdJ",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  }
+}

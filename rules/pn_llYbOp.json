@@ -1,0 +1,49 @@
+{
+  "title": "Rule Publication Date range when now",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "range": 5,
+      "period": "d",
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "when_now",
+      "valueType": "metadata",
+      "queryType": "range",
+      "field": "publication_date",
+      "fieldNested": 0,
+      "fieldDBType": "date",
+      "_id": "OCnPtkv5h"
+    }
+  ],
+  "clauses": [
+    "boost"
+  ],
+  "metadata": {
+    "time": true
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": []
+      }
+    ]
+  },
+  "id": "pn_llYbOp",
+  "version": 1,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-03-12T16:35:47.720Z"
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "XObNbg7Sk"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 2,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 2,
+          "items": [
+            {
+              "id": "NjHXbVUOud",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "XObNbg7Sk",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "title": "Rule Include Consistenza commerciale Serie Crime Investigation",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "keepOrder": true,
+      "API": "V2",
+      "condition": "(contains(context_features_subscription_channels, \"ciplayit\"))",
+      "conditionRaw": {
+        "and": [
+          {
+            "id": "wDJN1nWjrj",
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "context_features_subscription_channels"
+              },
+              {
+                "value": "\"ciplayit\"",
+                "type": "string"
+              }
+            ]
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "video_similar_ids_serie_ciplayit",
+      "valueType": "metadata",
+      "queryType": "ids",
+      "field": "video_content_id",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "CLdfcOlYYh",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "clauses": [
+    "include"
+  ],
+  "metadata": {
+    "content_similar": {
+      "required": true,
+      "output": "video_similar_ids_serie_ciplayit",
+      "numResults": 12,
+      "metadata": {
+        "included": [
+          "tipologia=Documentari",
+          "editorial_type=Serie",
+          "content_channels=ciplayit"
+        ],
+        "excluded": []
+      },
+      "groupby": {
+        "metadata": "editorial_type",
+        "results": 2,
+        "sortMetadata": "last7d_videoviews",
+        "sortDirection": "desc"
+      }
+    }
+  },
+  "id": "n5XrUdT2G",
+  "version": 8,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2022-06-30T14:22:56.059Z"
+  },
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": []
+}

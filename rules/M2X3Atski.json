@@ -1,0 +1,102 @@
+{
+  "title": "Rule Tipologia Serie TV",
+  "description": "Tipologia match with Serie TV",
+  "contentType": "video",
+  "clauses": [
+    "filter",
+    "exclude",
+    "include"
+  ],
+  "rule": [
+    {
+      "phrase": true,
+      "API": "V2",
+      "condition": "*",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "I2I",
+      "value": "Serie TV",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "tipologia",
+      "fieldDBType": "keyword",
+      "_id": "pkpDc0d5"
+    }
+  ],
+  "field": "tipologia",
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "mvZ0e6XOY",
+          "PAFpFHSdQ",
+          "zfEqUdL_n",
+          "xQZzlMyWn",
+          "BS1LYQUhG",
+          "nfx18gJXx",
+          "uSnnVTcnV",
+          "Y3Ko1EEsco",
+          "xe_zUdYnf",
+          "toSpu6fdu",
+          "hKH4jrbFF",
+          "TgKGs2jDf",
+          "x7_VOViNIL",
+          "N_80T8VLG",
+          "ziE_vsPP2x",
+          "wEB_e4Cs3",
+          "PLoyvOPfa",
+          "WsemoIM4gy",
+          "MJzBv2QWIR",
+          "P5zLtqY7y",
+          "MvBEHiAgy",
+          "xnz0Td37UZ",
+          "Qe21Wmp77",
+          "L98tra9vYX",
+          "_cxXAqWa_n",
+          "NjHXbVUOud",
+          "jxdmOp891w",
+          "PpdrrVxDc"
+        ]
+      }
+    ]
+  },
+  "id": "M2X3Atski",
+  "version": 4,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-03-22T17:43:28.298Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 1,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "realm": "content"
+}

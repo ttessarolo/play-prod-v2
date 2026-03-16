@@ -1,0 +1,241 @@
+{
+  "results": {
+    "min": 0,
+    "flatAllBlocks": true,
+    "fallbackBlockId": "P0csRsOt7",
+    "max": 158,
+    "deduplicateFlattedResults": true
+  },
+  "blocks": [
+    {
+      "_id": "cm0i_G4D8A",
+      "condition": "(!isEmpty(params_genre) && isEmpty(params_orderBy))",
+      "title": "Film Most recent Infinity over 2005",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 8,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true
+      },
+      "queryId": "ZqCof5t6v",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "!isEmpty",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "params_genre"
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ],
+            "id": "7yyIrOZRNc"
+          },
+          {
+            "id": "ZJApTX8Fp",
+            "operator": "isEmpty",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "params_orderBy"
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ]
+          }
+        ]
+      },
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "_id": "gctb_eTgh",
+      "condition": "(!isEmpty(params_genre))",
+      "title": "Film Most Recent Infinity",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 150,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_"
+      },
+      "queryId": "rAoCaKtAs",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "!isEmpty",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "params_genre"
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ],
+            "id": "LeisfR7RxJ"
+          }
+        ]
+      },
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "title": "INF Generi per Parametri Film",
+  "description": "",
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "realm": "content",
+  "refs": {
+    "require": [
+      {
+        "type": "queries",
+        "items": [
+          "ZqCof5t6v",
+          "rAoCaKtAs"
+        ]
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "P0csRsOt7"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": [
+          "eOaXizx_"
+        ]
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "J6OLRf2Xr"
+        ]
+      }
+    ]
+  },
+  "id": "W3OYUNkt68",
+  "version": 28,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2022-06-24T15:58:27.669Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "pages",
+          "count": 1,
+          "items": [
+            {
+              "variantId": "J6OLRf2Xr",
+              "propertyId": "zlqQNxLcGh",
+              "propertyTitle": "",
+              "endpointId": "Ckw1xL36E",
+              "endpointTitle": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 4,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 2,
+          "items": [
+            {
+              "id": "ZqCof5t6v",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "rAoCaKtAs",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "P0csRsOt7",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 1,
+          "items": [
+            {
+              "id": "eOaXizx_",
+              "type": "responseFields",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": []
+}

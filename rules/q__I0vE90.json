@@ -1,0 +1,94 @@
+{
+  "title": "Rule Boost Fiction e Serie TV Recenti",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "range": 1,
+      "period": "d",
+      "API": "V2",
+      "condition": "*",
+      "conditionRaw": {
+        "and": [
+          {
+            "id": "I5A80xAI-c",
+            "operator": "*",
+            "values": [
+              {
+                "type": "metadata",
+                "value": ""
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ]
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "I2I",
+      "value": "when_now",
+      "valueType": "metadata",
+      "queryType": "range",
+      "field": "annoproduzione",
+      "fieldNested": 0,
+      "fieldDBType": "date",
+      "_id": "hs7oTAK98",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "clauses": [
+    "boost"
+  ],
+  "metadata": {
+    "content": false,
+    "time": true
+  },
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "ek22t7eOE",
+          "uPK9cU2MwQ"
+        ]
+      }
+    ]
+  },
+  "id": "q__I0vE90",
+  "version": 5,
+  "lastSaved": {
+    "username": "Massimiliano.Berardi",
+    "date": "2021-03-29T15:59:13.976Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 1,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  }
+}

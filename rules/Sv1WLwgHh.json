@@ -1,0 +1,76 @@
+{
+  "title": "Rule Params Season",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "(!isEmpty(params_seasonId))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "!isEmpty",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "params_seasonId"
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ],
+            "id": "b8_RJGIGTo"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "params_seasonId",
+      "valueType": "metadata",
+      "queryType": "match",
+      "field": "id_season_st",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "Gd2uidQ0D",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "clauses": [
+    "include",
+    "filter"
+  ],
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "PbWq9UplH",
+          "_t8yb_eh3",
+          "XQDNlUIPb"
+        ]
+      }
+    ]
+  },
+  "id": "Sv1WLwgHh",
+  "version": 1,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2022-03-18T16:05:35.492Z"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "title": "Rule Boost Sottogenere Tematico",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "generetematico_sub",
+      "valueType": "metadata",
+      "queryType": "matchFromArray",
+      "field": "generetematico_sub",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "lJkMcgZTr"
+    }
+  ],
+  "clauses": [
+    "boost"
+  ],
+  "metadata": {
+    "content": true
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "rulesPresets",
+        "items": [
+          "l4ImWw6zL"
+        ]
+      },
+      {
+        "type": "queries",
+        "items": [
+          "Jnfu6ZH0E",
+          "ek22t7eOE",
+          "uPK9cU2MwQ"
+        ]
+      }
+    ]
+  },
+  "id": "z_XOAIDTj",
+  "version": 1,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-03-29T14:15:41.204Z"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "nEHdWgP7H",
+          "lUYqji6FvZ"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 2,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 2,
+          "items": [
+            {
+              "id": "nEHdWgP7H",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "lUYqji6FvZ",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "title": "Rule Include Consistenza commerciale Film Mediaset Play",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "keepOrder": true,
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "video_similar_ids_film_mplay",
+      "valueType": "metadata",
+      "queryType": "ids",
+      "field": "video_content_id",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "CLdfcOlYYh"
+    }
+  ],
+  "clauses": [
+    "include"
+  ],
+  "metadata": {
+    "content_similar": {
+      "required": true,
+      "output": "video_similar_ids_film_mplay",
+      "numResults": 12,
+      "metadata": {
+        "included": [
+          "tipologia=Film",
+          "editorial_type=Movie",
+          "video_format=(HD) OR (SD)",
+          "content_channels=MediasetPlay"
+        ]
+      },
+      "groupby": {
+        "metadata": "editorial_type",
+        "results": 2,
+        "sortMetadata": "last24h_videoviews",
+        "sortDirection": "desc"
+      }
+    }
+  },
+  "id": "twpmtJbuJ",
+  "version": 3,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2022-06-30T13:57:30.342Z"
+  }
+}

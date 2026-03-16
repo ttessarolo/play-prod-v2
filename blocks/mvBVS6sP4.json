@@ -1,0 +1,145 @@
+{
+  "id": "mvBVS6sP4",
+  "propertyId": "rrjMTUmyqd",
+  "title": "I programmi più cercati",
+  "description": "",
+  "enabledPagesId": [],
+  "isPage": true,
+  "blocks": [
+    {
+      "id": "OkLpJOKKc",
+      "condition": "*",
+      "title": "I programmi più cercati",
+      "type": "nested",
+      "layout": {
+        "i": "OkLpJOKKc",
+        "w": 12,
+        "h": 2
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "V8fuaquogZ",
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "searchDetailParams": {
+          "uxReference": "detail",
+          "property": "search",
+          "query": "title≈{title};variant≈{variant};channel≈{channel}",
+          "variant": "mostRecent"
+        }
+      },
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      }
+    }
+  ],
+  "version": 6,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-01-21T11:33:58.632Z"
+  },
+  "refs": {
+    "belongs": []
+  },
+  "layout": [
+    {
+      "w": 12,
+      "h": 2,
+      "x": 0,
+      "y": 0,
+      "i": "OkLpJOKKc",
+      "moved": false,
+      "static": false
+    }
+  ],
+  "uiParams": {
+    "preview": {
+      "uiParams": {
+        "current": "Default",
+        "currentIndex": 0,
+        "sets": [
+          {
+            "title": "Default",
+            "params": {
+              "paramsId": {
+                "value": "playDefault",
+                "active": true
+              },
+              "contentId": {
+                "value": "F301644701000103",
+                "active": true
+              },
+              "userId": {
+                "value": "1f51d5e9f09e4d349fa3af349e1cdac4",
+                "active": true
+              },
+              "deviceId": {
+                "value": "ARES-CC",
+                "active": true
+              },
+              "query": {
+                "active": true,
+                "value": "title≈amici"
+              }
+            }
+          }
+        ]
+      },
+      "currentParams": {
+        "paramsId": "playDefault",
+        "contentId": "F301644701000103",
+        "userId": "1f51d5e9f09e4d349fa3af349e1cdac4",
+        "deviceId": "ARES-CC",
+        "query": "title≈amici"
+      }
+    },
+    "layout": {
+      "uiParams": {
+        "current": "Default",
+        "currentIndex": 0,
+        "sets": [
+          {
+            "title": "Default",
+            "params": {
+              "paramsId": {
+                "value": "playDefault",
+                "active": true
+              },
+              "contentId": {
+                "value": "F301644701000103",
+                "active": true
+              },
+              "userId": {
+                "value": "1f51d5e9f09e4d349fa3af349e1cdac4",
+                "active": true
+              },
+              "deviceId": {
+                "value": "ARES-CC",
+                "active": true
+              },
+              "query": {
+                "active": true,
+                "value": "title≈amici"
+              }
+            }
+          }
+        ]
+      },
+      "currentParams": {
+        "paramsId": "playDefault",
+        "contentId": "F301644701000103",
+        "userId": "1f51d5e9f09e4d349fa3af349e1cdac4",
+        "deviceId": "ARES-CC",
+        "query": "title≈amici"
+      }
+    }
+  }
+}

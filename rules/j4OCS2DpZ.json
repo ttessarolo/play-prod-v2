@@ -1,0 +1,92 @@
+{
+  "title": "Rule Boost Paese Non Italia",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "(!contains(paesiorigine, \"ITALIA\"))",
+      "conditionRaw": {
+        "and": [
+          {
+            "id": "l-fzHE0lIFD",
+            "operator": "!contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "paesiorigine"
+              },
+              {
+                "value": "\"ITALIA\"",
+                "type": "string"
+              }
+            ]
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "I2I",
+      "value": "paesiorigine",
+      "valueType": "metadata",
+      "queryType": "matchFromArray",
+      "field": "paesiorigine",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "lJkMcgZTr",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "clauses": [
+    "boost"
+  ],
+  "metadata": {
+    "content": true
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "ek22t7eOE",
+          "uPK9cU2MwQ",
+          "F8q0MMwh8"
+        ]
+      }
+    ]
+  },
+  "id": "j4OCS2DpZ",
+  "version": 6,
+  "lastSaved": {
+    "username": "Massimiliano.Berardi",
+    "date": "2021-03-29T15:51:33.759Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 1,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": []
+}

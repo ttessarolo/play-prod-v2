@@ -1,0 +1,222 @@
+{
+  "id": "zjMBeoafa8",
+  "propertyId": "rrjMTUmyqd",
+  "title": "Default Ricerca",
+  "description": "Please Edit description for Page \"Default\"",
+  "enabledPagesId": [
+    "Y_T1DSbZ9"
+  ],
+  "isPage": true,
+  "blocks": [
+    {
+      "id": "hXMrrJjMF",
+      "condition": "*",
+      "title": "I più cercati",
+      "type": "nested",
+      "layout": {
+        "i": "hXMrrJjMF",
+        "x": 0,
+        "y": 1,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "tpyxHvtxy",
+      "viewAll": {
+        "id": "TFmQYMIE8",
+        "reference": "viewAllFilteredSearchParams"
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER",
+          "layout": "GRID"
+        }
+      }
+    },
+    {
+      "id": "aGBgl7WFp",
+      "condition": "*",
+      "title": "Video",
+      "type": "nested",
+      "layout": {
+        "i": "aGBgl7WFp",
+        "x": 0,
+        "y": 2,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "Fxifzzkdw",
+      "viewAll": {
+        "id": "TFmQYMIE8",
+        "reference": "viewAllFilteredSearchParams"
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "KEYFRAME",
+          "layout": "GRID"
+        }
+      }
+    }
+  ],
+  "version": 13,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2023-03-29T09:34:00.133Z"
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "queries",
+        "items": []
+      },
+      {
+        "type": "endpoints",
+        "items": [
+          "TFmQYMIE8"
+        ]
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "AwF1CRpxF",
+          "tpyxHvtxy",
+          "Fxifzzkdw"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "endpoints",
+        "items": [
+          "Y_T1DSbZ9"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "Y_T1DSbZ9",
+              "type": "endpoints",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 4,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "TFmQYMIE8",
+              "type": "endpoints",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "blocks",
+          "count": 3,
+          "items": [
+            {
+              "id": "AwF1CRpxF",
+              "type": "blocks"
+            },
+            {
+              "id": "tpyxHvtxy",
+              "type": "blocks"
+            },
+            {
+              "id": "Fxifzzkdw",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "layout": [
+    {
+      "i": "hXMrrJjMF",
+      "x": 0,
+      "y": 1,
+      "w": 12,
+      "h": 30,
+      "blocks": []
+    },
+    {
+      "i": "aGBgl7WFp",
+      "x": 0,
+      "y": 2,
+      "w": 12,
+      "h": 30,
+      "blocks": []
+    }
+  ],
+  "results": {
+    "fallbackBlockId": "AwF1CRpxF",
+    "fullSubstituteFallback": true
+  },
+  "fullSubstituteFallback": true,
+  "realm": "content"
+}

@@ -1,0 +1,152 @@
+{
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "Z55JVP8iJk"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 1,
+          "items": [
+            {
+              "id": "Z55JVP8iJk",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "conditionRaw": {
+        "and": [
+          {
+            "id": "bEl0W9Pzl",
+            "operator": "*",
+            "values": [
+              {
+                "type": "metadata",
+                "value": ""
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ]
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "F314252101000103",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "video_content_id",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "oU5JQLzpqi",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "clauses": [
+    "filter"
+  ],
+  "metadata": {
+    "content": true,
+    "time": false
+  },
+  "scheduled": true,
+  "scheduling": [
+    {
+      "id": "RTRGQclMn",
+      "start": "2024-11-11T14:01:38.943Z",
+      "end": "2024-11-12T14:01:38.943Z"
+    },
+    {
+      "id": "uYJ7KZZJ5",
+      "start": "50"
+    },
+    {
+      "id": "BgMMXLR1h",
+      "start": "20"
+    }
+  ],
+  "schedulingMap": [
+    [
+      3,
+      [
+        {
+          "id": "RTRGQclMn",
+          "start": "2024-11-11T14:01:38.943Z",
+          "end": "2024-11-12T14:01:38.943Z"
+        },
+        {
+          "id": "uYJ7KZZJ5",
+          "start": "50"
+        }
+      ]
+    ],
+    [
+      1,
+      [
+        {
+          "id": "BgMMXLR1h",
+          "start": "20"
+        }
+      ]
+    ]
+  ],
+  "title": "Rule ADV Editoriale Similar Serie TV e Fiction",
+  "description": "F313268701000104 -> Ep. 1 - Io sono Farah\nF307648001003304 -> Ep. 1 - Cherry season 2\nF306442301023214 -> Trailer Segreti 3\nF314252101000103 - Ep. Escort boys",
+  "id": "b4Rlr9w1H3",
+  "version": 82,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-12-09T09:25:51.749Z"
+  },
+  "grouped": false,
+  "operator": "and"
+}

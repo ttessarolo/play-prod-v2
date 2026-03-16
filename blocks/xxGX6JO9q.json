@@ -1,0 +1,134 @@
+{
+  "results": {
+    "min": 1,
+    "flatAllBlocks": true,
+    "max": 24,
+    "fallbackBlockId": "ZKixtOJkR"
+  },
+  "blocks": [
+    {
+      "_id": "A9fAyPiVN1",
+      "condition": "*",
+      "title": "Blocco Tipologia Cartoni",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 24,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "fallbackBlockId": "ZKixtOJkR"
+      },
+      "queryId": "Jnfu6ZH0E"
+    }
+  ],
+  "title": "Block Similar Cartoni",
+  "description": "",
+  "scheduled": 0,
+  "scheduling": [],
+  "schedulingMap": [],
+  "realm": "content",
+  "refs": {
+    "require": [
+      {
+        "type": "queries",
+        "items": [
+          "Jnfu6ZH0E"
+        ]
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "ZKixtOJkR"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": [
+          "eOaXizx_"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "hqncHFlz5u"
+        ]
+      }
+    ]
+  },
+  "id": "xxGX6JO9q",
+  "version": 9,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-03-29T16:30:10.683Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "hqncHFlz5u",
+              "type": "blocks",
+              "title": "Default"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 3,
+      "types": 4,
+      "items": [
+        {
+          "type": "queries",
+          "count": 1,
+          "items": [
+            {
+              "id": "Jnfu6ZH0E",
+              "type": "queries",
+              "title": "Query Similar Cartoni"
+            }
+          ]
+        },
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "ZKixtOJkR",
+              "type": "blocks",
+              "title": "Block Most Recent Cartoni"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 1,
+          "items": [
+            {
+              "id": "eOaXizx_",
+              "type": "responseFields",
+              "title": "PLAY-PROD-VIDEO-MINIMAL-SET"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "metadataInRules": [],
+  "title": "Query Documentari più visti 24h",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "KdgZfZ_wm"
+    },
+    {
+      "id": "ju06OqIgO"
+    },
+    {
+      "id": "CHueCEIvSV"
+    }
+  ],
+  "exclude": [
+    {
+      "id": "n1PFC8Cdd"
+    }
+  ],
+  "include": [],
+  "boost": [],
+  "order": [
+    {
+      "id": "A5n475YeR"
+    }
+  ],
+  "presets": {
+    "exclude": [
+      {
+        "id": "ZRorAbL96Q"
+      },
+      {
+        "id": "KhQ3IziFJ"
+      }
+    ],
+    "filter": [
+      {
+        "id": "ur0WldwQk"
+      }
+    ]
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "KdgZfZ_wm",
+          "ju06OqIgO",
+          "CHueCEIvSV",
+          "n1PFC8Cdd",
+          "A5n475YeR"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "ur0WldwQk",
+          "ZRorAbL96Q",
+          "KhQ3IziFJ"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "LzHgDyGoq",
+          "lj4Lgcx84"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "id": "aPpgfgCvJy",
+  "version": 14,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-04-20T16:57:28.180Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "LzHgDyGoq",
+              "type": "blocks",
+              "title": "Block Documentari più visti 24H"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 8,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 5,
+          "items": [
+            {
+              "id": "KdgZfZ_wm",
+              "type": "rules",
+              "title": "Rule Editorial Type TV Season"
+            },
+            {
+              "id": "ju06OqIgO",
+              "type": "rules",
+              "title": "Rule Channel Mediaset Play"
+            },
+            {
+              "id": "CHueCEIvSV",
+              "type": "rules",
+              "title": "Rule Tipologia Documentari"
+            },
+            {
+              "id": "n1PFC8Cdd",
+              "type": "rules",
+              "title": "Rule Escludi Content channel non Mediaset Play"
+            },
+            {
+              "id": "J0NNb391SF",
+              "type": "rules",
+              "title": "Rule Piu visti 24h Params"
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 3,
+          "items": [
+            {
+              "id": "ur0WldwQk",
+              "type": "rulesPresets",
+              "title": "Preset Contenuti attivi"
+            },
+            {
+              "id": "ZRorAbL96Q",
+              "type": "rulesPresets",
+              "title": "Preset Blacklist"
+            },
+            {
+              "id": "KhQ3IziFJ",
+              "type": "rulesPresets",
+              "title": "Preset Video format exclude 4K"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "realm": "content",
+  "metadataOverrides": {},
+  "uselessMultiplier": false
+}

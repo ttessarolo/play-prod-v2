@@ -1,0 +1,279 @@
+{
+  "title": "Query Consistenza commerciale Serie",
+  "description": "",
+  "contentType": "video",
+  "filter": [],
+  "exclude": [],
+  "include": [
+    {
+      "id": "PWcZQVLvEZ"
+    },
+    {
+      "id": "EGBeut_BSY"
+    },
+    {
+      "id": "eT_Q7MQwV"
+    },
+    {
+      "id": "MJOsZd9v2"
+    },
+    {
+      "id": "DOQ1Nc4wa"
+    },
+    {
+      "id": "n5XrUdT2G"
+    }
+  ],
+  "boost": [],
+  "order": [],
+  "realm": "content",
+  "general": {
+    "mustOperator": "or",
+    "tieBreaker": 0.9,
+    "minimumShouldMatch": "1%",
+    "resultsMultiplier": 1
+  },
+  "presets": {
+    "exclude": [
+      {
+        "id": "ZRorAbL96Q"
+      }
+    ]
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "PWcZQVLvEZ",
+          "EGBeut_BSY",
+          "eT_Q7MQwV",
+          "MJOsZd9v2",
+          "DOQ1Nc4wa",
+          "n5XrUdT2G"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "ZRorAbL96Q"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "U_BBmeM8s"
+        ]
+      }
+    ]
+  },
+  "id": "XObNbg7Sk",
+  "version": 8,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-02-05T11:31:04.386Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "U_BBmeM8s",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 7,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 6,
+          "items": [
+            {
+              "id": "PWcZQVLvEZ",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "EGBeut_BSY",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "eT_Q7MQwV",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "MJOsZd9v2",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "DOQ1Nc4wa",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "n5XrUdT2G",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 1,
+          "items": [
+            {
+              "id": "ZRorAbL96Q",
+              "type": "rulesPresets",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "metadataOverrides": {
+    "PWcZQVLvEZ": {
+      "content_similar": {
+        "required": true,
+        "output": "video_similar_ids_serie_mplay",
+        "numResults": 12,
+        "metadata": {
+          "included": [
+            "tipologia=Serie TV",
+            "editorial_type=Serie",
+            "content_channels=MediasetPlay"
+          ]
+        },
+        "groupby": {
+          "metadata": "editorial_type",
+          "results": 8,
+          "sortMetadata": "last24h_videoviews",
+          "sortDirection": "desc"
+        }
+      }
+    },
+    "EGBeut_BSY": {
+      "content_similar": {
+        "required": true,
+        "metadata": {
+          "included": [
+            "content_channels=Infinity",
+            "tipologia=Serie TV",
+            "editorial_type=Serie"
+          ],
+          "excluded": [
+            "content_channels=MediasetPlay"
+          ]
+        },
+        "numResults": 12,
+        "groupby": {
+          "metadata": "tipologia",
+          "results": 8,
+          "sortMetadata": "last24h_videoviews",
+          "sortDirection": "desc"
+        },
+        "output": "video_similar_ids_include_infinity_serie"
+      }
+    },
+    "eT_Q7MQwV": {
+      "content_similar": {
+        "required": true,
+        "output": "video_similar_ids_serie_mgm",
+        "numResults": 12,
+        "metadata": {
+          "included": [
+            "tipologia=Serie TV",
+            "editorial_type=Serie",
+            "content_channels=MGM"
+          ],
+          "excluded": []
+        },
+        "groupby": {
+          "metadata": "editorial_type",
+          "results": 8,
+          "sortMetadata": "last7d_videoviews",
+          "sortDirection": "desc"
+        }
+      }
+    },
+    "MJOsZd9v2": {
+      "content_similar": {
+        "required": true,
+        "output": "video_similar_ids_serie_historyplayit",
+        "numResults": 12,
+        "metadata": {
+          "included": [
+            "tipologia=Documentari",
+            "editorial_type=Serie",
+            "content_channels=historyplayit"
+          ],
+          "excluded": []
+        },
+        "groupby": {
+          "metadata": "editorial_type",
+          "results": 6,
+          "sortMetadata": "last7d_videoviews",
+          "sortDirection": "desc"
+        }
+      }
+    },
+    "DOQ1Nc4wa": {
+      "content_similar": {
+        "required": true,
+        "output": "video_similar_ids_serie_blazeplayit",
+        "numResults": 12,
+        "metadata": {
+          "included": [
+            "tipologia=Documentari",
+            "editorial_type=Serie",
+            "content_channels=blazeplayit"
+          ],
+          "excluded": []
+        },
+        "groupby": {
+          "metadata": "editorial_type",
+          "results": 6,
+          "sortMetadata": "last7d_videoviews",
+          "sortDirection": "desc"
+        }
+      }
+    },
+    "n5XrUdT2G": {
+      "content_similar": {
+        "required": true,
+        "output": "video_similar_ids_serie_ciplayit",
+        "numResults": 12,
+        "metadata": {
+          "included": [
+            "tipologia=Documentari",
+            "editorial_type=Serie",
+            "content_channels=ciplayit"
+          ],
+          "excluded": []
+        },
+        "groupby": {
+          "metadata": "editorial_type",
+          "results": 6,
+          "sortMetadata": "last7d_videoviews",
+          "sortDirection": "desc"
+        }
+      }
+    }
+  }
+}

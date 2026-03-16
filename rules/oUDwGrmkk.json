@@ -1,0 +1,400 @@
+{
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": [
+          "RSe3vLplW"
+        ]
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "wwG2hSMIC",
+          "ZsxcVJ4cb",
+          "O43LrW3K3",
+          "CGFfVq3sX",
+          "DB7Fg4hfA",
+          "Z4Xzab9uO0"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 6,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 6,
+          "items": [
+            {
+              "id": "wwG2hSMIC",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "ZsxcVJ4cb",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "O43LrW3K3",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "CGFfVq3sX",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "DB7Fg4hfA",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "Z4Xzab9uO0",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 1,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 1,
+          "items": [
+            {
+              "id": "RSe3vLplW",
+              "type": "lists",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "title": "Rule Search Id Series Se ad hoc",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "(contains(query_all, \"giallo \") || contains(query_all, \"zaf\"))",
+      "conditionRaw": {
+        "or": [
+          {
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "query_all"
+              },
+              {
+                "value": "\"giallo \"",
+                "type": "freeText"
+              }
+            ],
+            "id": "i271NeBZua"
+          },
+          {
+            "id": "zh1EYXn-u",
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "query_all"
+              },
+              {
+                "value": "\"zaf\"",
+                "type": "freeText"
+              }
+            ]
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "SE000000001787",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "id_series_se",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "DPSMTxP0xX",
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "API": "V2",
+      "condition": "(contains(query_all, \"sport \"))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "query_all"
+              },
+              {
+                "value": "\"sport \"",
+                "type": "freeText"
+              }
+            ],
+            "id": "i271NeBZua"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "RSe3vLplW",
+      "valueType": "list",
+      "queryType": "listId",
+      "field": "id_series_se",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "aXgH51ynY",
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "API": "V2",
+      "condition": "(contains(query_all, \"gf\"))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "query_all"
+              },
+              {
+                "value": "\"gf\"",
+                "type": "freeText"
+              }
+            ],
+            "id": "i271NeBZua"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "SE000000000024",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "id_series_se",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "OXz1336Hs",
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "API": "V2",
+      "condition": "(contains(query_all, \"sofia\"))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "query_all"
+              },
+              {
+                "value": "\"sofia\"",
+                "type": "freeText"
+              }
+            ],
+            "id": "i271NeBZua"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "*sophia*",
+      "valueType": "freeText",
+      "queryType": "contains",
+      "field": "people_attore",
+      "fieldNested": 0,
+      "fieldDBType": "text",
+      "_id": "Ola75K2hJi",
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "API": "V2",
+      "condition": "(contains(query_all, \"love m\") || contains(query_all, \"my pet\"))",
+      "conditionRaw": {
+        "or": [
+          {
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "query_all"
+              },
+              {
+                "value": "\"love m\"",
+                "type": "freeText"
+              }
+            ],
+            "id": "i271NeBZua"
+          },
+          {
+            "id": "zh1EYXn-u",
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "query_all"
+              },
+              {
+                "value": "\"my pet\"",
+                "type": "freeText"
+              }
+            ]
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "SE000000002290",
+      "valueType": "freeText",
+      "queryType": "match",
+      "field": "id_series_se",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "cCGQbc2lJ",
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "API": "V2",
+      "condition": "(contains(query_all, \"xsty\"))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "query_all"
+              },
+              {
+                "value": "\"xsty\"",
+                "type": "freeText"
+              }
+            ],
+            "id": "i271NeBZua"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "SE000000000125",
+      "valueType": "freeText",
+      "queryType": "match",
+      "field": "id_series_se",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "nPopvwn9u",
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "API": "V2",
+      "condition": "(contains(query_all, \"infinity lab\") || contains(query_all, \"infinitylab\") || equals(query_all, \"lab\"))",
+      "conditionRaw": {
+        "or": [
+          {
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "query_all"
+              },
+              {
+                "value": "\"infinity lab\"",
+                "type": "freeText"
+              }
+            ],
+            "id": "i271NeBZua"
+          },
+          {
+            "id": "oSvczwhFzb",
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "query_all"
+              },
+              {
+                "value": "\"infinitylab\"",
+                "type": "string"
+              }
+            ]
+          },
+          {
+            "id": "DjMb0xpq9a",
+            "operator": "equals",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "query_all"
+              },
+              {
+                "value": "\"lab\"",
+                "type": "string"
+              }
+            ]
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "Infinity Lab",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "etichetteEditoriali",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "mAWSqjjzLP",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "clauses": [
+    "include"
+  ],
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "id": "oUDwGrmkk",
+  "version": 34,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-04-03T13:22:21.802Z"
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "metadataInRules": [],
+  "title": "Query Più visti del giorno 24h",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "ju06OqIgO"
+    },
+    {
+      "id": "QUaXrD4lOo"
+    }
+  ],
+  "exclude": [
+    {
+      "id": "UdhDpND04a"
+    },
+    {
+      "id": "U_g6Op1USu"
+    },
+    {
+      "id": "g_H1wj8zj2"
+    },
+    {
+      "id": "n1PFC8Cdd"
+    }
+  ],
+  "include": [],
+  "boost": [],
+  "order": [
+    {
+      "id": "A5n475YeR"
+    }
+  ],
+  "presets": {
+    "exclude": [
+      {
+        "id": "ZRorAbL96Q"
+      },
+      {
+        "id": "KhQ3IziFJ"
+      }
+    ],
+    "filter": [
+      {
+        "id": "TuAyi0elu"
+      },
+      {
+        "id": "ur0WldwQk"
+      }
+    ]
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "ju06OqIgO",
+          "QUaXrD4lOo",
+          "UdhDpND04a",
+          "U_g6Op1USu",
+          "g_H1wj8zj2",
+          "n1PFC8Cdd",
+          "A5n475YeR"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "TuAyi0elu",
+          "ur0WldwQk",
+          "ZRorAbL96Q",
+          "KhQ3IziFJ"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "BGDVNJzqyk"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "id": "bOnJl04URI",
+  "version": 15,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2022-06-14T16:45:26.446Z"
+  },
+  "metadataOverrides": {},
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "BGDVNJzqyk",
+              "type": "blocks",
+              "title": "Block I più visti del giorno 24h"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 11,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 7,
+          "items": [
+            {
+              "id": "ju06OqIgO",
+              "type": "rules",
+              "title": "Rule Channel Mediaset Play"
+            },
+            {
+              "id": "QUaXrD4lOo",
+              "type": "rules",
+              "title": "Rule Editorial Type Fep Clip Movie"
+            },
+            {
+              "id": "UdhDpND04a",
+              "type": "rules",
+              "title": "Rule Subbrand Full"
+            },
+            {
+              "id": "U_g6Op1USu",
+              "type": "rules",
+              "title": "Rule Tipologia Tg"
+            },
+            {
+              "id": "g_H1wj8zj2",
+              "type": "rules",
+              "title": "Rule Exclude Sportmediaset"
+            },
+            {
+              "id": "n1PFC8Cdd",
+              "type": "rules",
+              "title": "Rule Escludi Content channel non Mediaset Play"
+            },
+            {
+              "id": "A5n475YeR",
+              "type": "rules",
+              "title": "Rule Piu visti 24h Always"
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 4,
+          "items": [
+            {
+              "id": "TuAyi0elu",
+              "type": "rulesPresets",
+              "title": "Preset SearchVisible e FrontEnd Visible True"
+            },
+            {
+              "id": "ur0WldwQk",
+              "type": "rulesPresets",
+              "title": "Preset Contenuti attivi"
+            },
+            {
+              "id": "ZRorAbL96Q",
+              "type": "rulesPresets",
+              "title": "Preset Blacklist"
+            },
+            {
+              "id": "KhQ3IziFJ",
+              "type": "rulesPresets",
+              "title": "Preset Video format exclude 4K"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "uselessMultiplier": true,
+  "realm": "content"
+}

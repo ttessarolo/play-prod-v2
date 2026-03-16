@@ -1,0 +1,254 @@
+{
+  "results": {
+    "min": 0,
+    "flatAllBlocks": true,
+    "fallbackBlockId": "P0csRsOt7",
+    "max": 38,
+    "deduplicateFlattedResults": true
+  },
+  "blocks": [
+    {
+      "_id": "fUDV6pARp",
+      "condition": "*",
+      "title": "Infinity Prossimo mese",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 1,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true
+      },
+      "queryId": "AhJPVfln2"
+    },
+    {
+      "_id": "k8yUSXic6o",
+      "condition": "*",
+      "title": "Blocco 1 - Solo Infinity",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 5,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "fallbackBlockId": "P0csRsOt7",
+        "skipOnEmpty": true,
+        "inject": []
+      },
+      "queryId": "Fey8TGWHzd",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": [
+              {
+                "type": "metadata",
+                "value": ""
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ],
+            "id": "mxA7zqCtm9"
+          }
+        ]
+      },
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "_id": "Ds6qfVhY5U",
+      "condition": "*",
+      "title": "Blocco 2 - Mplay o Infinity solo TOP",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 6,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "fallbackBlockId": "P0csRsOt7",
+        "skipOnEmpty": true
+      },
+      "queryId": "js5eihPKLL",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": [
+              {
+                "type": "metadata",
+                "value": ""
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ],
+            "id": "ByDLpfC_Bo"
+          }
+        ]
+      },
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "_id": "aS55ruXMdg",
+      "condition": "*",
+      "title": "Blocco 3 - Altri Most recent",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 30,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "fallbackBlockId": "P0csRsOt7"
+      },
+      "queryId": "Fey8TGWHzd",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      }
+    }
+  ],
+  "title": "INF Film Most Recent ",
+  "description": "Array: Appena arrivati su Infinity Contiene: Film e Serie TV In attesa del campo INFINITY publication date\n",
+  "scheduled": 0,
+  "scheduling": [],
+  "schedulingMap": [],
+  "realm": "content",
+  "refs": {
+    "require": [
+      {
+        "type": "queries",
+        "items": [
+          "AhJPVfln2",
+          "Fey8TGWHzd",
+          "js5eihPKLL"
+        ]
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "P0csRsOt7"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": [
+          "eOaXizx_"
+        ]
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "xPvSMkXJU"
+        ]
+      }
+    ]
+  },
+  "id": "EQJhlR0N7",
+  "version": 19,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-11-16T16:33:06.281Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "pages",
+          "count": 1,
+          "items": [
+            {
+              "variantId": "xPvSMkXJU",
+              "variantTitle": "Default",
+              "propertyId": "zlqQNxLcGh",
+              "propertyTitle": "play",
+              "endpointId": "LboFQwweD",
+              "endpointTitle": "infFilmMostRecent"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 5,
+      "types": 4,
+      "items": [
+        {
+          "type": "queries",
+          "count": 3,
+          "items": [
+            {
+              "id": "AhJPVfln2",
+              "type": "queries",
+              "title": "INF Infinity il prossimo mese"
+            },
+            {
+              "id": "Fey8TGWHzd",
+              "type": "queries",
+              "title": "INF Most recent Film"
+            },
+            {
+              "id": "js5eihPKLL",
+              "type": "queries",
+              "title": "INF Most recent Film Blocco 2"
+            }
+          ]
+        },
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "P0csRsOt7",
+              "type": "blocks",
+              "title": "Block published flag not exists"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 1,
+          "items": [
+            {
+              "id": "eOaXizx_",
+              "type": "responseFields",
+              "title": "PLAY-PROD-VIDEO-MINIMAL-SET"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": []
+}

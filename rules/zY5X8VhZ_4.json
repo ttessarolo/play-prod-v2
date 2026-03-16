@@ -1,0 +1,85 @@
+{
+  "title": "Rule Smart Block Film Risate sul divano ",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "Comico Commedia",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "generepatemico",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "E7Jb0CDRp"
+    },
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "3",
+      "valueType": "number",
+      "queryType": "greaterValue",
+      "field": "umorismo",
+      "fieldNested": 0,
+      "fieldDBType": "integer",
+      "_id": "EALKn4Dbk6"
+    },
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "3",
+      "valueType": "number",
+      "queryType": "greaterValue",
+      "field": "linguaggioverbalevolgare",
+      "fieldNested": 0,
+      "fieldDBType": "integer",
+      "_id": "TNM6ZkGIO"
+    },
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "2",
+      "valueType": "number",
+      "queryType": "greaterValue",
+      "field": "erotismo",
+      "fieldNested": 0,
+      "fieldDBType": "integer",
+      "_id": "Zo69i85dR"
+    }
+  ],
+  "clauses": [
+    "filter"
+  ],
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "M6znVT4rI"
+        ]
+      }
+    ]
+  },
+  "id": "zY5X8VhZ_4",
+  "version": 1,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-07-19T13:33:46.740Z"
+  }
+}

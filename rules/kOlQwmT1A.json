@@ -1,0 +1,126 @@
+{
+  "title": "Rule Order by annoproduzione Desc",
+  "description": "",
+  "contentType": "video",
+  "clauses": [
+    "order"
+  ],
+  "rule": [
+    {
+      "sortOrder": "desc",
+      "sortMode": "avg",
+      "API": "V2",
+      "condition": "*",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": [
+              {
+                "type": "metadata",
+                "value": ""
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ],
+            "id": "ywhZt1VpQG"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "",
+      "valueType": "",
+      "queryType": "sortOrder",
+      "field": "annoproduzione",
+      "fieldNested": 0,
+      "fieldDBType": "date",
+      "_id": "VqSzCMaYe",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "field": "last24h_videoviews",
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "FXJ2KlZhgq",
+          "P6UulTcyj",
+          "qvElOyEJp",
+          "kKhWTOyyV",
+          "NEK9dSz9wd",
+          "jbqEWnxe6",
+          "XOjkpzI6h6",
+          "lhIROrPmV",
+          "JWhRDBQRFY",
+          "qxgXjcp0f",
+          "m9aTWqxml",
+          "jwTBGzq_6I",
+          "WoWB_ho2K"
+        ]
+      }
+    ]
+  },
+  "id": "kOlQwmT1A",
+  "version": 11,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-06-15T14:18:38.678Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 2,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 2,
+          "items": [
+            {
+              "id": "PT5gwflYp",
+              "type": "queries",
+              "title": "Query Film del momento Blocco 2"
+            },
+            {
+              "id": "FXJ2KlZhgq",
+              "type": "queries",
+              "title": "CHNL EXT Film Annoproduzione Desc"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 1,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "scheduled": 0,
+  "scheduling": [],
+  "schedulingMap": [],
+  "realm": "content",
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": [],
+  "metadata": {
+    "content": false
+  }
+}

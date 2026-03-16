@@ -1,0 +1,44 @@
+{
+  "title": "Lista ADV perfect pitch",
+  "description": "",
+  "type": "contentId",
+  "contentType": "video",
+  "realm": "content",
+  "metadataField": "title",
+  "elements": [
+    "F314399501000101",
+    "F314399501000201",
+    "F314399501000301",
+    "F314399501000401",
+    "F314399501000501",
+    "F314399501000601"
+  ],
+  "id": "FBTc9GgzW",
+  "version": 9,
+  "lastSaved": {
+    "username": "Massimiliano.Berardi",
+    "date": "2026-01-29T16:33:27.969Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "rules",
+        "items": [
+          "xvYVAxCdJ"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  }
+}

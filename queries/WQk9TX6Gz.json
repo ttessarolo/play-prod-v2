@@ -1,0 +1,163 @@
+{
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "wfBy1paHlb"
+    },
+    {
+      "id": "83txjtJm"
+    },
+    {
+      "id": "Qs0Vux5WH_"
+    },
+    {
+      "id": "PKxsVmH6d"
+    }
+  ],
+  "exclude": [
+    {
+      "id": "nUNjcCU6f"
+    }
+  ],
+  "include": [
+    {
+      "id": "hEqJRKkwOV"
+    }
+  ],
+  "boost": [
+    {
+      "id": "tKzTMaP6Q",
+      "overides": {
+        "zACoPk5Je": {
+          "boost": 10
+        }
+      }
+    }
+  ],
+  "order": [],
+  "realm": "content",
+  "title": "INF Smart Block Film Pezzi da 90",
+  "description": "",
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "wfBy1paHlb",
+          "83txjtJm",
+          "Qs0Vux5WH_",
+          "PKxsVmH6d",
+          "nUNjcCU6f",
+          "hEqJRKkwOV",
+          "tKzTMaP6Q"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "TuAyi0elu",
+          "KhQ3IziFJ"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "fbmzmrkdpf"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1,
+    "mustOperator": "or"
+  },
+  "id": "WQk9TX6Gz",
+  "version": 12,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-07-19T13:36:45.195Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 8,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 6,
+          "items": [
+            {
+              "id": "wfBy1paHlb",
+              "type": "rules",
+              "title": "Rule Channel Infinity"
+            },
+            {
+              "id": "83txjtJm",
+              "type": "rules",
+              "title": "Rule Tipologia Film"
+            },
+            {
+              "id": "Qs0Vux5WH_",
+              "type": "rules",
+              "title": "Rule Editorial Type Movie"
+            },
+            {
+              "id": "nUNjcCU6f",
+              "type": "rules",
+              "title": "Rule Filtro Escludi Tv Movie e Miniserie"
+            },
+            {
+              "id": "hEqJRKkwOV",
+              "type": "rules",
+              "title": "Rule Film di Autore e Qualità"
+            },
+            {
+              "id": "tKzTMaP6Q",
+              "type": "rules",
+              "title": "Rule Film Blockbuster"
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 2,
+          "items": [
+            {
+              "id": "TuAyi0elu",
+              "type": "rulesPresets",
+              "title": "Preset SearchVisible e FrontEnd Visible True"
+            },
+            {
+              "id": "KhQ3IziFJ",
+              "type": "rulesPresets",
+              "title": "Preset Video format exclude 4K"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "uselessMultiplier": false,
+  "metadataOverrides": {},
+  "presets": {
+    "filter": [
+      {
+        "id": "TuAyi0elu"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "KhQ3IziFJ"
+      }
+    ]
+  }
+}

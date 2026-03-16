@@ -1,0 +1,27 @@
+{
+  "title": "Lista Animazione e Family",
+  "description": "",
+  "type": "text",
+  "contentType": "video",
+  "realm": "content",
+  "elements": [
+    "Animazione",
+    "Family"
+  ],
+  "id": "CYT09pxhF",
+  "version": 1,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2022-06-07T13:43:01.039Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "rules",
+        "items": [
+          "eWJaE8Lwit"
+        ]
+      }
+    ]
+  }
+}

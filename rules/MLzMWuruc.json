@@ -1,0 +1,136 @@
+{
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "vsTj9ViKs"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 1,
+          "items": [
+            {
+              "id": "vsTj9ViKs",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "title": "Rule Search Item Link Platform per Magazine",
+  "description": "",
+  "contentType": "link",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "(!contains(context_platform, \"android\") && !contains(context_platform, \"ios\") && !contains(context_platform, \"web\"))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "!contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "context_platform"
+              },
+              {
+                "value": "\"android\"",
+                "type": "string"
+              }
+            ],
+            "id": "Ok6Z5FQE4m"
+          },
+          {
+            "id": "ynhwnfrb3",
+            "operator": "!contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "context_platform"
+              },
+              {
+                "value": "\"ios\"",
+                "type": "string"
+              }
+            ]
+          },
+          {
+            "id": "gwvH7nN9Y8",
+            "operator": "!contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "context_platform"
+              },
+              {
+                "value": "\"web\"",
+                "type": "string"
+              }
+            ]
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "Magazine: ultime notizie e anticipazioni TV",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "cardTitle",
+      "fieldNested": 0,
+      "fieldDBType": "text",
+      "_id": "JJsUtBvsQB",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "clauses": [
+    "exclude"
+  ],
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "id": "MLzMWuruc",
+  "version": 4,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2023-03-24T13:59:14.357Z"
+  }
+}

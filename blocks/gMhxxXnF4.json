@@ -1,0 +1,258 @@
+{
+  "title": "Alternativa AB test film Infinity",
+  "description": "",
+  "results": {
+    "flatAllBlocks": true,
+    "min": 0,
+    "max": 30,
+    "deduplicateFlattedResults": true,
+    "shuffleItems": true,
+    "fallbackBlockId": "P0csRsOt7"
+  },
+  "blocks": [
+    {
+      "condition": "*",
+      "title": "Blocco film più visti 24h",
+      "type": "query",
+      "_id": "iFXNzyYrV",
+      "pinned": true,
+      "results": {
+        "max": 10,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "fallbackBlockId": "P0csRsOt7",
+        "shuffleItems": true
+      },
+      "queryId": "VPCz1frwh",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      }
+    },
+    {
+      "condition": "*",
+      "title": "Blocco Film Ultimi arrivi over 2010",
+      "type": "query",
+      "_id": "dzXNNJEmAi",
+      "pinned": true,
+      "results": {
+        "max": 5,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "fallbackBlockId": "P0csRsOt7",
+        "shuffleItems": true
+      },
+      "queryId": "bGHIfOpkw",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      }
+    },
+    {
+      "condition": "*",
+      "title": "Blocco Film dal catalogo over 2015",
+      "type": "query",
+      "_id": "ktIVdSoBzf",
+      "pinned": true,
+      "results": {
+        "max": 10,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "fallbackBlockId": "P0csRsOt7"
+      },
+      "queryId": "M9xhdzkJvY",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      }
+    },
+    {
+      "condition": "*",
+      "title": "Blocco Film dal catalogo Cult e di Qualità",
+      "type": "query",
+      "_id": "Rl1k8CRwOE",
+      "pinned": true,
+      "results": {
+        "max": 10,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "fallbackBlockId": "P0csRsOt7"
+      },
+      "queryId": "XfBmXeGEp",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      }
+    }
+  ],
+  "canBeFallback": true,
+  "refs": {
+    "require": [
+      {
+        "type": "queries",
+        "items": [
+          "VPCz1frwh",
+          "bGHIfOpkw",
+          "M9xhdzkJvY",
+          "XfBmXeGEp"
+        ]
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "P0csRsOt7"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": [
+          "eOaXizx_"
+        ]
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "X1yFY8MMUV",
+          "JlhUmKmsUd",
+          "GvHRIa04E",
+          "XZ5f1gK8y",
+          "fm0gjH0tS",
+          "V7QA_iGnE"
+        ]
+      }
+    ]
+  },
+  "id": "gMhxxXnF4",
+  "version": 12,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2023-11-23T14:34:10.954Z"
+  },
+  "enabledPagesId": [
+    "vAky9a3AY",
+    "H1byI1Xx4",
+    "QRd7IFMQaY"
+  ],
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 6,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 4,
+          "items": [
+            {
+              "id": "VPCz1frwh",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "bGHIfOpkw",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "M9xhdzkJvY",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "XfBmXeGEp",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "P0csRsOt7",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 1,
+          "items": [
+            {
+              "id": "eOaXizx_",
+              "type": "responseFields",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": []
+}

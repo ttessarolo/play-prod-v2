@@ -1,0 +1,145 @@
+{
+  "title": "INF Film Più visti 7 giorni",
+  "description": "Contiene film solo Infinity Più visti 7 giorni",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "wfBy1paHlb"
+    },
+    {
+      "id": "Qs0Vux5WH_"
+    },
+    {
+      "id": "83txjtJm"
+    }
+  ],
+  "exclude": [],
+  "include": [],
+  "boost": [],
+  "order": [
+    {
+      "id": "LT7oy4fn1"
+    }
+  ],
+  "realm": "content",
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "wfBy1paHlb",
+          "Qs0Vux5WH_",
+          "83txjtJm",
+          "LT7oy4fn1"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "TuAyi0elu",
+          "KhQ3IziFJ"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "VEb0Iobun"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "id": "yNmdifMzM",
+  "version": 7,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-04-19T15:16:31.465Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "VEb0Iobun",
+              "type": "blocks",
+              "title": "INF Film Più visti 7 giorni"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 6,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 4,
+          "items": [
+            {
+              "id": "Nj8JYAaX8",
+              "type": "rules",
+              "title": "Rule INF Film Più Visti 7 Giorni"
+            },
+            {
+              "id": "vKGPyoliA",
+              "type": "rules",
+              "title": "Rule Params filterBy audio subtitle listing page"
+            },
+            {
+              "id": "_8ZV5sLIn",
+              "type": "rules",
+              "title": "Rule Params orderBy relevanceDesc listing page"
+            },
+            {
+              "id": "Oyp_jIxo6",
+              "type": "rules",
+              "title": "Rule Params orderBy listing page TvSeason Video"
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 2,
+          "items": [
+            {
+              "id": "TuAyi0elu",
+              "type": "rulesPresets",
+              "title": "Preset SearchVisible e FrontEnd Visible True"
+            },
+            {
+              "id": "KhQ3IziFJ",
+              "type": "rulesPresets",
+              "title": "Preset Video format exclude 4K"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "presets": {
+    "filter": [
+      {
+        "id": "TuAyi0elu"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "KhQ3IziFJ"
+      }
+    ]
+  },
+  "uselessMultiplier": false,
+  "metadataOverrides": {}
+}

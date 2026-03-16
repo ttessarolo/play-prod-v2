@@ -1,0 +1,107 @@
+{
+  "title": "Rule Editorial Type TVSeason Params Channel",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "(contains(content_channels, \"blazeplayit\"))",
+      "boost": 1,
+      "type": "",
+      "value": "TVSeason",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "editorial_type",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "Pl9u5PkLa",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "content_channels"
+              },
+              {
+                "value": "\"blazeplayit\"",
+                "type": "freeText"
+              }
+            ],
+            "id": "YLucVWXnUO"
+          }
+        ]
+      },
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "clauses": [
+    "filter"
+  ],
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "metadata": {
+    "content": true
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": []
+      }
+    ]
+  },
+  "id": "rca7ZRjPo",
+  "version": 5,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-07-01T08:37:20.593Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 1,
+          "items": [
+            {
+              "id": "lqIeDJkxU",
+              "type": "queries",
+              "title": "CHNLS Params Genre Serie"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 1,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "searchMetadata": [
+    "request",
+    "content"
+  ],
+  "includedMetadata": [
+    "content"
+  ]
+}

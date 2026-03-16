@@ -1,0 +1,165 @@
+{
+  "title": "Query Most Recent TG",
+  "description": "Solo TG - Ordinati per più recenti",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "ju06OqIgO"
+    },
+    {
+      "id": "U_g6Op1USu"
+    },
+    {
+      "id": "bjWG4DCXS"
+    }
+  ],
+  "exclude": [
+    {
+      "id": "RrN9CQ8hj"
+    }
+  ],
+  "include": [
+    {
+      "id": "IL7USamvn"
+    }
+  ],
+  "boost": [],
+  "order": [
+    {
+      "id": "SXyaET7iz2"
+    }
+  ],
+  "realm": "content",
+  "presets": {
+    "filter": [
+      {
+        "id": "TuAyi0elu"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "ZRorAbL96Q"
+      }
+    ]
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "ju06OqIgO",
+          "U_g6Op1USu",
+          "bjWG4DCXS",
+          "RrN9CQ8hj",
+          "IL7USamvn",
+          "SXyaET7iz2"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "TuAyi0elu",
+          "ZRorAbL96Q"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "efMPssH74G"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "id": "rjWULeByhq",
+  "version": 3,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-04-15T17:01:37.032Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "efMPssH74G",
+              "type": "blocks",
+              "title": "Block Most Recent Tg"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 8,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 6,
+          "items": [
+            {
+              "id": "ju06OqIgO",
+              "type": "rules",
+              "title": "Rule Channel Mediaset Play"
+            },
+            {
+              "id": "U_g6Op1USu",
+              "type": "rules",
+              "title": "Rule Tipologia Tg"
+            },
+            {
+              "id": "bjWG4DCXS",
+              "type": "rules",
+              "title": "Rule Editorial Type NO TV Season e Serie"
+            },
+            {
+              "id": "RrN9CQ8hj",
+              "type": "rules",
+              "title": "Rule Lista Subbrand Id Meteo Regionale"
+            },
+            {
+              "id": "IL7USamvn",
+              "type": "rules",
+              "title": "Rule Subbrand ID per TG"
+            },
+            {
+              "id": "fnNa_WKV",
+              "type": "rules",
+              "title": "Rule Order By Most Recent Params"
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 2,
+          "items": [
+            {
+              "id": "TuAyi0elu",
+              "type": "rulesPresets",
+              "title": "Preset SearchVisible e FrontEnd Visible True"
+            },
+            {
+              "id": "ZRorAbL96Q",
+              "type": "rulesPresets",
+              "title": "Preset Blacklist"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "uselessMultiplier": false,
+  "metadataOverrides": {}
+}

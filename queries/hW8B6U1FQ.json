@@ -1,0 +1,120 @@
+{
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "YMaH2tPZC"
+    },
+    {
+      "id": "tfAzCHYts"
+    },
+    {
+      "id": "gNryeK2LA"
+    }
+  ],
+  "exclude": [
+    {
+      "id": "aNHO5E_ne"
+    },
+    {
+      "id": "rF9k3yyPZ"
+    }
+  ],
+  "include": [],
+  "boost": [],
+  "order": [
+    {
+      "id": "SXyaET7iz2"
+    }
+  ],
+  "realm": "content",
+  "title": "Similar Spagna Clip stessa Tipologia chiamante",
+  "description": "",
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "YMaH2tPZC",
+          "tfAzCHYts",
+          "gNryeK2LA",
+          "aNHO5E_ne",
+          "rF9k3yyPZ",
+          "SXyaET7iz2"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "iMUW89z18U"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 5,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 5,
+          "items": [
+            {
+              "id": "YMaH2tPZC",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "tfAzCHYts",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "gNryeK2LA",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "aNHO5E_ne",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "SXyaET7iz2",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "id": "hW8B6U1FQ",
+  "version": 8,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-03-06T15:42:04.415Z"
+  },
+  "metadataOverrides": {}
+}

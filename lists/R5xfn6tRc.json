@@ -1,0 +1,58 @@
+{
+  "type": "contentId",
+  "contentType": "video",
+  "realm": "content",
+  "elements": [
+    "SE000000000417",
+    "SE000000001992",
+    "SE000000001991",
+    "SE000000000340",
+    "SE000000002084",
+    "SE000000000106",
+    "SE000000000063",
+    "SE000000002356"
+  ],
+  "title": "List Blacklist Id Series Se Search",
+  "description": "",
+  "id": "R5xfn6tRc",
+  "version": 5,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2024-11-21T14:10:44.186Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "rules",
+        "items": [
+          "JxJdZXiBK"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "rules",
+          "count": 1,
+          "items": [
+            {
+              "id": "JxJdZXiBK",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  },
+  "metadataField": "title"
+}

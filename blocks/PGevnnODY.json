@@ -1,0 +1,266 @@
+{
+  "results": {
+    "min": 0,
+    "flatAllBlocks": true,
+    "fallbackBlockId": "P0csRsOt7",
+    "max": 70,
+    "deduplicateFlattedResults": true
+  },
+  "blocks": [
+    {
+      "_id": "QmkRUr9XlZ",
+      "condition": "(dateRange(when_now, \"2024-12-02T23:00:01.714Z÷2024-12-18T22:59:59.714Z\"))",
+      "title": "Made in Italy We are",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 1,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true
+      },
+      "queryId": "BIcv1VGPk",
+      "metadata": {
+        "time": true
+      },
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "dateRange",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "when_now"
+              },
+              {
+                "value": "\"2024-12-02T23:00:01.714Z÷2024-12-18T22:59:59.714Z\"",
+                "type": "DateRange"
+              }
+            ],
+            "id": "svkanRNZnP"
+          }
+        ]
+      },
+      "scheduled": true,
+      "scheduling": [
+        {
+          "id": "svkanRNZnP",
+          "start": "2024-12-02T23:00:01.714Z",
+          "end": "2024-12-18T22:59:59.714Z"
+        }
+      ]
+    },
+    {
+      "_id": "Z3ohIhCPd",
+      "condition": "*",
+      "title": "Documentari Genere mcm Italia",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 40,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true
+      },
+      "queryId": "ZXzhs1rr4"
+    },
+    {
+      "_id": "DVuJ8f1R6e",
+      "condition": "*",
+      "title": "Documentari più visti 24H",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 30,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "fallbackBlockId": "P0csRsOt7"
+      },
+      "queryId": "DfAJs6epYQ",
+      "conditionRaw": {
+        "and": [
+          {
+            "id": "buXlw-o4T",
+            "operator": "*",
+            "values": []
+          }
+        ]
+      },
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "title": "Med Ita Documentari più visti 24H",
+  "description": "",
+  "scheduled": true,
+  "scheduling": [
+    {
+      "id": "svkanRNZnP",
+      "start": "2024-12-02T23:00:01.714Z",
+      "end": "2024-12-18T22:59:59.714Z"
+    }
+  ],
+  "schedulingMap": [
+    [
+      0,
+      [
+        {
+          "id": "svkanRNZnP",
+          "start": "2024-12-02T23:00:01.714Z",
+          "end": "2024-12-18T22:59:59.714Z"
+        }
+      ]
+    ]
+  ],
+  "realm": "content",
+  "refs": {
+    "require": [
+      {
+        "type": "queries",
+        "items": [
+          "BIcv1VGPk",
+          "ZXzhs1rr4",
+          "DfAJs6epYQ"
+        ]
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "P0csRsOt7"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": [
+          "eOaXizx_"
+        ]
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "d8_MU7DEF"
+        ]
+      }
+    ]
+  },
+  "id": "PGevnnODY",
+  "version": 10,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2024-12-03T15:00:41.810Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "pages",
+          "count": 1,
+          "items": [
+            {
+              "variantId": "d8_MU7DEF",
+              "propertyId": "zlqQNxLcGh",
+              "propertyTitle": "",
+              "endpointId": "gYlnQwASKN",
+              "endpointTitle": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 5,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 3,
+          "items": [
+            {
+              "id": "BIcv1VGPk",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "ZXzhs1rr4",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "DfAJs6epYQ",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "P0csRsOt7",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 1,
+          "items": [
+            {
+              "id": "eOaXizx_",
+              "type": "responseFields",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": []
+}

@@ -1,0 +1,46 @@
+{
+  "title": "Enabler Test Episodi Exclude",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "F310228902003402",
+      "valueType": "freeText",
+      "queryType": "match",
+      "field": "video_content_id",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "p5HuuN7Oc"
+    }
+  ],
+  "clauses": [
+    "exclude"
+  ],
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "fpx25YABj"
+        ]
+      }
+    ]
+  },
+  "id": "baFLbpLl3",
+  "version": 1,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-05-13T08:24:43.410Z"
+  }
+}

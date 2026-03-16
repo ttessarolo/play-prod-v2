@@ -1,0 +1,210 @@
+{
+  "title": "INF Film di Animazione",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "wfBy1paHlb"
+    },
+    {
+      "id": "83txjtJm"
+    },
+    {
+      "id": "Qs0Vux5WH_"
+    },
+    {
+      "id": "zFMMN3qCx"
+    }
+  ],
+  "exclude": [],
+  "include": [],
+  "boost": [
+    {
+      "id": "mfXQdqG3TO",
+      "overides": {
+        "roJIYcEjW": {
+          "boost": 10
+        }
+      }
+    },
+    {
+      "id": "RqBahOBRSz",
+      "overides": {
+        "gxbb6JYRxw": {
+          "boost": 10
+        }
+      }
+    },
+    {
+      "id": "CTGuqOMTe",
+      "overides": {
+        "NIWh2k5VC": {
+          "boost": 5
+        }
+      }
+    },
+    {
+      "id": "SJ7TC0R1HB",
+      "overides": {
+        "RCKlmD34E": {
+          "boost": 3
+        }
+      }
+    },
+    {
+      "id": "XYn4_Tjey",
+      "overides": {
+        "B1xY2tUCky": {
+          "boost": 2
+        }
+      }
+    }
+  ],
+  "order": [],
+  "realm": "content",
+  "metadataOverrides": {},
+  "presets": {
+    "filter": [
+      {
+        "id": "TuAyi0elu"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "KhQ3IziFJ"
+      }
+    ]
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "wfBy1paHlb",
+          "83txjtJm",
+          "Qs0Vux5WH_",
+          "zFMMN3qCx",
+          "mfXQdqG3TO",
+          "RqBahOBRSz",
+          "CTGuqOMTe",
+          "SJ7TC0R1HB",
+          "XYn4_Tjey"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "TuAyi0elu",
+          "KhQ3IziFJ"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "ITG091FID"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "id": "c_R2PteO7",
+  "version": 5,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-04-07T10:03:10.398Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "ITG091FID",
+              "type": "blocks",
+              "title": "INF Film di Animazione"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 10,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 9,
+          "items": [
+            {
+              "id": "wfBy1paHlb",
+              "type": "rules",
+              "title": "Rule Channel Infinity"
+            },
+            {
+              "id": "83txjtJm",
+              "type": "rules",
+              "title": "Rule Tipologia Film"
+            },
+            {
+              "id": "Qs0Vux5WH_",
+              "type": "rules",
+              "title": "Rule Editorial Type Movie"
+            },
+            {
+              "id": "zFMMN3qCx",
+              "type": "rules",
+              "title": "Rule Tecnicarealizzazione Animazione"
+            },
+            {
+              "id": "mfXQdqG3TO",
+              "type": "rules",
+              "title": "Rule etichetta editoriale Super Top"
+            },
+            {
+              "id": "RqBahOBRSz",
+              "type": "rules",
+              "title": "Rule etichetta editoriale Top"
+            },
+            {
+              "id": "CTGuqOMTe",
+              "type": "rules",
+              "title": "Rule  Anno Produzione over 2015"
+            },
+            {
+              "id": "SJ7TC0R1HB",
+              "type": "rules",
+              "title": "Rule  Anno Produzione over 2010"
+            },
+            {
+              "id": "XYn4_Tjey",
+              "type": "rules",
+              "title": " Rule Anno Produzione over 2005"
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 1,
+          "items": [
+            {
+              "id": "TuAyi0elu",
+              "type": "rulesPresets",
+              "title": "Preset SearchVisible e FrontEnd Visible True"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "uselessMultiplier": false
+}

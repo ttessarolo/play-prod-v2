@@ -1,0 +1,99 @@
+{
+  "title": "Rule Video format 4K HDR e 4K SDR",
+  "description": "Include tutti i 4K con deduplica per contenuti uguali con priorità sui 4K HDR",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "video_similar_ids_4khdr_4ksdr",
+      "valueType": "metadata",
+      "queryType": "ids",
+      "field": "video_content_id",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "QcdWXG0TS"
+    }
+  ],
+  "clauses": [
+    "filter"
+  ],
+  "metadata": {
+    "content": false,
+    "content_similar": {
+      "required": true,
+      "output": "video_similar_ids_4khdr_4ksdr",
+      "metadata": {
+        "included": [
+          "video_format=(4K HDR) OR (4K SDR)",
+          "editorial_type=Movie"
+        ]
+      },
+      "groupby": {
+        "metadata": "title.keyword",
+        "results": 1,
+        "sortMetadata": "video_format",
+        "sortDirection": "asc"
+      }
+    }
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "qvElOyEJp",
+          "NEK9dSz9wd",
+          "XOjkpzI6h6"
+        ]
+      }
+    ]
+  },
+  "id": "D8K2lQMJTq",
+  "version": 2,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2022-03-04T10:38:24.596Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "searchMetadata": [
+    "request",
+    "content_similar"
+  ],
+  "includedMetadata": []
+}

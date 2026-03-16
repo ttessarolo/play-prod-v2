@@ -1,0 +1,221 @@
+{
+  "refs": {
+    "require": [
+      {
+        "type": "queries",
+        "items": [
+          "NTAbYMbvb",
+          "oBvzKyfF6",
+          "toSpu6fdu"
+        ]
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "P0csRsOt7"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": [
+          "eOaXizx_"
+        ]
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "zjMBeoafa8"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "pages",
+          "count": 1,
+          "items": [
+            {
+              "variantId": "zjMBeoafa8",
+              "propertyId": "rrjMTUmyqd",
+              "propertyTitle": "",
+              "endpointId": "Y_T1DSbZ9",
+              "endpointTitle": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 5,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 3,
+          "items": [
+            {
+              "id": "NTAbYMbvb",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "oBvzKyfF6",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "toSpu6fdu",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "P0csRsOt7",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 1,
+          "items": [
+            {
+              "id": "eOaXizx_",
+              "type": "responseFields",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "results": {
+    "flatAllBlocks": true,
+    "min": 1,
+    "fallbackBlockId": "P0csRsOt7",
+    "max": 20,
+    "deduplicateFlattedResults": true
+  },
+  "blocks": [
+    {
+      "_id": "HdI0m5bZkX",
+      "condition": "*",
+      "title": "Programmi TV e Serie TV",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 6,
+        "min": 1,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "fallbackBlockId": "P0csRsOt7",
+        "skipOnEmpty": true
+      },
+      "queryId": "NTAbYMbvb"
+    },
+    {
+      "_id": "MziVVgz8xD",
+      "condition": "*",
+      "title": "Film Mplay Inf e Noleggio Top Viewed",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 6,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true
+      },
+      "queryId": "oBvzKyfF6"
+    },
+    {
+      "_id": "g3TkVLNRz",
+      "condition": "*",
+      "title": "Serie Inf Top viewed",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 2,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true
+      },
+      "queryId": "toSpu6fdu"
+    },
+    {
+      "_id": "SLYFOej8H",
+      "condition": "*",
+      "title": "Programmi TV e Serie TV",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 12,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true
+      },
+      "queryId": "NTAbYMbvb"
+    }
+  ],
+  "title": "SRC Default Search Serie e Movie",
+  "description": "",
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "realm": "content",
+  "id": "tpyxHvtxy",
+  "version": 10,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2023-01-20T11:32:55.293Z"
+  }
+}

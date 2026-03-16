@@ -1,0 +1,196 @@
+{
+  "title": "SRC Search Film",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "Kdxjjyz8N"
+    },
+    {
+      "id": "Qs0Vux5WH_"
+    },
+    {
+      "id": "oLLAE6EUiU"
+    },
+    {
+      "id": "X4zSj8W9A"
+    },
+    {
+      "id": "EGgOAM0sNR"
+    },
+    {
+      "id": "YtgUucvsC"
+    }
+  ],
+  "exclude": [
+    {
+      "id": "PuCWwvfgM"
+    }
+  ],
+  "include": [
+    {
+      "id": "U5DeUiXfO"
+    }
+  ],
+  "boost": [],
+  "order": [
+    {
+      "id": "IGvLQhQlz"
+    },
+    {
+      "id": "MAkE36K_7"
+    }
+  ],
+  "realm": "content",
+  "general": {
+    "mustOperator": "or",
+    "tieBreaker": 0.9,
+    "minimumShouldMatch": "1%",
+    "resultsMultiplier": 1
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "Kdxjjyz8N",
+          "Qs0Vux5WH_",
+          "oLLAE6EUiU",
+          "X4zSj8W9A",
+          "EGgOAM0sNR",
+          "YtgUucvsC",
+          "PuCWwvfgM",
+          "U5DeUiXfO",
+          "IGvLQhQlz",
+          "MAkE36K_7"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "TuAyi0elu",
+          "ZRorAbL96Q"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "QosfP6Gc0"
+        ]
+      }
+    ]
+  },
+  "id": "B0YMoSONb",
+  "version": 14,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2023-09-26T15:22:29.258Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "QosfP6Gc0",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 11,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 9,
+          "items": [
+            {
+              "id": "Kdxjjyz8N",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "Qs0Vux5WH_",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "oLLAE6EUiU",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "X4zSj8W9A",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "YtgUucvsC",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "PuCWwvfgM",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "U5DeUiXfO",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "IGvLQhQlz",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "MAkE36K_7",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 2,
+          "items": [
+            {
+              "id": "TuAyi0elu",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "ZRorAbL96Q",
+              "type": "rulesPresets",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "presets": {
+    "exclude": [
+      {
+        "id": "ZRorAbL96Q"
+      }
+    ],
+    "filter": [
+      {
+        "id": "TuAyi0elu"
+      }
+    ]
+  },
+  "metadataOverrides": {}
+}

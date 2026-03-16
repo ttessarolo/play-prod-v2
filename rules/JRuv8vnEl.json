@@ -1,0 +1,91 @@
+{
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "UAO8fckslW",
+          "PoNLxId54",
+          "C1FH39h3j"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 1,
+          "items": [
+            {
+              "id": "UAO8fckslW",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "title": "Rule Subbrand match Origin",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "subbrand_id",
+      "valueType": "metadata",
+      "queryType": "matchFromArray",
+      "field": "subbrand_id",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "SSgQ1mFGKt"
+    }
+  ],
+  "clauses": [
+    "filter",
+    "exclude"
+  ],
+  "metadata": {
+    "content": true
+  },
+  "id": "JRuv8vnEl",
+  "version": 2,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-03-05T16:25:47.641Z"
+  }
+}

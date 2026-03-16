@@ -1,0 +1,78 @@
+{
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "MJzBv2QWIR",
+          "PLoyvOPfa",
+          "_cxXAqWa_n",
+          "P5zLtqY7y",
+          "wEB_e4Cs3",
+          "OGVDkyHGae"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "SE000000001887",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "id_series_se",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "H_hgYqiWwe"
+    }
+  ],
+  "clauses": [
+    "exclude"
+  ],
+  "title": "Rule ID Series SE Messa a fuoco",
+  "description": "",
+  "id": "hPCApc7hR",
+  "version": 1,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2023-12-20T09:48:48.532Z"
+  }
+}

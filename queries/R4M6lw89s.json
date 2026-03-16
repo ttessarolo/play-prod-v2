@@ -1,0 +1,175 @@
+{
+  "title": "Query Enabler Fiction e Soap Blocco 2",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "ju06OqIgO"
+    },
+    {
+      "id": "q4YApM928H"
+    },
+    {
+      "id": "KdgZfZ_wm"
+    },
+    {
+      "id": "XrQIQriQGR"
+    },
+    {
+      "id": "elT4DxH4Cc"
+    }
+  ],
+  "exclude": [
+    {
+      "id": "S__HGJYN5V"
+    },
+    {
+      "id": "n1PFC8Cdd"
+    }
+  ],
+  "include": [],
+  "boost": [],
+  "order": [
+    {
+      "id": "tMgBtvtBy"
+    }
+  ],
+  "realm": "content",
+  "presets": {
+    "filter": [
+      {
+        "id": "ztWfmA_PI"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "KhQ3IziFJ"
+      }
+    ]
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "ju06OqIgO",
+          "q4YApM928H",
+          "KdgZfZ_wm",
+          "XrQIQriQGR",
+          "elT4DxH4Cc",
+          "S__HGJYN5V",
+          "n1PFC8Cdd",
+          "tMgBtvtBy"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "ztWfmA_PI",
+          "KhQ3IziFJ"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": []
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "id": "R4M6lw89s",
+  "version": 11,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-06-10T13:17:00.211Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "gzQeE_w8dr",
+              "type": "blocks",
+              "title": "Block Enabler Stagioni Fiction del momento"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 9,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 7,
+          "items": [
+            {
+              "id": "ju06OqIgO",
+              "type": "rules",
+              "title": "Rule Channel Mediaset Play"
+            },
+            {
+              "id": "q4YApM928H",
+              "type": "rules",
+              "title": "Rule Tipologia Fiction"
+            },
+            {
+              "id": "KdgZfZ_wm",
+              "type": "rules",
+              "title": "Rule Editorial Type TV Season"
+            },
+            {
+              "id": "XrQIQriQGR",
+              "type": "rules",
+              "title": "Rule etichetta editoriale In Onda"
+            },
+            {
+              "id": "S__HGJYN5V",
+              "type": "rules",
+              "title": "Rule etichetta editoriale Prima Serata"
+            },
+            {
+              "id": "n1PFC8Cdd",
+              "type": "rules",
+              "title": "Rule Escludi Content channel non Mediaset Play"
+            },
+            {
+              "id": "tMgBtvtBy",
+              "type": "rules",
+              "title": "Rule Order By Publication date Fep Most Recent Play "
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 2,
+          "items": [
+            {
+              "id": "ztWfmA_PI",
+              "type": "rulesPresets",
+              "title": "Preset Fep attivi"
+            },
+            {
+              "id": "KhQ3IziFJ",
+              "type": "rulesPresets",
+              "title": "Preset Video format exclude 4K"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "metadataOverrides": {},
+  "uselessMultiplier": false
+}

@@ -1,0 +1,139 @@
+{
+  "title": "Query Similar Intrattenimento Mythematics only",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "ml7OOL8Ka"
+    },
+    {
+      "id": "YMaH2tPZC"
+    },
+    {
+      "id": "KukwdwFDvb"
+    }
+  ],
+  "exclude": [
+    {
+      "id": "E5c9YS4TS"
+    },
+    {
+      "id": "uT3g9wHEM"
+    },
+    {
+      "id": "OyYJaXcYPF"
+    }
+  ],
+  "include": [
+    {
+      "id": "Ws2do9cWw"
+    }
+  ],
+  "boost": [],
+  "order": [],
+  "realm": "content",
+  "presets": {
+    "filter": [
+      {
+        "id": "TuAyi0elu"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "ZRorAbL96Q"
+      }
+    ]
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "ml7OOL8Ka",
+          "YMaH2tPZC",
+          "KukwdwFDvb",
+          "E5c9YS4TS",
+          "uT3g9wHEM",
+          "OyYJaXcYPF",
+          "Ws2do9cWw"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "TuAyi0elu",
+          "ZRorAbL96Q"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "PovJt3Vzm"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1,
+    "mustOperator": "or"
+  },
+  "id": "AqgW7pWFS",
+  "version": 21,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2026-03-12T10:28:50.118Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  },
+  "uselessMultiplier": false,
+  "metadataOverrides": {
+    "Ws2do9cWw": {
+      "content_similar": {
+        "required": true,
+        "output": "video_similar_ids_intratt_clip",
+        "numResults": 50,
+        "metadata": {
+          "included": [
+            "tipologia=Intrattenimento",
+            "editorial_type=Clip",
+            "content_channels"
+          ],
+          "excluded": [
+            "id_series_se"
+          ]
+        },
+        "date": {
+          "range": 18,
+          "period": "M",
+          "field": "publication_date",
+          "absolute": true
+        },
+        "fingerprint": {
+          "matchFields": [
+            "fingerprint"
+          ]
+        },
+        "groupby": {
+          "metadata": "",
+          "results": 0,
+          "sortMetadata": "",
+          "sortDirection": ""
+        }
+      }
+    }
+  }
+}

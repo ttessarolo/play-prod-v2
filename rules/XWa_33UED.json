@@ -1,0 +1,90 @@
+{
+  "title": "Rule IdSeasonST L'isola dei famosi 2022",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "ST000000002971",
+      "valueType": "freeText",
+      "queryType": "match",
+      "field": "id_season_st",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "iVveWSw4V"
+    }
+  ],
+  "clauses": [
+    "filter",
+    "include"
+  ],
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "YsF6lF5pCC"
+        ]
+      }
+    ]
+  },
+  "id": "XWa_33UED",
+  "version": 3,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2022-03-21T17:21:41.355Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 1,
+          "items": [
+            {
+              "id": "YsF6lF5pCC",
+              "type": "queries",
+              "title": "Query Più visti 24H L'Isola dei famosi"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": []
+}

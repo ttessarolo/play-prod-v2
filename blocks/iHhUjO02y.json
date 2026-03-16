@@ -1,0 +1,172 @@
+{
+  "id": "iHhUjO02y",
+  "propertyId": "zlqQNxLcGh",
+  "title": "Inf Smart Block Film",
+  "description": "Please Edit description for Page \"Default\"",
+  "enabledPagesId": [
+    "RVtOTd3BL"
+  ],
+  "isPage": true,
+  "blocks": [
+    {
+      "id": "OzFlYiAGc",
+      "condition": "*",
+      "title": "INF Smart Block Film",
+      "type": "nested",
+      "layout": {
+        "i": "OzFlYiAGc",
+        "x": 0,
+        "y": 1,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "uBWix5tXR",
+      "useSmartTitle": true,
+      "metadataUI": {
+        "default": {
+          "template": "POSTER"
+        }
+      }
+    }
+  ],
+  "version": 11,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2023-03-29T09:10:22.635Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "endpoints",
+        "items": [
+          "RVtOTd3BL"
+        ]
+      }
+    ],
+    "require": [
+      {
+        "type": "queries",
+        "items": []
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "qi0AgY214Q",
+          "uBWix5tXR"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "RVtOTd3BL",
+              "type": "endpoints",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 2,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 2,
+          "items": [
+            {
+              "id": "qi0AgY214Q",
+              "type": "blocks"
+            },
+            {
+              "id": "uBWix5tXR",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": [],
+  "layout": [
+    {
+      "i": "OzFlYiAGc",
+      "x": 0,
+      "y": 1,
+      "w": 12,
+      "h": 30,
+      "blocks": []
+    }
+  ],
+  "results": {
+    "fallbackBlockId": "qi0AgY214Q",
+    "fullSubstituteFallback": true
+  },
+  "fullSubstituteFallback": true
+}

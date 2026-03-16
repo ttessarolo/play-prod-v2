@@ -1,0 +1,37 @@
+{
+  "title": "List Formula E Video",
+  "description": "video content ID",
+  "type": "contentId",
+  "contentType": "video",
+  "realm": "content",
+  "metadataField": "video_content_id",
+  "elements": [
+    "FD00000000392022"
+  ],
+  "id": "iFMsJhjGY",
+  "version": 4,
+  "lastSaved": {
+    "username": "Massimiliano.Berardi",
+    "date": "2023-07-31T14:43:00.613Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "rules",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  }
+}

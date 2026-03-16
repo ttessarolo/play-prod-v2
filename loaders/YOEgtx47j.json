@@ -1,0 +1,60 @@
+{
+  "title": "🎯 PLAY:CLUSTER",
+  "description": "",
+  "schema": {
+    "input": "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"Cluster Data Schema\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"cluster_id\": {\n      \"type\": \"string\"\n    },\n    \"video_watched\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"object\",\n        \"properties\": {\n          \"id\": {\n            \"type\": \"string\"\n          }\n        },\n        \"required\": [\"id\"],\n        \"additionalProperties\": false\n      }\n    },\n    \"video_historical_fingerprint\": {\n      \"type\": \"string\"\n    },\n    \"lastARESLoaderModified\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\"\n    }\n  },\n  \"required\": [\"cluster_id\",\"video_historical_fingerprint\"],\n  \"additionalProperties\": false\n}"
+  },
+  "queue": "play-prod-v2:cluster:all",
+  "idField": "cluster_id",
+  "index": "play_unified_cluster",
+  "label": "__eK0_jTf",
+  "retry": {
+    "active": true,
+    "token": "H4sIAAAAAAAAAxXIsQrCMBSG0Xf55hv5bQThbg6dBXVRcShWRCltKNFGxHeXTgfOl%2B7R4hy39T2X1fqJkfuMk7rmE9I4tOFdYQxTj7PZ1XuMW0k4UVJYViHqUEWXXFpIOmE014yfmTBajBfGODtH4fL7A%2BMSoIx3AAAA"
+  },
+  "tokens": [
+    "H4sIAAAAAAAAAzXKMQuCQBxA8e%2Fy5rvQ8yr8r%2BEQBIHZUOIgaVGIHnJ1RvTdw6HhwW94H7p7g3DaZzc%2F2fUDhe89guvqt3bj0OiXQTGEHiEvtrLZHQ9Fls%2FjdUTKStFO7R8OwcRmqaOVjmwRpRJbSdKFSewZRX3xSElA8ZwLVN8fZhKlT4QAAAA%3D"
+  ],
+  "refs": {
+    "require": [
+      {
+        "type": "labels",
+        "items": [
+          "wvWb0c63u"
+        ]
+      }
+    ],
+    "belongs": []
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "labels",
+          "count": 1,
+          "items": [
+            {
+              "id": "wvWb0c63u",
+              "type": "labels",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "active": true,
+  "id": "YOEgtx47j",
+  "version": 1,
+  "lastSaved": {
+    "username": "ttessarolo",
+    "date": "2025-06-03T09:14:49.941Z"
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "title": "SRC Default Search Film",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "Qs0Vux5WH_"
+    },
+    {
+      "id": "83txjtJm"
+    }
+  ],
+  "exclude": [],
+  "include": [
+    {
+      "id": "h66JtPhyp"
+    }
+  ],
+  "boost": [],
+  "order": [
+    {
+      "id": "A5n475YeR"
+    }
+  ],
+  "realm": "content",
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "Qs0Vux5WH_",
+          "83txjtJm",
+          "h66JtPhyp",
+          "A5n475YeR"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "ZRorAbL96Q"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "tpyxHvtxy"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1,
+    "mustOperator": "or"
+  },
+  "id": "oBvzKyfF6",
+  "version": 15,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2023-01-24T14:05:40.688Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "tpyxHvtxy",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 5,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 4,
+          "items": [
+            {
+              "id": "Qs0Vux5WH_",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "83txjtJm",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "h66JtPhyp",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "A5n475YeR",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 1,
+          "items": [
+            {
+              "id": "ZRorAbL96Q",
+              "type": "rulesPresets",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "presets": {
+    "exclude": [
+      {
+        "id": "ZRorAbL96Q"
+      }
+    ]
+  },
+  "metadataOverrides": {
+    "h66JtPhyp": {
+      "content_similar": {
+        "required": true,
+        "metadata": {
+          "included": [
+            "tipologia=Film",
+            "editorial_type=Movie",
+            "video_format=(HD) OR (SD)",
+            "content_channels_rights=(Infinity_SVOD) OR (MediasetPlay_AVOD) OR (Noleggio_TVOD)"
+          ],
+          "excluded": [
+            "content_channels=(InfAutore) OR (InfLight) OR (InfComico) OR (InfNero) OR (MediasetItalia)"
+          ]
+        },
+        "groupby": {
+          "metadata": "content_channels",
+          "results": 3,
+          "sortMetadata": "last24h_videoviews",
+          "sortDirection": "desc"
+        },
+        "output": "video_similar_src_default_film"
+      }
+    }
+  }
+}

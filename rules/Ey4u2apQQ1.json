@@ -1,0 +1,164 @@
+{
+  "title": "Rule Exclude Rating non Verde da Animazione e Family",
+  "description": "",
+  "contentType": "video",
+  "clauses": [
+    "exclude"
+  ],
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "(contains(block_meta_playcontentmeta_genere_mcm, \"Family\") || contains(block_meta_playcontentmeta_genere_mcm, \"Animazione\"))",
+      "conditionRaw": {
+        "or": [
+          {
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "block_meta_playcontentmeta_genere_mcm"
+              },
+              {
+                "value": "\"Family\"",
+                "type": "string"
+              }
+            ],
+            "id": "EvpaDYumx0"
+          },
+          {
+            "id": "ulvFsaTXt",
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "block_meta_playcontentmeta_genere_mcm"
+              },
+              {
+                "value": "\"Animazione\"",
+                "type": "string"
+              }
+            ]
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "POH42qesu",
+      "valueType": "list",
+      "queryType": "listTermsId",
+      "field": "ratingparentalcontrol",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "UGAfWaeOA",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "field": "genere_mcm",
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": [
+          "POH42qesu"
+        ]
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "nI6X6r96d",
+          "aXM_s_5Uh",
+          "kiw8qXocC",
+          "BWgEuhfRp",
+          "ca9vJDySW"
+        ]
+      }
+    ]
+  },
+  "id": "Ey4u2apQQ1",
+  "version": 24,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2023-08-24T15:30:31.695Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 5,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 5,
+          "items": [
+            {
+              "id": "nI6X6r96d",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "aXM_s_5Uh",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "kiw8qXocC",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "BWgEuhfRp",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "ca9vJDySW",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 1,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 1,
+          "items": [
+            {
+              "id": "POH42qesu",
+              "type": "lists",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "realm": "content",
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "metadata": {
+    "content": false
+  },
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": [],
+  "grouped": false,
+  "operator": "or"
+}

@@ -1,0 +1,312 @@
+{
+  "id": "Ds5x4fEbu",
+  "propertyId": "rrjMTUmyqd",
+  "title": "Default",
+  "description": "Please Edit description for Page \"Default\"",
+  "enabledPagesId": [
+    "Gw6akjKa4a"
+  ],
+  "isPage": true,
+  "blocks": [
+    {
+      "id": "_yAkid8Xi",
+      "condition": "*",
+      "title": "I programmi più cercati",
+      "type": "nested",
+      "layout": {
+        "i": "_yAkid8Xi",
+        "w": 12,
+        "h": 26
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "V8fuaquogZ",
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "searchDetailParams": {
+          "uxReference": "detail",
+          "property": "search",
+          "query": "title≈{title};variant≈{variant};channel≈{channel}",
+          "variant": "searchedBrand",
+          "params": "variant≈{variant};channel≈{channel}"
+        }
+      },
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "YSUvtnkHT7",
+      "condition": "*",
+      "title": "I video più cercati",
+      "type": "nested",
+      "layout": {
+        "i": "YSUvtnkHT7",
+        "w": 12,
+        "h": 25
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "m0fY0CpslB",
+      "metadataUI": {
+        "attributes": {
+          "template": "KEYFRAME"
+        },
+        "searchDetailParams": {
+          "uxReference": "detail",
+          "property": "search",
+          "query": "title≈{title};variant≈{variant};channel≈{channel}",
+          "variant": "searchedVideo",
+          "params": "variant≈{variant};channel≈{channel}"
+        }
+      },
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      }
+    }
+  ],
+  "version": 26,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2023-03-29T08:18:31.454Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "endpoints",
+        "items": [
+          "Gw6akjKa4a"
+        ]
+      }
+    ],
+    "require": [
+      {
+        "type": "queries",
+        "items": []
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "AwF1CRpxF",
+          "V8fuaquogZ",
+          "m0fY0CpslB"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ]
+  },
+  "layout": [
+    {
+      "w": 12,
+      "h": 26,
+      "x": 0,
+      "y": 0,
+      "i": "_yAkid8Xi",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 25,
+      "x": 0,
+      "y": 26,
+      "i": "YSUvtnkHT7",
+      "moved": false,
+      "static": false
+    }
+  ],
+  "uiParams": {
+    "preview": {
+      "uiParams": {
+        "current": "Default",
+        "currentIndex": 0,
+        "sets": [
+          {
+            "title": "Default",
+            "params": {
+              "paramsId": {
+                "value": "playDefault",
+                "active": true
+              },
+              "contentId": {
+                "value": "F301644701000103",
+                "active": false
+              },
+              "userId": {
+                "value": "1f51d5e9f09e4d349fa3af349e1cdac4",
+                "active": false
+              },
+              "deviceId": {
+                "value": "ARES-CC",
+                "active": false
+              },
+              "query": {
+                "active": true,
+                "value": "title≈verissimo"
+              },
+              "userGroup": {
+                "active": false
+              }
+            }
+          }
+        ]
+      },
+      "currentParams": {
+        "paramsId": "playDefault",
+        "query": "title≈verissimo"
+      }
+    },
+    "layout": {
+      "currentParams": {
+        "paramsId": "playDefault",
+        "contentId": "F301644701000103",
+        "userId": "1f51d5e9f09e4d349fa3af349e1cdac4",
+        "deviceId": "ARES-CC",
+        "query": "title≈amici"
+      },
+      "uiParams": {
+        "current": "Default",
+        "currentIndex": 0,
+        "sets": [
+          {
+            "title": "Default",
+            "params": {
+              "paramsId": {
+                "value": "playDefault",
+                "active": true
+              },
+              "contentId": {
+                "value": "F301644701000103",
+                "active": true
+              },
+              "userId": {
+                "value": "1f51d5e9f09e4d349fa3af349e1cdac4",
+                "active": true
+              },
+              "deviceId": {
+                "value": "ARES-CC",
+                "active": true
+              },
+              "query": {
+                "active": true,
+                "value": "title≈amici"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "results": {
+    "fallbackBlockId": "AwF1CRpxF",
+    "fullSubstituteFallback": true
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "Gw6akjKa4a",
+              "type": "endpoints",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 3,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 3,
+          "items": [
+            {
+              "id": "AwF1CRpxF",
+              "type": "blocks"
+            },
+            {
+              "id": "V8fuaquogZ",
+              "type": "blocks"
+            },
+            {
+              "id": "m0fY0CpslB",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "realm": "content",
+  "fullSubstituteFallback": true
+}

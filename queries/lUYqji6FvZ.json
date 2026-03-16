@@ -1,0 +1,369 @@
+{
+  "contentType": "video",
+  "filter": [],
+  "exclude": [],
+  "include": [
+    {
+      "id": "twpmtJbuJ"
+    },
+    {
+      "id": "DEY4Sy0nw"
+    },
+    {
+      "id": "AwE4g3UVx"
+    },
+    {
+      "id": "RCOo3A47c"
+    },
+    {
+      "id": "d9fmdYXVy"
+    },
+    {
+      "id": "bEAyQvOXp"
+    },
+    {
+      "id": "gkZj7cdoG"
+    },
+    {
+      "id": "NtNeWeTGz"
+    }
+  ],
+  "boost": [],
+  "order": [],
+  "realm": "content",
+  "title": "Query Consistenza commerciale Film",
+  "description": "",
+  "presets": {
+    "filter": [
+      {
+        "id": "ur0WldwQk"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "KhQ3IziFJ"
+      }
+    ]
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "twpmtJbuJ",
+          "DEY4Sy0nw",
+          "AwE4g3UVx",
+          "RCOo3A47c",
+          "d9fmdYXVy",
+          "bEAyQvOXp",
+          "gkZj7cdoG",
+          "NtNeWeTGz"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "ur0WldwQk",
+          "KhQ3IziFJ"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "pN1wVUCyk"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1,
+    "mustOperator": "or"
+  },
+  "id": "lUYqji6FvZ",
+  "version": 20,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2026-03-02T10:16:56.213Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "pN1wVUCyk",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 10,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 8,
+          "items": [
+            {
+              "id": "twpmtJbuJ",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "DEY4Sy0nw",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "AwE4g3UVx",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "RCOo3A47c",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "d9fmdYXVy",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "bEAyQvOXp",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "gkZj7cdoG",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "NtNeWeTGz",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 2,
+          "items": [
+            {
+              "id": "ur0WldwQk",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "KhQ3IziFJ",
+              "type": "rulesPresets",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "uselessMultiplier": false,
+  "metadataOverrides": {
+    "twpmtJbuJ": {
+      "content_similar": {
+        "required": true,
+        "output": "video_similar_ids_film_mplay",
+        "numResults": 12,
+        "metadata": {
+          "included": [
+            "tipologia=Film",
+            "editorial_type=Movie",
+            "video_format=(HD) OR (SD)",
+            "content_channels=MediasetPlay"
+          ]
+        },
+        "groupby": {
+          "metadata": "editorial_type",
+          "results": 8,
+          "sortMetadata": "last24h_videoviews",
+          "sortDirection": "desc"
+        }
+      }
+    },
+    "DEY4Sy0nw": {
+      "content_similar": {
+        "required": true,
+        "output": "video_similar_ids_film_inf",
+        "numResults": 12,
+        "metadata": {
+          "included": [
+            "tipologia=Film",
+            "editorial_type=Movie",
+            "video_format=(HD) OR (SD)",
+            "content_channels=Infinity"
+          ],
+          "excluded": [
+            "content_channels=MediasetPlay"
+          ]
+        },
+        "groupby": {
+          "metadata": "editorial_type",
+          "results": 12,
+          "sortMetadata": "last24h_videoviews",
+          "sortDirection": "desc"
+        }
+      }
+    },
+    "AwE4g3UVx": {
+      "content_similar": {
+        "required": true,
+        "output": "video_similar_ids_film_mgm",
+        "numResults": 12,
+        "metadata": {
+          "included": [
+            "tipologia=Film",
+            "editorial_type=Movie",
+            "video_format=(HD) OR (SD)",
+            "content_channels=MGM"
+          ],
+          "excluded": [
+            "video_content_id=Y312376501000101"
+          ]
+        },
+        "groupby": {
+          "metadata": "editorial_type",
+          "results": 8,
+          "sortMetadata": "last7d_videoviews",
+          "sortDirection": "desc"
+        }
+      }
+    },
+    "RCOo3A47c": {
+      "content_similar": {
+        "required": true,
+        "output": "video_similar_ids_film_midnight",
+        "numResults": 12,
+        "metadata": {
+          "included": [
+            "tipologia=Film",
+            "editorial_type=Movie",
+            "video_format=(HD) OR (SD)",
+            "content_channels=MidnightFactory"
+          ],
+          "excluded": []
+        },
+        "groupby": {
+          "metadata": "editorial_type",
+          "results": 8,
+          "sortMetadata": "last7d_videoviews",
+          "sortDirection": "desc"
+        }
+      }
+    },
+    "d9fmdYXVy": {
+      "content_similar": {
+        "required": true,
+        "output": "video_similar_ids_film_infautore",
+        "numResults": 12,
+        "metadata": {
+          "included": [
+            "tipologia=Film",
+            "editorial_type=Movie",
+            "video_format=(HD) OR (SD)",
+            "content_channels=InfAutore"
+          ],
+          "excluded": [
+            "content_channels=MediasetPlay"
+          ]
+        },
+        "groupby": {
+          "metadata": "editorial_type",
+          "results": 6,
+          "sortMetadata": "last24h_videoviews",
+          "sortDirection": "desc"
+        }
+      }
+    },
+    "bEAyQvOXp": {
+      "content_similar": {
+        "required": true,
+        "output": "video_similar_ids_film_infcomico",
+        "numResults": 12,
+        "metadata": {
+          "included": [
+            "tipologia=Film",
+            "editorial_type=Movie",
+            "video_format=(HD) OR (SD)",
+            "content_channels=InfComico"
+          ],
+          "excluded": [
+            "content_channels=MediasetPlay"
+          ]
+        },
+        "groupby": {
+          "metadata": "editorial_type",
+          "results": 6,
+          "sortMetadata": "last24h_videoviews",
+          "sortDirection": "desc"
+        }
+      }
+    },
+    "gkZj7cdoG": {
+      "content_similar": {
+        "required": true,
+        "output": "video_similar_ids_film_inflight",
+        "numResults": 12,
+        "metadata": {
+          "included": [
+            "tipologia=Film",
+            "editorial_type=Movie",
+            "video_format=(HD) OR (SD)",
+            "content_channels=InfLight"
+          ],
+          "excluded": [
+            "content_channels=MediasetPlay"
+          ]
+        },
+        "groupby": {
+          "metadata": "editorial_type",
+          "results": 6,
+          "sortMetadata": "last24h_videoviews",
+          "sortDirection": "desc"
+        }
+      }
+    },
+    "NtNeWeTGz": {
+      "content_similar": {
+        "required": true,
+        "output": "video_similar_ids_film_infnero",
+        "numResults": 12,
+        "metadata": {
+          "included": [
+            "tipologia=Film",
+            "editorial_type=Movie",
+            "video_format=(HD) OR (SD)",
+            "content_channels=InfNero"
+          ],
+          "excluded": [
+            "content_channels=MediasetPlay"
+          ]
+        },
+        "groupby": {
+          "metadata": "editorial_type",
+          "results": 6,
+          "sortMetadata": "last24h_videoviews",
+          "sortDirection": "desc"
+        }
+      }
+    }
+  }
+}

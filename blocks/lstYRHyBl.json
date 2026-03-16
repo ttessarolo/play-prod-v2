@@ -1,0 +1,19 @@
+{
+  "id": "lstYRHyBl",
+  "propertyId": "gfHVvQu1qU",
+  "title": "Default",
+  "description": "Please Edit description for Page \"Default\"",
+  "enabledPagesId": [
+    "HRNu0V55Lc"
+  ],
+  "isPage": true,
+  "blocks": [],
+  "version": 1,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-01-20T14:29:52.997Z"
+  },
+  "refs": {
+    "belongs": []
+  }
+}

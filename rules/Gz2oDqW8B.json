@@ -1,0 +1,52 @@
+{
+  "title": "Rule Same Content",
+  "description": "Lo stesso contenuto di partenza",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "video_content_id",
+      "valueType": "metadata",
+      "queryType": "match",
+      "field": "video_content_id",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "WN2xPoimM1"
+    }
+  ],
+  "clauses": [
+    "exclude"
+  ],
+  "metadata": {
+    "content": true
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "zLGBFxSxo",
+          "jNFBAYUGK",
+          "eKqq5qm5PJ",
+          "aIek_pwCv"
+        ]
+      }
+    ]
+  },
+  "id": "Gz2oDqW8B",
+  "version": 1,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-03-29T16:54:50.751Z"
+  }
+}

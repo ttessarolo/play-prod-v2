@@ -1,0 +1,45 @@
+{
+  "title": "Lista ADV Viaggi DiVini",
+  "description": "",
+  "elements": [
+    "F313618001000101",
+    "F313618001000201",
+    "F313618001000301",
+    "F313618001000401",
+    "F313618001000501",
+    "F313618001000601",
+    "F313618001000701",
+    "F313618001000801",
+    "F313618001000901",
+    "F313618001001001"
+  ],
+  "id": "MMwwgdW9bE",
+  "version": 2,
+  "lastSaved": {
+    "username": "Massimiliano.Berardi",
+    "date": "2024-10-31T16:59:11.164Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "rules",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  },
+  "type": "contentId",
+  "contentType": "video",
+  "realm": "content"
+}

@@ -1,0 +1,442 @@
+{
+  "id": "eXYGAOgLx",
+  "propertyId": "zlqQNxLcGh",
+  "title": "Clusterizzato-[COPY]",
+  "description": "Please Edit description for Page \"Default\"",
+  "enabledPagesId": [
+    "nyMd3k9ed"
+  ],
+  "isPage": true,
+  "blocks": [
+    {
+      "id": "SRgeAm2RU",
+      "condition": "*",
+      "title": "Film suggeriti per te",
+      "type": "nested",
+      "layout": {
+        "i": "SRgeAm2RU",
+        "x": 0,
+        "y": 1,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "sx_sOdIkHE",
+      "viewAll": {
+        "id": "q92sG36gh",
+        "reference": "viewAllCluster"
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        }
+      }
+    },
+    {
+      "id": "bUqvJQ5H_7",
+      "condition": "*",
+      "title": "Programmi TV per te",
+      "type": "nested",
+      "layout": {
+        "i": "bUqvJQ5H_7",
+        "x": 0,
+        "y": 2,
+        "w": 12,
+        "h": 30,
+        "blocks": [],
+        "isDraggable": false
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "nyZIQBFS9",
+      "viewAll": {
+        "id": "q92sG36gh",
+        "reference": "viewAllCluster"
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        }
+      },
+      "pinned": true
+    },
+    {
+      "id": "lrPXqyM2z",
+      "condition": "*",
+      "title": "Documentari da scoprire",
+      "type": "nested",
+      "layout": {
+        "i": "lrPXqyM2z",
+        "w": 12,
+        "h": 30
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "lj4Lgcx84",
+      "viewAll": {
+        "id": "q92sG36gh",
+        "reference": "viewAllCluster"
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        }
+      }
+    },
+    {
+      "id": "Bg0xX4xwLM",
+      "condition": "*",
+      "title": "Fiction e Serie TV scelte per te",
+      "type": "nested",
+      "layout": {
+        "i": "Bg0xX4xwLM",
+        "w": 12,
+        "h": 30
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "aidPOYBHr",
+      "viewAll": {
+        "id": "q92sG36gh",
+        "reference": "viewAllCluster"
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        }
+      }
+    },
+    {
+      "id": "ZALZAAwra",
+      "condition": "*",
+      "title": "Le Soap da non perdere",
+      "type": "nested",
+      "layout": {
+        "i": "ZALZAAwra",
+        "x": 0,
+        "y": 4,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "wb8wNrGjk",
+      "viewAll": {
+        "id": "q92sG36gh",
+        "reference": "viewAllCluster"
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        }
+      }
+    },
+    {
+      "id": "KSCfgI07K",
+      "condition": "*",
+      "title": "Per i più piccoli",
+      "type": "nested",
+      "layout": {
+        "i": "KSCfgI07K",
+        "x": 0,
+        "y": 121,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "bxvjJEkwv",
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        }
+      },
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H",
+        "siteMapped": true
+      }
+    },
+    {
+      "id": "iNKIVW6Df",
+      "condition": "*",
+      "title": "Informazione e Sport",
+      "type": "nested",
+      "layout": {
+        "i": "iNKIVW6Df",
+        "x": 0,
+        "y": 122,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "PUm41pxFo",
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        }
+      },
+      "viewAll": {
+        "id": "q92sG36gh",
+        "reference": "viewAllCluster"
+      }
+    }
+  ],
+  "version": 23,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2023-07-06T15:52:46.582Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "endpoints",
+        "items": [
+          "nyMd3k9ed"
+        ]
+      }
+    ],
+    "require": [
+      {
+        "type": "queries",
+        "items": []
+      },
+      {
+        "type": "endpoints",
+        "items": [
+          "q92sG36gh",
+          "WXsJUgBAp"
+        ]
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "Rc1YEkVxO",
+          "sx_sOdIkHE",
+          "nyZIQBFS9",
+          "lj4Lgcx84",
+          "aidPOYBHr",
+          "wb8wNrGjk",
+          "bxvjJEkwv",
+          "PUm41pxFo"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "nyMd3k9ed",
+              "type": "endpoints",
+              "title": "multipleBlockCompleanno"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 10,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "endpoints",
+          "count": 2,
+          "items": [
+            {
+              "id": "q92sG36gh",
+              "type": "endpoints",
+              "title": "viewAllCluster"
+            },
+            {
+              "id": "WXsJUgBAp",
+              "type": "endpoints",
+              "title": "viewAll1H"
+            }
+          ]
+        },
+        {
+          "type": "blocks",
+          "count": 8,
+          "items": [
+            {
+              "id": "Rc1YEkVxO",
+              "type": "blocks",
+              "title": "Fallback vuota"
+            },
+            {
+              "id": "sx_sOdIkHE",
+              "type": "blocks",
+              "title": "Block Film similar to Cluster"
+            },
+            {
+              "id": "nyZIQBFS9",
+              "type": "blocks",
+              "title": "Block Programmi TV In Onda"
+            },
+            {
+              "id": "lj4Lgcx84",
+              "type": "blocks",
+              "title": "Block Documentari similar to Cluster"
+            },
+            {
+              "id": "aidPOYBHr",
+              "type": "blocks",
+              "title": "Block Fiction e Serie TV similar to Cluster"
+            },
+            {
+              "id": "wb8wNrGjk",
+              "type": "blocks",
+              "title": "Block Soap similar to Cluster"
+            },
+            {
+              "id": "bxvjJEkwv",
+              "type": "blocks",
+              "title": "Block Stagioni Kids Multiple block Dem Compleanno"
+            },
+            {
+              "id": "PUm41pxFo",
+              "type": "blocks",
+              "title": "Block Informazione e Sport similar to Cluster"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "layout": [
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 0,
+      "i": "SRgeAm2RU",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 30,
+      "i": "bUqvJQ5H_7",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 60,
+      "i": "lrPXqyM2z",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 90,
+      "i": "Bg0xX4xwLM",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 120,
+      "i": "ZALZAAwra",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 150,
+      "i": "KSCfgI07K",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 180,
+      "i": "iNKIVW6Df",
+      "moved": false,
+      "static": false
+    }
+  ],
+  "results": {
+    "smartOrderBlocks": true,
+    "contentType": "video",
+    "userContentType": "unified",
+    "event": "watched",
+    "perUserBasisType": "video_historical_fingerprint",
+    "max": "5",
+    "fallbackBlockId": "Rc1YEkVxO",
+    "fullSubstituteFallback": true
+  }
+}

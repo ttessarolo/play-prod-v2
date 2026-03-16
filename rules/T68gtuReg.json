@@ -1,0 +1,75 @@
+{
+  "title": "Rule Anticipazioni SerieTv Fiction",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "I2I",
+      "value": "video_similar_ids_anticipazioni",
+      "valueType": "metadata",
+      "queryType": "ids",
+      "field": "video_content_id",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "RjW_sHUbA"
+    }
+  ],
+  "clauses": [
+    "filter"
+  ],
+  "metadata": {
+    "content_similar": {
+      "required": true,
+      "output": "video_similar_ids_anticipazioni",
+      "numResults": 30,
+      "metadata": {
+        "included": [
+          "editorial_type=(Anticipazioni) OR (Extra)",
+          "genere_mcm=Soap opera",
+          "id_series_se"
+        ],
+        "excluded": [
+          "subbrand_id"
+        ]
+      },
+      "fingerprint": {
+        "matchFields": [
+          "fingerprint"
+        ]
+      },
+      "groupby": {
+        "metadata": "subbrand_id",
+        "results": 1,
+        "sortMetadata": "publication_date",
+        "sortDirection": "desc"
+      }
+    }
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "A4ofNYRa8",
+          "cm6U6qlM9"
+        ]
+      }
+    ]
+  },
+  "id": "T68gtuReg",
+  "version": 1,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-03-29T15:50:37.502Z"
+  }
+}

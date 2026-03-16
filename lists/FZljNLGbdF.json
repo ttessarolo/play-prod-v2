@@ -1,0 +1,33 @@
+{
+  "type": "contentId",
+  "contentType": "video",
+  "realm": "content",
+  "title": "List Subbrand Highlights Calcio",
+  "description": "Contiene highlights di:\nHighlights Serie A 2024-2025: 100027481\nCoppa Italia 2024-2025: 100027607",
+  "elements": [
+    "100027481",
+    "100027607"
+  ],
+  "id": "FZljNLGbdF",
+  "version": 3,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-01-23T14:43:46.177Z"
+  },
+  "refs": {
+    "belongs": []
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  },
+  "metadataField": "subbrand_title"
+}

@@ -1,0 +1,72 @@
+{
+  "title": "Rule Tematismi Genere Patemico",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "(!isEmpty(tematismimacrogeneripatemici))",
+      "conditionRaw": {
+        "and": [
+          {
+            "id": "Xhpw-Sxevje",
+            "operator": "!isEmpty",
+            "values": [
+              {
+                "value": "tematismimacrogeneripatemici",
+                "type": "metadata"
+              }
+            ]
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "tematismimacrogeneripatemici",
+      "valueType": "metadata",
+      "queryType": "matchFromArray",
+      "field": "tematismimacrogeneripatemici",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "VDI77O93Y4",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "clauses": [
+    "boost"
+  ],
+  "metadata": {
+    "content": true
+  },
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "rulesPresets",
+        "items": [
+          "nvqWNnbgX"
+        ]
+      },
+      {
+        "type": "queries",
+        "items": []
+      }
+    ]
+  },
+  "id": "LKVNQgg10S",
+  "version": 1,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-03-29T14:24:53.808Z"
+  }
+}

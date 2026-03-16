@@ -1,0 +1,129 @@
+{
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 1,
+          "items": [
+            {
+              "id": "LXKlBclWt",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "title": "Rule MGM La terra sull abisso",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "conditionRaw": {
+        "and": [
+          {
+            "id": "wDJN1nWjrj",
+            "operator": "*",
+            "values": [
+              {
+                "type": "metadata",
+                "value": ""
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ]
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "SE000000002390",
+      "valueType": "freeText",
+      "queryType": "match",
+      "field": "id_series_se",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "tlr4lE0JJW",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "clauses": [
+    "include",
+    "filter"
+  ],
+  "metadata": {
+    "content_similar": {
+      "required": false,
+      "output": "video_similar_ids_serie_mgm",
+      "numResults": 12,
+      "metadata": {
+        "included": [
+          "tipologia=Serie TV",
+          "editorial_type=Serie",
+          "content_channels=MGM"
+        ],
+        "excluded": []
+      },
+      "groupby": {
+        "metadata": "editorial_type",
+        "results": 2,
+        "sortMetadata": "last7d_videoviews",
+        "sortDirection": "desc"
+      }
+    },
+    "time": false
+  },
+  "id": "Kq4pnbLn4",
+  "version": 11,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-02-14T10:50:16.639Z"
+  },
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": []
+}

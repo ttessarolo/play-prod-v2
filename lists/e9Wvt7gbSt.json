@@ -1,0 +1,20 @@
+{
+  "title": "List Editorial type Movie e TVSeason",
+  "description": "",
+  "type": "text",
+  "contentType": "video",
+  "realm": "content",
+  "elements": [
+    "Movie",
+    "TVSeason"
+  ],
+  "id": "e9Wvt7gbSt",
+  "version": 1,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2022-05-17T10:16:06.879Z"
+  },
+  "refs": {
+    "belongs": []
+  }
+}

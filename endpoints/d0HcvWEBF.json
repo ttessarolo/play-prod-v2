@@ -1,0 +1,229 @@
+{
+  "id": "d0HcvWEBF",
+  "active": true,
+  "title": "fallbackPersonalizzati",
+  "description": "",
+  "reference": "fallbackPersonalizzati",
+  "propertyId": "zlqQNxLcGh",
+  "blockId": "x0BmGLyVnR",
+  "variants": [
+    {
+      "blockId": "qi0AgY214Q",
+      "condition": "*",
+      "priority": 1,
+      "active": true
+    },
+    {
+      "blockId": "K6MHXRZhh",
+      "condition": "*",
+      "priority": 1,
+      "active": true
+    }
+  ],
+  "params": {
+    "timeout": 1500,
+    "cacheConfig": {
+      "cache": 1,
+      "cacheTTL": 3600,
+      "cachePrefix": {
+        "group": true,
+        "static": "endpoint",
+        "keys": []
+      },
+      "computeKeys": [
+        "page",
+        "hitsPerPage",
+        "startBlock",
+        "endBlock"
+      ]
+    },
+    "inveverseCacheConfig": {
+      "cacheTTL": 3600
+    }
+  },
+  "paramsId": "playDefault",
+  "input": {
+    "schema": {
+      "name": "Input Validation Schema",
+      "description": "ARES Request Params",
+      "type": "object",
+      "required": [
+        "query"
+      ],
+      "properties": {
+        "query": {
+          "type": "object",
+          "required": [
+            "tenant",
+            "uxReference"
+          ],
+          "properties": {
+            "tenant": {
+              "type": "string"
+            },
+            "uxReference": {
+              "type": "string"
+            },
+            "userId": {
+              "type": "string"
+            },
+            "userType": {
+              "type": "string"
+            },
+            "userGroup": {
+              "type": "string"
+            },
+            "deviceId": {
+              "type": "string"
+            },
+            "contentId": {
+              "type": "string"
+            },
+            "sessionId": {
+              "type": "string"
+            },
+            "context": {
+              "type": "string"
+            },
+            "query": {
+              "type": "string"
+            },
+            "startBlock": {
+              "type": "number"
+            },
+            "endBlock": {
+              "type": "number"
+            },
+            "page": {
+              "type": "number"
+            },
+            "hitsPerPage": {
+              "type": "number"
+            }
+          }
+        }
+      }
+    },
+    "decorators": [
+      "XIHg_DI92f"
+    ]
+  },
+  "output": {
+    "decorators": [
+      "mU5ep6Aze"
+    ],
+    "filters": {
+      "maxFilterPercentage": 100
+    }
+  },
+  "version": 26,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2024-11-05T10:45:46.584Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "experiments",
+        "items": []
+      }
+    ],
+    "require": [
+      {
+        "type": "blocks",
+        "items": [
+          "x0BmGLyVnR",
+          "qi0AgY214Q",
+          "K6MHXRZhh"
+        ]
+      },
+      {
+        "type": "params",
+        "items": [
+          "playDefault"
+        ]
+      },
+      {
+        "type": "decorators",
+        "items": [
+          "XIHg_DI92f",
+          "mU5ep6Aze"
+        ]
+      },
+      {
+        "type": "conversionPacks",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 6,
+      "types": 4,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 3,
+          "items": [
+            {
+              "id": "x0BmGLyVnR",
+              "type": "blocks",
+              "title": "Fallback Person to Content Film"
+            },
+            {
+              "id": "qi0AgY214Q",
+              "type": "blocks",
+              "title": "Fallback Inf Smart Block Film"
+            },
+            {
+              "id": "K6MHXRZhh",
+              "type": "blocks",
+              "title": "Fallback Film Cluster"
+            }
+          ]
+        },
+        {
+          "type": "params",
+          "count": 1,
+          "items": [
+            {
+              "id": "playDefault",
+              "type": "params",
+              "title": "Play Default"
+            }
+          ]
+        },
+        {
+          "type": "decorators",
+          "count": 2,
+          "items": [
+            {
+              "id": "XIHg_DI92f",
+              "type": "decorators",
+              "title": "Play Persona Input Decorator"
+            },
+            {
+              "id": "mU5ep6Aze",
+              "type": "decorators",
+              "title": "MPlay Universal Enricher "
+            }
+          ]
+        },
+        {
+          "type": "conversionPacks",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "haveScheduledVariants": 0,
+  "prevReference": "fallbackPersonalizzati",
+  "paginateFromCache": false,
+  "enableAnalitica": true
+}

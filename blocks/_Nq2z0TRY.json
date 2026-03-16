@@ -1,0 +1,176 @@
+{
+  "title": "SNAP Block Person To Content Homepage",
+  "description": "Utilizzato in property 'snapshot'",
+  "results": {
+    "flatAllBlocks": true,
+    "min": 0,
+    "max": 30,
+    "fallbackBlockId": "l4VJd3rno"
+  },
+  "blocks": [
+    {
+      "condition": "*",
+      "title": "Person To Content Homepage Snapshot",
+      "type": "query",
+      "_id": "hPT17JZNZ7",
+      "pinned": true,
+      "results": {
+        "max": 30,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "o71PdNa1Xc",
+        "fallbackBlockId": "l4VJd3rno"
+      },
+      "queryId": "WvEpq4HXF",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      }
+    }
+  ],
+  "canBeFallback": true,
+  "refs": {
+    "require": [
+      {
+        "type": "queries",
+        "items": [
+          "WvEpq4HXF"
+        ]
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "l4VJd3rno"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": [
+          "o71PdNa1Xc"
+        ]
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "tNtF6sioT2"
+        ]
+      }
+    ]
+  },
+  "id": "_Nq2z0TRY",
+  "version": 11,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2022-11-07T14:54:20.200Z"
+  },
+  "enabledPagesId": [
+    "U0WrVkcN6",
+    "Rj1_1Ldtp",
+    "wa7CTFrKM",
+    "wSapSXMZL",
+    "v8HBDVt48",
+    "XBJpXgG8U"
+  ],
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "pages",
+          "count": 1,
+          "items": [
+            {
+              "variantId": "tNtF6sioT2",
+              "propertyId": "RXgubFakgU",
+              "propertyTitle": "",
+              "endpointId": "apKRr498c",
+              "endpointTitle": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 3,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 1,
+          "items": [
+            {
+              "id": "WvEpq4HXF",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "l4VJd3rno",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 1,
+          "items": [
+            {
+              "id": "o71PdNa1Xc",
+              "type": "responseFields",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "realm": "content"
+}

@@ -1,0 +1,49 @@
+{
+  "title": "Rule Boost Tipologia origin",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "tipologia",
+      "valueType": "metadata",
+      "queryType": "match",
+      "field": "tipologia",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "zSLYJtcoyH"
+    }
+  ],
+  "clauses": [
+    "boost"
+  ],
+  "metadata": {
+    "content": true
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "F8q0MMwh8"
+        ]
+      }
+    ]
+  },
+  "id": "GsQBOWslH",
+  "version": 1,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-04-02T10:49:16.736Z"
+  }
+}

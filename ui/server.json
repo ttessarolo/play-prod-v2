@@ -1,0 +1,820 @@
+{
+  "id": "server",
+  "paramsId": "playDefault",
+  "maxMetadataValuesLength": 500,
+  "metadata": {
+    "video": {
+      "video": {},
+      "request": {
+        "params_director": {
+          "type": "string",
+          "values": []
+        },
+        "params_actor": {
+          "type": "string",
+          "values": []
+        },
+        "params_genre": {
+          "type": "string",
+          "values": []
+        },
+        "params_tipologia": {
+          "type": "string",
+          "values": []
+        },
+        "params_status": {
+          "type": "string",
+          "values": []
+        },
+        "params_channel": {
+          "type": "string",
+          "values": []
+        },
+        "params_etichetteEditoriali": {
+          "type": "string",
+          "values": []
+        },
+        "query_title": {
+          "type": "string",
+          "values": []
+        },
+        "query_director": {
+          "type": "string",
+          "values": []
+        },
+        "query_actor": {
+          "type": "string",
+          "values": []
+        },
+        "query_genre": {
+          "type": "string",
+          "values": []
+        },
+        "query_tipologia": {
+          "type": "string",
+          "values": []
+        },
+        "query_status": {
+          "type": "string",
+          "values": []
+        },
+        "query_channel": {
+          "type": "string",
+          "values": []
+        },
+        "params_editorialtype": {
+          "type": "string",
+          "values": []
+        },
+        "params_subbrandid": {
+          "type": "string",
+          "values": []
+        },
+        "params_collectionId": {
+          "type": "string",
+          "values": []
+        },
+        "params_collection": {
+          "type": "string",
+          "values": []
+        },
+        "params_seasonId": {
+          "type": "string",
+          "values": []
+        }
+      },
+      "session": {
+        "who_session_reco_video_content_id": {
+          "type": "list,string",
+          "values": []
+        },
+        "who_session_consumed_video_content_id": {
+          "type": "list,string",
+          "values": []
+        }
+      },
+      "trending_content": {
+        "top_consumed_video_video_content_id": {
+          "type": "list,string",
+          "values": []
+        },
+        "trending_consumed_video_video_content_id": {
+          "type": "list,string",
+          "values": []
+        }
+      }
+    },
+    "request": {
+      "params_inonda": {
+        "type": "string",
+        "values": [
+          true,
+          false
+        ]
+      },
+      "params_categories": {
+        "type": "string",
+        "values": []
+      },
+      "context_connection": {
+        "type": "string",
+        "values": [
+          "wifi",
+          "mobile"
+        ]
+      },
+      "context_device": {
+        "type": "string",
+        "values": [
+          "desktop",
+          "mobile",
+          "tablet"
+        ]
+      },
+      "context_userSegments": {
+        "type": "list,string",
+        "values": []
+      },
+      "contentIds": {
+        "type": "list,string",
+        "values": []
+      },
+      "userGroup": {
+        "type": "string",
+        "values": [
+          "A",
+          "B"
+        ]
+      },
+      "tenant": {
+        "type": "string",
+        "values": []
+      },
+      "property": {
+        "type": "string",
+        "values": []
+      },
+      "uxReference": {
+        "type": "string",
+        "values": []
+      },
+      "contentId": {
+        "type": "string",
+        "values": []
+      },
+      "userId": {
+        "type": "string",
+        "values": []
+      },
+      "familyId": {
+        "type": "string",
+        "values": []
+      },
+      "infinityClusterId": {
+        "type": "string",
+        "values": []
+      },
+      "freeClusterId": {
+        "type": "string",
+        "values": []
+      },
+      "deviceId": {
+        "type": "string",
+        "values": []
+      },
+      "now": {
+        "type": "date",
+        "values": []
+      },
+      "query_all": {
+        "type": "string",
+        "values": []
+      },
+      "listIdFromBlock": {
+        "type": "list,string",
+        "values": []
+      },
+      "clientIP": {
+        "type": "string",
+        "values": []
+      },
+      "params_variant": {
+        "type": "string",
+        "values": [
+          "fep",
+          "brand",
+          "clip",
+          "movie",
+          "searchedVideo",
+          "searchedBrand",
+          "infSerie",
+          "infSearchedSerie",
+          "infSearchedFilm",
+          "timVisionSerie",
+          "timVisionFilm",
+          "video",
+          "subscription"
+        ]
+      },
+      "extraId": {
+        "type": "string",
+        "values": []
+      },
+      "blockId": {
+        "type": "string",
+        "values": []
+      },
+      "query": {
+        "type": "string",
+        "values": []
+      },
+      "query_title": {
+        "type": "string",
+        "values": []
+      },
+      "query_inonda": {
+        "type": "string",
+        "values": [
+          true,
+          false
+        ]
+      },
+      "query_categories": {
+        "type": "string",
+        "values": []
+      },
+      "query_variant": {
+        "type": "string",
+        "values": [
+          "fep",
+          "brand",
+          "clip",
+          "movie",
+          "topViewed",
+          "mostRecent"
+        ]
+      },
+      "params_orderBy": {
+        "type": "string",
+        "values": [
+          "yearDesc",
+          "relevanceDesc",
+          "topViewedDesc",
+          "mostRecentDesc",
+          "titleAsc"
+        ]
+      },
+      "params_filterBy": {
+        "type": "string",
+        "values": [
+          "audioOriginal",
+          "subIta",
+          "subOriginal"
+        ]
+      },
+      "params_blockId": {
+        "type": "string",
+        "values": []
+      },
+      "decoratorOutputEnvironment": {
+        "type": "string",
+        "values": [
+          "commerce",
+          "production",
+          "test"
+        ]
+      },
+      "decoratorOutputVersion": {
+        "type": "string",
+        "values": [
+          "v1",
+          "v2"
+        ]
+      },
+      "decoratorOutputApplication": {
+        "type": "string",
+        "values": [
+          "default"
+        ]
+      },
+      "context_4kcapability": {
+        "type": "string",
+        "values": [
+          "4khdr",
+          "4ksdr"
+        ]
+      },
+      "context_platform": {
+        "type": "string",
+        "values": []
+      },
+      "context_features": {
+        "type": "string",
+        "values": []
+      },
+      "context_features_subscription_channels": {
+        "type": "string",
+        "values": []
+      },
+      "page": {
+        "type": "string",
+        "values": []
+      },
+      "isOutlier": {
+        "type": "boolean",
+        "values": [
+          true,
+          false
+        ]
+      },
+      "subBlockId": {
+        "type": "string",
+        "values": []
+      },
+      "clientId": {
+        "type": "string",
+        "values": []
+      },
+      "userContext": {
+        "type": "string",
+        "values": []
+      },
+      "aresContext": {
+        "type": "string",
+        "values": []
+      },
+      "geolocation_country": {
+        "type": "string",
+        "values": []
+      },
+      "geolocation_region": {
+        "type": "string",
+        "values": []
+      },
+      "geolocation_city": {
+        "type": "string",
+        "values": []
+      },
+      "geolocation_zipcode": {
+        "type": "string",
+        "values": []
+      },
+      "unifiedClusterId": {
+        "type": "string",
+        "values": []
+      },
+      "unifiedCluster": {
+        "type": "string",
+        "values": []
+      },
+      "clusterId": {
+        "type": "string",
+        "values": []
+      },
+      "context_logged": {
+        "type": "string",
+        "values": []
+      }
+    },
+    "time": {
+      "when_now": {
+        "type": "date",
+        "values": []
+      },
+      "when_easter": {
+        "type": "date",
+        "values": []
+      },
+      "when_day_of_month": {
+        "type": "number",
+        "values": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31
+        ]
+      },
+      "when_current_hour": {
+        "type": "number",
+        "values": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24
+        ]
+      },
+      "when_current_minute": {
+        "type": "number",
+        "values": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59
+        ]
+      },
+      "when_day_of_the_week": {
+        "type": "string",
+        "values": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ]
+      },
+      "when_season": {
+        "type": "string",
+        "values": [
+          "Winter",
+          "Spring",
+          "Summer",
+          "Fall"
+        ]
+      },
+      "when_month": {
+        "type": "string",
+        "values": [
+          "January",
+          "February",
+          "March",
+          "April",
+          "May",
+          "June",
+          "July",
+          "August",
+          "September",
+          "October",
+          "November",
+          "December"
+        ]
+      },
+      "when_month_number": {
+        "type": "number",
+        "values": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "when_time_of_the_day": {
+        "type": "string",
+        "values": [
+          "Morning",
+          "Afternoon",
+          "Evening",
+          "Night"
+        ]
+      },
+      "when_year": {
+        "type": "number",
+        "values": []
+      },
+      "when_is_holliday": {
+        "type": "string",
+        "values": [
+          "true",
+          "false"
+        ]
+      },
+      "when_era": {
+        "type": "string",
+        "values": [
+          "AD",
+          "BC"
+        ]
+      },
+      "when_macro_timezone": {
+        "type": "string",
+        "values": []
+      },
+      "when_timezone": {
+        "type": "string",
+        "values": []
+      },
+      "when_quarter": {
+        "type": "number",
+        "values": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "when_is_start_of_month": {
+        "type": "boolean",
+        "values": [
+          true,
+          false
+        ]
+      },
+      "when_is_end_of_month": {
+        "type": "boolean",
+        "values": [
+          true,
+          false
+        ]
+      },
+      "when_week_of_the_year": {
+        "type": "number",
+        "values": []
+      },
+      "when_day_of_year": {
+        "type": "number",
+        "values": []
+      },
+      "when_day_of_the_week_number": {
+        "type": "number",
+        "values": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "when_current_hour_and_minute": {
+        "type": "number",
+        "values": []
+      },
+      "when_current_second": {
+        "type": "number",
+        "values": []
+      },
+      "when_current_hour_minute_second": {
+        "type": "number",
+        "values": []
+      },
+      "when_current_fractional_second": {
+        "type": "number",
+        "values": []
+      },
+      "when_current_hour_minute_second_fractional": {
+        "type": "number",
+        "values": []
+      },
+      "when_unix_timestamp": {
+        "type": "number",
+        "values": []
+      },
+      "when_unix_milliseconds_timestamp": {
+        "type": "number",
+        "values": []
+      },
+      "when_am_pm": {
+        "type": "string",
+        "values": [
+          "AM",
+          "PM"
+        ]
+      },
+      "when_is_easter": {
+        "type": "boolean",
+        "values": [
+          true,
+          false
+        ]
+      },
+      "when_easter_date": {
+        "type": "date",
+        "values": []
+      },
+      "when_is_holiday": {
+        "type": "boolean",
+        "values": [
+          true,
+          false
+        ]
+      },
+      "when_holiday_name": {
+        "type": "string",
+        "values": []
+      }
+    },
+    "location": {
+      "where_country": {
+        "type": "string",
+        "values": []
+      },
+      "where_zip": {
+        "type": "string",
+        "values": []
+      },
+      "where_region": {
+        "type": "string",
+        "values": []
+      },
+      "where_city": {
+        "type": "string",
+        "values": []
+      },
+      "where_longitude": {
+        "type": "string",
+        "values": []
+      },
+      "where_latitude": {
+        "type": "string",
+        "values": []
+      },
+      "where_ip": {
+        "type": "string",
+        "values": []
+      }
+    },
+    "weather": {
+      "weather_main": {
+        "type": "string",
+        "values": [
+          "clear",
+          "cloudy",
+          "fog",
+          "rain",
+          "thunderstorm",
+          "snow"
+        ]
+      },
+      "weather_temperature": {
+        "type": "number",
+        "values": []
+      },
+      "weather_temperature_perceived": {
+        "type": "number",
+        "values": []
+      },
+      "weather_probability_of_precipitation_percentage": {
+        "type": "number",
+        "values": []
+      },
+      "weather_wind_intensity": {
+        "type": "number",
+        "values": []
+      },
+      "weather_humidity_percentage": {
+        "type": "number",
+        "values": []
+      },
+      "weather_uv_index": {
+        "type": "number",
+        "values": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    "trending_news": {
+      "news-social-all": {
+        "type": "string",
+        "values": []
+      },
+      "news-all": {
+        "type": "string",
+        "values": []
+      },
+      "news-daily": {
+        "type": "string",
+        "values": []
+      },
+      "news-realtime": {
+        "type": "string",
+        "values": []
+      }
+    },
+    "trending_social": {
+      "news-social-all": {
+        "type": "string",
+        "values": []
+      },
+      "social-all": {
+        "type": "string",
+        "values": []
+      }
+    },
+    "special": {
+      "_score": {
+        "type": "string",
+        "values": []
+      }
+    }
+  },
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2026-02-26T10:54:55.035Z"
+  }
+}

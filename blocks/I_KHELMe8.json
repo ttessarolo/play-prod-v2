@@ -1,0 +1,221 @@
+{
+  "id": "I_KHELMe8",
+  "propertyId": "rrjMTUmyqd",
+  "title": "Ricerca Tutti-[COPY]",
+  "description": "Please Edit description for Page \"Variant 1\"",
+  "enabledPagesId": [
+    "Y_T1DSbZ9"
+  ],
+  "isPage": true,
+  "blocks": [
+    {
+      "id": "bH5_wm9Jlk",
+      "condition": "*",
+      "title": " ",
+      "type": "nested",
+      "layout": {
+        "i": "bH5_wm9Jlk",
+        "w": 12,
+        "h": 30
+      },
+      "results": {
+        "flatAllBlocks": true,
+        "skipOnEmpty": true
+      },
+      "blockId": "Cw3pr3TaY",
+      "viewAll": {
+        "id": "TFmQYMIE8",
+        "reference": "viewAllFilteredSearchParams"
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER",
+          "layout": "GRID"
+        }
+      }
+    },
+    {
+      "id": "OE8LbhzR2",
+      "condition": "*",
+      "title": "Video",
+      "type": "nested",
+      "layout": {
+        "i": "OE8LbhzR2",
+        "w": 12,
+        "h": 30
+      },
+      "results": {
+        "flatAllBlocks": true,
+        "skipOnEmpty": true
+      },
+      "blockId": "XUoIgT7jA",
+      "viewAll": {
+        "id": "TFmQYMIE8",
+        "reference": "viewAllFilteredSearchParams"
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "KEYFRAME",
+          "layout": "GRID"
+        }
+      }
+    }
+  ],
+  "version": 29,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2023-06-14T15:51:27.926Z"
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "queries",
+        "items": []
+      },
+      {
+        "type": "endpoints",
+        "items": [
+          "TFmQYMIE8"
+        ]
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "UqexT0v_gf",
+          "Cw3pr3TaY",
+          "XUoIgT7jA"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "endpoints",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "Y_T1DSbZ9",
+              "type": "endpoints",
+              "title": "filteredSearch"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 4,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "TFmQYMIE8",
+              "type": "endpoints",
+              "title": "viewAllFilteredSearchParams"
+            }
+          ]
+        },
+        {
+          "type": "blocks",
+          "count": 3,
+          "items": [
+            {
+              "id": "UqexT0v_gf",
+              "type": "blocks",
+              "title": "Fallback Tutti"
+            },
+            {
+              "id": "Cw3pr3TaY",
+              "type": "blocks",
+              "title": "SRC Search Serie e Movie"
+            },
+            {
+              "id": "XUoIgT7jA",
+              "type": "blocks",
+              "title": "SRC Search Video"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "layout": [
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 1,
+      "i": "bH5_wm9Jlk",
+      "moved": true,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 18,
+      "i": "OE8LbhzR2",
+      "moved": true,
+      "static": false
+    }
+  ],
+  "results": {
+    "fallbackBlockId": "UqexT0v_gf",
+    "min": "1",
+    "fullSubstituteFallback": true
+  },
+  "fullSubstituteFallback": true
+}

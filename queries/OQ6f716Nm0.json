@@ -1,0 +1,95 @@
+{
+  "title": "CHNLS Film e Stagione Params Genre Primario",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "JfE3hcRkF"
+    },
+    {
+      "id": "kTr99U6ZL"
+    },
+    {
+      "id": "JP8BezUBBQ"
+    },
+    {
+      "id": "M8LBGIXiL"
+    }
+  ],
+  "exclude": [],
+  "include": [],
+  "boost": [],
+  "order": [
+    {
+      "id": "SXyaET7iz2"
+    }
+  ],
+  "realm": "content",
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "JfE3hcRkF",
+          "kTr99U6ZL",
+          "JP8BezUBBQ",
+          "M8LBGIXiL",
+          "SXyaET7iz2"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "ZRorAbL96Q",
+          "zFmF5zQpRG",
+          "KhQ3IziFJ"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "wQ6SGkMToO"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "id": "OQ6f716Nm0",
+  "version": 8,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-05-27T09:44:35.862Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  },
+  "metadataOverrides": {},
+  "presets": {
+    "exclude": [
+      {
+        "id": "ZRorAbL96Q"
+      },
+      {
+        "id": "zFmF5zQpRG"
+      },
+      {
+        "id": "KhQ3IziFJ"
+      }
+    ]
+  }
+}

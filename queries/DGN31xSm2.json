@@ -1,0 +1,214 @@
+{
+  "title": "Query Similar Informazione Per Tg",
+  "description": "Carrello finalizzato al GUARDA ANCHE di programmi con tipologia INFORMAZIONE\n",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "ml7OOL8Ka"
+    },
+    {
+      "id": "KukwdwFDvb"
+    }
+  ],
+  "exclude": [
+    {
+      "id": "T9gDZGzfA"
+    }
+  ],
+  "include": [
+    {
+      "id": "WkEGCAVTRP"
+    },
+    {
+      "id": "GbZsCDEJAx"
+    }
+  ],
+  "boost": [],
+  "order": [],
+  "realm": "content",
+  "presets": {
+    "filter": [
+      {
+        "id": "TuAyi0elu"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "ZRorAbL96Q"
+      }
+    ]
+  },
+  "metadataOverrides": {
+    "WkEGCAVTRP": {
+      "content_similar": {
+        "required": true,
+        "output": "video_similar_ids_informazionefep",
+        "metadata": {
+          "included": [
+            "tipologia=Informazione",
+            "editorial_type=Full Episode",
+            "content_channels=MediasetPlay"
+          ],
+          "excluded": []
+        },
+        "date": {
+          "range": 2,
+          "period": "w",
+          "field": "publication_date",
+          "absolute": true
+        },
+        "fingerprint": {
+          "matchFields": [
+            "fingerprint"
+          ]
+        },
+        "groupby": {
+          "metadata": "id_series_se",
+          "results": 1,
+          "sortMetadata": "",
+          "sortDirection": "asc"
+        }
+      }
+    },
+    "GbZsCDEJAx": {
+      "content_similar": {
+        "required": true,
+        "output": "video_similar_ids_informazioneclip",
+        "metadata": {
+          "included": [
+            "tipologia=Informazione",
+            "editorial_type=Clip",
+            "content_channels=MediasetPlay"
+          ],
+          "excluded": []
+        },
+        "date": {
+          "period": "w",
+          "range": 2,
+          "field": "publication_date",
+          "absolute": true
+        },
+        "groupby": {
+          "metadata": "id_series_se",
+          "results": 3,
+          "sortMetadata": "",
+          "sortDirection": "asc"
+        },
+        "fingerprint": {
+          "matchFields": [
+            "fingerprint"
+          ]
+        }
+      }
+    }
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "ml7OOL8Ka",
+          "KukwdwFDvb",
+          "T9gDZGzfA",
+          "WkEGCAVTRP",
+          "GbZsCDEJAx"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "TuAyi0elu",
+          "ZRorAbL96Q"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "PGCv7Qiev"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1,
+    "mustOperator": "or"
+  },
+  "id": "DGN31xSm2",
+  "version": 3,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2022-04-28T09:38:02.947Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "PGCv7Qiev",
+              "type": "blocks",
+              "title": "Block Similar Tg"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 6,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 4,
+          "items": [
+            {
+              "id": "ml7OOL8Ka",
+              "type": "rules",
+              "title": "Rule Include solo IdSeriesSe popolato"
+            },
+            {
+              "id": "T9gDZGzfA",
+              "type": "rules",
+              "title": "Rule Esclude Tgcom Condizionale"
+            },
+            {
+              "id": "WkEGCAVTRP",
+              "type": "rules",
+              "title": "Rule Similar Tipologia Informazione Fep"
+            },
+            {
+              "id": "GbZsCDEJAx",
+              "type": "rules",
+              "title": "Rule Similar Tipologia Informazione Clip"
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 2,
+          "items": [
+            {
+              "id": "TuAyi0elu",
+              "type": "rulesPresets",
+              "title": "Preset SearchVisible e FrontEnd Visible True"
+            },
+            {
+              "id": "ZRorAbL96Q",
+              "type": "rulesPresets",
+              "title": "Preset Blacklist"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "uselessMultiplier": false
+}

@@ -1,0 +1,112 @@
+{
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "Sv1WLwgHh"
+    },
+    {
+      "id": "sYzpigk8M"
+    },
+    {
+      "id": "tuNPorLzb"
+    },
+    {
+      "id": "ssdeTHIxc"
+    }
+  ],
+  "exclude": [],
+  "include": [],
+  "boost": [],
+  "order": [
+    {
+      "id": "GuznuQFc4"
+    }
+  ],
+  "realm": "content",
+  "metadataOverrides": {},
+  "title": "Query FEP più recenti Season params Last live date",
+  "description": "",
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "Sv1WLwgHh",
+          "sYzpigk8M",
+          "tuNPorLzb",
+          "ssdeTHIxc",
+          "GuznuQFc4"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "TzQKW1L9m"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "id": "XQDNlUIPb",
+  "version": 21,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2026-01-14T16:27:58.192Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "TzQKW1L9m",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 2,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 2,
+          "items": [
+            {
+              "id": "Sv1WLwgHh",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "GuznuQFc4",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  }
+}

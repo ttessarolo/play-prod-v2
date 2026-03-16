@@ -1,0 +1,65 @@
+{
+  "title": "Rule Tipologia Intrattenimento ",
+  "description": "Tipologia = Intrattenimento ",
+  "contentType": "video",
+  "clauses": [
+    "filter",
+    "exclude",
+    "include"
+  ],
+  "rule": [
+    {
+      "condition": "*",
+      "boost": 1,
+      "type": "I2I",
+      "_id": "dr4N3qMgW",
+      "match": "Intrattenimento",
+      "phrase": false,
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      },
+      "field": "tipologia",
+      "fieldDBType": "keyword",
+      "queryType": "match",
+      "value": "Intrattenimento",
+      "valueType": "string",
+      "API": "V2"
+    }
+  ],
+  "field": "tipologia",
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "u8IIXQT9v",
+          "UNYXfbEQP",
+          "LQNTpN5LdF",
+          "ohpTGTghM",
+          "L_RgHf3zx",
+          "TuLnMyRO6r",
+          "sJQMmhHHE",
+          "NohOuTAhP1",
+          "hW8B6U1FQ"
+        ]
+      }
+    ]
+  },
+  "id": "gNryeK2LA",
+  "version": 1,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2020-05-04T10:03:42.602Z"
+  }
+}

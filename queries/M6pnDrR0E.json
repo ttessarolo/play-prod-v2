@@ -1,0 +1,61 @@
+{
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "_nTts4sPu"
+    },
+    {
+      "id": "IA2rMeBZYW"
+    }
+  ],
+  "exclude": [],
+  "include": [],
+  "boost": [],
+  "order": [],
+  "realm": "content",
+  "presets": {
+    "exclude": [
+      {
+        "id": "ZRorAbL96Q"
+      }
+    ]
+  },
+  "title": "Query ID Series SE Gioco Sporco e Quelle notti",
+  "description": "",
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "_nTts4sPu",
+          "IA2rMeBZYW"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "ZRorAbL96Q"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "Dv8zk2M8f"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "id": "M6pnDrR0E",
+  "version": 1,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2024-08-01T12:59:35.563Z"
+  }
+}

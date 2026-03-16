@@ -1,0 +1,32 @@
+{
+  "type": "text",
+  "contentType": "video",
+  "realm": "content",
+  "elements": [
+    "Prima TV Pay",
+    "Prima Serata"
+  ],
+  "title": "List etichette editoriali Prima TV Pay e Prima Serata",
+  "description": "",
+  "id": "MvscKfkZPG",
+  "version": 7,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-11-10T14:15:44.008Z"
+  },
+  "refs": {
+    "belongs": []
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  }
+}

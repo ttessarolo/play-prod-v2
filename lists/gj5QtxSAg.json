@@ -1,0 +1,71 @@
+{
+  "title": "List Content Channel attivi per Search",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "type": "text",
+  "elements": [
+    "InfAutore",
+    "InfComico",
+    "InfLight",
+    "InfNero",
+    "Infinity",
+    "Juventus",
+    "MGM",
+    "MediasetItalia",
+    "MediasetItalia21",
+    "MediasetPlay",
+    "MidnightFactory",
+    "Moonbug",
+    "Noleggio",
+    "Starz",
+    "UCL",
+    "blazeplayit",
+    "ciplayit",
+    "historyplayit",
+    "TVLove",
+    "TVCrime",
+    "FocusSelection",
+    "CineAvventura"
+  ],
+  "id": "gj5QtxSAg",
+  "version": 3,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-05-28T14:21:43.796Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "rules",
+        "items": [
+          "YtgUucvsC"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "rules",
+          "count": 1,
+          "items": [
+            {
+              "id": "YtgUucvsC",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  }
+}

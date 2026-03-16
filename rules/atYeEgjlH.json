@@ -1,0 +1,120 @@
+{
+  "title": "Rule Categorie Sociodemo Family",
+  "description": "",
+  "contentType": "video",
+  "clauses": [
+    "include"
+  ],
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "I2I",
+      "value": "Bambini anche soli età pre scolare",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "categoriasociodemo",
+      "fieldDBType": "keyword",
+      "_id": "ZYqXlcNpQ"
+    },
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "Bambini anche soli età scolare",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "categoriasociodemo",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "yUnMzMEBM"
+    },
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "Family Bambini Adulti",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "categoriasociodemo",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "Gcmsseceq"
+    }
+  ],
+  "field": "categoriasociodemo",
+  "metadata": {
+    "content": false
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "IUd_q_ixKj"
+        ]
+      }
+    ]
+  },
+  "id": "atYeEgjlH",
+  "version": 4,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-05-05T17:07:43.947Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 1,
+          "items": [
+            {
+              "id": "IUd_q_ixKj",
+              "type": "queries",
+              "title": "INF Film Family"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 1,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "realm": "content",
+  "searchMetadata": [
+    "request",
+    "content"
+  ],
+  "includedMetadata": [
+    "content"
+  ]
+}

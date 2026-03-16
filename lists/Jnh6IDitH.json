@@ -1,0 +1,29 @@
+{
+  "title": "List Id Season St Soap Opera",
+  "description": "In ordine: \nDayDreamer, Il segreto, Una vita, Beautiful e Tempesta d'amore",
+  "contentType": "video",
+  "type": "contentId",
+  "elements": [
+    "ST000000001818",
+    "ST000000000246",
+    "ST000000000248",
+    "ST000000000278",
+    "ST000000000205"
+  ],
+  "id": "Jnh6IDitH",
+  "version": 4,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2020-12-22T15:07:24.494Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "rules",
+        "items": [
+          "lNyx5Ths3"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,280 @@
+{
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "(contains(genere_mcm, \"Family\") || contains(genere_mcm, \"Animazione\"))",
+      "conditionRaw": {
+        "or": [
+          {
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "genere_mcm"
+              },
+              {
+                "value": "\"Family\"",
+                "type": "string"
+              }
+            ],
+            "id": "15V8AFxN3n"
+          },
+          {
+            "id": "VyAQDSkJ0H7",
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "genere_mcm"
+              },
+              {
+                "value": "\"Animazione\"",
+                "type": "string"
+              }
+            ]
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "giallo",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "ratingparentalcontrol",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "pYSomshvV",
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "API": "V2",
+      "condition": "(contains(genere_mcm, \"Family\") || contains(genere_mcm, \"Animazione\"))",
+      "conditionRaw": {
+        "or": [
+          {
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "genere_mcm"
+              },
+              {
+                "value": "\"Family\"",
+                "type": "string"
+              }
+            ],
+            "id": "15V8AFxN3n"
+          },
+          {
+            "id": "VyAQDSkJ0H7",
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "genere_mcm"
+              },
+              {
+                "value": "\"Animazione\"",
+                "type": "string"
+              }
+            ]
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "rosso",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "ratingparentalcontrol",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "am3x6ddsAF",
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "API": "V2",
+      "condition": "(contains(genere_mcm, \"Family\") || contains(genere_mcm, \"Animazione\"))",
+      "boost": 1,
+      "type": "",
+      "value": "rosso vm14",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "ratingparentalcontrol",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "_G2PotVD9Y",
+      "conditionRaw": {
+        "or": [
+          {
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "genere_mcm"
+              },
+              {
+                "value": "\"Family\"",
+                "type": "string"
+              }
+            ],
+            "id": "15V8AFxN3n"
+          },
+          {
+            "id": "VyAQDSkJ0H7",
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "genere_mcm"
+              },
+              {
+                "value": "\"Animazione\"",
+                "type": "string"
+              }
+            ]
+          }
+        ]
+      },
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "API": "V2",
+      "condition": "(contains(genere_mcm, \"Family\") || contains(genere_mcm, \"Animazione\"))",
+      "conditionRaw": {
+        "or": [
+          {
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "genere_mcm"
+              },
+              {
+                "value": "\"Family\"",
+                "type": "string"
+              }
+            ],
+            "id": "15V8AFxN3n"
+          },
+          {
+            "id": "VyAQDSkJ0H7",
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "genere_mcm"
+              },
+              {
+                "value": "\"Animazione\"",
+                "type": "string"
+              }
+            ]
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "rosso vm18",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "ratingparentalcontrol",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "iQAlHHnb4M",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "clauses": [
+    "exclude"
+  ],
+  "title": "Rule Rating Parental control Animazione e Family",
+  "description": "",
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "SGD1LQ9Mj",
+          "KLRC8NR6Z"
+        ]
+      }
+    ]
+  },
+  "id": "rq0lWrxgJ5",
+  "version": 17,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2022-04-05T16:05:36.391Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 1,
+          "items": [
+            {
+              "id": "KrplYijM4",
+              "type": "queries",
+              "title": "INF Similar Cinema"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 1,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 1,
+          "items": [
+            {
+              "id": "xKD3wfC2W",
+              "type": "lists",
+              "title": "List genere mcm Animazione e Family"
+            }
+          ]
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "content": true
+  },
+  "searchMetadata": [
+    "request",
+    "content"
+  ],
+  "includedMetadata": [
+    "content"
+  ]
+}

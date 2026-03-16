@@ -1,0 +1,5 @@
+{
+	 "id": "events-firehose",
+  "type": "firehose",
+  "streamName": "ares-logs-kinesis-stream"
+}

@@ -1,0 +1,1637 @@
+{
+  "id": "playDefault",
+  "default": true,
+  "title": "Play Default",
+  "description": "",
+  "tenant": "play",
+  "country": "IT",
+  "timezone": "Europe/Rome",
+  "endpoints": {
+    "cache": {
+      "autoReduceTTL": {
+        "active": true,
+        "value": 300,
+        "conditions": {
+          "must": {
+            "keys": [
+              "query.userId"
+            ],
+            "payload": []
+          },
+          "mustNot": {
+            "keys": [],
+            "payload": []
+          }
+        }
+      }
+    }
+  },
+  "users": {
+    "payload": {
+      "idField": "userId",
+      "idCluster": "clusterId",
+      "idDevice": "deviceId"
+    },
+    "clusters": {
+      "defaults": {
+        "type": "user",
+        "collaborative": {
+          "perUserBasis": {
+            "value": false
+          },
+          "score": {
+            "type": "percentage",
+            "value": 100,
+            "min": 10,
+            "max": 100
+          },
+          "minDocs": {
+            "min": 3,
+            "max": 500,
+            "value": 3
+          },
+          "maxDocs": {
+            "min": 500,
+            "max": 100000,
+            "value": 5000
+          },
+          "numElements": {
+            "value": 150,
+            "min": 10,
+            "max": 250
+          },
+          "cacheConfig": {
+            "cache": true,
+            "cacheTTL": 1200,
+            "cachePrefix": {
+              "group": false
+            }
+          }
+        },
+        "similar": {
+          "perUserBasis": {
+            "value": false
+          },
+          "numElements": {
+            "value": 150,
+            "min": 10,
+            "max": 250
+          },
+          "score": {
+            "type": "percentage",
+            "value": 100,
+            "min": 10,
+            "max": 100
+          },
+          "fingerprint": {
+            "boost": {
+              "min": 1,
+              "max": 500,
+              "value": 10
+            },
+            "minDocs": {
+              "min": 5,
+              "max": 50,
+              "value": 25
+            },
+            "maxDocs": {
+              "min": 500,
+              "max": 100000,
+              "value": 5000
+            },
+            "minTerms": {
+              "value": 1,
+              "min": 1,
+              "max": 500
+            },
+            "maxTerms": {
+              "value": 200,
+              "min": 20,
+              "max": 500
+            }
+          },
+          "cacheConfig": {
+            "cache": true,
+            "cacheTTL": 1200,
+            "cachePrefix": {
+              "group": false
+            }
+          }
+        },
+        "general": {
+          "fingerprintTypeDef": "midTerm",
+          "cacheConfig": {
+            "cache": true,
+            "cacheTTL": 1200,
+            "cachePrefix": {}
+          }
+        }
+      },
+      "types": {
+        "user": {
+          "name": "Utenti",
+          "index": "utenti",
+          "contentIdField": "user_id",
+          "payloadIdField": "userId",
+          "cacheConfig": {},
+          "consumedEvent": "watched",
+          "events": {
+            "watched": {
+              "contentTypes": {
+                "video": {
+                  "fields": {
+                    "raw": "video_watched_w_ts.id",
+                    "simple": "video_watched_w_ts.id",
+                    "ordered": "video_watched_w_ts",
+                    "fingerprint": {
+                      "historical": "video_historical_fingerprint",
+                      "midTerm": "video_midterm_fingerprint",
+                      "session": "video_session_fingerprint"
+                    }
+                  },
+                  "collaborative": {},
+                  "similar": {}
+                }
+              }
+            },
+            "liked": {
+              "contentTypes": {
+                "video": {
+                  "fields": {
+                    "raw": "video_liked.keyword",
+                    "simple": "video_liked",
+                    "fingerprint": {
+                      "historical": "video_historical_fingerprint",
+                      "midTerm": "video_midterm_fingerprint",
+                      "session": "video_session_fingerprint"
+                    }
+                  },
+                  "collaborative": {},
+                  "similar": {}
+                }
+              }
+            }
+          }
+        },
+        "unified": {
+          "name": "Unified Cluster",
+          "index": "play_unified_cluster",
+          "contentIdField": "user_id",
+          "payloadIdField": "unifiedClusterId",
+          "cacheConfig": {},
+          "consumedEvent": "watched",
+          "events": {
+            "watched": {
+              "contentTypes": {
+                "video": {
+                  "fields": {
+                    "raw": "video_watched_w_ts.id",
+                    "simple": "video_watched_w_ts.id",
+                    "ordered": "video_watched_w_ts",
+                    "fingerprint": {
+                      "historical": "video_historical_fingerprint",
+                      "midTerm": "video_midterm_fingerprint",
+                      "session": "video_session_fingerprint"
+                    }
+                  },
+                  "collaborative": {},
+                  "similar": {}
+                }
+              }
+            },
+            "liked": {
+              "contentTypes": {
+                "video": {
+                  "fields": {
+                    "raw": "video_liked.keyword",
+                    "simple": "video_liked",
+                    "fingerprint": {
+                      "historical": "video_historical_fingerprint",
+                      "midTerm": "video_midterm_fingerprint",
+                      "session": "video_session_fingerprint"
+                    }
+                  },
+                  "collaborative": {},
+                  "similar": {}
+                }
+              }
+            }
+          }
+        },
+        "cluster": {
+          "name": "Direct Cluster",
+          "index": "play_unified_cluster",
+          "contentIdField": "cluster_id",
+          "payloadIdField": "clusterId",
+          "cacheConfig": {},
+          "consumedEvent": "watched",
+          "events": {
+            "watched": {
+              "contentTypes": {
+                "video": {
+                  "fields": {
+                    "raw": "video_watched_w_ts.id",
+                    "simple": "video_watched_w_ts.id",
+                    "ordered": "video_watched_w_ts",
+                    "fingerprint": {
+                      "historical": "video_historical_fingerprint",
+                      "midTerm": "video_midterm_fingerprint",
+                      "session": "video_session_fingerprint"
+                    }
+                  },
+                  "collaborative": {},
+                  "similar": {}
+                }
+              }
+            },
+            "liked": {
+              "contentTypes": {
+                "video": {
+                  "fields": {
+                    "raw": "video_liked.keyword",
+                    "simple": "video_liked",
+                    "fingerprint": {
+                      "historical": "video_historical_fingerprint",
+                      "midTerm": "video_midterm_fingerprint",
+                      "session": "video_session_fingerprint"
+                    }
+                  },
+                  "collaborative": {},
+                  "similar": {}
+                }
+              }
+            }
+          }
+        },
+        "metrics users": {
+          "name": "Metrics Users",
+          "index": "play-metrics-users",
+          "contentIdField": "user_id",
+          "payloadIdField": "metricsUserId",
+          "cacheConfig": {},
+          "consumedEvent": "watched",
+          "events": {
+            "watched": {
+              "contentTypes": {
+                "video": {
+                  "fields": {
+                    "raw": "video_watched.keyword",
+                    "simple": "video_watched",
+                    "ordered": "video_watched_w_ts",
+                    "fingerprint": {
+                      "historical": "video_historical_fingerprint",
+                      "midTerm": "video_midterm_fingerprint",
+                      "session": "video_session_fingerprint"
+                    }
+                  },
+                  "collaborative": {},
+                  "similar": {}
+                }
+              }
+            },
+            "liked": {
+              "contentTypes": {
+                "video": {
+                  "fields": {
+                    "raw": "video_liked.keyword",
+                    "simple": "video_liked",
+                    "fingerprint": {
+                      "historical": "video_historical_fingerprint",
+                      "midTerm": "video_midterm_fingerprint",
+                      "session": "video_session_fingerprint"
+                    }
+                  },
+                  "collaborative": {},
+                  "similar": {}
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "content": {
+    "defaults": {
+      "general": {
+        "recommendableField": "recommendable",
+        "cacheConfig": {
+          "cache": true,
+          "cacheTTL": 1200,
+          "cachePrefix": {
+            "group": true
+          }
+        }
+      },
+      "similar": {
+        "numElements": {
+          "value": 150,
+          "min": 10,
+          "max": 800
+        },
+        "score": {
+          "type": "percentage",
+          "value": 100,
+          "min": 10,
+          "max": 100
+        },
+        "fingerprint": {
+          "boost": {
+            "min": 1,
+            "max": 500,
+            "value": 10
+          },
+          "minTerms": {
+            "min": 1,
+            "max": 50,
+            "value": 1
+          },
+          "maxTerms": {
+            "min": 25,
+            "max": 250,
+            "value": 200
+          },
+          "minDocs": {
+            "min": 5,
+            "max": 50,
+            "value": 5
+          },
+          "maxDocs": {
+            "min": 500,
+            "max": 2147483647,
+            "value": 2147483647
+          }
+        },
+        "matchFields": [
+          "fingerprint"
+        ]
+      }
+    },
+    "types": {
+      "video": {
+        "name": "Video",
+        "index": "video_content",
+        "contentIdField": "video_content_id",
+        "similar": {
+          "cacheConfig": {
+            "cache": true,
+            "cacheTTL": 1200
+          }
+        }
+      },
+      "link": {
+        "name": "Link",
+        "index": "play-prod-v2_link",
+        "contentIdField": "id",
+        "similar": {
+          "cacheConfig": {
+            "cache": false
+          }
+        }
+      },
+      "search_suggestions": {
+        "name": "Search Suggestions",
+        "index": "play-search-suggestions",
+        "contentIdField": "id",
+        "similar": {
+          "cacheConfig": {
+            "cache": true,
+            "cacheTTL": 1200
+          }
+        }
+      },
+      "metrics content": {
+        "name": "Metrics Content",
+        "index": "play-metrics-content",
+        "contentIdField": "video_content_id",
+        "similar": {
+          "cacheConfig": {
+            "cache": true,
+            "cacheTTL": 1200
+          }
+        }
+      }
+    }
+  },
+  "services": {
+    "types": {
+      "trending": {
+        "content": {
+          "index": "trending",
+          "field": "ids",
+          "timeout": 50,
+          "cacheConfig": {
+            "cache": true,
+            "cacheTTL": 300,
+            "cachePrefix": {
+              "static": "trends-content"
+            }
+          }
+        },
+        "google": {
+          "geo": "IT",
+          "language": "IT",
+          "realTimeCategory": "all",
+          "cacheConfig": {
+            "cache": true,
+            "cacheTTL": 300,
+            "cachePrefix": {
+              "static": "trends-google"
+            }
+          }
+        },
+        "twitter": {
+          "WOEID": 711080,
+          "cacheConfig": {
+            "cache": true,
+            "cacheTTL": 300,
+            "cachePrefix": {
+              "static": "trends-twitter"
+            }
+          }
+        }
+      },
+      "time": {
+        "cacheConfig": {
+          "cache": true,
+          "cacheTTL": 60,
+          "cachePrefix": {
+            "static": "time"
+          }
+        }
+      },
+      "session": {
+        "recommended": {
+          "recThreshold": 10,
+          "outputPrefix": "who_session_reco_",
+          "cacheConfig": {
+            "cache": true,
+            "cacheHourLimit": 6,
+            "cacheMinutesLimit": 0,
+            "cachePrefix": {
+              "static": "session:recommended"
+            }
+          }
+        },
+        "consumed": {
+          "outputPrefix": "who_session_consumed_",
+          "cacheConfig": {
+            "cache": true,
+            "cacheHourLimit": 6,
+            "cacheMinutesLimit": 0,
+            "cachePrefix": {
+              "static": "session:consumed"
+            }
+          }
+        }
+      },
+      "location": {
+        "geoIPService": "API-RTI-GEO-BY-IP",
+        "cacheConfig": {
+          "cache": true,
+          "cacheTTL": 2592000,
+          "cachePrefix": {
+            "static": "geo"
+          }
+        }
+      },
+      "weather": {
+        "weatherService": "METEO.IT",
+        "cacheConfig": {
+          "cache": true,
+          "cacheTTL": 3600,
+          "cachePrefix": {
+            "static": "weather"
+          }
+        }
+      },
+      "geoweather": {
+        "cacheConfig": {
+          "cache": true,
+          "cacheTTL": 3600,
+          "cachePrefix": {
+            "static": "geoweather"
+          }
+        }
+      }
+    }
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "endpoints",
+        "items": [
+          "I9PnQ6qay",
+          "f_BOSG24p",
+          "OqXimJTZf",
+          "cMnSzhfbv",
+          "MMjEzg0FE",
+          "upPQjXQdE",
+          "Zhj5Qu1_p",
+          "YGly6uAkxD",
+          "Gw6akjKa4a",
+          "d4IsNrq0A",
+          "kkVrXW1b6",
+          "qBFifKbjX",
+          "bhDKfIlsS",
+          "EKRB7JDNH",
+          "Rj1_1Ldtp",
+          "RP4FjBkgG",
+          "Cx4bdj5cGF",
+          "wa7CTFrKM",
+          "pOLdDpfF4",
+          "wSapSXMZL",
+          "FLIeiCr_I",
+          "dtYpT5Clpj",
+          "v8HBDVt48",
+          "USS9RQ9gOr",
+          "XBJpXgG8U",
+          "Q20zIJufF",
+          "zIx7jRMtT",
+          "ra0XD2trY",
+          "gC7p9nO5B",
+          "Dp18zVMBBg",
+          "qHtiQfWZI",
+          "fqAcVdrAy",
+          "Ckw1xL36E",
+          "LboFQwweD",
+          "vVGe5Suk3",
+          "GLph9x0zD",
+          "dSO8u7pRf",
+          "MDVgtJQWT",
+          "V7LVzpACM",
+          "QRd7IFMQaY",
+          "Onw1HfzkW",
+          "H1byI1Xx4",
+          "pENDpshS3",
+          "M7ZFBdo1c",
+          "wYMnH4C13",
+          "KzchDr8pS",
+          "HHb0YGlvS",
+          "P6UdjLapE",
+          "QkOcjo5u_o",
+          "XzvXgQ2xM3",
+          "Zo6ECYV90",
+          "xu2fLgL1v",
+          "NIaLB1BTVl",
+          "NjbgtR2lz",
+          "XY2qRtWub",
+          "s1anvg99C4",
+          "Tac2Yo4sw",
+          "hxltEEGGk",
+          "ziTNmEdrw",
+          "gD7NiGV6Rb",
+          "jdc_nBjRW",
+          "IgzaMfofy",
+          "pWQv2yNew",
+          "ByI1G39Bay",
+          "bz6OhLXwN",
+          "gFCE7wHAi",
+          "iNIiiEcj_Q",
+          "lh9H8mbT8",
+          "XaJ56XE0B",
+          "NOqqMIEua",
+          "CXGAXZ8ztj",
+          "j_KA7MIY5o",
+          "rdXCmq9e1d",
+          "ofDzBAam80",
+          "XTq7v51eP",
+          "c8IVxo2BCe",
+          "Gle2b_LNs",
+          "ZFtFS3U2e",
+          "fVvrWMCVw",
+          "S_UgVjUsh",
+          "WHLqfUKgA",
+          "BwanFYsXQ",
+          "j0Yidhi3b",
+          "ARSuntEWLj",
+          "FIO4mToIT",
+          "qjMwol5CGG",
+          "RVtOTd3BL",
+          "pFUmQiORd",
+          "iOVm86rAsE",
+          "YQ0vkJ_3U",
+          "bvhiMZgoA",
+          "f5qYVJdmo",
+          "vXLwShIOp",
+          "WXsJUgBAp",
+          "RTutmVwd8",
+          "m4WH5DZNF",
+          "dOFyKdy79",
+          "gYlnQwASKN",
+          "P_S3rlrI4E",
+          "sN1fAyTsr",
+          "v3M63bs3c",
+          "GDGyDPHJ0",
+          "uK3VPzv6U",
+          "Ap0CXYLXi",
+          "kEsMgb00Z",
+          "VqbKPchOM",
+          "dEuNmasA7",
+          "d0HcvWEBF",
+          "xto6zka9cb",
+          "ihiCAj9Qp",
+          "QWy8y_ZIwz",
+          "zwEA3GI4v",
+          "AMsLxXdFR",
+          "KvGqRT67w",
+          "apKRr498c",
+          "VnwpTaeMux",
+          "jlxOdccFF",
+          "xG209TQAOl",
+          "q92sG36gh",
+          "JuhgwrBdNL",
+          "NxQika02i",
+          "ls6CBwTtAK",
+          "NCATfP6la",
+          "Mh9WbkEHg",
+          "W2sNZ_bXP",
+          "jj72aKvoC",
+          "TAHCjN9hxX",
+          "b1EDgwfNS9",
+          "t2lTpliWX",
+          "Y_T1DSbZ9",
+          "MVpCyzxSL",
+          "tgXUEdcir",
+          "p7HZLnaKE",
+          "B2KocO6PAl",
+          "GlbpXo2RG",
+          "TFmQYMIE8",
+          "YZ8Gk2fzJ",
+          "nyMd3k9ed",
+          "tUjq3QyMz7",
+          "GHptJmQ2r",
+          "isGTaKBrn6",
+          "E29EGlkkuq",
+          "_Bjgs5JE9",
+          "KVpe9LShZ",
+          "RBrjmHSmj",
+          "Sbmoj6vuY",
+          "VikHuTBp_",
+          "SgUa0qOGs",
+          "hQpOtGAwjU",
+          "zdUkZB2aQg",
+          "HcoR4C1PW",
+          "PqCZuuS7R",
+          "Sa0YQmb5O",
+          "juWt8GRTH",
+          "lVBDCkyj7",
+          "onteU8tNE",
+          "MaV9Sd605",
+          "pKQHFdFrz",
+          "X1pHDHSB4",
+          "iueh1zUR4",
+          "JRvbVODfI2",
+          "DrF2Y1RZU",
+          "D2gmXznqh",
+          "_T_5xGrfz",
+          "dnKsEIfIF",
+          "vTODt8afF",
+          "d8XTtDDov",
+          "HEPxgP8Pm",
+          "Pm0N5ugp_",
+          "HTThXiH3EX",
+          "MHKSMtXnx",
+          "fQMzKHZsR",
+          "VaVcnXzBv",
+          "k6yJDLV5b",
+          "GmsW6if9I",
+          "ASLi4JOoR",
+          "qET0zRl1G7",
+          "RMr3U8Unm",
+          "D32UYAzZn7",
+          "a6EZfjban",
+          "TVLxg8iQm",
+          "PvlSaIkyvm",
+          "RgybRRcgZr"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 182,
+      "types": 1,
+      "items": [
+        {
+          "type": "endpoints",
+          "count": 182,
+          "items": [
+            {
+              "id": "I9PnQ6qay",
+              "type": "endpoints"
+            },
+            {
+              "id": "f_BOSG24p",
+              "type": "endpoints"
+            },
+            {
+              "id": "OqXimJTZf",
+              "type": "endpoints"
+            },
+            {
+              "id": "cMnSzhfbv",
+              "type": "endpoints"
+            },
+            {
+              "id": "MMjEzg0FE",
+              "type": "endpoints"
+            },
+            {
+              "id": "upPQjXQdE",
+              "type": "endpoints"
+            },
+            {
+              "id": "Zhj5Qu1_p",
+              "type": "endpoints"
+            },
+            {
+              "id": "YGly6uAkxD",
+              "type": "endpoints",
+              "title": "Prod CodiceF presente"
+            },
+            {
+              "id": "Gw6akjKa4a",
+              "type": "endpoints",
+              "title": "main"
+            },
+            {
+              "id": "d4IsNrq0A",
+              "type": "endpoints",
+              "title": "seriePiuViste24H"
+            },
+            {
+              "id": "kkVrXW1b6",
+              "type": "endpoints",
+              "title": "enablerProgrammiTv"
+            },
+            {
+              "id": "qBFifKbjX",
+              "type": "endpoints",
+              "title": "stagioniFictionSoap"
+            },
+            {
+              "id": "bhDKfIlsS",
+              "type": "endpoints",
+              "title": "enablerPlayCult"
+            },
+            {
+              "id": "EKRB7JDNH",
+              "type": "endpoints",
+              "title": "enablerDocumentari"
+            },
+            {
+              "id": "Rj1_1Ldtp",
+              "type": "endpoints",
+              "title": "stagioniProgrammiTv"
+            },
+            {
+              "id": "RP4FjBkgG",
+              "type": "endpoints",
+              "title": "enablerFilmDelMomento"
+            },
+            {
+              "id": "Cx4bdj5cGF",
+              "type": "endpoints",
+              "title": "fictionDelMomento"
+            },
+            {
+              "id": "wa7CTFrKM",
+              "type": "endpoints",
+              "title": "stagioniKids"
+            },
+            {
+              "id": "pOLdDpfF4",
+              "type": "endpoints",
+              "title": "serieTvDelMomento"
+            },
+            {
+              "id": "wSapSXMZL",
+              "type": "endpoints",
+              "title": "stagioniFictionSerieTvHomepage"
+            },
+            {
+              "id": "FLIeiCr_I",
+              "type": "endpoints",
+              "title": "enablerTestEpisodi"
+            },
+            {
+              "id": "dtYpT5Clpj",
+              "type": "endpoints",
+              "title": "enablerTestStagioni"
+            },
+            {
+              "id": "v8HBDVt48",
+              "type": "endpoints",
+              "title": "piuVisti24H"
+            },
+            {
+              "id": "USS9RQ9gOr",
+              "type": "endpoints",
+              "title": "enablerTestSerie"
+            },
+            {
+              "id": "XBJpXgG8U",
+              "type": "endpoints",
+              "title": "personToContentHomepage"
+            },
+            {
+              "id": "Q20zIJufF",
+              "type": "endpoints",
+              "title": "enablerTestFilm"
+            },
+            {
+              "id": "zIx7jRMtT",
+              "type": "endpoints",
+              "title": "videoSportRecenti"
+            },
+            {
+              "id": "ra0XD2trY",
+              "type": "endpoints",
+              "title": "tvodPiuNoleggiati"
+            },
+            {
+              "id": "gC7p9nO5B",
+              "type": "endpoints",
+              "title": "infFilmBlockbuster"
+            },
+            {
+              "id": "Dp18zVMBBg",
+              "type": "endpoints",
+              "title": "programmiTvParamsGenre"
+            },
+            {
+              "id": "qHtiQfWZI",
+              "type": "endpoints",
+              "title": "infFilmPiuVisti24H"
+            },
+            {
+              "id": "fqAcVdrAy",
+              "type": "endpoints",
+              "title": "infFilmInScadenza"
+            },
+            {
+              "id": "Ckw1xL36E",
+              "type": "endpoints",
+              "title": "infFilmParamsGenre"
+            },
+            {
+              "id": "LboFQwweD",
+              "type": "endpoints",
+              "title": "infFilmMostRecent"
+            },
+            {
+              "id": "vVGe5Suk3",
+              "type": "endpoints",
+              "title": "stagioniPrimaSerata"
+            },
+            {
+              "id": "GLph9x0zD",
+              "type": "endpoints",
+              "title": "stagioniDaytime"
+            },
+            {
+              "id": "dSO8u7pRf",
+              "type": "endpoints",
+              "title": "programmiTvClip24H"
+            },
+            {
+              "id": "MDVgtJQWT",
+              "type": "endpoints",
+              "title": "kidsBoing"
+            },
+            {
+              "id": "V7LVzpACM",
+              "type": "endpoints",
+              "title": "kidsCartoonito"
+            },
+            {
+              "id": "QRd7IFMQaY",
+              "type": "endpoints",
+              "title": "filmPiuVisti24H"
+            },
+            {
+              "id": "Onw1HfzkW",
+              "type": "endpoints",
+              "title": "kidsMediaset"
+            },
+            {
+              "id": "H1byI1Xx4",
+              "type": "endpoints",
+              "title": "personToContentFilm"
+            },
+            {
+              "id": "pENDpshS3",
+              "type": "endpoints",
+              "title": "filmDocumentari"
+            },
+            {
+              "id": "M7ZFBdo1c",
+              "type": "endpoints",
+              "title": "filmGenereParams"
+            },
+            {
+              "id": "wYMnH4C13",
+              "type": "endpoints",
+              "title": "documentariParamsGenre"
+            },
+            {
+              "id": "KzchDr8pS",
+              "type": "endpoints",
+              "title": "documentariPiuVisti24H"
+            },
+            {
+              "id": "HHb0YGlvS",
+              "type": "endpoints",
+              "title": "similarSport"
+            },
+            {
+              "id": "P6UdjLapE",
+              "type": "endpoints",
+              "title": "fictionSerieTvDelMomento"
+            },
+            {
+              "id": "QkOcjo5u_o",
+              "type": "endpoints",
+              "title": "similarTg"
+            },
+            {
+              "id": "XzvXgQ2xM3",
+              "type": "endpoints",
+              "title": "fictionSerieTvGeneriParams"
+            },
+            {
+              "id": "Zo6ECYV90",
+              "type": "endpoints",
+              "title": "similarInformazione"
+            },
+            {
+              "id": "xu2fLgL1v",
+              "type": "endpoints",
+              "title": "similarCinema"
+            },
+            {
+              "id": "NIaLB1BTVl",
+              "type": "endpoints",
+              "title": "similarSerieTvFiction"
+            },
+            {
+              "id": "NjbgtR2lz",
+              "type": "endpoints",
+              "title": "similarDocumentari"
+            },
+            {
+              "id": "XY2qRtWub",
+              "type": "endpoints",
+              "title": "similarIntrattenimento"
+            },
+            {
+              "id": "s1anvg99C4",
+              "type": "endpoints",
+              "title": "similarCartoni"
+            },
+            {
+              "id": "Tac2Yo4sw",
+              "type": "endpoints",
+              "title": "detail"
+            },
+            {
+              "id": "hxltEEGGk",
+              "type": "endpoints",
+              "title": "infinityLab"
+            },
+            {
+              "id": "ziTNmEdrw",
+              "type": "endpoints",
+              "title": "infSerieMostRecent"
+            },
+            {
+              "id": "gD7NiGV6Rb",
+              "type": "endpoints",
+              "title": "tvodMostRecentFilm"
+            },
+            {
+              "id": "jdc_nBjRW",
+              "type": "endpoints",
+              "title": "infStagioniSerieTvPrimaTv"
+            },
+            {
+              "id": "IgzaMfofy",
+              "type": "endpoints",
+              "title": "infSerieParamsGenre"
+            },
+            {
+              "id": "pWQv2yNew",
+              "type": "endpoints",
+              "title": "infSeriePiuViste24H"
+            },
+            {
+              "id": "ByI1G39Bay",
+              "type": "endpoints",
+              "title": "tvodFilmInScadenza"
+            },
+            {
+              "id": "bz6OhLXwN",
+              "type": "endpoints",
+              "title": "tvodFilmParamsGenre"
+            },
+            {
+              "id": "gFCE7wHAi",
+              "type": "endpoints",
+              "title": "tvodFilmBlockbuster"
+            },
+            {
+              "id": "iNIiiEcj_Q",
+              "type": "endpoints",
+              "title": "tvodFilmInOfferta"
+            },
+            {
+              "id": "lh9H8mbT8",
+              "type": "endpoints",
+              "title": "homePayFilmParamsGenre"
+            },
+            {
+              "id": "XaJ56XE0B",
+              "type": "endpoints",
+              "title": "infFilm4KHdr"
+            },
+            {
+              "id": "NOqqMIEua",
+              "type": "endpoints",
+              "title": "infFilm4KSdr"
+            },
+            {
+              "id": "CXGAXZ8ztj",
+              "type": "endpoints",
+              "title": "infSerieDocumentari"
+            },
+            {
+              "id": "j_KA7MIY5o",
+              "type": "endpoints",
+              "title": "infKidsFamily"
+            },
+            {
+              "id": "rdXCmq9e1d",
+              "type": "endpoints",
+              "title": "infFilmAnimazione"
+            },
+            {
+              "id": "ofDzBAam80",
+              "type": "endpoints",
+              "title": "filmDelMomento"
+            },
+            {
+              "id": "XTq7v51eP",
+              "type": "endpoints",
+              "title": "filmPlayUltimiArrivi"
+            },
+            {
+              "id": "c8IVxo2BCe",
+              "type": "endpoints",
+              "title": "overlaySerieMovie"
+            },
+            {
+              "id": "Gle2b_LNs",
+              "type": "endpoints",
+              "title": "chnlsAllSeries"
+            },
+            {
+              "id": "ZFtFS3U2e",
+              "type": "endpoints",
+              "title": "chnlsAllMovies"
+            },
+            {
+              "id": "fVvrWMCVw",
+              "type": "endpoints",
+              "title": "chnlsSerieParamsGenre"
+            },
+            {
+              "id": "S_UgVjUsh",
+              "type": "endpoints",
+              "title": "chnlsFilmParamsGenre"
+            },
+            {
+              "id": "WHLqfUKgA",
+              "type": "endpoints",
+              "title": "chnlsMovieTopViewed24HParamsChannel"
+            },
+            {
+              "id": "BwanFYsXQ",
+              "type": "endpoints",
+              "title": "chnlsMovieMostRecentParamsChannel"
+            },
+            {
+              "id": "j0Yidhi3b",
+              "type": "endpoints",
+              "title": "chnlsSerieTopViewed24HParamsChannel"
+            },
+            {
+              "id": "ARSuntEWLj",
+              "type": "endpoints",
+              "title": "chnlsSerieMostRecentParamsChannel"
+            },
+            {
+              "id": "FIO4mToIT",
+              "type": "endpoints",
+              "title": "collectionParams"
+            },
+            {
+              "id": "qjMwol5CGG",
+              "type": "endpoints",
+              "title": "chnlsFilmInScadenza"
+            },
+            {
+              "id": "RVtOTd3BL",
+              "type": "endpoints",
+              "title": "infSmartBlockFilm"
+            },
+            {
+              "id": "pFUmQiORd",
+              "type": "endpoints",
+              "title": "stagioniSport"
+            },
+            {
+              "id": "iOVm86rAsE",
+              "type": "endpoints",
+              "title": "highlightsCalcio"
+            },
+            {
+              "id": "YQ0vkJ_3U",
+              "type": "endpoints",
+              "title": "enablerHighlightsCalcioR4"
+            },
+            {
+              "id": "bvhiMZgoA",
+              "type": "endpoints",
+              "title": "enablerHighlightsCalcioI1"
+            },
+            {
+              "id": "f5qYVJdmo",
+              "type": "endpoints",
+              "title": "stagioniSport"
+            },
+            {
+              "id": "vXLwShIOp",
+              "type": "endpoints",
+              "title": "gfVipTopViewed24H"
+            },
+            {
+              "id": "WXsJUgBAp",
+              "type": "endpoints",
+              "title": "viewAll1H"
+            },
+            {
+              "id": "RTutmVwd8",
+              "type": "endpoints",
+              "title": "serieTvDelMomento"
+            },
+            {
+              "id": "m4WH5DZNF",
+              "type": "endpoints",
+              "title": "playMediasetItalia-ynrdeBzJ7O"
+            },
+            {
+              "id": "dOFyKdy79",
+              "type": "endpoints",
+              "title": "medItaStagioniDaytime"
+            },
+            {
+              "id": "gYlnQwASKN",
+              "type": "endpoints",
+              "title": "medItaDocumentari"
+            },
+            {
+              "id": "P_S3rlrI4E",
+              "type": "endpoints",
+              "title": "medItaFictionSerieTv"
+            },
+            {
+              "id": "sN1fAyTsr",
+              "type": "endpoints",
+              "title": "enablerInfFilm24H"
+            },
+            {
+              "id": "v3M63bs3c",
+              "type": "endpoints",
+              "title": "clip24HParamsSeason"
+            },
+            {
+              "id": "GDGyDPHJ0",
+              "type": "endpoints",
+              "title": "infMultipleBlockFilm"
+            },
+            {
+              "id": "uK3VPzv6U",
+              "type": "endpoints",
+              "title": "multipleBlockDocumentari"
+            },
+            {
+              "id": "Ap0CXYLXi",
+              "type": "endpoints",
+              "title": "fallbackVuota"
+            },
+            {
+              "id": "kEsMgb00Z",
+              "type": "endpoints",
+              "title": "fallbackMultipleDoc"
+            },
+            {
+              "id": "VqbKPchOM",
+              "type": "endpoints",
+              "title": "searchFallbackVuota"
+            },
+            {
+              "id": "dEuNmasA7",
+              "type": "endpoints",
+              "title": "fallbackVarianti"
+            },
+            {
+              "id": "d0HcvWEBF",
+              "type": "endpoints",
+              "title": "fallbackPersonalizzati"
+            },
+            {
+              "id": "xto6zka9cb",
+              "type": "endpoints",
+              "title": "subscriptionChannelFilm"
+            },
+            {
+              "id": "ihiCAj9Qp",
+              "type": "endpoints",
+              "title": "viewAllperson"
+            },
+            {
+              "id": "QWy8y_ZIwz",
+              "type": "endpoints",
+              "title": "similarNoCategory"
+            },
+            {
+              "id": "zwEA3GI4v",
+              "type": "endpoints",
+              "title": "testEndpoint"
+            },
+            {
+              "id": "AMsLxXdFR",
+              "type": "endpoints",
+              "title": "infBecauseYou"
+            },
+            {
+              "id": "KvGqRT67w",
+              "type": "endpoints",
+              "title": "skyMostRecent"
+            },
+            {
+              "id": "apKRr498c",
+              "type": "endpoints",
+              "title": "personToContentHomepage"
+            },
+            {
+              "id": "VnwpTaeMux",
+              "type": "endpoints",
+              "title": "stagioniPrimaSerata"
+            },
+            {
+              "id": "jlxOdccFF",
+              "type": "endpoints",
+              "title": "snapshotFallbackVuota"
+            },
+            {
+              "id": "xG209TQAOl",
+              "type": "endpoints",
+              "title": "filmClustering"
+            },
+            {
+              "id": "q92sG36gh",
+              "type": "endpoints",
+              "title": "viewAllCluster"
+            },
+            {
+              "id": "JuhgwrBdNL",
+              "type": "endpoints",
+              "title": "mixedComponentTest"
+            },
+            {
+              "id": "NxQika02i",
+              "type": "endpoints",
+              "title": "infMultipleBlockFilmSerie"
+            },
+            {
+              "id": "ls6CBwTtAK",
+              "type": "endpoints",
+              "title": "snapshotSimilarIntrattenimento"
+            },
+            {
+              "id": "NCATfP6la",
+              "type": "endpoints",
+              "title": "multipleBlockProgrammiTv"
+            },
+            {
+              "id": "Mh9WbkEHg",
+              "type": "endpoints",
+              "title": "infBecauseYouCollaborative"
+            },
+            {
+              "id": "W2sNZ_bXP",
+              "type": "endpoints",
+              "title": "multipleBlockFilm"
+            },
+            {
+              "id": "jj72aKvoC",
+              "type": "endpoints",
+              "title": "multipleBlockFictionSerieTv"
+            },
+            {
+              "id": "TAHCjN9hxX",
+              "type": "endpoints",
+              "title": "infMultipleBlockSerieTvFiction"
+            },
+            {
+              "id": "b1EDgwfNS9",
+              "type": "endpoints",
+              "title": "viewAllFilteredSearch"
+            },
+            {
+              "id": "t2lTpliWX",
+              "type": "endpoints",
+              "title": "fallbackVariantiFilteredSearch"
+            },
+            {
+              "id": "Y_T1DSbZ9",
+              "type": "endpoints",
+              "title": "filteredSearch"
+            },
+            {
+              "id": "MVpCyzxSL",
+              "type": "endpoints",
+              "title": "medItaMultipleBlockFilm"
+            },
+            {
+              "id": "tgXUEdcir",
+              "type": "endpoints",
+              "title": "medItaMultipleBlockProgrammiTv"
+            },
+            {
+              "id": "p7HZLnaKE",
+              "type": "endpoints",
+              "title": "medItaMultipleBlockFictionSerie"
+            },
+            {
+              "id": "B2KocO6PAl",
+              "type": "endpoints",
+              "title": "chnlsStagioniFepMostRecentParamsChannel"
+            },
+            {
+              "id": "GlbpXo2RG",
+              "type": "endpoints",
+              "title": "multipleBlock4K"
+            },
+            {
+              "id": "TFmQYMIE8",
+              "type": "endpoints",
+              "title": "viewAllFilteredSearchParams"
+            },
+            {
+              "id": "YZ8Gk2fzJ",
+              "type": "endpoints",
+              "title": "tvodMultipleBlock"
+            },
+            {
+              "id": "nyMd3k9ed",
+              "type": "endpoints",
+              "title": "multipleBlockCompleanno"
+            },
+            {
+              "id": "tUjq3QyMz7",
+              "type": "endpoints",
+              "title": "multipleBlockEsg"
+            },
+            {
+              "id": "GHptJmQ2r",
+              "type": "endpoints",
+              "title": "enablerProgrammiDelMomento"
+            },
+            {
+              "id": "isGTaKBrn6",
+              "type": "endpoints",
+              "title": "stagioniTipologiaParams"
+            },
+            {
+              "id": "E29EGlkkuq",
+              "type": "endpoints",
+              "title": "similarSuggestions"
+            },
+            {
+              "id": "_Bjgs5JE9",
+              "type": "endpoints",
+              "title": "fallbackSuggestions"
+            },
+            {
+              "id": "KVpe9LShZ",
+              "type": "endpoints",
+              "title": "searchSuggestions"
+            },
+            {
+              "id": "RBrjmHSmj",
+              "type": "endpoints",
+              "title": "fallbackVuotaSuggestions"
+            },
+            {
+              "id": "Sbmoj6vuY",
+              "type": "endpoints",
+              "title": "filteredSearchSuggestions"
+            },
+            {
+              "id": "VikHuTBp_",
+              "type": "endpoints",
+              "title": "enablerSoapOpera"
+            },
+            {
+              "id": "SgUa0qOGs",
+              "type": "endpoints",
+              "title": "Stagioni da taggare"
+            },
+            {
+              "id": "hQpOtGAwjU",
+              "type": "endpoints",
+              "title": "serieAnimate"
+            },
+            {
+              "id": "zdUkZB2aQg",
+              "type": "endpoints",
+              "title": "kidsSerieAnimateMultipleBlock"
+            },
+            {
+              "id": "HcoR4C1PW",
+              "type": "endpoints",
+              "title": "enablerExtraAnticipazioni"
+            },
+            {
+              "id": "PqCZuuS7R",
+              "type": "endpoints",
+              "title": "chnlsFilmSerieParamsGenre"
+            },
+            {
+              "id": "Sa0YQmb5O",
+              "type": "endpoints",
+              "title": "chnlsFilmSerieTopViewed"
+            },
+            {
+              "id": "juWt8GRTH",
+              "type": "endpoints",
+              "title": "chnlsFilmSerieMostRecent"
+            },
+            {
+              "id": "lVBDCkyj7",
+              "type": "endpoints",
+              "title": "main"
+            },
+            {
+              "id": "onteU8tNE",
+              "type": "endpoints",
+              "title": "infABtestFilm"
+            },
+            {
+              "id": "MaV9Sd605",
+              "type": "endpoints",
+              "title": "similarIntratABtest"
+            },
+            {
+              "id": "pKQHFdFrz",
+              "type": "endpoints",
+              "title": "aBtestCinemaFree"
+            },
+            {
+              "id": "X1pHDHSB4",
+              "type": "endpoints",
+              "title": "testCollaborative"
+            },
+            {
+              "id": "iueh1zUR4",
+              "type": "endpoints",
+              "title": "skyFeatured"
+            },
+            {
+              "id": "JRvbVODfI2",
+              "type": "endpoints",
+              "title": "infItemLinkPiuVisti"
+            },
+            {
+              "id": "DrF2Y1RZU",
+              "type": "endpoints",
+              "title": "fictionOriginals"
+            },
+            {
+              "id": "D2gmXznqh",
+              "type": "endpoints",
+              "title": "medItaFictionLibrary"
+            },
+            {
+              "id": "_T_5xGrfz",
+              "type": "endpoints",
+              "title": "similarSerieB"
+            },
+            {
+              "id": "dnKsEIfIF",
+              "type": "endpoints",
+              "title": "newSimilarIntrattenimento"
+            },
+            {
+              "id": "vTODt8afF",
+              "type": "endpoints",
+              "title": "multipleBlockDemTitoliMomento"
+            },
+            {
+              "id": "d8XTtDDov",
+              "type": "endpoints",
+              "title": "multipleBlockDemSceltiPerTe"
+            },
+            {
+              "id": "HEPxgP8Pm",
+              "type": "endpoints",
+              "title": "xStyleSubbrandParams"
+            },
+            {
+              "id": "Pm0N5ugp_",
+              "type": "endpoints",
+              "title": "medItaCollection"
+            },
+            {
+              "id": "HTThXiH3EX",
+              "type": "endpoints",
+              "title": "focusMultipleBlockDocumentari"
+            },
+            {
+              "id": "MHKSMtXnx",
+              "type": "endpoints",
+              "title": "FNJWQ5LHA2"
+            },
+            {
+              "id": "fQMzKHZsR",
+              "type": "endpoints",
+              "title": "chnlsAllMovieSerie"
+            },
+            {
+              "id": "VaVcnXzBv",
+              "type": "endpoints",
+              "title": "storieCommoventi"
+            },
+            {
+              "id": "k6yJDLV5b",
+              "type": "endpoints",
+              "title": "becauseYouFictionSerieTv"
+            },
+            {
+              "id": "GmsW6if9I",
+              "type": "endpoints",
+              "title": "multipleBlockSceltiPerTeFiction"
+            },
+            {
+              "id": "ASLi4JOoR",
+              "type": "endpoints",
+              "title": "multipleBlockDemFilmFree"
+            },
+            {
+              "id": "qET0zRl1G7",
+              "type": "endpoints",
+              "title": "fepPiuRecentiSeasonParams"
+            },
+            {
+              "id": "RMr3U8Unm",
+              "type": "endpoints",
+              "title": "articleSeasonParams"
+            },
+            {
+              "id": "D32UYAzZn7",
+              "type": "endpoints",
+              "title": "collectionOrderByEditor"
+            },
+            {
+              "id": "a6EZfjban",
+              "type": "endpoints",
+              "title": "tvMovieFiction"
+            },
+            {
+              "id": "TVLxg8iQm",
+              "type": "endpoints",
+              "title": "infFilmPiuVisti7Gg"
+            },
+            {
+              "id": "PvlSaIkyvm",
+              "type": "endpoints",
+              "title": "demTest"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  },
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2026-02-26T14:05:03.902Z"
+  }
+}

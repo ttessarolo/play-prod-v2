@@ -1,0 +1,170 @@
+{
+  "title": "INF Multiple block Generi per Parametri Serie TV Personalizzato",
+  "description": "Personalizzato",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "MrtMAYnbZ"
+    },
+    {
+      "id": "M2X3Atski"
+    },
+    {
+      "id": "IA2rMeBZYW"
+    },
+    {
+      "id": "HDbLp8njo"
+    }
+  ],
+  "exclude": [
+    {
+      "id": "hPCApc7hR"
+    }
+  ],
+  "include": [
+    {
+      "id": "eDSlXBQn1"
+    }
+  ],
+  "boost": [],
+  "order": [],
+  "realm": "content",
+  "presets": {
+    "filter": [],
+    "exclude": [
+      {
+        "id": "KhQ3IziFJ"
+      },
+      {
+        "id": "ZRorAbL96Q"
+      }
+    ]
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "MrtMAYnbZ",
+          "M2X3Atski",
+          "IA2rMeBZYW",
+          "HDbLp8njo",
+          "hPCApc7hR",
+          "eDSlXBQn1"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "KhQ3IziFJ",
+          "ZRorAbL96Q"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "Z3QZHU9QP",
+          "GdWjErmD8"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1,
+    "mustOperator": "or"
+  },
+  "id": "wEB_e4Cs3",
+  "version": 33,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2023-12-20T09:50:15.899Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 2,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 2,
+          "items": [
+            {
+              "id": "Z3QZHU9QP",
+              "type": "blocks",
+              "title": ""
+            },
+            {
+              "id": "GdWjErmD8",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 8,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 6,
+          "items": [
+            {
+              "id": "MrtMAYnbZ",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "M2X3Atski",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "IA2rMeBZYW",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "HDbLp8njo",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "AE08r_wSU",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "eDSlXBQn1",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 2,
+          "items": [
+            {
+              "id": "KhQ3IziFJ",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "ZRorAbL96Q",
+              "type": "rulesPresets",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "metadataOverrides": {},
+  "uselessMultiplier": false
+}

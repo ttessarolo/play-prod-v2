@@ -1,0 +1,216 @@
+{
+  "title": "TVOD Multiple block Prima finestra",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "IyDzyntfi"
+    },
+    {
+      "id": "83txjtJm"
+    },
+    {
+      "id": "Qs0Vux5WH_"
+    },
+    {
+      "id": "kCew8bJjf"
+    },
+    {
+      "id": "fknyNP0OE"
+    }
+  ],
+  "exclude": [
+    {
+      "id": "VoB_5PHJs"
+    },
+    {
+      "id": "hzun5eW6d"
+    },
+    {
+      "id": "MwF1OITAc"
+    },
+    {
+      "id": "Ey4u2apQQ1"
+    }
+  ],
+  "include": [
+    {
+      "id": "eDSlXBQn1"
+    }
+  ],
+  "boost": [],
+  "order": [
+    {
+      "id": "He8f44l1s"
+    }
+  ],
+  "realm": "content",
+  "presets": {
+    "filter": [
+      {
+        "id": "TuAyi0elu"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "KhQ3IziFJ"
+      }
+    ]
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "IyDzyntfi",
+          "83txjtJm",
+          "Qs0Vux5WH_",
+          "kCew8bJjf",
+          "fknyNP0OE",
+          "VoB_5PHJs",
+          "hzun5eW6d",
+          "MwF1OITAc",
+          "Ey4u2apQQ1",
+          "eDSlXBQn1",
+          "He8f44l1s"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "TuAyi0elu",
+          "KhQ3IziFJ"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "_xKCjqOWX"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1,
+    "mustOperator": "or"
+  },
+  "id": "BWgEuhfRp",
+  "version": 30,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2023-11-02T14:26:22.299Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "_xKCjqOWX",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 14,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 12,
+          "items": [
+            {
+              "id": "IyDzyntfi",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "83txjtJm",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "Qs0Vux5WH_",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "kCew8bJjf",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "fknyNP0OE",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "JP8BezUBBQ",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "VoB_5PHJs",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "hzun5eW6d",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "MwF1OITAc",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "Ey4u2apQQ1",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "eDSlXBQn1",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "He8f44l1s",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 2,
+          "items": [
+            {
+              "id": "TuAyi0elu",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "KhQ3IziFJ",
+              "type": "rulesPresets",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "metadataOverrides": {},
+  "uselessMultiplier": false
+}

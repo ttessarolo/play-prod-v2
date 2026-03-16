@@ -1,0 +1,73 @@
+{
+  "title": "Rule Similar Tipologia Intrattenimento Stesso Brand Clip",
+  "description": "Rule che include stessa tipologia e brand del chiamante e esclude CLIP dello stesso subbrand",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "keepOrder": true,
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "I2I",
+      "value": "video_similar_ids_same_clip",
+      "valueType": "metadata",
+      "queryType": "ids",
+      "field": "video_content_id",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "aa0tnqzpr"
+    }
+  ],
+  "clauses": [
+    "include"
+  ],
+  "metadata": {
+    "content_similar": {
+      "required": true,
+      "output": "video_similar_ids_same_clip",
+      "numResults": 50,
+      "metadata": {
+        "included": [
+          "id_series_se",
+          "editorial_type=Clip",
+          "content_channels=MediasetPlay"
+        ]
+      },
+      "date": {
+        "range": 18,
+        "period": "M",
+        "field": "publication_date",
+        "absolute": true
+      },
+      "fingerprint": {
+        "matchFields": [
+          "fingerprint"
+        ]
+      }
+    }
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "OoW_RxrtA",
+          "wLOGym_XT"
+        ]
+      }
+    ]
+  },
+  "id": "fAswzMIfc",
+  "version": 1,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-03-29T15:16:54.011Z"
+  }
+}

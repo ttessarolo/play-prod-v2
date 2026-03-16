@@ -1,0 +1,184 @@
+{
+  "id": "Pil1XjlIgl",
+  "propertyId": "rrjMTUmyqd",
+  "title": "Ricerca Programmi e Serie",
+  "description": "Please Edit description for Page \"Variant 2\"",
+  "enabledPagesId": [
+    "Y_T1DSbZ9"
+  ],
+  "isPage": true,
+  "blocks": [
+    {
+      "id": "Zg3sgpc3c",
+      "condition": "*",
+      "title": " ",
+      "type": "nested",
+      "layout": {
+        "i": "Zg3sgpc3c",
+        "x": 0,
+        "y": 1,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true,
+        "skipOnEmpty": true
+      },
+      "blockId": "c8TUM90jc",
+      "viewAll": {
+        "id": "TFmQYMIE8",
+        "reference": "viewAllFilteredSearchParams"
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER",
+          "layout": "GRID"
+        }
+      }
+    }
+  ],
+  "version": 17,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-05-09T13:54:10.838Z"
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "queries",
+        "items": []
+      },
+      {
+        "type": "endpoints",
+        "items": [
+          "TFmQYMIE8"
+        ]
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "jrijZuhZ9",
+          "c8TUM90jc"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "endpoints",
+        "items": [
+          "Y_T1DSbZ9"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "Y_T1DSbZ9",
+              "type": "endpoints",
+              "title": "filteredSearch"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 3,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "TFmQYMIE8",
+              "type": "endpoints",
+              "title": "viewAllFilteredSearchParams"
+            }
+          ]
+        },
+        {
+          "type": "blocks",
+          "count": 2,
+          "items": [
+            {
+              "id": "jrijZuhZ9",
+              "type": "blocks",
+              "title": "Fallback Programmi"
+            },
+            {
+              "id": "c8TUM90jc",
+              "type": "blocks",
+              "title": "SRC Search Programmi e Serie"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "layout": [
+    {
+      "i": "Zg3sgpc3c",
+      "x": 0,
+      "y": 1,
+      "w": 12,
+      "h": 30,
+      "blocks": []
+    }
+  ],
+  "results": {
+    "fallbackBlockId": "jrijZuhZ9",
+    "min": "1",
+    "fullSubstituteFallback": true
+  },
+  "fullSubstituteFallback": true
+}

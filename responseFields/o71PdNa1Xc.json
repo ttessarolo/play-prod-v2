@@ -1,0 +1,72 @@
+{
+  "contentType": "video",
+  "title": "PLAY-PROD-VIDEO-SNAPSHOT-SET",
+  "description": "Copia di PLAY-PROD-VIDEO-MINIMAL-SET al 27/09/22",
+  "fields": [
+    "video_content_id",
+    "tipologia",
+    "programtype",
+    "id_brand",
+    "id_season_st",
+    "id_series_se"
+  ],
+  "id": "o71PdNa1Xc",
+  "version": 18,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2023-10-20T10:06:18.270Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "_Nq2z0TRY",
+          "tfFQWr9Tw",
+          "l4VJd3rno",
+          "kHVcIz6OJ"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 4,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 4,
+          "items": [
+            {
+              "id": "_Nq2z0TRY",
+              "type": "blocks",
+              "title": ""
+            },
+            {
+              "id": "tfFQWr9Tw",
+              "type": "blocks",
+              "title": ""
+            },
+            {
+              "id": "l4VJd3rno",
+              "type": "blocks",
+              "title": ""
+            },
+            {
+              "id": "kHVcIz6OJ",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  },
+  "realm": "content"
+}

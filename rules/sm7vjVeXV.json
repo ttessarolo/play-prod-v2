@@ -1,0 +1,84 @@
+{
+  "title": "Rule Editorial Type Extra",
+  "description": "",
+  "contentType": "video",
+  "clauses": [
+    "filter",
+    "include"
+  ],
+  "rule": [
+    {
+      "phrase": false,
+      "API": "V2",
+      "condition": "*",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "I2I",
+      "value": "Extra",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "editorial_type",
+      "fieldDBType": "keyword",
+      "_id": "FtYA9yVfq2"
+    }
+  ],
+  "field": "editorial_type",
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "Twrr8UhdDy",
+          "GfybcYv7E",
+          "Sb9MD73HU"
+        ]
+      }
+    ]
+  },
+  "id": "sm7vjVeXV",
+  "version": 2,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-11-06T16:46:45.451Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  }
+}

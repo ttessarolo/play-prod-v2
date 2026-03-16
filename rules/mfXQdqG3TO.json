@@ -1,0 +1,141 @@
+{
+  "contentType": "video",
+  "title": "Rule etichetta editoriale Super Top",
+  "description": "",
+  "clauses": [
+    "filter",
+    "exclude",
+    "include",
+    "boost"
+  ],
+  "rule": [
+    {
+      "condition": "*",
+      "boost": 1,
+      "type": "I2I",
+      "_id": "roJIYcEjW",
+      "matchFromArray": "Super Top",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      },
+      "field": "etichetteEditoriali",
+      "fieldDBType": "keyword",
+      "queryType": "matchFromArray",
+      "value": "Super Top",
+      "valueType": "string",
+      "API": "V2"
+    }
+  ],
+  "field": "etichetteEditoriali",
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "T2R37bH_w",
+          "NDMxn06hM",
+          "xmIlupiAS",
+          "ds8pLOaGO",
+          "CAd6ogG7u",
+          "_YcmnLaH4",
+          "mvZ0e6XOY",
+          "J5tCfqwb1y",
+          "c_R2PteO7",
+          "IUd_q_ixKj",
+          "qOqWHDpaC",
+          "wwG2hSMIC",
+          "vloOlFQwh",
+          "zHlSX9ygS",
+          "VXeQD5L8kq",
+          "hKH4jrbFF",
+          "qPd0aP7wuv",
+          "PKIPtcVd_",
+          "tNuQWnsHf",
+          "S5KdN0aRZ",
+          "Dn18Iwv7To",
+          "XUe7byBci",
+          "CGFfVq3sX",
+          "ZsxcVJ4cb",
+          "NTAbYMbvb",
+          "gZLBaGLkr",
+          "O43LrW3K3",
+          "DB7Fg4hfA",
+          "Z4Xzab9uO0",
+          "o3oATF3Xw",
+          "tC8ZKQ37Ld",
+          "P9Ls7vSds",
+          "nGhPhWBeV",
+          "zzovQgZgg",
+          "gE_eIFPElo"
+        ]
+      }
+    ]
+  },
+  "id": "mfXQdqG3TO",
+  "version": 5,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-03-22T16:30:29.800Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 5,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 5,
+          "items": [
+            {
+              "id": "T2R37bH_w",
+              "type": "queries",
+              "title": "Query Stagioni Most Recent Programmi TV del momento SUPERTOP"
+            },
+            {
+              "id": "NDMxn06hM",
+              "type": "queries",
+              "title": "QUERY Stagioni Most Recent Fiction e Serie Tv SUPERTOP Homepage"
+            },
+            {
+              "id": "xmIlupiAS",
+              "type": "queries",
+              "title": "Query Default Search Stagioni"
+            },
+            {
+              "id": "ds8pLOaGO",
+              "type": "queries",
+              "title": "Search Stagioni"
+            },
+            {
+              "id": "CAd6ogG7u",
+              "type": "queries",
+              "title": "Query Programmi TV Prima Serata"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 1,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "title": "Query Collection Natale 2025 Random",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "ju06OqIgO"
+    }
+  ],
+  "exclude": [],
+  "include": [
+    {
+      "id": "nRThqF13G"
+    }
+  ],
+  "boost": [],
+  "order": [],
+  "realm": "content",
+  "general": {
+    "mustOperator": "or",
+    "tieBreaker": 0.9,
+    "minimumShouldMatch": "1%",
+    "resultsMultiplier": 1
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "ju06OqIgO",
+          "nRThqF13G"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "zUHKl3x8Z"
+        ]
+      }
+    ]
+  },
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-12-18T14:47:53.425Z"
+  },
+  "id": "NPfkvPslCH",
+  "version": 7,
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  },
+  "metadataOverrides": {}
+}

@@ -1,0 +1,205 @@
+{
+  "id": "ihiCAj9Qp",
+  "active": true,
+  "title": "viewAllperson",
+  "description": "",
+  "reference": "viewAllPerson",
+  "propertyId": "zlqQNxLcGh",
+  "blockId": "fAQDvCXWHh",
+  "variants": [],
+  "params": {
+    "timeout": 2500,
+    "cacheConfig": {
+      "cache": 1,
+      "cacheTTL": 3600,
+      "cachePrefix": {
+        "group": true,
+        "static": "endpoint",
+        "keys": []
+      },
+      "computeKeys": [
+        "startBlock",
+        "endBlock",
+        "userId",
+        "context",
+        "params"
+      ]
+    },
+    "inveverseCacheConfig": {
+      "cacheTTL": 3600
+    }
+  },
+  "paramsId": "playDefault",
+  "input": {
+    "decorators": [
+      "XIHg_DI92f"
+    ]
+  },
+  "output": {
+    "decorators": [
+      "mU5ep6Aze"
+    ]
+  },
+  "version": 11,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2023-03-29T09:21:47.615Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "U9VSvjaKl",
+          "vIM4jwm5U",
+          "C8LfLLdpg",
+          "iweYhg7DLk",
+          "jVI3NVaUq",
+          "uF8fwo1mt",
+          "DRuoIOFsf",
+          "g4LwExz6x",
+          "wUc78StbQ",
+          "XZ5f1gK8y",
+          "zJdRVOBGv",
+          "SLZ0YkYjA",
+          "GAHb3UNXJ",
+          "Xp9Sbgys5",
+          "d0Gt6grYF"
+        ]
+      }
+    ],
+    "require": [
+      {
+        "type": "blocks",
+        "items": [
+          "fAQDvCXWHh"
+        ]
+      },
+      {
+        "type": "params",
+        "items": [
+          "playDefault"
+        ]
+      },
+      {
+        "type": "decorators",
+        "items": [
+          "XIHg_DI92f",
+          "mU5ep6Aze"
+        ]
+      },
+      {
+        "type": "conversionPacks",
+        "items": []
+      }
+    ]
+  },
+  "prevReference": "viewAllperson",
+  "haveScheduledVariants": 0,
+  "refsComputed": {
+    "belongs": {
+      "total": 9,
+      "types": 1,
+      "items": [
+        {
+          "type": "pages",
+          "count": 9,
+          "items": [
+            {
+              "variantId": "U9VSvjaKl",
+              "propertyId": "zlqQNxLcGh",
+              "endpointId": "xto6zka9cb"
+            },
+            {
+              "variantId": "vIM4jwm5U",
+              "propertyId": "zlqQNxLcGh",
+              "endpointId": "AMsLxXdFR"
+            },
+            {
+              "variantId": "C8LfLLdpg",
+              "propertyId": "zlqQNxLcGh",
+              "endpointId": "xG209TQAOl"
+            },
+            {
+              "variantId": "iweYhg7DLk",
+              "propertyId": "zlqQNxLcGh",
+              "endpointId": "NxQika02i"
+            },
+            {
+              "variantId": "jVI3NVaUq",
+              "propertyId": "zlqQNxLcGh",
+              "endpointId": "Mh9WbkEHg"
+            },
+            {
+              "variantId": "uF8fwo1mt",
+              "propertyId": "zlqQNxLcGh",
+              "endpointId": "TAHCjN9hxX"
+            },
+            {
+              "variantId": "DRuoIOFsf",
+              "propertyId": "zlqQNxLcGh",
+              "endpointId": "MVpCyzxSL"
+            },
+            {
+              "variantId": "g4LwExz6x",
+              "propertyId": "zlqQNxLcGh",
+              "endpointId": "GDGyDPHJ0"
+            },
+            {
+              "variantId": "wUc78StbQ",
+              "propertyId": "zlqQNxLcGh",
+              "endpointId": "YZ8Gk2fzJ"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 4,
+      "types": 4,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "fAQDvCXWHh",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "params",
+          "count": 1,
+          "items": [
+            {
+              "id": "playDefault",
+              "type": "params"
+            }
+          ]
+        },
+        {
+          "type": "decorators",
+          "count": 2,
+          "items": [
+            {
+              "id": "XIHg_DI92f",
+              "type": "decorators"
+            },
+            {
+              "id": "mU5ep6Aze",
+              "type": "decorators"
+            }
+          ]
+        },
+        {
+          "type": "conversionPacks",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "paginateFromCache": true,
+  "enableAnalitica": true
+}

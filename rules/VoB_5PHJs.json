@@ -1,0 +1,167 @@
+{
+  "title": "Rule Esclude Classici per Params Genre",
+  "description": "Se il parametro non chiama Classici non mostra i film con genere mcm Classici",
+  "contentType": "video",
+  "clauses": [
+    "exclude"
+  ],
+  "rule": [
+    {
+      "phrase": false,
+      "API": "V2",
+      "condition": "(!contains(params_genre, \"Classici\") && !contains(params_genre, \"Restaurato\"))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "!contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "params_genre"
+              },
+              {
+                "value": "\"Classici\"",
+                "type": "string"
+              }
+            ],
+            "id": "EvpaDYumx0"
+          },
+          {
+            "id": "I4n4TRwCJ",
+            "operator": "!contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "params_genre"
+              },
+              {
+                "value": "\"Restaurato\"",
+                "type": "string"
+              }
+            ]
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "I2I",
+      "value": "Classici",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "genere_mcm",
+      "fieldDBType": "keyword",
+      "_id": "UGAfWaeOA",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "field": "genere_mcm",
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "rAoCaKtAs",
+          "ARAIdR8pC",
+          "skE6ZZaHs",
+          "d5BIIowCX",
+          "BVC4GzQXU",
+          "Qd7iEXoJo",
+          "ZqCof5t6v",
+          "QPwcsFJG6",
+          "_izzlx6HS7",
+          "BWgEuhfRp",
+          "aXM_s_5Uh"
+        ]
+      }
+    ]
+  },
+  "id": "VoB_5PHJs",
+  "version": 11,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-11-11T11:07:10.150Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 7,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 7,
+          "items": [
+            {
+              "id": "rAoCaKtAs",
+              "type": "queries",
+              "title": "INF Generi per Parametri Film Blocco 2"
+            },
+            {
+              "id": "ARAIdR8pC",
+              "type": "queries",
+              "title": "TVOD Generi per Parametri Film Blocco 3"
+            },
+            {
+              "id": "skE6ZZaHs",
+              "type": "queries",
+              "title": "Query Home Pay Generi per Parametri Film Blocco 2"
+            },
+            {
+              "id": "d5BIIowCX",
+              "type": "queries",
+              "title": "Query Home Pay Generi per Parametri Film Blocco 1"
+            },
+            {
+              "id": "_ehOPN5ih",
+              "type": "queries",
+              "title": "INF Generi per Parametri Film Blocco 1"
+            },
+            {
+              "id": "BVC4GzQXU",
+              "type": "queries",
+              "title": "TVOD Generi per Parametri Film Blocco 2"
+            },
+            {
+              "id": "Qd7iEXoJo",
+              "type": "queries",
+              "title": "Query Generi per Parametri Cinema Free Inf e MPlay Top viewed"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "realm": "content",
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": []
+}

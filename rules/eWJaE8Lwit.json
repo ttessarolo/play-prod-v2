@@ -1,0 +1,216 @@
+{
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "(contains(genere_mcm_primario, \"Family\") || contains(genere_mcm_primario, \"Animazione\"))",
+      "conditionRaw": {
+        "or": [
+          {
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "genere_mcm_primario"
+              },
+              {
+                "value": "\"Family\"",
+                "type": "string"
+              }
+            ],
+            "id": "15V8AFxN3n"
+          },
+          {
+            "id": "VyAQDSkJ0H7",
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "genere_mcm_primario"
+              },
+              {
+                "value": "\"Animazione\"",
+                "type": "string"
+              }
+            ]
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "CYT09pxhF",
+      "valueType": "list",
+      "queryType": "listTermsId",
+      "field": "genere_mcm",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "pYSomshvV",
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "API": "V2",
+      "condition": "(contains(genere_mcm_primario, \"Family\") || contains(genere_mcm_primario, \"Animazione\"))",
+      "conditionRaw": {
+        "or": [
+          {
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "genere_mcm_primario"
+              },
+              {
+                "value": "\"Family\"",
+                "type": "string"
+              }
+            ],
+            "id": "15V8AFxN3n"
+          },
+          {
+            "id": "VyAQDSkJ0H7",
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "genere_mcm_primario"
+              },
+              {
+                "value": "\"Animazione\"",
+                "type": "string"
+              }
+            ]
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "verde",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "ratingparentalcontrol",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "NXyqCrxu3",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "clauses": [
+    "exclude",
+    "filter",
+    "boost"
+  ],
+  "title": "Rule Similar Animazione e Family",
+  "description": "",
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": [
+          "CYT09pxhF"
+        ]
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "KrplYijM4",
+          "_UJtujmOS",
+          "hzT5G0sYG",
+          "rlrVLabqSl",
+          "l4aaD5uVWs",
+          "PGHHPIFHQ"
+        ]
+      }
+    ]
+  },
+  "id": "eWJaE8Lwit",
+  "version": 22,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-06-13T10:40:42.805Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 5,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 5,
+          "items": [
+            {
+              "id": "KrplYijM4",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "_UJtujmOS",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "hzT5G0sYG",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "rlrVLabqSl",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "l4aaD5uVWs",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 1,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 1,
+          "items": [
+            {
+              "id": "CYT09pxhF",
+              "type": "lists",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "content": true
+  },
+  "searchMetadata": [
+    "request",
+    "content"
+  ],
+  "includedMetadata": [
+    "content"
+  ],
+  "grouped": true,
+  "operator": "or"
+}

@@ -1,0 +1,37 @@
+{
+  "elements": [
+    "MediasetPlay",
+    "Infinity"
+  ],
+  "type": "text",
+  "contentType": "video",
+  "realm": "content",
+  "title": "List Channel Mediaset Play o Infinity",
+  "description": "Contiene i Channel Mediaset Play e Infinity",
+  "id": "zjMFouSKV",
+  "version": 2,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-05-18T09:27:12.850Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "rules",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  }
+}

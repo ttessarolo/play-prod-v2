@@ -1,0 +1,33 @@
+{
+  "type": "text",
+  "contentType": "video",
+  "realm": "content",
+  "title": "List Tipologia Film o Sport",
+  "description": "",
+  "elements": [
+    "Film",
+    "Sport",
+    "Documentari"
+  ],
+  "id": "Lg9rkfGDV",
+  "version": 2,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2022-03-16T15:17:16.460Z"
+  },
+  "refs": {
+    "belongs": []
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  }
+}

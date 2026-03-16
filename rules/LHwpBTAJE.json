@@ -1,0 +1,129 @@
+{
+  "title": "Rule Blacklist Video content ID",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "t1GDSZEtZh",
+      "valueType": "list",
+      "queryType": "listTermsId",
+      "field": "video_content_id",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "BiuJYf4Tg"
+    }
+  ],
+  "clauses": [
+    "exclude"
+  ],
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": [
+          "t1GDSZEtZh"
+        ]
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "rulesPresets",
+        "items": [
+          "ZRorAbL96Q",
+          "zFmF5zQpRG"
+        ]
+      },
+      {
+        "type": "queries",
+        "items": [
+          "A4ofNYRa8",
+          "qA8cN2kDM",
+          "YhVp7CQNc",
+          "tE6FKWNO0"
+        ]
+      }
+    ]
+  },
+  "id": "LHwpBTAJE",
+  "version": 3,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2023-04-14T09:29:02.362Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 5,
+      "types": 2,
+      "items": [
+        {
+          "type": "rulesPresets",
+          "count": 2,
+          "items": [
+            {
+              "id": "ZRorAbL96Q",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "zFmF5zQpRG",
+              "type": "rulesPresets",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "queries",
+          "count": 3,
+          "items": [
+            {
+              "id": "A4ofNYRa8",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "qA8cN2kDM",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "YhVp7CQNc",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 1,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 1,
+          "items": [
+            {
+              "id": "t1GDSZEtZh",
+              "type": "lists",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  }
+}

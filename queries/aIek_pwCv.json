@@ -1,0 +1,72 @@
+{
+  "title": "Similar Cinema Trailer",
+  "description": "",
+  "contentType": "video",
+  "filter": [],
+  "exclude": [
+    {
+      "id": "Gz2oDqW8B"
+    }
+  ],
+  "include": [
+    {
+      "id": "vZxGL64R6",
+      "overides": {
+        "qMQ6NVOhZ": {
+          "boost": 50
+        }
+      }
+    },
+    {
+      "id": "CLpcsBJdos"
+    }
+  ],
+  "boost": [],
+  "order": [],
+  "realm": "content",
+  "presets": {
+    "filter": [
+      {
+        "id": "TuAyi0elu"
+      }
+    ]
+  },
+  "general": {
+    "mustOperator": "or",
+    "tieBreaker": 0.9,
+    "minimumShouldMatch": "1%",
+    "resultsMultiplier": 1
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "Gz2oDqW8B",
+          "vZxGL64R6",
+          "CLpcsBJdos"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "TuAyi0elu"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "VLpBOAKQIo"
+        ]
+      }
+    ]
+  },
+  "id": "aIek_pwCv",
+  "version": 1,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2023-02-08T14:38:34.303Z"
+  }
+}

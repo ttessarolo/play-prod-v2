@@ -1,0 +1,720 @@
+{
+  "input": {
+    "schema": {
+      "name": "Input Validation Schema",
+      "description": "ARES Request Params",
+      "type": "object",
+      "required": [
+        "query"
+      ],
+      "properties": {
+        "query": {
+          "type": "object",
+          "required": [
+            "tenant",
+            "uxReference"
+          ],
+          "properties": {
+            "tenant": {
+              "type": "string"
+            },
+            "uxReference": {
+              "type": "string"
+            },
+            "userId": {
+              "type": "string"
+            },
+            "userType": {
+              "type": "string"
+            },
+            "userGroup": {
+              "type": "string"
+            },
+            "deviceId": {
+              "type": "string"
+            },
+            "contentId": {
+              "type": "string"
+            },
+            "sessionId": {
+              "type": "string"
+            },
+            "context": {
+              "type": "string"
+            },
+            "query": {
+              "type": "string"
+            },
+            "startBlock": {
+              "type": "number"
+            },
+            "endBlock": {
+              "type": "number"
+            },
+            "page": {
+              "type": "number"
+            },
+            "hitsPerPage": {
+              "type": "number"
+            }
+          }
+        }
+      }
+    }
+  },
+  "params": {
+    "timeout": 1500,
+    "cacheConfig": {
+      "cache": false,
+      "cacheTTL": 300
+    }
+  },
+  "paramsId": "playDefault",
+  "output": {
+    "decorators": [
+      "mU5ep6Aze"
+    ]
+  },
+  "uiParams": {
+    "preview": {
+      "currentParams": {},
+      "uiParams": {
+        "current": "User Logged #2",
+        "currentIndex": 2,
+        "sets": [
+          {
+            "title": "Anonymous",
+            "params": {
+              "contentId": {
+                "value": "F010791601000102",
+                "active": true
+              },
+              "userId": {
+                "value": "1f51d5e9f09e4d349fa3af349e1cdac4",
+                "active": false
+              },
+              "deviceId": {
+                "value": "ARES-CC",
+                "active": true
+              }
+            }
+          },
+          {
+            "title": "User Logged #1",
+            "params": {
+              "contentId": {
+                "value": "F010791601000102",
+                "active": true
+              },
+              "userId": {
+                "value": "1f51d5e9f09e4d349fa3af349e1cdac4",
+                "active": true
+              },
+              "deviceId": {
+                "value": "ARES-CC",
+                "active": true
+              }
+            }
+          },
+          {
+            "title": "User Logged #2",
+            "params": {
+              "contentId": {
+                "value": "F010791601000102",
+                "active": true
+              },
+              "userId": {
+                "value": "36e9cfd5ec474972ba1a82d19696346c",
+                "active": true
+              },
+              "deviceId": {
+                "value": "ARES-CC",
+                "active": true
+              }
+            }
+          }
+        ]
+      },
+      "decorator": "(\n   {\n     \"layout\": layout,\n     \"blocks\": $map(blocks ? blocks : entries, function($block){(\n        $iterator :=  $exists($block.entries) ? $block.entries : $exists($block.items) ? $block.items : $block;\n\n        {\n            \"id\":$block._aresId,\n            \"title\":$block.title,\n            \"type\":$block._blockType,\n            \"score\":$block._smartOrderingScore,\n            \"results\":$count($iterator),\n            \"pinned\":$block.pinned,\n            \"layout\":$block.layout,\n            \"items\":$map($iterator, function($item) {(\n            {\n                \"contentId\": $item.video_content_id ? $item.video_content_id : $item.id ?  $item.id : $item.video_content_id,\n                \"title\": $item.title,  \n                \"imageURL\": $item.thumbnails ? $item.thumbnails.`image_keyframe_poster-292x165`.url : $item.horizontal_poster, \n                \"date\":$item.`mediasetprogram$publishInfo_lastPublished` ? $fromMillis($item.`mediasetprogram$publishInfo_lastPublished`) : $item.publication_date,\n                \"category\":$item.editorial_type\n            }      \n        )})\n        }\n    )})\n   }\n\n)"
+    },
+    "layout": {
+      "currentParams": {
+        "paramsId": "playDefault",
+        "contentId": "F301644701000103",
+        "userId": "1f51d5e9f09e4d349fa3af349e1cdac4",
+        "deviceId": "ARES-CC"
+      },
+      "uiParams": {
+        "current": "Default",
+        "currentIndex": 0,
+        "sets": [
+          {
+            "title": "Default",
+            "params": {
+              "paramsId": {
+                "value": "playDefault",
+                "active": true
+              },
+              "contentId": {
+                "value": "F301644701000103",
+                "active": true
+              },
+              "userId": {
+                "value": "1f51d5e9f09e4d349fa3af349e1cdac4",
+                "active": true
+              },
+              "deviceId": {
+                "value": "ARES-CC",
+                "active": true
+              }
+            }
+          }
+        ]
+      },
+      "decorator": "(\n    $iterator :=  $exists(blocks.entries) ? blocks.entries : entries ? entries : blocks.items;\n\n    $map($iterator, function($item) {(\n        {\n            \"contentId\": $item.id ?  $item.id : $item.video_content_id,\n            \"title\": $item.title,  \n            \"imageURL\": $item.thumbnails ? $item.thumbnails.`image_keyframe_poster-292x165`.url : $item.horizontal_poster, \n            \"date\":$item.`mediasetprogram$publishInfo_lastPublished` ? $fromMillis($item.`mediasetprogram$publishInfo_lastPublished`) : $item.publication_date,\n            \"category\":$item.editorial_type\n        }      \n    )})\n\n)"
+    }
+  },
+  "blocksMetadata": [
+    {
+      "id": "EfDwNsNFC",
+      "title": "Attributes",
+      "metadata": [
+        {
+          "type": "select",
+          "id": "x_M8QycPH",
+          "label": "Template",
+          "dataField": "template",
+          "selectValues": [
+            [
+              "Keyframe",
+              "KEYFRAME"
+            ],
+            [
+              "Poster",
+              "POSTER"
+            ]
+          ]
+        },
+        {
+          "type": "select",
+          "id": "q8wsJgqzZ",
+          "label": "Layout",
+          "dataField": "layout",
+          "selectValues": [
+            [
+              "GRID",
+              "GRID"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "NJ1P53UDW4",
+      "title": "searchDetailParams",
+      "metadata": [
+        {
+          "type": "select",
+          "id": "IqC4yWJUv",
+          "label": "UXReference",
+          "dataField": "uxReference",
+          "selectValues": [
+            [
+              "Search Detail",
+              "detail"
+            ]
+          ]
+        },
+        {
+          "type": "select",
+          "id": "p2TiuCt5w",
+          "label": "Property",
+          "dataField": "property",
+          "selectValues": [
+            [
+              "Search",
+              "search"
+            ]
+          ]
+        },
+        {
+          "type": "input",
+          "id": "eSLKLTVKWJ",
+          "label": "Params",
+          "dataField": "params"
+        },
+        {
+          "type": "select",
+          "id": "H4RBe3w_vL",
+          "label": "Variant",
+          "dataField": "variant",
+          "selectValues": [
+            [
+              "Full Episode",
+              "fep"
+            ],
+            [
+              "Clip",
+              "clip"
+            ],
+            [
+              "Brand",
+              "brand"
+            ],
+            [
+              "Film",
+              "movie"
+            ],
+            [
+              "Video cercati",
+              "searchedVideo"
+            ],
+            [
+              "Programmi cercati",
+              "searchedBrand"
+            ],
+            [
+              "Infinity Serie",
+              "infSerie"
+            ],
+            [
+              "Infinity Serie più cercate",
+              "infSearchedSerie"
+            ],
+            [
+              "Infinity film più cercati",
+              "infSearchedFilm"
+            ],
+            [
+              "TimVision Film",
+              "timVisionFilm"
+            ],
+            [
+              "TimVision Serie",
+              "timVisionSerie"
+            ]
+          ]
+        },
+        {
+          "type": "select",
+          "id": "mqm8mUSI0",
+          "label": "Channel",
+          "dataField": "channel",
+          "selectValues": [
+            [
+              "Infinity",
+              "Infinity"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "AR9PjSiBZLl",
+      "title": "contentMetadataValues",
+      "metadata": [
+        {
+          "type": "select",
+          "id": "bDmKx9ANp",
+          "label": "Tipologia",
+          "dataField": "tipologia",
+          "selectValues": [
+            [
+              "Cartoni",
+              "Cartoni"
+            ],
+            [
+              "Documentari",
+              "Documentari"
+            ],
+            [
+              "Fiction",
+              "Fiction"
+            ],
+            [
+              "Film",
+              "Film"
+            ],
+            [
+              "Informazione",
+              "Informazione"
+            ],
+            [
+              "Intrattenimento",
+              "Intrattenimento"
+            ],
+            [
+              "Serie TV",
+              "Serie TV"
+            ],
+            [
+              "Sport",
+              "Sport"
+            ],
+            [
+              "TG",
+              "TG"
+            ]
+          ]
+        },
+        {
+          "type": "select",
+          "id": "Hgh4hR1hR",
+          "label": "Editorial Type",
+          "dataField": "editorialType",
+          "selectValues": [
+            [
+              "Anticipazioni",
+              "Anticipazioni"
+            ],
+            [
+              "Clip",
+              "Clip"
+            ],
+            [
+              "Extra",
+              "Extra"
+            ],
+            [
+              "Full Episode",
+              "Full Episode"
+            ],
+            [
+              "Movie",
+              "Movie"
+            ],
+            [
+              "Promo",
+              "Promo"
+            ],
+            [
+              "Riassunti",
+              "Riassunti"
+            ],
+            [
+              "Serie",
+              "Serie"
+            ],
+            [
+              "TVSeason",
+              "TVSeason"
+            ],
+            [
+              "Trailer",
+              "Trailer"
+            ]
+          ]
+        },
+        {
+          "type": "select",
+          "id": "pKH6dlSD4",
+          "selectValues": [
+            [
+              "Azione",
+              "Azione"
+            ],
+            [
+              "Comico Commedia",
+              "Comico Commedia"
+            ],
+            [
+              "Dramma",
+              "Dramma"
+            ],
+            [
+              "Thriller",
+              "Thriller"
+            ]
+          ],
+          "label": "Genere Patemico",
+          "dataField": "generepatemico"
+        }
+      ]
+    },
+    {
+      "id": "ViNTBza7U",
+      "title": "errorMessage",
+      "metadata": [
+        {
+          "type": "text",
+          "id": "JN96M8Y6G",
+          "label": "error message",
+          "dataField": "description"
+        }
+      ]
+    }
+  ],
+  "title": "search",
+  "description": "",
+  "tree": [
+    {
+      "value": "xGMz3ReD9",
+      "label": "search",
+      "children": [
+        {
+          "value": "GiKaiAbGKB",
+          "label": "suggestions",
+          "children": [
+            {
+              "value": "Sbmoj6vuY",
+              "label": "filteredSearchSuggestions",
+              "children": [
+                {
+                  "value": "Nwtu9X0ff",
+                  "label": "Default"
+                },
+                {
+                  "value": "lbTpE9Ugz",
+                  "label": "Ricerca Tutti no fallback"
+                }
+              ]
+            },
+            {
+              "value": "RBrjmHSmj",
+              "label": "fallbackVuotaSuggestions",
+              "children": [
+                {
+                  "value": "i13gkGCQlp",
+                  "label": "Fallback vuota suggestions"
+                }
+              ]
+            },
+            {
+              "value": "_Bjgs5JE9",
+              "label": "fallbackSuggestions",
+              "children": [
+                {
+                  "value": "v8eWLZuOCm",
+                  "label": "default suggestions"
+                }
+              ]
+            },
+            {
+              "value": "KVpe9LShZ",
+              "label": "searchSuggestions",
+              "children": [
+                {
+                  "value": "hVIMC2xa9f",
+                  "label": "search suggestions"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "value": "Jm7s1u0SE",
+          "label": "endpointInterni",
+          "children": [
+            {
+              "value": "b1EDgwfNS9",
+              "label": "viewAllFilteredSearch",
+              "children": [
+                {
+                  "value": "ZHsdXwQnvG",
+                  "label": "view all filtered search"
+                }
+              ]
+            },
+            {
+              "value": "TFmQYMIE8",
+              "label": "viewAllFilteredSearchParams",
+              "children": [
+                {
+                  "value": "vwVWNItTb",
+                  "label": "view all filtered search params"
+                }
+              ]
+            },
+            {
+              "value": "VqbKPchOM",
+              "label": "searchFallbackVuota",
+              "children": [
+                {
+                  "value": "AwF1CRpxF",
+                  "label": "Search Fallback vuota"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "value": "Y_T1DSbZ9",
+          "label": "filteredSearch",
+          "children": [
+            {
+              "value": "zjMBeoafa8",
+              "label": "Default Ricerca"
+            },
+            {
+              "value": "Fkuq3OMlav",
+              "label": "Default Mediaset Italia"
+            },
+            {
+              "value": "l086tIljZ",
+              "label": "Ricerca Tutti"
+            },
+            {
+              "value": "Pil1XjlIgl",
+              "label": "Ricerca Programmi e Serie"
+            },
+            {
+              "value": "cVhuVOrhgW",
+              "label": "Ricerca Film"
+            },
+            {
+              "value": "pYHbnwL1Y",
+              "label": "Ricerca Video"
+            },
+            {
+              "value": "JjaawRIpD",
+              "label": "Ricerca Gratis per te "
+            }
+          ]
+        },
+        {
+          "value": "t2lTpliWX",
+          "label": "fallbackVariantiFilteredSearch",
+          "children": [
+            {
+              "value": "xQ8i6kS6hl",
+              "label": "Default Fallback Varianti"
+            },
+            {
+              "value": "UqexT0v_gf",
+              "label": "Fallback Tutti"
+            },
+            {
+              "value": "jrijZuhZ9",
+              "label": "Fallback Programmi"
+            },
+            {
+              "value": "rzRIgJqMA",
+              "label": "Fallback Film"
+            },
+            {
+              "value": "y1HwrzQWaU",
+              "label": "Fallback Video"
+            },
+            {
+              "value": "tCiVqNxMLB",
+              "label": "Fallback Gratis"
+            }
+          ]
+        },
+        {
+          "value": "Tac2Yo4sw",
+          "label": "detail",
+          "children": [
+            {
+              "value": "AeDBbaF42",
+              "label": "Default"
+            },
+            {
+              "value": "h15hXW9RF",
+              "label": "I programmi più cercati"
+            },
+            {
+              "value": "Fwy9pCD4dq",
+              "label": "Programmi"
+            },
+            {
+              "value": "lbNPSiB5Z9",
+              "label": "Clip"
+            },
+            {
+              "value": "bsPgWyrvWu",
+              "label": "Puntate intere"
+            },
+            {
+              "value": "FK3qnwLcv",
+              "label": "Film"
+            },
+            {
+              "value": "VSpgqeifh",
+              "label": "infSerie"
+            },
+            {
+              "value": "O77hBIpio",
+              "label": "infSearchedFilm"
+            },
+            {
+              "value": "z70Kc2ebp",
+              "label": "infSearchedSerie"
+            },
+            {
+              "value": "sQaMMdmZyt",
+              "label": "timVisionFilm"
+            },
+            {
+              "value": "zzEZhb_1r",
+              "label": "timVisionSerie"
+            }
+          ]
+        },
+        {
+          "value": "Gw6akjKa4a",
+          "label": "main",
+          "children": [
+            {
+              "value": "Ds5x4fEbu",
+              "label": "Default"
+            },
+            {
+              "value": "q68HoEaN5k",
+              "label": "Main"
+            },
+            {
+              "value": "hkkMHxGOH",
+              "label": "infDefault"
+            },
+            {
+              "value": "ETMOjkvtg",
+              "label": "infMain"
+            },
+            {
+              "value": "WhMMkSUAmX",
+              "label": "chnlsMain"
+            },
+            {
+              "value": "L76fYrB3A",
+              "label": "chnlsDefault"
+            },
+            {
+              "value": "AfQ9VWSP6",
+              "label": "TimVisionMain"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "id": "rrjMTUmyqd",
+  "version": 165,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2025-05-09T14:24:52.509Z"
+  },
+  "refs": {
+    "belongs": []
+  },
+  "pagesMetadata": [
+    {
+      "id": "udG6fFoSj",
+      "title": "Default",
+      "metadata": []
+    }
+  ],
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  },
+  "active": true
+}

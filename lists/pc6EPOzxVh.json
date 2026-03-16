@@ -1,0 +1,48 @@
+{
+  "title": "Lista ADV Scaglie",
+  "description": "",
+  "type": "contentId",
+  "contentType": "video",
+  "realm": "content",
+  "metadataField": "video_content_id",
+  "elements": [
+    "F313177101000101",
+    "F313177101000201",
+    "F313177101000301",
+    "F313177101000401",
+    "F313177101000501",
+    "F313177101000601",
+    "F313177101000701",
+    "F313177101000801",
+    "F313177101000901",
+    "F313177101001001",
+    "F313177101001101",
+    "F313177101001201"
+  ],
+  "id": "pc6EPOzxVh",
+  "version": 8,
+  "lastSaved": {
+    "username": "Massimiliano.Berardi",
+    "date": "2024-02-16T14:48:15.506Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "rules",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  }
+}

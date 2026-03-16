@@ -1,0 +1,65 @@
+{
+  "title": "Rule Editorial Type Clip",
+  "description": "",
+  "contentType": "video",
+  "clauses": [
+    "filter",
+    "include"
+  ],
+  "rule": [
+    {
+      "condition": "*",
+      "boost": 1,
+      "type": "I2I",
+      "_id": "qRwwkOD_b",
+      "match": "Clip",
+      "phrase": false,
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      },
+      "field": "editorial_type",
+      "fieldDBType": "keyword",
+      "queryType": "match",
+      "value": "Clip",
+      "valueType": "string",
+      "API": "V2"
+    }
+  ],
+  "field": "editorial_type",
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "u8IIXQT9v",
+          "WsAxg5DEF",
+          "qnEDrWjeg",
+          "PbWq9UplH",
+          "vIQCxKrUj",
+          "QniVzl_vg",
+          "WH5CPWlrB",
+          "LQNTpN5LdF",
+          "KDxs0Hqrw",
+          "jSwEBgItVY"
+        ]
+      }
+    ]
+  },
+  "id": "UQcP3MxGlF",
+  "version": 1,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2020-07-17T12:36:28.192Z"
+  }
+}

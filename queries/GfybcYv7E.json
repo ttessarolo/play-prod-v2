@@ -1,0 +1,149 @@
+{
+  "title": "Query X Style Clip e Extra Most recent",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "sK1J_6vBL"
+    },
+    {
+      "id": "sm7vjVeXV"
+    }
+  ],
+  "exclude": [
+    {
+      "id": "aNHO5E_ne"
+    },
+    {
+      "id": "xymitMKK9"
+    }
+  ],
+  "include": [],
+  "boost": [],
+  "order": [
+    {
+      "id": "SXyaET7iz2"
+    }
+  ],
+  "realm": "content",
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "sK1J_6vBL",
+          "sm7vjVeXV",
+          "aNHO5E_ne",
+          "xymitMKK9",
+          "SXyaET7iz2"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "ur0WldwQk",
+          "ZRorAbL96Q"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "rZE_CjlgN"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "rZE_CjlgN",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 6,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 4,
+          "items": [
+            {
+              "id": "sK1J_6vBL",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "sm7vjVeXV",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "aNHO5E_ne",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "SXyaET7iz2",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 2,
+          "items": [
+            {
+              "id": "ur0WldwQk",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "ZRorAbL96Q",
+              "type": "rulesPresets",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2026-01-22T10:55:30.421Z"
+  },
+  "id": "GfybcYv7E",
+  "version": 11,
+  "presets": {
+    "exclude": [
+      {
+        "id": "ZRorAbL96Q"
+      }
+    ],
+    "filter": [
+      {
+        "id": "ur0WldwQk"
+      }
+    ]
+  },
+  "metadataOverrides": {}
+}

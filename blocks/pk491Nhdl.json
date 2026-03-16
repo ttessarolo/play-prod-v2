@@ -1,0 +1,168 @@
+{
+  "id": "pk491Nhdl",
+  "propertyId": "zlqQNxLcGh",
+  "title": "Collection by Editor",
+  "description": "Please Edit description for Page \"Default\"",
+  "enabledPagesId": [
+    "D32UYAzZn7"
+  ],
+  "isPage": true,
+  "blocks": [
+    {
+      "id": "xofHhEJ2V",
+      "condition": "*",
+      "title": "Collection",
+      "type": "nested",
+      "layout": {
+        "i": "xofHhEJ2V",
+        "x": 0,
+        "y": 1,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "zUHKl3x8Z",
+      "metadataUI": {
+        "attributes": {
+          "template": ""
+        }
+      }
+    }
+  ],
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-12-18T14:32:10.507Z"
+  },
+  "version": 4,
+  "refs": {
+    "belongs": [
+      {
+        "type": "endpoints",
+        "items": [
+          "D32UYAzZn7"
+        ]
+      }
+    ],
+    "require": [
+      {
+        "type": "queries",
+        "items": []
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "Rc1YEkVxO",
+          "zUHKl3x8Z"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "D32UYAzZn7",
+              "type": "endpoints",
+              "title": "collectionOrderByEditor"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 2,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 2,
+          "items": [
+            {
+              "id": "Rc1YEkVxO",
+              "type": "blocks",
+              "title": "Fallback vuota"
+            },
+            {
+              "id": "zUHKl3x8Z",
+              "type": "blocks",
+              "title": "Block Collection Natale 2025"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "layout": [
+    {
+      "i": "xofHhEJ2V",
+      "x": 0,
+      "y": 1,
+      "w": 12,
+      "h": 30,
+      "blocks": []
+    }
+  ],
+  "results": {
+    "fallbackBlockId": "Rc1YEkVxO",
+    "fullSubstituteFallback": true
+  }
+}

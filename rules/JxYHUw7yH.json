@@ -1,0 +1,73 @@
+{
+  "title": "Rule Boost Genere Intrattenimento ter",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "(!isEmpty(genereintrattenimentoeinformazione_ter))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "!isEmpty",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "genereintrattenimentoeinformazione_ter"
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ],
+            "id": "ox5_E81pWj"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "I2I",
+      "value": "genereintrattenimentoeinformazione_ter",
+      "valueType": "metadata",
+      "queryType": "match",
+      "field": "genereintrattenimentoeinformazione_ter",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "j6OjnkXKM",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "clauses": [
+    "boost"
+  ],
+  "metadata": {
+    "content": true
+  },
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "U1hz1tNQN",
+          "tv97xe64g"
+        ]
+      }
+    ]
+  },
+  "id": "JxYHUw7yH",
+  "version": 1,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-03-29T14:16:37.565Z"
+  }
+}

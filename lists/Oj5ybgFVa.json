@@ -1,0 +1,20 @@
+{
+  "elements": [
+    "Esclusiva",
+    "Prima TV Pay"
+  ],
+  "type": "text",
+  "contentType": "video",
+  "realm": "content",
+  "title": "List etichette editoriali Esclusiva e Prima TV Pay",
+  "description": "",
+  "id": "Oj5ybgFVa",
+  "version": 1,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-07-22T14:59:26.265Z"
+  },
+  "refs": {
+    "belongs": []
+  }
+}

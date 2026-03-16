@@ -1,0 +1,119 @@
+{
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 1,
+          "items": [
+            {
+              "id": "z7mj6ysWe",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "(greaterThan(publication_date, publication_date))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "greaterThan",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "publication_date"
+              },
+              {
+                "value": "publication_date",
+                "type": "metadata"
+              }
+            ],
+            "id": "xKhEE-Y_cU"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "100028164",
+      "valueType": "freeText",
+      "queryType": "match",
+      "field": "subbrand_id",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "pXOOWMkHnp",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "clauses": [
+    "filter",
+    "exclude"
+  ],
+  "metadata": {
+    "time": true,
+    "content": true,
+    "content_similar": {
+      "required": false,
+      "date": {
+        "range": 12,
+        "period": "d",
+        "field": "anno_fine"
+      }
+    }
+  },
+  "title": "Test Talpa",
+  "description": "",
+  "id": "mNz1TjUhHQ",
+  "version": 3,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2024-10-31T18:47:26.752Z"
+  },
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": []
+}

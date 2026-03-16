@@ -1,0 +1,32 @@
+{
+  "elements": [
+    "Movie",
+    "Serie"
+  ],
+  "title": "List Editorial type Movie e Serie",
+  "description": "",
+  "id": "A5jE8q4YP",
+  "version": 2,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2022-02-11T10:18:49.084Z"
+  },
+  "refs": {
+    "belongs": []
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  },
+  "type": "text",
+  "contentType": "video",
+  "realm": "content"
+}

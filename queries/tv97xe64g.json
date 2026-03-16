@@ -1,0 +1,324 @@
+{
+  "title": "CHNLS Similar Documentari",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "YMaH2tPZC"
+    },
+    {
+      "id": "Zfqe55OC2"
+    },
+    {
+      "id": "KukwdwFDvb"
+    }
+  ],
+  "exclude": [],
+  "include": [],
+  "boost": [
+    {
+      "id": "dy9sl_H_1",
+      "overides": {
+        "BsvxJsE1dY": {
+          "boost": 10
+        }
+      }
+    },
+    {
+      "id": "teCUyBxCNV",
+      "overides": {
+        "BsvxJsE1dY": {
+          "boost": 20
+        }
+      }
+    },
+    {
+      "id": "B42ePWTJR",
+      "overides": {
+        "hs7oTAK98": {
+          "boost": 10
+        }
+      }
+    },
+    {
+      "id": "hxpNg6Vpq",
+      "overides": {
+        "tFSn0VBcU": {
+          "boost": 10
+        }
+      }
+    },
+    {
+      "id": "PIe_NcOxD",
+      "overides": {
+        "Yvt2qMOQl": {
+          "boost": 15
+        }
+      }
+    },
+    {
+      "id": "uXBAHIG51I",
+      "overides": {
+        "EH8TU8L8o": {
+          "boost": 8
+        }
+      }
+    },
+    {
+      "id": "POneRhLfh",
+      "overides": {
+        "j6OjnkXKM": {
+          "boost": 5
+        }
+      }
+    },
+    {
+      "id": "JxYHUw7yH",
+      "overides": {
+        "j6OjnkXKM": {
+          "boost": 8
+        }
+      }
+    },
+    {
+      "id": "G2FXLxv7K",
+      "overides": {
+        "_jVD3zTZo": {
+          "boost": 5
+        }
+      }
+    },
+    {
+      "id": "SYrAp4NDd"
+    }
+  ],
+  "order": [],
+  "realm": "content",
+  "presets": {
+    "filter": [
+      {
+        "id": "TuAyi0elu"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "ZRorAbL96Q"
+      }
+    ],
+    "boost": [
+      {
+        "id": "ZPwmT2FT9"
+      },
+      {
+        "id": "l4ImWw6zL"
+      },
+      {
+        "id": "nvqWNnbgX"
+      }
+    ]
+  },
+  "general": {
+    "tieBreaker": "0.9",
+    "minimumShouldMatch": "1%",
+    "resultsMultiplier": 1,
+    "mustOperator": "or"
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "YMaH2tPZC",
+          "Zfqe55OC2",
+          "KukwdwFDvb",
+          "dy9sl_H_1",
+          "teCUyBxCNV",
+          "B42ePWTJR",
+          "hxpNg6Vpq",
+          "PIe_NcOxD",
+          "uXBAHIG51I",
+          "POneRhLfh",
+          "JxYHUw7yH",
+          "G2FXLxv7K",
+          "SYrAp4NDd"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "TuAyi0elu",
+          "ZRorAbL96Q",
+          "ZPwmT2FT9",
+          "l4ImWw6zL",
+          "nvqWNnbgX"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "Ovp154Nlc"
+        ]
+      }
+    ]
+  },
+  "id": "tv97xe64g",
+  "version": 10,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2022-04-28T09:43:31.089Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "Ovp154Nlc",
+              "type": "blocks",
+              "title": "CHNLS Similar Documentari"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 17,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 12,
+          "items": [
+            {
+              "id": "YMaH2tPZC",
+              "type": "rules",
+              "title": "Rule Content Channel Origin"
+            },
+            {
+              "id": "Zfqe55OC2",
+              "type": "rules",
+              "title": "Rule Similar Tipologia Documentari"
+            },
+            {
+              "id": "dy9sl_H_1",
+              "type": "rules",
+              "title": "Rule Boost FiguraPersonaggioGenereTematico"
+            },
+            {
+              "id": "teCUyBxCNV",
+              "type": "rules",
+              "title": "Rule Boost Epoca Sub"
+            },
+            {
+              "id": "B42ePWTJR",
+              "type": "rules",
+              "title": "Rule Boost Tematismi Genere Tematico"
+            },
+            {
+              "id": "hxpNg6Vpq",
+              "type": "rules",
+              "title": "Rule Boost Genere Tematico"
+            },
+            {
+              "id": "PIe_NcOxD",
+              "type": "rules",
+              "title": "Rule Boost Setting Intrattenimento"
+            },
+            {
+              "id": "uXBAHIG51I",
+              "type": "rules",
+              "title": "Rule Boost Always Genere Mcm"
+            },
+            {
+              "id": "POneRhLfh",
+              "type": "rules",
+              "title": "Rule Boost Genere Intrattenimento sub"
+            },
+            {
+              "id": "JxYHUw7yH",
+              "type": "rules",
+              "title": "Rule Boost Genere Intrattenimento ter"
+            },
+            {
+              "id": "G2FXLxv7K",
+              "type": "rules",
+              "title": "Rule Boost Categorie Iab Sub"
+            },
+            {
+              "id": "SYrAp4NDd",
+              "type": "rules",
+              "title": "Rule Boost Contenuti In Onda"
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 5,
+          "items": [
+            {
+              "id": "TuAyi0elu",
+              "type": "rulesPresets",
+              "title": "Preset SearchVisible e FrontEnd Visible True"
+            },
+            {
+              "id": "ZRorAbL96Q",
+              "type": "rulesPresets",
+              "title": "Preset Blacklist"
+            },
+            {
+              "id": "ZPwmT2FT9",
+              "type": "rulesPresets",
+              "title": "Preset Boost Temi"
+            },
+            {
+              "id": "l4ImWw6zL",
+              "type": "rulesPresets",
+              "title": "Preset Boost Temi sub"
+            },
+            {
+              "id": "nvqWNnbgX",
+              "type": "rulesPresets",
+              "title": "Preset Boost Tematismi"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "uselessMultiplier": false,
+  "metadataOverrides": {
+    "Zfqe55OC2": {
+      "content_similar": {
+        "required": true,
+        "output": "video_similar_ids_documentari",
+        "metadata": {
+          "included": [
+            "tipologia=Documentari",
+            "content_channels"
+          ],
+          "excluded": [
+            "editorial_type=(Clip) OR (TVSeason) OR (Serie)",
+            "id_series_se"
+          ]
+        },
+        "fingerprint": {
+          "matchFields": [
+            "fingerprint"
+          ]
+        },
+        "groupby": {
+          "metadata": "id_series_se",
+          "results": 1,
+          "sortMetadata": "season,episode",
+          "sortDirection": "asc,asc"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "type": "text",
+  "contentType": "video",
+  "realm": "content",
+  "elements": [
+    "Prima Serata",
+    "Top"
+  ],
+  "title": "List etichette editoriali Prima Serata e Top",
+  "description": "",
+  "id": "J8RmpgeVw",
+  "version": 3,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-05-11T10:15:53.169Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "rules",
+        "items": [
+          "HPtARQ5tbK"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  }
+}

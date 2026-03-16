@@ -1,0 +1,819 @@
+{
+  "title": "Rule ADV",
+  "description": "Perfect Pitch --> 1M\nDR --> 200k",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "(!inList(context_platform, XaELDZsqL) && dateRange(when_now, '2026-02-02T23:01:29.764Z÷2026-03-30T21:59:29.764Z') && lessThan(when_current_fractional_second, \"30\") && !equals(id_series_se, \"SE000000000025\") && !equals(id_series_se, \"SE000000000061\") && !equals(id_series_se, \"SE000000000926\") && !equals(id_series_se, \"SE000000000062\") && !equals(id_series_se, \"SE000000002547\"))",
+      "conditionRaw": {
+        "and": [
+          {
+            "id": "zjSrg2dpd",
+            "operator": "!inList",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "context_platform"
+              },
+              {
+                "value": "XaELDZsqL",
+                "type": "list"
+              }
+            ]
+          },
+          {
+            "id": "nZxVJXbpQ",
+            "operator": "dateRange",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "when_now"
+              },
+              {
+                "value": "2026-02-02T23:01:29.764Z÷2026-03-30T21:59:29.764Z",
+                "type": "DateRange"
+              }
+            ]
+          },
+          {
+            "id": "Zw39otBqn",
+            "operator": "lessThan",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "when_current_fractional_second"
+              },
+              {
+                "value": "\"30\"",
+                "type": "number"
+              }
+            ]
+          },
+          {
+            "id": "85AcZVUbU",
+            "operator": "!equals",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "id_series_se"
+              },
+              {
+                "value": "\"SE000000000025\"",
+                "type": "string"
+              }
+            ]
+          },
+          {
+            "id": "nEMzxYkhD",
+            "operator": "!equals",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "id_series_se"
+              },
+              {
+                "value": "\"SE000000000061\"",
+                "type": "freeText"
+              }
+            ]
+          },
+          {
+            "id": "R0qubPapjT",
+            "operator": "!equals",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "id_series_se"
+              },
+              {
+                "value": "\"SE000000000926\"",
+                "type": "string"
+              }
+            ]
+          },
+          {
+            "id": "j9jANMjcf2",
+            "operator": "!equals",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "id_series_se"
+              },
+              {
+                "value": "\"SE000000000062\"",
+                "type": "string"
+              }
+            ]
+          },
+          {
+            "id": "0vTPlU8Oe",
+            "operator": "!equals",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "id_series_se"
+              },
+              {
+                "value": "\"SE000000002547\"",
+                "type": "freeText"
+              }
+            ]
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "FBTc9GgzW",
+      "valueType": "list",
+      "queryType": "listTermsId",
+      "field": "video_content_id",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "vQskxtLHg",
+      "scheduled": true,
+      "scheduling": [
+        {
+          "id": "nZxVJXbpQ",
+          "start": "2026-02-02T23:01:29.764Z",
+          "end": "2026-03-30T21:59:29.764Z"
+        },
+        {
+          "id": "Zw39otBqn",
+          "start": "30"
+        }
+      ]
+    },
+    {
+      "API": "V2",
+      "condition": "(!inList(context_platform, XaELDZsqL) && dateRange(when_now, '2026-02-24T23:01:29.764Z÷2026-03-25T22:59:29.764Z') && greaterEqualThan(when_current_fractional_second, \"50\") && !equals(id_series_se, \"SE000000000025\") && !equals(id_series_se, \"SE000000000061\") && !equals(id_series_se, \"SE000000000926\") && !equals(id_series_se, \"SE000000000062\") && !equals(id_series_se, \"SE000000002547\"))",
+      "conditionRaw": {
+        "and": [
+          {
+            "id": "zjSrg2dpd",
+            "operator": "!inList",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "context_platform"
+              },
+              {
+                "value": "XaELDZsqL",
+                "type": "list"
+              }
+            ]
+          },
+          {
+            "id": "nZxVJXbpQ",
+            "operator": "dateRange",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "when_now"
+              },
+              {
+                "value": "2026-02-24T23:01:29.764Z÷2026-03-25T22:59:29.764Z",
+                "type": "DateRange"
+              }
+            ]
+          },
+          {
+            "id": "Zw39otBqn",
+            "operator": "greaterEqualThan",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "when_current_fractional_second"
+              },
+              {
+                "value": "\"50\"",
+                "type": "number"
+              }
+            ]
+          },
+          {
+            "id": "85AcZVUbU",
+            "operator": "!equals",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "id_series_se"
+              },
+              {
+                "value": "\"SE000000000025\"",
+                "type": "string"
+              }
+            ]
+          },
+          {
+            "id": "nEMzxYkhD",
+            "operator": "!equals",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "id_series_se"
+              },
+              {
+                "value": "\"SE000000000061\"",
+                "type": "freeText"
+              }
+            ]
+          },
+          {
+            "id": "R0qubPapjT",
+            "operator": "!equals",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "id_series_se"
+              },
+              {
+                "value": "\"SE000000000926\"",
+                "type": "string"
+              }
+            ]
+          },
+          {
+            "id": "j9jANMjcf2",
+            "operator": "!equals",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "id_series_se"
+              },
+              {
+                "value": "\"SE000000000062\"",
+                "type": "string"
+              }
+            ]
+          },
+          {
+            "id": "0vTPlU8Oe",
+            "operator": "!equals",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "id_series_se"
+              },
+              {
+                "value": "\"SE000000002547\"",
+                "type": "freeText"
+              }
+            ]
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "e_I41fBMq",
+      "valueType": "list",
+      "queryType": "listTermsId",
+      "field": "video_content_id",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "ESyiqWIMP",
+      "scheduled": true,
+      "scheduling": [
+        {
+          "id": "nZxVJXbpQ",
+          "start": "2026-02-24T23:01:29.764Z",
+          "end": "2026-03-25T22:59:29.764Z"
+        },
+        {
+          "id": "Zw39otBqn",
+          "start": "50"
+        }
+      ]
+    },
+    {
+      "API": "V2",
+      "condition": "(!inList(context_platform, XaELDZsqL) && dateRange(when_now, '2026-03-15T23:01:29.764Z÷2026-04-13T21:59:29.764Z') && between(when_current_fractional_second, \"30÷40\") && !equals(id_series_se, \"SE000000000025\") && !equals(id_series_se, \"SE000000000061\") && !equals(id_series_se, \"SE000000000926\") && !equals(id_series_se, \"SE000000000062\") && !equals(id_series_se, \"SE000000002547\"))",
+      "conditionRaw": {
+        "and": [
+          {
+            "id": "zjSrg2dpd",
+            "operator": "!inList",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "context_platform"
+              },
+              {
+                "value": "XaELDZsqL",
+                "type": "list"
+              }
+            ]
+          },
+          {
+            "id": "nZxVJXbpQ",
+            "operator": "dateRange",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "when_now"
+              },
+              {
+                "value": "2026-03-15T23:01:29.764Z÷2026-04-13T21:59:29.764Z",
+                "type": "DateRange"
+              }
+            ]
+          },
+          {
+            "id": "Zw39otBqn",
+            "operator": "between",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "when_current_fractional_second"
+              },
+              {
+                "value": "\"30÷40\"",
+                "type": "between"
+              }
+            ]
+          },
+          {
+            "id": "85AcZVUbU",
+            "operator": "!equals",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "id_series_se"
+              },
+              {
+                "value": "\"SE000000000025\"",
+                "type": "string"
+              }
+            ]
+          },
+          {
+            "id": "nEMzxYkhD",
+            "operator": "!equals",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "id_series_se"
+              },
+              {
+                "value": "\"SE000000000061\"",
+                "type": "freeText"
+              }
+            ]
+          },
+          {
+            "id": "R0qubPapjT",
+            "operator": "!equals",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "id_series_se"
+              },
+              {
+                "value": "\"SE000000000926\"",
+                "type": "string"
+              }
+            ]
+          },
+          {
+            "id": "j9jANMjcf2",
+            "operator": "!equals",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "id_series_se"
+              },
+              {
+                "value": "\"SE000000000062\"",
+                "type": "string"
+              }
+            ]
+          },
+          {
+            "id": "0vTPlU8Oe",
+            "operator": "!equals",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "id_series_se"
+              },
+              {
+                "value": "\"SE000000002547\"",
+                "type": "freeText"
+              }
+            ]
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "FD00000000521405",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "video_content_id",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "NvPlvAi2cG",
+      "scheduled": true,
+      "scheduling": [
+        {
+          "id": "nZxVJXbpQ",
+          "start": "2026-03-15T23:01:29.764Z",
+          "end": "2026-04-13T21:59:29.764Z"
+        },
+        {
+          "id": "Zw39otBqn",
+          "start": "30",
+          "end": "40"
+        }
+      ]
+    },
+    {
+      "API": "V2",
+      "condition": "(!inList(context_platform, XaELDZsqL) && dateRange(when_now, '2026-03-15T23:01:29.764Z÷2026-04-13T21:59:29.764Z') && between(when_current_fractional_second, \"40÷50\") && !equals(id_series_se, \"SE000000000025\") && !equals(id_series_se, \"SE000000000061\") && !equals(id_series_se, \"SE000000000926\") && !equals(id_series_se, \"SE000000000062\") && !equals(id_series_se, \"SE000000002547\"))",
+      "boost": 1,
+      "type": "",
+      "value": "F314203401007C02",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "video_content_id",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "Euf0yMAXI",
+      "conditionRaw": {
+        "and": [
+          {
+            "id": "zjSrg2dpd",
+            "operator": "!inList",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "context_platform"
+              },
+              {
+                "value": "XaELDZsqL",
+                "type": "list"
+              }
+            ]
+          },
+          {
+            "id": "nZxVJXbpQ",
+            "operator": "dateRange",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "when_now"
+              },
+              {
+                "value": "2026-03-15T23:01:29.764Z÷2026-04-13T21:59:29.764Z",
+                "type": "DateRange"
+              }
+            ]
+          },
+          {
+            "id": "Zw39otBqn",
+            "operator": "between",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "when_current_fractional_second"
+              },
+              {
+                "value": "\"40÷50\"",
+                "type": "between"
+              }
+            ]
+          },
+          {
+            "id": "85AcZVUbU",
+            "operator": "!equals",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "id_series_se"
+              },
+              {
+                "value": "\"SE000000000025\"",
+                "type": "string"
+              }
+            ]
+          },
+          {
+            "id": "nEMzxYkhD",
+            "operator": "!equals",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "id_series_se"
+              },
+              {
+                "value": "\"SE000000000061\"",
+                "type": "freeText"
+              }
+            ]
+          },
+          {
+            "id": "R0qubPapjT",
+            "operator": "!equals",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "id_series_se"
+              },
+              {
+                "value": "\"SE000000000926\"",
+                "type": "string"
+              }
+            ]
+          },
+          {
+            "id": "j9jANMjcf2",
+            "operator": "!equals",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "id_series_se"
+              },
+              {
+                "value": "\"SE000000000062\"",
+                "type": "string"
+              }
+            ]
+          },
+          {
+            "id": "0vTPlU8Oe",
+            "operator": "!equals",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "id_series_se"
+              },
+              {
+                "value": "\"SE000000002547\"",
+                "type": "freeText"
+              }
+            ]
+          }
+        ]
+      },
+      "scheduled": true,
+      "scheduling": [
+        {
+          "id": "nZxVJXbpQ",
+          "start": "2026-03-15T23:01:29.764Z",
+          "end": "2026-04-13T21:59:29.764Z"
+        },
+        {
+          "id": "Zw39otBqn",
+          "start": "40",
+          "end": "50"
+        }
+      ]
+    }
+  ],
+  "clauses": [
+    "filter",
+    "exclude",
+    "include"
+  ],
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": [
+          "FBTc9GgzW",
+          "XaELDZsqL",
+          "e_I41fBMq"
+        ]
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "JCKH0ADNmB"
+        ]
+      }
+    ]
+  },
+  "id": "xvYVAxCdJ",
+  "version": 1310,
+  "lastSaved": {
+    "username": "Massimiliano.Berardi",
+    "date": "2026-03-16T15:17:16.629Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 1,
+          "items": [
+            {
+              "id": "JCKH0ADNmB",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 3,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 3,
+          "items": [
+            {
+              "id": "FBTc9GgzW",
+              "type": "lists",
+              "title": ""
+            },
+            {
+              "id": "XaELDZsqL",
+              "type": "lists",
+              "title": ""
+            },
+            {
+              "id": "e_I41fBMq",
+              "type": "lists",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "searchMetadata": [
+    "request",
+    "content",
+    "time",
+    "external"
+  ],
+  "includedMetadata": [
+    "content",
+    "time",
+    "external"
+  ],
+  "scheduled": true,
+  "scheduling": [
+    {
+      "id": "nZxVJXbpQ",
+      "start": "2026-03-15T23:01:29.764Z",
+      "end": "2026-04-13T21:59:29.764Z"
+    },
+    {
+      "id": "Zw39otBqn",
+      "start": "40",
+      "end": "50"
+    },
+    {
+      "id": "nZxVJXbpQ",
+      "start": "2025-09-19T07:00:29.764Z",
+      "end": "2025-09-21T21:59:29.764Z"
+    },
+    {
+      "id": "Zw39otBqn",
+      "start": "60",
+      "end": "65"
+    },
+    {
+      "id": "bQV2sKTAu",
+      "start": "2021-09-26T22:00:01.319Z",
+      "end": "2021-09-29T21:59:59.319Z"
+    },
+    {
+      "id": "nZxVJXbpQ",
+      "start": "2026-02-02T23:01:29.764Z",
+      "end": "2026-03-30T21:59:29.764Z"
+    },
+    {
+      "id": "Zw39otBqn",
+      "start": "30"
+    },
+    {
+      "id": "nZxVJXbpQ",
+      "start": "2026-03-15T23:01:29.764Z",
+      "end": "2026-04-13T21:59:29.764Z"
+    },
+    {
+      "id": "Zw39otBqn",
+      "start": "30",
+      "end": "40"
+    },
+    {
+      "id": "nZxVJXbpQ",
+      "start": "2026-02-24T23:01:29.764Z",
+      "end": "2026-03-25T22:59:29.764Z"
+    },
+    {
+      "id": "Zw39otBqn",
+      "start": "50"
+    }
+  ],
+  "schedulingMap": [
+    [
+      3,
+      [
+        {
+          "id": "nZxVJXbpQ",
+          "start": "2026-03-15T23:01:29.764Z",
+          "end": "2026-04-13T21:59:29.764Z"
+        },
+        {
+          "id": "Zw39otBqn",
+          "start": "40",
+          "end": "50"
+        }
+      ]
+    ],
+    [
+      4,
+      [
+        {
+          "id": "nZxVJXbpQ",
+          "start": "2025-09-19T07:00:29.764Z",
+          "end": "2025-09-21T21:59:29.764Z"
+        },
+        {
+          "id": "Zw39otBqn",
+          "start": "60",
+          "end": "65"
+        }
+      ]
+    ],
+    [
+      5,
+      [
+        {
+          "id": "bQV2sKTAu",
+          "start": "2021-09-26T22:00:01.319Z",
+          "end": "2021-09-29T21:59:59.319Z"
+        }
+      ]
+    ],
+    [
+      0,
+      [
+        {
+          "id": "nZxVJXbpQ",
+          "start": "2026-02-02T23:01:29.764Z",
+          "end": "2026-03-30T21:59:29.764Z"
+        },
+        {
+          "id": "Zw39otBqn",
+          "start": "30"
+        }
+      ]
+    ],
+    [
+      2,
+      [
+        {
+          "id": "nZxVJXbpQ",
+          "start": "2026-03-15T23:01:29.764Z",
+          "end": "2026-04-13T21:59:29.764Z"
+        },
+        {
+          "id": "Zw39otBqn",
+          "start": "30",
+          "end": "40"
+        }
+      ]
+    ],
+    [
+      1,
+      [
+        {
+          "id": "nZxVJXbpQ",
+          "start": "2026-02-24T23:01:29.764Z",
+          "end": "2026-03-25T22:59:29.764Z"
+        },
+        {
+          "id": "Zw39otBqn",
+          "start": "50"
+        }
+      ]
+    ]
+  ],
+  "metadata": {
+    "content": true,
+    "time": true,
+    "external": {
+      "output": "external_source"
+    }
+  }
+}

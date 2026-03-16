@@ -1,0 +1,84 @@
+{
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": [
+          "gF7tjssiOL"
+        ]
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "fU8UHr5Td",
+          "_MhAmoqgA",
+          "NTAbYMbvb",
+          "gZLBaGLkr"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 1,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 1,
+          "items": [
+            {
+              "id": "gF7tjssiOL",
+              "type": "lists",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "title": "Rule Tipologia Programmi e Serie per Search",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "gF7tjssiOL",
+      "valueType": "list",
+      "queryType": "listTermsId",
+      "field": "tipologia",
+      "fieldNested": 0,
+      "fieldDBType": "text",
+      "_id": "y0nFLQNYm"
+    }
+  ],
+  "clauses": [
+    "filter"
+  ],
+  "id": "gLpFUO7F3",
+  "version": 2,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2023-01-18T16:44:46.435Z"
+  }
+}

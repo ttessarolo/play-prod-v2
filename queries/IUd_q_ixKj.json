@@ -1,0 +1,236 @@
+{
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "wfBy1paHlb"
+    },
+    {
+      "id": "83txjtJm"
+    },
+    {
+      "id": "Qs0Vux5WH_"
+    },
+    {
+      "id": "hETSoVEXU"
+    }
+  ],
+  "exclude": [
+    {
+      "id": "zFMMN3qCx"
+    }
+  ],
+  "include": [
+    {
+      "id": "atYeEgjlH"
+    }
+  ],
+  "boost": [
+    {
+      "id": "mfXQdqG3TO",
+      "overides": {
+        "roJIYcEjW": {
+          "boost": 10
+        }
+      }
+    },
+    {
+      "id": "RqBahOBRSz",
+      "overides": {
+        "gxbb6JYRxw": {
+          "boost": 10
+        }
+      }
+    },
+    {
+      "id": "CTGuqOMTe",
+      "overides": {
+        "NIWh2k5VC": {
+          "boost": 5
+        }
+      }
+    },
+    {
+      "id": "SJ7TC0R1HB",
+      "overides": {
+        "RCKlmD34E": {
+          "boost": 3
+        }
+      }
+    },
+    {
+      "id": "XYn4_Tjey",
+      "overides": {
+        "B1xY2tUCky": {
+          "boost": 2
+        }
+      }
+    }
+  ],
+  "order": [],
+  "realm": "content",
+  "title": "INF Film Family",
+  "description": "Per Pagina Profilo Bambino",
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "wfBy1paHlb",
+          "83txjtJm",
+          "Qs0Vux5WH_",
+          "hETSoVEXU",
+          "zFMMN3qCx",
+          "atYeEgjlH",
+          "mfXQdqG3TO",
+          "RqBahOBRSz",
+          "CTGuqOMTe",
+          "SJ7TC0R1HB",
+          "XYn4_Tjey"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "TuAyi0elu",
+          "KhQ3IziFJ"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "cyiJzjsm7"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1,
+    "mustOperator": "or"
+  },
+  "id": "IUd_q_ixKj",
+  "version": 7,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-07-19T13:24:55.165Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "cyiJzjsm7",
+              "type": "blocks",
+              "title": "INF Film Family"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 13,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 11,
+          "items": [
+            {
+              "id": "wfBy1paHlb",
+              "type": "rules",
+              "title": "Rule Channel Infinity"
+            },
+            {
+              "id": "83txjtJm",
+              "type": "rules",
+              "title": "Rule Tipologia Film"
+            },
+            {
+              "id": "Qs0Vux5WH_",
+              "type": "rules",
+              "title": "Rule Editorial Type Movie"
+            },
+            {
+              "id": "hETSoVEXU",
+              "type": "rules",
+              "title": "Rule Genere Mcm Family e Parental Control V"
+            },
+            {
+              "id": "zFMMN3qCx",
+              "type": "rules",
+              "title": "Rule Tecnicarealizzazione Animazione"
+            },
+            {
+              "id": "atYeEgjlH",
+              "type": "rules",
+              "title": "Rule Categorie Sociodemo Family"
+            },
+            {
+              "id": "mfXQdqG3TO",
+              "type": "rules",
+              "title": "Rule etichetta editoriale Super Top"
+            },
+            {
+              "id": "RqBahOBRSz",
+              "type": "rules",
+              "title": "Rule etichetta editoriale Top"
+            },
+            {
+              "id": "CTGuqOMTe",
+              "type": "rules",
+              "title": "Rule  Anno Produzione over 2015"
+            },
+            {
+              "id": "SJ7TC0R1HB",
+              "type": "rules",
+              "title": "Rule  Anno Produzione over 2010"
+            },
+            {
+              "id": "XYn4_Tjey",
+              "type": "rules",
+              "title": " Rule Anno Produzione over 2005"
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 2,
+          "items": [
+            {
+              "id": "TuAyi0elu",
+              "type": "rulesPresets",
+              "title": "Preset SearchVisible e FrontEnd Visible True"
+            },
+            {
+              "id": "KhQ3IziFJ",
+              "type": "rulesPresets",
+              "title": "Preset Video format exclude 4K"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "uselessMultiplier": false,
+  "metadataOverrides": {},
+  "presets": {
+    "filter": [
+      {
+        "id": "TuAyi0elu"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "KhQ3IziFJ"
+      }
+    ]
+  }
+}

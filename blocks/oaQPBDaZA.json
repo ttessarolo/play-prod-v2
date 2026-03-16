@@ -1,0 +1,190 @@
+{
+  "results": {
+    "min": 0,
+    "flatAllBlocks": true,
+    "fallbackBlockId": "P0csRsOt7"
+  },
+  "blocks": [
+    {
+      "_id": "EY2BvV8eQh",
+      "condition": "*",
+      "title": "Enabler Test Film",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 20,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "fallbackBlockId": "P0csRsOt7",
+        "inject": [
+          {
+            "position": 2,
+            "contentId": "Y311040301000901",
+            "injectIndex": 0
+          },
+          {
+            "position": 3,
+            "contentId": "F310293901000501",
+            "injectIndex": 1
+          },
+          {
+            "injectIndex": 2,
+            "position": 4,
+            "blockId": "L5pzoSqb9z",
+            "numResults": 1,
+            "startFrom": 1
+          },
+          {
+            "position": 5,
+            "injectIndex": 3
+          }
+        ]
+      },
+      "queryId": "FG_3yg944",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      }
+    }
+  ],
+  "scheduled": 0,
+  "scheduling": [],
+  "schedulingMap": [],
+  "realm": "content",
+  "title": "Block Enabler Test Film",
+  "description": "",
+  "refs": {
+    "require": [
+      {
+        "type": "queries",
+        "items": [
+          "FG_3yg944"
+        ]
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "P0csRsOt7"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": [
+          "eOaXizx_"
+        ]
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "gAYxluVbC"
+        ]
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      }
+    ]
+  },
+  "id": "oaQPBDaZA",
+  "version": 7,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-09-28T12:53:33.999Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 2,
+      "types": 2,
+      "items": [
+        {
+          "type": "pages",
+          "count": 1,
+          "items": [
+            {
+              "variantId": "gAYxluVbC",
+              "variantTitle": "Default",
+              "propertyId": "zlqQNxLcGh",
+              "propertyTitle": "play",
+              "endpointId": "Q20zIJufF",
+              "endpointTitle": "enablerTestFilm"
+            }
+          ]
+        },
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "d1hO0b0oFp",
+              "type": "endpoints",
+              "title": "test"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 3,
+      "types": 4,
+      "items": [
+        {
+          "type": "queries",
+          "count": 1,
+          "items": [
+            {
+              "id": "FG_3yg944",
+              "type": "queries",
+              "title": "Query Enabler Test Film"
+            }
+          ]
+        },
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "P0csRsOt7",
+              "type": "blocks",
+              "title": "Block published flag not exists"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 1,
+          "items": [
+            {
+              "id": "eOaXizx_",
+              "type": "responseFields",
+              "title": "PLAY-PROD-VIDEO-MINIMAL-SET"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": []
+}

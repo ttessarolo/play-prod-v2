@@ -1,0 +1,84 @@
+{
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "sortMode": "avg",
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "",
+      "valueType": "",
+      "queryType": "sortOrder",
+      "field": "season",
+      "fieldNested": 0,
+      "fieldDBType": "integer",
+      "_id": "ZY__8OKRJ"
+    }
+  ],
+  "clauses": [
+    "order"
+  ],
+  "title": "Rule Order by Season Asc",
+  "description": "",
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": []
+      }
+    ]
+  },
+  "id": "wrAlJrKvr",
+  "version": 3,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-05-19T15:48:04.104Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 2,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 2,
+          "items": [
+            {
+              "id": "xJz9Q9eme",
+              "type": "queries",
+              "title": "INF Green storytellers"
+            },
+            {
+              "id": "DEt3Pa6Sz",
+              "type": "queries",
+              "title": "INF Infinity Lab"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 1,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": []
+}

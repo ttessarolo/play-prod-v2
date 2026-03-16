@@ -1,0 +1,167 @@
+{
+  "title": "Query Sky FEP Fiction Serie TV Super Top",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "ju06OqIgO"
+    },
+    {
+      "id": "ssdeTHIxc"
+    },
+    {
+      "id": "CDMrhQW14"
+    },
+    {
+      "id": "tyiCLyfGz"
+    },
+    {
+      "id": "mfXQdqG3TO"
+    }
+  ],
+  "exclude": [],
+  "include": [],
+  "boost": [],
+  "order": [
+    {
+      "id": "SXyaET7iz2"
+    }
+  ],
+  "realm": "content",
+  "presets": {
+    "exclude": [
+      {
+        "id": "ZRorAbL96Q"
+      }
+    ],
+    "filter": []
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "ju06OqIgO",
+          "ssdeTHIxc",
+          "CDMrhQW14",
+          "tyiCLyfGz",
+          "mfXQdqG3TO",
+          "SXyaET7iz2"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "ZRorAbL96Q"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "pU14Ecw2t"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "id": "gE_eIFPElo",
+  "version": 34,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2024-03-26T15:56:04.191Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "pU14Ecw2t",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 6,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 5,
+          "items": [
+            {
+              "id": "ju06OqIgO",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "ssdeTHIxc",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "CDMrhQW14",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "tyiCLyfGz",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "SXyaET7iz2",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 1,
+          "items": [
+            {
+              "id": "ZRorAbL96Q",
+              "type": "rulesPresets",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "metadataOverrides": {
+    "tyiCLyfGz": {
+      "content_similar": {
+        "required": true,
+        "metadata": {
+          "included": [
+            "content_channels=MediasetPlay",
+            "tipologia=(Fiction) OR (Serie TV)",
+            "editorial_type=Full Episode"
+          ]
+        },
+        "groupby": {
+          "metadata": "id_season_st",
+          "results": 1,
+          "sortMetadata": "publication_date",
+          "sortDirection": "desc"
+        },
+        "output": "video_similar_ids_fiction_sky"
+      }
+    }
+  }
+}

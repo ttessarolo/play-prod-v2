@@ -1,0 +1,111 @@
+{
+  "title": "Rule Editorial Type Clip Extra",
+  "description": "Contiene la Lista Editorial Type Clip Extra",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "NfmUc20jK",
+      "valueType": "list",
+      "queryType": "listTermsId",
+      "field": "editorial_type",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "DAtJNZ1rwk"
+    }
+  ],
+  "clauses": [
+    "filter"
+  ],
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": [
+          "NfmUc20jK"
+        ]
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "YsF6lF5pCC",
+          "Alu6uP5f6",
+          "Hpf2pfaEM",
+          "div23Vxzv",
+          "fBjcjMmv5",
+          "gcQgVKXeZ",
+          "UAO8fckslW",
+          "JN5f1BTm8",
+          "hW8B6U1FQ"
+        ]
+      }
+    ]
+  },
+  "id": "tfAzCHYts",
+  "version": 2,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-01-22T09:31:15.863Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 3,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 3,
+          "items": [
+            {
+              "id": "YsF6lF5pCC",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "Alu6uP5f6",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "Hpf2pfaEM",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 1,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 1,
+          "items": [
+            {
+              "id": "NfmUc20jK",
+              "type": "lists",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  }
+}

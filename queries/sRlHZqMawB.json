@@ -1,0 +1,246 @@
+{
+  "title": "Query Soap opera Top e In Onda o Esclusiva",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "ju06OqIgO"
+    },
+    {
+      "id": "KdgZfZ_wm"
+    },
+    {
+      "id": "gQuX7uK3vM"
+    },
+    {
+      "id": "RqBahOBRSz"
+    },
+    {
+      "id": "CDMrhQW14"
+    },
+    {
+      "id": "elT4DxH4Cc"
+    }
+  ],
+  "exclude": [],
+  "include": [
+    {
+      "id": "zv6EEbQBQ"
+    },
+    {
+      "id": "GAEE6f6OI"
+    }
+  ],
+  "boost": [],
+  "order": [
+    {
+      "id": "tMgBtvtBy"
+    }
+  ],
+  "realm": "content",
+  "general": {
+    "mustOperator": "or",
+    "tieBreaker": 0.9,
+    "minimumShouldMatch": "1%",
+    "resultsMultiplier": 1
+  },
+  "presets": {
+    "exclude": [
+      {
+        "id": "ZRorAbL96Q"
+      },
+      {
+        "id": "KhQ3IziFJ"
+      }
+    ],
+    "filter": [
+      {
+        "id": "ztWfmA_PI"
+      }
+    ]
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "ju06OqIgO",
+          "KdgZfZ_wm",
+          "gQuX7uK3vM",
+          "RqBahOBRSz",
+          "CDMrhQW14",
+          "elT4DxH4Cc",
+          "zv6EEbQBQ",
+          "GAEE6f6OI",
+          "tMgBtvtBy"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "ztWfmA_PI",
+          "ZRorAbL96Q",
+          "KhQ3IziFJ"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "FjD3AdqNL"
+        ]
+      }
+    ]
+  },
+  "id": "sRlHZqMawB",
+  "version": 24,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-02-26T11:42:01.496Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "FjD3AdqNL",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 12,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 9,
+          "items": [
+            {
+              "id": "ju06OqIgO",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "KdgZfZ_wm",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "gQuX7uK3vM",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "RqBahOBRSz",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "CDMrhQW14",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "elT4DxH4Cc",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "zv6EEbQBQ",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "GAEE6f6OI",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "tMgBtvtBy",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 3,
+          "items": [
+            {
+              "id": "ztWfmA_PI",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "ZRorAbL96Q",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "KhQ3IziFJ",
+              "type": "rulesPresets",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "metadataOverrides": {
+    "zv6EEbQBQ": {
+      "content_similar": {
+        "required": true,
+        "metadata": {
+          "included": [
+            "content_channels=MediasetPlay",
+            "tipologia=(Fiction) OR (Serie TV)",
+            "editorial_type=TVSeason",
+            "etichetteEditoriali=In Onda",
+            "current_season=true",
+            "genere_mcm=Soap opera"
+          ],
+          "excluded": []
+        },
+        "output": "video_similar_ids_progrtv",
+        "groupby": {
+          "metadata": "",
+          "results": 0,
+          "sortMetadata": "",
+          "sortDirection": ""
+        }
+      }
+    },
+    "GAEE6f6OI": {
+      "content_similar": {
+        "required": true,
+        "output": "video_similar_ids_esclusive",
+        "metadata": {
+          "included": [
+            "content_channels=MediasetPlay",
+            "tipologia=(Fiction) OR (Serie TV)",
+            "editorial_type=TVSeason",
+            "etichetteEditoriali=Esclusiva",
+            "current_season=true",
+            "genere_mcm=Soap opera"
+          ]
+        },
+        "date": {
+          "range": 3,
+          "period": "M",
+          "field": "publication_date_start_play",
+          "absolute": true
+        }
+      }
+    }
+  }
+}

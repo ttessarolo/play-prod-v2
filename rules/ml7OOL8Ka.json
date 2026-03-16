@@ -1,0 +1,130 @@
+{
+  "title": "Rule Include solo IdSeriesSe popolato",
+  "description": "Keep only finalizzato a escludere le Id_Series_Se non popolate",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "",
+      "valueType": "",
+      "queryType": "checkExists",
+      "field": "id_series_se",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "poeiUqgUy",
+      "conditionRaw": {
+        "and": [
+          {
+            "id": "lZzStJBrS",
+            "operator": "*",
+            "values": [
+              {
+                "type": "metadata",
+                "value": ""
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ]
+          }
+        ]
+      },
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "clauses": [
+    "filter"
+  ],
+  "metadata": {
+    "content": true
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "DHl6a0GLT",
+          "snFdkOv3m",
+          "DGN31xSm2",
+          "eYuL4ML7TS",
+          "TGWJP5C2lJ",
+          "jTWiGJ8a3j",
+          "AqgW7pWFS"
+        ]
+      }
+    ]
+  },
+  "id": "ml7OOL8Ka",
+  "version": 3,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-06-30T09:15:51.635Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 4,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 4,
+          "items": [
+            {
+              "id": "DHl6a0GLT",
+              "type": "queries",
+              "title": "Query Similar Intrattenimento Diverso dal brand"
+            },
+            {
+              "id": "snFdkOv3m",
+              "type": "queries",
+              "title": "Query Similar Informazione"
+            },
+            {
+              "id": "DGN31xSm2",
+              "type": "queries",
+              "title": "Query Similar Informazione Per Tg"
+            },
+            {
+              "id": "eYuL4ML7TS",
+              "type": "queries",
+              "title": "Query Similar Sport"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 1,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "searchMetadata": [
+    "request",
+    "content"
+  ],
+  "includedMetadata": [
+    "content"
+  ],
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": []
+}

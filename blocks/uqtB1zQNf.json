@@ -1,0 +1,226 @@
+{
+  "results": {
+    "min": 0,
+    "flatAllBlocks": true,
+    "max": 30,
+    "fallbackBlockId": "P0csRsOt7",
+    "deduplicateFlattedResults": true
+  },
+  "blocks": [
+    {
+      "_id": "tSqRQgKgXJ",
+      "condition": "*",
+      "title": "Prima serata Super Top e In Onda",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 3,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true,
+        "fallbackBlockId": "P0csRsOt7"
+      },
+      "queryId": "PKIPtcVd_"
+    },
+    {
+      "_id": "V6F3SVg1j",
+      "condition": "*",
+      "title": "Prima Serata Top e In Onda",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 10,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true,
+        "fallbackBlockId": "P0csRsOt7"
+      },
+      "queryId": "aqIFPp4zi"
+    },
+    {
+      "_id": "J1dM5WN79g",
+      "condition": "*",
+      "title": "Prima Serata e In Onda",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 30,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "fallbackBlockId": "P0csRsOt7",
+        "skipOnEmpty": true
+      },
+      "queryId": "qW2FYtvyr"
+    },
+    {
+      "_id": "KzclhnyjL6",
+      "condition": "*",
+      "title": "Prima Serata",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 30,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_"
+      },
+      "queryId": "WQFzcbZi3"
+    }
+  ],
+  "title": "Med Ita Programmi TV Prima Serata",
+  "description": "",
+  "scheduled": 0,
+  "scheduling": [],
+  "schedulingMap": [],
+  "realm": "content",
+  "canBeFallback": 0,
+  "refs": {
+    "require": [
+      {
+        "type": "queries",
+        "items": [
+          "PKIPtcVd_",
+          "aqIFPp4zi",
+          "qW2FYtvyr",
+          "WQFzcbZi3"
+        ]
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "P0csRsOt7"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": [
+          "eOaXizx_"
+        ]
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "I49jejix7"
+        ]
+      }
+    ]
+  },
+  "id": "uqtB1zQNf",
+  "version": 9,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2022-04-07T15:37:40.306Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "pages",
+          "count": 1,
+          "items": [
+            {
+              "variantId": "I49jejix7",
+              "variantTitle": "Default",
+              "propertyId": "zlqQNxLcGh",
+              "propertyTitle": "play",
+              "endpointId": "m4WH5DZNF",
+              "endpointTitle": "playMediasetItalia-ynrdeBzJ7O"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 6,
+      "types": 6,
+      "items": [
+        {
+          "type": "queries",
+          "count": 4,
+          "items": [
+            {
+              "id": "PKIPtcVd_",
+              "type": "queries",
+              "title": "Med Ita Programmi TV Prima Serata Blocco 1"
+            },
+            {
+              "id": "aqIFPp4zi",
+              "type": "queries",
+              "title": "Med Ita Programmi TV Prima Serata Blocco 2"
+            },
+            {
+              "id": "qW2FYtvyr",
+              "type": "queries",
+              "title": "Med Ita Programmi TV Prima Serata Blocco 3"
+            },
+            {
+              "id": "WQFzcbZi3",
+              "type": "queries",
+              "title": "Med Ita Programmi TV Prima Serata Blocco 4"
+            }
+          ]
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "P0csRsOt7",
+              "type": "blocks",
+              "title": "Block published flag not exists"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 1,
+          "items": [
+            {
+              "id": "eOaXizx_",
+              "type": "responseFields",
+              "title": "PLAY-PROD-VIDEO-MINIMAL-SET"
+            }
+          ]
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": []
+}

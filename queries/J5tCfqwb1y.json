@@ -1,0 +1,159 @@
+{
+  "title": "Query Enabler Stagioni Programmi TV SUPERTOP",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "ju06OqIgO"
+    },
+    {
+      "id": "KdgZfZ_wm"
+    },
+    {
+      "id": "mwku2JtbU5"
+    },
+    {
+      "id": "XrQIQriQGR"
+    },
+    {
+      "id": "mfXQdqG3TO"
+    }
+  ],
+  "exclude": [
+    {
+      "id": "icgYMaSvpq"
+    }
+  ],
+  "include": [],
+  "boost": [],
+  "order": [
+    {
+      "id": "tMgBtvtBy"
+    }
+  ],
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "ju06OqIgO",
+          "KdgZfZ_wm",
+          "mwku2JtbU5",
+          "XrQIQriQGR",
+          "mfXQdqG3TO",
+          "icgYMaSvpq",
+          "tMgBtvtBy"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "ztWfmA_PI"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "Kv6wN8Y2zI"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "id": "J5tCfqwb1y",
+  "version": 32,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-08-27T15:17:21.287Z"
+  },
+  "metadataInRules": [],
+  "presets": {
+    "exclude": [],
+    "filter": [
+      {
+        "id": "ztWfmA_PI"
+      }
+    ]
+  },
+  "metadataOverrides": {},
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "Kv6wN8Y2zI",
+              "type": "blocks",
+              "title": "Block Enabler Stagioni Programmi TV del Momento"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 7,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 6,
+          "items": [
+            {
+              "id": "ju06OqIgO",
+              "type": "rules",
+              "title": "Rule Channel Mediaset Play"
+            },
+            {
+              "id": "KdgZfZ_wm",
+              "type": "rules",
+              "title": "Rule Editorial Type TV Season"
+            },
+            {
+              "id": "mwku2JtbU5",
+              "type": "rules",
+              "title": "Rule Tipologia Intrattenimento Informazione e Sport"
+            },
+            {
+              "id": "XrQIQriQGR",
+              "type": "rules",
+              "title": "Rule etichetta editoriale In Onda"
+            },
+            {
+              "id": "mfXQdqG3TO",
+              "type": "rules",
+              "title": "Rule etichetta editoriale Super Top"
+            },
+            {
+              "id": "tMgBtvtBy",
+              "type": "rules",
+              "title": "Rule Order By Publication date Fep Most Recent Play "
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 1,
+          "items": [
+            {
+              "id": "ztWfmA_PI",
+              "type": "rulesPresets",
+              "title": "Preset Fep attivi"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "realm": "content",
+  "uselessMultiplier": false
+}

@@ -1,0 +1,40 @@
+{
+  "title": "List test video watched utenti ⚠️",
+  "description": "",
+  "type": "contentId",
+  "contentType": "video",
+  "realm": "content",
+  "elements": [
+    "F313384301000201",
+    "F313384301000101",
+    "F313425701000102",
+    "F311461301000103",
+    "F307897001000102"
+  ],
+  "id": "vUBm5IcBk",
+  "version": 2,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2025-03-20T15:08:36.763Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "rules",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  }
+}

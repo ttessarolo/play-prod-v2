@@ -1,0 +1,146 @@
+{
+  "title": "Rule Filtro Documentario da Finzione",
+  "description": "messainscena: chiamante Finzione - chiamata Documentario e Film in presa diretta",
+  "contentType": "video",
+  "clauses": [
+    "exclude"
+  ],
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "(equals(messainscena, \"Finzione\"))",
+      "conditionRaw": {
+        "and": [
+          {
+            "id": "WmJLwPIjHq",
+            "operator": "equals",
+            "values": [
+              {
+                "value": "messainscena",
+                "type": "metadata"
+              },
+              {
+                "value": "\"Finzione\"",
+                "type": "string"
+              }
+            ]
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "I2I",
+      "value": "Film in live presa diretta",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "messainscena",
+      "fieldDBType": "keyword",
+      "_id": "CJapBuQ2JE",
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "API": "V2",
+      "condition": "(equals(messainscena, \"Finzione\"))",
+      "conditionRaw": {
+        "and": [
+          {
+            "id": "a2cxgi7tsq",
+            "operator": "equals",
+            "values": [
+              {
+                "value": "messainscena",
+                "type": "metadata"
+              },
+              {
+                "value": "\"Finzione\"",
+                "type": "string"
+              }
+            ]
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "I2I",
+      "value": "Documentario",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "messainscena",
+      "fieldDBType": "keyword",
+      "_id": "_TjyTd8CWO",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "field": "messainscena",
+  "metadata": {
+    "content": true
+  },
+  "scheduled": false,
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "_UJtujmOS",
+          "ek22t7eOE",
+          "uPK9cU2MwQ",
+          "KrplYijM4",
+          "mkgdGBb51b",
+          "SGD1LQ9Mj",
+          "UhRmAOyNS",
+          "KLRC8NR6Z",
+          "hzT5G0sYG",
+          "hpyoLcJCQ",
+          "MH1tGzFfW",
+          "rlrVLabqSl",
+          "l4aaD5uVWs",
+          "PGHHPIFHQ"
+        ]
+      }
+    ]
+  },
+  "id": "Ehrm1Jwn6",
+  "version": 3,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-03-29T16:05:37.379Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 1,
+          "items": [
+            {
+              "id": "_UJtujmOS",
+              "type": "queries",
+              "title": "Query Similar Cinema"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 1,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "scheduling": [],
+  "schedulingMap": []
+}

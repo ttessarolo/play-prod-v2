@@ -1,0 +1,207 @@
+{
+  "title": "Search Serie",
+  "description": "",
+  "results": {
+    "flatAllBlocks": true,
+    "min": 0,
+    "fallbackBlockId": "P0csRsOt7",
+    "max": 30
+  },
+  "blocks": [
+    {
+      "condition": "not isEmpty(query_all)",
+      "title": "Search Serie",
+      "type": "query",
+      "_id": "UU23GcXWKI",
+      "pinned": true,
+      "results": {
+        "max": 30,
+        "min": 1,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": false,
+        "filters": {
+          "repeatedMetadata": []
+        },
+        "fallbackBlockId": "P0csRsOt7"
+      },
+      "queryId": "wwG2hSMIC",
+      "conditionRaw": {
+        "and": [
+          {
+            "id": "hk18sa6EP",
+            "operator": "!isEmpty",
+            "values": [
+              {
+                "value": "query_all",
+                "type": "metadata"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "scheduled": 0,
+  "canBeFallback": 0,
+  "refs": {
+    "require": [
+      {
+        "type": "queries",
+        "items": [
+          "wwG2hSMIC"
+        ]
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "P0csRsOt7"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": [
+          "eOaXizx_"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "q68HoEaN5k",
+          "Fwy9pCD4dq",
+          "ETMOjkvtg",
+          "VSpgqeifh",
+          "WhMMkSUAmX"
+        ]
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      }
+    ]
+  },
+  "id": "ZyqTEHJfD",
+  "version": 26,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-04-13T10:22:21.446Z"
+  },
+  "enabledPagesId": [
+    "rrjMTUmyqd",
+    "xGMz3ReD9",
+    "ltODLqOFg",
+    "Gw6akjKa4a",
+    "Tac2Yo4sw"
+  ],
+  "refsComputed": {
+    "belongs": {
+      "total": 4,
+      "types": 3,
+      "items": [
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "pages",
+          "count": 2,
+          "items": [
+            {
+              "variantId": "Fwy9pCD4dq",
+              "variantTitle": "Programmi",
+              "propertyId": "rrjMTUmyqd",
+              "propertyTitle": "search",
+              "endpointId": "Tac2Yo4sw",
+              "endpointTitle": "detail"
+            },
+            {
+              "variantId": "VSpgqeifh",
+              "variantTitle": "infSerie",
+              "propertyId": "rrjMTUmyqd",
+              "propertyTitle": "search",
+              "endpointId": "Tac2Yo4sw",
+              "endpointTitle": "detail"
+            }
+          ]
+        },
+        {
+          "type": "blocks",
+          "count": 4,
+          "items": [
+            {
+              "id": "q68HoEaN5k",
+              "type": "blocks",
+              "title": "Main"
+            },
+            {
+              "id": "ETMOjkvtg",
+              "type": "blocks",
+              "title": "infMain"
+            },
+            {
+              "id": "VSpgqeifh",
+              "type": "blocks",
+              "title": "infSerie"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 3,
+      "types": 4,
+      "items": [
+        {
+          "type": "queries",
+          "count": 1,
+          "items": [
+            {
+              "id": "ds8pLOaGO",
+              "type": "queries",
+              "title": "Search Stagioni"
+            }
+          ]
+        },
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "P0csRsOt7",
+              "type": "blocks",
+              "title": "Block published flag not exists"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 1,
+          "items": [
+            {
+              "id": "eOaXizx_",
+              "type": "responseFields",
+              "title": "PLAY-PROD-VIDEO-MINIMAL-SET"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "realm": "content",
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": []
+}

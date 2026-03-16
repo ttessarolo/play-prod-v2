@@ -1,0 +1,62 @@
+{
+  "type": "contentId",
+  "contentType": "video",
+  "realm": "content",
+  "elements": [
+    "SE000000002099",
+    "SE000000000540",
+    "SE000000001091",
+    "SE000000002292",
+    "SE000000002285",
+    "SE000000002173",
+    "SE000000002115",
+    "SE000000001775",
+    "SE000000000323",
+    "SE000000000602",
+    "SE000000000858",
+    "SE000000002284"
+  ],
+  "title": "List ID Series SE per Serie B",
+  "description": "",
+  "metadataField": "series_title",
+  "id": "ra_0r_0qM",
+  "version": 3,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2024-08-01T14:55:45.234Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "rules",
+        "items": [
+          "ARsQ4dtAq"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "rules",
+          "count": 1,
+          "items": [
+            {
+              "id": "ARsQ4dtAq",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  }
+}

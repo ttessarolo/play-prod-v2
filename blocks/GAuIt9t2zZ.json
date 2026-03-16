@@ -1,0 +1,273 @@
+{
+  "results": {
+    "min": 0,
+    "flatAllBlocks": true,
+    "fallbackBlockId": "P0csRsOt7",
+    "max": 70,
+    "deduplicateFlattedResults": true
+  },
+  "blocks": [
+    {
+      "_id": "kngtGvER_N",
+      "condition": "*",
+      "title": "Fiction e Serie TV Super Top MPlay",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 10,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "fallbackBlockId": "P0csRsOt7",
+        "skipOnEmpty": true
+      },
+      "queryId": "qOqWHDpaC"
+    },
+    {
+      "_id": "A6krhNIfu",
+      "condition": "*",
+      "title": "Fiction e Serie TV Top, In onda e Prima serata Mplay",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 20,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true
+      },
+      "queryId": "cOZWtR5QFk"
+    },
+    {
+      "_id": "mhh23CwG0",
+      "condition": "*",
+      "title": "Fiction e Serie TV Top, In onda o Esclusiva primi 3 mesi",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 20,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true
+      },
+      "queryId": "aTlHoTaH0"
+    },
+    {
+      "_id": "RXUv938RZ3",
+      "condition": "*",
+      "title": "Fiction e Serie TV MPlay  In Onda o Esclusiva primo mese",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 40,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true
+      },
+      "queryId": "sAkw5LwYq"
+    },
+    {
+      "_id": "S8_gHR5Uf",
+      "condition": "*",
+      "title": "Fiction e Serie TV MPlay e Inf Top viewed",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 20,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "filters": {
+          "repeatedMetadata": [
+            {
+              "meta": "id_series_se",
+              "moreThan": "1"
+            }
+          ]
+        },
+        "skipOnEmpty": true
+      },
+      "queryId": "pNmPWjxre"
+    }
+  ],
+  "title": "Block Fiction e Serie TV del momento Sezione",
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "realm": "content",
+  "refs": {
+    "require": [
+      {
+        "type": "queries",
+        "items": [
+          "qOqWHDpaC",
+          "cOZWtR5QFk",
+          "aTlHoTaH0",
+          "sAkw5LwYq",
+          "pNmPWjxre"
+        ]
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "P0csRsOt7"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": [
+          "eOaXizx_"
+        ]
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "PORHTlGBe",
+          "Q7H3gYrrMH",
+          "QLhb1DQxx",
+          "jHz8QQRV0"
+        ]
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      }
+    ]
+  },
+  "id": "GAuIt9t2zZ",
+  "version": 33,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2023-09-27T14:39:19.526Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 2,
+      "types": 1,
+      "items": [
+        {
+          "type": "pages",
+          "count": 2,
+          "items": [
+            {
+              "variantId": "PORHTlGBe",
+              "propertyId": "zlqQNxLcGh",
+              "propertyTitle": "",
+              "endpointId": "P6UdjLapE",
+              "endpointTitle": ""
+            },
+            {
+              "variantId": "Q7H3gYrrMH",
+              "propertyId": "zlqQNxLcGh",
+              "propertyTitle": "",
+              "endpointId": "nyMd3k9ed",
+              "endpointTitle": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 7,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 5,
+          "items": [
+            {
+              "id": "qOqWHDpaC",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "cOZWtR5QFk",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "aTlHoTaH0",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "sAkw5LwYq",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "pNmPWjxre",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "P0csRsOt7",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 1,
+          "items": [
+            {
+              "id": "eOaXizx_",
+              "type": "responseFields",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": []
+}

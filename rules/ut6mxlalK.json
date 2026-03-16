@@ -1,0 +1,56 @@
+{
+  "contentType": "video",
+  "clauses": [
+    "exclude"
+  ],
+  "rule": [
+    {
+      "condition": "*",
+      "boost": 1,
+      "type": "I2I",
+      "_id": "HHfjDDxLXO",
+      "checkExists": "true",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      },
+      "field": "published_flag",
+      "fieldDBType": "keyword",
+      "queryType": "checkExists",
+      "API": "V2"
+    }
+  ],
+  "field": "published_flag",
+  "title": "Rule published flag not exists",
+  "description": "Per ottenere zero risultati. Utilizzato per fallback del Person to content FILM",
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "Bp2vlkr00",
+          "iUE9p_L5z",
+          "nOcHilFiK",
+          "ZZOC6cufcM",
+          "mrSyvOlt2"
+        ]
+      }
+    ]
+  },
+  "id": "ut6mxlalK",
+  "version": 1,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2020-09-22T10:16:52.198Z"
+  }
+}

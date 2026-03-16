@@ -1,0 +1,204 @@
+{
+  "metadataInRules": [],
+  "title": "Query Default Search Stagioni",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "IS4CyRshS"
+    },
+    {
+      "id": "N8v6Gb2Ty6"
+    }
+  ],
+  "exclude": [],
+  "include": [],
+  "boost": [
+    {
+      "id": "mfXQdqG3TO"
+    },
+    {
+      "id": "RqBahOBRSz"
+    },
+    {
+      "id": "S__HGJYN5V"
+    },
+    {
+      "id": "bxjJcRxw6j"
+    },
+    {
+      "id": "AlCYTEPhW"
+    },
+    {
+      "id": "elT4DxH4Cc",
+      "overides": {
+        "kNQ0fFRoy": {
+          "boost": 1
+        }
+      }
+    },
+    {
+      "id": "xu8XdKNqp",
+      "overides": {
+        "KLZEQSo2L": {
+          "boost": 3
+        }
+      }
+    }
+  ],
+  "order": [
+    {
+      "id": "qlfsOYKTD"
+    }
+  ],
+  "general": {
+    "resultsMultiplier": 1,
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9
+  },
+  "presets": {
+    "filter": [
+      {
+        "id": "ztWfmA_PI"
+      }
+    ]
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "IS4CyRshS",
+          "N8v6Gb2Ty6",
+          "mfXQdqG3TO",
+          "RqBahOBRSz",
+          "S__HGJYN5V",
+          "bxjJcRxw6j",
+          "AlCYTEPhW",
+          "elT4DxH4Cc",
+          "xu8XdKNqp",
+          "qlfsOYKTD"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "ztWfmA_PI"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "V8fuaquogZ"
+        ]
+      }
+    ]
+  },
+  "id": "xmIlupiAS",
+  "version": 12,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-04-01T16:30:56.063Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "V8fuaquogZ",
+              "type": "blocks",
+              "title": "Block Default Search Stagioni"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 12,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 11,
+          "items": [
+            {
+              "id": "IS4CyRshS",
+              "type": "rules",
+              "title": "Rule Stagioni MPlay Default Search"
+            },
+            {
+              "id": "N8v6Gb2Ty6",
+              "type": "rules",
+              "title": "Rule Params Channel Infinity Serie "
+            },
+            {
+              "id": "n1PFC8Cdd",
+              "type": "rules",
+              "title": "Rule Escludi Content channel non Mediaset Play"
+            },
+            {
+              "id": "mfXQdqG3TO",
+              "type": "rules",
+              "title": "Rule etichetta editoriale Super Top"
+            },
+            {
+              "id": "RqBahOBRSz",
+              "type": "rules",
+              "title": "Rule etichetta editoriale Top"
+            },
+            {
+              "id": "S__HGJYN5V",
+              "type": "rules",
+              "title": "Rule etichetta editoriale Prima Serata"
+            },
+            {
+              "id": "bxjJcRxw6j",
+              "type": "rules",
+              "title": "Rule etichetta editoriale Prima TV"
+            },
+            {
+              "id": "AlCYTEPhW",
+              "type": "rules",
+              "title": "Rule Genere mcm Talent show e Reality show"
+            },
+            {
+              "id": "elT4DxH4Cc",
+              "type": "rules",
+              "title": "Rule Genere Mcm Soap Opera "
+            },
+            {
+              "id": "xu8XdKNqp",
+              "type": "rules",
+              "title": "Rule Boost Last 24h Videoviews over 2500"
+            },
+            {
+              "id": "qlfsOYKTD",
+              "type": "rules",
+              "title": "Rule Più visti 24h params channel"
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 1,
+          "items": [
+            {
+              "id": "ztWfmA_PI",
+              "type": "rulesPresets",
+              "title": "Preset Fep attivi"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "uselessMultiplier": false,
+  "metadataOverrides": {}
+}

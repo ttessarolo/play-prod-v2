@@ -1,0 +1,110 @@
+{
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "oBvzKyfF6"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 1,
+          "items": [
+            {
+              "id": "oBvzKyfF6",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "title": "Rule SRC Default Film",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "keepOrder": false,
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "video_similar_src_default_film",
+      "valueType": "metadata",
+      "queryType": "ids",
+      "field": "video_content_id",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "wR_QPhBX6A"
+    }
+  ],
+  "clauses": [
+    "filter",
+    "include"
+  ],
+  "metadata": {
+    "content_similar": {
+      "required": true,
+      "metadata": {
+        "included": [
+          "tipologia=Film",
+          "editorial_type=Movie",
+          "video_format=(HD) OR (SD)",
+          "content_channels_rights=(Infinity_SVOD) OR (MediasetPlay_AVOD) OR (Noleggio_TVOD)"
+        ],
+        "excluded": [
+          "content_channels=(InfAutore) OR (InfLight) OR (InfComico) OR (InfNero) OR (MediasetItalia)"
+        ]
+      },
+      "groupby": {
+        "metadata": "content_channels",
+        "results": 2,
+        "sortMetadata": "last24h_videoviews",
+        "sortDirection": "desc"
+      },
+      "output": "video_similar_src_default_film"
+    }
+  },
+  "id": "h66JtPhyp",
+  "version": 9,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2023-01-20T11:46:22.273Z"
+  }
+}

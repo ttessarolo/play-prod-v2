@@ -1,0 +1,21 @@
+{
+  "title": "Lista tipologia Serie Tv Fiction e Film",
+  "description": "",
+  "type": "text",
+  "contentType": "video",
+  "realm": "content",
+  "elements": [
+    "Serie TV",
+    "Fiction",
+    "Film"
+  ],
+  "id": "ds3HzOfs4",
+  "version": 1,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-05-20T15:49:10.389Z"
+  },
+  "refs": {
+    "belongs": []
+  }
+}

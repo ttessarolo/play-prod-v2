@@ -1,0 +1,227 @@
+{
+  "id": "fm0gjH0tS",
+  "propertyId": "zlqQNxLcGh",
+  "title": "Ipotesi Cluster",
+  "description": "Please Edit description for Page \"Variant 1\"",
+  "enabledPagesId": [
+    "onteU8tNE"
+  ],
+  "isPage": true,
+  "blocks": [
+    {
+      "id": "mVJ9_MEbx",
+      "condition": "*",
+      "title": "Da scoprire",
+      "type": "nested",
+      "layout": {
+        "i": "mVJ9_MEbx",
+        "x": 0,
+        "y": 1,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true,
+        "skipOnEmpty": true
+      },
+      "blockId": "GvHRIa04E",
+      "viewAll": {
+        "id": "q92sG36gh",
+        "reference": "viewAllCluster"
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        }
+      }
+    },
+    {
+      "id": "aftGBuTxZ",
+      "condition": "*",
+      "title": "Da scoprire",
+      "type": "nested",
+      "layout": {
+        "i": "aftGBuTxZ",
+        "x": 0,
+        "y": 2,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "gMhxxXnF4",
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H"
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        }
+      }
+    }
+  ],
+  "version": 10,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2023-11-23T15:15:56.496Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "endpoints",
+        "items": [
+          "onteU8tNE"
+        ]
+      }
+    ],
+    "require": [
+      {
+        "type": "queries",
+        "items": []
+      },
+      {
+        "type": "endpoints",
+        "items": [
+          "q92sG36gh",
+          "WXsJUgBAp"
+        ]
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "Rc1YEkVxO",
+          "GvHRIa04E",
+          "gMhxxXnF4"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "onteU8tNE",
+              "type": "endpoints",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 5,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "endpoints",
+          "count": 2,
+          "items": [
+            {
+              "id": "q92sG36gh",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "WXsJUgBAp",
+              "type": "endpoints",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "blocks",
+          "count": 3,
+          "items": [
+            {
+              "id": "Rc1YEkVxO",
+              "type": "blocks"
+            },
+            {
+              "id": "GvHRIa04E",
+              "type": "blocks"
+            },
+            {
+              "id": "gMhxxXnF4",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "layout": [
+    {
+      "i": "mVJ9_MEbx",
+      "x": 0,
+      "y": 1,
+      "w": 12,
+      "h": 30,
+      "blocks": []
+    },
+    {
+      "i": "aftGBuTxZ",
+      "x": 0,
+      "y": 2,
+      "w": 12,
+      "h": 30,
+      "blocks": []
+    }
+  ],
+  "results": {
+    "min": "1",
+    "fallbackBlockId": "Rc1YEkVxO",
+    "fullSubstituteFallback": true,
+    "max": "1"
+  }
+}

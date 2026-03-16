@@ -1,0 +1,55 @@
+{
+  "title": "Rule Date Range Due Giorni",
+  "description": "Chiama contenuti con Date Range + o - 2 giorni dalla publication_date del chiamante",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "range": 2,
+      "period": "d",
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "when_now",
+      "valueType": "metadata",
+      "queryType": "range",
+      "field": "publication_date",
+      "fieldNested": 0,
+      "fieldDBType": "date",
+      "_id": "lFimzsm8f"
+    }
+  ],
+  "clauses": [
+    "boost",
+    "order"
+  ],
+  "metadata": {
+    "content": false,
+    "time": true
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "eYuL4ML7TS",
+          "jNFBAYUGK",
+          "YLPLAtYlN"
+        ]
+      }
+    ]
+  },
+  "id": "vhMYDKwOD",
+  "version": 1,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-03-29T17:07:03.088Z"
+  }
+}

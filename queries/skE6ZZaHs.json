@@ -1,0 +1,215 @@
+{
+  "title": "Query Home Pay Generi per Parametri Film Blocco 2",
+  "description": "Contenuti Infinity + Mplay\nPer la Homepage clienti Pay",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "MrtMAYnbZ"
+    },
+    {
+      "id": "83txjtJm"
+    },
+    {
+      "id": "Qs0Vux5WH_"
+    },
+    {
+      "id": "MhwnTO2PIM"
+    },
+    {
+      "id": "MuizEfGLE"
+    },
+    {
+      "id": "vKGPyoliA"
+    }
+  ],
+  "exclude": [
+    {
+      "id": "VoB_5PHJs"
+    },
+    {
+      "id": "KaBngUzH4b"
+    }
+  ],
+  "include": [],
+  "boost": [
+    {
+      "id": "_8ZV5sLIn"
+    }
+  ],
+  "order": [
+    {
+      "id": "Oyp_jIxo6"
+    },
+    {
+      "id": "J0NNb391SF"
+    }
+  ],
+  "realm": "content",
+  "presets": {
+    "filter": [
+      {
+        "id": "TuAyi0elu"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "KhQ3IziFJ"
+      }
+    ]
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "MrtMAYnbZ",
+          "83txjtJm",
+          "Qs0Vux5WH_",
+          "MhwnTO2PIM",
+          "MuizEfGLE",
+          "vKGPyoliA",
+          "VoB_5PHJs",
+          "KaBngUzH4b",
+          "_8ZV5sLIn",
+          "Oyp_jIxo6",
+          "J0NNb391SF"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "TuAyi0elu",
+          "KhQ3IziFJ"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "hr35tVjd2"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": "0.1",
+    "resultsMultiplier": 1
+  },
+  "id": "skE6ZZaHs",
+  "version": 28,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-04-20T17:42:53.702Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "hr35tVjd2",
+              "type": "blocks",
+              "title": "Home Pay Generi per Parametri Film"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 14,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 12,
+          "items": [
+            {
+              "id": "MrtMAYnbZ",
+              "type": "rules",
+              "title": "Rule Channel Mediaset Play e Infinity"
+            },
+            {
+              "id": "83txjtJm",
+              "type": "rules",
+              "title": "Rule Tipologia Film"
+            },
+            {
+              "id": "Qs0Vux5WH_",
+              "type": "rules",
+              "title": "Rule Editorial Type Movie"
+            },
+            {
+              "id": "MhwnTO2PIM",
+              "type": "rules",
+              "title": "Rule params_genre"
+            },
+            {
+              "id": "MuizEfGLE",
+              "type": "rules",
+              "title": "Rule  Anno Produzione over 1995"
+            },
+            {
+              "id": "vKGPyoliA",
+              "type": "rules",
+              "title": "Rule Params filterBy audio subtitle listing page"
+            },
+            {
+              "id": "VoB_5PHJs",
+              "type": "rules",
+              "title": "Rule Esclude Classici per Params Genre"
+            },
+            {
+              "id": "KaBngUzH4b",
+              "type": "rules",
+              "title": "Rule Esclude Animazione params Azione Thriller Avventura"
+            },
+            {
+              "id": "_8ZV5sLIn",
+              "type": "rules",
+              "title": "Rule Params orderBy relevanceDesc listing page"
+            },
+            {
+              "id": "Oyp_jIxo6",
+              "type": "rules",
+              "title": "Rule Params orderBy listing page TvSeason Video"
+            },
+            {
+              "id": "fnNa_WKV",
+              "type": "rules",
+              "title": "Rule Order By Most Recent Params"
+            },
+            {
+              "id": "J0NNb391SF",
+              "type": "rules",
+              "title": "Rule Piu visti 24h Params"
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 2,
+          "items": [
+            {
+              "id": "TuAyi0elu",
+              "type": "rulesPresets",
+              "title": "Preset SearchVisible e FrontEnd Visible True"
+            },
+            {
+              "id": "KhQ3IziFJ",
+              "type": "rulesPresets",
+              "title": "Preset Video format exclude 4K"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "metadataOverrides": {},
+  "uselessMultiplier": false
+}

@@ -1,0 +1,108 @@
+{
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": [
+          "OfvVSOjhRz"
+        ]
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "vsTj9ViKs"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 1,
+          "items": [
+            {
+              "id": "vsTj9ViKs",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 1,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 1,
+          "items": [
+            {
+              "id": "OfvVSOjhRz",
+              "type": "lists",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "title": "Rule Blacklist Item Link",
+  "description": "",
+  "clauses": [
+    "exclude"
+  ],
+  "contentType": "link",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "OfvVSOjhRz",
+      "valueType": "list",
+      "queryType": "listTermsId",
+      "field": "cardTitle",
+      "fieldNested": 0,
+      "fieldDBType": "text",
+      "_id": "t1cty1xp6Y"
+    },
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "600ec49123eec6001a965e39",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "id",
+      "fieldNested": 0,
+      "fieldDBType": "text",
+      "_id": "ftR7BIrF3"
+    }
+  ],
+  "id": "yYKxUyFDEu",
+  "version": 4,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2024-07-17T16:06:13.947Z"
+  },
+  "grouped": true,
+  "operator": "or"
+}

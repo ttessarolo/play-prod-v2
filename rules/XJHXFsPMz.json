@@ -1,0 +1,164 @@
+{
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "(equals(context_4kcapability, \"4ksdr\"))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "equals",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "context_4kcapability"
+              },
+              {
+                "value": "\"4ksdr\"",
+                "type": "string"
+              }
+            ],
+            "id": "QIwH4HRLW7"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "4K HDR",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "video_format",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "CuwEYDJMk",
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "API": "V2",
+      "condition": "(isEmpty(context_4kcapability))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "isEmpty",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "context_4kcapability"
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ],
+            "id": "QIwH4HRLW7"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "ujPBjJfMj",
+      "valueType": "list",
+      "queryType": "listTermsId",
+      "field": "video_format",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "YOQt0_NILm",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "clauses": [
+    "exclude"
+  ],
+  "metadata": {
+    "content": false
+  },
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "title": "Rule Exclude Context 4K capability per SRC Search",
+  "description": "",
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": [
+          "ujPBjJfMj"
+        ]
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "CGFfVq3sX",
+          "O43LrW3K3",
+          "DB7Fg4hfA",
+          "Z4Xzab9uO0"
+        ]
+      }
+    ]
+  },
+  "id": "XJHXFsPMz",
+  "version": 15,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2023-01-19T15:49:50.638Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 2,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 2,
+          "items": [
+            {
+              "id": "CGFfVq3sX",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "O43LrW3K3",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 1,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 1,
+          "items": [
+            {
+              "id": "ujPBjJfMj",
+              "type": "lists",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": []
+}

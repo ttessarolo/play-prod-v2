@@ -1,0 +1,262 @@
+{
+  "id": "client",
+  "tenantId": "play",
+  "language": "EN",
+  "maxItems": 1000,
+  "dashboard": [
+    {
+      "title": "4R3S",
+      "items": [
+        "https://ares-grafana-test.ares-mediaset.net/d-solo/at-cost-analysis-pod/kubernetes-namespace-pod?orgId=1&refresh=5s&from=1581517474080&to=1581518374080&var-namespace=ares&var-pod=ares-builder-block-6c5cd8d4bf-4q7ft&panelId=102",
+        "https://ares-grafana-test.ares-mediaset.net/d-solo/TSEY6jLmk/istio-galley-dashboard?orgId=1&refresh=5s&from=1581519794454&to=1581520094454&panelId=20",
+        "https://ares-grafana-test.ares-mediaset.net/d-solo/at-cost-analysis-pod/kubernetes-namespace-pod?orgId=1&refresh=5s&from=1581519306068&to=1581520206068&var-namespace=ares&var-pod=ares-builder-block-6c5cd8d4bf-4q7ft&panelId=104"
+      ]
+    },
+    {
+      "title": "SearchEngine",
+      "items": [
+        "https://ares-grafana-test.ares-mediaset.net/d-solo/eCN_s8yWk/aws-elasticsearch?orgId=1&refresh=1m&from=1581509455915&to=1581520255916&var-datasource=AWS%20Cloudwatch&var-region=eu-west-1&var-domainName=testares-es-domain-v3&var-clientId=682088819034&panelId=7",
+        "https://ares-grafana-test.ares-mediaset.net/d-solo/eCN_s8yWk/aws-elasticsearch?orgId=1&refresh=1m&from=1581509478100&to=1581520278100&var-datasource=AWS%20Cloudwatch&var-region=eu-west-1&var-domainName=testares-es-domain-v3&var-clientId=682088819034&panelId=2",
+        "https://ares-grafana-test.ares-mediaset.net/d-solo/eCN_s8yWk/aws-elasticsearch?orgId=1&refresh=1m&from=1581509535558&to=1581520335558&var-datasource=AWS%20Cloudwatch&var-region=eu-west-1&var-domainName=testares-es-domain-v3&var-clientId=682088819034&panelId=19"
+      ]
+    },
+    {
+      "title": "Cache",
+      "items": [
+        "https://ares-grafana-test.ares-mediaset.net/d-solo/j04LmqyZk/aws-elasticache-redis?orgId=1&from=1581477181244&to=1581520381244&var-datasource=AWS%20Cloudwatch&var-region=eu-west-1&var-cacheclusterId=testares-cluster-off-001&var-cachenodeid=0001&panelId=1",
+        "https://ares-grafana-test.ares-mediaset.net/d-solo/j04LmqyZk/aws-elasticache-redis?orgId=1&from=1581477219677&to=1581520419677&var-datasource=AWS%20Cloudwatch&var-region=eu-west-1&var-cacheclusterId=testares-cluster-off-001&var-cachenodeid=0001&panelId=13",
+        "https://ares-grafana-test.ares-mediaset.net/d-solo/j04LmqyZk/aws-elasticache-redis?orgId=1&from=1581477243984&to=1581520443984&var-datasource=AWS%20Cloudwatch&var-region=eu-west-1&var-cacheclusterId=testares-cluster-off-001&var-cachenodeid=0001&panelId=14"
+      ]
+    }
+  ],
+  "sortSuffixes": [
+    {
+      "value": "",
+      "label": "None"
+    },
+    {
+      "value": "keyword",
+      "label": "Keyword"
+    },
+    {
+      "value": "keywordLowercase",
+      "label": "Keyword (Lowercase)"
+    }
+  ],
+  "endpointsMandatoryInputFields": [
+    "tenant",
+    "uxReference"
+  ],
+  "uiSettings": {
+    "input": {
+      "schema": {
+        "name": "Input Validation Schema",
+        "description": "ARES Request Params",
+        "type": "object",
+        "required": [
+          "query"
+        ],
+        "properties": {
+          "query": {
+            "type": "object",
+            "required": [
+              "tenant",
+              "uxReference"
+            ],
+            "properties": {
+              "tenant": {
+                "type": "string"
+              },
+              "uxReference": {
+                "type": "string"
+              },
+              "userId": {
+                "type": "string"
+              },
+              "userType": {
+                "type": "string"
+              },
+              "userGroup": {
+                "type": "string"
+              },
+              "deviceId": {
+                "type": "string"
+              },
+              "contentId": {
+                "type": "string"
+              },
+              "sessionId": {
+                "type": "string"
+              },
+              "context": {
+                "type": "string"
+              },
+              "query": {
+                "type": "string"
+              },
+              "params": {
+                "type": "string"
+              },
+              "startBlock": {
+                "type": "number"
+              },
+              "endBlock": {
+                "type": "number"
+              },
+              "page": {
+                "type": "number"
+              },
+              "hitsPerPage": {
+                "type": "number"
+              },
+              "freeClusterId": {
+                "type": "string"
+              },
+              "infinityClusterId": {
+                "type": "string"
+              },
+              "unifiedClusterId": {
+                "type": "string"
+              },
+              "clusterId": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "params": {
+      "timeout": 1500,
+      "cacheConfig": {
+        "cache": false,
+        "cacheTTL": 300
+      }
+    },
+    "paramsId": "playDefault",
+    "output": {
+      "decorators": [
+        "mU5ep6Aze"
+      ]
+    }
+  },
+  "uiParams": {
+    "preview": {
+      "currentParams": {},
+      "uiParams": {
+        "current": "User Logged #2",
+        "currentIndex": 2,
+        "sets": [
+          {
+            "title": "Anonymous",
+            "params": {
+              "contentId": {
+                "value": "F010791601000102",
+                "active": true
+              },
+              "userId": {
+                "value": "1f51d5e9f09e4d349fa3af349e1cdac4",
+                "active": false
+              },
+              "deviceId": {
+                "value": "ARES-CC",
+                "active": true
+              }
+            }
+          },
+          {
+            "title": "User Logged #1",
+            "params": {
+              "contentId": {
+                "value": "F010791601000102",
+                "active": true
+              },
+              "userId": {
+                "value": "1f51d5e9f09e4d349fa3af349e1cdac4",
+                "active": true
+              },
+              "deviceId": {
+                "value": "ARES-CC",
+                "active": true
+              }
+            }
+          },
+          {
+            "title": "User Logged #2",
+            "params": {
+              "contentId": {
+                "value": "F010791601000102",
+                "active": true
+              },
+              "userId": {
+                "value": "36e9cfd5ec474972ba1a82d19696346c",
+                "active": true
+              },
+              "deviceId": {
+                "value": "ARES-CC",
+                "active": true
+              }
+            }
+          }
+        ]
+      },
+      "decorator": "(\n   {\n     \"layout\": layout,\n     \"blocks\": $map(blocks ? blocks : entries, function($block){(\n        $iterator :=  $exists($block.entries) ? $block.entries : $exists($block.items) ? $block.items : $block;\n\n        {\n            \"id\":$block._aresId,\n            \"title\":$block.title,\n            \"type\":$block._blockType,\n            \"score\":$block._smartOrderingScore,\n            \"results\":$count($iterator),\n            \"pinned\":$block.pinned,\n            \"layout\":$block.layout,\n            \"items\":$map($iterator, function($item) {(\n            {\n                \"contentId\": $item.video_content_id ? $item.video_content_id : $item.id ?  $item.id : $item.video_content_id,\n                \"title\": $item.title,  \n                \"imageURL\": $item.thumbnails ? $item.thumbnails.`image_keyframe_poster-292x165`.url : $item.horizontal_poster, \n                \"date\":$item.`mediasetprogram$publishInfo_lastPublished` ? $fromMillis($item.`mediasetprogram$publishInfo_lastPublished`) : $item.publication_date,\n                \"category\":$item.editorial_type\n            }      \n        )})\n        }\n    )})\n   }\n\n)"
+    },
+    "layout": {
+      "currentParams": {
+        "paramsId": "playDefault",
+        "contentId": "F301644701000103",
+        "userId": "1f51d5e9f09e4d349fa3af349e1cdac4",
+        "deviceId": "ARES-CC"
+      },
+      "uiParams": {
+        "current": "Default",
+        "currentIndex": 0,
+        "sets": [
+          {
+            "title": "Default",
+            "params": {
+              "paramsId": {
+                "value": "playDefault",
+                "active": true
+              },
+              "contentId": {
+                "value": "F301644701000103",
+                "active": true
+              },
+              "userId": {
+                "value": "1f51d5e9f09e4d349fa3af349e1cdac4",
+                "active": true
+              },
+              "deviceId": {
+                "value": "ARES-CC",
+                "active": true
+              }
+            }
+          }
+        ]
+      },
+      "decorator": "(\n    $iterator :=  $exists(blocks.entries) ? blocks.entries : entries ? entries : blocks.items;\n\n    $map($iterator, function($item) {(\n        {\n            \"contentId\": $item.id ?  $item.id : $item.video_content_id,\n            \"title\": $item.title,  \n            \"imageURL\": $item.thumbnails ? $item.thumbnails.`image_keyframe_poster-292x165`.url : $item.horizontal_poster, \n            \"date\":$item.`mediasetprogram$publishInfo_lastPublished` ? $fromMillis($item.`mediasetprogram$publishInfo_lastPublished`) : $item.publication_date,\n            \"category\":$item.editorial_type\n        }      \n    )})\n\n)"
+    },
+    "blockExplorer": {
+      "decorator": "(\n   $map(blocks, function($block){(\n        {\n            \"id\":$block._aresId,\n            \"title\":$block.title,\n            \"type\":$block._blockType,\n            \"results\":$count($block.items),\n            \"items\":$map($block.items, function($item) {(\n            {\n                \"contentId\": #{contentId},\n                \"title\": #{title},  \n                \"imageURL\": #{imageURL}, \n                \"date\": #{date},\n                \"category\": #{category},\n                \"description\": #{description}\n            }      \n        )})\n        }\n    )})\n)"
+    }
+  },
+  "uiMetadata": {
+    "block": [
+      {
+        "id": "r43Mh61Jhy",
+        "title": "Default",
+        "metadata": []
+      }
+    ]
+  },
+  "filterMetadata": [
+    "fingerprint",
+    "clear_metas"
+  ],
+  "lastSaved": {
+    "username": "ttessarolo",
+    "date": "2026-02-26T11:17:16.945Z"
+  }
+}

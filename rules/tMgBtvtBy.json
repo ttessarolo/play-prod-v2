@@ -1,0 +1,187 @@
+{
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "sortOrder": "desc",
+      "sortMode": "avg",
+      "API": "V2",
+      "condition": "*",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": [
+              {
+                "type": "metadata",
+                "value": ""
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ],
+            "id": "k7IvYMuTwe"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "",
+      "valueType": "",
+      "queryType": "sortOrder",
+      "field": "publication_date_fep_most_recent_play",
+      "fieldNested": 0,
+      "fieldDBType": "date",
+      "_id": "xthjEcCaIy",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "clauses": [
+    "order"
+  ],
+  "title": "Rule Order By Publication date Fep Most Recent Play ",
+  "description": "",
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "PAFpFHSdQ",
+          "zHlSX9ygS",
+          "us3vUNLgO",
+          "R4M6lw89s",
+          "J5tCfqwb1y",
+          "FF6GVv2DC",
+          "I1706J335",
+          "ZmqQWEcF8",
+          "vloOlFQwh",
+          "_v4wfuHNr",
+          "rkiCo37Zx",
+          "AQ0EW0owXS",
+          "T2R37bH_w",
+          "PzMzP5D6R",
+          "hhqbCjmm_1",
+          "i7977YQbm",
+          "zqakv8vZvB",
+          "qOqWHDpaC",
+          "cOZWtR5QFk",
+          "aTlHoTaH0",
+          "mvZ0e6XOY",
+          "CAd6ogG7u",
+          "TLxbxZNoD",
+          "uk8fnabnQY",
+          "_YcmnLaH4",
+          "hbPc0tj9I",
+          "SwEdO0Rot",
+          "JR8cDQowD",
+          "YMNQr6Pus",
+          "sC1otJfhE",
+          "PKIPtcVd_",
+          "aqIFPp4zi",
+          "qW2FYtvyr",
+          "tNuQWnsHf",
+          "kBxcwzsiW8",
+          "S5KdN0aRZ",
+          "UxPXwvjeT",
+          "ziE_vsPP2x",
+          "WQFzcbZi3",
+          "IjuqSujtX",
+          "YSg0jB6ZY",
+          "fPSsZdCBTk",
+          "A7GegaBl8",
+          "V66dk1Z4w",
+          "m8rpiaFciK",
+          "o3oATF3Xw",
+          "ABUvps5All",
+          "TNtOUf6kS",
+          "Hgvp3RuY2",
+          "eYpjGfjVG",
+          "Fnu1as9qg",
+          "m_gnuihp0",
+          "kc8b7byAm",
+          "YutotoG_ze",
+          "KAsq06N6F",
+          "OvIXofGN2E",
+          "tC8ZKQ37Ld",
+          "P9Ls7vSds",
+          "sRlHZqMawB",
+          "mtx6Ew_wWR",
+          "nGhPhWBeV",
+          "jTxxLascsn",
+          "sAkw5LwYq",
+          "kNF9by9ui",
+          "hn5iFhhbZ",
+          "opSo8V1UKT",
+          "VYVUiuCSM",
+          "jxdmOp891w"
+        ]
+      }
+    ]
+  },
+  "id": "tMgBtvtBy",
+  "version": 7,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-06-10T12:56:06.387Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 4,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 4,
+          "items": [
+            {
+              "id": "nfx18gJXx",
+              "type": "queries",
+              "title": "INF Stagioni Serie TV in Prima TV Pay"
+            },
+            {
+              "id": "jghd_cW_3",
+              "type": "queries",
+              "title": "INF Serie Most recent Blocco 2"
+            },
+            {
+              "id": "b9MEPMrAY",
+              "type": "queries",
+              "title": "INF Serie Most recent Blocco 1"
+            },
+            {
+              "id": "qOqWHDpaC",
+              "type": "queries",
+              "title": "Query Fiction e Serie TV del momento Blocco 1"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 1,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "scheduled": 0,
+  "scheduling": [],
+  "schedulingMap": [],
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": []
+}

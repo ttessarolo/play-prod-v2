@@ -1,0 +1,730 @@
+{
+  "id": "static",
+  "title": "Static",
+  "description": "",
+  "tenant": "play",
+  "country": "IT",
+  "timezone": "Europe/Rome",
+  "users": {
+    "payload": {
+      "idField": "userId",
+      "idCluster": "clusterId",
+      "idDevice": "deviceId"
+    },
+    "clusters": {
+      "defaults": {
+        "type": "user",
+        "collaborative": {
+          "perUserBasis": {
+            "value": false
+          },
+          "score": {
+            "type": "percentage",
+            "value": 100,
+            "min": 10,
+            "max": 100
+          },
+          "minDocs": {
+            "min": 3,
+            "max": 500,
+            "value": 3
+          },
+          "maxDocs": {
+            "min": 500,
+            "max": 100000,
+            "value": 5000
+          },
+          "numElements": {
+            "value": 150,
+            "min": 10,
+            "max": 250
+          },
+          "cacheConfig": {
+            "cache": true,
+            "cacheTTL": 1200,
+            "cachePrefix": {
+              "group": false
+            }
+          }
+        },
+        "similar": {
+          "perUserBasis": {
+            "value": false
+          },
+          "numElements": {
+            "value": 150,
+            "min": 10,
+            "max": 550
+          },
+          "score": {
+            "type": "percentage",
+            "value": 100,
+            "min": 10,
+            "max": 100
+          },
+          "fingerprint": {
+            "boost": {
+              "min": 1,
+              "max": 500,
+              "value": 10
+            },
+            "minDocs": {
+              "min": 5,
+              "max": 50,
+              "value": 25
+            },
+            "maxDocs": {
+              "min": 500,
+              "max": 100000,
+              "value": 5000
+            },
+            "minTerms": {
+              "value": 1,
+              "min": 1,
+              "max": 500
+            },
+            "maxTerms": {
+              "value": 200,
+              "min": 20,
+              "max": 500
+            }
+          },
+          "cacheConfig": {
+            "cache": true,
+            "cacheTTL": 1200,
+            "cachePrefix": {
+              "group": false
+            }
+          }
+        },
+        "general": {
+          "fingerprintTypeDef": "midTerm",
+          "cacheConfig": {
+            "cache": true,
+            "cacheHourLimit": 6,
+            "cacheMinutesLimit": 0,
+            "cachePrefix": {}
+          }
+        }
+      },
+      "types": {
+        "user": {
+          "name": "Utenti",
+          "index": "utenti_static",
+          "contentIdField": "user_id",
+          "payloadIdField": "userId",
+          "cacheConfig": {},
+          "consumedEvent": "watched",
+          "events": {
+            "watched": {
+              "contentTypes": {
+                "video": {
+                  "fields": {
+                    "raw": "video_watched.keyword",
+                    "simple": "video_watched",
+                    "fingerprint": {
+                      "historical": "video_historical_fingerprint",
+                      "midTerm": "video_midterm_fingerprint",
+                      "session": "video_session_fingerprint"
+                    },
+                    "ordered": "video_watched_w_ts"
+                  },
+                  "collaborative": {},
+                  "similar": {}
+                }
+              }
+            },
+            "liked": {
+              "contentTypes": {
+                "video": {
+                  "fields": {
+                    "raw": "video_liked.keyword",
+                    "simple": "video_liked",
+                    "fingerprint": {
+                      "historical": "video_historical_fingerprint",
+                      "midTerm": "video_midterm_fingerprint",
+                      "session": "video_session_fingerprint"
+                    }
+                  },
+                  "collaborative": {},
+                  "similar": {}
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "content": {
+    "defaults": {
+      "general": {
+        "recommendableField": "recommendable",
+        "cacheConfig": {
+          "cache": true,
+          "cacheTTL": 1200,
+          "cachePrefix": {
+            "group": true
+          }
+        }
+      },
+      "similar": {
+        "numElements": {
+          "value": 150,
+          "min": 10,
+          "max": 1500
+        },
+        "score": {
+          "type": "percentage",
+          "value": 100,
+          "min": 10,
+          "max": 100
+        },
+        "fingerprint": {
+          "boost": {
+            "min": 1,
+            "max": 500,
+            "value": 10
+          },
+          "minTerms": {
+            "min": 1,
+            "max": 50,
+            "value": 1
+          },
+          "maxTerms": {
+            "min": 25,
+            "max": 250,
+            "value": 200
+          },
+          "minDocs": {
+            "min": 5,
+            "max": 50,
+            "value": 5
+          },
+          "maxDocs": {
+            "min": 500,
+            "max": 2147483647,
+            "value": 2147483647
+          }
+        },
+        "matchFields": [
+          "fingerprint"
+        ]
+      }
+    },
+    "types": {
+      "video": {
+        "name": "Video",
+        "index": "video_content_static",
+        "contentIdField": "video_content_id",
+        "similar": {
+          "cacheConfig": {
+            "cache": true,
+            "cacheTTL": 1200
+          }
+        }
+      }
+    }
+  },
+  "services": {
+    "types": {
+      "trending": {
+        "content": {
+          "index": "trending",
+          "field": "ids",
+          "timeout": 50,
+          "cacheConfig": {
+            "cache": true,
+            "cacheTTL": 300,
+            "cachePrefix": {
+              "static": "trends-content"
+            }
+          }
+        },
+        "google": {
+          "geo": "IT",
+          "language": "IT",
+          "realTimeCategory": "all",
+          "cacheConfig": {
+            "cache": true,
+            "cacheTTL": 300,
+            "cachePrefix": {
+              "static": "trends-google"
+            }
+          }
+        },
+        "twitter": {
+          "WOEID": 711080,
+          "cacheConfig": {
+            "cache": true,
+            "cacheTTL": 300,
+            "cachePrefix": {
+              "static": "trends-twitter"
+            }
+          }
+        }
+      },
+      "time": {
+        "cacheConfig": {
+          "cache": true,
+          "cacheTTL": 60,
+          "cachePrefix": {
+            "static": "time"
+          }
+        }
+      },
+      "session": {
+        "recommended": {
+          "recThreshold": 10,
+          "outputPrefix": "who_session_reco_",
+          "cacheConfig": {
+            "cache": true,
+            "cacheHourLimit": 6,
+            "cacheMinutesLimit": 0,
+            "cachePrefix": {
+              "static": "session:recommended"
+            }
+          }
+        },
+        "consumed": {
+          "outputPrefix": "who_session_consumed_",
+          "cacheConfig": {
+            "cache": true,
+            "cacheHourLimit": 6,
+            "cacheMinutesLimit": 0,
+            "cachePrefix": {
+              "static": "session:consumed"
+            }
+          }
+        }
+      },
+      "location": {
+        "geoIPService": "API-RTI-GEO-BY-IP",
+        "cacheConfig": {
+          "cache": true,
+          "cacheTTL": 2592000,
+          "cachePrefix": {
+            "static": "geo"
+          }
+        }
+      },
+      "weather": {
+        "weatherService": "METEO.IT",
+        "cacheConfig": {
+          "cache": true,
+          "cacheTTL": 3600,
+          "cachePrefix": {
+            "static": "weather"
+          }
+        }
+      },
+      "geoweather": {
+        "cacheConfig": {
+          "cache": true,
+          "cacheTTL": 3600,
+          "cachePrefix": {
+            "static": "geoweather"
+          }
+        }
+      }
+    }
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "endpoints",
+        "items": [
+          "AuxoCDf9K",
+          "O6ZGau6L8",
+          "jVw31m3z2",
+          "XBrQ4SG7Q",
+          "KyrGcIWlQw",
+          "Wdr2HzeIi",
+          "zsBmG8epF",
+          "mZCK8Sq4LE",
+          "Vj9kU5eQS",
+          "u6H81q1F9",
+          "saA1YasVi",
+          "mXHRpWydxO",
+          "iHzHUOOIp",
+          "LQJVFSXXm",
+          "wSLl2HCHE",
+          "ATLsAgNn3d",
+          "Hv3oc784Wb",
+          "HAT7QHyxG",
+          "FE90KFSx0",
+          "O9IgRtkmg",
+          "yEkXdnONn",
+          "mirQyo0Qr",
+          "gLf2cYF9h",
+          "aD1cQi7SOX",
+          "LGkq06PZv4",
+          "l1WBhdXwKi",
+          "NtEX6Y2n9",
+          "QnoeV2JZAV",
+          "aOVElNeF8",
+          "iBNO9akxQ",
+          "Np9JcEXuU",
+          "z54p3MKnp",
+          "kWkELvSYOX",
+          "b_QroF2KU",
+          "ROLoRmS9b",
+          "SzI_Cr1tDp",
+          "Br5RZ3F74",
+          "rxiwiZCNG",
+          "c53sSeYKC",
+          "PTxWDfkvk",
+          "mD6pT1lqN",
+          "gjYHh0pt8r",
+          "u6WlHr0Rq",
+          "xXEDGRy5z",
+          "TAwlXRLlR",
+          "eIQqZl_zO",
+          "WhwbqqSg1",
+          "riuYYwFjT",
+          "YZagILxdcs",
+          "yIkO73RuB",
+          "cEUxsaxG3f",
+          "jqwQhWuSc",
+          "bcj0AWCjrE",
+          "s5F6Gi4wVj",
+          "VQM92m6ZO",
+          "hqqhgLZdT",
+          "Xcz2QemzD",
+          "wz4o2FbLYO",
+          "e_O3kjIduW",
+          "THcle1nBwj",
+          "Lrkz3iCGa",
+          "Pgwg6Jt_y",
+          "jwSvT0CgE",
+          "EZyIRt4uLQ",
+          "eEr3LoWpg2",
+          "kiNigyb21p",
+          "CBCwExsZKE",
+          "_Y8fury0G",
+          "RkvYAYfcp",
+          "aCWNWZuTJ",
+          "LYUdVEAOR",
+          "_5B35Nn36",
+          "l8nEuXzp_",
+          "xvF6x65SPG"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 74,
+      "types": 1,
+      "items": [
+        {
+          "type": "endpoints",
+          "count": 74,
+          "items": [
+            {
+              "id": "AuxoCDf9K",
+              "type": "endpoints"
+            },
+            {
+              "id": "O6ZGau6L8",
+              "type": "endpoints"
+            },
+            {
+              "id": "jVw31m3z2",
+              "type": "endpoints"
+            },
+            {
+              "id": "XBrQ4SG7Q",
+              "type": "endpoints"
+            },
+            {
+              "id": "KyrGcIWlQw",
+              "type": "endpoints"
+            },
+            {
+              "id": "Wdr2HzeIi",
+              "type": "endpoints"
+            },
+            {
+              "id": "zsBmG8epF",
+              "type": "endpoints"
+            },
+            {
+              "id": "mZCK8Sq4LE",
+              "type": "endpoints"
+            },
+            {
+              "id": "Vj9kU5eQS",
+              "type": "endpoints"
+            },
+            {
+              "id": "u6H81q1F9",
+              "type": "endpoints"
+            },
+            {
+              "id": "saA1YasVi",
+              "type": "endpoints"
+            },
+            {
+              "id": "mXHRpWydxO",
+              "type": "endpoints"
+            },
+            {
+              "id": "iHzHUOOIp",
+              "type": "endpoints"
+            },
+            {
+              "id": "LQJVFSXXm",
+              "type": "endpoints"
+            },
+            {
+              "id": "wSLl2HCHE",
+              "type": "endpoints"
+            },
+            {
+              "id": "ATLsAgNn3d",
+              "type": "endpoints"
+            },
+            {
+              "id": "Hv3oc784Wb",
+              "type": "endpoints"
+            },
+            {
+              "id": "HAT7QHyxG",
+              "type": "endpoints"
+            },
+            {
+              "id": "FE90KFSx0",
+              "type": "endpoints"
+            },
+            {
+              "id": "O9IgRtkmg",
+              "type": "endpoints"
+            },
+            {
+              "id": "yEkXdnONn",
+              "type": "endpoints"
+            },
+            {
+              "id": "mirQyo0Qr",
+              "type": "endpoints"
+            },
+            {
+              "id": "gLf2cYF9h",
+              "type": "endpoints"
+            },
+            {
+              "id": "aD1cQi7SOX",
+              "type": "endpoints"
+            },
+            {
+              "id": "LGkq06PZv4",
+              "type": "endpoints"
+            },
+            {
+              "id": "l1WBhdXwKi",
+              "type": "endpoints"
+            },
+            {
+              "id": "NtEX6Y2n9",
+              "type": "endpoints"
+            },
+            {
+              "id": "QnoeV2JZAV",
+              "type": "endpoints"
+            },
+            {
+              "id": "aOVElNeF8",
+              "type": "endpoints"
+            },
+            {
+              "id": "iBNO9akxQ",
+              "type": "endpoints"
+            },
+            {
+              "id": "Np9JcEXuU",
+              "type": "endpoints"
+            },
+            {
+              "id": "z54p3MKnp",
+              "type": "endpoints"
+            },
+            {
+              "id": "kWkELvSYOX",
+              "type": "endpoints"
+            },
+            {
+              "id": "b_QroF2KU",
+              "type": "endpoints"
+            },
+            {
+              "id": "ROLoRmS9b",
+              "type": "endpoints"
+            },
+            {
+              "id": "SzI_Cr1tDp",
+              "type": "endpoints"
+            },
+            {
+              "id": "Br5RZ3F74",
+              "type": "endpoints"
+            },
+            {
+              "id": "rxiwiZCNG",
+              "type": "endpoints"
+            },
+            {
+              "id": "c53sSeYKC",
+              "type": "endpoints"
+            },
+            {
+              "id": "PTxWDfkvk",
+              "type": "endpoints"
+            },
+            {
+              "id": "mD6pT1lqN",
+              "type": "endpoints"
+            },
+            {
+              "id": "gjYHh0pt8r",
+              "type": "endpoints"
+            },
+            {
+              "id": "u6WlHr0Rq",
+              "type": "endpoints"
+            },
+            {
+              "id": "xXEDGRy5z",
+              "type": "endpoints"
+            },
+            {
+              "id": "TAwlXRLlR",
+              "type": "endpoints"
+            },
+            {
+              "id": "eIQqZl_zO",
+              "type": "endpoints"
+            },
+            {
+              "id": "WhwbqqSg1",
+              "type": "endpoints"
+            },
+            {
+              "id": "riuYYwFjT",
+              "type": "endpoints"
+            },
+            {
+              "id": "YZagILxdcs",
+              "type": "endpoints"
+            },
+            {
+              "id": "yIkO73RuB",
+              "type": "endpoints"
+            },
+            {
+              "id": "cEUxsaxG3f",
+              "type": "endpoints"
+            },
+            {
+              "id": "jqwQhWuSc",
+              "type": "endpoints"
+            },
+            {
+              "id": "bcj0AWCjrE",
+              "type": "endpoints"
+            },
+            {
+              "id": "s5F6Gi4wVj",
+              "type": "endpoints"
+            },
+            {
+              "id": "VQM92m6ZO",
+              "type": "endpoints"
+            },
+            {
+              "id": "hqqhgLZdT",
+              "type": "endpoints"
+            },
+            {
+              "id": "Xcz2QemzD",
+              "type": "endpoints"
+            },
+            {
+              "id": "wz4o2FbLYO",
+              "type": "endpoints"
+            },
+            {
+              "id": "e_O3kjIduW",
+              "type": "endpoints"
+            },
+            {
+              "id": "THcle1nBwj",
+              "type": "endpoints"
+            },
+            {
+              "id": "Lrkz3iCGa",
+              "type": "endpoints"
+            },
+            {
+              "id": "Pgwg6Jt_y",
+              "type": "endpoints"
+            },
+            {
+              "id": "jwSvT0CgE",
+              "type": "endpoints"
+            },
+            {
+              "id": "EZyIRt4uLQ",
+              "type": "endpoints"
+            },
+            {
+              "id": "eEr3LoWpg2",
+              "type": "endpoints"
+            },
+            {
+              "id": "kiNigyb21p",
+              "type": "endpoints"
+            },
+            {
+              "id": "CBCwExsZKE",
+              "type": "endpoints"
+            },
+            {
+              "id": "_Y8fury0G",
+              "type": "endpoints"
+            },
+            {
+              "id": "RkvYAYfcp",
+              "type": "endpoints"
+            },
+            {
+              "id": "aCWNWZuTJ",
+              "type": "endpoints"
+            },
+            {
+              "id": "LYUdVEAOR",
+              "type": "endpoints"
+            },
+            {
+              "id": "_5B35Nn36",
+              "type": "endpoints"
+            },
+            {
+              "id": "l8nEuXzp_",
+              "type": "endpoints"
+            },
+            {
+              "id": "xvF6x65SPG",
+              "type": "endpoints"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  }
+}

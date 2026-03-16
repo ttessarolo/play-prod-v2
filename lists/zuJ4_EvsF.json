@@ -1,0 +1,38 @@
+{
+  "title": "List Blacklist Id Serie SE",
+  "description": "Potrebbe essere utilizzata come list per una Blacklist di Id Series Se. Al momento non è utilizzata\nSE000000001787: Giallozafferano",
+  "type": "contentId",
+  "contentType": "video",
+  "realm": "content",
+  "metadataField": "title",
+  "elements": [
+    "SE000000001787",
+    "SE000000000106"
+  ],
+  "id": "zuJ4_EvsF",
+  "version": 3,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2023-09-04T10:44:04.347Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "rules",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  }
+}

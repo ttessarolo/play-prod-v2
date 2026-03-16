@@ -1,0 +1,367 @@
+{
+  "id": "UzsmyaqtN",
+  "propertyId": "zlqQNxLcGh",
+  "title": "Clusterizzato",
+  "description": "Please Edit description for Page \"Variant 1\"",
+  "enabledPagesId": [
+    "vTODt8afF"
+  ],
+  "isPage": true,
+  "blocks": [
+    {
+      "id": "Eh_kPGO3E",
+      "condition": "*",
+      "title": "Film suggeriti per te",
+      "type": "nested",
+      "layout": {
+        "i": "Eh_kPGO3E",
+        "x": 0,
+        "y": 1,
+        "w": 12,
+        "h": 30,
+        "blocks": [],
+        "isDraggable": true
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "sx_sOdIkHE",
+      "viewAll": {
+        "id": "xG209TQAOl",
+        "reference": "filmClustering"
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        }
+      },
+      "pinned": false
+    },
+    {
+      "id": "bWyTdKEL9",
+      "condition": "*",
+      "title": "Fiction e Serie TV per te",
+      "type": "nested",
+      "layout": {
+        "i": "bWyTdKEL9",
+        "x": 0,
+        "y": 2,
+        "w": 12,
+        "h": 30,
+        "blocks": [],
+        "isDraggable": true
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "aidPOYBHr",
+      "viewAll": {
+        "id": "q92sG36gh",
+        "reference": "viewAllCluster"
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        }
+      },
+      "pinned": false
+    },
+    {
+      "id": "GIcbHxOtgI",
+      "condition": "*",
+      "title": "Le serie di Mediaset Infinity",
+      "type": "nested",
+      "layout": {
+        "i": "GIcbHxOtgI",
+        "w": 12,
+        "h": 30,
+        "isDraggable": true
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "CxeeTTjcl",
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H"
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "KEYFRAME"
+        }
+      },
+      "pinned": false
+    },
+    {
+      "id": "YGiIlVGXI",
+      "condition": "*",
+      "title": "I documentari più visti",
+      "type": "nested",
+      "layout": {
+        "i": "YGiIlVGXI",
+        "x": 0,
+        "y": 4,
+        "w": 12,
+        "h": 30,
+        "blocks": [],
+        "isDraggable": true
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "LzHgDyGoq",
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H"
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        }
+      },
+      "pinned": false
+    },
+    {
+      "id": "hqNvrybQA",
+      "condition": "*",
+      "title": "Le Soap più amate",
+      "type": "nested",
+      "layout": {
+        "i": "hqNvrybQA",
+        "x": 0,
+        "y": 5,
+        "w": 12,
+        "h": 30,
+        "blocks": [],
+        "isDraggable": true
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "FjD3AdqNL",
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H"
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        }
+      },
+      "pinned": false
+    }
+  ],
+  "version": 9,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2025-07-23T13:35:58.158Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "endpoints",
+        "items": [
+          "vTODt8afF"
+        ]
+      }
+    ],
+    "require": [
+      {
+        "type": "queries",
+        "items": []
+      },
+      {
+        "type": "endpoints",
+        "items": [
+          "xG209TQAOl",
+          "q92sG36gh",
+          "WXsJUgBAp"
+        ]
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "Rc1YEkVxO",
+          "sx_sOdIkHE",
+          "aidPOYBHr",
+          "CxeeTTjcl",
+          "LzHgDyGoq",
+          "FjD3AdqNL"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "vTODt8afF",
+              "type": "endpoints",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 9,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "endpoints",
+          "count": 3,
+          "items": [
+            {
+              "id": "xG209TQAOl",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "q92sG36gh",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "WXsJUgBAp",
+              "type": "endpoints",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "blocks",
+          "count": 6,
+          "items": [
+            {
+              "id": "Rc1YEkVxO",
+              "type": "blocks"
+            },
+            {
+              "id": "sx_sOdIkHE",
+              "type": "blocks"
+            },
+            {
+              "id": "aidPOYBHr",
+              "type": "blocks"
+            },
+            {
+              "id": "CxeeTTjcl",
+              "type": "blocks"
+            },
+            {
+              "id": "LzHgDyGoq",
+              "type": "blocks"
+            },
+            {
+              "id": "FjD3AdqNL",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "layout": [
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 0,
+      "i": "Eh_kPGO3E",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 30,
+      "i": "bWyTdKEL9",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 60,
+      "i": "GIcbHxOtgI",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 90,
+      "i": "YGiIlVGXI",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 120,
+      "i": "hqNvrybQA",
+      "moved": false,
+      "static": false
+    }
+  ],
+  "results": {
+    "smartOrderBlocks": true,
+    "contentType": "video",
+    "userContentType": "unified",
+    "event": "watched",
+    "perUserBasisType": "video_historical_fingerprint",
+    "fallbackBlockId": "Rc1YEkVxO",
+    "fullSubstituteFallback": true
+  }
+}

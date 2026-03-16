@@ -1,0 +1,137 @@
+{
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "ju06OqIgO"
+    },
+    {
+      "id": "gNryeK2LA"
+    },
+    {
+      "id": "gQuX7uK3vM"
+    },
+    {
+      "id": "XrQIQriQGR"
+    },
+    {
+      "id": "S__HGJYN5V"
+    }
+  ],
+  "exclude": [],
+  "include": [
+    {
+      "id": "Z3l6Yo7Eg"
+    }
+  ],
+  "boost": [],
+  "order": [],
+  "realm": "content",
+  "title": "Query Programmi TV e Fiction Prima serata e In Onda Clusterizzato",
+  "description": "",
+  "general": {
+    "mustOperator": "or",
+    "tieBreaker": 0.9,
+    "minimumShouldMatch": "1%",
+    "resultsMultiplier": 1
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "ju06OqIgO",
+          "gNryeK2LA",
+          "gQuX7uK3vM",
+          "XrQIQriQGR",
+          "S__HGJYN5V",
+          "Z3l6Yo7Eg"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "nyZIQBFS9"
+        ]
+      }
+    ]
+  },
+  "id": "ohpTGTghM",
+  "version": 5,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2023-07-06T11:14:15.563Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "nyZIQBFS9",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 6,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 6,
+          "items": [
+            {
+              "id": "ju06OqIgO",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "gQuX7uK3vM",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "XrQIQriQGR",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "S__HGJYN5V",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "yfsxbUFAS",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "Z3l6Yo7Eg",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "metadataOverrides": {}
+}

@@ -1,0 +1,155 @@
+{
+  "metadataInRules": [
+    "user"
+  ],
+  "title": "Query Person to Content Film e Serie",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "wfBy1paHlb"
+    },
+    {
+      "id": "kiTG7_6td"
+    },
+    {
+      "id": "kb0ZRiIVbE"
+    }
+  ],
+  "exclude": [
+    {
+      "id": "JPPMhYAQk"
+    },
+    {
+      "id": "nUNjcCU6f"
+    }
+  ],
+  "include": [
+    {
+      "id": "m59b34kOM"
+    }
+  ],
+  "boost": [],
+  "order": [],
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "wfBy1paHlb",
+          "kiTG7_6td",
+          "kb0ZRiIVbE",
+          "JPPMhYAQk",
+          "nUNjcCU6f",
+          "m59b34kOM"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "ZRorAbL96Q",
+          "KhQ3IziFJ"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "Y3I5bXe1U"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1,
+    "mustOperator": "or"
+  },
+  "id": "zfs8imRPC",
+  "version": 14,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2022-11-03T16:18:21.767Z"
+  },
+  "metadataOverrides": {},
+  "presets": {
+    "filter": [],
+    "exclude": [
+      {
+        "id": "ZRorAbL96Q"
+      },
+      {
+        "id": "KhQ3IziFJ"
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 8,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 6,
+          "items": [
+            {
+              "id": "wfBy1paHlb",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "kiTG7_6td",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "kb0ZRiIVbE",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "JPPMhYAQk",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "nUNjcCU6f",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "m59b34kOM",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 2,
+          "items": [
+            {
+              "id": "ZRorAbL96Q",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "KhQ3IziFJ",
+              "type": "rulesPresets",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "uselessMultiplier": false,
+  "realm": "content"
+}

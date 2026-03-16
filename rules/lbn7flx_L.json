@@ -1,0 +1,97 @@
+{
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "CGFfVq3sX"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "title": "Rule Search Boost Query all",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "(contains(query_all, \"testa\"))",
+      "conditionRaw": {
+        "or": [
+          {
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "query_all"
+              },
+              {
+                "value": "\"testa\"",
+                "type": "freeText"
+              }
+            ],
+            "id": "i271NeBZua"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "SE000000002572",
+      "valueType": "freeText",
+      "queryType": "match",
+      "field": "id_series_se",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "VbRsOnawD2",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "clauses": [
+    "include",
+    "boost"
+  ],
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "id": "lbn7flx_L",
+  "version": 36,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2026-01-07T10:40:19.283Z"
+  }
+}

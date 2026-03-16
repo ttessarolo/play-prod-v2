@@ -1,0 +1,231 @@
+{
+  "results": {
+    "min": 0,
+    "flatAllBlocks": true,
+    "fallbackBlockId": "P0csRsOt7",
+    "max": 60,
+    "deduplicateFlattedResults": true
+  },
+  "blocks": [
+    {
+      "_id": "SjkuNnzxYS",
+      "condition": "*",
+      "title": "Serie Complete e Super top",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 5,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true
+      },
+      "queryId": "qPd0aP7wuv"
+    },
+    {
+      "_id": "Kw8MSOLGT",
+      "condition": "*",
+      "title": "Serie Complete e Top",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 10,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true,
+        "inject": []
+      },
+      "queryId": "b9MEPMrAY"
+    },
+    {
+      "_id": "TDXrDY31i",
+      "condition": "*",
+      "title": "Serie Mplay Esclusiva",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 5,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true
+      },
+      "queryId": "kNF9by9ui"
+    },
+    {
+      "_id": "YgalY3q7_i",
+      "condition": "*",
+      "title": "Serie complete",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 50,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "fallbackBlockId": "P0csRsOt7"
+      },
+      "queryId": "jghd_cW_3"
+    }
+  ],
+  "title": "INF Serie Most Recent",
+  "description": "Array: I nostri cofanetti di serie Serie TV e Fiction di Mplay e Infinity In attesa del campo INFINITY publication date\n",
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "realm": "content",
+  "refs": {
+    "require": [
+      {
+        "type": "queries",
+        "items": [
+          "qPd0aP7wuv",
+          "b9MEPMrAY",
+          "kNF9by9ui",
+          "jghd_cW_3"
+        ]
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "P0csRsOt7"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": [
+          "eOaXizx_"
+        ]
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "WGAhYkgWN"
+        ]
+      }
+    ]
+  },
+  "id": "DzhJ1E4qZ",
+  "version": 19,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-02-06T16:56:56.198Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "pages",
+          "count": 1,
+          "items": [
+            {
+              "variantId": "WGAhYkgWN",
+              "propertyId": "zlqQNxLcGh",
+              "propertyTitle": "",
+              "endpointId": "ziTNmEdrw",
+              "endpointTitle": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 6,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 4,
+          "items": [
+            {
+              "id": "qPd0aP7wuv",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "b9MEPMrAY",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "kNF9by9ui",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "jghd_cW_3",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "P0csRsOt7",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 1,
+          "items": [
+            {
+              "id": "eOaXizx_",
+              "type": "responseFields",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": []
+}

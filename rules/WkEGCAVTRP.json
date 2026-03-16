@@ -1,0 +1,117 @@
+{
+  "title": "Rule Similar Tipologia Informazione Fep",
+  "description": "Rule che isola la Tipologia Informazione dei risultati trovati come simili con programtype Fep",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "keepOrder": true,
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "I2I",
+      "value": "video_similar_ids_informazionefep",
+      "valueType": "metadata",
+      "queryType": "ids",
+      "field": "video_content_id",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "KXKfXaF9W"
+    }
+  ],
+  "clauses": [
+    "filter",
+    "include"
+  ],
+  "metadata": {
+    "content_similar": {
+      "required": true,
+      "output": "video_similar_ids_informazionefep",
+      "metadata": {
+        "included": [
+          "tipologia=Informazione",
+          "editorial_type=Full Episode",
+          "content_channels=MediasetPlay"
+        ],
+        "excluded": [
+          "id_series_se"
+        ]
+      },
+      "date": {
+        "range": 2,
+        "period": "w",
+        "field": "publication_date",
+        "absolute": true
+      },
+      "fingerprint": {
+        "matchFields": [
+          "fingerprint"
+        ]
+      },
+      "groupby": {
+        "metadata": "id_series_se",
+        "results": 1,
+        "sortMetadata": "",
+        "sortDirection": "asc"
+      }
+    }
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "snFdkOv3m",
+          "DGN31xSm2"
+        ]
+      }
+    ]
+  },
+  "id": "WkEGCAVTRP",
+  "version": 3,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-03-29T17:48:56.317Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 2,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 2,
+          "items": [
+            {
+              "id": "snFdkOv3m",
+              "type": "queries",
+              "title": "Query Similar Informazione"
+            },
+            {
+              "id": "DGN31xSm2",
+              "type": "queries",
+              "title": "Query Similar Informazione Per Tg"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 1,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,237 @@
+{
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": [
+          "kWZ7EAU1K"
+        ]
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "_pVIlo8bq"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 1,
+          "items": [
+            {
+              "id": "_pVIlo8bq",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 1,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 1,
+          "items": [
+            {
+              "id": "kWZ7EAU1K",
+              "type": "lists",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "(greaterEqualThan(when_current_fractional_second, \"40\") && !equals(id_series_se, \"SE000000000125\") && between(when_current_hour_and_minute, \"1700÷2200\") && dateRange(when_now, '2025-04-08T22:01:00.000Z÷2025-10-31T22:59:00.000Z'))",
+      "conditionRaw": {
+        "and": [
+          {
+            "id": "Ch4mlPZXU",
+            "operator": "greaterEqualThan",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "when_current_fractional_second"
+              },
+              {
+                "value": "\"40\"",
+                "type": "number"
+              }
+            ]
+          },
+          {
+            "id": "hWGYAYe5y",
+            "operator": "!equals",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "id_series_se"
+              },
+              {
+                "value": "\"SE000000000125\"",
+                "type": "string"
+              }
+            ]
+          },
+          {
+            "id": "-Wqei13xR",
+            "operator": "between",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "when_current_hour_and_minute"
+              },
+              {
+                "value": "\"1700÷2200\"",
+                "type": "between"
+              }
+            ]
+          },
+          {
+            "id": "sehxGArBm",
+            "operator": "dateRange",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "when_now"
+              },
+              {
+                "value": "2025-04-08T22:01:00.000Z÷2025-10-31T22:59:00.000Z",
+                "type": "DateRange"
+              }
+            ]
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "kWZ7EAU1K",
+      "valueType": "list",
+      "queryType": "listTermsId",
+      "field": "video_content_id",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "NsaS9O5TQS",
+      "scheduled": true,
+      "scheduling": [
+        {
+          "id": "Ch4mlPZXU",
+          "start": "40"
+        },
+        {
+          "id": "-Wqei13xR",
+          "start": "1700",
+          "end": "2200"
+        },
+        {
+          "id": "sehxGArBm",
+          "start": "2025-04-08T22:01:00.000Z",
+          "end": "2025-10-31T22:59:00.000Z"
+        }
+      ]
+    }
+  ],
+  "clauses": [
+    "filter"
+  ],
+  "metadata": {
+    "content": true,
+    "time": true
+  },
+  "scheduled": true,
+  "scheduling": [
+    {
+      "id": "RTRGQclMn",
+      "start": "2024-11-11T14:01:38.943Z",
+      "end": "2024-11-12T14:01:38.943Z"
+    },
+    {
+      "id": "uYJ7KZZJ5",
+      "start": "50"
+    },
+    {
+      "id": "Ch4mlPZXU",
+      "start": "40"
+    },
+    {
+      "id": "-Wqei13xR",
+      "start": "1700",
+      "end": "2200"
+    },
+    {
+      "id": "sehxGArBm",
+      "start": "2025-04-08T22:01:00.000Z",
+      "end": "2025-10-31T22:59:00.000Z"
+    }
+  ],
+  "schedulingMap": [
+    [
+      3,
+      [
+        {
+          "id": "RTRGQclMn",
+          "start": "2024-11-11T14:01:38.943Z",
+          "end": "2024-11-12T14:01:38.943Z"
+        },
+        {
+          "id": "uYJ7KZZJ5",
+          "start": "50"
+        }
+      ]
+    ],
+    [
+      0,
+      [
+        {
+          "id": "Ch4mlPZXU",
+          "start": "40"
+        },
+        {
+          "id": "-Wqei13xR",
+          "start": "1700",
+          "end": "2200"
+        },
+        {
+          "id": "sehxGArBm",
+          "start": "2025-04-08T22:01:00.000Z",
+          "end": "2025-10-31T22:59:00.000Z"
+        }
+      ]
+    ]
+  ],
+  "title": "Rule ADV Editoriale Similar Intrattenimento",
+  "description": "",
+  "id": "gDW4ddijS",
+  "version": 89,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-09-30T15:15:55.793Z"
+  },
+  "grouped": true,
+  "operator": "and"
+}

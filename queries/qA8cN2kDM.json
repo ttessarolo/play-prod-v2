@@ -1,0 +1,209 @@
+{
+  "title": "Query Extra Serie Tv e Fiction",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "YMaH2tPZC"
+    },
+    {
+      "id": "KukwdwFDvb"
+    }
+  ],
+  "exclude": [
+    {
+      "id": "LHwpBTAJE"
+    }
+  ],
+  "include": [
+    {
+      "id": "NecDktqXsj"
+    },
+    {
+      "id": "rbC5Q_8wT"
+    },
+    {
+      "id": "HkSxv2_UI",
+      "overides": {
+        "U3OXCdCMMO": {
+          "boost": 25
+        }
+      }
+    }
+  ],
+  "boost": [],
+  "order": [],
+  "realm": "content",
+  "presets": {
+    "filter": [
+      {
+        "id": "TuAyi0elu"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "KhQ3IziFJ"
+      }
+    ]
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "YMaH2tPZC",
+          "KukwdwFDvb",
+          "LHwpBTAJE",
+          "NecDktqXsj",
+          "rbC5Q_8wT",
+          "HkSxv2_UI"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "TuAyi0elu",
+          "KhQ3IziFJ"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "In8E6MBfb"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1,
+    "mustOperator": "or"
+  },
+  "id": "qA8cN2kDM",
+  "version": 12,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-03-26T15:06:09.137Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "In8E6MBfb",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 9,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 7,
+          "items": [
+            {
+              "id": "YMaH2tPZC",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "KukwdwFDvb",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "LHwpBTAJE",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "RrTAbOBm6",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "NecDktqXsj",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "rbC5Q_8wT",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "HkSxv2_UI",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 2,
+          "items": [
+            {
+              "id": "TuAyi0elu",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "KhQ3IziFJ",
+              "type": "rulesPresets",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "uselessMultiplier": false,
+  "metadataOverrides": {
+    "rbC5Q_8wT": {
+      "content_similar": {
+        "required": true,
+        "output": "video_similar_ids_extra",
+        "numResults": 30,
+        "metadata": {
+          "included": [
+            "id_season_st",
+            "editorial_type=Extra"
+          ],
+          "excluded": [
+            "subbrand_title=clip_trame"
+          ]
+        },
+        "date": {
+          "range": 2,
+          "period": "M",
+          "field": "publication_date",
+          "absolute": false
+        },
+        "fingerprint": {
+          "matchFields": [
+            "fingerprint"
+          ]
+        },
+        "groupby": {
+          "metadata": "subbrand_id",
+          "results": 4,
+          "sortMetadata": "publication_date",
+          "sortDirection": "desc"
+        }
+      }
+    }
+  }
+}

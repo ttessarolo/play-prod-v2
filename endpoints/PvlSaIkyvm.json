@@ -1,0 +1,235 @@
+{
+  "id": "PvlSaIkyvm",
+  "active": true,
+  "title": "demTest",
+  "description": "",
+  "reference": "demTest",
+  "propertyId": "pWNpUlfbNR",
+  "blockId": "vCpgbCTpR",
+  "variants": [
+    {
+      "blockId": "Xlo49eXnL",
+      "condition": "(!isEmpty(clusterId))",
+      "priority": 1,
+      "active": true,
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "!isEmpty",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "clusterId"
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ],
+            "id": "lKdjFts7OJ"
+          }
+        ]
+      },
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "params": {
+    "timeout": 1500,
+    "cacheConfig": {
+      "cache": 0,
+      "cacheTTL": 60,
+      "cachePrefix": {
+        "group": true,
+        "static": "endpoint",
+        "keys": []
+      },
+      "computeKeys": [
+        "page",
+        "hitsPerPage",
+        "startBlock",
+        "endBlock",
+        "contentId",
+        "clusterId"
+      ]
+    },
+    "userIdFields": {
+      "active": true,
+      "fields": [
+        "clusterId"
+      ]
+    },
+    "inveverseCacheConfig": {
+      "cacheTTL": 60
+    }
+  },
+  "paramsId": "playDefault",
+  "input": {
+    "schema": {
+      "name": "Input Validation Schema",
+      "description": "ARES Request Params",
+      "type": "object",
+      "required": [
+        "query"
+      ],
+      "properties": {
+        "query": {
+          "type": "object",
+          "required": [
+            "tenant",
+            "uxReference"
+          ],
+          "properties": {
+            "tenant": {
+              "type": "string"
+            },
+            "uxReference": {
+              "type": "string"
+            },
+            "userId": {
+              "type": "string"
+            },
+            "userType": {
+              "type": "string"
+            },
+            "userGroup": {
+              "type": "string"
+            },
+            "deviceId": {
+              "type": "string"
+            },
+            "contentId": {
+              "type": "string"
+            },
+            "sessionId": {
+              "type": "string"
+            },
+            "context": {
+              "type": "string"
+            },
+            "query": {
+              "type": "string"
+            },
+            "startBlock": {
+              "type": "number"
+            },
+            "endBlock": {
+              "type": "number"
+            },
+            "page": {
+              "type": "number"
+            },
+            "hitsPerPage": {
+              "type": "number"
+            }
+          }
+        }
+      }
+    },
+    "decorators": [
+      "buzHoYD1E"
+    ]
+  },
+  "output": {
+    "decorators": [
+      "mU5ep6Aze"
+    ]
+  },
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2026-03-11T15:58:22.177Z"
+  },
+  "version": 24,
+  "refs": {
+    "belongs": [],
+    "require": [
+      {
+        "type": "blocks",
+        "items": [
+          "vCpgbCTpR",
+          "Xlo49eXnL"
+        ]
+      },
+      {
+        "type": "params",
+        "items": [
+          "playDefault"
+        ]
+      },
+      {
+        "type": "decorators",
+        "items": [
+          "buzHoYD1E",
+          "mU5ep6Aze"
+        ]
+      },
+      {
+        "type": "conversionPacks",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 5,
+      "types": 4,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 2,
+          "items": [
+            {
+              "id": "vCpgbCTpR",
+              "type": "blocks",
+              "title": ""
+            },
+            {
+              "id": "Xlo49eXnL",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "params",
+          "count": 1,
+          "items": [
+            {
+              "id": "playDefault",
+              "type": "params",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "decorators",
+          "count": 2,
+          "items": [
+            {
+              "id": "buzHoYD1E",
+              "type": "decorators",
+              "title": ""
+            },
+            {
+              "id": "mU5ep6Aze",
+              "type": "decorators",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "conversionPacks",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "haveScheduledVariants": false,
+  "prevReference": "demTest"
+}

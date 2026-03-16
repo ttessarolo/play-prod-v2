@@ -1,0 +1,94 @@
+{
+  "title": "Rule Subbrand Id TG e SportMediaset",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "K9Wja2Qxj",
+      "valueType": "list",
+      "queryType": "listTermsId",
+      "field": "subbrand_id",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "LbJjAGkBe"
+    }
+  ],
+  "clauses": [
+    "filter",
+    "include"
+  ],
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": [
+          "K9Wja2Qxj"
+        ]
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "YO0JXEqrz"
+        ]
+      }
+    ]
+  },
+  "id": "tLcSMlWrR",
+  "version": 4,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2022-12-20T10:52:00.541Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 1,
+          "items": [
+            {
+              "id": "YO0JXEqrz",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 1,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 1,
+          "items": [
+            {
+              "id": "K9Wja2Qxj",
+              "type": "lists",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  }
+}

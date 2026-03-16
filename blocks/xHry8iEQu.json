@@ -1,0 +1,83 @@
+{
+  "id": "xHry8iEQu",
+  "propertyId": "rrjMTUmyqd",
+  "title": "I video più cercati",
+  "description": "",
+  "enabledPagesId": [],
+  "isPage": true,
+  "blocks": [
+    {
+      "id": "LMx4byDct",
+      "condition": "*",
+      "title": "I video più cercati",
+      "type": "nested",
+      "layout": {
+        "i": "LMx4byDct",
+        "w": 12,
+        "h": 2
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "m0fY0CpslB",
+      "metadataUI": {
+        "attributes": {
+          "template": "KEYFRAME"
+        },
+        "searchDetailParams": {
+          "uxReference": "detail",
+          "property": "search",
+          "query": "title≈{title};variant≈{variant};channel≈{channel}",
+          "variant": "topViewed"
+        }
+      },
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      }
+    }
+  ],
+  "version": 5,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-01-21T11:55:30.213Z"
+  },
+  "refs": {
+    "belongs": []
+  },
+  "layout": [
+    {
+      "w": 12,
+      "h": 2,
+      "x": 0,
+      "y": 0,
+      "i": "LMx4byDct",
+      "moved": false,
+      "static": false
+    }
+  ],
+  "uiParams": {
+    "layout": {
+      "currentParams": {
+        "paramsId": "playDefault",
+        "contentId": "F301644701000103",
+        "userId": "1f51d5e9f09e4d349fa3af349e1cdac4",
+        "deviceId": "ARES-CC",
+        "query": "title≈amici"
+      }
+    },
+    "preview": {
+      "currentParams": {
+        "paramsId": "playDefault",
+        "contentId": "F301644701000103",
+        "userId": "1f51d5e9f09e4d349fa3af349e1cdac4",
+        "deviceId": "ARES-CC",
+        "query": "title≈amici"
+      }
+    }
+  }
+}

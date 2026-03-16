@@ -1,0 +1,98 @@
+{
+  "title": "Query Collection Params",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "GJfvLDT60"
+    }
+  ],
+  "exclude": [],
+  "include": [],
+  "boost": [],
+  "order": [
+    {
+      "id": "qrBfvzvG8"
+    }
+  ],
+  "realm": "content",
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "GJfvLDT60",
+          "qrBfvzvG8"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": []
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "id": "X1ibxFr5L",
+  "version": 2,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-07-14T12:48:38.709Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "FH_5BMkPq",
+              "type": "blocks",
+              "title": "Block Collection List"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 2,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 2,
+          "items": [
+            {
+              "id": "GJfvLDT60",
+              "type": "rules",
+              "title": "Rule Collection Id"
+            },
+            {
+              "id": "qrBfvzvG8",
+              "type": "rules",
+              "title": "Rule Order By Collection Position "
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "uselessMultiplier": false
+}

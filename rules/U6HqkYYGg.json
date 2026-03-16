@@ -1,0 +1,87 @@
+{
+  "title": "Rule Collaborative per AB Test",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "keepOrder": true,
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "collaborative_watched_ab_test",
+      "valueType": "metadata",
+      "queryType": "ids",
+      "field": "video_content_id",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "WwS9kLKNy"
+    }
+  ],
+  "clauses": [
+    "include",
+    "boost",
+    "filter"
+  ],
+  "metadata": {
+    "collaborative": {
+      "required": true,
+      "userContentType": "user",
+      "event": "watched",
+      "output": "collaborative_watched_bcy",
+      "minDocCount": 3,
+      "keepFrequent": true
+    }
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "GU2OBQqML",
+          "zGCftF1vF"
+        ]
+      }
+    ]
+  },
+  "id": "U6HqkYYGg",
+  "version": 9,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2023-11-29T16:20:48.879Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  }
+}

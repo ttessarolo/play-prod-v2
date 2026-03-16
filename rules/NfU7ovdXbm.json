@@ -1,0 +1,121 @@
+{
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "EunqfeQqG",
+          "ZXzhs1rr4",
+          "WQFzcbZi3",
+          "DfAJs6epYQ",
+          "qW2FYtvyr",
+          "r3UuPrHFa3",
+          "S5KdN0aRZ",
+          "aqIFPp4zi",
+          "UxPXwvjeT",
+          "ziE_vsPP2x",
+          "PKIPtcVd_",
+          "kwDHvPZHJ1",
+          "opSo8V1UKT",
+          "kBxcwzsiW8",
+          "tNuQWnsHf",
+          "YO0JXEqrz",
+          "jfiYB856s",
+          "A7GegaBl8",
+          "yjy2A9HNE",
+          "V66dk1Z4w",
+          "m8rpiaFciK",
+          "ZsxcVJ4cb",
+          "CGFfVq3sX",
+          "lxPfB9Gfj_",
+          "Z4Xzab9uO0",
+          "lsb9o6aj_v"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "title": "Rule Geolocalizzazione Stati Uniti",
+  "description": "Se la geolocalizzazione è Stati Uniti, esclude Isola dei Famosi",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "(contains(geolocation_country, \"US\"))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "geolocation_country"
+              },
+              {
+                "value": "\"US\"",
+                "type": "string"
+              }
+            ],
+            "id": "Ym0VUKlCYZ"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "SE000000000058",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "id_series_se",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "LtgLzJUWxY",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "clauses": [
+    "exclude"
+  ],
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "id": "NfU7ovdXbm",
+  "version": 2,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2022-06-29T10:22:39.697Z"
+  }
+}

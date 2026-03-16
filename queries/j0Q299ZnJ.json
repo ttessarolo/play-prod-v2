@@ -1,0 +1,161 @@
+{
+  "title": "TVOD Film Campioni di incasso",
+  "description": "Contiene film solo A noleggio\nBlockbuster\nTop\nProducton value \nOver 2015\nCult \nD'autore ",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "IyDzyntfi"
+    },
+    {
+      "id": "83txjtJm"
+    },
+    {
+      "id": "Qs0Vux5WH_"
+    },
+    {
+      "id": "CTGuqOMTe"
+    }
+  ],
+  "exclude": [],
+  "include": [
+    {
+      "id": "ePx7Wv0On",
+      "overides": {
+        "IybREig55": {
+          "boost": 5
+        },
+        "vQ7O_NhBH": {
+          "boost": 2
+        },
+        "CH_RDInwz": {
+          "boost": 2
+        }
+      }
+    }
+  ],
+  "boost": [],
+  "order": [],
+  "realm": "content",
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "IyDzyntfi",
+          "83txjtJm",
+          "Qs0Vux5WH_",
+          "CTGuqOMTe",
+          "ePx7Wv0On"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "TuAyi0elu",
+          "KhQ3IziFJ"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "eArmnniA2"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1,
+    "mustOperator": "or"
+  },
+  "id": "j0Q299ZnJ",
+  "version": 20,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-05-24T12:29:21.510Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "eArmnniA2",
+              "type": "blocks",
+              "title": "TVOD Film Campioni di incasso"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 6,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 4,
+          "items": [
+            {
+              "id": "IyDzyntfi",
+              "type": "rules",
+              "title": "Rule Channel Noleggio"
+            },
+            {
+              "id": "83txjtJm",
+              "type": "rules",
+              "title": "Rule Tipologia Film"
+            },
+            {
+              "id": "Qs0Vux5WH_",
+              "type": "rules",
+              "title": "Rule Editorial Type Movie"
+            },
+            {
+              "id": "ePx7Wv0On",
+              "type": "rules",
+              "title": "Rule Top Blockbuster TVOD"
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 2,
+          "items": [
+            {
+              "id": "TuAyi0elu",
+              "type": "rulesPresets",
+              "title": "Preset SearchVisible e FrontEnd Visible True"
+            },
+            {
+              "id": "KhQ3IziFJ",
+              "type": "rulesPresets",
+              "title": "Preset Video format exclude 4K"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "presets": {
+    "filter": [
+      {
+        "id": "TuAyi0elu"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "KhQ3IziFJ"
+      }
+    ]
+  },
+  "metadataOverrides": {},
+  "uselessMultiplier": false
+}

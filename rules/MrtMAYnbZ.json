@@ -1,0 +1,210 @@
+{
+  "title": "Rule Channel Mediaset Play o Infinity",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "zjMFouSKV",
+      "valueType": "list",
+      "queryType": "listTermsId",
+      "field": "content_channels",
+      "fieldNested": 0,
+      "fieldDBType": "text",
+      "_id": "LZWTp9MZf"
+    }
+  ],
+  "clauses": [
+    "filter",
+    "exclude"
+  ],
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "js5eihPKLL",
+          "Cz5mbdSpkG",
+          "xQZzlMyWn",
+          "TUEwHugpG",
+          "jghd_cW_3",
+          "sSJKqI_d5",
+          "s6Gij1X5i",
+          "skE6ZZaHs",
+          "d5BIIowCX",
+          "Bd_D1xwYT",
+          "b9MEPMrAY",
+          "BS1LYQUhG",
+          "mvZ0e6XOY",
+          "zHlSX9ygS",
+          "vIQCxKrUj",
+          "dwZ0qqYYpq",
+          "x7_VOViNIL",
+          "hKH4jrbFF",
+          "TgKGs2jDf",
+          "N_80T8VLG",
+          "Qd7iEXoJo",
+          "qPd0aP7wuv",
+          "NGHWpwocet",
+          "XWcT55fKOl",
+          "R38KED28bt",
+          "MvBEHiAgy",
+          "ahVkQ5zxC",
+          "Z5PVWp8fG",
+          "Um3tRpT7u",
+          "pNmPWjxre",
+          "wEB_e4Cs3",
+          "byoCWLksA",
+          "OGVDkyHGae",
+          "_cxXAqWa_n",
+          "JPz9JXjnG"
+        ]
+      }
+    ]
+  },
+  "id": "MrtMAYnbZ",
+  "version": 3,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-05-18T09:26:58.717Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 20,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 20,
+          "items": [
+            {
+              "id": "js5eihPKLL",
+              "type": "queries",
+              "title": "INF Most recent Film Blocco 2"
+            },
+            {
+              "id": "Cz5mbdSpkG",
+              "type": "queries",
+              "title": "INF Film Più visti 7 giorni Blocco 2"
+            },
+            {
+              "id": "teSxvE1Cm",
+              "type": "queries",
+              "title": "INF Film Più visti 24h Blocco 2"
+            },
+            {
+              "id": "SiAItfZgw",
+              "type": "queries",
+              "title": "Query Film Channel Mediaset Play e Infinity"
+            },
+            {
+              "id": "xQZzlMyWn",
+              "type": "queries",
+              "title": "Query Serie TV più viste 24h Blocco 3"
+            },
+            {
+              "id": "TUEwHugpG",
+              "type": "queries",
+              "title": "TVOD Più noleggiati"
+            },
+            {
+              "id": "jghd_cW_3",
+              "type": "queries",
+              "title": "INF Serie Most recent Blocco 2"
+            },
+            {
+              "id": "sSJKqI_d5",
+              "type": "queries",
+              "title": "INF Generi per Parametri Serie Blocco 4"
+            },
+            {
+              "id": "s6Gij1X5i",
+              "type": "queries",
+              "title": "INF Serie Top viewed 24H Blocco 2"
+            },
+            {
+              "id": "skE6ZZaHs",
+              "type": "queries",
+              "title": "Query Home Pay Generi per Parametri Film Blocco 2"
+            },
+            {
+              "id": "d5BIIowCX",
+              "type": "queries",
+              "title": "Query Home Pay Generi per Parametri Film Blocco 1"
+            },
+            {
+              "id": "Bd_D1xwYT",
+              "type": "queries",
+              "title": "TVOD Più noleggiati Top Blockbuster"
+            },
+            {
+              "id": "b9MEPMrAY",
+              "type": "queries",
+              "title": "INF Serie Most recent Blocco 1"
+            },
+            {
+              "id": "PT5gwflYp",
+              "type": "queries",
+              "title": "Query Film del momento Blocco 2"
+            },
+            {
+              "id": "jO1QhHhsaX",
+              "type": "queries",
+              "title": "Query Film del momento Blocco 1"
+            },
+            {
+              "id": "vloOlFQwh",
+              "type": "queries",
+              "title": "Query Fiction e Soap Blocco Super Top"
+            },
+            {
+              "id": "BS1LYQUhG",
+              "type": "queries",
+              "title": "Query Enabler stagioni Serie TV Library "
+            },
+            {
+              "id": "mvZ0e6XOY",
+              "type": "queries",
+              "title": "Query Enabler stagioni Serie TV Super Top"
+            },
+            {
+              "id": "zfEqUdL_n",
+              "type": "queries",
+              "title": "Query Serie TV più viste 24h Blocco 1"
+            },
+            {
+              "id": "zHlSX9ygS",
+              "type": "queries",
+              "title": "Query Enabler Fiction e Soap Blocco Super Top"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 1,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": []
+}

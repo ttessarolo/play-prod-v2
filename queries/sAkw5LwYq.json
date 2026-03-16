@@ -1,0 +1,248 @@
+{
+  "title": "Query Fiction e Serie TV del momento Blocco 4",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "ju06OqIgO"
+    },
+    {
+      "id": "CDMrhQW14"
+    },
+    {
+      "id": "KdgZfZ_wm"
+    },
+    {
+      "id": "gQuX7uK3vM"
+    }
+  ],
+  "exclude": [
+    {
+      "id": "TiO1vNFSd"
+    }
+  ],
+  "include": [
+    {
+      "id": "zv6EEbQBQ"
+    },
+    {
+      "id": "GAEE6f6OI"
+    }
+  ],
+  "boost": [],
+  "order": [
+    {
+      "id": "tMgBtvtBy"
+    }
+  ],
+  "realm": "content",
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "ju06OqIgO",
+          "CDMrhQW14",
+          "KdgZfZ_wm",
+          "gQuX7uK3vM",
+          "TiO1vNFSd",
+          "zv6EEbQBQ",
+          "GAEE6f6OI",
+          "tMgBtvtBy"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "ztWfmA_PI",
+          "ZRorAbL96Q",
+          "KhQ3IziFJ"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "aidPOYBHr",
+          "GAuIt9t2zZ"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1,
+    "mustOperator": "or"
+  },
+  "id": "sAkw5LwYq",
+  "version": 19,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2024-12-11T16:42:22.402Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 2,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 2,
+          "items": [
+            {
+              "id": "aidPOYBHr",
+              "type": "blocks",
+              "title": ""
+            },
+            {
+              "id": "GAuIt9t2zZ",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 11,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 8,
+          "items": [
+            {
+              "id": "ju06OqIgO",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "CDMrhQW14",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "KdgZfZ_wm",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "gQuX7uK3vM",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "elT4DxH4Cc",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "zv6EEbQBQ",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "GAEE6f6OI",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "tMgBtvtBy",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 3,
+          "items": [
+            {
+              "id": "ztWfmA_PI",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "ZRorAbL96Q",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "KhQ3IziFJ",
+              "type": "rulesPresets",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "presets": {
+    "filter": [
+      {
+        "id": "ztWfmA_PI"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "ZRorAbL96Q"
+      },
+      {
+        "id": "KhQ3IziFJ"
+      }
+    ]
+  },
+  "metadataOverrides": {
+    "zv6EEbQBQ": {
+      "content_similar": {
+        "required": true,
+        "metadata": {
+          "included": [
+            "content_channels=MediasetPlay",
+            "tipologia=(Fiction) OR (Serie TV)",
+            "editorial_type=TVSeason",
+            "etichetteEditoriali=In Onda",
+            "current_season=true"
+          ],
+          "excluded": [
+            "genere_mcm=Soap opera"
+          ]
+        },
+        "output": "video_similar_ids_progrtv",
+        "groupby": {
+          "metadata": "",
+          "results": 0,
+          "sortMetadata": "",
+          "sortDirection": ""
+        }
+      }
+    },
+    "GAEE6f6OI": {
+      "content_similar": {
+        "required": true,
+        "output": "video_similar_ids_esclusive",
+        "metadata": {
+          "included": [
+            "content_channels=MediasetPlay",
+            "tipologia=(Fiction) OR (Serie TV)",
+            "editorial_type=TVSeason",
+            "etichetteEditoriali=Esclusiva",
+            "current_season=true"
+          ],
+          "excluded": [
+            "genere_mcm_primario=Soap opera"
+          ]
+        },
+        "date": {
+          "range": 1,
+          "period": "M",
+          "field": "publication_date_start_play",
+          "absolute": true
+        }
+      }
+    }
+  },
+  "uselessMultiplier": false
+}

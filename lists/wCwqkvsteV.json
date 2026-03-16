@@ -1,0 +1,54 @@
+{
+  "type": "text",
+  "contentType": "video",
+  "realm": "content",
+  "elements": [
+    "Documentari",
+    "Fiction",
+    "Informazione",
+    "Intrattenimento",
+    "Serie TV"
+  ],
+  "title": "List Tipologie Enabler Programmi del momento",
+  "description": "",
+  "id": "wCwqkvsteV",
+  "version": 2,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2023-05-31T10:44:52.811Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "rules",
+        "items": [
+          "dZvH2240Sl"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "rules",
+          "count": 1,
+          "items": [
+            {
+              "id": "dZvH2240Sl",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  }
+}

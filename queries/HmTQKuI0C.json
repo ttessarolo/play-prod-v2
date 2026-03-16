@@ -1,0 +1,202 @@
+{
+  "title": "Query Film Birra e costine",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "Qs0Vux5WH_"
+    },
+    {
+      "id": "wfBy1paHlb"
+    },
+    {
+      "id": "JUy9gpYyT"
+    }
+  ],
+  "exclude": [
+    {
+      "id": "CHueCEIvSV"
+    },
+    {
+      "id": "UTzGUeuoVr"
+    },
+    {
+      "id": "xEXzd5RrK"
+    },
+    {
+      "id": "rbZqkTrGj"
+    },
+    {
+      "id": "zFMMN3qCx"
+    }
+  ],
+  "include": [
+    {
+      "id": "B057O03CZ_"
+    }
+  ],
+  "boost": [
+    {
+      "id": "tKzTMaP6Q"
+    }
+  ],
+  "order": [],
+  "realm": "content",
+  "presets": {
+    "filter": [
+      {
+        "id": "TuAyi0elu"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "KhQ3IziFJ"
+      }
+    ]
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "Qs0Vux5WH_",
+          "wfBy1paHlb",
+          "JUy9gpYyT",
+          "CHueCEIvSV",
+          "UTzGUeuoVr",
+          "xEXzd5RrK",
+          "rbZqkTrGj",
+          "zFMMN3qCx",
+          "B057O03CZ_",
+          "tKzTMaP6Q"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "TuAyi0elu",
+          "KhQ3IziFJ"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "ba65yI4NF6"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1,
+    "mustOperator": "or"
+  },
+  "id": "HmTQKuI0C",
+  "version": 18,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2023-01-20T11:08:47.451Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "ba65yI4NF6",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 12,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 10,
+          "items": [
+            {
+              "id": "Qs0Vux5WH_",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "wfBy1paHlb",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "JUy9gpYyT",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "CHueCEIvSV",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "UTzGUeuoVr",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "xEXzd5RrK",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "rbZqkTrGj",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "zFMMN3qCx",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "B057O03CZ_",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "r8_HPOXrC",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 2,
+          "items": [
+            {
+              "id": "TuAyi0elu",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "KhQ3IziFJ",
+              "type": "rulesPresets",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "uselessMultiplier": false,
+  "metadataOverrides": {}
+}

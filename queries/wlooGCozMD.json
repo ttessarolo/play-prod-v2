@@ -1,0 +1,161 @@
+{
+  "metadataInRules": [],
+  "title": "Query Programmi TV Clip 24h Blocco 2",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "DQyNWNYJ_B"
+    },
+    {
+      "id": "Q9v_RI3WDv"
+    }
+  ],
+  "exclude": [],
+  "include": [],
+  "boost": [],
+  "order": [
+    {
+      "id": "A5n475YeR"
+    }
+  ],
+  "presets": {
+    "filter": [
+      {
+        "id": "ur0WldwQk"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "ZRorAbL96Q"
+      }
+    ]
+  },
+  "general": {
+    "resultsMultiplier": 1,
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "DQyNWNYJ_B",
+          "Q9v_RI3WDv",
+          "A5n475YeR"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "ur0WldwQk",
+          "ZRorAbL96Q"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "DalenVLWr"
+        ]
+      }
+    ]
+  },
+  "id": "wlooGCozMD",
+  "version": 7,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2026-02-18T18:07:27.779Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "DalenVLWr",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 5,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 3,
+          "items": [
+            {
+              "id": "DQyNWNYJ_B",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "Q9v_RI3WDv",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "A5n475YeR",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 2,
+          "items": [
+            {
+              "id": "ur0WldwQk",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "ZRorAbL96Q",
+              "type": "rulesPresets",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "metadataOverrides": {
+    "DQyNWNYJ_B": {
+      "content_similar": {
+        "required": true,
+        "output": "video_similar_ids_clip_24h_fake_2",
+        "metadata": {
+          "included": [
+            "tipologia=Intrattenimento",
+            "content_channels=MediasetPlay",
+            "editorial_type=Clip",
+            "frontend_visible=true"
+          ],
+          "excluded": [
+            "subbrand_title=full"
+          ]
+        },
+        "groupby": {
+          "metadata": "id_series_se",
+          "results": 2,
+          "sortMetadata": "last24h_videoviews",
+          "sortDirection": "desc"
+        },
+        "numResults": 20
+      }
+    }
+  },
+  "uselessMultiplier": false
+}

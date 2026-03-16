@@ -1,0 +1,267 @@
+{
+  "contentType": "video",
+  "filter": [],
+  "exclude": [],
+  "include": [
+    {
+      "id": "twpmtJbuJ"
+    },
+    {
+      "id": "DEY4Sy0nw"
+    },
+    {
+      "id": "AwE4g3UVx"
+    },
+    {
+      "id": "RCOo3A47c"
+    }
+  ],
+  "boost": [],
+  "order": [],
+  "realm": "content",
+  "title": "Query Consistenza commerciale Film 2 posizioni",
+  "description": "",
+  "presets": {
+    "filter": [
+      {
+        "id": "ur0WldwQk"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "KhQ3IziFJ"
+      }
+    ]
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "twpmtJbuJ",
+          "DEY4Sy0nw",
+          "AwE4g3UVx",
+          "RCOo3A47c"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "ur0WldwQk",
+          "KhQ3IziFJ"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "pN1wVUCyk"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1,
+    "mustOperator": "or"
+  },
+  "id": "nEHdWgP7H",
+  "version": 25,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2026-03-02T10:30:03.410Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "pN1wVUCyk",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 6,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 4,
+          "items": [
+            {
+              "id": "twpmtJbuJ",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "DEY4Sy0nw",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "AwE4g3UVx",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "RCOo3A47c",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 2,
+          "items": [
+            {
+              "id": "ur0WldwQk",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "KhQ3IziFJ",
+              "type": "rulesPresets",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "uselessMultiplier": false,
+  "metadataOverrides": {
+    "twpmtJbuJ": {
+      "content_similar": {
+        "required": true,
+        "output": "video_similar_ids_film_mplay",
+        "numResults": 12,
+        "metadata": {
+          "included": [
+            "tipologia=Film",
+            "editorial_type=Movie",
+            "video_format=(HD) OR (SD)",
+            "content_channels=MediasetPlay",
+            "paesiorigine=(ITALIA) OR (Italia) OR (STATI UNITI D AMERICA) OR (Stati Uniti) OR (Stati Uniti d America) OR (USA)"
+          ],
+          "excluded": [
+            "content_channels=Infinity"
+          ]
+        },
+        "groupby": {
+          "metadata": "editorial_type",
+          "results": 2,
+          "sortMetadata": "last24h_videoviews",
+          "sortDirection": "desc"
+        },
+        "date": {
+          "range": 7,
+          "period": "y",
+          "field": "annoproduzione",
+          "absolute": true
+        }
+      }
+    },
+    "RCOo3A47c": {
+      "content_similar": {
+        "required": true,
+        "output": "video_similar_ids_film_midnight",
+        "numResults": 12,
+        "metadata": {
+          "included": [
+            "tipologia=Film",
+            "editorial_type=Movie",
+            "video_format=(HD) OR (SD)",
+            "content_channels=MidnightFactory",
+            "etichetteEditoriali=Testata"
+          ],
+          "excluded": []
+        },
+        "groupby": {
+          "metadata": "editorial_type",
+          "results": 1,
+          "sortMetadata": "last7d_videoviews",
+          "sortDirection": "desc"
+        },
+        "date": {
+          "range": 7,
+          "period": "y",
+          "field": "annoproduzione",
+          "absolute": true
+        }
+      }
+    },
+    "AwE4g3UVx": {
+      "content_similar": {
+        "required": true,
+        "output": "video_similar_ids_film_mgm",
+        "numResults": 12,
+        "metadata": {
+          "included": [
+            "tipologia=Film",
+            "editorial_type=Movie",
+            "video_format=(HD) OR (SD)",
+            "content_channels=MGM",
+            "etichetteEditoriali=Testata"
+          ],
+          "excluded": [
+            "video_content_id=Y312376501000101"
+          ]
+        },
+        "groupby": {
+          "metadata": "editorial_type",
+          "results": 2,
+          "sortMetadata": "last7d_videoviews",
+          "sortDirection": "desc"
+        },
+        "date": {
+          "range": 7,
+          "period": "y",
+          "field": "annoproduzione",
+          "absolute": true
+        }
+      }
+    },
+    "DEY4Sy0nw": {
+      "content_similar": {
+        "required": true,
+        "output": "video_similar_ids_film_inf",
+        "numResults": 12,
+        "metadata": {
+          "included": [
+            "tipologia=Film",
+            "editorial_type=Movie",
+            "video_format=(HD) OR (SD)",
+            "content_channels=Infinity"
+          ],
+          "excluded": [
+            "content_channels=MediasetPlay"
+          ]
+        },
+        "groupby": {
+          "metadata": "editorial_type",
+          "results": 4,
+          "sortMetadata": "last24h_videoviews",
+          "sortDirection": "desc"
+        },
+        "date": {
+          "range": 7,
+          "period": "y",
+          "field": "annoproduzione",
+          "absolute": true
+        }
+      }
+    }
+  }
+}

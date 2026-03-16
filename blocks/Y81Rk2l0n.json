@@ -1,0 +1,227 @@
+{
+  "refs": {
+    "require": [
+      {
+        "type": "queries",
+        "items": [
+          "TrBCM_mrO",
+          "JcLPwIH_9",
+          "AkDXA7YHE",
+          "byMpe1wx_f"
+        ]
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "P0csRsOt7"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": [
+          "eOaXizx_"
+        ]
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "KVevhdsXI"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "pages",
+          "count": 1,
+          "items": [
+            {
+              "variantId": "KVevhdsXI",
+              "propertyId": "ZGoUpbRaZP",
+              "propertyTitle": "",
+              "endpointId": "KvGqRT67w",
+              "endpointTitle": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 6,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 4,
+          "items": [
+            {
+              "id": "TrBCM_mrO",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "JcLPwIH_9",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "AkDXA7YHE",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "byMpe1wx_f",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "P0csRsOt7",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 1,
+          "items": [
+            {
+              "id": "eOaXizx_",
+              "type": "responseFields",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "results": {
+    "flatAllBlocks": true,
+    "min": 0,
+    "fallbackBlockId": "P0csRsOt7",
+    "max": 24,
+    "deduplicateFlattedResults": true
+  },
+  "blocks": [
+    {
+      "_id": "W25W3TUVXD",
+      "condition": "*",
+      "title": "Top e Prima Serata",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 8,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "fallbackBlockId": "P0csRsOt7",
+        "skipOnEmpty": true
+      },
+      "queryId": "TrBCM_mrO"
+    },
+    {
+      "_id": "abHK8Jbvz",
+      "condition": "*",
+      "title": "Top",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 5,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true
+      },
+      "queryId": "JcLPwIH_9"
+    },
+    {
+      "_id": "ZF6VTm1rW",
+      "condition": "*",
+      "title": "Prima serata",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 6,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true
+      },
+      "queryId": "AkDXA7YHE"
+    },
+    {
+      "_id": "qAnKPm12g",
+      "condition": "*",
+      "title": "In onda",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 30,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true
+      },
+      "queryId": "byMpe1wx_f"
+    }
+  ],
+  "title": "SKY Intrattenimento",
+  "description": "",
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "realm": "content",
+  "id": "Y81Rk2l0n",
+  "version": 7,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2024-03-26T16:04:19.842Z"
+  }
+}

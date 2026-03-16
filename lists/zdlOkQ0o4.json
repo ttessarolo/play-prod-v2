@@ -1,0 +1,28 @@
+{
+  "type": "text",
+  "contentType": "video",
+  "realm": "content",
+  "elements": [
+    "Italia 1",
+    "Italia 2",
+    "Boing"
+  ],
+  "title": "List I1 I2 e Boing",
+  "description": "",
+  "id": "zdlOkQ0o4",
+  "version": 1,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2023-08-22T14:31:22.362Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "rules",
+        "items": [
+          "BuCWQ7M1h"
+        ]
+      }
+    ]
+  }
+}

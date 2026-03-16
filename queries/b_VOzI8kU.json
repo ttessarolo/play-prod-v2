@@ -1,0 +1,55 @@
+{
+  "title": "DEM TEST Query person to cluster",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "kb0ZRiIVbE"
+    }
+  ],
+  "exclude": [],
+  "include": [
+    {
+      "id": "zYsYDSHfZ"
+    }
+  ],
+  "boost": [],
+  "order": [],
+  "realm": "content",
+  "metadataOverrides": {},
+  "general": {
+    "mustOperator": "or",
+    "tieBreaker": 0.9,
+    "minimumShouldMatch": "1%",
+    "resultsMultiplier": 1
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "kb0ZRiIVbE",
+          "zYsYDSHfZ"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "i4ly1281j"
+        ]
+      }
+    ]
+  },
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2026-02-26T13:44:33.915Z"
+  },
+  "id": "b_VOzI8kU",
+  "version": 1
+}

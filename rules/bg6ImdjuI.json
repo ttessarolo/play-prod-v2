@@ -1,0 +1,91 @@
+{
+  "title": "Rule Personaggio Goofy",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "Nulla goofy guy o l idiota",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "protagonistaPerformanceDelPersonaggio",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "h5PhE3PS7W"
+    },
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "Paradossale idiot savant forrest gump",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "protagonistaPerformanceDelPersonaggio",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "Ag50j9vyW"
+    }
+  ],
+  "clauses": [
+    "include",
+    "boost"
+  ],
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "e5VXFM3VPh"
+        ]
+      }
+    ]
+  },
+  "id": "bg6ImdjuI",
+  "version": 2,
+  "lastSaved": {
+    "username": "laura.radice",
+    "date": "2021-09-08T14:00:11.535Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": []
+}

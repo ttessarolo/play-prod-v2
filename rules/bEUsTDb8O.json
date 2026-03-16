@@ -1,0 +1,97 @@
+{
+  "title": "Rule Keep only Publication Date Fep Play range 60 giorni ",
+  "description": "Tiene solo contenuti con Publication Date Fep Most Recent Play degli ultimi 60 giorni",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "range": 60,
+      "period": "d",
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "when_now",
+      "valueType": "metadata",
+      "queryType": "range",
+      "field": "publication_date_fep_most_recent_play",
+      "fieldNested": 0,
+      "fieldDBType": "date",
+      "_id": "Xz4rBbExB"
+    }
+  ],
+  "clauses": [
+    "filter"
+  ],
+  "metadata": {
+    "time": true,
+    "external": {
+      "output": "external_source"
+    }
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "WQFzcbZi3",
+          "eYpjGfjVG"
+        ]
+      }
+    ]
+  },
+  "id": "bEUsTDb8O",
+  "version": 7,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-08-27T10:49:23.085Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 2,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 2,
+          "items": [
+            {
+              "id": "js5eihPKLL",
+              "type": "queries",
+              "title": "INF Most recent Film Blocco 2"
+            },
+            {
+              "id": "Fey8TGWHzd",
+              "type": "queries",
+              "title": "INF Most recent Film"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 1,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "searchMetadata": [
+    "request",
+    "time"
+  ],
+  "includedMetadata": [
+    "time"
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "results": {
+    "min": 0,
+    "flatAllBlocks": true,
+    "max": 40,
+    "fallbackBlockId": "P0csRsOt7",
+    "deduplicateFlattedResults": true
+  },
+  "blocks": [
+    {
+      "_id": "tSqRQgKgXJ",
+      "condition": "*",
+      "title": "In primo piano Super Top",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 3,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true,
+        "fallbackBlockId": "P0csRsOt7"
+      },
+      "queryId": "tNuQWnsHf"
+    },
+    {
+      "_id": "V6F3SVg1j",
+      "condition": "*",
+      "title": "In primo piano Top",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 10,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true,
+        "fallbackBlockId": "P0csRsOt7"
+      },
+      "queryId": "kBxcwzsiW8"
+    },
+    {
+      "_id": "dwGW2nOPlG",
+      "condition": "*",
+      "title": "In primo piano",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 35,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "fallbackBlockId": "P0csRsOt7",
+        "inject": []
+      },
+      "queryId": "opSo8V1UKT"
+    }
+  ],
+  "title": "Med Ita Programmi TV In primo piano",
+  "description": "",
+  "scheduled": 0,
+  "scheduling": [],
+  "schedulingMap": [],
+  "realm": "content",
+  "canBeFallback": 0,
+  "refs": {
+    "require": [
+      {
+        "type": "queries",
+        "items": [
+          "tNuQWnsHf",
+          "kBxcwzsiW8",
+          "opSo8V1UKT"
+        ]
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "P0csRsOt7"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": [
+          "eOaXizx_"
+        ]
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "ZH_qUNnjn"
+        ]
+      }
+    ]
+  },
+  "id": "Ux07kHZqz",
+  "version": 14,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-12-13T16:03:55.965Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 5,
+      "types": 6,
+      "items": [
+        {
+          "type": "queries",
+          "count": 3,
+          "items": [
+            {
+              "id": "_YcmnLaH4",
+              "type": "queries",
+              "title": "Query Programmi TV In primo piano Blocco 1"
+            },
+            {
+              "id": "hbPc0tj9I",
+              "type": "queries",
+              "title": "Query Programmi TV In primo piano Blocco 2"
+            },
+            {
+              "id": "hn5iFhhbZ",
+              "type": "queries",
+              "title": "Query Programmi TV In primo piano Blocco 3"
+            }
+          ]
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "P0csRsOt7",
+              "type": "blocks",
+              "title": "Block published flag not exists"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 1,
+          "items": [
+            {
+              "id": "eOaXizx_",
+              "type": "responseFields",
+              "title": "PLAY-PROD-VIDEO-MINIMAL-SET"
+            }
+          ]
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": []
+}

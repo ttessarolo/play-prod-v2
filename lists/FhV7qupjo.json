@@ -1,0 +1,37 @@
+{
+  "title": "Lista tipologia Channel Serie",
+  "description": "Per channel esterni",
+  "type": "text",
+  "contentType": "video",
+  "realm": "content",
+  "elements": [
+    "Cartoni",
+    "Documentari",
+    "Fiction",
+    "Informazione",
+    "Intrattenimento",
+    "Serie TV",
+    "Sport"
+  ],
+  "id": "FhV7qupjo",
+  "version": 3,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-06-29T19:03:02.810Z"
+  },
+  "refs": {
+    "belongs": []
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  }
+}

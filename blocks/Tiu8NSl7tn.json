@@ -1,0 +1,172 @@
+{
+  "title": "Search Clip",
+  "description": "",
+  "results": {
+    "flatAllBlocks": true,
+    "min": 0,
+    "fallbackBlockId": "P0csRsOt7",
+    "max": 30
+  },
+  "blocks": [
+    {
+      "condition": "(!isEmpty(query_all))",
+      "title": "Search Clip",
+      "type": "query",
+      "_id": "iKEODU3bZ7",
+      "pinned": true,
+      "results": {
+        "max": 30,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": false,
+        "filters": {
+          "repeatedMetadata": []
+        },
+        "fallbackBlockId": "P0csRsOt7"
+      },
+      "queryId": "rCpAPoEJQ",
+      "conditionRaw": {
+        "and": [
+          {
+            "id": "IzxI4_ll7a",
+            "operator": "!isEmpty",
+            "values": [
+              {
+                "value": "query_all",
+                "type": "metadata"
+              }
+            ]
+          }
+        ]
+      },
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "scheduled": false,
+  "canBeFallback": 0,
+  "refs": {
+    "require": [
+      {
+        "type": "queries",
+        "items": [
+          "rCpAPoEJQ"
+        ]
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "P0csRsOt7"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": [
+          "eOaXizx_"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "lbNPSiB5Z9",
+          "q68HoEaN5k",
+          "ETMOjkvtg"
+        ]
+      }
+    ]
+  },
+  "id": "Tiu8NSl7tn",
+  "version": 21,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-03-26T15:04:13.769Z"
+  },
+  "enabledPagesId": [
+    "rrjMTUmyqd",
+    "xGMz3ReD9",
+    "ltODLqOFg",
+    "Gw6akjKa4a",
+    "Tac2Yo4sw"
+  ],
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 2,
+      "items": [
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "lbNPSiB5Z9",
+              "type": "blocks",
+              "title": "Clip"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 3,
+      "types": 4,
+      "items": [
+        {
+          "type": "queries",
+          "count": 1,
+          "items": [
+            {
+              "id": "rCpAPoEJQ",
+              "type": "queries",
+              "title": "Search Clip"
+            }
+          ]
+        },
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "P0csRsOt7",
+              "type": "blocks",
+              "title": "Block published flag not exists"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 1,
+          "items": [
+            {
+              "id": "eOaXizx_",
+              "type": "responseFields",
+              "title": "PLAY-PROD-VIDEO-MINIMAL-SET"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "scheduling": [],
+  "schedulingMap": []
+}

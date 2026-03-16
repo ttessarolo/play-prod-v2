@@ -1,0 +1,159 @@
+{
+  "title": "Query Highlights Smart Tv Movie Serie",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "MrtMAYnbZ"
+    },
+    {
+      "id": "k9ysvL20u"
+    }
+  ],
+  "exclude": [],
+  "include": [
+    {
+      "id": "Qs0Vux5WH_"
+    },
+    {
+      "id": "IA2rMeBZYW"
+    },
+    {
+      "id": "UQcP3MxGlF"
+    },
+    {
+      "id": "ssdeTHIxc"
+    }
+  ],
+  "boost": [],
+  "order": [
+    {
+      "id": "SXyaET7iz2"
+    }
+  ],
+  "realm": "content",
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "MrtMAYnbZ",
+          "k9ysvL20u",
+          "Qs0Vux5WH_",
+          "IA2rMeBZYW",
+          "UQcP3MxGlF",
+          "ssdeTHIxc",
+          "SXyaET7iz2"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "KhQ3IziFJ"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "yVFxcfHJH"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 4,
+    "mustOperator": "or"
+  },
+  "id": "vIQCxKrUj",
+  "version": 9,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2022-04-12T13:31:43.452Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "yVFxcfHJH",
+              "type": "blocks",
+              "title": "Block Highlights Smart Tv"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 7,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 6,
+          "items": [
+            {
+              "id": "MrtMAYnbZ",
+              "type": "rules",
+              "title": "Rule Channel Mediaset Play o Infinity"
+            },
+            {
+              "id": "k9ysvL20u",
+              "type": "rules",
+              "title": "Rule Tipologia Serie TV Fiction e Film"
+            },
+            {
+              "id": "Qs0Vux5WH_",
+              "type": "rules",
+              "title": "Rule Editorial Type Movie"
+            },
+            {
+              "id": "IA2rMeBZYW",
+              "type": "rules",
+              "title": "Rule Editorial Type Serie"
+            },
+            {
+              "id": "UQcP3MxGlF",
+              "type": "rules",
+              "title": "Rule Editorial Type Clip"
+            },
+            {
+              "id": "SXyaET7iz2",
+              "type": "rules",
+              "title": "Rule Order By Most Recent Always"
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 1,
+          "items": [
+            {
+              "id": "KhQ3IziFJ",
+              "type": "rulesPresets",
+              "title": "Preset Video format exclude 4K"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "uselessMultiplier": false,
+  "presets": {
+    "exclude": [
+      {
+        "id": "KhQ3IziFJ"
+      }
+    ],
+    "filter": []
+  },
+  "metadataOverrides": {}
+}

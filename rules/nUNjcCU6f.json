@@ -1,0 +1,95 @@
+{
+  "title": "Rule Filtro Escludi Tv Movie e Miniserie",
+  "description": "Filtra sottotipologia TVMOVIE e Miniserie",
+  "contentType": "video",
+  "clauses": [
+    "exclude"
+  ],
+  "rule": [
+    {
+      "condition": "*",
+      "boost": 1,
+      "type": "I2I",
+      "_id": "wa_WQRUPt",
+      "match": "TV MOVIE",
+      "phrase": false,
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      },
+      "field": "sottotipologia",
+      "fieldDBType": "keyword",
+      "queryType": "match",
+      "value": "TV MOVIE",
+      "valueType": "string",
+      "API": "V2"
+    },
+    {
+      "condition": "*",
+      "boost": 1,
+      "type": "I2I",
+      "_id": "Hb_eyd9bp",
+      "match": "MINISERIE",
+      "phrase": false,
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      },
+      "field": "sottotipologia",
+      "fieldDBType": "keyword",
+      "queryType": "match",
+      "value": "MINISERIE",
+      "valueType": "string",
+      "API": "V2"
+    }
+  ],
+  "field": "sottotipologia",
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "XfBmXeGEp",
+          "b20L6V_Cz",
+          "xMecDK8KF",
+          "WQk9TX6Gz",
+          "M6znVT4rI",
+          "NHBn8poSz",
+          "VSuWQgZ1N",
+          "rOiEnU9mH",
+          "osVzkbq1f",
+          "zfs8imRPC",
+          "WberdVHbj",
+          "vd0sQwe2q",
+          "O4OWKwsiK",
+          "R5PS0xUQI",
+          "dJb9mqV8A",
+          "GgHM9VBc7",
+          "jDZGfzgiS",
+          "BqU9dngUa",
+          "m088vbWc5Q"
+        ]
+      }
+    ]
+  },
+  "id": "nUNjcCU6f",
+  "version": 1,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2020-10-14T14:26:37.820Z"
+  }
+}

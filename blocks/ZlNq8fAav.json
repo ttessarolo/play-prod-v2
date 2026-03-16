@@ -1,0 +1,178 @@
+{
+  "id": "ZlNq8fAav",
+  "propertyId": "zlqQNxLcGh",
+  "title": "Stagioni Kids",
+  "description": "Please Edit description for Page \"Default\"",
+  "enabledPagesId": [
+    "wa7CTFrKM"
+  ],
+  "isPage": true,
+  "blocks": [
+    {
+      "id": "qOFDsPiI2",
+      "condition": "*",
+      "title": "Bambini (La tv dei piccoli)",
+      "type": "nested",
+      "layout": {
+        "i": "qOFDsPiI2",
+        "w": 12,
+        "h": 24
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "AVWzVaG7c",
+      "metadataUI": {
+        "default": {
+          "template": "POSTER"
+        },
+        "playDetailParams": {
+          "property": "play"
+        }
+      },
+      "nestingType": "block",
+      "pinned": true,
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      }
+    }
+  ],
+  "version": 8,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2023-03-29T09:30:47.206Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "endpoints",
+        "items": [
+          "wa7CTFrKM"
+        ]
+      }
+    ],
+    "require": [
+      {
+        "type": "queries",
+        "items": []
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "Rc1YEkVxO",
+          "AVWzVaG7c"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ]
+  },
+  "layout": [
+    {
+      "w": 12,
+      "h": 24,
+      "x": 0,
+      "y": 0,
+      "i": "qOFDsPiI2",
+      "moved": false,
+      "static": false
+    }
+  ],
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "wa7CTFrKM",
+              "type": "endpoints",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 2,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 2,
+          "items": [
+            {
+              "id": "Rc1YEkVxO",
+              "type": "blocks"
+            },
+            {
+              "id": "AVWzVaG7c",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "results": {
+    "fallbackBlockId": "Rc1YEkVxO",
+    "fullSubstituteFallback": true
+  },
+  "fullSubstituteFallback": true
+}

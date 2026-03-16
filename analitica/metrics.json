@@ -1,0 +1,261 @@
+{
+  "index": "analitica-play-metrics-general",
+  "metrics": [
+    {
+      "id": "UvYTaMMpt",
+      "label": "search",
+      "formula": "search",
+      "filters": [],
+      "conversions": [
+        "search"
+      ]
+    },
+    {
+      "id": "H40Jxt3qZ",
+      "label": "relevant",
+      "formula": "relevant",
+      "filters": [],
+      "conversions": [
+        "relevant"
+      ]
+    },
+    {
+      "id": "ODozMiD4j",
+      "label": "play",
+      "formula": "play",
+      "filters": [],
+      "conversions": [
+        "play"
+      ]
+    },
+    {
+      "id": "iz9i9GZvC",
+      "label": "logged(click / recommended)",
+      "formula": "(click / recommended) * 100",
+      "filters": [
+        {
+          "dimension": "userLogged",
+          "conditions": [
+            {
+              "operator": "=",
+              "value": "true"
+            }
+          ]
+        }
+      ],
+      "conversions": [
+        "click",
+        "recommended"
+      ],
+      "filterString": "userLogged:(true)"
+    },
+    {
+      "id": "e91btGw8y",
+      "label": "play/click",
+      "formula": "(play/click) * 100",
+      "filters": [],
+      "conversions": [
+        "play",
+        "click"
+      ]
+    },
+    {
+      "id": "r9FzQ9FhkR",
+      "label": "recommended",
+      "formula": "recommended",
+      "filters": [
+        {
+          "dimension": "platform",
+          "conditions": [
+            {
+              "operator": "=",
+              "value": "web"
+            }
+          ]
+        }
+      ],
+      "conversions": [
+        "recommended"
+      ],
+      "dispensed": true,
+      "filterString": "platform:(web)"
+    },
+    {
+      "id": "p06B7yIKU",
+      "label": "click",
+      "formula": "click",
+      "conversions": [
+        "click"
+      ],
+      "dispensed": false
+    },
+    {
+      "id": "XS5E2xmLt",
+      "label": "click/users",
+      "formula": "RATIO(click, usersUnique + userNoID) * 100",
+      "conversions": [
+        "click",
+        "usersUnique",
+        "userNoID"
+      ],
+      "dispensed": false
+    },
+    {
+      "id": "Zr7Cz9SiLp",
+      "label": "click/play",
+      "formula": "RATIO(click,play) * 100",
+      "conversions": [
+        "click",
+        "play"
+      ],
+      "dispensed": false
+    },
+    {
+      "id": "sOyK7jSu3",
+      "label": "click/recommended",
+      "formula": "(click/recommended)*100",
+      "conversions": [
+        "click",
+        "recommended"
+      ],
+      "dispensed": false
+    },
+    {
+      "id": "xik0g2uuwP",
+      "label": "logged(relevant/play)",
+      "formula": "RATIO(relevant,play) * 100",
+      "conversions": [
+        "relevant",
+        "play"
+      ],
+      "dispensed": false,
+      "filters": [
+        {
+          "dimension": "userLogged",
+          "conditions": [
+            {
+              "operator": "=",
+              "value": "true"
+            }
+          ]
+        }
+      ],
+      "filterString": "userLogged:(true)"
+    }
+  ],
+  "usedConversions": [
+    "search",
+    "relevant",
+    "play",
+    "click",
+    "recommended",
+    "usersUnique",
+    "userNoID"
+  ],
+  "refs": {
+    "require": [
+      {
+        "type": "conversions",
+        "items": [
+          "search",
+          "relevant",
+          "play",
+          "click",
+          "recommended",
+          "userNoID"
+        ]
+      }
+    ],
+    "belongs": []
+  },
+  "id": "metrics",
+  "version": 22,
+  "lastSaved": {
+    "username": "ttessarolo",
+    "date": "2023-09-18T15:49:25.577Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 6,
+      "types": 1,
+      "items": [
+        {
+          "type": "conversions",
+          "count": 6,
+          "items": [
+            {
+              "id": "search",
+              "type": "conversions"
+            },
+            {
+              "id": "relevant",
+              "type": "conversions",
+              "title": "Relevant conversion"
+            },
+            {
+              "id": "play",
+              "type": "conversions",
+              "title": "Play conversion"
+            },
+            {
+              "id": "click",
+              "type": "conversions",
+              "title": "Click conversion"
+            },
+            {
+              "id": "recommended",
+              "type": "conversions"
+            },
+            {
+              "id": "userNoID",
+              "type": "conversions"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "dispensedMetricId": "r9FzQ9FhkR",
+  "dispensedMetric": "recommended",
+  "customConversions": [
+    "users",
+    "usersUnique"
+  ],
+  "dimensions": [
+    {
+      "id": "platform",
+      "type": "string",
+      "values": [
+        {
+          "value": "web"
+        }
+      ]
+    },
+    {
+      "id": "userLogged",
+      "type": "boolean",
+      "values": [
+        {
+          "value": "true"
+        },
+        {
+          "value": "false"
+        }
+      ]
+    },
+    {
+      "id": "subscriptionCluster",
+      "type": "string",
+      "values": [
+        {
+          "value": "pay"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "title": "Rule Boost Genere Patemico",
+  "description": "Boost su match genere patemico\n",
+  "contentType": "video",
+  "clauses": [
+    "boost"
+  ],
+  "rule": [
+    {
+      "condition": "*",
+      "boost": 1,
+      "type": "I2I",
+      "_id": "KfMtb6ZTb",
+      "matchFromMetadata": "generepatemico",
+      "phrase": false,
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      },
+      "field": "generepatemico",
+      "fieldDBType": "keyword",
+      "queryType": "match",
+      "value": "generepatemico",
+      "valueType": "metadata",
+      "API": "V2"
+    }
+  ],
+  "field": "generepatemico",
+  "metadata": {
+    "content": true
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "_UJtujmOS",
+          "Jnfu6ZH0E",
+          "hzT5G0sYG",
+          "rlrVLabqSl",
+          "SGD1LQ9Mj",
+          "KrplYijM4",
+          "l4aaD5uVWs",
+          "C02qfD2Y3",
+          "PGHHPIFHQ"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "ZPwmT2FT9"
+        ]
+      }
+    ]
+  },
+  "id": "SonpJllfx",
+  "version": 1,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-01-26T16:25:51.905Z"
+  }
+}

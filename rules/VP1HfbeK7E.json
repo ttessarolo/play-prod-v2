@@ -1,0 +1,94 @@
+{
+  "title": "Rule Keep only Window Last End range 21 giorni da Now",
+  "description": "Prende solo contenuti a 21 giorni dalla scadenza\nPer array: In uscita dal catalogo",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "range": 30,
+      "period": "d",
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "I2I",
+      "value": "when_now",
+      "valueType": "metadata",
+      "queryType": "range",
+      "field": "window_last_end",
+      "fieldNested": 0,
+      "fieldDBType": "date",
+      "_id": "Xz4rBbExB"
+    }
+  ],
+  "clauses": [
+    "filter"
+  ],
+  "metadata": {
+    "time": true
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "qLHnIzGLeb",
+          "lKsGN9IPe9"
+        ]
+      }
+    ]
+  },
+  "id": "VP1HfbeK7E",
+  "version": 3,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-05-13T17:01:59.956Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 2,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 2,
+          "items": [
+            {
+              "id": "qLHnIzGLeb",
+              "type": "queries",
+              "title": "INF Film In scadenza"
+            },
+            {
+              "id": "lKsGN9IPe9",
+              "type": "queries",
+              "title": "TVOD Film In scadenza"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 1,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "searchMetadata": [
+    "request",
+    "time"
+  ],
+  "includedMetadata": [
+    "time"
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "title": "Query Similar Informazione Stesso Brand",
+  "description": "Carrello finalizzato al GUARDA ANCHE di programmi con tipologia INFORMAZIONE con lo stesso Brand del chiamante",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "YMaH2tPZC"
+    },
+    {
+      "id": "KukwdwFDvb"
+    }
+  ],
+  "exclude": [],
+  "include": [
+    {
+      "id": "YxcvvMfGx"
+    }
+  ],
+  "boost": [
+    {
+      "id": "SYrAp4NDd"
+    }
+  ],
+  "order": [],
+  "realm": "content",
+  "presets": {
+    "filter": [
+      {
+        "id": "TuAyi0elu"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "ZRorAbL96Q"
+      }
+    ]
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "YMaH2tPZC",
+          "KukwdwFDvb",
+          "YxcvvMfGx",
+          "SYrAp4NDd"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "TuAyi0elu",
+          "ZRorAbL96Q"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "MgPmWptZEh"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1,
+    "mustOperator": "or"
+  },
+  "id": "_WmSa4Xbk",
+  "version": 3,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2022-04-28T09:38:27.412Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "MgPmWptZEh",
+              "type": "blocks",
+              "title": "Block Similar Informazione"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 5,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 3,
+          "items": [
+            {
+              "id": "YMaH2tPZC",
+              "type": "rules",
+              "title": "Rule Content Channel Origin"
+            },
+            {
+              "id": "YxcvvMfGx",
+              "type": "rules",
+              "title": "Rule Similar Tipologia Informazione Stesso Brand"
+            },
+            {
+              "id": "SYrAp4NDd",
+              "type": "rules",
+              "title": "Rule Boost Contenuti In Onda"
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 2,
+          "items": [
+            {
+              "id": "TuAyi0elu",
+              "type": "rulesPresets",
+              "title": "Preset SearchVisible e FrontEnd Visible True"
+            },
+            {
+              "id": "ZRorAbL96Q",
+              "type": "rulesPresets",
+              "title": "Preset Blacklist"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "uselessMultiplier": false,
+  "metadataOverrides": {
+    "YxcvvMfGx": {
+      "content_similar": {
+        "required": true,
+        "output": "video_similar_ids_informazionebrand",
+        "metadata": {
+          "included": [
+            "tipologia=Informazione",
+            "id_season_st",
+            "content_channels"
+          ],
+          "excluded": [
+            "editorial_type=(Full Episode) OR (TVSeason) OR (Serie)",
+            "codice_prodotto_padre"
+          ]
+        },
+        "date": {
+          "range": 2,
+          "period": "w",
+          "field": "publication_date",
+          "absolute": true
+        },
+        "fingerprint": {
+          "matchFields": [
+            "fingerprint"
+          ]
+        }
+      }
+    }
+  }
+}

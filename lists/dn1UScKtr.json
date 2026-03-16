@@ -1,0 +1,42 @@
+{
+  "title": "Lista ADV Ci andiamo in Bici",
+  "description": "",
+  "type": "contentId",
+  "contentType": "video",
+  "realm": "content",
+  "metadataField": "video_content_id",
+  "elements": [
+    "F312906401000101",
+    "F312906401000201",
+    "F312906401000301",
+    "F312906401000401",
+    "F312906401000501",
+    "F312906401000601"
+  ],
+  "id": "dn1UScKtr",
+  "version": 7,
+  "lastSaved": {
+    "username": "Massimiliano.Berardi",
+    "date": "2023-10-04T13:16:50.783Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "rules",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  }
+}

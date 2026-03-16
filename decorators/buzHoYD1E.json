@@ -1,0 +1,23 @@
+{
+  "title": "Fake UserId",
+  "description": "",
+  "language": "javascript",
+  "type": "endpoint-in",
+  "execute": "if(data.query.userId === null || data.query.userId === undefined){\n    data.query.userId = \"fakeID\";\n}\n\nreturn data;",
+  "lastSaved": {
+    "username": "ttessarolo",
+    "date": "2026-02-27T09:09:17.487Z"
+  },
+  "id": "buzHoYD1E",
+  "version": 1,
+  "refs": {
+    "belongs": [
+      {
+        "type": "endpoints",
+        "items": [
+          "PvlSaIkyvm"
+        ]
+      }
+    ]
+  }
+}

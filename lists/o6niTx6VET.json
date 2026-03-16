@@ -1,0 +1,33 @@
+{
+  "title": "List Tutte le Tipologie tranne Cartoni",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "type": "text",
+  "elements": [
+    "Documentari",
+    "Fiction",
+    "Film",
+    "Informazione",
+    "Intrattenimento",
+    "Serie TV",
+    "Sport",
+    "TG"
+  ],
+  "id": "o6niTx6VET",
+  "version": 1,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2024-01-25T11:27:58.635Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "rules",
+        "items": [
+          "qFtKm2RMJ"
+        ]
+      }
+    ]
+  }
+}

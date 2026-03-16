@@ -1,0 +1,30 @@
+{
+  "title": "Ciak del martedì",
+  "description": "",
+  "type": "contentId",
+  "contentType": "video",
+  "realm": "content",
+  "elements": [
+    "F010612801000102",
+    "F311283301000103",
+    "F011960001000102",
+    "F305334001000102"
+  ],
+  "metadataField": "title",
+  "id": "SoeYTiW4M",
+  "version": 1,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2024-11-19T16:34:51.597Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "rules",
+        "items": [
+          "GgwBFXk_r"
+        ]
+      }
+    ]
+  }
+}

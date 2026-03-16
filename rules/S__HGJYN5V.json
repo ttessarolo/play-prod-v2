@@ -1,0 +1,220 @@
+{
+  "contentType": "video",
+  "title": "Rule etichetta editoriale Prima Serata",
+  "description": "",
+  "clauses": [
+    "filter",
+    "exclude",
+    "include",
+    "boost"
+  ],
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "I2I",
+      "value": "Prima Serata",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "etichetteEditoriali",
+      "fieldDBType": "keyword",
+      "_id": "od4gEfgVm"
+    }
+  ],
+  "field": "etichetteEditoriali",
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "hhqbCjmm_1",
+          "ajqPan1bS",
+          "yncTA7ween",
+          "xmIlupiAS",
+          "ds8pLOaGO",
+          "TLxbxZNoD",
+          "CAd6ogG7u",
+          "uk8fnabnQY",
+          "_YcmnLaH4",
+          "hbPc0tj9I",
+          "hn5iFhhbZ",
+          "I1706J335",
+          "FF6GVv2DC",
+          "rkiCo37Zx",
+          "wwG2hSMIC",
+          "_v4wfuHNr",
+          "us3vUNLgO",
+          "R4M6lw89s",
+          "cOZWtR5QFk",
+          "PKIPtcVd_",
+          "aqIFPp4zi",
+          "qW2FYtvyr",
+          "tNuQWnsHf",
+          "kBxcwzsiW8",
+          "opSo8V1UKT",
+          "UxPXwvjeT",
+          "WQFzcbZi3",
+          "XUe7byBci",
+          "tbkv2_bXt",
+          "vQpdSxndVV",
+          "CGFfVq3sX",
+          "ZsxcVJ4cb",
+          "NTAbYMbvb",
+          "gZLBaGLkr",
+          "O43LrW3K3",
+          "DB7Fg4hfA",
+          "Z4Xzab9uO0",
+          "ZmqQWEcF8",
+          "ohpTGTghM",
+          "TuLnMyRO6r",
+          "ABUvps5All",
+          "Fnu1as9qg",
+          "YutotoG_ze",
+          "zzovQgZgg",
+          "TrBCM_mrO",
+          "AkDXA7YHE",
+          "JcLPwIH_9",
+          "VMjkKkljfF",
+          "yFHHJNULO",
+          "byMpe1wx_f"
+        ]
+      }
+    ]
+  },
+  "id": "S__HGJYN5V",
+  "version": 9,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-03-31T14:30:14.111Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 18,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 18,
+          "items": [
+            {
+              "id": "hhqbCjmm_1",
+              "type": "queries",
+              "title": "Query Stagioni Most Recent Programmi TV del momento TOP e PRIMA SERATA V1"
+            },
+            {
+              "id": "ezY5qhdDJ",
+              "type": "queries",
+              "title": "Query Stagioni TopViewed7gg Programmi TV Prime Time V1"
+            },
+            {
+              "id": "ppx5anS9FF",
+              "type": "queries",
+              "title": "Query Stagioni TopViewed7gg Programmi TV Day Time"
+            },
+            {
+              "id": "ajqPan1bS",
+              "type": "queries",
+              "title": "Query Stagioni Most Recent Fiction PRIMA SERATA Homepage"
+            },
+            {
+              "id": "yncTA7ween",
+              "type": "queries",
+              "title": "Query Stagioni Most Recent Fiction e Serie Tv TOP e PRIMA SERATA Homepage"
+            },
+            {
+              "id": "xmIlupiAS",
+              "type": "queries",
+              "title": "Query Default Search Stagioni"
+            },
+            {
+              "id": "ds8pLOaGO",
+              "type": "queries",
+              "title": "Search Stagioni"
+            },
+            {
+              "id": "TLxbxZNoD",
+              "type": "queries",
+              "title": "Query Programmi TV Prima Serata Blocco 2"
+            },
+            {
+              "id": "CAd6ogG7u",
+              "type": "queries",
+              "title": "Query Programmi TV Prima Serata Blocco 1"
+            },
+            {
+              "id": "uk8fnabnQY",
+              "type": "queries",
+              "title": "Query Programmi TV Prima Serata Blocco 3"
+            },
+            {
+              "id": "_YcmnLaH4",
+              "type": "queries",
+              "title": "Query Programmi TV In primo piano Blocco 1"
+            },
+            {
+              "id": "hbPc0tj9I",
+              "type": "queries",
+              "title": "Query Programmi TV In primo piano Blocco 2"
+            },
+            {
+              "id": "hn5iFhhbZ",
+              "type": "queries",
+              "title": "Query Programmi TV In primo piano Blocco 3"
+            },
+            {
+              "id": "mVXFnmu_wA",
+              "type": "queries",
+              "title": "Query enabler most recent stagioni Fiction TOP e PRIMA SERATA"
+            },
+            {
+              "id": "WoR5ePfrxN",
+              "type": "queries",
+              "title": "Query enabler most recent stagioni Fiction PRIMA SERATA"
+            },
+            {
+              "id": "I1706J335",
+              "type": "queries",
+              "title": "Query Enabler Stagioni Più visti 7gg Programmi TV TOP e PRIMA SERATA"
+            },
+            {
+              "id": "FF6GVv2DC",
+              "type": "queries",
+              "title": "Query Enabler Stagioni Più visti 7gg Programmi TV PRIMA SERATA"
+            },
+            {
+              "id": "rkiCo37Zx",
+              "type": "queries",
+              "title": "Query Fiction e Soap Blocco 1"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 1,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  }
+}

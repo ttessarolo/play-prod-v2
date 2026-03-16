@@ -1,0 +1,151 @@
+{
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "wwG2hSMIC",
+          "ZsxcVJ4cb",
+          "O43LrW3K3",
+          "DB7Fg4hfA",
+          "Z4Xzab9uO0"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 6,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 6,
+          "items": [
+            {
+              "id": "CGFfVq3sX",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "wwG2hSMIC",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "ZsxcVJ4cb",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "O43LrW3K3",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "DB7Fg4hfA",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "Z4Xzab9uO0",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "title": "Rule Boost Search Id Series Se ad hoc",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "(contains(query_all, \"xstyle\") || contains(query_all, \"*xsty*\"))",
+      "conditionRaw": {
+        "or": [
+          {
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "query_all"
+              },
+              {
+                "value": "\"xstyle\"",
+                "type": "freeText"
+              }
+            ],
+            "id": "i271NeBZua"
+          },
+          {
+            "id": "zh1EYXn-u",
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "query_all"
+              },
+              {
+                "value": "\"*xsty*\"",
+                "type": "freeText"
+              }
+            ]
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "SE000000000125",
+      "valueType": "freeText",
+      "queryType": "match",
+      "field": "id_series_se",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "UsPnHcnhxE",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "clauses": [
+    "boost"
+  ],
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "id": "xFhBODpCp",
+  "version": 26,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-01-31T13:21:11.876Z"
+  }
+}

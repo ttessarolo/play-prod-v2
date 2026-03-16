@@ -1,0 +1,180 @@
+{
+  "clauses": [
+    "filter"
+  ],
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "(!isEmpty(params_channel) && !contains(params_channel, \"Infinity\"))",
+      "boost": 1,
+      "type": "",
+      "value": "params_channel",
+      "valueType": "metadata",
+      "queryType": "matchFromArray",
+      "field": "content_channels",
+      "fieldNested": 0,
+      "fieldDBType": "text",
+      "_id": "TM3Tb0Oqt",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "!isEmpty",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "params_channel"
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ],
+            "id": "fuITRy2L4C"
+          },
+          {
+            "id": "EEVgf-Xzvv",
+            "operator": "!contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "params_channel"
+              },
+              {
+                "value": "\"Infinity\"",
+                "type": "string"
+              }
+            ]
+          }
+        ]
+      },
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "API": "V2",
+      "condition": "(!isEmpty(params_channel) && contains(params_channel, \"Infinity\"))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "!isEmpty",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "params_channel"
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ],
+            "id": "E4u4b7gsgo"
+          },
+          {
+            "id": "f5YpDSe7T",
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "params_channel"
+              },
+              {
+                "value": "\"Infinity\"",
+                "type": "string"
+              }
+            ]
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "Jin0HY0lwV",
+      "valueType": "list",
+      "queryType": "listTermsId",
+      "field": "content_channels",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "x7vqYZanDf",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "title": "Rule Params Channel Search Contains and Not Infinity",
+  "description": "",
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "wwG2hSMIC",
+          "RCblT8yHA",
+          "JeWs0B6Ip"
+        ]
+      }
+    ]
+  },
+  "id": "upLm3388TK",
+  "version": 14,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-10-19T16:07:57.205Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 2,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 2,
+          "items": [
+            {
+              "id": "JeWs0B6Ip",
+              "type": "queries",
+              "title": "Search Movie"
+            },
+            {
+              "id": "wwG2hSMIC",
+              "type": "queries",
+              "title": "Search Serie"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": [],
+  "scheduled": 0,
+  "scheduling": [],
+  "schedulingMap": []
+}

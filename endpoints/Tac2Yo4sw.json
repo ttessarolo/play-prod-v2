@@ -1,0 +1,462 @@
+{
+  "id": "Tac2Yo4sw",
+  "active": true,
+  "title": "detail",
+  "description": "",
+  "reference": "detail",
+  "propertyId": "rrjMTUmyqd",
+  "blockId": "AeDBbaF42",
+  "variants": [
+    {
+      "blockId": "h15hXW9RF",
+      "condition": "equals(params_variant, \"searchedVideo\")",
+      "priority": 1,
+      "active": true,
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "blockId": "Fwy9pCD4dq",
+      "condition": "(equals(params_variant, \"brand\"))",
+      "priority": 1,
+      "active": true,
+      "scheduled": false,
+      "scheduling": [],
+      "conditionRaw": {
+        "and": [
+          {
+            "id": "jJrX_ff_5",
+            "operator": "equals",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "params_variant"
+              },
+              {
+                "value": "\"brand\"",
+                "type": "string"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "blockId": "lbNPSiB5Z9",
+      "condition": "equals(params_variant, \"clip\")",
+      "priority": 1,
+      "active": true,
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "blockId": "bsPgWyrvWu",
+      "condition": "equals(params_variant, \"fep\")",
+      "priority": 1,
+      "active": true,
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "blockId": "FK3qnwLcv",
+      "condition": "equals(params_variant, \"movie\")",
+      "priority": 1,
+      "active": true,
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "blockId": "VSpgqeifh",
+      "condition": "(equals(params_variant, \"infSerie\") && !isEmpty(params_channel))",
+      "priority": 1,
+      "active": true,
+      "conditionRaw": {
+        "and": [
+          {
+            "id": "3d0sSp0NT",
+            "operator": "equals",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "params_variant"
+              },
+              {
+                "value": "\"infSerie\"",
+                "type": "string"
+              }
+            ]
+          },
+          {
+            "id": "_O8KnooEq",
+            "operator": "!isEmpty",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "params_channel"
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ]
+          }
+        ]
+      },
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "blockId": "O77hBIpio",
+      "condition": "(equals(params_variant, \"infSearchedFilm\") && !isEmpty(params_channel))",
+      "priority": 1,
+      "active": true,
+      "conditionRaw": {
+        "and": [
+          {
+            "id": "DrjxGuvNJB",
+            "operator": "equals",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "params_variant"
+              },
+              {
+                "value": "\"infSearchedFilm\"",
+                "type": "string"
+              }
+            ]
+          },
+          {
+            "operator": "!isEmpty",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "params_channel"
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ],
+            "id": "oweEgQW67j"
+          }
+        ]
+      },
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "blockId": "z70Kc2ebp",
+      "condition": "(equals(params_variant, \"infSearchedSerie\") && !isEmpty(params_channel))",
+      "priority": 1,
+      "active": true,
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "equals",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "params_variant"
+              },
+              {
+                "value": "\"infSearchedSerie\"",
+                "type": "string"
+              }
+            ],
+            "id": "0Uiq8IUvLx"
+          },
+          {
+            "id": "vrRzkJDwW",
+            "operator": "!isEmpty",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "params_channel"
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ]
+          }
+        ]
+      },
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "blockId": "sQaMMdmZyt",
+      "condition": "*",
+      "priority": 1,
+      "active": false
+    },
+    {
+      "blockId": "zzEZhb_1r",
+      "condition": "*",
+      "priority": 1,
+      "active": false
+    }
+  ],
+  "params": {
+    "timeout": 1500,
+    "cacheConfig": {
+      "cache": 1,
+      "cacheTTL": 1800,
+      "cachePrefix": {
+        "group": true,
+        "static": "endpoint",
+        "keys": []
+      },
+      "computeKeys": [
+        "page",
+        "hitsPerPage",
+        "startBlock",
+        "endBlock",
+        "query",
+        "context",
+        "params"
+      ],
+      "keysFilters": [
+        "diacritics",
+        "interpunction",
+        "lowercase"
+      ]
+    },
+    "inveverseCacheConfig": {
+      "cacheTTL": 1800
+    }
+  },
+  "paramsId": "playDefault",
+  "input": {
+    "schema": {
+      "name": "Input Validation Schema",
+      "description": "ARES Request Params",
+      "type": "object",
+      "required": [
+        "query"
+      ],
+      "properties": {
+        "query": {
+          "type": "object",
+          "required": [
+            "tenant",
+            "uxReference"
+          ],
+          "properties": {
+            "tenant": {
+              "type": "string"
+            },
+            "uxReference": {
+              "type": "string"
+            },
+            "userId": {
+              "type": "string"
+            },
+            "userType": {
+              "type": "string"
+            },
+            "userGroup": {
+              "type": "string"
+            },
+            "deviceId": {
+              "type": "string"
+            },
+            "contentId": {
+              "type": "string"
+            },
+            "sessionId": {
+              "type": "string"
+            },
+            "context": {
+              "type": "string"
+            },
+            "query": {
+              "type": "string"
+            },
+            "startBlock": {
+              "type": "number"
+            },
+            "endBlock": {
+              "type": "number"
+            },
+            "page": {
+              "type": "number"
+            },
+            "hitsPerPage": {
+              "type": "number"
+            }
+          }
+        }
+      }
+    },
+    "decorators": [
+      "XIHg_DI92f"
+    ]
+  },
+  "output": {
+    "decorators": [
+      "mU5ep6Aze"
+    ],
+    "filters": {
+      "maxFilterPercentage": 100
+    }
+  },
+  "version": 202,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2023-06-28T13:29:45.330Z"
+  },
+  "refs": {
+    "belongs": [],
+    "require": [
+      {
+        "type": "blocks",
+        "items": [
+          "AeDBbaF42",
+          "h15hXW9RF",
+          "Fwy9pCD4dq",
+          "lbNPSiB5Z9",
+          "bsPgWyrvWu",
+          "FK3qnwLcv",
+          "VSpgqeifh",
+          "O77hBIpio",
+          "z70Kc2ebp",
+          "sQaMMdmZyt",
+          "zzEZhb_1r"
+        ]
+      },
+      {
+        "type": "params",
+        "items": [
+          "playDefault"
+        ]
+      },
+      {
+        "type": "decorators",
+        "items": [
+          "XIHg_DI92f",
+          "mU5ep6Aze"
+        ]
+      },
+      {
+        "type": "conversionPacks",
+        "items": []
+      }
+    ]
+  },
+  "haveScheduledVariants": false,
+  "prevReference": "detail",
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 14,
+      "types": 4,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 11,
+          "items": [
+            {
+              "id": "AeDBbaF42",
+              "type": "blocks",
+              "title": ""
+            },
+            {
+              "id": "h15hXW9RF",
+              "type": "blocks",
+              "title": ""
+            },
+            {
+              "id": "Fwy9pCD4dq",
+              "type": "blocks",
+              "title": ""
+            },
+            {
+              "id": "lbNPSiB5Z9",
+              "type": "blocks",
+              "title": ""
+            },
+            {
+              "id": "bsPgWyrvWu",
+              "type": "blocks",
+              "title": ""
+            },
+            {
+              "id": "FK3qnwLcv",
+              "type": "blocks",
+              "title": ""
+            },
+            {
+              "id": "VSpgqeifh",
+              "type": "blocks",
+              "title": ""
+            },
+            {
+              "id": "O77hBIpio",
+              "type": "blocks",
+              "title": ""
+            },
+            {
+              "id": "z70Kc2ebp",
+              "type": "blocks",
+              "title": ""
+            },
+            {
+              "id": "sQaMMdmZyt",
+              "type": "blocks",
+              "title": ""
+            },
+            {
+              "id": "zzEZhb_1r",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "params",
+          "count": 1,
+          "items": [
+            {
+              "id": "playDefault",
+              "type": "params",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "decorators",
+          "count": 2,
+          "items": [
+            {
+              "id": "XIHg_DI92f",
+              "type": "decorators",
+              "title": ""
+            },
+            {
+              "id": "mU5ep6Aze",
+              "type": "decorators",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "conversionPacks",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "variantsMetadata": {
+    "content": false
+  },
+  "contentType": "video",
+  "paginateFromCache": false,
+  "enableAnalitica": true
+}

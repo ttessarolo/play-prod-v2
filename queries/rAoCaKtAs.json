@@ -1,0 +1,230 @@
+{
+  "title": "INF Generi per Parametri Film Blocco 2",
+  "description": "Per use case parametrici in Infinity - Cinema\nSOLO film Infinity",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "wfBy1paHlb"
+    },
+    {
+      "id": "83txjtJm"
+    },
+    {
+      "id": "Qs0Vux5WH_"
+    },
+    {
+      "id": "MhwnTO2PIM"
+    },
+    {
+      "id": "vKGPyoliA"
+    }
+  ],
+  "exclude": [
+    {
+      "id": "ju06OqIgO"
+    },
+    {
+      "id": "VoB_5PHJs"
+    },
+    {
+      "id": "hzun5eW6d"
+    },
+    {
+      "id": "MwF1OITAc"
+    }
+  ],
+  "include": [
+    {
+      "id": "eDSlXBQn1"
+    }
+  ],
+  "boost": [
+    {
+      "id": "_8ZV5sLIn"
+    }
+  ],
+  "order": [
+    {
+      "id": "He8f44l1s"
+    },
+    {
+      "id": "Oyp_jIxo6"
+    }
+  ],
+  "realm": "content",
+  "presets": {
+    "filter": [
+      {
+        "id": "TuAyi0elu"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "KhQ3IziFJ"
+      }
+    ]
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "wfBy1paHlb",
+          "83txjtJm",
+          "Qs0Vux5WH_",
+          "MhwnTO2PIM",
+          "vKGPyoliA",
+          "ju06OqIgO",
+          "VoB_5PHJs",
+          "hzun5eW6d",
+          "MwF1OITAc",
+          "eDSlXBQn1",
+          "_8ZV5sLIn",
+          "He8f44l1s",
+          "Oyp_jIxo6"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "TuAyi0elu",
+          "KhQ3IziFJ"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "W3OYUNkt68"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1,
+    "mustOperator": "or"
+  },
+  "id": "rAoCaKtAs",
+  "version": 14,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-12-16T15:08:03.802Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "W3OYUNkt68",
+              "type": "blocks",
+              "title": "INF Generi per Parametri Film"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 15,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 13,
+          "items": [
+            {
+              "id": "wfBy1paHlb",
+              "type": "rules",
+              "title": "Rule Channel Infinity"
+            },
+            {
+              "id": "83txjtJm",
+              "type": "rules",
+              "title": "Rule Tipologia Film"
+            },
+            {
+              "id": "Qs0Vux5WH_",
+              "type": "rules",
+              "title": "Rule Editorial Type Movie"
+            },
+            {
+              "id": "MhwnTO2PIM",
+              "type": "rules",
+              "title": "Rule params genre"
+            },
+            {
+              "id": "vKGPyoliA",
+              "type": "rules",
+              "title": "Rule Params filterBy audio subtitle listing page"
+            },
+            {
+              "id": "ju06OqIgO",
+              "type": "rules",
+              "title": "Rule Channel Mediaset Play"
+            },
+            {
+              "id": "VoB_5PHJs",
+              "type": "rules",
+              "title": "Rule Esclude Classici per Params Genre"
+            },
+            {
+              "id": "hzun5eW6d",
+              "type": "rules",
+              "title": "Rule Esclude Animazione per Params Genre"
+            },
+            {
+              "id": "MwF1OITAc",
+              "type": "rules",
+              "title": "Rule Esclude Family per Params Genre"
+            },
+            {
+              "id": "eDSlXBQn1",
+              "type": "rules",
+              "title": "Rule Fingerprint similar to User Condizionale"
+            },
+            {
+              "id": "_8ZV5sLIn",
+              "type": "rules",
+              "title": "Rule Params orderBy relevanceDesc listing page"
+            },
+            {
+              "id": "fnNa_WKV",
+              "type": "rules",
+              "title": "Rule Order By Most Recent Params"
+            },
+            {
+              "id": "Oyp_jIxo6",
+              "type": "rules",
+              "title": "Rule Params orderBy listing page TvSeason Video"
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 2,
+          "items": [
+            {
+              "id": "TuAyi0elu",
+              "type": "rulesPresets",
+              "title": "Preset SearchVisible e FrontEnd Visible True"
+            },
+            {
+              "id": "KhQ3IziFJ",
+              "type": "rulesPresets",
+              "title": "Preset Video format exclude 4K"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "metadataOverrides": {},
+  "uselessMultiplier": false
+}

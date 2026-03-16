@@ -1,0 +1,98 @@
+{
+  "title": "Query Collaborative AB Test",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "kmZRwFiD5q"
+    },
+    {
+      "id": "83txjtJm"
+    },
+    {
+      "id": "Qs0Vux5WH_"
+    }
+  ],
+  "exclude": [],
+  "include": [
+    {
+      "id": "U6HqkYYGg"
+    }
+  ],
+  "boost": [],
+  "order": [],
+  "realm": "content",
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "kmZRwFiD5q",
+          "83txjtJm",
+          "Qs0Vux5WH_",
+          "U6HqkYYGg"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "TuAyi0elu",
+          "ZRorAbL96Q",
+          "zFmF5zQpRG",
+          "KhQ3IziFJ"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "pRGe_f897n"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": "0",
+    "resultsMultiplier": 1,
+    "mustOperator": "or"
+  },
+  "id": "zGCftF1vF",
+  "version": 10,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2024-01-30T11:33:47.672Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  },
+  "metadataOverrides": {},
+  "presets": {
+    "filter": [
+      {
+        "id": "TuAyi0elu"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "ZRorAbL96Q"
+      },
+      {
+        "id": "zFmF5zQpRG"
+      },
+      {
+        "id": "KhQ3IziFJ"
+      }
+    ]
+  }
+}

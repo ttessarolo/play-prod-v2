@@ -1,0 +1,190 @@
+{
+  "metadataInRules": [],
+  "title": "Query Most Recent Film Person to Content",
+  "description": "Solo film - OrderBy Most Recent\n",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "83txjtJm"
+    },
+    {
+      "id": "Qs0Vux5WH_"
+    },
+    {
+      "id": "SJ7TC0R1HB"
+    },
+    {
+      "id": "wfBy1paHlb"
+    }
+  ],
+  "exclude": [],
+  "include": [
+    {
+      "id": "tKzTMaP6Q"
+    }
+  ],
+  "boost": [],
+  "order": [
+    {
+      "id": "UBHhEpnBa"
+    }
+  ],
+  "general": {
+    "resultsMultiplier": 1,
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "mustOperator": "or"
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "83txjtJm",
+          "Qs0Vux5WH_",
+          "SJ7TC0R1HB",
+          "wfBy1paHlb",
+          "tKzTMaP6Q",
+          "UBHhEpnBa"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "TuAyi0elu",
+          "ZRorAbL96Q",
+          "KhQ3IziFJ"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "ivlIDKnOR",
+          "gMhxxXnF4"
+        ]
+      }
+    ]
+  },
+  "id": "bGHIfOpkw",
+  "version": 9,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-06-17T15:52:55.719Z"
+  },
+  "presets": {
+    "exclude": [
+      {
+        "id": "ZRorAbL96Q"
+      },
+      {
+        "id": "KhQ3IziFJ"
+      }
+    ],
+    "filter": [
+      {
+        "id": "TuAyi0elu"
+      }
+    ]
+  },
+  "metadataOverrides": {},
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "ivlIDKnOR",
+              "type": "blocks",
+              "title": "Block Fallback Person to content Film"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 12,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 9,
+          "items": [
+            {
+              "id": "83txjtJm",
+              "type": "rules",
+              "title": "Rule Tipologia Film"
+            },
+            {
+              "id": "Qs0Vux5WH_",
+              "type": "rules",
+              "title": "Rule Editorial Type Movie"
+            },
+            {
+              "id": "SJ7TC0R1HB",
+              "type": "rules",
+              "title": "Rule  Anno Produzione over 2010"
+            },
+            {
+              "id": "ju06OqIgO",
+              "type": "rules",
+              "title": "Rule Channel Mediaset Play"
+            },
+            {
+              "id": "vKGPyoliA",
+              "type": "rules",
+              "title": "Rule Params filterBy audio subtitle listing page"
+            },
+            {
+              "id": "tKzTMaP6Q",
+              "type": "rules",
+              "title": "Rule Film Blockbuster"
+            },
+            {
+              "id": "_8ZV5sLIn",
+              "type": "rules",
+              "title": "Rule Params orderBy relevanceDesc listing page"
+            },
+            {
+              "id": "fnNa_WKV",
+              "type": "rules",
+              "title": "Rule Order By Most Recent Params"
+            },
+            {
+              "id": "Oyp_jIxo6",
+              "type": "rules",
+              "title": "Rule Params orderBy listing page TvSeason Video"
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 3,
+          "items": [
+            {
+              "id": "TuAyi0elu",
+              "type": "rulesPresets",
+              "title": "Preset SearchVisible e FrontEnd Visible True"
+            },
+            {
+              "id": "ZRorAbL96Q",
+              "type": "rulesPresets",
+              "title": "Preset Blacklist"
+            },
+            {
+              "id": "KhQ3IziFJ",
+              "type": "rulesPresets",
+              "title": "Preset Video format exclude 4K"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "uselessMultiplier": false
+}

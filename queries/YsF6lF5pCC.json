@@ -1,0 +1,135 @@
+{
+  "metadataInRules": [],
+  "title": "Query Più visti 24H L'Isola dei famosi",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "XWa_33UED"
+    },
+    {
+      "id": "tfAzCHYts"
+    }
+  ],
+  "exclude": [],
+  "include": [],
+  "boost": [],
+  "order": [
+    {
+      "id": "A5n475YeR"
+    }
+  ],
+  "presets": {
+    "exclude": [
+      {
+        "id": "ZRorAbL96Q"
+      }
+    ],
+    "filter": [
+      {
+        "id": "TuAyi0elu"
+      }
+    ]
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "XWa_33UED",
+          "tfAzCHYts",
+          "A5n475YeR"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "TuAyi0elu",
+          "ZRorAbL96Q"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": []
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "id": "YsF6lF5pCC",
+  "version": 16,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2022-06-14T16:48:56.389Z"
+  },
+  "metadataOverrides": {},
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "_ODyyVDlxp",
+              "type": "blocks",
+              "title": "Block L'Isola dei famosi Più visti 24H"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 5,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 3,
+          "items": [
+            {
+              "id": "XWa_33UED",
+              "type": "rules",
+              "title": "Rule IdSeasonST L'isola dei famosi 2022"
+            },
+            {
+              "id": "tfAzCHYts",
+              "type": "rules",
+              "title": "Rule Editorial Type Clip Extra"
+            },
+            {
+              "id": "J0NNb391SF",
+              "type": "rules",
+              "title": "Rule Piu visti 24h Params"
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 2,
+          "items": [
+            {
+              "id": "TuAyi0elu",
+              "type": "rulesPresets",
+              "title": "Preset SearchVisible e FrontEnd Visible True"
+            },
+            {
+              "id": "ZRorAbL96Q",
+              "type": "rulesPresets",
+              "title": "Preset Blacklist"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "uselessMultiplier": false,
+  "realm": "content"
+}

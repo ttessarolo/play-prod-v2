@@ -1,0 +1,103 @@
+{
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "sortOrder": "desc",
+      "sortMode": "avg",
+      "API": "V2",
+      "condition": "*",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": [
+              {
+                "type": "metadata",
+                "value": ""
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ],
+            "id": "k7IvYMuTwe"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "",
+      "valueType": "",
+      "queryType": "sortOrder",
+      "field": "publication_date_fep_most_recent_infinity",
+      "fieldNested": 0,
+      "fieldDBType": "date",
+      "_id": "xthjEcCaIy",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "clauses": [
+    "order"
+  ],
+  "title": "Rule Order By Publication date Fep Most Recent Infinity",
+  "description": "",
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "nfx18gJXx",
+          "b9MEPMrAY",
+          "jghd_cW_3",
+          "h0DYFqNjp",
+          "qPd0aP7wuv",
+          "hHiEPD3VA",
+          "uSnnVTcnV",
+          "W5sbCv_X34",
+          "xnz0Td37UZ",
+          "Qe21Wmp77",
+          "L98tra9vYX"
+        ]
+      }
+    ]
+  },
+  "id": "zmV_L7QRr",
+  "version": 8,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-06-10T12:56:43.609Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 1,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "scheduled": 0,
+  "scheduling": [],
+  "schedulingMap": [],
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": []
+}

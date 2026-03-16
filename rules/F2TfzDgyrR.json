@@ -1,0 +1,61 @@
+{
+  "title": "Rule Genere Mcm Telegiornale",
+  "description": "",
+  "contentType": "video",
+  "clauses": [
+    "filter",
+    "exclude"
+  ],
+  "rule": [
+    {
+      "condition": "*",
+      "boost": 1,
+      "type": "I2I",
+      "_id": "gMpcvIJWJ",
+      "match": "Telegiornale",
+      "phrase": false,
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      },
+      "field": "genere_mcm",
+      "fieldDBType": "keyword",
+      "queryType": "match",
+      "value": "Telegiornale",
+      "valueType": "string",
+      "API": "V2"
+    }
+  ],
+  "field": "genere_mcm",
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "hhqbCjmm_1",
+          "T2R37bH_w",
+          "zqakv8vZvB",
+          "i7977YQbm",
+          "PzMzP5D6R",
+          "OFJfHmsz5"
+        ]
+      }
+    ]
+  },
+  "id": "F2TfzDgyrR",
+  "version": 3,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2020-12-16T10:57:28.166Z"
+  }
+}

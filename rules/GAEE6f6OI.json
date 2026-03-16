@@ -1,0 +1,115 @@
+{
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "TNtOUf6kS",
+          "Hgvp3RuY2",
+          "m_gnuihp0",
+          "KAsq06N6F",
+          "OvIXofGN2E",
+          "sRlHZqMawB",
+          "mtx6Ew_wWR",
+          "aTlHoTaH0",
+          "sAkw5LwYq"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 1,
+          "items": [
+            {
+              "id": "TNtOUf6kS",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "title": "Rule Content pack Fiction Serie TV Esclusiva",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "video_similar_ids_esclusive",
+      "valueType": "metadata",
+      "queryType": "ids",
+      "field": "video_content_id",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "Be4hn2KUYH"
+    }
+  ],
+  "clauses": [
+    "filter",
+    "include"
+  ],
+  "metadata": {
+    "content_similar": {
+      "required": true,
+      "output": "video_similar_ids_esclusive",
+      "metadata": {
+        "included": [
+          "content_channels=MediasetPlay",
+          "tipologia=(Fiction) OR (Serie TV)",
+          "editorial_type=TVSeason",
+          "etichetteEditoriali=Esclusiva",
+          "current_season=true"
+        ]
+      },
+      "date": {
+        "range": 3,
+        "period": "M",
+        "field": "publication_date_start_play",
+        "absolute": true
+      }
+    }
+  },
+  "id": "GAEE6f6OI",
+  "version": 6,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2023-05-31T10:54:30.294Z"
+  }
+}

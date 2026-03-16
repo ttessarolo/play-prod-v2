@@ -1,0 +1,198 @@
+{
+  "title": "TVOD Multiple block generi per parametri interno",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "IyDzyntfi"
+    },
+    {
+      "id": "83txjtJm"
+    },
+    {
+      "id": "Qs0Vux5WH_"
+    },
+    {
+      "id": "HDbLp8njo"
+    }
+  ],
+  "exclude": [
+    {
+      "id": "e9Y3R8KxHI"
+    },
+    {
+      "id": "VoB_5PHJs"
+    },
+    {
+      "id": "Ey4u2apQQ1"
+    }
+  ],
+  "include": [],
+  "boost": [
+    {
+      "id": "eDSlXBQn1",
+      "overides": {
+        "nkuBvQkmV": {
+          "boost": 10
+        }
+      }
+    }
+  ],
+  "order": [
+    {
+      "id": "He8f44l1s"
+    }
+  ],
+  "realm": "content",
+  "presets": {
+    "filter": [
+      {
+        "id": "TuAyi0elu"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "KhQ3IziFJ"
+      }
+    ]
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "IyDzyntfi",
+          "83txjtJm",
+          "Qs0Vux5WH_",
+          "HDbLp8njo",
+          "e9Y3R8KxHI",
+          "VoB_5PHJs",
+          "Ey4u2apQQ1",
+          "eDSlXBQn1",
+          "He8f44l1s"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "TuAyi0elu",
+          "KhQ3IziFJ"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "_xKCjqOWX"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1,
+    "mustOperator": "or"
+  },
+  "id": "aXM_s_5Uh",
+  "version": 27,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2025-04-09T09:39:03.798Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "_xKCjqOWX",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 11,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 9,
+          "items": [
+            {
+              "id": "IyDzyntfi",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "83txjtJm",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "Qs0Vux5WH_",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "HDbLp8njo",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "e9Y3R8KxHI",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "VoB_5PHJs",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "Ey4u2apQQ1",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "eDSlXBQn1",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "He8f44l1s",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 2,
+          "items": [
+            {
+              "id": "TuAyi0elu",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "KhQ3IziFJ",
+              "type": "rulesPresets",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "metadataOverrides": {},
+  "uselessMultiplier": false
+}

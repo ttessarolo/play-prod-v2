@@ -1,0 +1,48 @@
+{
+  "title": "Rule Collection Id",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "splitter": ",",
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "params_collection",
+      "valueType": "metadata",
+      "queryType": "matchAll",
+      "field": "collection_list.id",
+      "fieldNested": 1,
+      "fieldNestedRoot": "collection_list",
+      "fieldDBType": "keyword",
+      "_id": "BcEtzKieaU"
+    }
+  ],
+  "clauses": [
+    "filter"
+  ],
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "X1ibxFr5L"
+        ]
+      }
+    ]
+  },
+  "id": "GJfvLDT60",
+  "version": 1,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-07-13T14:04:35.883Z"
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "title": "CHNLS Film e Serie Most recent per Channel",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "JfE3hcRkF"
+    },
+    {
+      "id": "kb0ZRiIVbE"
+    }
+  ],
+  "exclude": [
+    {
+      "id": "ybeAsA8Cq"
+    }
+  ],
+  "include": [],
+  "boost": [],
+  "order": [
+    {
+      "id": "mTlb40fUI"
+    },
+    {
+      "id": "lMIZMXC9I"
+    },
+    {
+      "id": "KPDyXF0Q5"
+    },
+    {
+      "id": "KXHl6vHkV"
+    },
+    {
+      "id": "vtQ2vZuuG"
+    },
+    {
+      "id": "lBYqKvGMF"
+    },
+    {
+      "id": "Y6Pth5T63U"
+    },
+    {
+      "id": "SCk4YmHLr"
+    }
+  ],
+  "realm": "content",
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "JfE3hcRkF",
+          "kb0ZRiIVbE",
+          "ybeAsA8Cq",
+          "mTlb40fUI",
+          "lMIZMXC9I",
+          "KPDyXF0Q5",
+          "KXHl6vHkV",
+          "vtQ2vZuuG",
+          "lBYqKvGMF",
+          "Y6Pth5T63U",
+          "SCk4YmHLr"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "ZRorAbL96Q",
+          "KhQ3IziFJ"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "JxJGMMdOgn"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "id": "W5eXiix_7",
+  "version": 11,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-05-26T13:46:36.683Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "JxJGMMdOgn",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 11,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 9,
+          "items": [
+            {
+              "id": "JfE3hcRkF",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "kb0ZRiIVbE",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "ybeAsA8Cq",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "mTlb40fUI",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "lMIZMXC9I",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "KPDyXF0Q5",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "KXHl6vHkV",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "vtQ2vZuuG",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "lBYqKvGMF",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 2,
+          "items": [
+            {
+              "id": "ZRorAbL96Q",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "KhQ3IziFJ",
+              "type": "rulesPresets",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "metadataOverrides": {},
+  "presets": {
+    "exclude": [
+      {
+        "id": "ZRorAbL96Q"
+      },
+      {
+        "id": "KhQ3IziFJ"
+      }
+    ]
+  }
+}

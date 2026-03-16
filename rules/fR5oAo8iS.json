@@ -1,0 +1,63 @@
+{
+  "title": "Rule Boost Categorie Sociodemo",
+  "description": "Boost sulle categorie sociodemo\n",
+  "contentType": "video",
+  "clauses": [
+    "boost"
+  ],
+  "rule": [
+    {
+      "condition": "*",
+      "boost": 1,
+      "type": "I2I",
+      "_id": "ZYqXlcNpQ",
+      "matchFromArrayFromMetadata": "categoriasociodemo",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      },
+      "field": "categoriasociodemo",
+      "fieldDBType": "keyword",
+      "queryType": "matchFromArray",
+      "value": "categoriasociodemo",
+      "valueType": "metadata",
+      "API": "V2"
+    }
+  ],
+  "field": "categoriasociodemo",
+  "metadata": {
+    "content": true
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "_UJtujmOS",
+          "Jnfu6ZH0E",
+          "hzT5G0sYG",
+          "rlrVLabqSl",
+          "SGD1LQ9Mj",
+          "C02qfD2Y3",
+          "PGHHPIFHQ"
+        ]
+      }
+    ]
+  },
+  "id": "fR5oAo8iS",
+  "version": 1,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-01-26T16:29:56.803Z"
+  }
+}

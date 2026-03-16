@@ -1,0 +1,118 @@
+{
+  "title": "INF Smart Block Film Goofy",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "Qs0Vux5WH_"
+    },
+    {
+      "id": "wfBy1paHlb"
+    },
+    {
+      "id": "LitJmvyZa"
+    }
+  ],
+  "exclude": [],
+  "include": [],
+  "boost": [
+    {
+      "id": "bg6ImdjuI"
+    }
+  ],
+  "order": [],
+  "realm": "content",
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "Qs0Vux5WH_",
+          "wfBy1paHlb",
+          "LitJmvyZa",
+          "bg6ImdjuI"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "Upv8s3E3X"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "id": "e5VXFM3VPh",
+  "version": 4,
+  "lastSaved": {
+    "username": "laura.radice",
+    "date": "2021-09-08T14:12:48.584Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "Upv8s3E3X",
+              "type": "blocks",
+              "title": "Goofy"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 4,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 4,
+          "items": [
+            {
+              "id": "Qs0Vux5WH_",
+              "type": "rules",
+              "title": "Rule Editorial Type Movie"
+            },
+            {
+              "id": "wfBy1paHlb",
+              "type": "rules",
+              "title": "Rule Channel Infinity"
+            },
+            {
+              "id": "LitJmvyZa",
+              "type": "rules",
+              "title": "Rule Genere Patemico Comico Commedia"
+            },
+            {
+              "id": "bg6ImdjuI",
+              "type": "rules",
+              "title": "Rule Personaggio Goofy"
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "uselessMultiplier": false
+}

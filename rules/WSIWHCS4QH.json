@@ -1,0 +1,46 @@
+{
+  "title": "Rule Keep only Rating Parental control Verde",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "verde",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "ratingparentalcontrol",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "qtPHJ1Xq_"
+    }
+  ],
+  "clauses": [
+    "filter"
+  ],
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "Ae2BOByZ_"
+        ]
+      }
+    ]
+  },
+  "id": "WSIWHCS4QH",
+  "version": 1,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-04-07T15:12:40.187Z"
+  }
+}

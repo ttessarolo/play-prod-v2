@@ -1,0 +1,353 @@
+{
+  "id": "F_sjywA9Q",
+  "propertyId": "zlqQNxLcGh",
+  "title": "MultiBlock Programmi Tv",
+  "description": "Please Edit description for Page \"Default\"",
+  "enabledPagesId": [
+    "NCATfP6la"
+  ],
+  "isPage": true,
+  "blocks": [
+    {
+      "id": "mNOrBAr2B",
+      "condition": "*",
+      "title": "Talent e reality",
+      "type": "nested",
+      "layout": {
+        "i": "mNOrBAr2B",
+        "x": 0,
+        "y": 1,
+        "w": 12,
+        "h": 30,
+        "blocks": [],
+        "isDraggable": true
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "RgNarqlFkn",
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H",
+        "siteMapped": true
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Talent show,Reality show,Docu reality"
+        }
+      },
+      "pinned": false
+    },
+    {
+      "id": "F7lGmKsCn",
+      "condition": "*",
+      "title": "Varietà e comici",
+      "type": "nested",
+      "layout": {
+        "i": "F7lGmKsCn",
+        "x": 0,
+        "y": 2,
+        "w": 12,
+        "h": 30,
+        "blocks": [],
+        "isDraggable": true
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "RgNarqlFkn",
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H",
+        "siteMapped": true
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Varietà,Comico"
+        }
+      },
+      "pinned": false
+    },
+    {
+      "id": "y56gys8Xi0",
+      "condition": "*",
+      "title": "Talk e approfondimento",
+      "type": "nested",
+      "layout": {
+        "i": "y56gys8Xi0",
+        "w": 12,
+        "h": 30,
+        "isDraggable": true
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "RgNarqlFkn",
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H",
+        "siteMapped": true
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Talk Show"
+        }
+      },
+      "pinned": false
+    },
+    {
+      "id": "GgCmM72eC",
+      "condition": "*",
+      "title": "Doc e docu-reality",
+      "type": "nested",
+      "layout": {
+        "i": "GgCmM72eC",
+        "w": 12,
+        "h": 30,
+        "isDraggable": true
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "RgNarqlFkn",
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Documentario,Docu reality,Sociale"
+        }
+      },
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H",
+        "siteMapped": true
+      },
+      "pinned": false
+    },
+    {
+      "id": "Styb64zQ3",
+      "condition": "*",
+      "title": "Cucina e lifestyle",
+      "type": "nested",
+      "layout": {
+        "i": "Styb64zQ3",
+        "x": 0,
+        "y": 4,
+        "w": 12,
+        "h": 30,
+        "blocks": [],
+        "isDraggable": true
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "RgNarqlFkn",
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H",
+        "siteMapped": true
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Cucina,Lifestyle"
+        }
+      },
+      "pinned": false
+    }
+  ],
+  "version": 17,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2025-07-23T13:34:51.850Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "endpoints",
+        "items": [
+          "NCATfP6la"
+        ]
+      }
+    ],
+    "require": [
+      {
+        "type": "queries",
+        "items": []
+      },
+      {
+        "type": "endpoints",
+        "items": [
+          "WXsJUgBAp"
+        ]
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "Rc1YEkVxO",
+          "RgNarqlFkn"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "NCATfP6la",
+              "type": "endpoints",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 3,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "WXsJUgBAp",
+              "type": "endpoints",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "blocks",
+          "count": 2,
+          "items": [
+            {
+              "id": "Rc1YEkVxO",
+              "type": "blocks"
+            },
+            {
+              "id": "RgNarqlFkn",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "layout": [
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 0,
+      "i": "mNOrBAr2B",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 30,
+      "i": "F7lGmKsCn",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 61,
+      "i": "y56gys8Xi0",
+      "moved": true,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 90,
+      "i": "GgCmM72eC",
+      "moved": true,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 120,
+      "i": "Styb64zQ3",
+      "moved": false,
+      "static": false
+    }
+  ],
+  "results": {
+    "smartOrderBlocks": true,
+    "contentType": "video",
+    "userContentType": "unified",
+    "event": "watched",
+    "perUserBasisType": "video_historical_fingerprint",
+    "fallbackBlockId": "Rc1YEkVxO",
+    "fullSubstituteFallback": true
+  },
+  "fullSubstituteFallback": true
+}

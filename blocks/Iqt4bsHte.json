@@ -1,0 +1,199 @@
+{
+  "results": {
+    "min": 0,
+    "flatAllBlocks": true,
+    "fallbackBlockId": "P0csRsOt7",
+    "max": 50,
+    "deduplicateFlattedResults": true
+  },
+  "blocks": [
+    {
+      "_id": "of2nnFJOKv",
+      "condition": "*",
+      "title": "Stagioni Serie TV Mplay e Inf Supertop FepMostRecent",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 2,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "fallbackBlockId": "P0csRsOt7",
+        "skipOnEmpty": true
+      },
+      "queryId": "hKH4jrbFF"
+    },
+    {
+      "_id": "oy30Mz2t_",
+      "condition": "*",
+      "title": "Stagioni Serie TV Mplay e Inf Prima TV o Prima TV Pay FepMostRecent",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 30,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true
+      },
+      "queryId": "TgKGs2jDf"
+    },
+    {
+      "_id": "fpWhRZ0Ku",
+      "condition": "*",
+      "title": "Stagioni Serie TV MPlay e Inf Top Current season FepMostRecent",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 30,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true
+      },
+      "queryId": "N_80T8VLG"
+    },
+    {
+      "_id": "f57cmVaE0",
+      "condition": "*",
+      "title": "Stagioni Serie TV MPlay e Inf Current season FepMostRecent",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 50,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_"
+      },
+      "queryId": "x7_VOViNIL"
+    }
+  ],
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "realm": "content",
+  "title": "Block Serie TV del momento Homepage Free",
+  "description": "",
+  "refs": {
+    "require": [
+      {
+        "type": "queries",
+        "items": [
+          "hKH4jrbFF",
+          "TgKGs2jDf",
+          "N_80T8VLG",
+          "x7_VOViNIL"
+        ]
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "P0csRsOt7"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": [
+          "eOaXizx_"
+        ]
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "wkpqlVmY5"
+        ]
+      }
+    ]
+  },
+  "id": "Iqt4bsHte",
+  "version": 4,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-11-10T11:12:25.085Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 6,
+      "types": 5,
+      "items": [
+        {
+          "type": "queries",
+          "count": 4,
+          "items": [
+            {
+              "id": "hKH4jrbFF",
+              "type": "queries",
+              "title": "Query Serie TV del momento home Free 1"
+            },
+            {
+              "id": "TgKGs2jDf",
+              "type": "queries",
+              "title": "Query Serie TV del momento home Free 2"
+            },
+            {
+              "id": "N_80T8VLG",
+              "type": "queries",
+              "title": "Query Serie TV del momento home Free 4"
+            },
+            {
+              "id": "x7_VOViNIL",
+              "type": "queries",
+              "title": "Query Serie TV del momento home Free 3"
+            }
+          ]
+        },
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "P0csRsOt7",
+              "type": "blocks",
+              "title": "Block published flag not exists"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 1,
+          "items": [
+            {
+              "id": "eOaXizx_",
+              "type": "responseFields",
+              "title": "PLAY-PROD-VIDEO-MINIMAL-SET"
+            }
+          ]
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": []
+}

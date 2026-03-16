@@ -1,0 +1,39 @@
+{
+  "elements": [
+    "InfAutore",
+    "InfComico",
+    "InfLight",
+    "InfNero",
+    "Infinity",
+    "Juventus",
+    "MGM",
+    "MidnightFactory",
+    "Moonbug",
+    "Noleggio",
+    "Starz",
+    "blazeplayit",
+    "ciplayit",
+    "historyplayit"
+  ],
+  "type": "text",
+  "contentType": "video",
+  "realm": "content",
+  "title": "List Content Channel TimVision",
+  "description": "",
+  "id": "NlCpQgGnJ",
+  "version": 1,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2022-06-21T13:10:18.677Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "rules",
+        "items": [
+          "KOrhM3aP8e"
+        ]
+      }
+    ]
+  }
+}

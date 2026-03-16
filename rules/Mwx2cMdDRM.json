@@ -1,0 +1,57 @@
+{
+  "contentType": "video",
+  "clauses": [
+    "include",
+    "boost"
+  ],
+  "rule": [
+    {
+      "condition": "*",
+      "boost": 1,
+      "type": "I2I",
+      "_id": "QeBiIjgKKj",
+      "match": "true",
+      "phrase": false,
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      },
+      "field": "filmcult",
+      "fieldDBType": "boolean",
+      "queryType": "match",
+      "value": "true",
+      "valueType": "string",
+      "API": "V2"
+    }
+  ],
+  "field": "filmcult",
+  "title": "Rule Film Cult",
+  "description": "Include i film cult",
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "XfBmXeGEp",
+          "osVzkbq1f"
+        ]
+      }
+    ]
+  },
+  "id": "Mwx2cMdDRM",
+  "version": 1,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2020-10-14T14:17:06.905Z"
+  }
+}

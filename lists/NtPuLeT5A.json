@@ -1,0 +1,59 @@
+{
+  "title": "List Blacklist Programmi TV",
+  "description": "",
+  "type": "text",
+  "contentType": "video",
+  "realm": "content",
+  "elements": [
+    "SE000000000103",
+    "SE000000000102",
+    "SE000000000957",
+    "SE000000001344",
+    "SE000000002074",
+    "SE000000000993",
+    "SE000000000995",
+    "SE000000000994",
+    "SE000000002034",
+    "SE000000001345"
+  ],
+  "id": "NtPuLeT5A",
+  "version": 2,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2023-09-07T15:53:27.383Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "rules",
+        "items": [
+          "W1vzMLZQY"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "rules",
+          "count": 1,
+          "items": [
+            {
+              "id": "W1vzMLZQY",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  }
+}

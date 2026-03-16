@@ -1,0 +1,46 @@
+{
+  "title": "Rule Search Visible True",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "true",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "search_visible",
+      "fieldNested": 0,
+      "fieldDBType": "boolean",
+      "_id": "PQIiOqvxF"
+    }
+  ],
+  "clauses": [
+    "filter"
+  ],
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "rulesPresets",
+        "items": [
+          "TuAyi0elu"
+        ]
+      }
+    ]
+  },
+  "id": "sfSihNWeX",
+  "version": 1,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-03-24T16:41:18.649Z"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "title": "Rule Params Etichette editoriali",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "splitter": ",",
+      "API": "V2",
+      "condition": "(!isEmpty(params_etichetteEditoriali))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "!isEmpty",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "params_etichetteEditoriali"
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ],
+            "id": "rGNMdjTigz"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "params_etichetteEditoriali",
+      "valueType": "metadata",
+      "queryType": "matchAll",
+      "field": "etichetteEditoriali",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "sJ31CbbYp",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "clauses": [
+    "filter"
+  ],
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "XCTJ5Ut99",
+          "lqIeDJkxU",
+          "ZqtoubOdJ",
+          "ieeLkGbq7X",
+          "OQ6f716Nm0"
+        ]
+      }
+    ]
+  },
+  "id": "M8LBGIXiL",
+  "version": 1,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-06-25T11:46:58.728Z"
+  }
+}

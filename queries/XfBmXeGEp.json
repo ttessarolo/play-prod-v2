@@ -1,0 +1,175 @@
+{
+  "metadataInRules": [],
+  "title": "Query Film dal catalogo Cult e di Qualità",
+  "description": "Keep Only = Film dal catalogo Cult e di Qualità\n",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "83txjtJm"
+    },
+    {
+      "id": "Qs0Vux5WH_"
+    },
+    {
+      "id": "wfBy1paHlb"
+    }
+  ],
+  "exclude": [
+    {
+      "id": "nUNjcCU6f"
+    }
+  ],
+  "include": [
+    {
+      "id": "Mwx2cMdDRM",
+      "overides": {
+        "QeBiIjgKKj": {
+          "boost": 15
+        }
+      }
+    },
+    {
+      "id": "hEqJRKkwOV"
+    }
+  ],
+  "boost": [],
+  "order": [],
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "83txjtJm",
+          "Qs0Vux5WH_",
+          "wfBy1paHlb",
+          "nUNjcCU6f",
+          "Mwx2cMdDRM",
+          "hEqJRKkwOV"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "KhQ3IziFJ"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "ivlIDKnOR",
+          "gMhxxXnF4"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1,
+    "mustOperator": "or"
+  },
+  "id": "XfBmXeGEp",
+  "version": 8,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-06-17T15:54:17.059Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "ivlIDKnOR",
+              "type": "blocks",
+              "title": "Block Fallback Person to content Film"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 10,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 9,
+          "items": [
+            {
+              "id": "83txjtJm",
+              "type": "rules",
+              "title": "Rule Tipologia Film"
+            },
+            {
+              "id": "Qs0Vux5WH_",
+              "type": "rules",
+              "title": "Rule Editorial Type Movie"
+            },
+            {
+              "id": "ju06OqIgO",
+              "type": "rules",
+              "title": "Rule Channel Mediaset Play"
+            },
+            {
+              "id": "vKGPyoliA",
+              "type": "rules",
+              "title": "Rule Params filterBy audio subtitle listing page"
+            },
+            {
+              "id": "nUNjcCU6f",
+              "type": "rules",
+              "title": "Rule Filtro Escludi Tv Movie e Miniserie"
+            },
+            {
+              "id": "Mwx2cMdDRM",
+              "type": "rules",
+              "title": "Rule Film Cult"
+            },
+            {
+              "id": "hEqJRKkwOV",
+              "type": "rules",
+              "title": "Rule Film di Autore e Qualità"
+            },
+            {
+              "id": "_8ZV5sLIn",
+              "type": "rules",
+              "title": "Rule Params orderBy relevanceDesc listing page"
+            },
+            {
+              "id": "Oyp_jIxo6",
+              "type": "rules",
+              "title": "Rule Params orderBy listing page TvSeason Video"
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 1,
+          "items": [
+            {
+              "id": "KhQ3IziFJ",
+              "type": "rulesPresets",
+              "title": "Preset Video format exclude 4K"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "uselessMultiplier": false,
+  "presets": {
+    "exclude": [
+      {
+        "id": "KhQ3IziFJ"
+      }
+    ]
+  },
+  "metadataOverrides": {}
+}

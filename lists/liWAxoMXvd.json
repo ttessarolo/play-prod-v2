@@ -1,0 +1,54 @@
+{
+  "title": "List MPlay FEP per Similar Serie B",
+  "description": "",
+  "type": "text",
+  "contentType": "video",
+  "realm": "content",
+  "elements": [
+    "F305508401000101",
+    "F312986601000101",
+    "F313399501000101",
+    "F312561001000104",
+    "F303505503000101",
+    "F307089501000103",
+    "F005452101000107"
+  ],
+  "id": "liWAxoMXvd",
+  "version": 2,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2024-08-01T13:08:45.648Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "rules",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "rules",
+          "count": 1,
+          "items": [
+            {
+              "id": "ARsQ4dtAq",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "elements": [
+    "InfAutore",
+    "InfComico",
+    "InfLight",
+    "InfNero",
+    "Infinity",
+    "Noleggio",
+    "MediasetPlay",
+    "MediasetItalia"
+  ],
+  "type": "text",
+  "contentType": "video",
+  "realm": "content",
+  "title": "List Content Channel Sky",
+  "description": "",
+  "id": "G4nJD_PUW",
+  "version": 2,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2022-12-12T10:49:35.811Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "rules",
+        "items": [
+          "opdWd3W4E"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "title": "Search Movie TimVision",
+  "description": "",
+  "results": {
+    "flatAllBlocks": true,
+    "min": 0,
+    "fallbackBlockId": "P0csRsOt7",
+    "max": 30
+  },
+  "blocks": [
+    {
+      "condition": "not isEmpty(query_all)",
+      "title": "Search Movie TimVision",
+      "type": "query",
+      "_id": "pw9CRZDtW",
+      "pinned": true,
+      "results": {
+        "max": 30,
+        "min": 0,
+        "contentType": "video",
+        "skipOnEmpty": false,
+        "responseFieldsId": "eOaXizx_",
+        "fallbackBlockId": "P0csRsOt7"
+      },
+      "queryId": "rU9JESwD9",
+      "conditionRaw": {
+        "and": [
+          {
+            "id": "cEhxr6HWNE",
+            "operator": "!isEmpty",
+            "values": [
+              {
+                "value": "query_all",
+                "type": "metadata"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "scheduled": false,
+  "canBeFallback": false,
+  "refs": {
+    "require": [
+      {
+        "type": "queries",
+        "items": [
+          "rU9JESwD9"
+        ]
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "P0csRsOt7"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": [
+          "eOaXizx_"
+        ]
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "AfQ9VWSP6",
+          "sQaMMdmZyt"
+        ]
+      }
+    ]
+  },
+  "id": "fOtPO4RYt",
+  "version": 15,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2022-06-21T13:14:52.598Z"
+  },
+  "enabledPagesId": [
+    "rrjMTUmyqd",
+    "xGMz3ReD9",
+    "ltODLqOFg",
+    "Gw6akjKa4a",
+    "Tac2Yo4sw"
+  ],
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 3,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 1,
+          "items": [
+            {
+              "id": "rU9JESwD9",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "P0csRsOt7",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 1,
+          "items": [
+            {
+              "id": "eOaXizx_",
+              "type": "responseFields",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "realm": "content"
+}

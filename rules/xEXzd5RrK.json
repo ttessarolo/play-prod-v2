@@ -1,0 +1,58 @@
+{
+  "title": "Rule Video Format 4K SDR",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "4K SDR",
+      "valueType": "freeText",
+      "queryType": "match",
+      "field": "video_format",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "RZYKSPil5"
+    }
+  ],
+  "clauses": [
+    "filter",
+    "exclude"
+  ],
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "F8q0MMwh8",
+          "kKhWTOyyV",
+          "HmTQKuI0C",
+          "CMc5GpUU2",
+          "jbqEWnxe6",
+          "lhIROrPmV"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "KhQ3IziFJ"
+        ]
+      }
+    ]
+  },
+  "id": "xEXzd5RrK",
+  "version": 1,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-04-02T10:46:17.519Z"
+  }
+}

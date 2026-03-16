@@ -1,0 +1,176 @@
+{
+  "results": {
+    "min": 1,
+    "flatAllBlocks": true,
+    "fallbackBlockId": "l4VJd3rno",
+    "max": 24,
+    "deduplicateFlattedResults": true,
+    "shuffleItems": false
+  },
+  "blocks": [
+    {
+      "_id": "W5tM1x3n0",
+      "condition": "*",
+      "title": "Block Similar Intrattenimento Stesso Brand",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 11,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "o71PdNa1Xc",
+        "fallbackBlockId": "l4VJd3rno",
+        "skipOnEmpty": true
+      },
+      "queryId": "wLOGym_XT"
+    },
+    {
+      "_id": "BbRI9mkaQ",
+      "condition": "*",
+      "title": "Block Similar Intrattenimento Diverso dal Brand",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 24,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "o71PdNa1Xc",
+        "fallbackBlockId": "l4VJd3rno"
+      },
+      "queryId": "TGWJP5C2lJ"
+    }
+  ],
+  "title": "SNAP Block Similar Intrattenimento",
+  "description": "Utilizzato in property 'snapshot'",
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "realm": "content",
+  "refs": {
+    "require": [
+      {
+        "type": "queries",
+        "items": [
+          "wLOGym_XT",
+          "TGWJP5C2lJ"
+        ]
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "l4VJd3rno"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": [
+          "o71PdNa1Xc"
+        ]
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "R_XF7NFAh"
+        ]
+      }
+    ]
+  },
+  "id": "kHVcIz6OJ",
+  "version": 76,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2022-11-07T16:42:10.295Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 4,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 2,
+          "items": [
+            {
+              "id": "wLOGym_XT",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "TGWJP5C2lJ",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "l4VJd3rno",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 1,
+          "items": [
+            {
+              "id": "o71PdNa1Xc",
+              "type": "responseFields",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": []
+}

@@ -1,0 +1,62 @@
+{
+  "title": "🔢 PLAY:VIDEO:VIEWS:COUNT",
+  "description": "",
+  "queue": "play-prod-v2:views:count",
+  "index": "play-prod-v2_video_content_v3",
+  "idField": "video_content_id",
+  "label": "ddQongIHWN",
+  "refs": {
+    "require": [
+      {
+        "type": "labels",
+        "items": [
+          "wvWb0c63u"
+        ]
+      }
+    ],
+    "belongs": []
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "labels",
+          "count": 1,
+          "items": [
+            {
+              "id": "wvWb0c63u",
+              "type": "labels",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "active": true,
+  "tokens": [
+    "H4sIAAAAAAAAA6tWyslMUbJS8ncqzEsP9nGKVNJRKskrUbJSKshJrNQtKMpP0S0zUtJRyi%2FPU7JSCgrxBClIK1Kyio7VUUqtSIUxCpSslIwMjUx1DSx1Dc1DDA2sTCysTEz0TE0to5R0lBKTS5SsopVKlWJrAVtgdBZzAAAA"
+  ],
+  "id": "OBqngSLBY",
+  "version": 6,
+  "lastSaved": {
+    "username": "ttessarolo",
+    "date": "2025-09-16T10:49:04.655Z"
+  },
+  "schema": {
+    "input": "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"Video Metrics Schema\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"video_content_id\": {\n      \"type\": \"string\"\n    },\n    \"last24h_videoviews\": {\n      \"type\": \"integer\"\n    },\n    \"last7d_videoviews\": {\n      \"type\": \"integer\"\n    },\n    \"last30d_videoviews\": {\n      \"type\": \"integer\"\n    },\n    \"last24h_videoviewers\": {\n      \"type\": \"integer\"\n    },\n    \"last7d_videoviewers\": {\n      \"type\": \"integer\"\n    },\n    \"last30d_videoviewers\": {\n      \"type\": \"integer\"\n    },\n    \"last24h_infinity_videoviews\": {\n      \"type\": \"integer\"\n    },\n    \"last7d_infinity_videoviews\": {\n      \"type\": \"integer\"\n    },\n    \"last30d_infinity_videoviews\": {\n      \"type\": \"integer\"\n    },\n    \"last24h_infinity_videoviewers\": {\n      \"type\": \"integer\"\n    },\n    \"last7d_infinity_videoviewers\": {\n      \"type\": \"integer\"\n    },\n    \"last30d_infinity_videoviewers\": {\n      \"type\": \"integer\"\n    }\n  },\n  \"additionalProperties\": false\n}"
+  },
+  "retry": {
+    "active": true,
+    "token": "H4sIAAAAAAAAA6tWyslMUbJS8ncqzEsP9nGKVNJRKskrAYoU5CRW6hYU5afolhkBBfPL84CCjkGuwUBOakUBkGNsYGCga2ika2wQYmRsZWAARHpAoSiggsRkoBHRSuVAZgoQlwJxEYgGCVQoxdYCACDveDh3AAAA",
+    "checkFutureDate": true,
+    "days": 1
+  }
+}

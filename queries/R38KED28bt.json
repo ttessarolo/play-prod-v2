@@ -1,0 +1,94 @@
+{
+  "title": "INF Multiple Block Serie TV Fiction Mplay Infinity Anonimo",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "MrtMAYnbZ"
+    },
+    {
+      "id": "CDMrhQW14"
+    },
+    {
+      "id": "IA2rMeBZYW"
+    },
+    {
+      "id": "HDbLp8njo"
+    }
+  ],
+  "exclude": [],
+  "include": [],
+  "boost": [],
+  "order": [
+    {
+      "id": "h9o95GEDTY"
+    }
+  ],
+  "realm": "content",
+  "presets": {
+    "filter": [
+      {
+        "id": "ur0WldwQk"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "KhQ3IziFJ"
+      }
+    ]
+  },
+  "general": {
+    "mustOperator": "or",
+    "tieBreaker": 0.9,
+    "minimumShouldMatch": "1%",
+    "resultsMultiplier": 1
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "MrtMAYnbZ",
+          "CDMrhQW14",
+          "IA2rMeBZYW",
+          "HDbLp8njo",
+          "h9o95GEDTY"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "ur0WldwQk",
+          "KhQ3IziFJ"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "SkQgSkoMT"
+        ]
+      }
+    ]
+  },
+  "id": "R38KED28bt",
+  "version": 6,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2022-11-23T15:18:30.761Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  },
+  "metadataOverrides": {}
+}

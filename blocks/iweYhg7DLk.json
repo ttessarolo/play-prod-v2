@@ -1,0 +1,420 @@
+{
+  "id": "iweYhg7DLk",
+  "propertyId": "zlqQNxLcGh",
+  "title": "Multiple Block Film e Serie Personalizzato",
+  "description": "Please Edit description for Page \"Variant 1\"",
+  "enabledPagesId": [
+    "NxQika02i"
+  ],
+  "isPage": true,
+  "blocks": [
+    {
+      "id": "RsyNIlrrfA",
+      "condition": "*",
+      "title": "Film comici e commedie",
+      "type": "nested",
+      "layout": {
+        "i": "RsyNIlrrfA",
+        "x": 0,
+        "y": 1,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "NkPxz7IDV",
+      "viewAll": {
+        "id": "ihiCAj9Qp",
+        "reference": "viewAllPerson",
+        "siteMapped": false
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Commedia,Comico"
+        }
+      }
+    },
+    {
+      "id": "dkyB7zS70",
+      "condition": "*",
+      "title": "Film drammatici e sentimentali",
+      "type": "nested",
+      "layout": {
+        "i": "dkyB7zS70",
+        "w": 12,
+        "h": 30
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "NkPxz7IDV",
+      "viewAll": {
+        "id": "ihiCAj9Qp",
+        "reference": "viewAllPerson",
+        "siteMapped": false
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Drammatico,Sentimentale"
+        }
+      }
+    },
+    {
+      "id": "KEr5Ir28w_",
+      "condition": "*",
+      "title": "Film azione e thriller",
+      "type": "nested",
+      "layout": {
+        "i": "KEr5Ir28w_",
+        "x": 0,
+        "y": 2,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "NkPxz7IDV",
+      "viewAll": {
+        "id": "ihiCAj9Qp",
+        "reference": "viewAllPerson",
+        "siteMapped": false
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Azione,Thriller,Crime"
+        }
+      }
+    },
+    {
+      "id": "jqipej4P_y",
+      "condition": "*",
+      "title": "Serie tv e Fiction Drama",
+      "type": "nested",
+      "layout": {
+        "i": "jqipej4P_y",
+        "x": 0,
+        "y": 4,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "GdWjErmD8",
+      "viewAll": {
+        "id": "ihiCAj9Qp",
+        "reference": "viewAllPerson",
+        "siteMapped": false
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Drammatico,Sentimentale"
+        }
+      }
+    },
+    {
+      "id": "QoRfuREjW",
+      "condition": "*",
+      "title": "Serie tv e Fiction comedy",
+      "type": "nested",
+      "layout": {
+        "i": "QoRfuREjW",
+        "w": 12,
+        "h": 30
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "GdWjErmD8",
+      "viewAll": {
+        "id": "ihiCAj9Qp",
+        "reference": "viewAllPerson"
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Commedia,Comico,Sit-Com"
+        }
+      }
+    },
+    {
+      "id": "EmiOrbpXy",
+      "condition": "*",
+      "title": "Serie tv e Fiction crime",
+      "type": "nested",
+      "layout": {
+        "i": "EmiOrbpXy",
+        "w": 12,
+        "h": 30
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "GdWjErmD8",
+      "viewAll": {
+        "id": "ihiCAj9Qp",
+        "reference": "viewAllPerson"
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Crime,Thriller"
+        }
+      }
+    }
+  ],
+  "version": 28,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2026-02-10T16:30:48.568Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "endpoints",
+        "items": [
+          "NxQika02i"
+        ]
+      }
+    ],
+    "require": [
+      {
+        "type": "queries",
+        "items": []
+      },
+      {
+        "type": "endpoints",
+        "items": [
+          "ihiCAj9Qp"
+        ]
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "Rc1YEkVxO",
+          "NkPxz7IDV",
+          "GdWjErmD8"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "NxQika02i",
+              "type": "endpoints",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 4,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "ihiCAj9Qp",
+              "type": "endpoints",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "blocks",
+          "count": 3,
+          "items": [
+            {
+              "id": "Rc1YEkVxO",
+              "type": "blocks"
+            },
+            {
+              "id": "NkPxz7IDV",
+              "type": "blocks"
+            },
+            {
+              "id": "GdWjErmD8",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "layout": [
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 0,
+      "i": "RsyNIlrrfA",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 30,
+      "i": "dkyB7zS70",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 60,
+      "i": "KEr5Ir28w_",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 90,
+      "i": "jqipej4P_y",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 120,
+      "i": "QoRfuREjW",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 180,
+      "i": "EmiOrbpXy",
+      "moved": false,
+      "static": false
+    }
+  ],
+  "results": {
+    "smartOrderBlocks": true,
+    "contentType": "video",
+    "userContentType": "user",
+    "event": "watched",
+    "perUserBasisType": "video_historical_fingerprint",
+    "fallbackBlockId": "Rc1YEkVxO",
+    "fullSubstituteFallback": true
+  },
+  "fullSubstituteFallback": true,
+  "uiParams": {
+    "layout": {
+      "uiParams": {
+        "current": "Default",
+        "currentIndex": 0,
+        "sets": [
+          {
+            "title": "Default",
+            "params": {
+              "paramsId": {
+                "value": "playDefault",
+                "active": true
+              },
+              "contentId": {
+                "value": "F301644701000103",
+                "active": true
+              },
+              "userId": {
+                "value": "INF_6585366:2702976343/b989c6a0-34a1-4a1e-8558-c6e191adff91/ecb5057b-e24e-4281-870c-6573eeff3e7f",
+                "active": true
+              },
+              "deviceId": {
+                "value": "ARES-CC",
+                "active": true
+              }
+            }
+          }
+        ]
+      },
+      "currentParams": {
+        "paramsId": "playDefault",
+        "contentId": "F301644701000103",
+        "userId": "INF_6585366:2702976343/b989c6a0-34a1-4a1e-8558-c6e191adff91/ecb5057b-e24e-4281-870c-6573eeff3e7f",
+        "deviceId": "ARES-CC"
+      }
+    }
+  }
+}

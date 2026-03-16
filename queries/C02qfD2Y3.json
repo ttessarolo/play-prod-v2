@@ -1,0 +1,227 @@
+{
+  "metadataInRules": [
+    "content",
+    "content_similar"
+  ],
+  "title": "Query Because you Fiction Serie TV",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "KukwdwFDvb"
+    }
+  ],
+  "exclude": [],
+  "include": [
+    {
+      "id": "rBJPIM2x9"
+    }
+  ],
+  "boost": [
+    {
+      "id": "SonpJllfx",
+      "overides": {
+        "KfMtb6ZTb": {
+          "boost": 50
+        }
+      }
+    },
+    {
+      "id": "u2np4nyh9"
+    },
+    {
+      "id": "nCRmJzUuG",
+      "overides": {
+        "tYeu208Fm": {
+          "boost": 25
+        }
+      }
+    },
+    {
+      "id": "fR5oAo8iS",
+      "overides": {
+        "ZYqXlcNpQ": {
+          "boost": 10
+        }
+      }
+    }
+  ],
+  "order": [],
+  "presets": {
+    "filter": [
+      {
+        "id": "TuAyi0elu"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "ZRorAbL96Q"
+      },
+      {
+        "id": "KhQ3IziFJ"
+      }
+    ]
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "KukwdwFDvb",
+          "rBJPIM2x9",
+          "SonpJllfx",
+          "u2np4nyh9",
+          "nCRmJzUuG",
+          "fR5oAo8iS"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "TuAyi0elu",
+          "ZRorAbL96Q",
+          "KhQ3IziFJ"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "x9JXExub6"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1,
+    "mustOperator": "or"
+  },
+  "id": "C02qfD2Y3",
+  "version": 28,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-09-18T14:46:37.501Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "x9JXExub6",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 10,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 7,
+          "items": [
+            {
+              "id": "KukwdwFDvb",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "IA2rMeBZYW",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "rBJPIM2x9",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "SonpJllfx",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "u2np4nyh9",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "nCRmJzUuG",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "fR5oAo8iS",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 3,
+          "items": [
+            {
+              "id": "TuAyi0elu",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "ZRorAbL96Q",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "KhQ3IziFJ",
+              "type": "rulesPresets",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "uselessMultiplier": false,
+  "metadataOverrides": {
+    "rBJPIM2x9": {
+      "content": false,
+      "content_similar": {
+        "required": true,
+        "output": "video_similar_ids_serietv_fiction_film",
+        "metadata": {
+          "included": [
+            "tipologia=(Serie TV) OR (Fiction)",
+            "editorial_type=(Full Episode) OR (Movie) OR (Serie) OR (TVSeason)",
+            "content_channels=MediasetPlay"
+          ],
+          "excluded": [
+            "id_series_se"
+          ]
+        },
+        "fingerprint": {
+          "matchFields": [
+            "fingerprint"
+          ]
+        },
+        "groupby": {
+          "metadata": "id_series_se",
+          "results": 1,
+          "sortMetadata": "season,episode",
+          "sortDirection": "asc,asc"
+        }
+      }
+    }
+  },
+  "realm": "content"
+}

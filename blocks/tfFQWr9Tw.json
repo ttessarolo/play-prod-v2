@@ -1,0 +1,212 @@
+{
+  "results": {
+    "min": 0,
+    "flatAllBlocks": true,
+    "max": 30,
+    "fallbackBlockId": "l4VJd3rno",
+    "deduplicateFlattedResults": true
+  },
+  "blocks": [
+    {
+      "_id": "tSqRQgKgXJ",
+      "condition": "*",
+      "title": "Prima serata Super Top Snapshot",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 3,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "o71PdNa1Xc",
+        "skipOnEmpty": true,
+        "fallbackBlockId": "l4VJd3rno"
+      },
+      "queryId": "XUe7byBci"
+    },
+    {
+      "_id": "V6F3SVg1j",
+      "condition": "*",
+      "title": "Prima Serata Top Snapshot",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 10,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "o71PdNa1Xc",
+        "skipOnEmpty": true,
+        "fallbackBlockId": "l4VJd3rno"
+      },
+      "queryId": "tbkv2_bXt"
+    },
+    {
+      "_id": "lN9Y1EbZq",
+      "condition": "*",
+      "title": "Prima Serata Snapshot",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 30,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "o71PdNa1Xc",
+        "fallbackBlockId": "l4VJd3rno"
+      },
+      "queryId": "vQpdSxndVV"
+    }
+  ],
+  "title": "SNAP Block Programmi TV Prima Serata",
+  "description": "Utilizzato in property 'snapshot'",
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "realm": "content",
+  "canBeFallback": false,
+  "refs": {
+    "require": [
+      {
+        "type": "queries",
+        "items": [
+          "XUe7byBci",
+          "tbkv2_bXt",
+          "vQpdSxndVV"
+        ]
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "l4VJd3rno"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": [
+          "o71PdNa1Xc"
+        ]
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "Jj_dvfHbt"
+        ]
+      }
+    ]
+  },
+  "id": "tfFQWr9Tw",
+  "version": 9,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2022-11-07T14:54:35.733Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "pages",
+          "count": 1,
+          "items": [
+            {
+              "variantId": "Jj_dvfHbt",
+              "propertyId": "RXgubFakgU",
+              "propertyTitle": "",
+              "endpointId": "VnwpTaeMux",
+              "endpointTitle": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 5,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 3,
+          "items": [
+            {
+              "id": "XUe7byBci",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "tbkv2_bXt",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "vQpdSxndVV",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "l4VJd3rno",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 1,
+          "items": [
+            {
+              "id": "o71PdNa1Xc",
+              "type": "responseFields",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": []
+}

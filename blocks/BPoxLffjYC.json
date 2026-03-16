@@ -1,0 +1,618 @@
+{
+  "id": "BPoxLffjYC",
+  "propertyId": "zlqQNxLcGh",
+  "title": "Scelti per te Fiction",
+  "description": "Please Edit description for Page \"Default\"",
+  "enabledPagesId": [
+    "GmsW6if9I"
+  ],
+  "isPage": true,
+  "blocks": [
+    {
+      "id": "O26Qt8kxh",
+      "condition": "*",
+      "title": "Perché hai visto {series_title} guarda anche",
+      "type": "nested",
+      "layout": {
+        "i": "O26Qt8kxh",
+        "w": 12,
+        "h": 30,
+        "isDraggable": false
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "x9JXExub6",
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        }
+      },
+      "pinned": true
+    },
+    {
+      "id": "pYSRWyjLa",
+      "condition": "*",
+      "title": "Le serie di Mediaset Infinity",
+      "type": "nested",
+      "layout": {
+        "i": "pYSRWyjLa",
+        "w": 12,
+        "h": 30,
+        "isDraggable": false
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "CxeeTTjcl",
+      "metadataUI": {
+        "attributes": {
+          "template": "KEYFRAME"
+        }
+      },
+      "pinned": true
+    },
+    {
+      "id": "HKuN_xpy0",
+      "condition": "*",
+      "title": "Per te che ami le storie di famiglie",
+      "type": "nested",
+      "layout": {
+        "i": "HKuN_xpy0",
+        "x": 0,
+        "y": 3,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "nHKyYfjYjF",
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H"
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        }
+      }
+    },
+    {
+      "id": "UQqACiDrt",
+      "condition": "*",
+      "title": "Per te Aspirante Detective",
+      "type": "nested",
+      "layout": {
+        "i": "UQqACiDrt",
+        "x": 0,
+        "y": 4,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "LtLAtB0us",
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        }
+      },
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H"
+      }
+    },
+    {
+      "id": "AGBI6A9KB",
+      "condition": "*",
+      "title": "Dai un'occhiata anche ai film più visti",
+      "type": "nested",
+      "layout": {
+        "i": "AGBI6A9KB",
+        "w": 12,
+        "h": 30,
+        "isDraggable": false
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "xo1OyaXTN",
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H"
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        }
+      },
+      "pinned": true
+    },
+    {
+      "id": "PqBy3oLdU",
+      "condition": "*",
+      "title": "Per te dall'inguaribile romanticismo",
+      "type": "nested",
+      "layout": {
+        "i": "PqBy3oLdU",
+        "w": 12,
+        "h": 30
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "CLHTLgy5c",
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H"
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        }
+      }
+    },
+    {
+      "id": "ZEVqRD9xlk",
+      "condition": "*",
+      "title": "Per te che ami ridere e scherzare",
+      "type": "nested",
+      "layout": {
+        "i": "ZEVqRD9xlk",
+        "x": 0,
+        "y": 6,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "Wjlug4OW0G",
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H"
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        }
+      }
+    },
+    {
+      "id": "J7BMBi2mL",
+      "condition": "*",
+      "title": "Per te con la passione per il Medical legal",
+      "type": "nested",
+      "layout": {
+        "i": "J7BMBi2mL",
+        "x": 0,
+        "y": 7,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "H0H7Y1Vqg",
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H"
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        }
+      }
+    },
+    {
+      "id": "Sr_8t6a7w",
+      "condition": "*",
+      "title": "Per te che vorresti rivivere altre epoche",
+      "type": "nested",
+      "layout": {
+        "i": "Sr_8t6a7w",
+        "x": 0,
+        "y": 8,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "mmySQ2US8",
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H"
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        }
+      }
+    },
+    {
+      "id": "pMnYyQbxQc",
+      "condition": "*",
+      "title": "Per te che ti appassionano le storie vere",
+      "type": "nested",
+      "layout": {
+        "i": "pMnYyQbxQc",
+        "w": 12,
+        "h": 30
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "Qqsrh8DA2",
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H"
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        }
+      }
+    },
+    {
+      "id": "YNqTbJpfj",
+      "condition": "*",
+      "title": "Per te che ami le storie ad alto rischio",
+      "type": "nested",
+      "layout": {
+        "i": "YNqTbJpfj",
+        "x": 0,
+        "y": 271,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H"
+      },
+      "blockId": "o_5QrKRyih",
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        }
+      }
+    },
+    {
+      "id": "NojhEp4NM",
+      "condition": "*",
+      "title": "Intrighi e inganni ne abbiamo?",
+      "type": "nested",
+      "layout": {
+        "i": "NojhEp4NM",
+        "x": 0,
+        "y": 272,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "rXdCtzvs9",
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H"
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        }
+      }
+    }
+  ],
+  "version": 6,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-09-26T15:32:03.851Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "endpoints",
+        "items": [
+          "GmsW6if9I"
+        ]
+      }
+    ],
+    "require": [
+      {
+        "type": "queries",
+        "items": []
+      },
+      {
+        "type": "endpoints",
+        "items": [
+          "WXsJUgBAp"
+        ]
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "Rc1YEkVxO",
+          "x9JXExub6",
+          "CxeeTTjcl",
+          "nHKyYfjYjF",
+          "LtLAtB0us",
+          "xo1OyaXTN",
+          "CLHTLgy5c",
+          "Wjlug4OW0G",
+          "H0H7Y1Vqg",
+          "mmySQ2US8",
+          "Qqsrh8DA2",
+          "o_5QrKRyih",
+          "rXdCtzvs9"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "GmsW6if9I",
+              "type": "endpoints",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 14,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "WXsJUgBAp",
+              "type": "endpoints",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "blocks",
+          "count": 13,
+          "items": [
+            {
+              "id": "Rc1YEkVxO",
+              "type": "blocks"
+            },
+            {
+              "id": "x9JXExub6",
+              "type": "blocks"
+            },
+            {
+              "id": "CxeeTTjcl",
+              "type": "blocks"
+            },
+            {
+              "id": "nHKyYfjYjF",
+              "type": "blocks"
+            },
+            {
+              "id": "LtLAtB0us",
+              "type": "blocks"
+            },
+            {
+              "id": "xo1OyaXTN",
+              "type": "blocks"
+            },
+            {
+              "id": "CLHTLgy5c",
+              "type": "blocks"
+            },
+            {
+              "id": "Wjlug4OW0G",
+              "type": "blocks"
+            },
+            {
+              "id": "H0H7Y1Vqg",
+              "type": "blocks"
+            },
+            {
+              "id": "mmySQ2US8",
+              "type": "blocks"
+            },
+            {
+              "id": "Qqsrh8DA2",
+              "type": "blocks"
+            },
+            {
+              "id": "o_5QrKRyih",
+              "type": "blocks"
+            },
+            {
+              "id": "rXdCtzvs9",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "layout": [
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 0,
+      "i": "O26Qt8kxh",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 30,
+      "i": "pYSRWyjLa",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 60,
+      "i": "HKuN_xpy0",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 90,
+      "i": "UQqACiDrt",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 120,
+      "i": "AGBI6A9KB",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 150,
+      "i": "PqBy3oLdU",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 180,
+      "i": "ZEVqRD9xlk",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 210,
+      "i": "J7BMBi2mL",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 240,
+      "i": "Sr_8t6a7w",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 270,
+      "i": "pMnYyQbxQc",
+      "moved": false,
+      "static": false
+    },
+    {
+      "i": "YNqTbJpfj",
+      "x": 0,
+      "y": 271,
+      "w": 12,
+      "h": 30,
+      "blocks": []
+    },
+    {
+      "i": "NojhEp4NM",
+      "x": 0,
+      "y": 272,
+      "w": 12,
+      "h": 30,
+      "blocks": []
+    }
+  ],
+  "results": {
+    "fallbackBlockId": "Rc1YEkVxO",
+    "fullSubstituteFallback": true,
+    "smartOrderBlocks": true,
+    "contentType": "video",
+    "userContentType": "user",
+    "event": "watched",
+    "perUserBasisType": "video_historical_fingerprint",
+    "min": "1",
+    "max": "5"
+  }
+}

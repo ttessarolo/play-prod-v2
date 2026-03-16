@@ -1,0 +1,76 @@
+{
+  "title": "Rule Boost Genere Diegetico",
+  "description": "Boost sul Genere Diegetico\n",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "(!isEmpty(generediegetico))",
+      "conditionRaw": {
+        "and": [
+          {
+            "id": "f9u9LDSfR1e",
+            "operator": "!isEmpty",
+            "values": [
+              {
+                "value": "generediegetico",
+                "type": "metadata"
+              }
+            ]
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "generediegetico",
+      "valueType": "metadata",
+      "queryType": "matchFromArray",
+      "field": "generediegetico",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "pvNalVW3KG",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "clauses": [
+    "boost"
+  ],
+  "metadata": {
+    "content": true
+  },
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "rulesPresets",
+        "items": [
+          "ZPwmT2FT9"
+        ]
+      },
+      {
+        "type": "queries",
+        "items": [
+          "ek22t7eOE",
+          "uPK9cU2MwQ",
+          "F8q0MMwh8"
+        ]
+      }
+    ]
+  },
+  "id": "Fo9RZaXKg",
+  "version": 1,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-03-29T14:11:49.209Z"
+  }
+}

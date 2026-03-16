@@ -1,0 +1,95 @@
+{
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "eYpjGfjVG"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "title": "Rule Content pack Fiction Esclusiva",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "video_similar_ids_fiction_esclusiva",
+      "valueType": "metadata",
+      "queryType": "ids",
+      "field": "video_content_id",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "FeWVBiXKSk"
+    }
+  ],
+  "clauses": [
+    "filter",
+    "include"
+  ],
+  "metadata": {
+    "content_similar": {
+      "required": true,
+      "output": "video_similar_ids_fiction_esclusiva",
+      "metadata": {
+        "included": [
+          "content_channels=MediasetPlay",
+          "tipologia=Fiction",
+          "editorial_type=TVSeason",
+          "current_season=true",
+          "etichetteEditoriali=Esclusiva"
+        ]
+      },
+      "date": {
+        "range": 3,
+        "period": "M",
+        "field": "publication_date_start_play",
+        "absolute": true
+      }
+    }
+  },
+  "id": "c5CGHCXnx",
+  "version": 1,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2023-06-01T16:14:10.517Z"
+  }
+}

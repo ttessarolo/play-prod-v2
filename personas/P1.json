@@ -1,0 +1,16 @@
+{
+  "personas": [],
+  "reals": [],
+  "cron": "0 0 * * 1",
+  "id": "P1",
+  "title": "Personas",
+  "cleanIds": {},
+  "refs": {
+    "require": [
+      {
+        "type": "metaPacks",
+        "items": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "clauses": [
+    "filter"
+  ],
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "greaterOperator": "gte",
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "2020-12-31T23:00:00.048Z",
+      "valueType": "date",
+      "queryType": "greaterValue",
+      "field": "annoproduzione",
+      "fieldNested": 0,
+      "fieldDBType": "date",
+      "_id": "qqyGCFcA6"
+    }
+  ],
+  "metadata": {
+    "time": true,
+    "content": false
+  },
+  "title": "Rule Annoproduzione uguale anno corrente",
+  "description": "",
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": []
+      }
+    ]
+  },
+  "id": "YyzPRaJbZM",
+  "version": 4,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-05-21T10:14:14.818Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 1,
+          "items": [
+            {
+              "id": "BVC4GzQXU",
+              "type": "queries",
+              "title": "TVOD Generi per Parametri Film Blocco 3"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 1,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "searchMetadata": [
+    "request",
+    "time"
+  ],
+  "includedMetadata": [
+    "time"
+  ]
+}

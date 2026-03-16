@@ -1,0 +1,50 @@
+{
+  "title": "Rule Boost Categorie Iab Sub",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "I2I",
+      "value": "categorieiab_sub",
+      "valueType": "metadata",
+      "queryType": "matchFromArray",
+      "field": "categorieiab_sub",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "_jVD3zTZo"
+    }
+  ],
+  "clauses": [
+    "boost"
+  ],
+  "metadata": {
+    "content": true
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "U1hz1tNQN",
+          "tv97xe64g"
+        ]
+      }
+    ]
+  },
+  "id": "G2FXLxv7K",
+  "version": 1,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-03-29T14:14:59.605Z"
+  }
+}

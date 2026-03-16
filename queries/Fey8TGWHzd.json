@@ -1,0 +1,179 @@
+{
+  "title": "INF Most recent Film",
+  "description": "Contiene film solo Infinity Most recent In attesa del campo INFINITY publication date",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "wfBy1paHlb"
+    },
+    {
+      "id": "83txjtJm"
+    },
+    {
+      "id": "sE_X8DJ8g3"
+    },
+    {
+      "id": "yvPaM7zyg"
+    }
+  ],
+  "exclude": [
+    {
+      "id": "ju06OqIgO"
+    },
+    {
+      "id": "jOu_XfyIfH"
+    }
+  ],
+  "include": [],
+  "boost": [],
+  "order": [
+    {
+      "id": "UBHhEpnBa"
+    }
+  ],
+  "realm": "content",
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "wfBy1paHlb",
+          "83txjtJm",
+          "sE_X8DJ8g3",
+          "yvPaM7zyg",
+          "ju06OqIgO",
+          "jOu_XfyIfH",
+          "UBHhEpnBa"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "TuAyi0elu",
+          "KhQ3IziFJ"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "EQJhlR0N7",
+          "r5OMhn9D3"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "id": "Fey8TGWHzd",
+  "version": 20,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2022-06-20T09:32:53.309Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 2,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 2,
+          "items": [
+            {
+              "id": "EQJhlR0N7",
+              "type": "blocks",
+              "title": ""
+            },
+            {
+              "id": "Wbd_QbaekG",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 9,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 7,
+          "items": [
+            {
+              "id": "wfBy1paHlb",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "83txjtJm",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "sE_X8DJ8g3",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "yvPaM7zyg",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "ju06OqIgO",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "zLFeaaZke3",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "UBHhEpnBa",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 2,
+          "items": [
+            {
+              "id": "TuAyi0elu",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "KhQ3IziFJ",
+              "type": "rulesPresets",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "presets": {
+    "filter": [
+      {
+        "id": "TuAyi0elu"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "KhQ3IziFJ"
+      }
+    ]
+  },
+  "uselessMultiplier": false,
+  "metadataOverrides": {}
+}

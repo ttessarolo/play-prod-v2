@@ -1,0 +1,208 @@
+{
+  "title": "Query Similar Sport",
+  "description": "Query di Guarda anche dedicata alla tipologia SPORT",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "ju06OqIgO"
+    },
+    {
+      "id": "YMaH2tPZC"
+    },
+    {
+      "id": "ml7OOL8Ka"
+    },
+    {
+      "id": "KukwdwFDvb"
+    }
+  ],
+  "exclude": [
+    {
+      "id": "wjSmLnS3sP"
+    }
+  ],
+  "include": [
+    {
+      "id": "Rgn0p1s4l"
+    }
+  ],
+  "boost": [
+    {
+      "id": "vhMYDKwOD"
+    }
+  ],
+  "order": [],
+  "realm": "content",
+  "presets": {
+    "filter": [
+      {
+        "id": "TuAyi0elu"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "ZRorAbL96Q"
+      }
+    ]
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "ju06OqIgO",
+          "YMaH2tPZC",
+          "ml7OOL8Ka",
+          "KukwdwFDvb",
+          "wjSmLnS3sP",
+          "Rgn0p1s4l",
+          "vhMYDKwOD"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "TuAyi0elu",
+          "ZRorAbL96Q"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "ER9ytvdX2t"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1,
+    "mustOperator": "or"
+  },
+  "id": "eYuL4ML7TS",
+  "version": 11,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2022-09-13T09:07:45.825Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "ER9ytvdX2t",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 10,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 8,
+          "items": [
+            {
+              "id": "ju06OqIgO",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "YMaH2tPZC",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "ml7OOL8Ka",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "KukwdwFDvb",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "wjSmLnS3sP",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "woQwa6vCt",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "Rgn0p1s4l",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "vhMYDKwOD",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 2,
+          "items": [
+            {
+              "id": "TuAyi0elu",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "ZRorAbL96Q",
+              "type": "rulesPresets",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "uselessMultiplier": false,
+  "metadataOverrides": {
+    "Rgn0p1s4l": {
+      "content_similar": {
+        "required": true,
+        "output": "video_similar_sport",
+        "metadata": {
+          "included": [
+            "tipologia=Sport",
+            "editorial_type=(Clip) OR (Full Episode)",
+            "content_channels=MediasetPlay"
+          ],
+          "excluded": [
+            "codice_prodotto_padre"
+          ]
+        },
+        "date": {
+          "absolute": true,
+          "range": 2,
+          "period": "w",
+          "field": "publication_date"
+        },
+        "fingerprint": {
+          "matchFields": [
+            "fingerprint"
+          ]
+        }
+      }
+    }
+  }
+}

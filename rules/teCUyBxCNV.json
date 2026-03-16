@@ -1,0 +1,133 @@
+{
+  "title": "Rule Boost Epoca Sub",
+  "description": "Boost sull'epoca (sub)",
+  "contentType": "video",
+  "clauses": [
+    "boost",
+    "include"
+  ],
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "(!isEmpty(epoca_sub))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "!isEmpty",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "epoca_sub"
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ],
+            "id": "shrWJk3AeR"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "epoca_sub",
+      "valueType": "metadata",
+      "queryType": "matchFromArray",
+      "field": "epoca_sub",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "BsvxJsE1dY",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "field": "people_regista",
+  "metadata": {
+    "content": true
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "U1hz1tNQN",
+          "ek22t7eOE",
+          "uPK9cU2MwQ",
+          "tv97xe64g"
+        ]
+      }
+    ]
+  },
+  "id": "teCUyBxCNV",
+  "version": 11,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2022-04-22T10:14:03.399Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 4,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 4,
+          "items": [
+            {
+              "id": "U1hz1tNQN",
+              "type": "queries",
+              "title": "Query Similar Documentari"
+            },
+            {
+              "id": "ek22t7eOE",
+              "type": "queries",
+              "title": "Query SerieTv Fiction blocco6"
+            },
+            {
+              "id": "uPK9cU2MwQ",
+              "type": "queries",
+              "title": "Query SerieTv Fiction"
+            },
+            {
+              "id": "tv97xe64g",
+              "type": "queries",
+              "title": "CHNLS Similar Documentari"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 1,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "realm": "content",
+  "scheduled": 0,
+  "scheduling": [],
+  "schedulingMap": [],
+  "searchMetadata": [
+    "request",
+    "content"
+  ],
+  "includedMetadata": [
+    "content"
+  ]
+}

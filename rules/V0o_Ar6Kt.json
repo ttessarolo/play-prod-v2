@@ -1,0 +1,50 @@
+{
+  "title": "Rule Same IdBrand",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "id_brand",
+      "valueType": "metadata",
+      "queryType": "match",
+      "field": "id_brand",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "QP40QdmIJ"
+    }
+  ],
+  "clauses": [
+    "boost"
+  ],
+  "metadata": {
+    "content": true
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "OoW_RxrtA",
+          "wLOGym_XT"
+        ]
+      }
+    ]
+  },
+  "id": "V0o_Ar6Kt",
+  "version": 1,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-03-29T15:18:21.184Z"
+  }
+}

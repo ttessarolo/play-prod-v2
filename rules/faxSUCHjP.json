@@ -1,0 +1,83 @@
+{
+  "title": "Rule Boost Mood",
+  "description": "Boost sul Mood",
+  "contentType": "video",
+  "clauses": [
+    "boost"
+  ],
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "I2I",
+      "value": "mood",
+      "valueType": "metadata",
+      "queryType": "matchFromArray",
+      "field": "mood",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "BsvxJsE1dY"
+    }
+  ],
+  "field": "people_regista",
+  "metadata": {
+    "content": true
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "DHl6a0GLT",
+          "ek22t7eOE",
+          "uPK9cU2MwQ",
+          "F8q0MMwh8",
+          "TGWJP5C2lJ",
+          "jTWiGJ8a3j",
+          "KrplYijM4",
+          "l4aaD5uVWs"
+        ]
+      }
+    ]
+  },
+  "id": "faxSUCHjP",
+  "version": 5,
+  "lastSaved": {
+    "username": "Massimiliano.Berardi",
+    "date": "2021-03-29T15:20:58.886Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 1,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "realm": "content"
+}

@@ -1,0 +1,73 @@
+{
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "vsTj9ViKs"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "contentType": "link",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "Published",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "status",
+      "fieldNested": 0,
+      "fieldDBType": "text",
+      "_id": "a7lC96rLdl"
+    }
+  ],
+  "clauses": [
+    "filter"
+  ],
+  "title": "Rule Item Link Status Published",
+  "description": "",
+  "id": "AspsvtE6D7",
+  "version": 1,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2023-03-29T16:31:33.776Z"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "language": "jsonata",
+  "pubKey": "rti.pub.pem",
+  "algorithm": "SHA512withRSA",
+  "type": "output",
+  "title": "Formatter for Mediaset PLAY",
+  "description": "Format Output for Mediaset PLAY",
+  "signature": "4d079eead33eac121d763017fe15c5fea9567464ac35bc9e0ed34ee8007f07a92a9b495bcdfed07c0d03fcbe194eb4a2540da7e3b29535f389c047d66d3dc9f8849518790b6f20d149ae450dca23379b747442d7aa4d76985a62c77f067685c7ee9c2a9ccaf2825db88a47c84fa75dc95dcfcca9c9605a9fdd1d3bb14c94f801498bee76b130d031244a483eae0c23de17ae23b1ab9b3814daf38ddab7ab0f2c265e2fc0499601c971de6b959c9d097499f724bb9731ac982981b20a7c81ec1ff181c78a095af719dd14ac16d2783f5ae3abdcb68c1eb73407a32cf9a9c5d80b2ae50156a979b2660de45dde4c1587f4bf66a10dddd972b4446f95ca3c28986e8d013633d9c9885bc6f5d76d78ff33563e58deae0b40d35d4121daba73172f0f8e3fe1bd02b39c263e96ee4347014001b36beb380499019f40aff19fe23632f6739edbac701ae8ea170ffdd9f912e04cf92b7b9ab7284916286dc9314e83c81e35d7aa0033727dcc89830765dd6c477582b94e43d9309c4b23c350456b68f588e0935aa6b63ff381491e064b100baa4f1951e42f721bdf56bdc6eae468fd0b820802135df66d10f37bf09d5693ba40648e5ba2f44d56c40d0bee5951878d5b6f60c4cb2cf838468cdd5d686cd29ee8a65d29cdeac7f3897df2d03246357745aca69041d8c3ccba0e1a829e5e8e9ba5370c1dcb3904fbcf32ccf11a50904f0929",
+  "execute": "(\n    {\n        \"metadata\": {\n            \"_aresId\": _aresId,\n            \"sessionId\": sessionId,\n            \"pagination\": pagination,\n            \"metadata\": metadata\n        },\n        \"entries\": $append([], $map(blocks.items, function($item, $i) {(\n            $sift(\n                $merge([$item, {\n                    \"trackId\": \"ARES|\" & _aresId & \"|\" & $item._aresId & \"|\" & ($i + 1)\n                }]),\n                function($v, $k) {(\n                    $v != null \n                    and (\n                        $k != \"_aresId\" \n                        and $k != \"_contentType\" \n                        and $k != \"publication_date\"\n                        and $k != \"horizontal_poster\"\n                        and $k != \"video_content_id\"\n                        and $k != \"people-regista\"\n                    )\n                )}\n            );\n        )}))\n    }\n)",
+  "id": "fu6NhYyc",
+  "version": 9,
+  "lastSaved": {
+    "username": "ttessarolo",
+    "date": "2020-04-02T12:33:02.982Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "endpoints",
+        "items": [
+          "singleItem",
+          "theSupremeEndpoint",
+          "I9PnQ6qay",
+          "f_BOSG24p",
+          "OqXimJTZf",
+          "cMnSzhfbv",
+          "MMjEzg0FE",
+          "upPQjXQdE",
+          "Zhj5Qu1_p"
+        ]
+      }
+    ]
+  }
+}

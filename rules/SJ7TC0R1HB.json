@@ -1,0 +1,90 @@
+{
+  "title": "Rule  Anno Produzione over 2010",
+  "description": "",
+  "contentType": "video",
+  "clauses": [
+    "filter",
+    "boost",
+    "include"
+  ],
+  "rule": [
+    {
+      "condition": "*",
+      "boost": 1,
+      "type": "I2I",
+      "_id": "RCKlmD34E",
+      "greaterValue": "2010-01-01T00:00:00.000Z",
+      "greaterOperator": "gte",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      },
+      "field": "annoproduzione",
+      "fieldDBType": "date",
+      "queryType": "greaterValue",
+      "value": "2010-01-01T00:00:00.000Z",
+      "valueType": "date",
+      "API": "V2"
+    }
+  ],
+  "field": "annoproduzione",
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "bGHIfOpkw",
+          "c_R2PteO7",
+          "IUd_q_ixKj"
+        ]
+      }
+    ]
+  },
+  "id": "SJ7TC0R1HB",
+  "version": 4,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-04-02T13:29:06.842Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 1,
+          "items": [
+            {
+              "id": "bGHIfOpkw",
+              "type": "queries",
+              "title": "Query Most Recent Film Person to Content"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 1,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "realm": "content"
+}

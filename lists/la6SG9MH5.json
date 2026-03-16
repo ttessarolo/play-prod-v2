@@ -1,0 +1,51 @@
+{
+  "title": "Lista Serie TV Fiction",
+  "description": "",
+  "contentType": "video",
+  "type": "text",
+  "elements": [
+    "Serie TV",
+    "Fiction"
+  ],
+  "id": "la6SG9MH5",
+  "version": 2,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2023-05-09T10:26:34.068Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "rules",
+        "items": [
+          "CDMrhQW14"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "rules",
+          "count": 1,
+          "items": [
+            {
+              "id": "CDMrhQW14",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  },
+  "realm": "content"
+}

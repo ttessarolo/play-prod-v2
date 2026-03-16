@@ -1,0 +1,130 @@
+{
+  "title": "Rule Editorial Type Promo",
+  "description": "",
+  "contentType": "video",
+  "clauses": [
+    "filter"
+  ],
+  "rule": [
+    {
+      "phrase": false,
+      "API": "V2",
+      "condition": "*",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "I2I",
+      "value": "Promo",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "editorial_type",
+      "fieldDBType": "keyword",
+      "_id": "uh2ckOvn_"
+    }
+  ],
+  "field": "editorial_type",
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "AhJPVfln2"
+        ]
+      }
+    ]
+  },
+  "id": "wodpz7dxR",
+  "version": 5,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-04-09T18:06:49.063Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 10,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 10,
+          "items": [
+            {
+              "id": "ZBDFPdp2L",
+              "type": "queries",
+              "title": "Query Person To Content Homepage"
+            },
+            {
+              "id": "WQN13fmB69",
+              "type": "queries",
+              "title": "Query Enabler Test Serie"
+            },
+            {
+              "id": "jghd_cW_3",
+              "type": "queries",
+              "title": "INF Serie Most recent"
+            },
+            {
+              "id": "xe_zUdYnf",
+              "type": "queries",
+              "title": "INF Generi per Parametri Serie Blocco 1"
+            },
+            {
+              "id": "SwEdO0Rot",
+              "type": "queries",
+              "title": "INF Generi per Parametri Serie Blocco 2"
+            },
+            {
+              "id": "sSJKqI_d5",
+              "type": "queries",
+              "title": "INF Generi per Parametri Serie Blocco 3"
+            },
+            {
+              "id": "toSpu6fdu",
+              "type": "queries",
+              "title": "INF Serie Top viewed 24H"
+            },
+            {
+              "id": "s6Gij1X5i",
+              "type": "queries",
+              "title": "INF Serie Top viewed 24H Blocco 2"
+            },
+            {
+              "id": "Ae2BOByZ_",
+              "type": "queries",
+              "title": "INF Serie Documentari Most recent"
+            },
+            {
+              "id": "uSnnVTcnV",
+              "type": "queries",
+              "title": "INF Serie TV in Prima TV Pay "
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 1,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "realm": "content"
+}

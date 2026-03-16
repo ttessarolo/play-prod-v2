@@ -1,0 +1,498 @@
+{
+  "id": "d0Gt6grYF",
+  "propertyId": "zlqQNxLcGh",
+  "title": "Scelti per te film Free",
+  "description": "Please Edit description for Page \"Default\"",
+  "enabledPagesId": [
+    "ASLi4JOoR"
+  ],
+  "isPage": true,
+  "blocks": [
+    {
+      "id": "Jjd5hfpYT",
+      "condition": "*",
+      "title": "Perché hai visto {title}",
+      "type": "nested",
+      "layout": {
+        "i": "Jjd5hfpYT",
+        "w": 12,
+        "h": 30
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "HQY25kST23",
+      "viewAll": {
+        "id": "ihiCAj9Qp",
+        "reference": "viewAllPerson"
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        }
+      },
+      "pinned": true
+    },
+    {
+      "id": "vbTBwCcAls",
+      "condition": "*",
+      "title": "Per te che ami le commedie",
+      "type": "nested",
+      "layout": {
+        "i": "vbTBwCcAls",
+        "w": 12,
+        "h": 30
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "v3OoRHvsX",
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H"
+      },
+      "metadataUI": {
+        "playContentMeta": {
+          "genere_mcm": "Comico,Commedia"
+        },
+        "attributes": {
+          "template": "POSTER"
+        }
+      }
+    },
+    {
+      "id": "VGjJmvhkb",
+      "condition": "*",
+      "title": "I film più visti del momento",
+      "type": "nested",
+      "layout": {
+        "i": "VGjJmvhkb",
+        "w": 12,
+        "h": 30,
+        "isDraggable": false
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "xo1OyaXTN",
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H"
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        }
+      },
+      "pinned": true
+    },
+    {
+      "id": "Uxsz2TnnY",
+      "condition": "*",
+      "title": "Dai un'occhiata anche alle Serie TV",
+      "type": "nested",
+      "layout": {
+        "i": "Uxsz2TnnY",
+        "w": 12,
+        "h": 30
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "H1pq_9kZj",
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H"
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "KEYFRAME"
+        }
+      },
+      "pinned": true
+    },
+    {
+      "id": "JMmNRfEMmi",
+      "condition": "*",
+      "title": "I film aggiunti di recente",
+      "type": "nested",
+      "layout": {
+        "i": "JMmNRfEMmi",
+        "w": 12,
+        "h": 30,
+        "isDraggable": false
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "FpM4IdLRo",
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H"
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        }
+      },
+      "pinned": true
+    },
+    {
+      "id": "Lk58oR1qA",
+      "condition": "*",
+      "title": "Per te che ami le storie emozionanti",
+      "type": "nested",
+      "layout": {
+        "i": "Lk58oR1qA",
+        "x": 0,
+        "y": 5,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "v3OoRHvsX",
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H"
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Drammatico,Sentimentale"
+        }
+      }
+    },
+    {
+      "id": "GbIBBKwGe",
+      "condition": "*",
+      "title": "Per te che ami l'azione",
+      "type": "nested",
+      "layout": {
+        "i": "GbIBBKwGe",
+        "w": 12,
+        "h": 30
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "v3OoRHvsX",
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H"
+      },
+      "metadataUI": {
+        "playContentMeta": {
+          "genere_mcm": "Azione,Avventura,Thriller"
+        },
+        "attributes": {
+          "template": "POSTER"
+        }
+      }
+    }
+  ],
+  "version": 11,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-10-02T08:16:35.848Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "endpoints",
+        "items": [
+          "ASLi4JOoR"
+        ]
+      }
+    ],
+    "require": [
+      {
+        "type": "queries",
+        "items": []
+      },
+      {
+        "type": "endpoints",
+        "items": [
+          "ihiCAj9Qp",
+          "WXsJUgBAp"
+        ]
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "Rc1YEkVxO",
+          "HQY25kST23",
+          "v3OoRHvsX",
+          "xo1OyaXTN",
+          "H1pq_9kZj",
+          "FpM4IdLRo"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "ASLi4JOoR",
+              "type": "endpoints",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 8,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "endpoints",
+          "count": 2,
+          "items": [
+            {
+              "id": "ihiCAj9Qp",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "WXsJUgBAp",
+              "type": "endpoints",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "blocks",
+          "count": 6,
+          "items": [
+            {
+              "id": "Rc1YEkVxO",
+              "type": "blocks"
+            },
+            {
+              "id": "HQY25kST23",
+              "type": "blocks"
+            },
+            {
+              "id": "v3OoRHvsX",
+              "type": "blocks"
+            },
+            {
+              "id": "xo1OyaXTN",
+              "type": "blocks"
+            },
+            {
+              "id": "H1pq_9kZj",
+              "type": "blocks"
+            },
+            {
+              "id": "FpM4IdLRo",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "layout": [
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 0,
+      "i": "Jjd5hfpYT",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 30,
+      "i": "vbTBwCcAls",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 60,
+      "i": "VGjJmvhkb",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 90,
+      "i": "Uxsz2TnnY",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 120,
+      "i": "JMmNRfEMmi",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 150,
+      "i": "Lk58oR1qA",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 180,
+      "i": "GbIBBKwGe",
+      "moved": false,
+      "static": false
+    }
+  ],
+  "results": {
+    "fallbackBlockId": "Rc1YEkVxO",
+    "fullSubstituteFallback": true,
+    "smartOrderBlocks": true,
+    "contentType": "video",
+    "userContentType": "user",
+    "event": "watched",
+    "perUserBasisType": "video_historical_fingerprint",
+    "max": "5",
+    "min": "1"
+  },
+  "uiParams": {
+    "preview": {
+      "uiParams": {
+        "current": "Params Set #3",
+        "currentIndex": 3,
+        "sets": [
+          {
+            "title": "Anonymous",
+            "params": {
+              "contentId": {
+                "value": "F010791601000102",
+                "active": true
+              },
+              "userId": {
+                "value": "1f51d5e9f09e4d349fa3af349e1cdac4",
+                "active": false
+              },
+              "deviceId": {
+                "value": "ARES-CC",
+                "active": true
+              }
+            }
+          },
+          {
+            "title": "User Logged #1",
+            "params": {
+              "contentId": {
+                "value": "F010791601000102",
+                "active": true
+              },
+              "userId": {
+                "value": "1f51d5e9f09e4d349fa3af349e1cdac4",
+                "active": true
+              },
+              "deviceId": {
+                "value": "ARES-CC",
+                "active": true
+              }
+            }
+          },
+          {
+            "title": "User Logged #2",
+            "params": {
+              "contentId": {
+                "value": "F010791601000102",
+                "active": false
+              },
+              "userId": {
+                "value": "INF_3301168:2702976343/d3cac1f7-7903-45d6-a875-bf993f083ad1/ddb1a897-be21-4f1c-a6c9-19f6c513d67a",
+                "active": true
+              },
+              "deviceId": {
+                "value": "ARES-CC",
+                "active": true
+              }
+            }
+          },
+          {
+            "title": "Params Set #3",
+            "params": {
+              "userId": {
+                "value": "1f011130b4a5499e8dd4de7b0958b6dc:2702976343/2ac65e44-f735-4390-a9e1-b723a68cb8de/7fe40dff-7d6c-44e2-9a1d-4d399601a3b6",
+                "active": true
+              }
+            }
+          }
+        ]
+      },
+      "currentParams": {
+        "userId": "1f011130b4a5499e8dd4de7b0958b6dc:2702976343/2ac65e44-f735-4390-a9e1-b723a68cb8de/7fe40dff-7d6c-44e2-9a1d-4d399601a3b6"
+      }
+    }
+  }
+}

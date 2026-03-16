@@ -1,0 +1,208 @@
+{
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 1,
+          "items": [
+            {
+              "id": "oRHN1GgbGK",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "title": "Rule Champions League Girone match girone",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "(contains(genere_mcm, \"Girone D\"))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "genere_mcm"
+              },
+              {
+                "value": "\"Girone D\"",
+                "type": "string"
+              }
+            ],
+            "id": "aA1IXU_FKB"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "Girone D",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "genere_mcm",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "G__EeTpCzY",
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "API": "V2",
+      "condition": "(contains(genere_mcm, \"Girone C\"))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "genere_mcm"
+              },
+              {
+                "value": "\"Girone C\"",
+                "type": "string"
+              }
+            ],
+            "id": "mD2m3Tz_v1"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "Girone C",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "genere_mcm",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "_DbBxbNlF",
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "API": "V2",
+      "condition": "(contains(genere_mcm, \"Girone E\"))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "genere_mcm"
+              },
+              {
+                "value": "\"Girone E\"",
+                "type": "string"
+              }
+            ],
+            "id": "69fG94C-Ll"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "Girone E",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "genere_mcm",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "y0ws0f7wr",
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "API": "V2",
+      "condition": "(contains(genere_mcm, \"Girone F\"))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "genere_mcm"
+              },
+              {
+                "value": "\"Girone F\"",
+                "type": "string"
+              }
+            ],
+            "id": "M1ZPpNxYtH"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "Girone F",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "genere_mcm",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "m7UAOOFN3",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "clauses": [
+    "filter"
+  ],
+  "metadata": {
+    "content": true
+  },
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "id": "WWIMBvyTJ",
+  "version": 8,
+  "lastSaved": {
+    "username": "Massimiliano.Berardi",
+    "date": "2023-09-20T12:48:17.568Z"
+  }
+}

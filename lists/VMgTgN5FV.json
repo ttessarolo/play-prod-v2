@@ -1,0 +1,27 @@
+{
+  "type": "contentId",
+  "contentType": "video",
+  "realm": "content",
+  "title": "Blacklist per Most recent per Channel",
+  "description": "",
+  "elements": [
+    "F003244801000101"
+  ],
+  "metadataField": "title",
+  "id": "VMgTgN5FV",
+  "version": 1,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-05-26T13:41:14.095Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "rules",
+        "items": [
+          "ybeAsA8Cq"
+        ]
+      }
+    ]
+  }
+}

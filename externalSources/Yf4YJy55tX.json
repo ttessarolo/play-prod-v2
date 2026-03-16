@@ -1,0 +1,35 @@
+{
+  "title": "MPX COLLECTION ALL",
+  "description": "",
+  "type": "REST",
+  "verb": "GET",
+  "url": "https://feed.entertainment.tv.theplatform.eu/f/PR1GhC/mediaset-prod-all-collections-v2",
+  "params": [
+    "byGuid=${collectionId}"
+  ],
+  "compliant": true,
+  "id": "Yf4YJy55tX",
+  "version": 2,
+  "lastSaved": {
+    "username": "ttessarolo",
+    "date": "2021-07-22T13:56:57.515Z"
+  },
+  "refs": {
+    "belongs": []
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  },
+  "decorators": [
+    "rCtwvDC3rv"
+  ]
+}

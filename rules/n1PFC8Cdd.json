@@ -1,0 +1,83 @@
+{
+  "title": "Rule Escludi Content channel non Mediaset Play",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "k4DH3UZnr",
+      "valueType": "list",
+      "queryType": "listTermsId",
+      "field": "content_channels",
+      "fieldNested": 0,
+      "fieldDBType": "text",
+      "_id": "pABvnW3mG"
+    }
+  ],
+  "clauses": [
+    "exclude"
+  ],
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "ZBDFPdp2L",
+          "DH6QDWCTHE",
+          "bOnJl04URI",
+          "ek22t7eOE",
+          "U1hz1tNQN",
+          "IN_VtB1yk",
+          "s1zg4_4pH",
+          "aPpgfgCvJy",
+          "ubigd5wChi",
+          "UdUyyyAd3",
+          "IHZg0PHBxF",
+          "R4M6lw89s",
+          "UhRmAOyNS",
+          "uPK9cU2MwQ",
+          "I4CroOsh9i",
+          "SN3RejmFQ",
+          "WvEpq4HXF",
+          "f8tvqAypXq",
+          "Sm_6fxZYb",
+          "kc8b7byAm"
+        ]
+      }
+    ]
+  },
+  "id": "n1PFC8Cdd",
+  "version": 2,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-03-29T18:47:35.359Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 1,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  }
+}

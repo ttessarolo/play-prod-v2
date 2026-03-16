@@ -1,0 +1,231 @@
+{
+  "results": {
+    "min": 0,
+    "flatAllBlocks": true,
+    "fallbackBlockId": "P0csRsOt7",
+    "max": 30,
+    "deduplicateFlattedResults": true
+  },
+  "blocks": [
+    {
+      "_id": "P_khh9B_4m",
+      "condition": "*",
+      "title": "Collaborative",
+      "type": "conversions",
+      "pinned": true,
+      "results": {
+        "max": 30,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "ococ5qsUC",
+        "fallbackBlockId": "P0csRsOt7",
+        "skipOnEmpty": true
+      },
+      "queryId": "XWcT55fKOl",
+      "packs": [
+        {
+          "conversionPackId": "fGokJXdTH"
+        }
+      ],
+      "idExtractMethod": "positional",
+      "idExtractPosition": 1
+    },
+    {
+      "_id": "PqwTleGPnk",
+      "condition": "*",
+      "title": "Because you Similar Cinema ",
+      "type": "conversions",
+      "pinned": true,
+      "results": {
+        "max": 20,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_"
+      },
+      "queryId": "hzT5G0sYG",
+      "idExtractMethod": "positional",
+      "idExtractPosition": 1,
+      "packs": [
+        {
+          "conversionPackId": "fGokJXdTH"
+        }
+      ]
+    }
+  ],
+  "title": "INF Because you Collaborative",
+  "description": "",
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "realm": "content",
+  "refs": {
+    "require": [
+      {
+        "type": "queries",
+        "items": [
+          "XWcT55fKOl",
+          "hzT5G0sYG"
+        ]
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "P0csRsOt7"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": [
+          "ococ5qsUC",
+          "eOaXizx_"
+        ]
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      },
+      {
+        "type": "conversionPacks",
+        "items": [
+          "fGokJXdTH",
+          "fGokJXdTH"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "jVI3NVaUq"
+        ]
+      }
+    ]
+  },
+  "id": "sZIlXj8Kl",
+  "version": 24,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2022-12-13T11:33:00.601Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "pages",
+          "count": 1,
+          "items": [
+            {
+              "variantId": "jVI3NVaUq",
+              "propertyId": "zlqQNxLcGh",
+              "propertyTitle": "",
+              "endpointId": "Mh9WbkEHg",
+              "endpointTitle": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 7,
+      "types": 8,
+      "items": [
+        {
+          "type": "queries",
+          "count": 2,
+          "items": [
+            {
+              "id": "XWcT55fKOl",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "hzT5G0sYG",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "P0csRsOt7",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 2,
+          "items": [
+            {
+              "id": "ococ5qsUC",
+              "type": "responseFields",
+              "title": ""
+            },
+            {
+              "id": "eOaXizx_",
+              "type": "responseFields",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "conversionPacks",
+          "count": 2,
+          "items": [
+            {
+              "id": "fGokJXdTH",
+              "type": "conversionPacks",
+              "title": ""
+            },
+            {
+              "id": "fGokJXdTH",
+              "type": "conversionPacks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": []
+}

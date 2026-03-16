@@ -1,0 +1,102 @@
+{
+  "title": "INF Smart block Film",
+  "type": "smartPages",
+  "contentType": "video",
+  "realm": "content",
+  "elements": [
+    "Vz1Qhk3cX",
+    "_AaR3zxxXb",
+    "fbmzmrkdpf",
+    "yRBqxw1Kp1",
+    "VYBMa1Toh",
+    "DHYsusvA1",
+    "Upv8s3E3X",
+    "ba65yI4NF6",
+    "Iv3uy6EwA"
+  ],
+  "refs": {
+    "require": [
+      {
+        "type": "blocks",
+        "items": [
+          "Vz1Qhk3cX",
+          "_AaR3zxxXb",
+          "fbmzmrkdpf",
+          "yRBqxw1Kp1",
+          "VYBMa1Toh",
+          "DHYsusvA1",
+          "Upv8s3E3X",
+          "ba65yI4NF6",
+          "Iv3uy6EwA"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "uBWix5tXR",
+          "wLZbRma3P1"
+        ]
+      }
+    ]
+  },
+  "id": "CAv3fwwoB",
+  "version": 12,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-09-14T10:40:30.674Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "uBWix5tXR",
+              "type": "blocks",
+              "title": "INF Smart Blocks Film"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 4,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 4,
+          "items": [
+            {
+              "id": "Vz1Qhk3cX",
+              "type": "blocks",
+              "title": "Storie vere"
+            },
+            {
+              "id": "fbmzmrkdpf",
+              "type": "blocks",
+              "title": "Pezzi da 90"
+            },
+            {
+              "id": "yRBqxw1Kp1",
+              "type": "blocks",
+              "title": "Io non ho paura"
+            },
+            {
+              "id": "VYBMa1Toh",
+              "type": "blocks",
+              "title": "Feeling blue"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "description": "Vz1Qhk3cX Storie vere\n_AaR3zxxXb Risate sul divano\nfbmzmrkdpf Pezzi da 90\nyRBqxw1Kp1 io non ho paura\nVYBMa1Toh Feeling blue\nDHYsusvA1 Mindgame \nUpv8s3E3X Con la testa tra le nuvole\nba65yI4NF6 Birra e costine\nIv3uy6EwA Appuntamento con l'amore"
+}

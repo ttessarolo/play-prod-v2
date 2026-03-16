@@ -1,0 +1,168 @@
+{
+  "title": "Query Consistenza commerciale Stagioni 2 posizioni",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "KdgZfZ_wm"
+    },
+    {
+      "id": "wfBy1paHlb"
+    }
+  ],
+  "exclude": [],
+  "include": [
+    {
+      "id": "dEw1VqfTh"
+    }
+  ],
+  "boost": [],
+  "order": [
+    {
+      "id": "X3s55Uzk4"
+    }
+  ],
+  "realm": "content",
+  "general": {
+    "mustOperator": "or",
+    "tieBreaker": 0.9,
+    "minimumShouldMatch": "1%",
+    "resultsMultiplier": 1
+  },
+  "presets": {
+    "exclude": [
+      {
+        "id": "ZRorAbL96Q"
+      }
+    ],
+    "filter": [
+      {
+        "id": "ztWfmA_PI"
+      }
+    ]
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "KdgZfZ_wm",
+          "wfBy1paHlb",
+          "dEw1VqfTh",
+          "X3s55Uzk4"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "ztWfmA_PI",
+          "ZRorAbL96Q"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": []
+      }
+    ]
+  },
+  "id": "W_8SLCb67",
+  "version": 26,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-02-05T12:10:52.760Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "eV2Cl6D6W",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 6,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 4,
+          "items": [
+            {
+              "id": "KdgZfZ_wm",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "wfBy1paHlb",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "dEw1VqfTh",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "X3s55Uzk4",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 2,
+          "items": [
+            {
+              "id": "ztWfmA_PI",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "ZRorAbL96Q",
+              "type": "rulesPresets",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "metadataOverrides": {
+    "dEw1VqfTh": {
+      "content_similar": {
+        "required": true,
+        "metadata": {
+          "included": [
+            "content_channels=Infinity",
+            "tipologia=Serie TV",
+            "editorial_type=TVSeason"
+          ],
+          "excluded": [
+            "content_channels=MediasetPlay"
+          ]
+        },
+        "numResults": 12,
+        "groupby": {
+          "metadata": "seriedesc",
+          "results": 1,
+          "sortMetadata": "last24h_infinity_videoviews",
+          "sortDirection": "desc"
+        },
+        "output": "video_similar_ids_include_infinity_season"
+      }
+    }
+  }
+}

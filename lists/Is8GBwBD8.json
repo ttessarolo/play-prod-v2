@@ -1,0 +1,38 @@
+{
+  "title": "List ADV Toyota",
+  "description": "",
+  "type": "contentId",
+  "contentType": "video",
+  "realm": "content",
+  "metadataField": "video_content_id",
+  "elements": [
+    "FD00000000468509",
+    "FD00000000468507"
+  ],
+  "id": "Is8GBwBD8",
+  "version": 8,
+  "lastSaved": {
+    "username": "Massimiliano.Berardi",
+    "date": "2025-03-05T11:14:02.326Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "rules",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  }
+}

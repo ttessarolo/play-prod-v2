@@ -1,0 +1,76 @@
+{
+  "title": "Rule Extra Stessa stagione",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "video_similar_ids_extra",
+      "valueType": "metadata",
+      "queryType": "ids",
+      "field": "video_content_id",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "xjO78TU4z"
+    }
+  ],
+  "clauses": [
+    "include"
+  ],
+  "metadata": {
+    "content_similar": {
+      "required": true,
+      "output": "video_similar_ids_extra",
+      "numResults": 30,
+      "metadata": {
+        "included": [
+          "id_season_st",
+          "editorial_type=Extra"
+        ]
+      },
+      "date": {
+        "range": 2,
+        "period": "M",
+        "field": "publication_date",
+        "absolute": false
+      },
+      "fingerprint": {
+        "matchFields": [
+          "fingerprint"
+        ]
+      },
+      "groupby": {
+        "metadata": "subbrand_id",
+        "results": 4,
+        "sortMetadata": "publication_date",
+        "sortDirection": "desc"
+      }
+    }
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "qA8cN2kDM"
+        ]
+      }
+    ]
+  },
+  "id": "rbC5Q_8wT",
+  "version": 1,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-03-29T15:53:55.152Z"
+  }
+}

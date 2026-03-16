@@ -1,0 +1,73 @@
+{
+  "title": "Rule Editorial Type Full Episode",
+  "description": "",
+  "contentType": "video",
+  "clauses": [
+    "filter",
+    "exclude",
+    "include"
+  ],
+  "rule": [
+    {
+      "condition": "*",
+      "boost": 1,
+      "type": "I2I",
+      "_id": "XXBB43efj",
+      "match": "Full Episode",
+      "phrase": false,
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      },
+      "field": "editorial_type",
+      "fieldDBType": "keyword",
+      "queryType": "match",
+      "value": "Full Episode",
+      "valueType": "string",
+      "API": "V2"
+    }
+  ],
+  "field": "editorial_type",
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "jmUEsXUsF",
+          "fpx25YABj",
+          "vIQCxKrUj",
+          "fFfkZBP4s",
+          "NohOuTAhP1",
+          "TrBCM_mrO",
+          "JcLPwIH_9",
+          "AkDXA7YHE",
+          "byMpe1wx_f",
+          "VMjkKkljfF",
+          "yFHHJNULO",
+          "UpCkzkV_m",
+          "gE_eIFPElo",
+          "z4cKov4kQ",
+          "PoNLxId54",
+          "_t8yb_eh3",
+          "XQDNlUIPb"
+        ]
+      }
+    ]
+  },
+  "id": "ssdeTHIxc",
+  "version": 2,
+  "lastSaved": {
+    "username": "Massimiliano.Berardi",
+    "date": "2020-12-02T15:19:18.660Z"
+  }
+}

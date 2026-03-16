@@ -1,0 +1,210 @@
+{
+  "title": "TVOD Generi per Parametri Film",
+  "description": "Per use case parametrici in TVOD",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "IyDzyntfi"
+    },
+    {
+      "id": "83txjtJm"
+    },
+    {
+      "id": "Qs0Vux5WH_"
+    },
+    {
+      "id": "MhwnTO2PIM"
+    },
+    {
+      "id": "vKGPyoliA"
+    }
+  ],
+  "exclude": [
+    {
+      "id": "VoB_5PHJs"
+    },
+    {
+      "id": "hzun5eW6d"
+    },
+    {
+      "id": "MwF1OITAc"
+    }
+  ],
+  "include": [],
+  "boost": [
+    {
+      "id": "_8ZV5sLIn"
+    }
+  ],
+  "order": [
+    {
+      "id": "fnNa_WKV"
+    },
+    {
+      "id": "Oyp_jIxo6"
+    }
+  ],
+  "realm": "content",
+  "presets": {
+    "filter": [
+      {
+        "id": "TuAyi0elu"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "KhQ3IziFJ"
+      }
+    ]
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "IyDzyntfi",
+          "83txjtJm",
+          "Qs0Vux5WH_",
+          "MhwnTO2PIM",
+          "vKGPyoliA",
+          "VoB_5PHJs",
+          "hzun5eW6d",
+          "MwF1OITAc",
+          "_8ZV5sLIn",
+          "fnNa_WKV",
+          "Oyp_jIxo6"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "TuAyi0elu",
+          "KhQ3IziFJ"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "xRuss7PzAY"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1
+  },
+  "id": "ARAIdR8pC",
+  "version": 18,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2022-09-21T15:54:59.566Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "xRuss7PzAY",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 13,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 11,
+          "items": [
+            {
+              "id": "IyDzyntfi",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "83txjtJm",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "Qs0Vux5WH_",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "MhwnTO2PIM",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "vKGPyoliA",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "VoB_5PHJs",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "hzun5eW6d",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "MwF1OITAc",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "_8ZV5sLIn",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "fnNa_WKV",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "Oyp_jIxo6",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 2,
+          "items": [
+            {
+              "id": "TuAyi0elu",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "KhQ3IziFJ",
+              "type": "rulesPresets",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "metadataOverrides": {},
+  "uselessMultiplier": false
+}

@@ -1,0 +1,143 @@
+{
+  "title": "Rule Exclude 4K se chiamante HD o SD",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "(equals(video_format, \"HD\"))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "equals",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "video_format"
+              },
+              {
+                "value": "\"HD\"",
+                "type": "string"
+              }
+            ],
+            "id": "gDFcFS7LAO"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "4K*",
+      "valueType": "freeText",
+      "queryType": "contains",
+      "field": "video_format",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "GcWfD5ads",
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "API": "V2",
+      "condition": "(equals(video_format, \"SD\"))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "equals",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "video_format"
+              },
+              {
+                "value": "\"SD\"",
+                "type": "string"
+              }
+            ],
+            "id": "gDFcFS7LAO"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "4K*",
+      "valueType": "freeText",
+      "queryType": "contains",
+      "field": "video_format",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "oa0dFaj6Js",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "clauses": [
+    "exclude"
+  ],
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "KrplYijM4",
+          "SGD1LQ9Mj",
+          "KLRC8NR6Z",
+          "_UJtujmOS",
+          "mkgdGBb51b",
+          "hzT5G0sYG",
+          "rlrVLabqSl",
+          "l4aaD5uVWs",
+          "PGHHPIFHQ"
+        ]
+      }
+    ]
+  },
+  "id": "IRLCpxM3B",
+  "version": 15,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-04-07T14:31:12.714Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 1,
+          "items": [
+            {
+              "id": "KrplYijM4",
+              "type": "queries",
+              "title": "INF Similar Cinema"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 1,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "content": true
+  },
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": []
+}

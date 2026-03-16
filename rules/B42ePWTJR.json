@@ -1,0 +1,77 @@
+{
+  "title": "Rule Boost Tematismi Genere Tematico",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "(!isEmpty(tematismigeneretematico))",
+      "conditionRaw": {
+        "and": [
+          {
+            "id": "I5A80xAI-c",
+            "operator": "!isEmpty",
+            "values": [
+              {
+                "value": "tematismigeneretematico",
+                "type": "metadata"
+              }
+            ]
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "tematismigeneretematico",
+      "valueType": "metadata",
+      "queryType": "matchFromArray",
+      "field": "tematismigeneretematico",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "hs7oTAK98",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "clauses": [
+    "filter",
+    "include",
+    "boost"
+  ],
+  "metadata": {
+    "content": true
+  },
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "U1hz1tNQN",
+          "tv97xe64g"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "nvqWNnbgX"
+        ]
+      }
+    ]
+  },
+  "id": "B42ePWTJR",
+  "version": 1,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-03-29T14:18:32.778Z"
+  }
+}

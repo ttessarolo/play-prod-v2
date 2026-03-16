@@ -1,0 +1,175 @@
+{
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "RoJAW62s61"
+    }
+  ],
+  "exclude": [],
+  "include": [
+    {
+      "id": "iaN2YpMts"
+    }
+  ],
+  "boost": [],
+  "order": [
+    {
+      "id": "PDvjv_fBzq"
+    }
+  ],
+  "realm": "content",
+  "title": "Query Content pack Più visti",
+  "description": "",
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "RoJAW62s61",
+          "iaN2YpMts",
+          "PDvjv_fBzq"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "ztWfmA_PI",
+          "ZRorAbL96Q",
+          "KhQ3IziFJ"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": []
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1,
+    "mustOperator": "or"
+  },
+  "id": "yFEIdfo36",
+  "version": 12,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2023-06-13T09:22:08.238Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 2,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 2,
+          "items": [
+            {
+              "id": "KRHAb_ct0H",
+              "type": "blocks",
+              "title": ""
+            },
+            {
+              "id": "ZX1HRyV_LQ",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 6,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 3,
+          "items": [
+            {
+              "id": "RoJAW62s61",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "iaN2YpMts",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "PDvjv_fBzq",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 3,
+          "items": [
+            {
+              "id": "ztWfmA_PI",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "ZRorAbL96Q",
+              "type": "rulesPresets",
+              "title": ""
+            },
+            {
+              "id": "KhQ3IziFJ",
+              "type": "rulesPresets",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "metadataOverrides": {
+    "RoJAW62s61": {
+      "content_similar": {
+        "required": true,
+        "output": "video_similar_ids_più_visti",
+        "numResults": 15,
+        "metadata": {
+          "included": [
+            "editorial_type=TVSeason",
+            "content_channels=MediasetPlay",
+            "current_season=true"
+          ],
+          "excluded": [
+            "genere_mcm=Soap opera",
+            "etichetteEditoriali=In Onda",
+            "video_formats=(4K HDR) OR (4K SDR)"
+          ]
+        },
+        "groupby": {
+          "metadata": "tipologia",
+          "results": 4,
+          "sortMetadata": "last7d_videoviews",
+          "sortDirection": "desc"
+        }
+      }
+    }
+  },
+  "presets": {
+    "filter": [
+      {
+        "id": "ztWfmA_PI"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "ZRorAbL96Q"
+      },
+      {
+        "id": "KhQ3IziFJ"
+      }
+    ]
+  }
+}

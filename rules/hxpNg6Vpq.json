@@ -1,0 +1,79 @@
+{
+  "title": "Rule Boost Genere Tematico",
+  "description": "Boost su match genere tematico",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "(!isEmpty(generetematico))",
+      "conditionRaw": {
+        "and": [
+          {
+            "id": "lIRNefDrD5E",
+            "operator": "!isEmpty",
+            "values": [
+              {
+                "value": "generetematico",
+                "type": "metadata"
+              }
+            ]
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "generetematico",
+      "valueType": "metadata",
+      "queryType": "matchFromArray",
+      "field": "generetematico",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "tFSn0VBcU",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "clauses": [
+    "include",
+    "boost"
+  ],
+  "metadata": {
+    "content": true
+  },
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "U1hz1tNQN",
+          "ek22t7eOE",
+          "uPK9cU2MwQ",
+          "F8q0MMwh8",
+          "tv97xe64g"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "ZPwmT2FT9"
+        ]
+      }
+    ]
+  },
+  "id": "hxpNg6Vpq",
+  "version": 1,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-03-29T14:04:45.380Z"
+  }
+}

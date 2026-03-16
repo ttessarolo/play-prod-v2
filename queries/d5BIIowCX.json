@@ -1,0 +1,194 @@
+{
+  "title": "Query Home Pay Generi per Parametri Film Blocco 1",
+  "description": "Contenuti Infinity + Mplay\nPer la Homepage clienti Pay\nTOP",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "MrtMAYnbZ"
+    },
+    {
+      "id": "83txjtJm"
+    },
+    {
+      "id": "Qs0Vux5WH_"
+    },
+    {
+      "id": "MhwnTO2PIM"
+    },
+    {
+      "id": "MuizEfGLE"
+    }
+  ],
+  "exclude": [
+    {
+      "id": "VoB_5PHJs"
+    },
+    {
+      "id": "KaBngUzH4b"
+    }
+  ],
+  "include": [
+    {
+      "id": "w_A5RtTR9",
+      "overides": {
+        "dGTXzajXg": {
+          "boost": 1,
+          "range": 2
+        }
+      }
+    }
+  ],
+  "boost": [],
+  "order": [],
+  "realm": "content",
+  "presets": {
+    "filter": [
+      {
+        "id": "TuAyi0elu"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "KhQ3IziFJ"
+      }
+    ]
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "MrtMAYnbZ",
+          "83txjtJm",
+          "Qs0Vux5WH_",
+          "MhwnTO2PIM",
+          "MuizEfGLE",
+          "VoB_5PHJs",
+          "KaBngUzH4b",
+          "w_A5RtTR9"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "TuAyi0elu",
+          "KhQ3IziFJ"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "hr35tVjd2"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": "0.1",
+    "resultsMultiplier": 1,
+    "mustOperator": "or"
+  },
+  "id": "d5BIIowCX",
+  "version": 37,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-04-20T17:38:31.594Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "hr35tVjd2",
+              "type": "blocks",
+              "title": "Home Pay Generi per Parametri Film"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 11,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 9,
+          "items": [
+            {
+              "id": "MrtMAYnbZ",
+              "type": "rules",
+              "title": "Rule Channel Mediaset Play e Infinity"
+            },
+            {
+              "id": "83txjtJm",
+              "type": "rules",
+              "title": "Rule Tipologia Film"
+            },
+            {
+              "id": "Qs0Vux5WH_",
+              "type": "rules",
+              "title": "Rule Editorial Type Movie"
+            },
+            {
+              "id": "MhwnTO2PIM",
+              "type": "rules",
+              "title": "Rule params_genre"
+            },
+            {
+              "id": "MuizEfGLE",
+              "type": "rules",
+              "title": "Rule  Anno Produzione over 1995"
+            },
+            {
+              "id": "VoB_5PHJs",
+              "type": "rules",
+              "title": "Rule Esclude Classici per Params Genre"
+            },
+            {
+              "id": "MwF1OITAc",
+              "type": "rules",
+              "title": "Rule Esclude Family per Params Genre"
+            },
+            {
+              "id": "hzun5eW6d",
+              "type": "rules",
+              "title": "Rule Esclude Animazione per Params Genre"
+            },
+            {
+              "id": "w_A5RtTR9",
+              "type": "rules",
+              "title": "Rule Top Blockbuster Publication date"
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 2,
+          "items": [
+            {
+              "id": "TuAyi0elu",
+              "type": "rulesPresets",
+              "title": "Preset SearchVisible e FrontEnd Visible True"
+            },
+            {
+              "id": "KhQ3IziFJ",
+              "type": "rulesPresets",
+              "title": "Preset Video format exclude 4K"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "metadataOverrides": {},
+  "uselessMultiplier": false
+}

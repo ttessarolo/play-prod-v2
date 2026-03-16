@@ -1,0 +1,263 @@
+{
+  "title": "SRC Search Gratis per te Serie e Movie Subscription",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "kb0ZRiIVbE"
+    },
+    {
+      "id": "K9SxsqYNs"
+    }
+  ],
+  "exclude": [
+    {
+      "id": "XJHXFsPMz"
+    },
+    {
+      "id": "NfU7ovdXbm"
+    },
+    {
+      "id": "JxJdZXiBK"
+    }
+  ],
+  "include": [
+    {
+      "id": "U5DeUiXfO"
+    },
+    {
+      "id": "oUDwGrmkk"
+    },
+    {
+      "id": "rI3PnaL4qf"
+    }
+  ],
+  "boost": [
+    {
+      "id": "mfXQdqG3TO"
+    },
+    {
+      "id": "RqBahOBRSz"
+    },
+    {
+      "id": "bxjJcRxw6j"
+    },
+    {
+      "id": "hXLkhjZvG8"
+    },
+    {
+      "id": "XrQIQriQGR",
+      "overides": {
+        "D5Ommj0iv": {
+          "boost": 5
+        }
+      }
+    },
+    {
+      "id": "S__HGJYN5V"
+    },
+    {
+      "id": "OuILCofHC"
+    },
+    {
+      "id": "xFhBODpCp"
+    }
+  ],
+  "order": [
+    {
+      "id": "IGvLQhQlz"
+    },
+    {
+      "id": "MAkE36K_7"
+    }
+  ],
+  "realm": "content",
+  "presets": {
+    "exclude": [
+      {
+        "id": "ZRorAbL96Q"
+      }
+    ]
+  },
+  "general": {
+    "mustOperator": "or",
+    "tieBreaker": 0.9,
+    "minimumShouldMatch": "1%",
+    "resultsMultiplier": 1
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "kb0ZRiIVbE",
+          "K9SxsqYNs",
+          "XJHXFsPMz",
+          "NfU7ovdXbm",
+          "JxJdZXiBK",
+          "U5DeUiXfO",
+          "oUDwGrmkk",
+          "rI3PnaL4qf",
+          "mfXQdqG3TO",
+          "RqBahOBRSz",
+          "bxjJcRxw6j",
+          "hXLkhjZvG8",
+          "XrQIQriQGR",
+          "S__HGJYN5V",
+          "OuILCofHC",
+          "xFhBODpCp",
+          "IGvLQhQlz",
+          "MAkE36K_7"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "ZRorAbL96Q"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "jC1O6gKqK"
+        ]
+      }
+    ]
+  },
+  "id": "Z4Xzab9uO0",
+  "version": 12,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2024-11-04T17:46:55.216Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "jC1O6gKqK",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 18,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 17,
+          "items": [
+            {
+              "id": "kb0ZRiIVbE",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "K9SxsqYNs",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "XJHXFsPMz",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "NfU7ovdXbm",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "JxJdZXiBK",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "U5DeUiXfO",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "oUDwGrmkk",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "rI3PnaL4qf",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "mfXQdqG3TO",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "RqBahOBRSz",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "bxjJcRxw6j",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "hXLkhjZvG8",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "XrQIQriQGR",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "S__HGJYN5V",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "OuILCofHC",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "IGvLQhQlz",
+              "type": "rules",
+              "title": ""
+            },
+            {
+              "id": "MAkE36K_7",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 1,
+          "items": [
+            {
+              "id": "ZRorAbL96Q",
+              "type": "rulesPresets",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "metadataOverrides": {}
+}

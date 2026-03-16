@@ -1,0 +1,26 @@
+{
+  "title": "List Talent show e Reality show",
+  "description": "",
+  "contentType": "video",
+  "type": "text",
+  "elements": [
+    "Talent show",
+    "Reality show"
+  ],
+  "id": "WDfjG5DhF",
+  "version": 1,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2020-12-16T10:52:00.654Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "rules",
+        "items": [
+          "AlCYTEPhW"
+        ]
+      }
+    ]
+  }
+}

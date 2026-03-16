@@ -1,0 +1,779 @@
+{
+  "title": "Preset SearchVisible e FrontEnd Visible True",
+  "description": "",
+  "contentType": "video",
+  "clause": "filter",
+  "id": "TuAyi0elu",
+  "version": 5,
+  "lastSaved": {
+    "username": "ttessarolo",
+    "date": "2022-06-30T09:52:35.164Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "b20L6V_Cz",
+          "VPCz1frwh",
+          "bGHIfOpkw",
+          "M9xhdzkJvY",
+          "HWJT1cPPY",
+          "bOnJl04URI",
+          "u8IIXQT9v",
+          "rCpAPoEJQ",
+          "JeWs0B6Ip",
+          "jmUEsXUsF",
+          "_UJtujmOS",
+          "zWYdI9xZd",
+          "fpx25YABj",
+          "FG_3yg944",
+          "rAoCaKtAs",
+          "js5eihPKLL",
+          "Cz5mbdSpkG",
+          "yNmdifMzM",
+          "dwZ0qqYYpq",
+          "VXeQD5L8kq",
+          "WPl6VDGVC",
+          "TUEwHugpG",
+          "kz55YrMHS",
+          "Fey8TGWHzd",
+          "qLHnIzGLeb",
+          "s820x60ap",
+          "smVITPQ7Q",
+          "HiNerS5aO",
+          "U1hz1tNQN",
+          "cbbhfkNy0",
+          "fWwljHj1tt",
+          "Jnfu6ZH0E",
+          "UNYXfbEQP",
+          "OoW_RxrtA",
+          "DHl6a0GLT",
+          "GuKk9Bo7iv",
+          "e3n773U9U",
+          "A4ofNYRa8",
+          "qA8cN2kDM",
+          "YhVp7CQNc",
+          "ek22t7eOE",
+          "xpFUJN2NV",
+          "uPK9cU2MwQ",
+          "_WmSa4Xbk",
+          "snFdkOv3m",
+          "rjWULeByhq",
+          "DGN31xSm2",
+          "zLGBFxSxo",
+          "jNFBAYUGK",
+          "eYuL4ML7TS",
+          "rzhLrRK3bB",
+          "YsF6lF5pCC",
+          "gcHNGd2H_",
+          "F8q0MMwh8",
+          "KrplYijM4",
+          "c_R2PteO7",
+          "_s_m7kglK",
+          "lKsGN9IPe9",
+          "j0Q299ZnJ",
+          "smEuLKmQtT",
+          "ARAIdR8pC",
+          "IUd_q_ixKj",
+          "skE6ZZaHs",
+          "d5BIIowCX",
+          "mkgdGBb51b",
+          "Bd_D1xwYT",
+          "jO1QhHhsaX",
+          "rFYrNUGdd",
+          "BVC4GzQXU",
+          "wZl6yRICv",
+          "FHMVTArGO",
+          "SGD1LQ9Mj",
+          "UhRmAOyNS",
+          "YLPLAtYlN",
+          "WsAxg5DEF",
+          "fuIccUZaR",
+          "tv97xe64g",
+          "WQk9TX6Gz",
+          "xMecDK8KF",
+          "M6znVT4rI",
+          "NHBn8poSz",
+          "DgQplsdQu",
+          "VSuWQgZ1N",
+          "rOiEnU9mH",
+          "HmTQKuI0C",
+          "osVzkbq1f",
+          "eYE4Fz7jp",
+          "qnEDrWjeg",
+          "eKqq5qm5PJ",
+          "Jt4Mp8mym",
+          "gMMABcytBa",
+          "Qd7iEXoJo",
+          "NoYXXV_FK",
+          "ZqCof5t6v",
+          "OgvJP6sKX",
+          "N8t6D3FZ4",
+          "UCdpGCh1t",
+          "JPz9JXjnG",
+          "OcoPuWrqc",
+          "byoCWLksA",
+          "KLRC8NR6Z",
+          "rU9JESwD9",
+          "QniVzl_vg",
+          "hzT5G0sYG",
+          "QPwcsFJG6",
+          "JQGpSLgmmb",
+          "f8tvqAypXq",
+          "FF2wg0oZIu",
+          "yNxWfYgpgd",
+          "OrpWHvd2JE",
+          "saXXHN9eH",
+          "WberdVHbj",
+          "yjy2A9HNE",
+          "jfiYB856s",
+          "YO0JXEqrz",
+          "hpyoLcJCQ",
+          "B0YMoSONb",
+          "lxPfB9Gfj_",
+          "KFrd0k5xX",
+          "SXxlzld0A0",
+          "UQJXXpvIu",
+          "olTmQaj8i",
+          "MH1tGzFfW",
+          "aIek_pwCv",
+          "ca9vJDySW",
+          "BWgEuhfRp",
+          "aXM_s_5Uh",
+          "kiw8qXocC",
+          "nI6X6r96d",
+          "rlrVLabqSl",
+          "vd0sQwe2q",
+          "LQNTpN5LdF",
+          "O4OWKwsiK",
+          "sDmAYxCfr",
+          "R5PS0xUQI",
+          "dJb9mqV8A",
+          "GU2OBQqML",
+          "GgHM9VBc7",
+          "jDZGfzgiS",
+          "BqU9dngUa",
+          "m088vbWc5Q",
+          "zGCftF1vF",
+          "UzwyXBtrD",
+          "NohOuTAhP1",
+          "Vegj8XiOcr",
+          "Alu6uP5f6",
+          "Hpf2pfaEM",
+          "jTWiGJ8a3j",
+          "div23Vxzv",
+          "fBjcjMmv5",
+          "MOiBhvfylX",
+          "l4aaD5uVWs",
+          "tE6FKWNO0",
+          "C02qfD2Y3",
+          "PGHHPIFHQ",
+          "RASMXpoN0",
+          "AqgW7pWFS"
+        ]
+      }
+    ],
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "sfSihNWeX",
+          "a51CQZVzP"
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "id": "sfSihNWeX"
+    },
+    {
+      "id": "a51CQZVzP"
+    }
+  ],
+  "refsComputed": {
+    "belongs": {
+      "total": 108,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 108,
+          "items": [
+            {
+              "id": "VNoVjEIDhS",
+              "type": "queries",
+              "title": "Query Person to Content Film over 2005"
+            },
+            {
+              "id": "b20L6V_Cz",
+              "type": "queries",
+              "title": "Query Person to Content Film"
+            },
+            {
+              "id": "VPCz1frwh",
+              "type": "queries",
+              "title": "Query Film più visti 24h Person to Content"
+            },
+            {
+              "id": "bGHIfOpkw",
+              "type": "queries",
+              "title": "Query Most Recent Film Person to Content"
+            },
+            {
+              "id": "M9xhdzkJvY",
+              "type": "queries",
+              "title": "Query Film over 2015"
+            },
+            {
+              "id": "HWJT1cPPY",
+              "type": "queries",
+              "title": "Query Film più visti 24h"
+            },
+            {
+              "id": "bOnJl04URI",
+              "type": "queries",
+              "title": "Query Più visti del giorno 24h"
+            },
+            {
+              "id": "u8IIXQT9v",
+              "type": "queries",
+              "title": "Query Programmi TV Clip 24h"
+            },
+            {
+              "id": "rCpAPoEJQ",
+              "type": "queries",
+              "title": "Search Clip"
+            },
+            {
+              "id": "JeWs0B6Ip",
+              "type": "queries",
+              "title": "Search Movie"
+            },
+            {
+              "id": "jmUEsXUsF",
+              "type": "queries",
+              "title": "Search Fep"
+            },
+            {
+              "id": "_UJtujmOS",
+              "type": "queries",
+              "title": "Query Similar Cinema"
+            },
+            {
+              "id": "zWYdI9xZd",
+              "type": "queries",
+              "title": "Query Generi per Parametri Cinema Free"
+            },
+            {
+              "id": "fpx25YABj",
+              "type": "queries",
+              "title": "Query Enabler Test Episodi"
+            },
+            {
+              "id": "FG_3yg944",
+              "type": "queries",
+              "title": "Query Enabler Test Film"
+            },
+            {
+              "id": "rAoCaKtAs",
+              "type": "queries",
+              "title": "INF Generi per Parametri Film Blocco 2"
+            },
+            {
+              "id": "js5eihPKLL",
+              "type": "queries",
+              "title": "INF Most recent Film Blocco 2"
+            },
+            {
+              "id": "Cz5mbdSpkG",
+              "type": "queries",
+              "title": "INF Film Più visti 7 giorni Blocco 2"
+            },
+            {
+              "id": "yNmdifMzM",
+              "type": "queries",
+              "title": "INF Film Più visti 7 giorni"
+            },
+            {
+              "id": "dwZ0qqYYpq",
+              "type": "queries",
+              "title": "Query Enabler Film INF e MPlay Più visti 24h"
+            },
+            {
+              "id": "VXeQD5L8kq",
+              "type": "queries",
+              "title": "Query Enabler Film Mplay over 1995"
+            },
+            {
+              "id": "WPl6VDGVC",
+              "type": "queries",
+              "title": "Query Enabler Film MPlay Più visti 24h"
+            },
+            {
+              "id": "UdXc0tzt_R",
+              "type": "queries",
+              "title": "Query Film Channel Mediaset Play "
+            },
+            {
+              "id": "SiAItfZgw",
+              "type": "queries",
+              "title": "Query Film Channel Mediaset Play e Infinity"
+            },
+            {
+              "id": "TUEwHugpG",
+              "type": "queries",
+              "title": "TVOD Più noleggiati"
+            },
+            {
+              "id": "kz55YrMHS",
+              "type": "queries",
+              "title": "INF Film Più visti 24h"
+            },
+            {
+              "id": "teSxvE1Cm",
+              "type": "queries",
+              "title": "INF Film Più visti 24h Blocco 2"
+            },
+            {
+              "id": "Fey8TGWHzd",
+              "type": "queries",
+              "title": "INF Most recent Film"
+            },
+            {
+              "id": "qLHnIzGLeb",
+              "type": "queries",
+              "title": "INF Film In scadenza"
+            },
+            {
+              "id": "s820x60ap",
+              "type": "queries",
+              "title": "INF Film Blockbuster Cult"
+            },
+            {
+              "id": "smVITPQ7Q",
+              "type": "queries",
+              "title": "Query Play Cult Più visti 24h"
+            },
+            {
+              "id": "HiNerS5aO",
+              "type": "queries",
+              "title": "Query Most Recent Sport"
+            },
+            {
+              "id": "U1hz1tNQN",
+              "type": "queries",
+              "title": "Query Similar Documentari"
+            },
+            {
+              "id": "cbbhfkNy0",
+              "type": "queries",
+              "title": "Query Most Recent Documentari"
+            },
+            {
+              "id": "fWwljHj1tt",
+              "type": "queries",
+              "title": "Query Most Recent Cartoni"
+            },
+            {
+              "id": "Jnfu6ZH0E",
+              "type": "queries",
+              "title": "Query Similar Cartoni"
+            },
+            {
+              "id": "UNYXfbEQP",
+              "type": "queries",
+              "title": "Query Most Recent Intrattenimento"
+            },
+            {
+              "id": "OoW_RxrtA",
+              "type": "queries",
+              "title": "Query Similar Intrattenimento Stesso Brand"
+            },
+            {
+              "id": "DHl6a0GLT",
+              "type": "queries",
+              "title": "Query Similar Intrattenimento Diverso dal brand"
+            },
+            {
+              "id": "GuKk9Bo7iv",
+              "type": "queries",
+              "title": "Query Most Recent Film"
+            },
+            {
+              "id": "e3n773U9U",
+              "type": "queries",
+              "title": "Query Most Recent Informazione"
+            },
+            {
+              "id": "A4ofNYRa8",
+              "type": "queries",
+              "title": "Query Anticipazioni Soap Opera"
+            },
+            {
+              "id": "qA8cN2kDM",
+              "type": "queries",
+              "title": "Query Extra Serie Tv e Fiction"
+            },
+            {
+              "id": "YhVp7CQNc",
+              "type": "queries",
+              "title": "Query Similar Soap e Telenovelas"
+            },
+            {
+              "id": "ek22t7eOE",
+              "type": "queries",
+              "title": "Query SerieTv Fiction blocco6"
+            },
+            {
+              "id": "xpFUJN2NV",
+              "type": "queries",
+              "title": "Query Most Recent Serie Tv e Fiction"
+            },
+            {
+              "id": "uPK9cU2MwQ",
+              "type": "queries",
+              "title": "Query SerieTv Fiction"
+            },
+            {
+              "id": "_WmSa4Xbk",
+              "type": "queries",
+              "title": "Query Similar Informazione Stesso Brand"
+            },
+            {
+              "id": "snFdkOv3m",
+              "type": "queries",
+              "title": "Query Similar Informazione"
+            },
+            {
+              "id": "rjWULeByhq",
+              "type": "queries",
+              "title": "Query Most Recent TG"
+            },
+            {
+              "id": "DGN31xSm2",
+              "type": "queries",
+              "title": "Query Similar Informazione Per Tg"
+            },
+            {
+              "id": "zLGBFxSxo",
+              "type": "queries",
+              "title": "Query Most Recent Tg per Similar"
+            },
+            {
+              "id": "jNFBAYUGK",
+              "type": "queries",
+              "title": "Query Similar Sport Highlights"
+            },
+            {
+              "id": "eYuL4ML7TS",
+              "type": "queries",
+              "title": "Query Similar Sport"
+            },
+            {
+              "id": "rzhLrRK3bB",
+              "type": "queries",
+              "title": "Query Most Recent Sport per Similar"
+            },
+            {
+              "id": "YsF6lF5pCC",
+              "type": "queries",
+              "title": "Query Più visti 24H L'Isola dei famosi"
+            },
+            {
+              "id": "gcHNGd2H_",
+              "type": "queries",
+              "title": "TVOD Novità Prima Finestra"
+            },
+            {
+              "id": "F8q0MMwh8",
+              "type": "queries",
+              "title": "INF Similar Serie tv e fiction"
+            },
+            {
+              "id": "KrplYijM4",
+              "type": "queries",
+              "title": "INF Similar Cinema"
+            },
+            {
+              "id": "c_R2PteO7",
+              "type": "queries",
+              "title": "INF Film di Animazione"
+            },
+            {
+              "id": "_s_m7kglK",
+              "type": "queries",
+              "title": "TVOD Film in offerta"
+            },
+            {
+              "id": "lKsGN9IPe9",
+              "type": "queries",
+              "title": "TVOD Film In scadenza"
+            },
+            {
+              "id": "j0Q299ZnJ",
+              "type": "queries",
+              "title": "TVOD Film Campioni di incasso"
+            },
+            {
+              "id": "smEuLKmQtT",
+              "type": "queries",
+              "title": "TVOD Generi per Parametri Film Blocco 1"
+            },
+            {
+              "id": "ARAIdR8pC",
+              "type": "queries",
+              "title": "TVOD Generi per Parametri Film Blocco 3"
+            },
+            {
+              "id": "IUd_q_ixKj",
+              "type": "queries",
+              "title": "INF Film Family"
+            },
+            {
+              "id": "skE6ZZaHs",
+              "type": "queries",
+              "title": "Query Home Pay Generi per Parametri Film Blocco 2"
+            },
+            {
+              "id": "d5BIIowCX",
+              "type": "queries",
+              "title": "Query Home Pay Generi per Parametri Film Blocco 1"
+            },
+            {
+              "id": "mkgdGBb51b",
+              "type": "queries",
+              "title": "TVOD Similar Cinema"
+            },
+            {
+              "id": "Bd_D1xwYT",
+              "type": "queries",
+              "title": "TVOD Più noleggiati Top Blockbuster"
+            },
+            {
+              "id": "PT5gwflYp",
+              "type": "queries",
+              "title": "Query Film del momento Blocco 2"
+            },
+            {
+              "id": "jO1QhHhsaX",
+              "type": "queries",
+              "title": "Query Film del momento Mplay Infinity Noleggio"
+            },
+            {
+              "id": "rFYrNUGdd",
+              "type": "queries",
+              "title": "Query Film Ultimi arrivi Mediaset Play"
+            },
+            {
+              "id": "BVC4GzQXU",
+              "type": "queries",
+              "title": "TVOD Generi per Parametri Film Blocco 2"
+            },
+            {
+              "id": "wZl6yRICv",
+              "type": "queries",
+              "title": "Query Film del momento Infinity"
+            },
+            {
+              "id": "FHMVTArGO",
+              "type": "queries",
+              "title": "Query Film del momento MPlay"
+            },
+            {
+              "id": "SGD1LQ9Mj",
+              "type": "queries",
+              "title": "CHNLS Similar Cinema"
+            },
+            {
+              "id": "UhRmAOyNS",
+              "type": "queries",
+              "title": "CHNLS Similar Serie TV"
+            },
+            {
+              "id": "YLPLAtYlN",
+              "type": "queries",
+              "title": "CHNLS Similar Sport"
+            },
+            {
+              "id": "WsAxg5DEF",
+              "type": "queries",
+              "title": "Query Temptation Island Clip Top viewed 24h"
+            },
+            {
+              "id": "fuIccUZaR",
+              "type": "queries",
+              "title": "CHNLS Film In scadenza"
+            },
+            {
+              "id": "tv97xe64g",
+              "type": "queries",
+              "title": "CHNLS Similar Documentari"
+            },
+            {
+              "id": "WQk9TX6Gz",
+              "type": "queries",
+              "title": "INF Smart Block Film Pezzi da 90"
+            },
+            {
+              "id": "xMecDK8KF",
+              "type": "queries",
+              "title": "INF Smart Block Film Io non ho paura"
+            },
+            {
+              "id": "M6znVT4rI",
+              "type": "queries",
+              "title": "INF Smart Block Film Risate sul divano"
+            },
+            {
+              "id": "NHBn8poSz",
+              "type": "queries",
+              "title": "INF Smart Block Film Storie vere"
+            },
+            {
+              "id": "DgQplsdQu",
+              "type": "queries",
+              "title": "Query Highlights Calcio"
+            },
+            {
+              "id": "VSuWQgZ1N",
+              "type": "queries",
+              "title": "INF Smart Block Film Mindgame"
+            },
+            {
+              "id": "rOiEnU9mH",
+              "type": "queries",
+              "title": "INF Smart Block Film Feeling Blue"
+            },
+            {
+              "id": "HmTQKuI0C",
+              "type": "queries",
+              "title": "Query Film Birra e costine"
+            },
+            {
+              "id": "osVzkbq1f",
+              "type": "queries",
+              "title": "INF Smart Block Film Romantico"
+            },
+            {
+              "id": "eYE4Fz7jp",
+              "type": "queries",
+              "title": "Fallback Smart block INF Film"
+            },
+            {
+              "id": "qnEDrWjeg",
+              "type": "queries",
+              "title": "Query GF VIP Clip Top viewed 24h"
+            },
+            {
+              "id": "eznkn2hi2",
+              "type": "queries",
+              "title": "Query Similar Sport Highlights Champions League"
+            },
+            {
+              "id": "eKqq5qm5PJ",
+              "type": "queries",
+              "title": "Query Similar Sport Highlights Serie A"
+            },
+            {
+              "id": "Jt4Mp8mym",
+              "type": "queries",
+              "title": "INF Multiple block Generi per Parametri Film"
+            },
+            {
+              "id": "gMMABcytBa",
+              "type": "queries",
+              "title": "Query Generi per Parametri Cinema Free Top"
+            },
+            {
+              "id": "Qd7iEXoJo",
+              "type": "queries",
+              "title": "Query Generi per Parametri Cinema Free Inf e MPlay Top viewed"
+            },
+            {
+              "id": "NoYXXV_FK",
+              "type": "queries",
+              "title": "Query TVOD Campioni di incasso ultimi 3 mesi"
+            },
+            {
+              "id": "ZqCof5t6v",
+              "type": "queries",
+              "title": "INF Generi per Parametri Film Blocco 1"
+            },
+            {
+              "id": "OgvJP6sKX",
+              "type": "queries",
+              "title": "INF Film più visti 24h solo Infinity NEW"
+            },
+            {
+              "id": "N8t6D3FZ4",
+              "type": "queries",
+              "title": "INF Multiple block Genere Primario per Parametri Film"
+            },
+            {
+              "id": "UCdpGCh1t",
+              "type": "queries",
+              "title": "INF Multiple block Generi per Parametri Film Random"
+            },
+            {
+              "id": "JPz9JXjnG",
+              "type": "queries",
+              "title": "Query Similar Cinema PURO"
+            },
+            {
+              "id": "OcoPuWrqc",
+              "type": "queries",
+              "title": "INF Multiple block Anonimo Genere Primario per Parametri Film"
+            },
+            {
+              "id": "byoCWLksA",
+              "type": "queries",
+              "title": "INF Multiple block Anonimo Generi per Parametri Film"
+            },
+            {
+              "id": "KLRC8NR6Z",
+              "type": "queries",
+              "title": "Query Similar Content Channel match Subscription channel utente"
+            },
+            {
+              "id": "rU9JESwD9",
+              "type": "queries",
+              "title": "Search Movie TimVision"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 4,
+      "types": 1,
+      "items": [
+        {
+          "type": "rules",
+          "count": 4,
+          "items": [
+            {
+              "id": "I3q00WjtAO",
+              "type": "rules"
+            },
+            {
+              "id": "_G4YJigZi",
+              "type": "rules"
+            },
+            {
+              "id": "sfSihNWeX",
+              "type": "rules",
+              "title": "Rule Search Visible True"
+            },
+            {
+              "id": "a51CQZVzP",
+              "type": "rules",
+              "title": "Rule Frontend Visible True"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,297 @@
+{
+  "id": "jHz8QQRV0",
+  "propertyId": "zlqQNxLcGh",
+  "title": "Dem Monobrand",
+  "description": "Please Edit description for Page \"Default\"",
+  "enabledPagesId": [
+    "RgybRRcgZr"
+  ],
+  "isPage": true,
+  "blocks": [
+    {
+      "id": "vkQVMMJwv",
+      "condition": "*",
+      "title": "Fiction e Serie TV del momento",
+      "type": "nested",
+      "layout": {
+        "i": "vkQVMMJwv",
+        "w": 12,
+        "h": 30
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "GAuIt9t2zZ",
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        }
+      }
+    },
+    {
+      "id": "zjSb4ZCTO8",
+      "condition": "*",
+      "title": "Film aggiunti di recente",
+      "type": "nested",
+      "layout": {
+        "i": "zjSb4ZCTO8",
+        "x": 0,
+        "y": 1,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "FpM4IdLRo",
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        }
+      }
+    },
+    {
+      "id": "zMR_dywheg",
+      "condition": "*",
+      "title": "Programmi da Prima serata",
+      "type": "nested",
+      "layout": {
+        "i": "zMR_dywheg",
+        "x": 0,
+        "y": 4,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "kolFbgJ3bG",
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        }
+      }
+    },
+    {
+      "id": "LnP2mdNTy",
+      "condition": "*",
+      "title": "Documentari più visti",
+      "type": "nested",
+      "layout": {
+        "i": "LnP2mdNTy",
+        "w": 12,
+        "h": 30
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "LzHgDyGoq",
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        }
+      }
+    },
+    {
+      "id": "j_hfIAtKG",
+      "condition": "*",
+      "title": "Animazione Made in Japan!",
+      "type": "nested",
+      "layout": {
+        "i": "j_hfIAtKG",
+        "w": 12,
+        "h": 30
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "mIOpzGxnw",
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        }
+      }
+    }
+  ],
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2026-03-05T17:14:58.513Z"
+  },
+  "version": 5,
+  "refs": {
+    "belongs": [
+      {
+        "type": "endpoints",
+        "items": [
+          "RgybRRcgZr"
+        ]
+      }
+    ],
+    "require": [
+      {
+        "type": "queries",
+        "items": []
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "GAuIt9t2zZ",
+          "FpM4IdLRo",
+          "kolFbgJ3bG",
+          "LzHgDyGoq",
+          "mIOpzGxnw"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "RgybRRcgZr",
+              "type": "endpoints",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 5,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 5,
+          "items": [
+            {
+              "id": "GAuIt9t2zZ",
+              "type": "blocks"
+            },
+            {
+              "id": "FpM4IdLRo",
+              "type": "blocks"
+            },
+            {
+              "id": "kolFbgJ3bG",
+              "type": "blocks"
+            },
+            {
+              "id": "LzHgDyGoq",
+              "type": "blocks"
+            },
+            {
+              "id": "mIOpzGxnw",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "layout": [
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 0,
+      "i": "vkQVMMJwv",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 30,
+      "i": "zjSb4ZCTO8",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 60,
+      "i": "zMR_dywheg",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 90,
+      "i": "LnP2mdNTy",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 120,
+      "i": "j_hfIAtKG",
+      "moved": false,
+      "static": false
+    }
+  ]
+}

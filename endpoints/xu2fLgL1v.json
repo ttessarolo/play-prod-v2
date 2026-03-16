@@ -1,0 +1,328 @@
+{
+  "id": "xu2fLgL1v",
+  "active": true,
+  "title": "similarCinema",
+  "description": "",
+  "reference": "similarCinema",
+  "propertyId": "zlqQNxLcGh",
+  "blockId": "ZA5bk7Cqp",
+  "variants": [
+    {
+      "blockId": "i8ZVS1OMr",
+      "condition": "(contains(video_format, \"4K HDR\") || contains(video_format, \"4K SDR\"))",
+      "priority": 1,
+      "active": true,
+      "conditionRaw": {
+        "or": [
+          {
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "video_format"
+              },
+              {
+                "value": "\"4K HDR\"",
+                "type": "string"
+              }
+            ],
+            "id": "gCwj_j9QQi"
+          },
+          {
+            "id": "WVgBl6j4F",
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "video_format"
+              },
+              {
+                "value": "\"4K SDR\"",
+                "type": "string"
+              }
+            ]
+          }
+        ]
+      },
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "blockId": "ziKOJXLlU",
+      "condition": "(equals(content_channels, \"Infinity\"))",
+      "priority": 1,
+      "active": true,
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "equals",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "content_channels"
+              },
+              {
+                "value": "\"Infinity\"",
+                "type": "string"
+              }
+            ],
+            "id": "2-0PccHyzr"
+          }
+        ]
+      },
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "blockId": "sCx4lHHdZ",
+      "condition": "(!contains(content_channels, \"MediasetPlay\") && !contains(content_channels, \"Infinity\") && !contains(content_channels, \"Noleggio\") && !contains(content_channels, \"MediasetItalia\"))",
+      "priority": 1,
+      "active": true,
+      "conditionRaw": {
+        "and": [
+          {
+            "id": "H0k7cIUcc",
+            "operator": "!contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "content_channels"
+              },
+              {
+                "value": "\"MediasetPlay\"",
+                "type": "string"
+              }
+            ]
+          },
+          {
+            "id": "FW19RJkPc",
+            "operator": "!contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "content_channels"
+              },
+              {
+                "value": "\"Infinity\"",
+                "type": "string"
+              }
+            ]
+          },
+          {
+            "id": "SMO6cdHEV",
+            "operator": "!contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "content_channels"
+              },
+              {
+                "value": "\"Noleggio\"",
+                "type": "string"
+              }
+            ]
+          },
+          {
+            "id": "vgeJPcrG4",
+            "operator": "!contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "content_channels"
+              },
+              {
+                "value": "\"MediasetItalia\"",
+                "type": "string"
+              }
+            ]
+          }
+        ]
+      },
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "blockId": "JnawDETcld",
+      "condition": "(contains(content_channels, \"Noleggio\"))",
+      "priority": 1,
+      "active": true,
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "content_channels"
+              },
+              {
+                "value": "\"Noleggio\"",
+                "type": "string"
+              }
+            ],
+            "id": "mXXLhbQ0VA"
+          }
+        ]
+      },
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "params": {
+    "timeout": 1500,
+    "cacheConfig": {
+      "cache": 1,
+      "cacheTTL": 3600,
+      "cachePrefix": {
+        "group": true,
+        "static": "endpoint",
+        "keys": []
+      },
+      "computeKeys": [
+        "page",
+        "hitsPerPage",
+        "startBlock",
+        "endBlock",
+        "contentId",
+        "context"
+      ]
+    },
+    "inveverseCacheConfig": {
+      "cacheTTL": 3600
+    }
+  },
+  "paramsId": "playDefault",
+  "input": {
+    "decorators": [
+      "XIHg_DI92f"
+    ]
+  },
+  "output": {
+    "decorators": [
+      "mU5ep6Aze"
+    ],
+    "filters": {
+      "maxFilterPercentage": 100
+    }
+  },
+  "version": 97,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2023-06-28T14:39:29.504Z"
+  },
+  "refs": {
+    "belongs": [],
+    "require": [
+      {
+        "type": "blocks",
+        "items": [
+          "ZA5bk7Cqp",
+          "i8ZVS1OMr",
+          "ziKOJXLlU",
+          "sCx4lHHdZ",
+          "JnawDETcld"
+        ]
+      },
+      {
+        "type": "params",
+        "items": [
+          "playDefault"
+        ]
+      },
+      {
+        "type": "decorators",
+        "items": [
+          "XIHg_DI92f",
+          "mU5ep6Aze"
+        ]
+      },
+      {
+        "type": "conversionPacks",
+        "items": []
+      }
+    ]
+  },
+  "haveScheduledVariants": false,
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 8,
+      "types": 4,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 5,
+          "items": [
+            {
+              "id": "ZA5bk7Cqp",
+              "type": "blocks",
+              "title": ""
+            },
+            {
+              "id": "i8ZVS1OMr",
+              "type": "blocks",
+              "title": ""
+            },
+            {
+              "id": "ziKOJXLlU",
+              "type": "blocks",
+              "title": ""
+            },
+            {
+              "id": "sCx4lHHdZ",
+              "type": "blocks",
+              "title": ""
+            },
+            {
+              "id": "JnawDETcld",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "params",
+          "count": 1,
+          "items": [
+            {
+              "id": "playDefault",
+              "type": "params",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "decorators",
+          "count": 2,
+          "items": [
+            {
+              "id": "XIHg_DI92f",
+              "type": "decorators",
+              "title": ""
+            },
+            {
+              "id": "mU5ep6Aze",
+              "type": "decorators",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "conversionPacks",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "prevReference": "similarCinema",
+  "variantsMetadata": {
+    "content": true
+  },
+  "contentType": "video",
+  "enableAnalitica": true
+}

@@ -1,0 +1,170 @@
+{
+  "metadataInRules": [],
+  "title": "Query Programmi TV Clip 24h",
+  "description": "",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "ju06OqIgO"
+    },
+    {
+      "id": "gNryeK2LA"
+    },
+    {
+      "id": "UQcP3MxGlF"
+    }
+  ],
+  "exclude": [
+    {
+      "id": "UdhDpND04a"
+    }
+  ],
+  "include": [],
+  "boost": [],
+  "order": [
+    {
+      "id": "A5n475YeR"
+    }
+  ],
+  "presets": {
+    "filter": [
+      {
+        "id": "ur0WldwQk"
+      },
+      {
+        "id": "TuAyi0elu"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "ZRorAbL96Q"
+      }
+    ]
+  },
+  "general": {
+    "resultsMultiplier": 3,
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "ju06OqIgO",
+          "gNryeK2LA",
+          "UQcP3MxGlF",
+          "UdhDpND04a",
+          "A5n475YeR"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "ur0WldwQk",
+          "TuAyi0elu",
+          "ZRorAbL96Q"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "DalenVLWr",
+          "bCHN1vRScA"
+        ]
+      }
+    ]
+  },
+  "id": "u8IIXQT9v",
+  "version": 16,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-06-15T13:43:10.462Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "DalenVLWr",
+              "type": "blocks",
+              "title": "Block Programmi TV Clip 24h"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 9,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 6,
+          "items": [
+            {
+              "id": "ju06OqIgO",
+              "type": "rules",
+              "title": "Rule Channel Mediaset Play"
+            },
+            {
+              "id": "gNryeK2LA",
+              "type": "rules",
+              "title": "Rule Tipologia Intrattenimento "
+            },
+            {
+              "id": "UQcP3MxGlF",
+              "type": "rules",
+              "title": "Rule Editorial Type Clip"
+            },
+            {
+              "id": "Q9v_RI3WDv",
+              "type": "rules",
+              "title": "Rule last24 videoviews greater than"
+            },
+            {
+              "id": "UdhDpND04a",
+              "type": "rules",
+              "title": "Rule Subbrand Full"
+            },
+            {
+              "id": "A5n475YeR",
+              "type": "rules",
+              "title": "Rule Piu visti 24h Always"
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 3,
+          "items": [
+            {
+              "id": "ur0WldwQk",
+              "type": "rulesPresets",
+              "title": "Preset Contenuti attivi"
+            },
+            {
+              "id": "TuAyi0elu",
+              "type": "rulesPresets",
+              "title": "Preset SearchVisible e FrontEnd Visible True"
+            },
+            {
+              "id": "ZRorAbL96Q",
+              "type": "rulesPresets",
+              "title": "Preset Blacklist"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "metadataOverrides": {},
+  "uselessMultiplier": false
+}

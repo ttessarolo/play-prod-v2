@@ -1,0 +1,420 @@
+{
+  "id": "q68HoEaN5k",
+  "propertyId": "rrjMTUmyqd",
+  "title": "Main",
+  "description": "",
+  "enabledPagesId": [],
+  "isPage": true,
+  "blocks": [
+    {
+      "id": "wG7O9il0r",
+      "condition": "*",
+      "title": "Programmi",
+      "type": "nested",
+      "layout": {
+        "i": "wG7O9il0r",
+        "w": 12,
+        "h": 23,
+        "isDraggable": false
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "ZyqTEHJfD",
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "searchDetailParams": {
+          "uxReference": "detail",
+          "property": "search",
+          "query": "title≈{title};variant≈{variant};channel≈{channel}",
+          "variant": "brand",
+          "params": "variant≈{variant};channel≈{channel}"
+        }
+      },
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      },
+      "pinned": true
+    },
+    {
+      "id": "LlcIB6TjC",
+      "condition": "*",
+      "title": "Film",
+      "type": "nested",
+      "layout": {
+        "i": "LlcIB6TjC",
+        "w": 12,
+        "h": 22
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "TCx_rZ2AW",
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "searchDetailParams": {
+          "uxReference": "detail",
+          "property": "search",
+          "query": "title≈{title};variant≈{variant};channel≈{channel}",
+          "variant": "movie",
+          "params": "variant≈{variant};channel≈{channel}"
+        }
+      },
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      },
+      "pinned": true
+    },
+    {
+      "id": "kMhYny0DCG",
+      "condition": "*",
+      "title": "Clip",
+      "type": "nested",
+      "layout": {
+        "i": "kMhYny0DCG",
+        "w": 12,
+        "h": 26,
+        "isDraggable": false
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "Tiu8NSl7tn",
+      "metadataUI": {
+        "attributes": {
+          "template": "KEYFRAME"
+        },
+        "searchDetailParams": {
+          "uxReference": "detail",
+          "property": "search",
+          "query": "title≈{title};variant≈{variant};channel≈{channel}",
+          "variant": "clip",
+          "params": "variant≈{variant};channel≈{channel}"
+        }
+      },
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      },
+      "pinned": true
+    },
+    {
+      "id": "LEDmrwm6W",
+      "condition": "*",
+      "title": "Puntate intere",
+      "type": "nested",
+      "layout": {
+        "i": "LEDmrwm6W",
+        "w": 12,
+        "h": 25,
+        "isDraggable": false
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "UfjbdJWlQL",
+      "metadataUI": {
+        "attributes": {
+          "template": "KEYFRAME"
+        },
+        "searchDetailParams": {
+          "uxReference": "detail",
+          "property": "search",
+          "query": "title≈{title};variant≈{variant};channel≈{channel}",
+          "variant": "fep",
+          "params": "variant≈{variant};channel≈{channel}"
+        }
+      },
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      },
+      "pinned": true
+    }
+  ],
+  "version": 54,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2023-03-29T08:18:43.057Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "endpoints",
+        "items": [
+          "Gw6akjKa4a"
+        ]
+      }
+    ],
+    "require": [
+      {
+        "type": "queries",
+        "items": []
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "AwF1CRpxF",
+          "ZyqTEHJfD",
+          "TCx_rZ2AW",
+          "Tiu8NSl7tn",
+          "UfjbdJWlQL"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ]
+  },
+  "uiParams": {
+    "layout": {
+      "uiParams": {
+        "current": "Default",
+        "currentIndex": 0,
+        "sets": [
+          {
+            "title": "Default",
+            "params": {
+              "paramsId": {
+                "value": "playDefault",
+                "active": true
+              },
+              "contentId": {
+                "value": "F301644701000103",
+                "active": true
+              },
+              "userId": {
+                "value": "1f51d5e9f09e4d349fa3af349e1cdac4",
+                "active": true
+              },
+              "deviceId": {
+                "value": "ARES-CC",
+                "active": true
+              },
+              "query": {
+                "active": true,
+                "value": "C.S.I."
+              }
+            }
+          }
+        ]
+      },
+      "currentParams": {
+        "paramsId": "playDefault",
+        "contentId": "F301644701000103",
+        "userId": "1f51d5e9f09e4d349fa3af349e1cdac4",
+        "deviceId": "ARES-CC",
+        "query": "C.S.I."
+      }
+    },
+    "preview": {
+      "uiParams": {
+        "current": "Default",
+        "currentIndex": 0,
+        "sets": [
+          {
+            "title": "Default",
+            "params": {
+              "paramsId": {
+                "value": "playDefault",
+                "active": true
+              },
+              "contentId": {
+                "value": "F301644701000103",
+                "active": false
+              },
+              "userId": {
+                "value": "1f51d5e9f09e4d349fa3af349e1cdac4",
+                "active": false
+              },
+              "deviceId": {
+                "value": "ARES-CC",
+                "active": false
+              },
+              "query": {
+                "active": true,
+                "value": "C.S.I."
+              }
+            }
+          }
+        ]
+      },
+      "currentParams": {
+        "paramsId": "playDefault",
+        "query": "C.S.I."
+      }
+    }
+  },
+  "layout": [
+    {
+      "w": 12,
+      "h": 23,
+      "x": 0,
+      "y": 0,
+      "i": "wG7O9il0r",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 22,
+      "x": 0,
+      "y": 23,
+      "i": "LlcIB6TjC",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 26,
+      "x": 0,
+      "y": 45,
+      "i": "kMhYny0DCG",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 25,
+      "x": 0,
+      "y": 71,
+      "i": "LEDmrwm6W",
+      "moved": false,
+      "static": false
+    }
+  ],
+  "results": {
+    "fallbackBlockId": "AwF1CRpxF",
+    "smartOrderBlocks": false,
+    "contentType": "video",
+    "userContentType": "user",
+    "event": "watched",
+    "perUserBasisType": "video_historical_fingerprint",
+    "fullSubstituteFallback": true
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "Gw6akjKa4a",
+              "type": "endpoints",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 5,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 5,
+          "items": [
+            {
+              "id": "AwF1CRpxF",
+              "type": "blocks"
+            },
+            {
+              "id": "ZyqTEHJfD",
+              "type": "blocks"
+            },
+            {
+              "id": "TCx_rZ2AW",
+              "type": "blocks"
+            },
+            {
+              "id": "Tiu8NSl7tn",
+              "type": "blocks"
+            },
+            {
+              "id": "UfjbdJWlQL",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": [],
+  "fullSubstituteFallback": true
+}

@@ -1,0 +1,391 @@
+{
+  "results": {
+    "min": 0,
+    "flatAllBlocks": true,
+    "fallbackBlockId": "Bn52RsYBn",
+    "max": 24,
+    "deduplicateFlattedResults": true,
+    "fullSubstituteFallback": false,
+    "shuffleItems": false
+  },
+  "blocks": [
+    {
+      "_id": "zZZVfHNLlH",
+      "condition": "(!equals(subbrand_title, \"anticipazioni\") && !equals(subbrand_title, \"clip_anticipazioni\"))",
+      "title": "Anticipazioni",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 1,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "fallbackBlockId": "Bn52RsYBn",
+        "skipOnEmpty": true
+      },
+      "queryId": "tE6FKWNO0",
+      "metadata": {
+        "content": true
+      },
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "!equals",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "subbrand_title"
+              },
+              {
+                "value": "\"anticipazioni\"",
+                "type": "string"
+              }
+            ],
+            "id": "rZ7w7qdMC1"
+          },
+          {
+            "id": "Hluax3yZ4",
+            "operator": "!equals",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "subbrand_title"
+              },
+              {
+                "value": "\"clip_anticipazioni\"",
+                "type": "string"
+              }
+            ]
+          }
+        ]
+      },
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "_id": "jnV3ns0g0",
+      "condition": "*",
+      "title": "Extra",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 5,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "fallbackBlockId": "Bn52RsYBn",
+        "skipOnEmpty": true
+      },
+      "queryId": "qA8cN2kDM"
+    },
+    {
+      "_id": "ZVZk5Bd0Kv",
+      "condition": "(contains(genere_mcm, \"Soap opera\"))",
+      "title": "Soap e Telenovelas",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 10,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "fallbackBlockId": "Bn52RsYBn"
+      },
+      "queryId": "YhVp7CQNc",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "genere_mcm"
+              },
+              {
+                "value": "\"Soap opera\"",
+                "type": "string"
+              }
+            ],
+            "id": "qHS6wfu1IN"
+          }
+        ]
+      },
+      "scheduled": false,
+      "scheduling": [],
+      "metadata": {
+        "content": true
+      }
+    },
+    {
+      "_id": "f_zuAEJeG",
+      "condition": "*",
+      "title": "Serie Tv Fiction blocco6",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 6,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "fallbackBlockId": "Bn52RsYBn",
+        "skipOnEmpty": true
+      },
+      "queryId": "ek22t7eOE"
+    },
+    {
+      "_id": "uzpHDkgXg",
+      "condition": "*",
+      "title": "Serie Tv Fiction Film",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 24,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "fallbackBlockId": "Bn52RsYBn",
+        "filters": {
+          "repeatedMetadata": [
+            {
+              "meta": "tipologia",
+              "value": "Film",
+              "moreThan": "8"
+            }
+          ]
+        }
+      },
+      "queryId": "uPK9cU2MwQ"
+    }
+  ],
+  "title": "Block Similar Serie Tv e Fiction",
+  "description": "",
+  "scheduled": true,
+  "scheduling": [
+    {
+      "id": "Dm0vDsPD8",
+      "start": "1301",
+      "end": "2359"
+    },
+    {
+      "id": "DejllqcI5",
+      "start": "2025-09-19T13:00:00.000Z",
+      "end": "2025-10-05T21:59:00.000Z"
+    },
+    {
+      "id": "cAH2oQPrg",
+      "start": "1"
+    },
+    {
+      "id": "iHvdF2pC-",
+      "start": "30"
+    },
+    {
+      "id": "8luPVJUCFP",
+      "start": "2026-03-06T10:00:00.000Z",
+      "end": "2026-03-07T13:00:00.000Z"
+    }
+  ],
+  "schedulingMap": [
+    [
+      2,
+      [
+        {
+          "id": "Dm0vDsPD8",
+          "start": "1301",
+          "end": "2359"
+        },
+        {
+          "id": "DejllqcI5",
+          "start": "2025-09-19T13:00:00.000Z",
+          "end": "2025-10-05T21:59:00.000Z"
+        },
+        {
+          "id": "cAH2oQPrg",
+          "start": "1"
+        }
+      ]
+    ],
+    [
+      1,
+      [
+        {
+          "id": "iHvdF2pC-",
+          "start": "30"
+        }
+      ]
+    ],
+    [
+      0,
+      [
+        {
+          "id": "8luPVJUCFP",
+          "start": "2026-03-06T10:00:00.000Z",
+          "end": "2026-03-07T13:00:00.000Z"
+        }
+      ]
+    ]
+  ],
+  "realm": "content",
+  "refs": {
+    "require": [
+      {
+        "type": "queries",
+        "items": [
+          "tE6FKWNO0",
+          "qA8cN2kDM",
+          "YhVp7CQNc",
+          "ek22t7eOE",
+          "uPK9cU2MwQ"
+        ]
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "Bn52RsYBn"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": [
+          "eOaXizx_"
+        ]
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "gbJDK5fwo7"
+        ]
+      }
+    ]
+  },
+  "id": "In8E6MBfb",
+  "version": 224,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2026-03-09T10:45:11.743Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "pages",
+          "count": 1,
+          "items": [
+            {
+              "variantId": "gbJDK5fwo7",
+              "propertyId": "zlqQNxLcGh",
+              "propertyTitle": "",
+              "endpointId": "NIaLB1BTVl",
+              "endpointTitle": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 7,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 5,
+          "items": [
+            {
+              "id": "tE6FKWNO0",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "qA8cN2kDM",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "YhVp7CQNc",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "ek22t7eOE",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "uPK9cU2MwQ",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "Bn52RsYBn",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 1,
+          "items": [
+            {
+              "id": "eOaXizx_",
+              "type": "responseFields",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "searchMetadata": [
+    "request",
+    "content"
+  ],
+  "includedMetadata": [
+    "content"
+  ]
+}

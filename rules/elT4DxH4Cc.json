@@ -1,0 +1,74 @@
+{
+  "title": "Rule Genere Mcm Soap Opera ",
+  "description": "",
+  "contentType": "video",
+  "clauses": [
+    "filter",
+    "include",
+    "exclude",
+    "boost"
+  ],
+  "rule": [
+    {
+      "condition": "*",
+      "boost": 1,
+      "type": "I2I",
+      "_id": "kNQ0fFRoy",
+      "match": "Soap opera",
+      "phrase": false,
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      },
+      "field": "genere_mcm",
+      "fieldDBType": "keyword",
+      "queryType": "match",
+      "value": "Soap opera",
+      "valueType": "string",
+      "API": "V2"
+    }
+  ],
+  "field": "genere_mcm",
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "xmIlupiAS",
+          "R4M6lw89s",
+          "_v4wfuHNr",
+          "ziE_vsPP2x",
+          "Bmmb_X6oxW",
+          "NTAbYMbvb",
+          "QBSCM27jL",
+          "dRtZeUJMlX",
+          "n34TQOZcMI",
+          "XX1xUnRXVj",
+          "cm6U6qlM9",
+          "sRlHZqMawB",
+          "mtx6Ew_wWR",
+          "P9Ls7vSds",
+          "Gs2DZhmnXF",
+          "IuO6CmHVV",
+          "ub3yV4gS6"
+        ]
+      }
+    ]
+  },
+  "id": "elT4DxH4Cc",
+  "version": 4,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2020-12-18T14:05:41.121Z"
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "contentType": "video",
+  "title": "PLAY-PROD-ZBLOCK-EXPLORER-SET",
+  "description": "Fields solo per Block Explorer",
+  "fields": [
+    "horizontal_poster",
+    "video_content_id",
+    "tipologia",
+    "title",
+    "ui_title",
+    "publication_date",
+    "fep_publication_date",
+    "window_last_end",
+    "fep_window_last_end",
+    "annoproduzione",
+    "last24h_videoviews",
+    "last7d_videoviews",
+    "last30d_videoviews",
+    "content_channels",
+    "content_rights",
+    "editorial_type",
+    "id_series_se",
+    "id_season_st",
+    "programtype",
+    "id_brand",
+    "anno_inizio",
+    "brand_title",
+    "etichetteEditoriali",
+    "video_format",
+    "episode",
+    "last_live_date",
+    "publication_date_fep_most_recent",
+    "publication_date_fep_most_recent_infinity",
+    "publication_date_fep_most_recent_play",
+    "publication_date_end_infinity",
+    "publication_date_start_infinity",
+    "publication_date_end_play",
+    "publication_date_start_play",
+    "genere_mcm",
+    "collection_list.position",
+    "generepatemico",
+    "codice_prodotto_padre",
+    "current_season",
+    "genere_mcm_primario",
+    "last24h_infinity_videoviewers",
+    "last24h_infinity_videoviews",
+    "last24h_videoviewers",
+    "last30d_infinity_videoviewers",
+    "last30d_infinity_videoviews",
+    "last30d_videoviewers",
+    "last7d_infinity_videoviewers",
+    "last7d_infinity_videoviews",
+    "last7d_videoviewers",
+    "ratingparentalcontrol",
+    "subbrand_title",
+    "series_title",
+    "season_title",
+    "episode_title",
+    "publication_date_start_infautore",
+    "publication_date_start_infcomico",
+    "publication_date_start_inflight",
+    "publication_date_start_infnero",
+    "publication_date_end_infautore",
+    "publication_date_end_infcomico",
+    "publication_date_end_inflight",
+    "publication_date_end_infnero",
+    "esg_enabled",
+    "esg_goals",
+    "esg_cluster",
+    "brand_category",
+    "publication_date_start_tvcrime",
+    "publication_date_end_tvcrime",
+    "publication_date_end_tvlove",
+    "publication_date_start_tvlove",
+    "subbrand_id"
+  ],
+  "id": "Urqpv7bcd",
+  "version": 35,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2025-03-03T10:54:31.431Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "hr9EobplH"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "hr9EobplH",
+              "type": "blocks",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  },
+  "realm": "content"
+}

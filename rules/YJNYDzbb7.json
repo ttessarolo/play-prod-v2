@@ -1,0 +1,46 @@
+{
+  "title": "Rule recommendable true",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "true",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "recommendable",
+      "fieldNested": 0,
+      "fieldDBType": "boolean",
+      "_id": "RzxF0O8J9"
+    }
+  ],
+  "clauses": [
+    "filter"
+  ],
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "QP0jwForL"
+        ]
+      }
+    ]
+  },
+  "id": "YJNYDzbb7",
+  "version": 1,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-07-15T13:41:53.774Z"
+  }
+}

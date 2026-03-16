@@ -1,0 +1,265 @@
+{
+  "id": "ZA5bk7Cqp",
+  "propertyId": "zlqQNxLcGh",
+  "title": "Similar Cinema",
+  "description": "Please Edit description for Page \"Default\"",
+  "enabledPagesId": [
+    "xu2fLgL1v"
+  ],
+  "isPage": true,
+  "blocks": [
+    {
+      "id": "aPaAQc57Y",
+      "condition": "*",
+      "title": "Guarda anche",
+      "type": "nested",
+      "layout": {
+        "i": "aPaAQc57Y",
+        "w": 12,
+        "h": 28
+      },
+      "results": {
+        "flatAllBlocks": true,
+        "max": 24
+      },
+      "nestingType": "block",
+      "blockId": "sghhp0Ebz",
+      "pinned": true,
+      "metadataUI": {
+        "default": {
+          "template": "KEYFRAME"
+        },
+        "playDetailParams": {
+          "property": "play"
+        },
+        "attributes": {
+          "template": "KEYFRAME"
+        }
+      },
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      }
+    }
+  ],
+  "version": 27,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2024-05-22T08:12:40.588Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "endpoints",
+        "items": [
+          "xu2fLgL1v"
+        ]
+      }
+    ],
+    "require": [
+      {
+        "type": "queries",
+        "items": []
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "HC5Rkj77s",
+          "sghhp0Ebz"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ]
+  },
+  "layout": [
+    {
+      "w": 12,
+      "h": 28,
+      "x": 0,
+      "y": 0,
+      "i": "aPaAQc57Y",
+      "moved": false,
+      "static": false
+    }
+  ],
+  "uiParams": {
+    "preview": {
+      "uiParams": {
+        "current": "Default",
+        "currentIndex": 0,
+        "sets": [
+          {
+            "title": "Default",
+            "params": {
+              "paramsId": {
+                "value": "playDefault",
+                "active": true
+              },
+              "contentId": {
+                "value": "F008707401000101",
+                "active": true
+              },
+              "userId": {
+                "value": "1f51d5e9f09e4d349fa3af349e1cdac4",
+                "active": false
+              },
+              "deviceId": {
+                "value": "ARES-CC",
+                "active": false
+              },
+              "decoratorOutputVersion": {
+                "value": "v2",
+                "active": true
+              },
+              "decoratorOutputEnvironment": {
+                "active": true
+              }
+            }
+          }
+        ]
+      },
+      "currentParams": {
+        "paramsId": "playDefault",
+        "contentId": "F008707401000101",
+        "decoratorOutputVersion": "v2"
+      }
+    },
+    "layout": {
+      "currentParams": {
+        "paramsId": "playDefault",
+        "contentId": "F008919401000101",
+        "userId": "1f51d5e9f09e4d349fa3af349e1cdac4",
+        "deviceId": "ARES-CC"
+      },
+      "uiParams": {
+        "current": "Default",
+        "currentIndex": 0,
+        "sets": [
+          {
+            "title": "Default",
+            "params": {
+              "paramsId": {
+                "value": "playDefault",
+                "active": true
+              },
+              "contentId": {
+                "value": "F008919401000101",
+                "active": true
+              },
+              "userId": {
+                "value": "1f51d5e9f09e4d349fa3af349e1cdac4",
+                "active": true
+              },
+              "deviceId": {
+                "value": "ARES-CC",
+                "active": true
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "results": {
+    "fallbackBlockId": "HC5Rkj77s",
+    "fullSubstituteFallback": true
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "xu2fLgL1v",
+              "type": "endpoints",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 2,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 2,
+          "items": [
+            {
+              "id": "HC5Rkj77s",
+              "type": "blocks"
+            },
+            {
+              "id": "sghhp0Ebz",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "realm": "content",
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": [],
+  "fullSubstituteFallback": true
+}

@@ -1,0 +1,67 @@
+{
+  "title": "Rule Lista Subbrand Id Meteo Regionale",
+  "description": "Lista per SubbrandID = Meteo Regionale",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "TwS6kLtiuX",
+      "valueType": "list",
+      "queryType": "listTermsId",
+      "field": "subbrand_id",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "wZADUlTTF"
+    }
+  ],
+  "clauses": [
+    "exclude",
+    "filter"
+  ],
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "zLGBFxSxo",
+          "rjWULeByhq",
+          "YO0JXEqrz"
+        ]
+      }
+    ]
+  },
+  "id": "RrN9CQ8hj",
+  "version": 2,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-03-29T16:48:09.050Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 0,
+      "types": 1,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  }
+}

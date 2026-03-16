@@ -1,0 +1,83 @@
+{
+  "title": "Rule Similar Tipologia Intrattenimento Stesso Brand Fep",
+  "description": "Rule che include stessa tipologia e brand del chiamante e esclude FEP dello stesso subbrand\n",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "keepOrder": true,
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "I2I",
+      "value": "video_similar_ids_same_fep",
+      "valueType": "metadata",
+      "queryType": "ids",
+      "field": "video_content_id",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "fvHClEM8q"
+    }
+  ],
+  "clauses": [
+    "include"
+  ],
+  "metadata": {
+    "content_similar": {
+      "required": true,
+      "output": "video_similar_ids_same_fep",
+      "numResults": 50,
+      "metadata": {
+        "included": [
+          "editorial_type=Full Episode",
+          "id_series_se",
+          "content_channels=MediasetPlay"
+        ],
+        "excluded": [
+          "subbrand_id",
+          "codice_prodotto_padre"
+        ]
+      },
+      "date": {
+        "range": 18,
+        "period": "M",
+        "field": "publication_date",
+        "absolute": true
+      },
+      "fingerprint": {
+        "matchFields": [
+          "fingerprint"
+        ]
+      },
+      "groupby": {
+        "metadata": "subbrand_id",
+        "results": 1,
+        "sortMetadata": "",
+        "sortDirection": "asc"
+      }
+    }
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "OoW_RxrtA",
+          "wLOGym_XT"
+        ]
+      }
+    ]
+  },
+  "id": "BIZvf_IY2c",
+  "version": 1,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-03-29T15:14:22.096Z"
+  }
+}

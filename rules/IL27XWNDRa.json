@@ -1,0 +1,46 @@
+{
+  "title": "Rule Mood Agghiacciante Terrificante",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "Agghiacciante terrificante",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "mood",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "IJLL1R7ZL"
+    }
+  ],
+  "clauses": [
+    "filter"
+  ],
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "xMecDK8KF"
+        ]
+      }
+    ]
+  },
+  "id": "IL27XWNDRa",
+  "version": 1,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-07-19T13:26:43.810Z"
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "id": "rsqDOhhtgu",
+  "propertyId": "zlqQNxLcGh",
+  "title": "Stagioni Daytime",
+  "description": "Please Edit description for Page \"Default\"",
+  "enabledPagesId": [
+    "GLph9x0zD"
+  ],
+  "isPage": true,
+  "blocks": [
+    {
+      "id": "criZ6W4zi",
+      "condition": "*",
+      "title": "Daytime",
+      "type": "nested",
+      "layout": {
+        "i": "criZ6W4zi",
+        "w": 12,
+        "h": 19
+      },
+      "results": {
+        "flatAllBlocks": true
+      },
+      "blockId": "DmJXREbVAb",
+      "metadataUI": {
+        "default": {
+          "template": "POSTER"
+        },
+        "playDetailParams": {
+          "property": "play"
+        }
+      },
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      }
+    }
+  ],
+  "version": 9,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2023-05-29T09:48:31.211Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "endpoints",
+        "items": [
+          "GLph9x0zD"
+        ]
+      }
+    ],
+    "require": [
+      {
+        "type": "queries",
+        "items": []
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "Rc1YEkVxO",
+          "DmJXREbVAb"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ]
+  },
+  "layout": [
+    {
+      "w": 12,
+      "h": 19,
+      "x": 0,
+      "y": 0,
+      "i": "criZ6W4zi",
+      "moved": false,
+      "static": false
+    }
+  ],
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "GLph9x0zD",
+              "type": "endpoints",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 2,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 2,
+          "items": [
+            {
+              "id": "Rc1YEkVxO",
+              "type": "blocks"
+            },
+            {
+              "id": "DmJXREbVAb",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "results": {
+    "fallbackBlockId": "Rc1YEkVxO",
+    "fullSubstituteFallback": true
+  },
+  "fullSubstituteFallback": true
+}

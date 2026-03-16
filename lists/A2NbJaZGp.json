@@ -1,0 +1,53 @@
+{
+  "title": "List Blacklist Id Season ST",
+  "description": "Qui Mediaset\nPromo\nInnovation instinct",
+  "elements": [
+    "ST000000002154",
+    "ST000000000299",
+    "ST000000002869"
+  ],
+  "id": "A2NbJaZGp",
+  "version": 15,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2023-07-17T09:50:33.330Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "rules",
+        "items": [
+          "kZvHEzgek"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "rules",
+          "count": 1,
+          "items": [
+            {
+              "id": "kZvHEzgek",
+              "type": "rules",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    }
+  },
+  "type": "contentId",
+  "contentType": "video",
+  "realm": "content",
+  "metadataField": "brand_title"
+}

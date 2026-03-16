@@ -1,0 +1,73 @@
+{
+  "title": "Rule Boost Setting Intrattenimento",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "(!isEmpty(settingambientazione))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "!isEmpty",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "settingambientazione"
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ],
+            "id": "J8ofhbT-Eq"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "I2I",
+      "value": "settingambientazione",
+      "valueType": "metadata",
+      "queryType": "matchFromArray",
+      "field": "settingambientazione",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "Yvt2qMOQl",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "clauses": [
+    "boost"
+  ],
+  "metadata": {
+    "content": true
+  },
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "U1hz1tNQN",
+          "tv97xe64g"
+        ]
+      }
+    ]
+  },
+  "id": "PIe_NcOxD",
+  "version": 1,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-03-29T14:22:57.105Z"
+  }
+}

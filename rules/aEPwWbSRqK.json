@@ -1,0 +1,45 @@
+{
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "SE000000000129",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "id_series_se",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "gfdv2v6ii"
+    }
+  ],
+  "clauses": [
+    "filter"
+  ],
+  "title": "Rule Id Series Se Temptation Island",
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "WsAxg5DEF"
+        ]
+      }
+    ]
+  },
+  "id": "aEPwWbSRqK",
+  "version": 1,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-07-01T08:05:54.919Z"
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "title": "Query Similar Sport Highlights",
+  "description": "Query di Guarda anche dedicata alla tipologia SPORT solo Tutti i gol\n",
+  "contentType": "video",
+  "filter": [
+    {
+      "id": "bjWG4DCXS"
+    }
+  ],
+  "exclude": [
+    {
+      "id": "Gz2oDqW8B"
+    },
+    {
+      "id": "YKzvCj1y2"
+    },
+    {
+      "id": "ZLmkg2fFU"
+    }
+  ],
+  "include": [
+    {
+      "id": "KJSwFJ4F4x"
+    }
+  ],
+  "boost": [
+    {
+      "id": "vhMYDKwOD",
+      "overides": {
+        "lFimzsm8f": {
+          "boost": 25
+        }
+      }
+    }
+  ],
+  "order": [],
+  "realm": "content",
+  "presets": {
+    "filter": [
+      {
+        "id": "TuAyi0elu"
+      }
+    ],
+    "exclude": [
+      {
+        "id": "ZRorAbL96Q"
+      }
+    ]
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "rules",
+        "items": [
+          "bjWG4DCXS",
+          "Gz2oDqW8B",
+          "YKzvCj1y2",
+          "ZLmkg2fFU",
+          "KJSwFJ4F4x",
+          "vhMYDKwOD"
+        ]
+      },
+      {
+        "type": "rulesPresets",
+        "items": [
+          "TuAyi0elu",
+          "ZRorAbL96Q"
+        ]
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": []
+      }
+    ]
+  },
+  "general": {
+    "minimumShouldMatch": "1%",
+    "tieBreaker": 0.9,
+    "resultsMultiplier": 1,
+    "mustOperator": "or"
+  },
+  "id": "jNFBAYUGK",
+  "version": 10,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-09-15T10:45:32.841Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "ER9ytvdX2t",
+              "type": "blocks",
+              "title": "Block Similar Sport"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 6,
+      "types": 2,
+      "items": [
+        {
+          "type": "rules",
+          "count": 4,
+          "items": [
+            {
+              "id": "bjWG4DCXS",
+              "type": "rules",
+              "title": "Rule Editorial Type NO TV Season e Serie"
+            },
+            {
+              "id": "Gz2oDqW8B",
+              "type": "rules",
+              "title": "Rule Same Content"
+            },
+            {
+              "id": "KJSwFJ4F4x",
+              "type": "rules",
+              "title": "Rule Include Highlights Calcio se chiamante Highlights Calcio"
+            },
+            {
+              "id": "vhMYDKwOD",
+              "type": "rules",
+              "title": "Rule Date Range Due Giorni"
+            }
+          ]
+        },
+        {
+          "type": "rulesPresets",
+          "count": 2,
+          "items": [
+            {
+              "id": "TuAyi0elu",
+              "type": "rulesPresets",
+              "title": "Preset SearchVisible e FrontEnd Visible True"
+            },
+            {
+              "id": "ZRorAbL96Q",
+              "type": "rulesPresets",
+              "title": "Preset Blacklist"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "uselessMultiplier": false,
+  "metadataOverrides": {}
+}

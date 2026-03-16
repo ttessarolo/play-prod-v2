@@ -1,0 +1,244 @@
+{
+  "results": {
+    "flatAllBlocks": true,
+    "min": 0,
+    "fallbackBlockId": "P0csRsOt7",
+    "max": 24,
+    "deduplicateFlattedResults": true
+  },
+  "blocks": [
+    {
+      "_id": "kbykUBhqV",
+      "condition": "(equals(editorial_type, \"Full Episode\"))",
+      "title": "Se Episodio -> Episodio successivo",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 1,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true
+      },
+      "queryId": "PoNLxId54",
+      "metadata": {
+        "content": true
+      },
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "equals",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "editorial_type"
+              },
+              {
+                "value": "\"Full Episode\"",
+                "type": "string"
+              }
+            ],
+            "id": "pUKs51LBIl"
+          }
+        ]
+      },
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "_id": "rIGfoQthy",
+      "condition": "*",
+      "title": "Clip stesso giorno FEP Chiamante",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 1,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true
+      },
+      "queryId": "JN5f1BTm8"
+    },
+    {
+      "_id": "GiA4JIo4TV",
+      "condition": "*",
+      "title": "Clip stessa Tipologia chiamante",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 1,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true
+      },
+      "queryId": "hW8B6U1FQ"
+    },
+    {
+      "_id": "M0fSl0v8Dq",
+      "condition": "*",
+      "title": "Se clip -> Ultime clip pubblicate di altro subbrand",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 10,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "fallbackBlockId": "P0csRsOt7",
+        "skipOnEmpty": true,
+        "shuffleItems": true
+      },
+      "queryId": "UAO8fckslW",
+      "metadata": {
+        "content": false
+      },
+      "conditionRaw": {
+        "and": [
+          {
+            "id": "JUZrsDDti",
+            "operator": "*",
+            "values": []
+          }
+        ]
+      },
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "refs": {
+    "require": [
+      {
+        "type": "queries",
+        "items": [
+          "PoNLxId54",
+          "JN5f1BTm8",
+          "hW8B6U1FQ",
+          "UAO8fckslW"
+        ]
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "P0csRsOt7"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": [
+          "eOaXizx_"
+        ]
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": []
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 6,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 4,
+          "items": [
+            {
+              "id": "PoNLxId54",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "JN5f1BTm8",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "hW8B6U1FQ",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "UAO8fckslW",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "P0csRsOt7",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 1,
+          "items": [
+            {
+              "id": "eOaXizx_",
+              "type": "responseFields",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "title": "Similar Next Video Spagna",
+  "description": "",
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "realm": "content",
+  "id": "iMUW89z18U",
+  "version": 8,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2025-03-06T15:45:11.396Z"
+  }
+}

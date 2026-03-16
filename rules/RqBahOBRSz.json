@@ -1,0 +1,292 @@
+{
+  "contentType": "video",
+  "title": "Rule etichetta editoriale Top",
+  "description": "",
+  "clauses": [
+    "filter",
+    "exclude",
+    "include",
+    "boost"
+  ],
+  "rule": [
+    {
+      "condition": "*",
+      "boost": 1,
+      "type": "I2I",
+      "_id": "gxbb6JYRxw",
+      "matchFromArray": "Top",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      },
+      "field": "etichetteEditoriali",
+      "fieldDBType": "keyword",
+      "queryType": "matchFromArray",
+      "value": "Top",
+      "valueType": "string",
+      "API": "V2"
+    }
+  ],
+  "field": "etichetteEditoriali",
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "zqakv8vZvB",
+          "hhqbCjmm_1",
+          "yncTA7ween",
+          "arcIZfX7Q",
+          "xmIlupiAS",
+          "ds8pLOaGO",
+          "js5eihPKLL",
+          "TLxbxZNoD",
+          "hbPc0tj9I",
+          "I1706J335",
+          "ZmqQWEcF8",
+          "c_R2PteO7",
+          "IUd_q_ixKj",
+          "wwG2hSMIC",
+          "b9MEPMrAY",
+          "h0DYFqNjp",
+          "KnjGSCyiX",
+          "OFmr6tjnNd",
+          "FHMVTArGO",
+          "VXeQD5L8kq",
+          "sC1otJfhE",
+          "gMMABcytBa",
+          "jO1QhHhsaX",
+          "N_80T8VLG",
+          "NoYXXV_FK",
+          "aqIFPp4zi",
+          "kBxcwzsiW8",
+          "Dn18Iwv7To",
+          "tbkv2_bXt",
+          "yNxWfYgpgd",
+          "CGFfVq3sX",
+          "ZsxcVJ4cb",
+          "NTAbYMbvb",
+          "gZLBaGLkr",
+          "O43LrW3K3",
+          "DB7Fg4hfA",
+          "Z4Xzab9uO0",
+          "FF6GVv2DC",
+          "TNtOUf6kS",
+          "ABUvps5All",
+          "Hgvp3RuY2",
+          "us3vUNLgO",
+          "eYpjGfjVG",
+          "YutotoG_ze",
+          "KAsq06N6F",
+          "OvIXofGN2E",
+          "sRlHZqMawB",
+          "mtx6Ew_wWR",
+          "IjuqSujtX",
+          "jTxxLascsn",
+          "hn5iFhhbZ",
+          "cOZWtR5QFk",
+          "aTlHoTaH0",
+          "zzovQgZgg",
+          "TrBCM_mrO",
+          "JcLPwIH_9",
+          "AkDXA7YHE",
+          "VMjkKkljfF",
+          "yFHHJNULO",
+          "UpCkzkV_m",
+          "byMpe1wx_f",
+          "jxdmOp891w"
+        ]
+      }
+    ]
+  },
+  "id": "RqBahOBRSz",
+  "version": 9,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-11-10T10:16:15.767Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 27,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 27,
+          "items": [
+            {
+              "id": "zqakv8vZvB",
+              "type": "queries",
+              "title": "Query Stagioni Most Recent Programmi TV del momento TOP"
+            },
+            {
+              "id": "hhqbCjmm_1",
+              "type": "queries",
+              "title": "Query Stagioni Most Recent Programmi TV del momento TOP e PRIMA SERATA"
+            },
+            {
+              "id": "yncTA7ween",
+              "type": "queries",
+              "title": "Query Stagioni Most Recent Fiction e Serie Tv TOP e PRIMA SERATA Homepage"
+            },
+            {
+              "id": "arcIZfX7Q",
+              "type": "queries",
+              "title": "Query Stagioni Most Recent Fiction TOP Homepage"
+            },
+            {
+              "id": "xmIlupiAS",
+              "type": "queries",
+              "title": "Query Default Search Stagioni"
+            },
+            {
+              "id": "ds8pLOaGO",
+              "type": "queries",
+              "title": "Search Stagioni"
+            },
+            {
+              "id": "zWYdI9xZd",
+              "type": "queries",
+              "title": "Query Generi per Parametri Film"
+            },
+            {
+              "id": "js5eihPKLL",
+              "type": "queries",
+              "title": "INF Most recent Film Blocco 2"
+            },
+            {
+              "id": "TLxbxZNoD",
+              "type": "queries",
+              "title": "Query Programmi TV Prima Serata Blocco 2"
+            },
+            {
+              "id": "hbPc0tj9I",
+              "type": "queries",
+              "title": "Query Programmi TV In primo piano Blocco 2"
+            },
+            {
+              "id": "I1706J335",
+              "type": "queries",
+              "title": "Query Enabler Stagioni Programmi TV TOP e PRIMA SERATA"
+            },
+            {
+              "id": "ZmqQWEcF8",
+              "type": "queries",
+              "title": "Query Enabler Stagioni Programmi TV TOP"
+            },
+            {
+              "id": "c_R2PteO7",
+              "type": "queries",
+              "title": "INF Film di Animazione"
+            },
+            {
+              "id": "IUd_q_ixKj",
+              "type": "queries",
+              "title": "INF Film Family"
+            },
+            {
+              "id": "wwG2hSMIC",
+              "type": "queries",
+              "title": "Search Serie"
+            },
+            {
+              "id": "b9MEPMrAY",
+              "type": "queries",
+              "title": "INF Serie Most recent Blocco 1"
+            },
+            {
+              "id": "h0DYFqNjp",
+              "type": "queries",
+              "title": "INF Generi per Parametri Serie Blocco 1"
+            },
+            {
+              "id": "_ehOPN5ih",
+              "type": "queries",
+              "title": "INF Generi per Parametri Film Blocco 1"
+            },
+            {
+              "id": "WPl6VDGVC",
+              "type": "queries",
+              "title": "Query Enabler Film MPlay Top Most recent"
+            },
+            {
+              "id": "KnjGSCyiX",
+              "type": "queries",
+              "title": "CHNLS All Series ParamsChannel Top"
+            },
+            {
+              "id": "OFmr6tjnNd",
+              "type": "queries",
+              "title": "STZ Params Genre Film Top"
+            },
+            {
+              "id": "FHMVTArGO",
+              "type": "queries",
+              "title": "Query Film del momento MPlay"
+            },
+            {
+              "id": "VXeQD5L8kq",
+              "type": "queries",
+              "title": "Query Enabler Film Mplay over 1995"
+            },
+            {
+              "id": "sC1otJfhE",
+              "type": "queries",
+              "title": "Query Stagioni Programmi Tv Sport Top"
+            },
+            {
+              "id": "gMMABcytBa",
+              "type": "queries",
+              "title": "Query Generi per Parametri Film TOP"
+            },
+            {
+              "id": "jO1QhHhsaX",
+              "type": "queries",
+              "title": "Query Film del momento Mplay Infinity Noleggio"
+            },
+            {
+              "id": "TgKGs2jDf",
+              "type": "queries",
+              "title": "Query Serie TV del momento home Free 2"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": [],
+  "realm": "content"
+}

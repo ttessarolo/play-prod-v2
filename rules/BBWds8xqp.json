@@ -1,0 +1,89 @@
+{
+  "title": "Rule Publication Date Start Play range when now",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "range": 5,
+      "period": "d",
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "when_now",
+      "valueType": "metadata",
+      "queryType": "range",
+      "field": "publication_date_start_play",
+      "fieldNested": 0,
+      "fieldDBType": "date",
+      "_id": "OCnPtkv5h"
+    }
+  ],
+  "clauses": [
+    "boost",
+    "filter"
+  ],
+  "metadata": {
+    "time": true
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "VXeQD5L8kq"
+        ]
+      }
+    ]
+  },
+  "id": "BBWds8xqp",
+  "version": 4,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-06-16T11:20:26.813Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 1,
+          "items": [
+            {
+              "id": "VXeQD5L8kq",
+              "type": "queries",
+              "title": "Query Enabler Film Mplay over 2005"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 1,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "searchMetadata": [
+    "request",
+    "time"
+  ],
+  "includedMetadata": [
+    "time"
+  ]
+}

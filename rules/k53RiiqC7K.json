@@ -1,0 +1,74 @@
+{
+  "title": "Rule Exclude Brand Category Kids",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "(!equals(brand_category, \"Kids\"))",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "!equals",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "brand_category"
+              },
+              {
+                "value": "\"Kids\"",
+                "type": "string"
+              }
+            ],
+            "id": "lFTz182vys"
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "Kids",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "brand_category",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "LeE1_Ow9Q",
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "clauses": [
+    "exclude"
+  ],
+  "metadata": {
+    "content": true
+  },
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "ek22t7eOE",
+          "uPK9cU2MwQ",
+          "UhRmAOyNS"
+        ]
+      }
+    ]
+  },
+  "id": "k53RiiqC7K",
+  "version": 1,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-03-29T16:02:17.991Z"
+  }
+}

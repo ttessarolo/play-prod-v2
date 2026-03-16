@@ -1,0 +1,160 @@
+{
+  "title": "Rule CodiceF presente",
+  "description": "Tipologia match with Film",
+  "contentType": "video",
+  "clauses": [
+    "filter"
+  ],
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      },
+      "boost": 1,
+      "type": "",
+      "value": "contentId",
+      "valueType": "metadata",
+      "queryType": "match",
+      "field": "video_content_id",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "pkpDc0d5"
+    }
+  ],
+  "field": "tipologia",
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "Vt4nvO2n3"
+        ]
+      }
+    ]
+  },
+  "id": "iHi81BYTF",
+  "version": 3,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2021-03-18T18:54:17.695Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 16,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 16,
+          "items": [
+            {
+              "id": "HWJT1cPPY",
+              "type": "queries",
+              "title": "Query Film più visti 24h"
+            },
+            {
+              "id": "VNoVjEIDhS",
+              "type": "queries",
+              "title": "Query Person to Content Film over 2005"
+            },
+            {
+              "id": "b20L6V_Cz",
+              "type": "queries",
+              "title": "Query Person to Content Film"
+            },
+            {
+              "id": "bGHIfOpkw",
+              "type": "queries",
+              "title": "Query Most Recent Film Person to Content"
+            },
+            {
+              "id": "VPCz1frwh",
+              "type": "queries",
+              "title": "Query Film più visti 24h Person to Content"
+            },
+            {
+              "id": "M9xhdzkJvY",
+              "type": "queries",
+              "title": "Query Film over 2015"
+            },
+            {
+              "id": "XfBmXeGEp",
+              "type": "queries",
+              "title": "QUERY Film dal catalogo Cult e di Qualità"
+            },
+            {
+              "id": "JeWs0B6Ip",
+              "type": "queries",
+              "title": "Search Movie"
+            },
+            {
+              "id": "zWYdI9xZd",
+              "type": "queries",
+              "title": "Query Generi per Parametri Film"
+            },
+            {
+              "id": "xWQFP8e_a1",
+              "type": "queries",
+              "title": "INF Generi per Parametri Film Blocco 3"
+            },
+            {
+              "id": "_ehOPN5ih",
+              "type": "queries",
+              "title": "INF Generi per Parametri Film Blocco 1"
+            },
+            {
+              "id": "rAoCaKtAs",
+              "type": "queries",
+              "title": "INF Generi per Parametri Film Blocco 2"
+            },
+            {
+              "id": "js5eihPKLL",
+              "type": "queries",
+              "title": "INF Most recent Film Blocco 2"
+            },
+            {
+              "id": "Fey8TGWHzd",
+              "type": "queries",
+              "title": "INF Most recent Film"
+            },
+            {
+              "id": "Cz5mbdSpkG",
+              "type": "queries",
+              "title": "INF Film Più visti 7 giorni Blocco 2"
+            },
+            {
+              "id": "yNmdifMzM",
+              "type": "queries",
+              "title": "INF Film Più visti 7 giorni"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 1,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "realm": "content"
+}

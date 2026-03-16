@@ -1,0 +1,59 @@
+{
+  "title": "Rule Id Series Se Tgcom",
+  "description": "Blacklist",
+  "contentType": "video",
+  "clauses": [
+    "exclude"
+  ],
+  "rule": [
+    {
+      "condition": "*",
+      "boost": 1,
+      "type": "I2I",
+      "_id": "tWOcGGpcx",
+      "match": "SE000000000062",
+      "phrase": false,
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      },
+      "field": "id_series_se",
+      "fieldDBType": "keyword",
+      "queryType": "match",
+      "value": "SE000000000062",
+      "valueType": "string",
+      "API": "V2"
+    }
+  ],
+  "field": "id_series_se",
+  "metadata": {
+    "content": false
+  },
+  "scheduled": false,
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "KJfmYqosr"
+        ]
+      }
+    ]
+  },
+  "id": "YBuRs5V8xn",
+  "version": 3,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2020-12-18T14:42:18.162Z"
+  }
+}

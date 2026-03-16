@@ -1,0 +1,340 @@
+{
+  "id": "WXsJUgBAp",
+  "active": true,
+  "title": "viewAll1H",
+  "description": "",
+  "reference": "viewAll1H",
+  "propertyId": "zlqQNxLcGh",
+  "blockId": "RsgHYYlbYf",
+  "variants": [],
+  "params": {
+    "timeout": 2500,
+    "cacheConfig": {
+      "cache": 1,
+      "cacheTTL": 3600,
+      "cachePrefix": {
+        "group": true,
+        "static": "endpoint",
+        "keys": []
+      },
+      "computeKeys": [
+        "startBlock",
+        "endBlock"
+      ]
+    },
+    "inveverseCacheConfig": {
+      "cacheTTL": 3600
+    }
+  },
+  "paramsId": "playDefault",
+  "input": {
+    "decorators": [
+      "XIHg_DI92f"
+    ],
+    "schema": {
+      "name": "Input Validation Schema",
+      "description": "ARES Request Params",
+      "type": "object",
+      "required": [
+        "query"
+      ],
+      "properties": {
+        "query": {
+          "type": "object",
+          "required": [
+            "tenant",
+            "uxReference"
+          ],
+          "properties": {
+            "tenant": {
+              "type": "string"
+            },
+            "uxReference": {
+              "type": "string"
+            },
+            "userId": {
+              "type": "string"
+            },
+            "userType": {
+              "type": "string"
+            },
+            "userGroup": {
+              "type": "string"
+            },
+            "deviceId": {
+              "type": "string"
+            },
+            "contentId": {
+              "type": "string"
+            },
+            "sessionId": {
+              "type": "string"
+            },
+            "context": {
+              "type": "string"
+            },
+            "query": {
+              "type": "string"
+            },
+            "startBlock": {
+              "type": "number"
+            },
+            "endBlock": {
+              "type": "number"
+            },
+            "page": {
+              "type": "number"
+            },
+            "hitsPerPage": {
+              "type": "number"
+            }
+          }
+        }
+      }
+    }
+  },
+  "output": {
+    "decorators": [
+      "mU5ep6Aze"
+    ]
+  },
+  "version": 14,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2023-03-29T09:12:45.382Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "nHnxnqpZl",
+          "g4LwExz6x",
+          "jAc6h3XPq",
+          "ekmyB30A9",
+          "yxizcpSjI",
+          "x0BmGLyVnR",
+          "R9DA4iBBnw",
+          "K6MHXRZhh",
+          "k4QGHdxQW",
+          "F_sjywA9Q",
+          "MRR_0Yp3I",
+          "FELb4Gfq3",
+          "V9RI7BjV7",
+          "DRuoIOFsf",
+          "R_tEijSXy",
+          "HV6YfKzh0",
+          "RL5cxkerX",
+          "Q7H3gYrrMH",
+          "thJULhcXoc",
+          "DVwDWh4H4",
+          "PiHvqqMh7",
+          "rqicoQi_nQ",
+          "uSQMPkr2v",
+          "PocmHNOJu",
+          "DPvDRAwPv",
+          "SjKviPsLkq",
+          "fWE6zjkEc",
+          "HNDfXxstQ",
+          "XZ5f1gK8y",
+          "fm0gjH0tS",
+          "V7QA_iGnE",
+          "zJdRVOBGv",
+          "ftepghXc5",
+          "jbOpvqnFG",
+          "uUVSRsHfy",
+          "HDTkemrtG",
+          "W4m72efqqu",
+          "eCOBgNbar",
+          "T5QT3JmGE",
+          "hb1B41JYe",
+          "QLhb1DQxx",
+          "UzsmyaqtN",
+          "GAHb3UNXJ",
+          "If1yBj9d7",
+          "yGKZbCboS",
+          "nSlVGH0Hs",
+          "el3yzysWV",
+          "BPoxLffjYC",
+          "d0Gt6grYF",
+          "K0s4tyEoi",
+          "H9ZIGo39c",
+          "PEvA7OHsX"
+        ]
+      }
+    ],
+    "require": [
+      {
+        "type": "blocks",
+        "items": [
+          "RsgHYYlbYf"
+        ]
+      },
+      {
+        "type": "params",
+        "items": [
+          "playDefault"
+        ]
+      },
+      {
+        "type": "decorators",
+        "items": [
+          "XIHg_DI92f",
+          "mU5ep6Aze"
+        ]
+      },
+      {
+        "type": "conversionPacks",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 17,
+      "types": 1,
+      "items": [
+        {
+          "type": "pages",
+          "count": 17,
+          "items": [
+            {
+              "variantId": "nHnxnqpZl",
+              "propertyId": "zlqQNxLcGh",
+              "endpointId": "GDGyDPHJ0"
+            },
+            {
+              "variantId": "g4LwExz6x",
+              "propertyId": "zlqQNxLcGh",
+              "endpointId": "GDGyDPHJ0"
+            },
+            {
+              "variantId": "jAc6h3XPq",
+              "propertyId": "zlqQNxLcGh",
+              "endpointId": "uK3VPzv6U"
+            },
+            {
+              "variantId": "ekmyB30A9",
+              "propertyId": "zlqQNxLcGh",
+              "endpointId": "uK3VPzv6U"
+            },
+            {
+              "variantId": "yxizcpSjI",
+              "propertyId": "zlqQNxLcGh",
+              "endpointId": "kEsMgb00Z"
+            },
+            {
+              "variantId": "x0BmGLyVnR",
+              "propertyId": "zlqQNxLcGh",
+              "endpointId": "d0HcvWEBF"
+            },
+            {
+              "variantId": "R9DA4iBBnw",
+              "propertyId": "zlqQNxLcGh",
+              "endpointId": "xG209TQAOl"
+            },
+            {
+              "variantId": "K6MHXRZhh",
+              "propertyId": "zlqQNxLcGh",
+              "endpointId": "d0HcvWEBF"
+            },
+            {
+              "variantId": "k4QGHdxQW",
+              "propertyId": "zlqQNxLcGh",
+              "endpointId": "NxQika02i"
+            },
+            {
+              "variantId": "F_sjywA9Q",
+              "propertyId": "zlqQNxLcGh",
+              "endpointId": "NCATfP6la"
+            },
+            {
+              "variantId": "MRR_0Yp3I",
+              "propertyId": "zlqQNxLcGh",
+              "endpointId": "W2sNZ_bXP"
+            },
+            {
+              "variantId": "FELb4Gfq3",
+              "propertyId": "zlqQNxLcGh",
+              "endpointId": "jj72aKvoC"
+            },
+            {
+              "variantId": "V9RI7BjV7",
+              "propertyId": "zlqQNxLcGh",
+              "endpointId": "TAHCjN9hxX"
+            },
+            {
+              "variantId": "DRuoIOFsf",
+              "propertyId": "zlqQNxLcGh",
+              "endpointId": "MVpCyzxSL"
+            },
+            {
+              "variantId": "R_tEijSXy",
+              "propertyId": "zlqQNxLcGh",
+              "endpointId": "p7HZLnaKE"
+            },
+            {
+              "variantId": "HV6YfKzh0",
+              "propertyId": "zlqQNxLcGh",
+              "endpointId": "tgXUEdcir"
+            },
+            {
+              "variantId": "RL5cxkerX",
+              "propertyId": "zlqQNxLcGh",
+              "endpointId": "GlbpXo2RG"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 4,
+      "types": 4,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "RsgHYYlbYf",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "params",
+          "count": 1,
+          "items": [
+            {
+              "id": "playDefault",
+              "type": "params"
+            }
+          ]
+        },
+        {
+          "type": "decorators",
+          "count": 2,
+          "items": [
+            {
+              "id": "XIHg_DI92f",
+              "type": "decorators"
+            },
+            {
+              "id": "mU5ep6Aze",
+              "type": "decorators"
+            }
+          ]
+        },
+        {
+          "type": "conversionPacks",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "haveScheduledVariants": 0,
+  "prevReference": "viewAll1H",
+  "paginateFromCache": true,
+  "enableAnalitica": true
+}

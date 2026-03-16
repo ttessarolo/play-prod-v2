@@ -1,0 +1,85 @@
+{
+  "title": "Rule Includi Genere mcm per Documentari",
+  "description": "",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "Animali",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "genere_mcm",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "WH1iBFycB"
+    },
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "Il regno Animale",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "genere_mcm",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "locSkJJ1V"
+    },
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "Meraviglie della Natura",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "genere_mcm",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "hUzzOY6Cl"
+    },
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "",
+      "value": "Natura",
+      "valueType": "string",
+      "queryType": "match",
+      "field": "genere_mcm",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "mSBPvBp15"
+    }
+  ],
+  "clauses": [
+    "include"
+  ],
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "Ae2BOByZ_"
+        ]
+      }
+    ]
+  },
+  "id": "f941bit9M",
+  "version": 1,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-04-01T14:23:15.179Z"
+  }
+}

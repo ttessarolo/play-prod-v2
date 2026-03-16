@@ -1,0 +1,475 @@
+{
+  "id": "Y_T1DSbZ9",
+  "active": true,
+  "title": "filteredSearch",
+  "description": "",
+  "reference": "filteredSearch",
+  "propertyId": "rrjMTUmyqd",
+  "blockId": "zjMBeoafa8",
+  "variants": [
+    {
+      "blockId": "Fkuq3OMlav",
+      "condition": "(isEmpty(query_all) && contains(params_channel, \"MediasetItalia\"))",
+      "priority": 1,
+      "active": true,
+      "conditionRaw": {
+        "and": [
+          {
+            "id": "_tWL-A2tC",
+            "operator": "isEmpty",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "query_all"
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ]
+          },
+          {
+            "id": "4cw_pn-dNQ",
+            "operator": "contains",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "params_channel"
+              },
+              {
+                "value": "\"MediasetItalia\"",
+                "type": "string"
+              }
+            ]
+          }
+        ]
+      },
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "blockId": "l086tIljZ",
+      "condition": "(!isEmpty(query_all) && isEmpty(params_variant))",
+      "priority": 1,
+      "active": true,
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "!isEmpty",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "query_all"
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ],
+            "id": "sCTnwue1T5"
+          },
+          {
+            "id": "xpbwJEKOo",
+            "operator": "isEmpty",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "params_variant"
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ]
+          }
+        ]
+      },
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "blockId": "Pil1XjlIgl",
+      "condition": "(!isEmpty(query_all) && equals(params_variant, \"brand\"))",
+      "priority": 1,
+      "active": true,
+      "conditionRaw": {
+        "and": [
+          {
+            "id": "feVhb7OXr",
+            "operator": "!isEmpty",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "query_all"
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ]
+          },
+          {
+            "operator": "equals",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "params_variant"
+              },
+              {
+                "value": "\"brand\"",
+                "type": "string"
+              }
+            ],
+            "id": "DSQWm9AECr"
+          }
+        ]
+      },
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "blockId": "cVhuVOrhgW",
+      "condition": "(!isEmpty(query_all) && equals(params_variant, \"movie\"))",
+      "priority": 1,
+      "active": true,
+      "conditionRaw": {
+        "and": [
+          {
+            "id": "feVhb7OXr",
+            "operator": "!isEmpty",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "query_all"
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ]
+          },
+          {
+            "operator": "equals",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "params_variant"
+              },
+              {
+                "value": "\"movie\"",
+                "type": "string"
+              }
+            ],
+            "id": "DSQWm9AECr"
+          }
+        ]
+      },
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "blockId": "pYHbnwL1Y",
+      "condition": "(!isEmpty(query_all) && equals(params_variant, \"video\"))",
+      "priority": 1,
+      "active": true,
+      "conditionRaw": {
+        "and": [
+          {
+            "id": "feVhb7OXr",
+            "operator": "!isEmpty",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "query_all"
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ]
+          },
+          {
+            "id": "HpHbn70Lj",
+            "operator": "equals",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "params_variant"
+              },
+              {
+                "value": "\"video\"",
+                "type": "string"
+              }
+            ]
+          }
+        ]
+      },
+      "scheduled": false,
+      "scheduling": []
+    },
+    {
+      "blockId": "JjaawRIpD",
+      "condition": "(!isEmpty(query_all) && equals(params_variant, \"subscription\"))",
+      "priority": 1,
+      "active": true,
+      "conditionRaw": {
+        "and": [
+          {
+            "id": "feVhb7OXr",
+            "operator": "!isEmpty",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "query_all"
+              },
+              {
+                "type": "",
+                "value": ""
+              }
+            ]
+          },
+          {
+            "operator": "equals",
+            "values": [
+              {
+                "type": "metadata",
+                "value": "params_variant"
+              },
+              {
+                "value": "\"subscription\"",
+                "type": "string"
+              }
+            ],
+            "id": "DSQWm9AECr"
+          }
+        ]
+      },
+      "scheduled": false,
+      "scheduling": []
+    }
+  ],
+  "params": {
+    "timeout": 2000,
+    "cacheConfig": {
+      "cache": 1,
+      "cacheTTL": 1800,
+      "cachePrefix": {
+        "group": true,
+        "static": "endpoint",
+        "keys": []
+      },
+      "computeKeys": [
+        "page",
+        "hitsPerPage",
+        "startBlock",
+        "endBlock",
+        "contentId",
+        "query",
+        "context",
+        "params",
+        "geolocation"
+      ]
+    },
+    "inveverseCacheConfig": {
+      "cacheTTL": 1800
+    }
+  },
+  "paramsId": "playDefault",
+  "input": {
+    "schema": {
+      "name": "Input Validation Schema",
+      "description": "ARES Request Params",
+      "type": "object",
+      "required": [
+        "query"
+      ],
+      "properties": {
+        "query": {
+          "type": "object",
+          "required": [
+            "tenant",
+            "uxReference"
+          ],
+          "properties": {
+            "tenant": {
+              "type": "string"
+            },
+            "uxReference": {
+              "type": "string"
+            },
+            "userId": {
+              "type": "string"
+            },
+            "userType": {
+              "type": "string"
+            },
+            "userGroup": {
+              "type": "string"
+            },
+            "deviceId": {
+              "type": "string"
+            },
+            "contentId": {
+              "type": "string"
+            },
+            "sessionId": {
+              "type": "string"
+            },
+            "context": {
+              "type": "string"
+            },
+            "query": {
+              "type": "string"
+            },
+            "startBlock": {
+              "type": "number"
+            },
+            "endBlock": {
+              "type": "number"
+            },
+            "page": {
+              "type": "number"
+            },
+            "hitsPerPage": {
+              "type": "number"
+            }
+          }
+        }
+      }
+    },
+    "decorators": [
+      "XIHg_DI92f"
+    ]
+  },
+  "output": {
+    "decorators": [
+      "mU5ep6Aze"
+    ],
+    "filters": {
+      "maxFilterPercentage": 100
+    }
+  },
+  "version": 136,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2025-03-17T09:09:00.131Z"
+  },
+  "refs": {
+    "belongs": [],
+    "require": [
+      {
+        "type": "blocks",
+        "items": [
+          "zjMBeoafa8",
+          "Fkuq3OMlav",
+          "l086tIljZ",
+          "Pil1XjlIgl",
+          "cVhuVOrhgW",
+          "pYHbnwL1Y",
+          "JjaawRIpD"
+        ]
+      },
+      {
+        "type": "params",
+        "items": [
+          "playDefault"
+        ]
+      },
+      {
+        "type": "decorators",
+        "items": [
+          "XIHg_DI92f",
+          "mU5ep6Aze"
+        ]
+      },
+      {
+        "type": "conversionPacks",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 0,
+      "types": 0,
+      "items": []
+    },
+    "require": {
+      "total": 10,
+      "types": 4,
+      "items": [
+        {
+          "type": "blocks",
+          "count": 7,
+          "items": [
+            {
+              "id": "zjMBeoafa8",
+              "type": "blocks"
+            },
+            {
+              "id": "Fkuq3OMlav",
+              "type": "blocks"
+            },
+            {
+              "id": "l086tIljZ",
+              "type": "blocks"
+            },
+            {
+              "id": "Pil1XjlIgl",
+              "type": "blocks"
+            },
+            {
+              "id": "cVhuVOrhgW",
+              "type": "blocks"
+            },
+            {
+              "id": "pYHbnwL1Y",
+              "type": "blocks"
+            },
+            {
+              "id": "JjaawRIpD",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "params",
+          "count": 1,
+          "items": [
+            {
+              "id": "playDefault",
+              "type": "params"
+            }
+          ]
+        },
+        {
+          "type": "decorators",
+          "count": 2,
+          "items": [
+            {
+              "id": "XIHg_DI92f",
+              "type": "decorators"
+            },
+            {
+              "id": "mU5ep6Aze",
+              "type": "decorators"
+            }
+          ]
+        },
+        {
+          "type": "conversionPacks",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "haveScheduledVariants": 0,
+  "prevReference": "filteredSearch",
+  "enableAnalitica": true,
+  "paginateFromCache": false,
+  "variantsMetadata": {
+    "content": false
+  },
+  "contentType": "video"
+}

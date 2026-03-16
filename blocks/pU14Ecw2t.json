@@ -1,0 +1,248 @@
+{
+  "refs": {
+    "require": [
+      {
+        "type": "queries",
+        "items": [
+          "gE_eIFPElo",
+          "VMjkKkljfF",
+          "yFHHJNULO",
+          "UpCkzkV_m",
+          "z4cKov4kQ"
+        ]
+      },
+      {
+        "type": "endpoints",
+        "items": []
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "P0csRsOt7"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": [
+          "eOaXizx_"
+        ]
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "blocks",
+        "items": [
+          "bxpCbu3mW"
+        ]
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "pages",
+          "count": 1,
+          "items": [
+            {
+              "variantId": "bxpCbu3mW",
+              "propertyId": "ZGoUpbRaZP",
+              "propertyTitle": "",
+              "endpointId": "iueh1zUR4",
+              "endpointTitle": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 7,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 5,
+          "items": [
+            {
+              "id": "gE_eIFPElo",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "VMjkKkljfF",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "yFHHJNULO",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "UpCkzkV_m",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "z4cKov4kQ",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "endpoints",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "blocks",
+          "count": 1,
+          "items": [
+            {
+              "id": "P0csRsOt7",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 1,
+          "items": [
+            {
+              "id": "eOaXizx_",
+              "type": "responseFields",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "results": {
+    "flatAllBlocks": true,
+    "min": 0,
+    "fallbackBlockId": "P0csRsOt7",
+    "max": 24,
+    "deduplicateFlattedResults": true
+  },
+  "blocks": [
+    {
+      "_id": "Kn6WVly1M",
+      "condition": "*",
+      "title": "Super Top",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 5,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true
+      },
+      "queryId": "gE_eIFPElo"
+    },
+    {
+      "_id": "W25W3TUVXD",
+      "condition": "*",
+      "title": "In Onda, Top e Prima serata o Originals Last 15 days",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 40,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "fallbackBlockId": "P0csRsOt7",
+        "skipOnEmpty": true
+      },
+      "queryId": "VMjkKkljfF"
+    },
+    {
+      "_id": "abHK8Jbvz",
+      "condition": "*",
+      "title": "In Onda e Top Last 15 days",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 40,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true
+      },
+      "queryId": "yFHHJNULO"
+    },
+    {
+      "_id": "qAnKPm12g",
+      "condition": "*",
+      "title": "In onda Most recent Last 15 days",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 20,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true
+      },
+      "queryId": "UpCkzkV_m"
+    },
+    {
+      "_id": "EM6wxR3yA",
+      "condition": "*",
+      "title": "Library Più visti 24h",
+      "type": "query",
+      "pinned": true,
+      "results": {
+        "max": 30,
+        "min": 0,
+        "contentType": "video",
+        "responseFieldsId": "eOaXizx_",
+        "skipOnEmpty": true
+      },
+      "queryId": "z4cKov4kQ"
+    }
+  ],
+  "title": "SKY Fiction",
+  "description": "",
+  "scheduled": false,
+  "scheduling": [],
+  "schedulingMap": [],
+  "realm": "content",
+  "id": "pU14Ecw2t",
+  "version": 21,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2024-03-05T18:23:46.402Z"
+  }
+}

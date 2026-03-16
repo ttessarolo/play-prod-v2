@@ -1,0 +1,853 @@
+{
+  "contentType": "video",
+  "title": "Rule Channel Mediaset Play",
+  "description": "Keep Only Contenuti con contents_channels = MediasetPlay",
+  "clauses": [
+    "filter",
+    "exclude",
+    "boost"
+  ],
+  "rule": [
+    {
+      "condition": "*",
+      "boost": 1,
+      "type": "I2I",
+      "_id": "SllVW2XnFL",
+      "matchFromArray": "MediasetPlay",
+      "conditionRaw": {
+        "and": [
+          {
+            "operator": "*",
+            "values": []
+          }
+        ]
+      },
+      "field": "content_channels",
+      "fieldDBType": "text",
+      "queryType": "matchFromArray",
+      "value": "MediasetPlay",
+      "valueType": "string",
+      "API": "V2"
+    }
+  ],
+  "field": "content_channels",
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "HWJT1cPPY",
+          "PzMzP5D6R",
+          "T2R37bH_w",
+          "i7977YQbm",
+          "zqakv8vZvB",
+          "hhqbCjmm_1",
+          "bOnJl04URI",
+          "VaFxBerr6",
+          "ajqPan1bS",
+          "yncTA7ween",
+          "arcIZfX7Q",
+          "NDMxn06hM",
+          "u8IIXQT9v",
+          "ZBDFPdp2L",
+          "IHZg0PHBxF",
+          "zWYdI9xZd",
+          "rAoCaKtAs",
+          "s1zg4_4pH",
+          "IN_VtB1yk",
+          "aPpgfgCvJy",
+          "uUJ4hfCDig",
+          "ZRGcMAnsL",
+          "ubigd5wChi",
+          "CAd6ogG7u",
+          "TLxbxZNoD",
+          "uk8fnabnQY",
+          "_YcmnLaH4",
+          "hbPc0tj9I",
+          "hn5iFhhbZ",
+          "qOqWHDpaC",
+          "PAFpFHSdQ",
+          "qLHnIzGLeb",
+          "vKyWUq28Mj",
+          "J5tCfqwb1y",
+          "I1706J335",
+          "FF6GVv2DC",
+          "ZmqQWEcF8",
+          "VXeQD5L8kq",
+          "DH6QDWCTHE",
+          "rkiCo37Zx",
+          "_v4wfuHNr",
+          "Bmmb_X6oxW",
+          "s820x60ap",
+          "jmUEsXUsF",
+          "UdUyyyAd3",
+          "smVITPQ7Q",
+          "HiNerS5aO",
+          "cbbhfkNy0",
+          "fWwljHj1tt",
+          "UNYXfbEQP",
+          "GuKk9Bo7iv",
+          "e3n773U9U",
+          "xpFUJN2NV",
+          "rjWULeByhq",
+          "zLGBFxSxo",
+          "rzhLrRK3bB",
+          "xe_zUdYnf",
+          "SwEdO0Rot",
+          "Ctw5PvR1Gw",
+          "sDmAYxCfr",
+          "h0DYFqNjp",
+          "sAkw5LwYq",
+          "aTlHoTaH0",
+          "Fey8TGWHzd",
+          "rFYrNUGdd",
+          "Y3Ko1EEsco",
+          "us3vUNLgO",
+          "R4M6lw89s",
+          "ZWp_WOb5a3",
+          "OFJfHmsz5",
+          "nfx18gJXx",
+          "cOZWtR5QFk",
+          "WPl6VDGVC",
+          "FHMVTArGO",
+          "eYuL4ML7TS",
+          "JR8cDQowD",
+          "YMNQr6Pus",
+          "sC1otJfhE",
+          "gMMABcytBa",
+          "ZqCof5t6v",
+          "OgvJP6sKX",
+          "I4CroOsh9i",
+          "SN3RejmFQ",
+          "IjuqSujtX",
+          "dLoPEBrcJd",
+          "QniVzl_vg",
+          "WvEpq4HXF",
+          "XUe7byBci",
+          "tbkv2_bXt",
+          "vQpdSxndVV",
+          "MOiBhvfylX",
+          "CMc5GpUU2",
+          "FF2wg0oZIu",
+          "YSg0jB6ZY",
+          "yNxWfYgpgd",
+          "saXXHN9eH",
+          "WberdVHbj",
+          "fPSsZdCBTk",
+          "crNss9ZoJ",
+          "YO0JXEqrz",
+          "V89qJLPCh",
+          "UQJXXpvIu",
+          "DB7Fg4hfA",
+          "ohpTGTghM",
+          "L_RgHf3zx",
+          "kTzUbUvlu",
+          "QBSCM27jL",
+          "dRtZeUJMlX",
+          "qP2zv3POr",
+          "TuLnMyRO6r",
+          "sJQMmhHHE",
+          "n34TQOZcMI",
+          "LFRatKHdi",
+          "yxFAZhBMq",
+          "o3oATF3Xw",
+          "TNtOUf6kS",
+          "Sm_6fxZYb",
+          "ABUvps5All",
+          "Hgvp3RuY2",
+          "eYpjGfjVG",
+          "Fnu1as9qg",
+          "m_gnuihp0",
+          "kc8b7byAm",
+          "wBqjRIpLT",
+          "YutotoG_ze",
+          "KAsq06N6F",
+          "OvIXofGN2E",
+          "tC8ZKQ37Ld",
+          "Kimd2MNT4C",
+          "w5Jx9w27Z",
+          "P9Ls7vSds",
+          "sRlHZqMawB",
+          "mtx6Ew_wWR",
+          "XX1xUnRXVj",
+          "LQNTpN5LdF",
+          "O4OWKwsiK",
+          "yHKYscQUvt",
+          "fFfkZBP4s",
+          "xhXKgqHLs",
+          "Oo7bQ3Dg8Z",
+          "nGhPhWBeV",
+          "jTxxLascsn",
+          "v3vjgsdRZ",
+          "kNF9by9ui",
+          "HGGJsLjDh",
+          "m088vbWc5Q",
+          "NohOuTAhP1",
+          "TrBCM_mrO",
+          "JcLPwIH_9",
+          "AkDXA7YHE",
+          "byMpe1wx_f",
+          "VMjkKkljfF",
+          "yFHHJNULO",
+          "UpCkzkV_m",
+          "gE_eIFPElo",
+          "z4cKov4kQ",
+          "VYVUiuCSM",
+          "dsgyKDyMs",
+          "Vegj8XiOcr",
+          "vloOlFQwh",
+          "div23Vxzv",
+          "fBjcjMmv5",
+          "zfEqUdL_n",
+          "gcQgVKXeZ",
+          "GkNrNIlbf",
+          "hlVeeW3f2",
+          "CDsTVvCvs",
+          "Ly04WXzqgZ",
+          "Td9MT7WjJ",
+          "Gs2DZhmnXF",
+          "dOLvfVNVS",
+          "_4B6SzEZy",
+          "IuO6CmHVV",
+          "luXgVBWl6",
+          "_oPkRZjuW",
+          "YY_osrxFBI",
+          "gJthFqC_H",
+          "ub3yV4gS6",
+          "dozi3IMou",
+          "G2Pc_vyqd",
+          "R2gramigsK",
+          "hcoUNChdN",
+          "BVyzpjtqc",
+          "T6GgclYgM",
+          "A6FHuXLjp",
+          "jxdmOp891w",
+          "PpdrrVxDc",
+          "RASMXpoN0",
+          "OrpWHvd2JE",
+          "jSwEBgItVY",
+          "LjCTWPXAo",
+          "OOWDm50lJ",
+          "HYBQYXPrar",
+          "NPfkvPslCH",
+          "C1FH39h3j",
+          "KoF8mkswc",
+          "lM4eMA8k_",
+          "kz55YrMHS"
+        ]
+      }
+    ]
+  },
+  "id": "ju06OqIgO",
+  "version": 16,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2023-01-20T15:54:48.365Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 113,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 113,
+          "items": [
+            {
+              "id": "VNoVjEIDhS",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "HWJT1cPPY",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "PzMzP5D6R",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "T2R37bH_w",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "i7977YQbm",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "zqakv8vZvB",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "hhqbCjmm_1",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "bOnJl04URI",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "VaFxBerr6",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "ajqPan1bS",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "yncTA7ween",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "arcIZfX7Q",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "NDMxn06hM",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "u8IIXQT9v",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "ZBDFPdp2L",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "IHZg0PHBxF",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "zWYdI9xZd",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "rAoCaKtAs",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "s1zg4_4pH",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "IN_VtB1yk",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "aPpgfgCvJy",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "uUJ4hfCDig",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "ZRGcMAnsL",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "ubigd5wChi",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "CAd6ogG7u",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "TLxbxZNoD",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "uk8fnabnQY",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "_YcmnLaH4",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "hbPc0tj9I",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "hn5iFhhbZ",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "qOqWHDpaC",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "PAFpFHSdQ",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "qLHnIzGLeb",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "vKyWUq28Mj",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "J5tCfqwb1y",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "I1706J335",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "FF6GVv2DC",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "ZmqQWEcF8",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "VXeQD5L8kq",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "DH6QDWCTHE",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "UdXc0tzt_R",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "rkiCo37Zx",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "_v4wfuHNr",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "Bmmb_X6oxW",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "s820x60ap",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "jmUEsXUsF",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "UdUyyyAd3",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "smVITPQ7Q",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "HiNerS5aO",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "cbbhfkNy0",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "fWwljHj1tt",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "UNYXfbEQP",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "GuKk9Bo7iv",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "e3n773U9U",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "xpFUJN2NV",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "rjWULeByhq",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "zLGBFxSxo",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "rzhLrRK3bB",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "xe_zUdYnf",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "SwEdO0Rot",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "toSpu6fdu",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "Ae2BOByZ_",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "Ctw5PvR1Gw",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "sDmAYxCfr",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "h0DYFqNjp",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "sAkw5LwYq",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "aTlHoTaH0",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "pNmPWjxre",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "Fey8TGWHzd",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "rFYrNUGdd",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "Y3Ko1EEsco",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "us3vUNLgO",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "R4M6lw89s",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "M4d1BL7df",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "ZWp_WOb5a3",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "OFJfHmsz5",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "nfx18gJXx",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "cOZWtR5QFk",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "WPl6VDGVC",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "FHMVTArGO",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "eYuL4ML7TS",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "JR8cDQowD",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "YMNQr6Pus",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "sC1otJfhE",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "gMMABcytBa",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "ZqCof5t6v",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "wsb1xQV0d",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "OgvJP6sKX",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "I4CroOsh9i",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "SN3RejmFQ",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "IjuqSujtX",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "dLoPEBrcJd",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "QniVzl_vg",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "rGh19VvNN",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "awnp5vjua",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "WvEpq4HXF",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "XUe7byBci",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "tbkv2_bXt",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "vQpdSxndVV",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "MOiBhvfylX",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "CMc5GpUU2",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "FF2wg0oZIu",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "YSg0jB6ZY",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "yNxWfYgpgd",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "saXXHN9eH",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "WberdVHbj",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "fPSsZdCBTk",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "crNss9ZoJ",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "hsIW1abG2",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "h4Wmveohn",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "YO0JXEqrz",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "_MhAmoqgA",
+              "type": "queries",
+              "title": ""
+            },
+            {
+              "id": "V89qJLPCh",
+              "type": "queries",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 2,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "realm": "content"
+}

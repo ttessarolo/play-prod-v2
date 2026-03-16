@@ -1,0 +1,107 @@
+{
+  "title": "Rule Similar Tipologia SerieTv Fiction blocco6",
+  "description": "Applicata alla Similar Serie Tv\n",
+  "contentType": "video",
+  "realm": "content",
+  "rule": [
+    {
+      "API": "V2",
+      "condition": "*",
+      "boost": 1,
+      "type": "I2I",
+      "value": "video_similar_ids_serietv_fiction_blocco6",
+      "valueType": "metadata",
+      "queryType": "ids",
+      "field": "video_content_id",
+      "fieldNested": 0,
+      "fieldDBType": "keyword",
+      "_id": "KXIB1y_y5"
+    }
+  ],
+  "clauses": [
+    "filter",
+    "include"
+  ],
+  "metadata": {
+    "content_similar": {
+      "required": true,
+      "output": "video_similar_ids_serietv_fiction_blocco6",
+      "metadata": {
+        "included": [
+          "tipologia",
+          "editorial_type=Full Episode",
+          "generepatemico",
+          "content_channels=MediasetPlay"
+        ],
+        "excluded": [
+          "id_series_se",
+          "genere_mcm=Soap opera"
+        ]
+      },
+      "fingerprint": {
+        "matchFields": [
+          "fingerprint"
+        ]
+      },
+      "groupby": {
+        "metadata": "id_series_se",
+        "results": 1,
+        "sortMetadata": "season,episode",
+        "sortDirection": "asc,asc"
+      }
+    }
+  },
+  "refs": {
+    "require": [
+      {
+        "type": "lists",
+        "items": []
+      }
+    ],
+    "belongs": [
+      {
+        "type": "queries",
+        "items": [
+          "ek22t7eOE",
+          "F8q0MMwh8"
+        ]
+      }
+    ]
+  },
+  "id": "fhGrdnEFA",
+  "version": 2,
+  "lastSaved": {
+    "username": "Giuseppe.Carroccio",
+    "date": "2021-03-29T16:34:43.752Z"
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "queries",
+          "count": 1,
+          "items": [
+            {
+              "id": "ek22t7eOE",
+              "type": "queries",
+              "title": "Query SerieTv Fiction blocco6"
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 0,
+      "types": 1,
+      "items": [
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  }
+}

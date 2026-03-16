@@ -1,0 +1,728 @@
+{
+  "id": "g4LwExz6x",
+  "propertyId": "zlqQNxLcGh",
+  "title": "infMultiBlockFilmPersonalizzato",
+  "description": "Please Edit description for Page \"Default\"",
+  "enabledPagesId": [
+    "GDGyDPHJ0"
+  ],
+  "isPage": true,
+  "blocks": [
+    {
+      "id": "hGIPhN0gZ",
+      "condition": "*",
+      "title": "Azione",
+      "type": "nested",
+      "layout": {
+        "i": "hGIPhN0gZ",
+        "w": 12,
+        "h": 30
+      },
+      "results": {
+        "flatAllBlocks": true,
+        "max": 30
+      },
+      "blockId": "NkPxz7IDV",
+      "viewAll": {
+        "id": "WXsJUgBAp",
+        "reference": "viewAll1H",
+        "siteMapped": 1
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Azione"
+        }
+      }
+    },
+    {
+      "id": "ypfEZo70d",
+      "condition": "*",
+      "title": "Commedia e comico",
+      "type": "nested",
+      "layout": {
+        "i": "ypfEZo70d",
+        "w": 12,
+        "h": 30
+      },
+      "results": {
+        "flatAllBlocks": true,
+        "max": 30
+      },
+      "blockId": "NkPxz7IDV",
+      "viewAll": {
+        "id": "ihiCAj9Qp",
+        "reference": "viewAllPerson",
+        "siteMapped": false
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Commedia,Comico"
+        }
+      }
+    },
+    {
+      "id": "NpIAAtpVW",
+      "condition": "*",
+      "title": "Drammatico",
+      "type": "nested",
+      "layout": {
+        "i": "NpIAAtpVW",
+        "w": 12,
+        "h": 30
+      },
+      "results": {
+        "flatAllBlocks": true,
+        "max": 30
+      },
+      "blockId": "NkPxz7IDV",
+      "viewAll": {
+        "id": "ihiCAj9Qp",
+        "reference": "viewAllPerson",
+        "siteMapped": false
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Drammatico"
+        }
+      }
+    },
+    {
+      "id": "PMShIVx29u",
+      "condition": "*",
+      "title": "Animazione",
+      "type": "nested",
+      "layout": {
+        "i": "PMShIVx29u",
+        "x": 0,
+        "y": 1,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true,
+        "max": 30
+      },
+      "blockId": "NkPxz7IDV",
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Animazione"
+        }
+      },
+      "viewAll": {
+        "id": "ihiCAj9Qp",
+        "reference": "viewAllPerson",
+        "siteMapped": false
+      }
+    },
+    {
+      "id": "i1xiwUlar",
+      "condition": "*",
+      "title": "Fantascienza",
+      "type": "nested",
+      "layout": {
+        "i": "i1xiwUlar",
+        "w": 12,
+        "h": 30
+      },
+      "results": {
+        "flatAllBlocks": true,
+        "max": 30
+      },
+      "blockId": "NkPxz7IDV",
+      "viewAll": {
+        "id": "ihiCAj9Qp",
+        "reference": "viewAllPerson",
+        "siteMapped": false
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Fantascienza"
+        }
+      }
+    },
+    {
+      "id": "Pv3oXrDT8",
+      "condition": "*",
+      "title": "Cinema italiano",
+      "type": "nested",
+      "layout": {
+        "i": "Pv3oXrDT8",
+        "w": 12,
+        "h": 30
+      },
+      "results": {
+        "flatAllBlocks": true,
+        "max": 30
+      },
+      "blockId": "NkPxz7IDV",
+      "viewAll": {
+        "id": "ihiCAj9Qp",
+        "reference": "viewAllPerson",
+        "siteMapped": false
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Cinema italiano"
+        }
+      }
+    },
+    {
+      "id": "YSB2m3jwt",
+      "condition": "*",
+      "title": "Guerra",
+      "type": "nested",
+      "layout": {
+        "i": "YSB2m3jwt",
+        "w": 12,
+        "h": 30
+      },
+      "results": {
+        "flatAllBlocks": true,
+        "max": 30
+      },
+      "blockId": "NkPxz7IDV",
+      "viewAll": {
+        "id": "ihiCAj9Qp",
+        "reference": "viewAllPerson",
+        "siteMapped": false
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Guerra"
+        }
+      }
+    },
+    {
+      "id": "XFEaIMY5n",
+      "condition": "*",
+      "title": "Thriller",
+      "type": "nested",
+      "layout": {
+        "i": "XFEaIMY5n",
+        "w": 12,
+        "h": 30
+      },
+      "results": {
+        "flatAllBlocks": true,
+        "max": 30
+      },
+      "blockId": "NkPxz7IDV",
+      "viewAll": {
+        "id": "ihiCAj9Qp",
+        "reference": "viewAllPerson",
+        "siteMapped": false
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Thriller"
+        }
+      }
+    },
+    {
+      "id": "PPZ4ZUjF_",
+      "condition": "*",
+      "title": "Sentimentale",
+      "type": "nested",
+      "layout": {
+        "i": "PPZ4ZUjF_",
+        "x": 0,
+        "y": 7,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true,
+        "max": 30
+      },
+      "blockId": "NkPxz7IDV",
+      "viewAll": {
+        "siteMapped": false,
+        "id": "ihiCAj9Qp",
+        "reference": "viewAllPerson"
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Sentimentale"
+        }
+      }
+    },
+    {
+      "id": "kh4zN5F7q",
+      "condition": "*",
+      "title": "Family",
+      "type": "nested",
+      "layout": {
+        "i": "kh4zN5F7q",
+        "w": 12,
+        "h": 30
+      },
+      "results": {
+        "flatAllBlocks": true,
+        "max": 30
+      },
+      "blockId": "NkPxz7IDV",
+      "viewAll": {
+        "id": "ihiCAj9Qp",
+        "reference": "viewAllPerson",
+        "siteMapped": false
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Family"
+        }
+      }
+    },
+    {
+      "id": "FYea73vh9",
+      "condition": "*",
+      "title": "Horror",
+      "type": "nested",
+      "layout": {
+        "i": "FYea73vh9",
+        "x": 0,
+        "y": 9,
+        "w": 12,
+        "h": 30,
+        "blocks": []
+      },
+      "results": {
+        "flatAllBlocks": true,
+        "max": 30
+      },
+      "blockId": "NkPxz7IDV",
+      "viewAll": {
+        "id": "ihiCAj9Qp",
+        "reference": "viewAllPerson",
+        "siteMapped": false
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Horror"
+        }
+      }
+    },
+    {
+      "id": "a2QOJu6XHz",
+      "condition": "*",
+      "title": "Avventura",
+      "type": "nested",
+      "layout": {
+        "i": "a2QOJu6XHz",
+        "w": 12,
+        "h": 30
+      },
+      "results": {
+        "flatAllBlocks": true,
+        "max": 30
+      },
+      "blockId": "NkPxz7IDV",
+      "viewAll": {
+        "id": "ihiCAj9Qp",
+        "reference": "viewAllPerson",
+        "siteMapped": false
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Avventura"
+        }
+      }
+    },
+    {
+      "id": "uLEPQEAeE",
+      "condition": "*",
+      "title": "Musicale",
+      "type": "nested",
+      "layout": {
+        "i": "uLEPQEAeE",
+        "w": 12,
+        "h": 30
+      },
+      "results": {
+        "flatAllBlocks": true,
+        "max": 30
+      },
+      "blockId": "NkPxz7IDV",
+      "viewAll": {
+        "id": "ihiCAj9Qp",
+        "reference": "viewAllPerson",
+        "siteMapped": false
+      },
+      "metadataUI": {
+        "attributes": {
+          "template": "POSTER"
+        },
+        "playContentMeta": {
+          "genere_mcm": "Musical,Musicale"
+        }
+      }
+    }
+  ],
+  "version": 69,
+  "lastSaved": {
+    "username": "giulia.miotto",
+    "date": "2025-03-26T17:28:13.236Z"
+  },
+  "refs": {
+    "belongs": [
+      {
+        "type": "endpoints",
+        "items": [
+          "GDGyDPHJ0"
+        ]
+      }
+    ],
+    "require": [
+      {
+        "type": "queries",
+        "items": []
+      },
+      {
+        "type": "endpoints",
+        "items": [
+          "WXsJUgBAp",
+          "ihiCAj9Qp"
+        ]
+      },
+      {
+        "type": "blocks",
+        "items": [
+          "Rc1YEkVxO",
+          "NkPxz7IDV"
+        ]
+      },
+      {
+        "type": "lists",
+        "items": []
+      },
+      {
+        "type": "labels",
+        "items": []
+      },
+      {
+        "type": "responseFields",
+        "items": []
+      },
+      {
+        "type": "externalSources",
+        "items": []
+      }
+    ]
+  },
+  "refsComputed": {
+    "belongs": {
+      "total": 1,
+      "types": 1,
+      "items": [
+        {
+          "type": "endpoints",
+          "count": 1,
+          "items": [
+            {
+              "id": "GDGyDPHJ0",
+              "type": "endpoints",
+              "title": ""
+            }
+          ]
+        }
+      ]
+    },
+    "require": {
+      "total": 4,
+      "types": 7,
+      "items": [
+        {
+          "type": "queries",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "endpoints",
+          "count": 2,
+          "items": [
+            {
+              "id": "WXsJUgBAp",
+              "type": "endpoints",
+              "title": ""
+            },
+            {
+              "id": "ihiCAj9Qp",
+              "type": "endpoints",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "type": "blocks",
+          "count": 2,
+          "items": [
+            {
+              "id": "Rc1YEkVxO",
+              "type": "blocks"
+            },
+            {
+              "id": "NkPxz7IDV",
+              "type": "blocks"
+            }
+          ]
+        },
+        {
+          "type": "lists",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "labels",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "responseFields",
+          "count": 0,
+          "items": []
+        },
+        {
+          "type": "externalSources",
+          "count": 0,
+          "items": []
+        }
+      ]
+    }
+  },
+  "searchMetadata": [
+    "request"
+  ],
+  "includedMetadata": [],
+  "layout": [
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 0,
+      "i": "hGIPhN0gZ",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 30,
+      "i": "ypfEZo70d",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 60,
+      "i": "NpIAAtpVW",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 90,
+      "i": "PMShIVx29u",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 120,
+      "i": "i1xiwUlar",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 150,
+      "i": "Pv3oXrDT8",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 180,
+      "i": "YSB2m3jwt",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 210,
+      "i": "XFEaIMY5n",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 240,
+      "i": "PPZ4ZUjF_",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 270,
+      "i": "kh4zN5F7q",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 300,
+      "i": "FYea73vh9",
+      "moved": false,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 331,
+      "i": "a2QOJu6XHz",
+      "moved": true,
+      "static": false
+    },
+    {
+      "w": 12,
+      "h": 30,
+      "x": 0,
+      "y": 390,
+      "i": "uLEPQEAeE",
+      "moved": false,
+      "static": false
+    }
+  ],
+  "results": {
+    "fallbackBlockId": "Rc1YEkVxO",
+    "deduplicatedResultsBetweenBlocks": false,
+    "smartOrderBlocks": true,
+    "contentType": "video",
+    "userContentType": "user",
+    "event": "watched",
+    "perUserBasisType": "video_historical_fingerprint",
+    "fullSubstituteFallback": true
+  },
+  "uiParams": {
+    "preview": {
+      "uiParams": {
+        "current": "User Logged #2",
+        "currentIndex": 2,
+        "sets": [
+          {
+            "title": "Anonymous",
+            "params": {
+              "contentId": {
+                "value": "F010791601000102",
+                "active": true
+              },
+              "userId": {
+                "value": "1f51d5e9f09e4d349fa3af349e1cdac4",
+                "active": false
+              },
+              "deviceId": {
+                "value": "ARES-CC",
+                "active": true
+              }
+            }
+          },
+          {
+            "title": "User Logged #1",
+            "params": {
+              "contentId": {
+                "value": "F010791601000102",
+                "active": true
+              },
+              "userId": {
+                "value": "1f51d5e9f09e4d349fa3af349e1cdac4",
+                "active": true
+              },
+              "deviceId": {
+                "value": "ARES-CC",
+                "active": true
+              }
+            }
+          },
+          {
+            "title": "User Logged #2",
+            "params": {
+              "contentId": {
+                "value": "F010791601000102",
+                "active": false
+              },
+              "userId": {
+                "value": "INF_6585366:2702976343/b989c6a0-34a1-4a1e-8558-c6e191adff91/ecb5057b-e24e-4281-870c-6573eeff3e7f",
+                "active": true
+              },
+              "deviceId": {
+                "value": "ARES-CC",
+                "active": true
+              }
+            }
+          }
+        ]
+      },
+      "currentParams": {
+        "userId": "INF_6585366:2702976343/b989c6a0-34a1-4a1e-8558-c6e191adff91/ecb5057b-e24e-4281-870c-6573eeff3e7f",
+        "deviceId": "ARES-CC"
+      }
+    }
+  },
+  "fullSubstituteFallback": true
+}
